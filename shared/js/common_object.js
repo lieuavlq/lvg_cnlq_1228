@@ -77,7 +77,8 @@ var common_object = {
         {"id": "richter", "id_page": "Richter", "name": "Richter", "position": "warrior assassin",},
         {"id": "wiro", "id_page": "Wiro", "name": "Wiro", "position": "tank warrior",},
         {"id": "quillen", "id_page": "Quillen", "name": "Quillen", "position": "assassin",},
-        {"id": "sephera", "id_page": "Sephera", "name": "Sephera", "position": "mage support new",},
+        {"id": "sephera", "id_page": "Sephera", "name": "Sephera", "position": "mage support",},
+        {"id": "florentino", "id_page": "Florentino", "name": "Florentino", "position": "warrior assassin new",},
     ],
     "all_item": [
         {"id": "AoChoangBangGia", "name": "Áo choàng băng giá", "info": "Giá: 1970<br>+10% Giảm hồi chiêu<br>+200 Giáp<br>+800 Máu<br>Sức mạnh nguyên tố: Sau khi tung chiêu sẽ khiến đòn đánh kế gây thêm 150 sát thương vật lý (mỗi cấp tăng thêm 20) kèm 30% làm chậm , 3s hồi."},
@@ -100,7 +101,6 @@ var common_object = {
         {"id": "GuomTanThe", "name": "Gươm tận thế", "info": "Giá: 2190<br>+200 Công phép<br>+10% Giảm hồi chiêu<br>Sức mạnh nguyên tố: Sau khi tung chiêu, đòn đánh kế tiếp gây thêm 30% Công vật lý (+80% Công phép cộng thêm) sát thương phép, 2 giây hồi chiêu."},
         {"id": "HerculeThinhNo", "name": "Hercule thịnh nộ", "info": "Giá: 2000<br>+180 Giáp<br>+150 Giáp phép<br>+50 Công vật lý<br>Cuồng Nộ: Khi máu của tướng xuống dưới 40%, tăng 40 công vật lý và tạo ra một lớp lá chắn trong 8 giây; 90 giây hồi chiêu."},
         {"id": "HuanChuongTroy", "name": "Huân chương Troy", "info": "Giá: 2320<br>+360 Giáp phép<br>+1000 máu<br>+10% giảm hồi chiêu<br>Hộ thân: Mỗi 18 giây nhận được một lớp bảo hộ giúp hấp thụ (300 + Cấp tướng * 60) sát thương phép."},
-        {"id": "KhienAsterion", "name": "Khiên Asterion", "info": "Giá: 1600<br>+ 1000 Máu tối đa<br>+ 60 Hồi máu/5s<br>Tăng 5% sát thương và 10% miễn thương cho đồng đội xung quanh."},
         {"id": "KhienHuyenThoai", "name": "Khiên huyền thoại", "info": "Giá: 2180<br>+360 Giáp<br>+400 năng lượng<br>+20% giảm hồi chiêu<br>Lính gác: Nếu tướng chịu sát thương, giảm 30% Tốc đánh và 15% Tốc chạycủa những đối thủ đã ra đòn đánh."},
         {"id": "KhienThatTruyen", "name": "Khiên thất truyền", "info": "Giá: 2100<br>+360 Giáp<br>+1200 máu<br>Trói Buộc Tinh Thần: Giảm tốc đánh của kẻ địch lân cận đi 30%."},
         {"id": "KiemFafnir", "name": "Kiếm Fafnir", "info": "Giá: 2040<br>+60 Công vật lý<br>+30% tốc đánh<br>+10% Hút máu<br>Hơi thở rồng: Đòn đánh thường gây thêm sát thương vật lý tương đương 8% lượng máu hiện tại của mục tiêu."},
@@ -139,6 +139,7 @@ var common_object = {
         {"id": "NhanPhongThan", "name": "Nhẫn phong thần", "info": "Giá: 1850<br>+90 Công phép<br>+15% Giảm hồi chiêu<br>+5% Tốc chạy<br>+30 Hồi năng lượng<br>[Quân lương] Chủ thể được nhận 5 vàng hoặc kinh nghiệm mỗi 3 giây khi sở hữu mức vàng hoặc kinh nghiệm thấp nhất đội - Nội tại duy nhất<br>[Công huân] Hạ hoặc phụ hạ gục giúp nhận thêm 30% vàng và kinh nghiệm - Nội tại duy nhất<br>[Phong nhãn] Lập tức làm lộ diện tướng địch gần nhất trong 4 giây; 30 giây hồi chiêu - Kích hoạt duy nhất"},
         {"id": "LenhBaiPhongThan", "name": "Lệnh bài phong thần", "info": "Giá: 1850<br>+250 Giáp<br>+600 Máu<br>+5% Tốc chạy<br>+40 Hồi máu<br>+15 Hồi năng lượng<br>[Quân lương] - Chủ thể được nhận 5 vàng hoặc kinh nghiệm mỗi 3 giây khi sở hữu mức vàng hoặc kinh nghiệm thấp nhất đội - Nội tại duy nhất<br>[Công huân]: Hạ hoặc phụ hạ gục giúp nhận thêm 30% vàng và kinh nghiệm - Nội tại duy nhất<br>[Phong thuẫn] Tạo lá chắn cho bản thân hoặc tướng đồng minh lân cận thấp máu nhất giúp chặn (800 + cấp tướng *80) sát thương, đồng thời giúp tăng 30% tốc chạy cho mục tiêu trong 3 giây; 45 giây hồi chiêu - Kích hoạt duy nhất"},
         {"id": "HuanChuongHaiThan", "name": "Huân chương hải thần", "info": "Giá: 1850<br>+200 Giáp<br>+600 Máu<br>[Đồng chí] Mỗi 30 giây tích lũy một điểm cộng dồn Đồng chí lên đến tối đa 2. Trong vòng 8 mét xung quanh có lính bị tiêu diệt sẽ tự hao tổn một điểm Đồng chí giúp một tướng đồng minh lân cận nhận 15 vàng và 40 điểm kinh nghiệm - Nội tại duy nhất<br>[Quang minh] Giúp bản thân và đồng đội xung quanh (phạm vi 600) hưởng hào quang tăng 20 Hồi máu (+1 mỗi cấp tướng) - Nội tại Duy nhất<br>[Hải thần] Tăng 5% sát thương gây ra và 10% miễn thương của đồng đội xung quanh - Nội tại duy nhất"},
+        {"id": "GiapHiepSi", "name": "Giáp hiệp sĩ", "info": "Giá: 730<br>+ 210 Giáp<br>Lính gác: Nếu tướng chịu sát thương, giảm 30% tốc đánh của những đối thủ đã ra đòn đánh - Nội tại duy nhất"},
     ],
     "all_spell": [
         {"id": "TocHanh", "name": "Tốc hành", "info": "100 giây hồi chiêu: Kích hoạt sẽ xoá toàn bộ hiệu ứng làm chậm, đạt được hiệu ứng tăng tốc 70% (giảm dần về 30% sau 1 giây) và sau đó duy trì 30% tốc chạy trong 9 giây."},

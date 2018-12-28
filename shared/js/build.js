@@ -216,7 +216,7 @@ var infoHeros = {
 			}
 		],
 		"skill_note": "*Đừng lo sợ khi lượng máu thấp hơn 30% nó sẽ tự động hồi lại.<br>*Combo tốt tạo hiệu ứng đẩy lùi và hất tung khá bá đạo.<br>*Chiêu cuối dùng với khoảng cách khá xa vì thế đừng lo địch bỏ chạy!!",
-		"skill_special": "TocBien,BocPha",
+		"skill_special": "CapCuu,TocBien,BocPha",
 		"main_rune": {
 			"rune2": [
 				{
@@ -249,16 +249,16 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Đường trên hoặc dưới",
-				"info": "GiapGaia,GiayHoVe,KhienHuyenThoai,KhienAsterion,KhienThatTruyen,RiuHyoga",
+				"name": "Chơi hỗ trợ",
+				"info": "LenhBaiPhongThan,GiayKienCuong,AoChoangThanRa,GiapGaia,KhienThatTruyen,GiapThongKho",
 			},
 			{
-				"name": "Đường trên hoặc dưới",
-				"info": "GiapThongKho,GiayKienCuong,HerculeThinhNo,GiapHoMenh,GiapGaia,RiuHyoga",
+				"name": "Chơi hỗ trợ",
+				"info": "GiayKienCuong,LenhBaiPhongThan,AoChoangBangGia,GiapGaia,NanhFenrir,KhienHuyenThoai",
 			},
 			{
-				"name": "Game thủ hay lên",
-				"info": "GiayKienCuong,KhienHuyenThoai,GiapGaia,KhienAsterion,GiapThongKho,HuanChuongTroy"
+				"name": "Đường Caesar",
+				"info": "GiayKienCuong,AoChoangThanRa,KhienHuyenThoai,GiapGaia,GiapThongKho,KhienThatTruyen"
 			}
 		],
 		"hero_battle": [
@@ -2358,6 +2358,16 @@ var infoHeros = {
 				"img": "thumb6.jpg",
 				"video": "Butterfly06",
 			},
+			{
+				"name": "Đông Êm Đềm",
+				"gold": "",
+				"voucher": "",
+				"event": "Mở sự kiện",
+				"wall": "Butterfly07",
+				"disable": "yes",
+				"img": "thumb7.jpg",
+				"video": "Butterfly07",
+			},
 		]
 	},
 	"ormarr": {
@@ -2404,7 +2414,7 @@ var infoHeros = {
 			}
 		],
 		"skill_note": "*Bật Bão Búa quay tay khá vui nhưng lượng sát thương không hề ít nhé.<br>*Chiêu 2 nện búa xuống đất khá rộng vì thế tìm vị trí tốt có thể trúng nhiều địch càng tốt.",
-		"skill_special": "BocPha,CapCuu",
+		"skill_special": "CapCuu,BocPha",
 		"main_rune": {
 			"rune2": [
 				{
@@ -2437,16 +2447,16 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Đường trên hoặc dưới",
-				"info": "GiayKienCuong,KhienHuyenThoai,AoChoangBangGia,GiapGaia,KhienAsterion,KhienThatTruyen",
+				"name": "Chơi hỗ trợ",
+				"info": "LenhBaiPhongThan,GiayKienCuong,KhienThatTruyen,AoChoangBangGia,GiapGaia,HerculeThinhNo",
 			},
 			{
-				"name": "Đường trên hoặc dưới",
-				"info": "AoChoangThanRa,GiayHoVe,AoChoangBangGia,GiapCuongNo,GiapGaia,RiuHyoga",
+				"name": "Chơi hỗ trợ",
+				"info": "LenhBaiPhongThan,GiayKienCuong,GiapHiepSi,HuanChuongTroy,GiapThongKho,GiapHoMenh",
 			},
 			{
-				"name": "Game thủ hay lên",
-				"info": "GiayKienCuong,KhienHuyenThoai,GiapGaia,KhienAsterion,HuanChuongTroy,GiapHoMenh",
+				"name": "Đường Caesar",
+				"info": "AoChoangThanRa,GiayKienCuong,RiuHyoga,ThuongLonginus,HuanChuongTroy,PhucHopKiem",
 			},
 		],
 		"hero_battle": [
@@ -2700,7 +2710,7 @@ var infoHeros = {
 			}
 		],
 		"skill_note": "*Nên kết hợp với xạ thủ và sát thủ để có hiệu quả tốt nhất.<br>*Bật Dòng Chảy Thời Không trong lúc combat khiến các đối thủ phải dè chừng.",
-		"skill_special": "TocBien,CapCuu,CamTru",
+		"skill_special": "CapCuu,TocBien",
 		"main_rune": {
 			"rune2": [
 				{
@@ -2733,16 +2743,16 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Hỗ trợ giữa các đường",
-				"info": "PhuongHoangLe,GiayHermes,TruongBang,KhienAsterion,AoChoangBangGia,KhienHuyenThoai",
+				"name": "Chơi hỗ trợ",
+				"info": "GiayThuatSi,LenhBaiPhongThan,TruongBang,KhienHuyenThoai,PhuChuTruongSinh,HuanChuongTroy",
 			},
 			{
-				"name": "Hỗ trợ giữa các đường",
-				"info": "NgocDaiPhapSu,GiayHoVe,TruongBang,DaiKhangPhep,KhienHuyenThoai,KhienAsterion",
+				"name": "Chơi hỗ trợ",
+				"info": "LenhBaiPhongThan,GiayKienCuong,TruongBang,KhienHuyenThoai,SachTruyHon,HuanChuongTroy",
 			},
 			{
-				"name": "Game thủ hay lên",
-				"info": "GiayHoVe,KhienHuyenThoai,TruongBang,GiapGaia,KhienAsterion,GiapHoMenh",
+				"name": "Chơi đường giữa",
+				"info": "TruongBang,GiayKienCuong,AoChoangBangGia,KhienHuyenThoai,MatNaBerith,SachThanh",
 			},
 		],
 		"hero_battle": [
@@ -3144,7 +3154,7 @@ var infoHeros = {
 			}
 		],
 		"skill_note": "*Dư chấn sẽ giúp bạn loại bỏ các hiệu ứng bất lợi.",
-		"skill_special": "CapCuu,TocBien",
+		"skill_special": "CapCuu,BocPha",
 		"main_rune": {
 			"rune2": [
 				{
@@ -3177,8 +3187,8 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Chơi trợ thủ",
-				"info": "GiayHermes,KhienAsterion,KhienHuyenThoai,GiapGaia,KhienThatTruyen,PhuChuTruongSinh",
+				"name": "Chơi hỗ trợ",
+				"info": "LenhBaiPhongThan,GiayKienCuong,KhienHuyenThoai,GiapGaia,GiapThongKho,GiapHoMenh",
 			},
 			{
 				"name": "Đường đơn",
@@ -3186,7 +3196,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Game thủ hay lên",
-				"info": "LenhBaiPhongThan,GiayKienCuong,KhienHuyenThoai,GiapGaia,GiapThongKho,GiapHoMenh",
+				"info": "LenhBaiPhongThan,GiayHoVe,AoChoangThanRa,GiapGaia,KhienHuyenThoai,GiapThongKho",
 			},
 		],
 		"hero_battle": [
@@ -3442,7 +3452,7 @@ var infoHeros = {
 			}
 		],
 		"skill_note": "*Có thể dùng Bồi thẩm đoàn hoặc Gươm hành quyết để tiếp cận mục tiêu.",
-		"skill_special": "TrungTri,BocPha,ThanhTay",
+		"skill_special": "TrungTri",
 		"main_rune": {
 			"rune2": [
 				{
@@ -3476,15 +3486,15 @@ var infoHeros = {
 		"item_build": [
 			{
 				"name": "Đi rừng",
-				"info": "RiuLeviathan,GiayKienCuong,ThuongLonginus,PhucHopKiem,KhienThatTruyen,HuanChuongTroy",
+				"info": "KiemTruyHon,GiayKienCuong,ThuongXuyenPha,PhucHopKiem,AoChoangThanRa,GiapHoMenh",
 			},
 			{
 				"name": "Đi rừng",
-				"info": "KiemTruyHon,GiayKienCuong,ThuongLonginus,AoChoangBangGia,ThuongXuyenPha,KiemFafnir",
+				"info": "KiemTruyHon,GiayHoVe,AoChoangThanRa,ThuongXuyenPha,PhucHopKiem,GiapHoMenh",
 			},
 			{
-				"name": "Game thủ hay lên",
-				"info": "KiemTruyHon,GiayHoVe,ThuongLonginus,KiemFafnir,PhucHopKiem,LiemDoatMenh",
+				"name": "Đi rừng",
+				"info": "RiuLeviathan,GiayKienCuong,ThuongXuyenPha,PhucHopKiem,AoChoangThanRa,GiapHoMenh",
 			},
 		],
 		"hero_battle": [
@@ -4053,7 +4063,7 @@ var infoHeros = {
 			}
 		],
 		"skill_note": "*Cố gắng hất tung nhiều kẻ địch nhất có thể.",
-		"skill_special": "TocBien,CapCuu,BocPha",
+		"skill_special": "CapCuu,BocPha",
 		"main_rune": {
 			"rune2": [
 				{
@@ -4086,16 +4096,16 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Đường trên hoặc dưới",
-				"info": "GiayKienCuong,KhienHuyenThoai,GiapGaia,AoChoangBangGia,KhienAsterion,GiapThongKho",
+				"name": "Chơi hỗ trợ",
+				"info": "LenhBaiPhongThan,GiayKienCuong,KhienHuyenThoai,HuanChuongTroy,HerculeThinhNo,KhienThatTruyen",
 			},
 			{
-				"name": "Đường trên hoặc dưới",
-				"info": "AoChoangThanRa,GiayHoVe,KhienAsterion,KhienThatTruyen,HuanChuongTroy,GiapGaia",
+				"name": "Chơi hỗ trợ",
+				"info": "LenhBaiPhongThan,GiayHoVe,GiapGaia,KhienHuyenThoai,AoChoangBangGia,PhuChuTruongSinh",
 			},
 			{
-				"name": "Game thủ hay lên",
-				"info": "GiapCuongNo,GiayHermes,RiuHyoga,KhienHuyenThoai,HerculeThinhNo,HuanChuongTroy",
+				"name": "Đường Caesar",
+				"info": "AoChoangThanRa,GiayHoVe,KhienHuyenThoai,GiapGaia,HuanChuongTroy,GiapHoMenh",
 			},
 		],
 		"hero_battle": [
@@ -4637,7 +4647,7 @@ var infoHeros = {
 			}
 		],
 		"skill_note": "*Tận dụng vị trí đồng đội và vị trí đối phương để ra đòn chuẩn sát.",
-		"skill_special": "ThanhTay,TocBien",
+		"skill_special": "CapCuu,TocBien",
 		"main_rune": {
 			"rune2": [
 				{
@@ -4670,15 +4680,15 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Hỗ trợ các đường",
-				"info": "PhuongHoangLe,GiayHoVe,TruongBang,KhienHuyenThoai,HuanChuongTroy,KhienAsterion",
+				"name": "Chơi hỗ trợ",
+				"info": "LenhBaiPhongThan,GiayHoVe,GiapGaia,KhienHuyenThoai,GiapThongKho,HuanChuongTroy",
 			},
 			{
-				"name": "Đường giữa hoặc hỗ trợ các đường",
-				"info": "NgocDaiPhapSu,GiayThuatSi,DayChuyenLucBao,TruongBungNo,VuongMiengHecate,SachThanh",
+				"name": "Chơi hỗ trợ",
+				"info": "LenhBaiPhongThan,GiayKienCuong,KhienHuyenThoai,TruongBang,HuanChuongTroy,PhuChuTruongSinh",
 			},
 			{
-				"name": "Game thủ hay lên",
+				"name": "Đường giữa",
 				"info": "NgocDaiPhapSu,GiayHoVe,DayChuyenLucBao,AoChoangBangGia,VuongMiengHecate,SachThanh",
 			},
 		],
@@ -5972,7 +5982,7 @@ var infoHeros = {
 			}
 		],
 		"skill_note": "*Với bộ chiêu thức ám sát từ khoảng cách xa, hãy tận dụng và dứt điểm kẻ địch nhanh nhất có thể.",
-		"skill_special": "BocPha,CapCuu",
+		"skill_special": "TocBien,BocPha",
 		"main_rune": {
 			"rune2": [
 				{
@@ -6600,12 +6610,20 @@ var infoHeros = {
 		"skill_combo": [
 			{
 				"name": "*Combo đầu game",
-				"info": "2,3,0",
+				"info": "2,0,2,0,3,0",
+			},
+			{
+				"name": "*Hoặc như này",
+				"info": "2,0,3,0,2,0",
 			},
 			{
 				"name": "*Combo khi có đủ 3 kỹ năng",
-				"info": "2,3,4,2,0",
-			}
+				"info": "4,2,0,2,0,3,0",
+			},
+			{
+				"name": "*Hoặc như này",
+				"info": "2,0,2,0,4,0,3,0",
+			},
 		],
 		"skill_note": "*Nhanh chóng tạo lợi thế bằng việc đi gank các đường đang đẩy cao.",
 		"skill_special": "BocPha,TrungTri",
@@ -6641,20 +6659,16 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Đi đường trên hoặc dưới",
-				"info": "ThuongLonginus,GiayHermes,AoChoangBangGia,ThuongXuyenPha,HuanChuongTroy,GiapThongKho",
+				"name": "Đường Caesar (mang Trừng trị)",
+				"info": "KiemTruyHon,GiayKienCuong,ThuongXuyenPha,PhucHopKiem,NanhFenrir,KhienThatTruyen",
 			},
 			{
-				"name": "Đi đường trên dưới full nửa ST nửa thủ",
-				"info": "ThuongXuyenPha,GiayHermes,ThuongLonginus,AoChoangBangGia,GiapThongKho,HuanChuongTroy",
+				"name": "Đường Caesar (mang Bộc phá)",
+				"info": "AoChoangThanRa,GiayKienCuong,ThuongXuyenPha,PhucHopKiem,NanhFenrir,GiapHoMenh",
 			},
 			{
-				"name": "Đi rừng",
-				"info": "KiemTruyHon,GiayHermes,ThuongXuyenPha,AoChoangBangGia,HuanChuongTroy,PhucHopKiem",
-			},
-			{
-				"name": "Game thủ hay lên",
-				"info": "ThuongLonginus,GiayKienCuong,ThuongXuyenPha,PhucHopKiem,KhienThatTruyen,GiapHoMenh",
+				"name": "Đương Caesar (mang Bộc phá)",
+				"info": "ThuongXuyenPha,GiayKienCuong,PhucHopKiem,KhienThatTruyen,KiemMuramasa,HuanChuongTroy",
 			},
 		],
 		"hero_battle": [
@@ -8279,16 +8293,16 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Đường trên hoặc dưới",
-				"info": "AoChoangBangGia,GiayHoVe,GiapThongKho,HuanChuongTroy,KhienAsterion,KhienThatTruyen",
-			},
-			{
-				"name": "Đường trên hoặc dưới",
-				"info": "RiuLeviathan,GiayHoVe,AoChoangBangGia,HuanChuongTroy,KhienThatTruyen,GiapThongKho",
-			},
-			{
-				"name": "Game thủ hay lên",
+				"name": "Đường Caesar",
 				"info": "RiuLeviathan,GiayKienCuong,AoChoangBangGia,HuanChuongTroy,KhienThatTruyen,GiapHoMenh",
+			},
+			{
+				"name": "Đường Caesar",
+				"info": "RiuLeviathan,GiayHoVe,AoChoangBangGia,GiapGaia,GiapThongKho,KhienThatTruyen",
+			},
+			{
+				"name": "Chơi hỗ trợ",
+				"info": "LenhBaiPhongThan,GiayKienCuong,GiapThongKho,HuanChuongTroy,AoChoangBangGia,GiapHoMenh",
 			},
 		],
 		"hero_battle": [
@@ -8698,16 +8712,16 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Đường trên dưới hoặc hỗ trợ các đường",
-				"info": "NgocDaiPhapSu,GiayHermes,VuongMiengHecate,KhienHuyenThoai,GiapHoMenh,SachThanh",
+				"name": "Chơi hỗ trợ",
+				"info": "LenhBaiPhongThan,GiayHermes,KhienHuyenThoai,GiapGaia,KhienThatTruyen,GiapHoMenh",
 			},
 			{
-				"name": "Đường trên dưới hoặc hỗ trợ các đường",
-				"info": "KhienHuyenThoai,GiayHermes,KhienAsterion,HuanChuongTroy,AoChoangBangGia,GiapHoMenh",
+				"name": "Chơi hỗ trợ",
+				"info": "NgocDaiPhapSu,GiayHermes,VuongMiengHecate,KhienHuyenThoai,HuanChuongTroy,SachThanh",
 			},
 			{
-				"name": "Game thủ hay lên",
-				"info": "GiayKienCuong,KhienHuyenThoai,KhienAsterion,GiapGaia,KhienThatTruyen,GiapHoMenh",
+				"name": "Chơi hỗ trợ",
+				"info": "GiayKienCuong,PhuongHoangLe,LenhBaiPhongThan,KhienHuyenThoai,HuanChuongTroy,KhienThatTruyen",
 			},
 		],
 		"hero_battle": [
@@ -9211,6 +9225,16 @@ var infoHeros = {
 				"disable": "yes",
 				"img": "thumb4.jpg",
 				"video": "Tulen04",
+			},
+			{
+				"name": "Đông Êm Đềm",
+				"gold": "",
+				"voucher": "",
+				"event": "Mở sự kiện",
+				"wall": "Tulen05",
+				"disable": "yes",
+				"img": "thumb5.jpg",
+				"video": "Tulen05",
 			},
 		]
 	},
@@ -10538,7 +10562,7 @@ var infoHeros = {
 			},
 		],
 		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Là một cô nàng chơi hỗ trợ hoặc kiêm luôn cả pháp sư đường giữa luôn đó, sát thương to lắm, đừng đùa.<br>- Mặc dầu thế đừng đứng cao quá, chơi xung quanh AD và cấu rỉa đối thủ bằng Gió xoáy.<br>- Khi tung Gió nồm đặc biệt chú ý, nó sẽ mắc xích và khóa 2 mục tiêu trúng phải khi có trạng thái này thì đánh thui kk.<br>- Chú ý tối đa hóa xác thương với combo Gió nồm trúng 2 mục tiêu sau đó Gió xoáy.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game nên chú ý kiểm tra bụi và đi gank hỗ trợ các lane và chú ý cấu rỉa máu, đừng đứng cao quá dễ bốc hơi lắm :P<br>- Chiêu cuối Mắt bão là chiêu thức cực kì lạ và khó có thể sử dụng thành thục, vì thế các bạn nên tập luyện chiu này nhé, thành bại tại cái điện thoại mà haha!!<br>- Mắt bão rất đa dụng có thể tách đội hình đối phương ra nhiều mãng, hoặc ngăn chặn các pha dồn combo. đặc biệt xem xạ thủ, pháp sư đối phương ở đâu lùa về.",
-		"skill_special": "TocBien,CapCuu",
+		"skill_special": "CapCuu,TocBien",
 		"main_rune": {
 			"rune2": [
 				{
@@ -10571,16 +10595,12 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Dành cho đường đơn hoặc lên sát thương phép",
-				"info": "NgocDaiPhapSu,GiayKienCuong,TruongBang,KhienHuyenThoai,MatNaBerith,GiapHoMenh",
+				"name": "Chơi hỗ trợ",
+				"info": "LenhBaiPhongThan,GiayKienCuong,TruongBang,KhienHuyenThoai,MatNaBerith,SachTruyHon",
 			},
 			{
-				"name": "Chơi vị trí hỗ trợ",
-				"info": "LenhBaiPhongThan,GiayKienCuong,TruongBang,KhienHuyenThoai,HuanChuongTroy,MatNaBerith",
-			},
-			{
-				"name": "Vị trí trợ thủ bộ này",
-				"info": "KhienHuyenThoai,GiayKienCuong,KhienAsterion,TruongBang,HuanChuongTroy,SachThanh",
+				"name": "Chơi hỗ trợ",
+				"info": "LenhBaiPhongThan,GiayKienCuong,TruongBang,KhienHuyenThoai,HuanChuongTroy,SachTruyHon",
 			},
 		],
 		"hero_battle": [
@@ -11461,8 +11481,8 @@ var infoHeros = {
 		"hero_name": "Sephera",
 		"main_info": {
 			"price_gold": "??",
-			"price_voucher": "<s>359</s> -> 250",
-			"price_text": "Combo tướng và trang phục 379 QH thay vì <s>578 QH</s>, từ ngày 15/12 đến ngày 21/12/2018",
+			"price_voucher": "359",
+			"price_text": "",
 			"position": "Pháp sư / Trợ thủ",
 			"special": "Yểm hộ / Cấu rỉa",
 		},
@@ -11578,7 +11598,7 @@ var infoHeros = {
 			{
 				"name": "Thiên Mệnh Thủy Sư",
 				"gold": "??",
-				"voucher": "<s>359</s> -> 250",
+				"voucher": "359",
 				"event": "",
 				"wall": "Sephera01",
 				"disable": "yes",
@@ -11591,6 +11611,146 @@ var infoHeros = {
 				"voucher": "219",
 				"event": "",
 				"wall": "Sephera02",
+				"disable": "yes",
+				"img": "thumb2.jpg",
+				"video": "",
+			},
+		]
+	},
+	"florentino": {
+		"hero_id": "Florentino",
+		"hero_name": "Florentino",
+		"main_info": {
+			"price_gold": "??",
+			"price_voucher": "<s>539</s> -> 379",
+			"price_text": "Combo tướng và trang phục có giá 493 quân huy (<s>758 quân huy</s>), từ 28/12/2018 đến ngày 03/01/2019",
+			"position": "Đấu sĩ / Sát thủ",
+			"special": "Trung phong / Ám sát",
+		},
+		"main_skill": [
+			{
+				"name": "XUẤT CHÚNG",
+				"info": "Hồi chiêu: 5 giây<br>Đột kích: Florentino khi rời giao tranh sẽ khiến đòn đánh thường kế tiếp lướt tới kẻ địch, gây thêm 80 + (8 mỗi cấp) (+ 1.25 công vật lý cộng thêm) sát thương vật lý, đồng thời làm chậm tốc chạy kẻ địch 70% trong 0.5 giây. Đòn đánh thường tiếp theo đó sẽ được tăng 20% sát thương. Đột kích trúng tướng địch giúp Florentino hồi 85 + (7 mỗi cấp) (+ 1.0 công vật lý cộng thêm) máu.<br>Kiếm bộ: Sau khi tung Đột kích, Florentino sẽ lướt một đoạn ngắn, miễn nhiễm mọi hiệu ứng khống chế. Lướt xong Florentino được tăng 50% tốc chạy trong 0.5 giây.",
+			},
+			{
+				"name": "HÀO HOA",
+				"info": "Hồi chiêu: 10/9.6/9.2/8.8/8.4/8 giây<br>Tiêu hao: 20 nội năng<br>Florentino phóng hoa vào kẻ địch, gây 280/320/360400/440/480 (+ 1.2 công vật lý cộng thêm) sát thương vật lý, làm choáng địch trong 0.75 giây.<br>Dùng trúng địch sẽ tạo ra ba đoá hoa trong 5 giây. Nhặt hoa sẽ giúp Florentino hồi 100 nội năng, đồng thời khiến đòn đánh kế tiếp Đột kích và hoàn lại hồi chiêu của Thưởng hoa."
+			},
+			{
+				"name": "THƯỞNG HOA",
+				"info": "Hồi chiêu: 4 giây<br>Tiêu hao: 100 nội năng<br>Florentino tung ba nhát kiếm xảo diệu lên kẻ địch, mỗi lần gây thêm sát thương chuẩn bằng 4% + (0.01 công vật lý cộng thêm) máu tối đa kẻ địch. Khi kết thúc chiêu có thể tung Kiếm bộ, nếu trúng tướng địch sẽ giảm 1 giây hồi chiêu Hào hoa.<br>Thưởng hoa: gây 300/380/460/540/620/700 STVL<br>Hộ hoa: gây 300/380/460/540/620/700 STVL và hất tung 0.75 giây<br>Khai hoa: tung kiếm hai lần gây 250/300/350/400/450/500 STVL mỗi kiếm.",
+			},
+			{
+				"name": "TÀI HOA",
+				"info": "Hồi chiêu: 35/30/25 giây<br>Tiêu hao: 0 nội năng<br>Florentino lướt đến phía trước, Quyết đấu với tướng đầu tiên trúng chiêu. Trong 5 giây kế tiếp, Florentino gây thêm 20% sát thương lên mục tiêu, đồng thời giảm giáp kẻ đó 15/20/25%.<br>Suốt thời gian này, Florentino miễn nhiễm mọi khống chế và miễn 50% sát thương từ những kẻ địch không bị Quyết đấu.<br>Nếu hạ gục mục tiêu, Florentino nhận 20 công vật lý vĩnh viễn, cộng dồn 10 lần.",
+			}
+		],
+		"skill_up": {
+			"line1": "1,3,5,7,9,11",
+			"line2": "2,6,10,13,14,15",
+			"line3": "4,8,12",
+		},
+		"skill_combo": [
+			{
+				"name": "*Combo đầu game: kết hợp nhặt hoa",
+				"info": "2,0,3,0,3,0,3,0",
+			},
+			{
+				"name": "*Combo khi có đủ 3 kỹ năng: kết hợp nhặt hoa",
+				"info": "4,2,0,3,0,3,0,3,0",
+			},
+		],
+		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Florentino với bộ kỹ năng mới lạ và khá cơ động phù hợp vị trí Đường Caesar hoặc đi Rừng, hãy mang phép bổ trợ phù hợp nhé!!<br>- Khả năng tay đôi là khá mạnh kết hợp với sát thương cao và hồi phục từ Nội tại.<br>- Anh em mới chơi để ý combo đầu game như sau: dùng chiêu Hào hoa trúng mục tiêu sẽ tạo ra 3 bông hoa trên mặt đất > đánh thường lướt tới > chiêu 2 > nhặt hoa, đánh thường > chiêu 2 > nhặt hoa, đánh thường > chiêu 2 > nhặt hoa, đánh thường.<br>- Combo khá khó đồi hỏi các bạn phải tập luyện nhiều vào mới có thể mang vào đánh rank được!!<br>- Chiêu thức có thể vượt địa hình vì thế mọi người cố gắng tập luyện để khả năng lã lướt nó uyển chuyển hơn!!.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game khả năng ám sát mục tiêu khá mạnh vì thế hãy đi gank các đường khác hoặc cố gắng đẩy cao lính ở 2 bên đường, nhanh chóng đi cùng đồng đội combat hoặc ăn mục tiêu lớn.<br>- Chiêu cuối khá bá đạo đặc biệt trong đấu tay đôi, hãy chọn mục tiêu và dùng chiêu cuối, hạ gục mục tiêu đang chọn sẽ nhận công vật lý vĩnh viễn (cộng dồn đến 10 lần), ngoài ra còn miễn nhiễm mọi khống chế nửa bá quá!!<br>- Ra vào combat thích hợp để tối ưu hóa sát thương, cố gắng giữ mạng và rút lui khi cảm thấy không ổn.",
+		"skill_special": "BocPha,TrungTri",
+		"main_rune": {
+			"rune2": [
+				{
+					"name": "NgocDo25",
+					"info": "Công vật lý +1.5<br>Máu tối đa +13.5",
+				},
+				{
+					"name": "NgocTim28",
+					"info": "Máu tối đa +13.5<br>Tốc chạy +0.7%",
+				},
+				{
+					"name": "NgocXanh23",
+					"info": "Máu tối đa +13.5<br>Xuyên giáp +3.8",
+				}
+			],
+			"rune3": [
+				{
+					"name": "NgocDo36",
+					"info": "Công vật lý +2<br>Xuyên giáp +3.6",
+				},
+				{
+					"name": "NgocTim31",
+					"info": "Công vật lý +1.6<br>Tốc chạy +1%",
+				},
+				{
+					"name": "NgocXanh31",
+					"info": "Công vật lý +0.9<br>Xuyên giáp +6.4",
+				}
+			],
+		},
+		"item_build": [
+			{
+				"name": "Đường Caesar",
+				"info": "ThuongLonginus,GiayThuatSi,PhucHopKiem,KiemFafnir,NanhFenrir,GiapHoMenh",
+			},
+			{
+				"name": "Đường Caesar",
+				"info": "AoChoangThanRa,GiayThuatSi,PhucHopKiem,NanhFenrir,HerculeThinhNo,GiapHoMenh",
+			},
+			{
+				"name": "Đi rừng",
+				"info": "KiemTruyHon,GiayThuatSi,AoChoangBangGia,ThanhKiem,SongDaoBaoTap,GiapHoMenh",
+			},
+		],
+		"hero_battle": [
+			{
+				"name": "và đồng bọn",
+				"desc": "sở hữu bộ kỹ năng khá cơ động, đặt biệt càng mạnh khi cô lập được mục tiêu, dưới đây là một trong số tướng có thể giúp tối ưu hóa sát thương của anh ta,..",
+				"info": [
+					{"hero_id": "alice", "id_page": "Alice"},
+					{"hero_id": "annette", "id_page": "Annette"},
+					{"hero_id": "chaugnar", "id_page": "Chaugnar"},
+					{"hero_id": "ybneth", "id_page": "Ybneth"},
+					{"hero_id": "maloch", "id_page": "Maloch"},
+				]
+			},
+			{
+				"name": "và cách khắc chế",
+				"desc": "khá trở ngại khi gặp các đối thủ cơ động khác, hoặc có thể cô lập anh ta, ngăn anh ta tiếp xúc với những đóa hoa nở rộ trên mặt đất,...hãy tránh xa những đóa hoa trên mặt đất.",
+				"info": [
+					{"hero_id": "quillen", "id_page": "Quillen"},
+					{"hero_id": "ngo_khong", "id_page": "NgoKhong"},
+					{"hero_id": "annette", "id_page": "Annette"},
+					{"hero_id": "alice", "id_page": "Alice"},
+					{"hero_id": "arum", "id_page": "Arum"},
+					{"hero_id": "roxie", "id_page": "Roxie"},
+					{"hero_id": "tulen", "id_page": "Tulen"},
+					{"hero_id": "liliana", "id_page": "Liliana"},
+				]
+			}
+		],
+		"hero_story": "Xinh tươi hơn các đóa hoa, chỉ có thể là những mỹ nữ!<br>Là truyền nhân trực hệ duy nhất của đại gia tộc “Ngát hương”, <i class=\"clr-orange\">Florentino</i> phong lưu phóng khoáng, vun tiền qua cửa sổ tổ chức các vũ hội xa hoa không chút nháy mắt.<br>Bất kể cư dân tòa thành, hoặc khách vãng lai, đều thường xuyên được chứng kiến tòa trang viên của <i class=\"clr-orange\">Florentino</i> bày đại tiệc chiêu đãi khách ghé thăm với hàng trăm hàng ngàn người hầu, công nhân làm thuê rải hoa tươi sớm mai suốt dọc một đường dài; vô số các đội xe thú thồ vận tải đầy những nguyên vật liệu. Chẳng lạ gì khi các tiểu thư quý tộc trẻ trung xinh xắn nô nức đua nhau ăn vận trang điểm, lòng háo hức chờ mong chàng bạch mã hoàng tử đến rước mình tham gia buổi vũ hội.<br>Kể cả bình dân không đủ tư cách tham gia vẫn có thể kiếm lợi từ đây. Sau khi vũ hội chính thức bắt đầu, các sạp hoa tươi trang trí ven đường sẽ được phân phát cho mọi người dân mang về thưởng thức hương thơm ngát suốt mấy tuần liền. Chưa hết, vật tư còn thừa cũng sẽ được vận chuyển đến các khu dân chúng để người người, nhà nhà đều có thể cùng chung vui với đầy thịt tươi, trái ngọt.<br>Đối với một tòa thành có truyền thống danh tướng lâu đời, chuyên chú võ lực thì hành vi xa hoa của <i class=\"clr-orange\">Florentino</i> khiến anh chẳng khác gì một tên trụy lạc trác táng. “Kể cả đánh xe ngựa của ta cũng thừa sức một tay quật ngã ngài <i class=\"clr-orange\">Florentino</i> tôn quý nha.” Trò đùa này là một trong những câu cửa miệng tại các bữa tiệc trà của giới quý tộc. Còn với giới bình dân, ngoại trừ một số được hưởng ân huệ của <i class=\"clr-orange\">Florentino</i> nên có cảm tình và lâu lâu ngẫu nhiên lại tán dương vài câu, còn lại đa số đều cảm thấy chướng mắt với vị thiếu gia ăn chơi lêu lổng này.<br>Miệng lưỡi thế gian chẳng khiến <i class=\"clr-orange\">Florentino</i> gợn tí sóng lòng nào. Từ nhỏ lớn lên anh đã biết mình khác biệt với đa số ngoài kia. Gia tộc huyết mạch, quyền lực, tài phú hay thậm chí là thiên phú cho anh vô vàn lựa chọn để sống cuộc đời của mình, vậy thì cớ gì phải chọn những con đường phung phí sức lực. Các lãnh chúa tổ tiên tài ba đã gây dựng nên cả cơ ngơi gia tộc là thế, nếu ta không cố gắng tiêu xài làm rạng rỡ tông đường thì thật đáng xấu hổ.<br>Dẫu chiến sự nơi tiền tuyến ngày càng căng thẳng hơn, <i class=\"clr-orange\">Florentino</i> tại hậu phương an bình vẫn ngày ngày dạ tiệc xướng ca hoan hỉ. Ấy thế mà nữ bá tước tòa thành cũng không bận tâm lắm về chuyện này. Dù sao thì hành vi của <i class=\"clr-orange\">Florentino</i> chẳng hề phạm pháp, mà thật ra việc hắn tiêu xài xa xỉ một mặt lại giúp gia tăng mậu dịch và sưu thuế của tòa thành, mặt khác lại giúp người dân có thêm công ăn việc làm, qua đó không ngừng thu hút nhân khẩu lân cận đổ xô về đây.<br>Và thế là binh đoàn của toàn thành luôn được đảm bảo hậu phương tiếp tế vững chắng, không chỉ vật tư, mà cả binh lực.<br>Thế nên nữ bá tước chưa bao giờ can thiệp vào các hành vi hoang đường của <i class=\"clr-orange\">Florentino</i>, chỉ đến khi hắn tung tiền xây dựng một chiếc tàu khổng lồ xa hoa cực đại mới buộc bà phải hành động.<br><i class=\"clr-orange\">Florentino</i> dự tính mời đầy những khách quý lên chiếc tàu ngược sông thẳng tiến về Rừng nguyên sinh, chủ yếu thỏa mãn trí tò mò về nhan sắc của các mỹ nữ tinh linh. Kế hoạch này của <i class=\"clr-orange\">Florentino</i> lập tức hấp dẫn vô số quý tộc, và mỗi con em của họ đều nhận được chiếc vé mời, thứ bỗng chốc trở thành biểu hiện của địa vị và quyền lực khôn cùng.<br>Ngay cả tiểu thơ Astrid của nữ bá tước cũng mang theo kỵ sĩ cùng đồng hành trên chiếc thuyền này. Tuy này không ưa vị thiếu gia trứ danh ăn chơi trác táng này, nhưng tiền tuyến cần một hậu phương vững chắc, và điều này thì lại phần nào phụ thuộc vào sự an nguy và tâm trạng của <i class=\"clr-orange\">Florentino</i> – hắn và gia tộc của hắn ảnh hưởng đến 80% nguồn tài chính nơi đây.<br>“Ngoan ngoãn nghe lời ta, đảm bảo ngươi sẽ được an toàn!” Đây là câu nói đầu tiên ngay khi Astrid gặp mặt <i class=\"clr-orange\">Florentino</i>, rồi cô lập tức quay đầu bỏ đi, thật không muốn phải nhìn thấy hắn thêm giây phút nào nữa. <i class=\"clr-orange\">Florentino</i> nhún vai, với nữ giới anh vẫn luôn tràn đầy kiên nhẫn và tha thứ, đặc biệt là các quý cô xinh đẹp.<br>Thuyền của <i class=\"clr-orange\">Florentino</i> xuất phát và trở về áng chừng mất 1 tháng. Dĩ nhiên chỉ bấy nhiêu thời gian không đủ để đoàn người du ngoạn được bao xa trong rừng rậm. Những kẻ hiếu kỳ cố gắng nghe ngóng tình hình, nhưng các quý tộc sau khi quay lại đều miệng kín như bưng, nói năng đặc biệt vô cùng thận trọng. Người duy nhất khác biệt chỉ có Astrid, những người biết rõ nàng lập tức nhận ra sự thay đổi khi nàng trở nên thành thục và chững chạc hơn. Chưa hết, chuyện còn ly kỳ hơn khi có tin Astrid sử dụng lễ tiết trang trọng nhất của vương quốc để thỉnh <i class=\"clr-orange\">Florentino</i> làm thầy. Ai ai cũng không khỏi cho rằng nàng đã bị <i class=\"clr-orange\">Florentino</i> mê hoặc, chỉ có cách giải thích như vậy mới có vẻ hợp lý nhất cho hành động điên cuồng này.<br>Đối mặt với làn sóng dư luận, cả hai người trong cuộc đều chẳng bận tâm giải thích. Phải đến mấy năm sau khi vương quốc phương bắc và phương nam ký kết minh ước, thì mới có một ít thông tin về chuyến đi kia được hé lộ: chuyện kể rằng nhóm du ngoạn của <i class=\"clr-orange\">Florentino</i> đã có một cuộc đụng độ nảy lửa với binh đoàn Vực hỗn mang. Trong trận chiến cam go này Astrid đã sơ hở bị một sát thủ của kẻ địch phục kích đâm trúng, và ngay khoảnh khắc sinh tử này Astrid đã được <i class=\"clr-orange\">Florentino</i> bất thình lình xuất hiện đẩy lui tên sát thủ, và sau đó phá vây thành công cứu Astrid thoát chết.<br>Du khách cả thuyền không khỏi ngớ người bàng hoàng. Chẳng ai ngờ rằng ẩn sau vẻ ngoài thiếu gia phóng đãng ăn chơi trác táng lại là một trái tim quả cảm đầy dũng mãnh. Tuy nhiên cân nhắc đến các yếu tố vương quyền nhạy cảm, người trong cuộc đều buộc phải tuân thủ luật im lặng. Chỉ riêng có Astrid là kiên quyết muốn bái sư, bất chấp tất cả. <i class=\"clr-orange\">Florentino</i> hiển nhiên chẳng muốn dính đến thứ phiền toái này, nhất là khi đối phương lại là một cô gái rực lửa cả về cá tính lẫn thân hình.<br>Thỉnh cầu từ một cô gái xinh đẹp, thật khó mà cưỡng lại được nhỉ!",
+		"hero_skin": [
+			{
+				"name": "Tay Kiếm Hào Hoa",
+				"gold": "??",
+				"voucher": "<s>539</s> -> 379",
+				"event": "",
+				"wall": "Florentino01",
+				"disable": "yes",
+				"img": "thumb1.jpg",
+				"video": "",
+			},
+			{
+				"name": "Vũ Kiếm Sư",
+				"gold": "",
+				"voucher": "219",
+				"event": "",
+				"wall": "Florentino02",
 				"disable": "yes",
 				"img": "thumb2.jpg",
 				"video": "",
