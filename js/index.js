@@ -274,8 +274,6 @@ var app = {
                 return str;
             }
 
-            $('#main').snowfall({flakeCount : 150});
-
         });
 
     }

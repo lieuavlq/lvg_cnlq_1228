@@ -8,6 +8,7 @@ var infoHeros = {
 			"price_text": "Quà cho chiến sĩ",
 			"position": "Xạ thủ",
 			"special": "Cấu rỉa",
+			"lane": "Đường rồng / Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -81,7 +82,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Đường đơn hoặc đi cùng trợ thủ",
-				"info": "GiayDuMuc,ThapTuKiem,KiemFafnir,VuongMiengHecate,QuyenTruongRhea,TruongHonMang",
+				"info": "ThapTuKiem,GiayDuMuc,TruongHonMang,GuomTanThe,VuongMiengHecate,SachThanh",
 			},
 			{
 				"name": "Game thủ hay lên",
@@ -91,7 +92,7 @@ var infoHeros = {
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "alice", "id_page": "Alice"},
 					{"hero_id": "toro", "id_page": "Toro"},
@@ -100,7 +101,7 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
 					{"hero_id": "zephys", "id_page": "Zephys"},
 					{"hero_id": "veera", "id_page": "Veera"},
@@ -181,6 +182,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đỡ đòn / Đấu sĩ",
 			"special": "Khống chế / Tiền vệ",
+			"lane": "Đường rồng / Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -264,7 +266,7 @@ var infoHeros = {
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "violet", "id_page": "Violet"},
 					{"hero_id": "butterfly", "id_page": "Butterfly"},
@@ -272,7 +274,7 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
 					{"hero_id": "jinna", "id_page": "Jinna"},
 					{"hero_id": "ormarr", "id_page": "Ormarr"},
@@ -322,11 +324,12 @@ var infoHeros = {
 			"price_text": "Có thể mua bằng Ruby",
 			"position": "Pháp sư",
 			"special": "Tiền vệ",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
 				"name": "Mê hoặc",
-				"info": "Nội tại: Chiêu thức trúng đích của Veera khiến nạn nhân bị giảm giáp phép, tối đa 3 lần cộng dồn, mỗi lần giảm 30-72 giáp phép (tăng theo cấp Anh hùng).",
+				"info": "Nội tại: Chiêu thức trúng đích của Veera khiến nạn nhân bị giảm giáp phép, tối đa 3 lần cộng dồn, mỗi lần giảm 30-72 giáp phép (tăng theo cấp tướng).",
 			},
 			{
 				"name": "Dơi địa ngục",
@@ -349,11 +352,11 @@ var infoHeros = {
 		"skill_combo": [
 			{
 				"name": "*Combo đầu game",
-				"info": "3,2,0",
+				"info": "2,3,0",
 			},
 			{
 				"name": "*Combo khi có đủ 3 kỹ năng",
-				"info": "3,2,4,0",
+				"info": "3,4,2,0",
 			}
 		],
 		"skill_note": "*Hôn gió là chiêu thức khá độc đáo và là chiêu bắt lẻ khá tốt, một combo đủ cả 3 chiêu thức, đối thủ cũng khó mà sống sót.",
@@ -409,7 +412,7 @@ var infoHeros = {
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "alice", "id_page": "Alice"},
 					{"hero_id": "teemee", "id_page": "TeeMee"},
@@ -418,10 +421,12 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
-					{"hero_id": "krixi", "id_page": "Krixi"},
-					{"hero_id": "nakroth", "id_page": "Nakroth"},
+					{"hero_id": "murad", "id_page": "Murad"},
+					{"hero_id": "kahlii", "id_page": "Kahlii"},
+					{"hero_id": "zill", "id_page": "Zill"},
+					{"hero_id": "lauriel", "id_page": "Lauriel"},
 				]
 			}
 		],
@@ -478,15 +483,16 @@ var infoHeros = {
 			"price_text": "Quà nạp lần đầu",
 			"position": "Đấu sĩ",
 			"special": "Hút máu",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
-				"name": "Chú tể",
+				"name": "Chúa tể",
 				"info": "Nội tại: Giảm 1s hồi chiêu của Phương thiên họa kích bất cứ khi nào Lữ bố đánh trúng mục tiêu bằng chiêu thức này hay đòn đánh thường.",
 			},
 			{
 				"name": "Xích thố",
-				"info": "ST Gốc: 160/185/210/235/260/285<br>H.Chiêu: 10/9.4/8.8/8.2/7.6/7<br>Khoảng cách lướt đi mỗi lần：3m<br>Khống chế Hất：Hất 0.7s<br>Lữ Bố lướt đi tấn côn kẻ địch (trúng Anh hùng sẽ dừng lại), gây 160 (+146) STVL. Chiêu thức này có thể được sử dụng 3 lần liên tiếp, đặc biệt đòn thứ 3 sẽ hất tung nạn nhân."
+				"info": "ST Gốc: 160/185/210/235/260/285<br>H.Chiêu: 10/9.4/8.8/8.2/7.6/7<br>Khoảng cách lướt đi mỗi lần：3m<br>Khống chế Hất：Hất 0.7s<br>Lữ Bố lướt đi tấn côn kẻ địch (trúng tướng sẽ dừng lại), gây 160 (+146) STVL. Chiêu thức này có thể được sử dụng 3 lần liên tiếp, đặc biệt đòn thứ 3 sẽ hất tung nạn nhân."
 			},
 			{
 				"name": "Phương thiên họa kích",
@@ -546,22 +552,22 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Đi rừng hoặc đường trên dưới",
+				"name": "Đường Caesar (mang trừng trị)",
+				"info": "KiemTruyHon,GiayKienCuong,AoChoangThanRa,PhucHopKiem,HuanChuongTroy,GiapHoMenh",
+			},
+			{
+				"name": "Đường Caesar",
+				"info": "AoChoangThanRa,GiayKienCuong,ThuongXuyenPha,AoChoangBangGia,HuanChuongTroy,KiemFafnir",
+			},
+			{
+				"name": "Pro lên đồ",
 				"info": "ThuongLonginus,GiayKienCuong,AoChoangBangGia,KiemFafnir,HuanChuongTroy,GiapHoMenh",
-			},
-			{
-				"name": "Đường trên hoặc dưới",
-				"info": "KiemFafnir,GiayKienCuong,AoChoangThanRa,GiapGaia,KhienThatTruyen,GiapHoMenh",
-			},
-			{
-				"name": "Game thủ hay lên",
-				"info": "AoChoangThanRa,GiayKienCuong,AoChoangBangGia,ThuongXuyenPha,HuanChuongTroy,HerculeThinhNo",
 			},
 		],
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "maloch", "id_page": "Maloch"},
 					{"hero_id": "chaugnar", "id_page": "Chaugnar"},
@@ -570,7 +576,7 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
 					{"hero_id": "ormarr", "id_page": "Ormarr"},
 					{"hero_id": "alice", "id_page": "Alice"},
@@ -651,6 +657,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đỡ đòn",
 			"special": "Khống chế",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -686,7 +693,7 @@ var infoHeros = {
 			}
 		],
 		"skill_note": "*Làm tốt combo Mina khiến đối thủ phải quay lưng bỏ chạy.<br>*Bật Ma Lực Bóng Tối khiến tất cả mọi đối thủ phải tập trung vào cô và thế là đồng đội mình cứ xả thoải mái thôi!!",
-		"skill_special": "CapCuu,BocPha",
+		"skill_special": "TocBien,CapCuu,BocPha",
 		"main_rune": {
 			"rune2": [
 				{
@@ -719,7 +726,7 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Chơi trợ thủ",
+				"name": "Đường rồng",
 				"info": "LenhBaiPhongThan,GiayKienCuong,GiapGaia,GiapThongKho,KhienThatTruyen,PhuChuTruongSinh",
 			},
 			{
@@ -727,14 +734,14 @@ var infoHeros = {
 				"info": "AoChoangThanRa,GiayHoVe,RiuHyoga,PhucHopKiem,GiapThongKho,ThuongLonginus",
 			},
 			{
-				"name": "Đường đơn hoặc trợ thủ",
+				"name": "Đường đơn",
 				"info": "AoChoangThanRa,GiayHermes,GiapThongKho,AoChoangBangGia,HuanChuongTroy,PhuChuTruongSinh"
 			},
 		],
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "violet", "id_page": "Violet"},
 					{"hero_id": "ormarr", "id_page": "Ormarr"},
@@ -743,7 +750,7 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
 					{"hero_id": "ormarr", "id_page": "Ormarr"},
 					{"hero_id": "chaugnar", "id_page": "Chaugnar"},
@@ -803,6 +810,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư",
 			"special": "Cấu rỉa",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -886,7 +894,7 @@ var infoHeros = {
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "gildur", "id_page": "Gildur"},
 					{"hero_id": "toro", "id_page": "Toro"},
@@ -895,7 +903,7 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
 					{"hero_id": "violet", "id_page": "Violet"},
 					{"hero_id": "nakroth", "id_page": "Nakroth"},
@@ -975,6 +983,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư / Trợ Thủ",
 			"special": "Cấu rỉa / Khôi phục",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -987,7 +996,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Độc tố",
-				"info": "ST Gốc: 90/103/116/129/142/155<br>Mganga phóng độc theo hướng chỉ định gây 90 (+0) STP lên những kẻ địch trúng chiêu. Nếu mục tiêu là Anh hùng đồng minh, họ sẽ được yểm dấu ấn giúp hồi máu.",
+				"info": "ST Gốc: 90/103/116/129/142/155<br>Mganga phóng độc theo hướng chỉ định gây 90 (+0) STP lên những kẻ địch trúng chiêu. Nếu mục tiêu là tướng đồng minh, họ sẽ được yểm dấu ấn giúp hồi máu.",
 			},
 			{
 				"name": "Độc dược",
@@ -995,31 +1004,27 @@ var infoHeros = {
 			}
 		],
 		"skill_up": {
-			"line1": "2,6,10,13,14,15",
-			"line2": "1,3,5,7,9,11",
+			"line1": "1,3,6,9,11,14",
+			"line2": "2,5,7,10,13,15",
 			"line3": "4,8,12",
 		},
 		"skill_combo": [
 			{
-				"name": "*Combo đầu game 1",
-				"info": "0,3,2,0",
-			},
-			{
-				"name": "*Combo đầu game 2",
+				"name": "*Combo đầu game",
 				"info": "2,0,3,0",
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
-				"info": "0,2,3,0,4",
-			}
+				"name": "*Combo khi có đủ 3 kỹ năng (đủ 5 dấu ấn thì dùng chiêu cuối)",
+				"info": "2,0,3,0,4",
+			},
 		],
 		"skill_note": "*Hãy nhớ đủ 5 điểm Nội tại rồi dùng Chiêu cuối cho hiệu quả nhất.",
-		"skill_special": "TocBien,CapCuu,TocHanh,ThanhTay",
+		"skill_special": "TocBien,CapCuu,TocHanh",
 		"main_rune": {
 			"rune2": [
 				{
-					"name": "NgocDo21",
-					"info": "Tốc đánh +1.2%",
+					"name": "NgocDo24",
+					"info": "Công phép +2.5<br>Xuyên giáp phép +1.4",
 				},
 				{
 					"name": "NgocTim22",
@@ -1032,8 +1037,8 @@ var infoHeros = {
 			],
 			"rune3": [
 				{
-					"name": "NgocDo37",
-					"info": "Tốc đánh +1%<br>Máu tối đa +33.7<br>Giáp +2.3",
+					"name": "NgocDo31",
+					"info": "Công phép +4.2<br>Xuyên giáp phép +2.4",
 				},
 				{
 					"name": "NgocTim32",
@@ -1047,22 +1052,18 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Đường giữa",
-				"info": "TruongBang,GiayHoVe,QuyenTruongRhea,PhuChuTruongSinh,MatNaBerith,VuongMiengHecate",
+				"name": "Đường giữa (xong món cuối có thể bán Phượng hoàng lệ mua món khác tùy trận đấu)",
+				"info": "PhuongHoangLe,GiayKienCuong,TruongBang,MatNaBerith,VuongMiengHecate,TruongBungNo",
 			},
 			{
-				"name": "Đường giữa",
-				"info": "TruongBang,GiayHoVe,PhuChuTruongSinh,QuyenTruongRhea,AoChoangBangGia,SachThanh",
-			},
-			{
-				"name": "Game thủ hay lên",
-				"info": "PhuongHoangLe,GiayPhuThuy,TruongBang,AoChoangBangGia,NgocDaiPhapSu,TruongBungNo",
-			},
+				"name": "Đường giữa (như trên)",
+				"info": "PhuongHoangLe,GiayHermes,TruongBang,AoChoangBangGia,VuongMiengHecate,SachTruyHon",
+			}
 		],
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "toro", "id_page": "Toro"},
 					{"hero_id": "butterfly", "id_page": "Butterfly"},
@@ -1070,7 +1071,7 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
 					{"hero_id": "krixi", "id_page": "Krixi"},
 					{"hero_id": "nakroth", "id_page": "Nakroth"},
@@ -1118,13 +1119,14 @@ var infoHeros = {
 		"main_info": {
 			"price_gold": "",
 			"price_voucher": "",
-			"price_text": "Anh hùng miễn phí",
+			"price_text": "tướng miễn phí",
 			"position": "Đấu sĩ",
 			"special": "Trung phong",
+			"lane": "Đi rừng / Đường Caesar",
 		},
 		"main_skill": [
 			{
-				"name": "Long Anh hùng",
+				"name": "Long tướng",
 				"info": "Nội tại: Hạ hoặc phụ giúp hồi 5% máu tối đa đồng thời nhận một bùa lợi tăng 12 CVL (tối đa 20 điểm).",
 			},
 			{
@@ -1160,45 +1162,45 @@ var infoHeros = {
 		"main_rune": {
 			"rune2": [
 				{
-					"name": "NgocDo22",
-					"info": "Tốc đánh +0.6%<br>Tỷ lệ chí mạng +0.3%<br>Sát thương chí mạng +1.1%",
+					"name": "NgocDo26",
+					"info": "Công vật lý +1.5<br>Tốc đánh +0.4%",
 				},
 				{
 					"name": "NgocTim23",
 					"info": "Công vật lý +0.6<br>Máu tối đa +36",
 				},
 				{
-					"name": "NgocXanh21",
-					"info": "Tốc đánh +0.4%<br>Giảm hồi chiêu +0.5%",
+					"name": "NgocXanh23",
+					"info": "Máu tối đa +13.5<br>Xuyên giáp +3.8",
 				}
 			],
 			"rune3": [
 				{
-					"name": "NgocDo310",
-					"info": "Tỷ lệ chí mạng +1.6%",
+					"name": "NgocDo37",
+					"info": "Tốc đánh +1%<br>Máu tối đa +33.7<br>Giáp +2.3",
 				},
 				{
-					"name": "NgocTim35",
-					"info": "Hút máu +1.6%",
+					"name": "NgocTim31",
+					"info": "Công vật lý +1.6<br>Tốc chạy +1%",
 				},
 				{
-					"name": "NgocXanh31",
-					"info": "Công vật lý +0.9<br>Xuyên giáp +6.4",
+					"name": "NgocXanh34",
+					"info": "Máu tối đa +37.5<br>Giảm hồi chiêu +0.6%",
 				}
 			]
 		},
 		"item_build": [
 			{
 				"name": "Đi rừng",
-				"info": "RiuLeviathan,GiayHoVe,ThuongLonginus,AoChoangBangGia,HuanChuongTroy,KiemFafnir",
+				"info": "RiuLeviathan,GiayKienCuong,ThuongLonginus,AoChoangBangGia,HuanChuongTroy,KiemFafnir",
 			},
 			{
-				"name": "Đi rừng",
-				"info": "KiemTruyHon,GiayHoVe,PhucHopKiem,RiuHyoga,GiapGaia,GiapHoMenh",
+				"name": "Đi rừng (thay thế)",
+				"info": "KiemTruyHon,GiayKienCuong,PhucHopKiem,RiuHyoga,GiapGaia,GiapHoMenh",
 			},
 			{
-				"name": "Đường trên hoặc dưới",
-				"info": "AoChoangThanRa,GiayThuatSi,GiapThongKho,KhienHuyenThoai,HuanChuongTroy,NanhFenrir",
+				"name": "Đường Caesar",
+				"info": "AoChoangThanRa,GiayHoVe,GiapThongKho,RiuHyoga,GiapGaia,NanhFenrir",
 			},
 			{
 				"name": "Game thủ hay lên",
@@ -1208,7 +1210,7 @@ var infoHeros = {
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "aleister", "id_page": "Aleister"},
 					{"hero_id": "violet", "id_page": "Violet"},
@@ -1217,20 +1219,20 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
 					{"hero_id": "zephys", "id_page": "Zephys"},
 					{"hero_id": "lu_bo", "id_page": "LuBo"},
 				]
 			}
 		],
-		"hero_story": "Kỵ sĩ Rồng núi Trường Bản mãi được ghi danh nhờ vào điển tích cứu sống Hoàng nhi. <i class=\"clr-orange\">Triệu Vân</i> còn là anh hùng danh chấn thiên hạ được kính trọng bởi cả Vô Địch Chiến Thần Lữ Bố.<br>\"Thế thương tựa rồng bay, thế tấn tựa rồng cuộn, mỗi mũi thương như ngàn mũi tên xuyên thấu kẻ thù. Chỉ cần thấy ngọn thương của <i class=\"clr-orange\">Triệu Vân</i> cũng đủ làm kẻ địch phải ớn lạnh”<br>Không một ai dám ngông cuồng, coi thường sức mạnh của <i class=\"clr-orange\">Triệu Vân</i>.<br>“Chiến tranh là điều ta không mong muốn”, <i class=\"clr-orange\">Triệu Vân</i> từng nói.<br>Ngay cả đại hiền nhân Gia Cát Lượng cũng không thể giảm bớt đi sự mệt mỏi sau mỗi trận chiến của <i class=\"clr-orange\">Triệu Vân</i>. Điều ông có thể làm là liên tục giao nhiệm vụ để <i class=\"clr-orange\">Triệu Vân</i> bớt đi phần nào ưu phiền về chiến tranh. Lòng trung thành của <i class=\"clr-orange\">Triệu Vân</i> với Hoàng đế được thể hiện ngoài tiền tuyến, và đó chính là nơi <i class=\"clr-orange\">Triệu Vân</i> đáng sợ nhất.<br>\"Ta có thể mệt mỏi vì chiến trận, nhưng ta sẽ luôn chiến đấu khi người khác cần đến”",
+		"hero_story": "Kỵ sĩ Rồng núi Trường Bản mãi được ghi danh nhờ vào điển tích cứu sống Hoàng nhi. <i class=\"clr-orange\">Triệu Vân</i> còn là tướng danh chấn thiên hạ được kính trọng bởi cả Vô Địch Chiến Thần Lữ Bố.<br>\"Thế thương tựa rồng bay, thế tấn tựa rồng cuộn, mỗi mũi thương như ngàn mũi tên xuyên thấu kẻ thù. Chỉ cần thấy ngọn thương của <i class=\"clr-orange\">Triệu Vân</i> cũng đủ làm kẻ địch phải ớn lạnh”<br>Không một ai dám ngông cuồng, coi thường sức mạnh của <i class=\"clr-orange\">Triệu Vân</i>.<br>“Chiến tranh là điều ta không mong muốn”, <i class=\"clr-orange\">Triệu Vân</i> từng nói.<br>Ngay cả đại hiền nhân Gia Cát Lượng cũng không thể giảm bớt đi sự mệt mỏi sau mỗi trận chiến của <i class=\"clr-orange\">Triệu Vân</i>. Điều ông có thể làm là liên tục giao nhiệm vụ để <i class=\"clr-orange\">Triệu Vân</i> bớt đi phần nào ưu phiền về chiến tranh. Lòng trung thành của <i class=\"clr-orange\">Triệu Vân</i> với Hoàng đế được thể hiện ngoài tiền tuyến, và đó chính là nơi <i class=\"clr-orange\">Triệu Vân</i> đáng sợ nhất.<br>\"Ta có thể mệt mỏi vì chiến trận, nhưng ta sẽ luôn chiến đấu khi người khác cần đến”",
 		"hero_skin": [
 			{
 				"name": "Kỵ Sĩ Rồng",
 				"gold": "",
 				"voucher": "",
-				"event": "Anh hùng miễn phí",
+				"event": "tướng miễn phí",
 				"wall": "TrieuVan01",
 				"disable": "",
 				"img": "thumb1.jpg",
@@ -1287,6 +1289,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đỡ đòn",
 			"special": "Khống chế",
+			"lane": "Đường rồng / Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -1370,7 +1373,7 @@ var infoHeros = {
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "violet", "id_page": "Violet"},
 					{"hero_id": "gildur", "id_page": "Gildur"},
@@ -1380,7 +1383,7 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
 					{"hero_id": "alice", "id_page": "Alice"},
 					{"hero_id": "ormarr", "id_page": "Ormarr"},
@@ -1420,6 +1423,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư",
 			"special": "Cấu rỉa",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -1503,7 +1507,7 @@ var infoHeros = {
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "violet", "id_page": "Violet"},
 					{"hero_id": "grakk", "id_page": "Grakk"},
@@ -1513,7 +1517,7 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
 					{"hero_id": "nakroth", "id_page": "Nakroth"},
 					{"hero_id": "violet", "id_page": "Violet"},
@@ -1564,6 +1568,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ / Sát thủ",
 			"special": "Tiền đạo",
+			"lane": "Đi rừng / Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -1576,7 +1581,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Liên kích",
-				"info": "ST Gốc: 95/105/115/125/135/145<br>H.Chiêu: 8/7.2/6.4/5.6/4.8/4<br>Hồi máu: 35/39/43/47/51/55<br>Zephys công kích liên tục các kẻ địch phía trước, mỗi đợt gây 95 (+69) STVL. Tung chiêu trúng Anh hùng địch giúp Zephys được hồi 35 (+24) máu.",
+				"info": "ST Gốc: 95/105/115/125/135/145<br>H.Chiêu: 8/7.2/6.4/5.6/4.8/4<br>Hồi máu: 35/39/43/47/51/55<br>Zephys công kích liên tục các kẻ địch phía trước, mỗi đợt gây 95 (+69) STVL. Tung chiêu trúng tướng địch giúp Zephys được hồi 35 (+24) máu.",
 			},
 			{
 				"name": "Không kích",
@@ -1647,7 +1652,7 @@ var infoHeros = {
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "violet", "id_page": "Violet"},
 					{"hero_id": "cresht", "id_page": "Cresht"},
@@ -1656,7 +1661,7 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
 					{"hero_id": "aleister", "id_page": "Aleister"},
 					{"hero_id": "ormarr", "id_page": "Ormarr"},
@@ -1716,6 +1721,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư",
 			"special": "Khống chế",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -1799,7 +1805,7 @@ var infoHeros = {
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "violet", "id_page": "Violet"},
 					{"hero_id": "lu_bo", "id_page": "LuBo"},
@@ -1808,7 +1814,7 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
 					{"hero_id": "violet", "id_page": "Violet"},
 					{"hero_id": "nakroth", "id_page": "Nakroth"},
@@ -1816,7 +1822,7 @@ var infoHeros = {
 				]
 			}
 		],
-		"hero_story": "\"Đàn ông chinh phục thế giới, ta sẽ chinh phục đàn ông.\"<br><i class=\"clr-orange\">Điêu Thuyền</i> nói câu đó năm mười lăm tuổi. Nàng vừa học nghệ thuật múa lụa nhưng đã có thể quyến rũ tất cả những ai hay ghé qua đại lộ Trường An. Một viên quan đã nói: \"Cô gái này là hiện thân của tội lỗi từ thiên đường!\" trước khi đổ gục dưới chân nàng tìm kiếm mùi hương vương trên áo.<br>Ngay cả Lữ Bố hùng mạnh cũng không thể cưỡng lại vẻ đẹp của <i class=\"clr-orange\">Điêu Thuyền</i>. Khi nàng nhăn mặt, Lữ Bố sẵn sàng ra tay với cha nuôi Đổng Trác. Chỉ một nét thoáng buồn trên mặt <i class=\"clr-orange\">Điêu Thuyền</i> cũng đủ để Lữ Bố trừng trị kẻ phạm lỗi.<br><i class=\"clr-orange\">Điêu Thuyền</i> xinh đẹp, nhưng cái đẹp đó cũng tương xứng với dã tâm trong nàng. Các anh hùng khắp thế giới đến thách thức Lữ Bố để có thể đoạt <i class=\"clr-orange\">Điêu Thuyền</i> về tay. Đa số đều bị hạ ngay lập tức. Nhưng người khác tập hợp cùng nhau và cũng chịu chung số phận. Thấy kẻ địch ngày một nhiều thêm và khát khao chiến trận của Lữ Bố ngày một lớn dần, <i class=\"clr-orange\">Điêu Thuyền</i> lặng lẽ rời bỏ người đàn ông yêu nàng tha thiết trong một sáng trời mưa bão.<br>\"Cố đừng nghĩ đến ta nhiều quá.\"",
+		"hero_story": "\"Đàn ông chinh phục thế giới, ta sẽ chinh phục đàn ông.\"<br><i class=\"clr-orange\">Điêu Thuyền</i> nói câu đó năm mười lăm tuổi. Nàng vừa học nghệ thuật múa lụa nhưng đã có thể quyến rũ tất cả những ai hay ghé qua đại lộ Trường An. Một viên quan đã nói: \"Cô gái này là hiện thân của tội lỗi từ thiên đường!\" trước khi đổ gục dưới chân nàng tìm kiếm mùi hương vương trên áo.<br>Ngay cả Lữ Bố hùng mạnh cũng không thể cưỡng lại vẻ đẹp của <i class=\"clr-orange\">Điêu Thuyền</i>. Khi nàng nhăn mặt, Lữ Bố sẵn sàng ra tay với cha nuôi Đổng Trác. Chỉ một nét thoáng buồn trên mặt <i class=\"clr-orange\">Điêu Thuyền</i> cũng đủ để Lữ Bố trừng trị kẻ phạm lỗi.<br><i class=\"clr-orange\">Điêu Thuyền</i> xinh đẹp, nhưng cái đẹp đó cũng tương xứng với dã tâm trong nàng. Các tướng khắp thế giới đến thách thức Lữ Bố để có thể đoạt <i class=\"clr-orange\">Điêu Thuyền</i> về tay. Đa số đều bị hạ ngay lập tức. Nhưng người khác tập hợp cùng nhau và cũng chịu chung số phận. Thấy kẻ địch ngày một nhiều thêm và khát khao chiến trận của Lữ Bố ngày một lớn dần, <i class=\"clr-orange\">Điêu Thuyền</i> lặng lẽ rời bỏ người đàn ông yêu nàng tha thiết trong một sáng trời mưa bão.<br>\"Cố đừng nghĩ đến ta nhiều quá.\"",
 		"hero_skin": [
 			{
 				"name": "Tuyệt Sắc Giai Nhân",
@@ -1851,8 +1857,8 @@ var infoHeros = {
 			{
 				"name": "Tiệc Bãi Biển (Bậc SS)",
 				"gold": "",
-				"voucher": "",
-				"event": "1 viên đá quý",
+				"voucher": "499",
+				"event": "",
 				"wall": "DieuThuyen04",
 				"disable": "yes",
 				"img": "thumb4.jpg",
@@ -1869,6 +1875,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Trợ thủ / Đỡ đòn",
 			"special": "Yểm hộ",
+			"lane": "Đường rồng / Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -1952,7 +1959,7 @@ var infoHeros = {
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "violet", "id_page": "Violet"},
 					{"hero_id": "butterfly", "id_page": "Butterfly"},
@@ -1962,7 +1969,7 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
 					{"hero_id": "violet", "id_page": "Violet"},
 					{"hero_id": "ormarr", "id_page": "Ormarr"},
@@ -2012,6 +2019,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Xạ thủ",
 			"special": "Tiền đạo / Trung phong",
+			"lane": "Đi rừng / Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -2095,7 +2103,7 @@ var infoHeros = {
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp đi cùng các Anh hùng bảo kê",
+				"desc": "thích hợp đi cùng các tướng bảo kê",
 				"info": [
 					{"hero_id": "alice", "id_page": "Alice"},
 					{"hero_id": "gildur", "id_page": "Gildur"},
@@ -2104,7 +2112,7 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp các Anh hùng sau",
+				"desc": "thấy khó chịu khi gặp các tướng sau",
 				"info": [
 					{"hero_id": "veera", "id_page": "Veera"},
 					{"hero_id": "nakroth", "id_page": "Nakroth"},
@@ -2195,6 +2203,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Sát thủ / Đấu sĩ",
 			"special": "Tiền đạo / Trung phong",
+			"lane": "Đi rừng",
 		},
 		"main_skill": [
 			{
@@ -2211,7 +2220,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Ám sát",
-				"info": "ST Gốc: 500/725/950<br>H.Chiêu: 13.5/12.3/11.1<br>Butterfly đột kích kẻ địch có lượng máu thấp nhất (ưu tiên Anh hùng) từ phía sau, gây 525 (+238) STVL, đồng thời Butterfly được tăng 50% miễn thương trong 3s giảm dần về 0, và mục tiêu sẽ bị đánh dấu trong 3s. Trong khoảng thời gian này Tốc chạy của kẻ địch bị giảm 30%. Khi kết thúc đánh dấu hoặc mục tiêu đã chết, 20% sát thương mà mục tiêu đã chịu sẽ chuyển thành trị liệu cho bản thân.",
+				"info": "ST Gốc: 500/725/950<br>H.Chiêu: 13.5/12.3/11.1<br>Butterfly đột kích kẻ địch có lượng máu thấp nhất (ưu tiên tướng) từ phía sau, gây 525 (+238) STVL, đồng thời Butterfly được tăng 50% miễn thương trong 3s giảm dần về 0, và mục tiêu sẽ bị đánh dấu trong 3s. Trong khoảng thời gian này Tốc chạy của kẻ địch bị giảm 30%. Khi kết thúc đánh dấu hoặc mục tiêu đã chết, 20% sát thương mà mục tiêu đã chịu sẽ chuyển thành trị liệu cho bản thân.",
 			}
 		],
 		"skill_up": {
@@ -2268,7 +2277,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Đi rừng",
-				"info": "KiemTruyHon,GiayHoVe,ThuongXuyenPha,AoChoangBangGia,PhucHopKiem,LiemDoatMenh",
+				"info": "KiemTruyHon,GiayHoVe,ThuongXuyenPha,AoChoangBangGia,GiapThongKho,LiemDoatMenh",
 			},
 			{
 				"name": "Game thủ hay lên",
@@ -2379,6 +2388,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ / Đỡ đòn",
 			"special": "Khống chế / Tiền đạo",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -2533,6 +2543,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư",
 			"special": "Khống chế",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -2675,6 +2686,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Trợ thủ",
 			"special": "Khống chế / Yểm hộ",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -2807,6 +2819,16 @@ var infoHeros = {
 				"img": "thumb3.jpg",
 				"video": "",
 			},
+			{
+				"name": "Xứ Sở Thần Tiên (Bậc S)",
+				"gold": "",
+				"voucher": "",
+				"event": "Mở sự kiện",
+				"wall": "Alice04",
+				"disable": "",
+				"img": "thumb4.jpg",
+				"video": "",
+			},
 		]
 	},
 	"gildur": {
@@ -2818,6 +2840,7 @@ var infoHeros = {
 			"price_text": "Có thẻ mua bằng Ruby",
 			"position": "Đỡ đòn / Pháp sư",
 			"special": "Khống chế / Tiền đạo",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -2964,6 +2987,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Xạ thủ",
 			"special": "Cấu rỉa",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -3119,6 +3143,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đỡ đòn",
 			"special": "Khống chế / Tiền vệ",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -3264,6 +3289,7 @@ var infoHeros = {
 			"price_text": "Quà đăng nhập",
 			"position": "Đỡ đòn / Đấu sĩ",
 			"special": "Tiền đạo / Khôi phục",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -3417,6 +3443,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Sát thủ / Đấu sĩ",
 			"special": "Tiền đạo",
+			"lane": "Đi rừng",
 		},
 		"main_skill": [
 			{
@@ -3579,6 +3606,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đỡ đòn / Pháp sư",
 			"special": "Khống chế",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -3701,7 +3729,7 @@ var infoHeros = {
 				"video": "",
 			},
 			{
-				"name": "Khô Lâu Đại Anh hùng",
+				"name": "Khô Lâu Đại tướng",
 				"gold": "",
 				"voucher": "185",
 				"event": "",
@@ -3731,6 +3759,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư",
 			"special": "Khống chế",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -3875,6 +3904,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Xạ thủ",
 			"special": "Tiền đạo / Trung phong",
+			"lane": "Đi rừng / Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -4011,7 +4041,7 @@ var infoHeros = {
 				"name": "Tuần Lộc Láu Lỉnh (Christmas)",
 				"gold": "",
 				"voucher": "",
-				"event": "Mở Giáng Sinh",
+				"event": "1 viên đá quý",
 				"wall": "Fennik04",
 				"disable": "",
 				"img": "thumb4.jpg",
@@ -4028,6 +4058,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đỡ đòn / Trợ thủ",
 			"special": "Khống chế / Yểm hộ",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -4036,7 +4067,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Đất bằng dậy sóng",
-				"info": "ST Gốc: 230/280/330/380/430/480<br>Giảm st: 15%/17%/19%/21%/23%/25%<br>Lumburr giận dữ đấm xuống đất hất văng đất đá, gây 230 (+1156) STVL. Kẻ địch trúng chiêu sẽ chịu suy yếu, bị giảm 15% STVL và phép gây ra (chỉ hiệu lực với Anh hùng), hiệu ứng kéo dài 3s."
+				"info": "ST Gốc: 230/280/330/380/430/480<br>Giảm st: 15%/17%/19%/21%/23%/25%<br>Lumburr giận dữ đấm xuống đất hất văng đất đá, gây 230 (+1156) STVL. Kẻ địch trúng chiêu sẽ chịu suy yếu, bị giảm 15% STVL và phép gây ra (chỉ hiệu lực với tướng), hiệu ứng kéo dài 3s."
 			},
 			{
 				"name": "Bất khả cản phá",
@@ -4161,6 +4192,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư",
 			"special": "Cấu rỉa",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -4169,7 +4201,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Ác quỷ tụ hội",
-				"info": "ST Gốc: 350/390/430/470/510/550<br>Natalya triệu hồi 5 bóng ma tấn công nơi chỉ định, mỗi bóng ma gây 350 (+0) STP, những bóng ma bồi thêm vào cùng mục tiêu sẽ chỉ gây 30% sát thương, sau khi trúng Anh hùng địch các bóng ma sẽ biến mất ngay sau đó và hồi cho Natalya 10 năng lượng cùng 0.6s hồi chiêu."
+				"info": "ST Gốc: 350/390/430/470/510/550<br>Natalya triệu hồi 5 bóng ma tấn công nơi chỉ định, mỗi bóng ma gây 350 (+0) STP, những bóng ma bồi thêm vào cùng mục tiêu sẽ chỉ gây 30% sát thương, sau khi trúng tướng địch các bóng ma sẽ biến mất ngay sau đó và hồi cho Natalya 10 năng lượng cùng 0.6s hồi chiêu."
 			},
 			{
 				"name": "Quả cầu hắc ám",
@@ -4325,6 +4357,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đỡ đòn / Trợ thủ",
 			"special": "Tiền đạo / Khống chế",
+			"lane": "Đường rồng / Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -4337,7 +4370,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Bọt bong bóng",
-				"info": "Lá chắn: 500/570/640/710/780/850<br>Lá chắn biến hình: 380/430/480/530/580/630<br>Cresht nhảy tới điểm chỉ định tạo ra một lớp bọt bong bóng giúp tăng Nộ, và bảo vệ bản thân cùng Anh hùng đồng minh khỏi 500 (+72) sát thương, khi Cresht biến thành Thủy thần sẽ tạo ra một cột nước gây 380 (+144) STVL lên kẻ địch trong phạm vi ảnh hưởng.",
+				"info": "Lá chắn: 500/570/640/710/780/850<br>Lá chắn biến hình: 380/430/480/530/580/630<br>Cresht nhảy tới điểm chỉ định tạo ra một lớp bọt bong bóng giúp tăng Nộ, và bảo vệ bản thân cùng tướng đồng minh khỏi 500 (+72) sát thương, khi Cresht biến thành Thủy thần sẽ tạo ra một cột nước gây 380 (+144) STVL lên kẻ địch trong phạm vi ảnh hưởng.",
 			},
 			{
 				"name": "Thủy thần",
@@ -4469,6 +4502,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư",
 			"special": "Cấu rỉa",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -4612,6 +4646,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Trợ thủ",
 			"special": "Yểm hộ",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -4620,7 +4655,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Ánh sáng thần thánh",
-				"info": "Hồi máu gốc: 60/80/100/120/140/160<br>H.Chiêu: 20/19/18/17/16/15<br>Tăng tốc đánh: 25%/30%/35%/40%/45%/50%<br>Payna phủ ánh sáng ma pháp xuống một vùng nhỏ quanh bản thân, giúp hồi 60 (+0) máu (cộng thêm 10% máu tổn thất) mỗi giây cho các Anh hùng đồng minh lân cận, đồng thời giúp tăng cho tất cả trong vùng hiệu lực 25% tốc đánh trong 3s."
+				"info": "Hồi máu gốc: 60/80/100/120/140/160<br>H.Chiêu: 20/19/18/17/16/15<br>Tăng tốc đánh: 25%/30%/35%/40%/45%/50%<br>Payna phủ ánh sáng ma pháp xuống một vùng nhỏ quanh bản thân, giúp hồi 60 (+0) máu (cộng thêm 10% máu tổn thất) mỗi giây cho các tướng đồng minh lân cận, đồng thời giúp tăng cho tất cả trong vùng hiệu lực 25% tốc đánh trong 3s."
 			},
 			{
 				"name": "Cú ma pháp",
@@ -4628,7 +4663,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Kết giới sinh mệnh",
-				"info": "ST Gốc: 250/310/370<br>H.Chiêu: 60/50/40<br>Tăng giáp: 200/250/300<br>Payna niệm chú tạo ra một kết giới năng lượng tác động lên cả Anh hùng đồng minh lẫn đối phương trong vùng ảnh hưởng theo các cách khác nhau, tăng 200 giáp cho phe ta, gây 250 (+0) STP lên phe địch mỗi 0.5s, kèm hiệu ứng giảm 20% tốc chạy, đặc biệt những nạn nhân xấu số vẫn còn trong kết giới sau 2s sẽ bị choáng 1.5s.",
+				"info": "ST Gốc: 250/310/370<br>H.Chiêu: 60/50/40<br>Tăng giáp: 200/250/300<br>Payna niệm chú tạo ra một kết giới năng lượng tác động lên cả tướng đồng minh lẫn đối phương trong vùng ảnh hưởng theo các cách khác nhau, tăng 200 giáp cho phe ta, gây 250 (+0) STP lên phe địch mỗi 0.5s, kèm hiệu ứng giảm 20% tốc chạy, đặc biệt những nạn nhân xấu số vẫn còn trong kết giới sau 2s sẽ bị choáng 1.5s.",
 			}
 		],
 		"skill_up": {
@@ -4748,6 +4783,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ / Đỡ đòn",
 			"special": "Trung phong",
+			"lane": "Đường rồng / Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -4905,6 +4941,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ / Sát thủ",
 			"special": "Tiền đạo / Khống chế",
+			"lane": "Đường Caesar / Đi rừng",
 		},
 		"main_skill": [
 			{
@@ -4932,12 +4969,20 @@ var infoHeros = {
 		"skill_combo": [
 			{
 				"name": "*Combo đầu game",
-				"info": "3,2,0",
+				"info": "3,0,2,0",
+			},
+			{
+				"name": "*Hoặc combo này",
+				"info": "2,0,3,0",
 			},
 			{
 				"name": "*Combo khi có đủ 3 kỹ năng",
-				"info": "3,4,2,0",
-			}
+				"info": "2,0,4,0,3,0",
+			},
+			{
+				"name": "*Hoặc combo này",
+				"info": "3,0,4,0,2,0",
+			},
 		],
 		"skill_note": "*Cố gắng dùng Gậy Như Ý đẹp nhất có thể để nhanh chóng xóa sổ địch.",
 		"skill_special": "TrungTri,BocPha,GamThet",
@@ -5009,7 +5054,7 @@ var infoHeros = {
 				]
 			}
 		],
-		"hero_story": "Hầu Vương <i class=\"clr-orange\">Ngộ Không</i> từng đại nào thiên cung 500 năm trước khi hắn một mình đánh bại mười vạn thiên binh. Nhưng, dù đã tung hết sức, hắn cũng không thể thoát khỏi bàn tay của Phật Tổ Như Lai và bị phong ấn dưới Ngũ Hành Sơn. Mỗi thời khắc trong năm thế kỷ bị giam cầm ấy, <i class=\"clr-orange\">Ngộ Không</i> đều mơ về tự do.<br>\"Đầu tiên, ta sẽ làm bậy trước đại điện... để dạy cho chúng một bài học!\" <i class=\"clr-orange\">Ngộ Không</i> lẩm nhẩm giận dữ. Hắn chưa từng ghét Phật. Trái lại, <i class=\"clr-orange\">Ngộ Không</i> ngưỡng mộ Phật, bởi ngài đã chửng tỏ mình mạnh mẽ hơn hắn. Hắn chỉ muốn chơi khăm Phất một phen.<br>Tuy nhiên, khi phong ấn bị phá vỡ, <i class=\"clr-orange\">Ngộ Không</i> lại không làm như đã định. Hắn sợ ư? Không hẳn. Bởi một giọng nói chào đón hắn từ xa xăm: \"<i class=\"clr-orange\">Ngộ Không</i>, anh hùng, những kẻ bất tử, và cả thần thánh đã tập hợp lại đây cho trận chiến vĩ đại nhất mọi thời đại! Người dám chiến không?\" Điều đó vượt quá cả những giấc mơ điên cuồng nhất của <i class=\"clr-orange\">Ngộ Không</i>.",
+		"hero_story": "Hầu Vương <i class=\"clr-orange\">Ngộ Không</i> từng đại nào thiên cung 500 năm trước khi hắn một mình đánh bại mười vạn thiên binh. Nhưng, dù đã tung hết sức, hắn cũng không thể thoát khỏi bàn tay của Phật Tổ Như Lai và bị phong ấn dưới Ngũ Hành Sơn. Mỗi thời khắc trong năm thế kỷ bị giam cầm ấy, <i class=\"clr-orange\">Ngộ Không</i> đều mơ về tự do.<br>\"Đầu tiên, ta sẽ làm bậy trước đại điện... để dạy cho chúng một bài học!\" <i class=\"clr-orange\">Ngộ Không</i> lẩm nhẩm giận dữ. Hắn chưa từng ghét Phật. Trái lại, <i class=\"clr-orange\">Ngộ Không</i> ngưỡng mộ Phật, bởi ngài đã chửng tỏ mình mạnh mẽ hơn hắn. Hắn chỉ muốn chơi khăm Phất một phen.<br>Tuy nhiên, khi phong ấn bị phá vỡ, <i class=\"clr-orange\">Ngộ Không</i> lại không làm như đã định. Hắn sợ ư? Không hẳn. Bởi một giọng nói chào đón hắn từ xa xăm: \"<i class=\"clr-orange\">Ngộ Không</i>, tướng, những kẻ bất tử, và cả thần thánh đã tập hợp lại đây cho trận chiến vĩ đại nhất mọi thời đại! Người dám chiến không?\" Điều đó vượt quá cả những giấc mơ điên cuồng nhất của <i class=\"clr-orange\">Ngộ Không</i>.",
 		"hero_skin": [
 			{
 				"name": "Tề Thiên Đệ Thánh",
@@ -5034,8 +5079,8 @@ var infoHeros = {
 			{
 				"name": "Hỏa Nhãn Kim Tinh (Bậc S)",
 				"gold": "",
-				"voucher": "",
-				"event": "Trong cửa hàng đá quý",
+				"voucher": "??",
+				"event": "",
 				"wall": "NgoKhong03",
 				"disable": "yes",
 				"img": "thumb3.jpg",
@@ -5062,6 +5107,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Sát thủ / Đấu sĩ",
 			"special": "Tiền đạo",
+			"lane": "Đi rừng",
 		},
 		"main_skill": [
 			{
@@ -5206,15 +5252,16 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ / Đỡ đòn",
 			"special": "Tiền đạo",
+			"lane": "Đường rồng / Đường Caesar",
 		},
 		"main_skill": [
 			{
 				"name": "Uy dũng",
-				"info": "Nội tại: Arthur được thần thánh hộ mệnh giúp tự thân sở hữu 28 giáp (tăng theo cấp Anh hùng).",
+				"info": "Nội tại: Arthur được thần thánh hộ mệnh giúp tự thân sở hữu 28 giáp (tăng theo cấp tướng).",
 			},
 			{
 				"name": "Gươm chính nghĩa",
-				"info": "ST Gốc: 180/205/230/255/280/305<br>H.Chiêu: 10/9/8/7/6/5<br>Arthur tăng 30% tốc chạy và cường hóa thanh gươm khiến đòn đánh kế sẽ nhảy xổ đến kẻ địch, gây 180 (+164) STVL, và làm chậm 90% tốc chạy của mục tiêu trong 1s, chưa hết nạn nhân Anh hùng địch còn phải chịu sự trừng phạt của thần linh khiến các đòn đánh thường và chiêu thức của Arthur gây thêm 1% máu tối đa của nạn nhân thành STP, đồng thời tăng tốc chạy của đồng minh xung quanh, hiệu ứng kéo dài 5s."
+				"info": "ST Gốc: 180/205/230/255/280/305<br>H.Chiêu: 10/9/8/7/6/5<br>Arthur tăng 30% tốc chạy và cường hóa thanh gươm khiến đòn đánh kế sẽ nhảy xổ đến kẻ địch, gây 180 (+164) STVL, và làm chậm 90% tốc chạy của mục tiêu trong 1s, chưa hết nạn nhân tướng địch còn phải chịu sự trừng phạt của thần linh khiến các đòn đánh thường và chiêu thức của Arthur gây thêm 1% máu tối đa của nạn nhân thành STP, đồng thời tăng tốc chạy của đồng minh xung quanh, hiệu ứng kéo dài 5s."
 			},
 			{
 				"name": "Thần vật hộ thân",
@@ -5370,6 +5417,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Xạ thủ",
 			"special": "Tiền đạo / Tiền vệ",
+			"lane": "Đi rừng / Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -5378,7 +5426,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Lao cơ khí",
-				"info": "ST Gốc: 150/200/250/300/350/400<br>Tốc đánh: 20%/24%/28%/32%/36%/40%<br>ST chuẩn: 100/140/180/220/260/300<br>Slimz phóng 1 mũi lao bay cực xa, nạn nhân đầu tiên trúng chiêu sẽ bị choáng và chịu tối thiểu 150 (+86) STVL, thời gian choáng và sát thương gây ra tỷ lệ thuận với khoảng cách mũi lao đã bay bao xa, tối đa choáng trong 2.5s và gây gấp đôi sát thương, mũi lao trúng đích giúp Slimz tăng 20% tốc đánh cơ bản trong 4s, nếu nạn nhân là Anh hùng địch sẽ khiến Slimz tăng thêm 60% tốc chạy trong 1s, nếu là lính hoặc quái sẽ gây thêm 100 STC."
+				"info": "ST Gốc: 150/200/250/300/350/400<br>Tốc đánh: 20%/24%/28%/32%/36%/40%<br>ST chuẩn: 100/140/180/220/260/300<br>Slimz phóng 1 mũi lao bay cực xa, nạn nhân đầu tiên trúng chiêu sẽ bị choáng và chịu tối thiểu 150 (+86) STVL, thời gian choáng và sát thương gây ra tỷ lệ thuận với khoảng cách mũi lao đã bay bao xa, tối đa choáng trong 2.5s và gây gấp đôi sát thương, mũi lao trúng đích giúp Slimz tăng 20% tốc đánh cơ bản trong 4s, nếu nạn nhân là tướng địch sẽ khiến Slimz tăng thêm 60% tốc chạy trong 1s, nếu là lính hoặc quái sẽ gây thêm 100 STC."
 			},
 			{
 				"name": "Lò xo cơ khí",
@@ -5514,6 +5562,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư",
 			"special": "Khống chế / Cấu rỉa",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -5530,7 +5579,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Thần trận",
-				"info": "ST Gốc: 640/820/1000<br>H.Chiêu: 70/60/50<br>Ilumia triệu hồi pháp trận chứa đầy sức mạnh thần thánh ngay vị trí hiện tại của tất cả Anh hùng địch, gây 640 (+0) STP, đồng thời làm choáng các nạn nhân.<br>Sau khi kích hoạt chiêu thức sẽ cho phép hiển thị vị trí mục tiêu.",
+				"info": "ST Gốc: 640/820/1000<br>H.Chiêu: 70/60/50<br>Ilumia triệu hồi pháp trận chứa đầy sức mạnh thần thánh ngay vị trí hiện tại của tất cả tướng địch, gây 640 (+0) STP, đồng thời làm choáng các nạn nhân.<br>Sau khi kích hoạt chiêu thức sẽ cho phép hiển thị vị trí mục tiêu.",
 			}
 		],
 		"skill_up": {
@@ -5616,7 +5665,7 @@ var infoHeros = {
 				]
 			}
 		],
-		"hero_story": "<i class=\"clr-orange\">Ilumia</i> sở hữu mọi thứ: nhan sắc, thông thái, sức mạnh, vinh quang, và quyền lực. Nếu Maloch đại diện cho thế lực bóng tối, <i class=\"clr-orange\">Ilumia</i> đại diện cho thế quyền uy ánh sáng. Mọi anh hùng đều trở nên lu mờ trước <i class=\"clr-orange\">Ilumia</i>. Cô không bao giờ để lộ diện mạo của mình, vì vẫn còn đó một danh tính cô cần duy trì: Nữ thần ánh sáng.<br>Sự thánh khiết, cao quý, đầy thanh tao của cô khiến tất cả đều tin rằng <i class=\"clr-orange\">Ilumia</i> chính là nữ thần mang đến hy vọng và ánh sáng cho nhân loại. Cung điện ánh sáng được dựng nên chính bởi thứ niềm tin này. Thời gian trôi qua niềm tin này không hề phai nhạt đi mà ngày càng trở nên vững chắc hơn, giúp những tín đồ kiên tâm trước các cám dỗ bóng tối.<br>Là một nhà lãnh đạo tài ba, <i class=\"clr-orange\">Ilumia</i> tinh thông cả đối nội lẫn đối ngoại. Dẫu rằng quyền uy của Thane như mặt trời buổi ban trưa, cô vẫn giải phóng được Cung điện khỏi các ràng buộc của Lâu đài Khởi nguyên. Đồng thời cô hợp sức cùng Rừng chạng vạng đánh bật được các cuộc tấn công của lực lượng Sa đọa. <i class=\"clr-orange\">Ilumia</i> sẽ chẳng bao giờ để quyền lực tuột khỏi tầm khống chế của bản thân.",
+		"hero_story": "<i class=\"clr-orange\">Ilumia</i> sở hữu mọi thứ: nhan sắc, thông thái, sức mạnh, vinh quang, và quyền lực. Nếu Maloch đại diện cho thế lực bóng tối, <i class=\"clr-orange\">Ilumia</i> đại diện cho thế quyền uy ánh sáng. Mọi tướng đều trở nên lu mờ trước <i class=\"clr-orange\">Ilumia</i>. Cô không bao giờ để lộ diện mạo của mình, vì vẫn còn đó một danh tính cô cần duy trì: Nữ thần ánh sáng.<br>Sự thánh khiết, cao quý, đầy thanh tao của cô khiến tất cả đều tin rằng <i class=\"clr-orange\">Ilumia</i> chính là nữ thần mang đến hy vọng và ánh sáng cho nhân loại. Cung điện ánh sáng được dựng nên chính bởi thứ niềm tin này. Thời gian trôi qua niềm tin này không hề phai nhạt đi mà ngày càng trở nên vững chắc hơn, giúp những tín đồ kiên tâm trước các cám dỗ bóng tối.<br>Là một nhà lãnh đạo tài ba, <i class=\"clr-orange\">Ilumia</i> tinh thông cả đối nội lẫn đối ngoại. Dẫu rằng quyền uy của Thane như mặt trời buổi ban trưa, cô vẫn giải phóng được Cung điện khỏi các ràng buộc của Lâu đài Khởi nguyên. Đồng thời cô hợp sức cùng Rừng chạng vạng đánh bật được các cuộc tấn công của lực lượng Sa đọa. <i class=\"clr-orange\">Ilumia</i> sẽ chẳng bao giờ để quyền lực tuột khỏi tầm khống chế của bản thân.",
 		"hero_skin": [
 			{
 				"name": "Nữ Thần Ánh Sáng",
@@ -5669,11 +5718,12 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư",
 			"special": "Cấu rỉa",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
 				"name": "Rồng dịch bệnh",
-				"info": "Nội tại: cưỡi rồng nên Preyta có tốc chạy nhanh hơn đa số Anh hùng khác!",
+				"info": "Nội tại: cưỡi rồng nên Preyta có tốc chạy nhanh hơn đa số tướng khác!",
 			},
 			{
 				"name": "Hơi độc hại",
@@ -5793,10 +5843,10 @@ var infoHeros = {
 				"video": "",
 			},
 			{
-				"name": "Băng Hỏa Long Sư (Bậc S)",
+				"name": "Băng Hỏa Long Sư (Hữu Hạn)",
 				"gold": "",
 				"voucher": "",
-				"event": "Trong shop đá quý",
+				"event": "Mở sự kiện",
 				"wall": "Preyta03",
 				"disable": "",
 				"img": "thumb3.jpg",
@@ -5813,6 +5863,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ / Đỡ đòn",
 			"special": "Tiền đạo / Khống chế",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -5947,6 +5998,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư / Sát thủ",
 			"special": "Cấu rỉa",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -6101,6 +6153,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư / Sát thủ",
 			"special": "Tiền đạo",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -6272,11 +6325,12 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Sát thủ / Đấu sĩ",
 			"special": "Tiền đạo / Trung phong",
+			"lane": "Đi rừng",
 		},
 		"main_skill": [
 			{
 				"name": "Truy nã",
-				"info": "Nội tại: tiến đến gần Anh hùng địch sẽ giúp tăng 20% tốc chạy.",
+				"info": "Nội tại: tiến đến gần tướng địch sẽ giúp tăng 20% tốc chạy.",
 			},
 			{
 				"name": "Vuốt chân không",
@@ -6416,6 +6470,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ / Sát thủ",
 			"special": "Tiền đạo / Trung phong",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -6432,7 +6487,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Long kiếm",
-				"info": "ST Gốc: 250/350/450<br>H.Chiêu: 40/35/30<br>Bảo hộ: 250/400/550<br>Airi tung Long kiếm, gây 250 (+147) STVL lên các mục tiêu và làm chậm tốc chạy của chúng, ngay sau đó Airi tiếp tục tung kiếm gây lượng sát thương tương tự và làm choáng các nạn nhân, mỗi Anh hùng địch trúng chiêu giúp Airi nhận lá chắn giúp chặn 250 (+127) sát thương, chưa hết Airi còn được tăng 100% tốc chạy giảm dần trong 2.5s kèm 30% tốc đánh trong 8s.",
+				"info": "ST Gốc: 250/350/450<br>H.Chiêu: 40/35/30<br>Bảo hộ: 250/400/550<br>Airi tung Long kiếm, gây 250 (+147) STVL lên các mục tiêu và làm chậm tốc chạy của chúng, ngay sau đó Airi tiếp tục tung kiếm gây lượng sát thương tương tự và làm choáng các nạn nhân, mỗi tướng địch trúng chiêu giúp Airi nhận lá chắn giúp chặn 250 (+127) sát thương, chưa hết Airi còn được tăng 100% tốc chạy giảm dần trong 2.5s kèm 30% tốc đánh trong 8s.",
 			}
 		],
 		"skill_up": {
@@ -6583,11 +6638,12 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ / Sát thủ",
 			"special": "Tiền đạo",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
 				"name": "Võ hồn",
-				"info": "Nội tại: mỗi 15s khi gây sát thương lên Anh hùng địch giúp kích hoạt nội lực của Zuka, khiến công vật lý khi tung đòn đánh kế trong vòng 4s được cường hóa 25/30/35/40% (tăng trưởng khi ở các cấp 1/5/9/13).",
+				"info": "Nội tại: mỗi 15s khi gây sát thương lên tướng địch giúp kích hoạt nội lực của Zuka, khiến công vật lý khi tung đòn đánh kế trong vòng 4s được cường hóa 25/30/35/40% (tăng trưởng khi ở các cấp 1/5/9/13).",
 			},
 			{
 				"name": "Loạn đã bổng",
@@ -6626,7 +6682,7 @@ var infoHeros = {
 			},
 		],
 		"skill_note": "*Nhanh chóng tạo lợi thế bằng việc đi gank các đường đang đẩy cao.",
-		"skill_special": "BocPha,TrungTri",
+		"skill_special": "BocPha,TocBien,TrungTri",
 		"main_rune": {
 			"rune2": [
 				{
@@ -6674,24 +6730,29 @@ var infoHeros = {
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp khi chơi cùng",
+				"desc": "thích hợp đi cùng đồng đội có khả năng giữ, làm chậm, cô lập mục tiêu,..tạo tiền đề cho Zuka bay nhảy dồn sát thương tốt hơn.",
 				"info": [
 					{"hero_id": "nakroth", "id_page": "Nakroth"},
 					{"hero_id": "preyta", "id_page": "Preyta"},
+					{"hero_id": "alice", "id_page": "Alice"},
+					{"hero_id": "payna", "id_page": "Payna"},
+					{"hero_id": "ybneth", "id_page": "Ybneth"},
 				]
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp",
+				"desc": "mạnh nhờ khả năng bay nhảy dồn hết combo, tuy nhiên hạn chế mặt này thì Zuka trở thành chú gấu lạc lõng giữa vòng tay kẻ địch..",
 				"info": [
 					{"hero_id": "airi", "id_page": "Airi"},
 					{"hero_id": "raz", "id_page": "Raz"},
-					{"hero_id": "violet", "id_page": "Violet"},
-					{"hero_id": "dieu_thuyen", "id_page": "DieuThuyen"},
+					{"hero_id": "annette", "id_page": "Annette"},
+					{"hero_id": "arum", "id_page": "Arum"},
+					{"hero_id": "omen", "id_page": "Omen"},
+					{"hero_id": "roxie", "id_page": "Roxie"},
 				]
 			}
 		],
-		"hero_story": "\"Một chiến binh thực thụ bảo vệ người yếu đuối và trừng trị cái ác.\"<br><i class=\"clr-orange\">Zuka</i> sinh ra trong một ngôi làng xinh đẹp và trù phú. Người trong làng hoạt động trong ban ngày và giữ yên tĩnh vào ban đêm. Đó là nơi mà con người được che chở khỏi những khó khăn và đau khổ của thế giới. Võ thuật chính là điều mà cư dân của ngôi làng đánh giá cao nhất. Vì vậy, ngay từ thuở niên thiếu, <i class=\"clr-orange\">Zuka</i> đã buộc phải nghiên cứu tất cả các phong cách chiến đấu và môn phái võ thuật do các bậc sư phụ chỉ dạy.<br>Chàng <i class=\"clr-orange\">Zuka</i> trẻ tuổi không hiểu tại sao anh ta cần phải dành nhiều thời gian và công sức để học võ, khi mà <i class=\"clr-orange\">Zuka</i> chưa bao giờ sử dụng? Chắc chắn nó sẽ tốt hơn nếu dành thời gian đó nghiên cứu những lĩnh vực khác bản thân thực sự muốn theo đuổi? \"Hòa bình không chỉ đơn giản là ngồi một chỗ và ao ước, con người phải có khả năng mới bảo vệ được hòa bình!\" Đó là câu trả lời của sư phụ với <i class=\"clr-orange\">Zuka</i>.<br>Những lời giáo huấn đó để lại một ấn tượng sâu sắc trong tâm trí <i class=\"clr-orange\">Zuka</i>. Khi Lực Lượng Sa Đọa xuất hiện từ thung lũng quỷ dữ đã lan truyền dịch bệnh và hỗn loạn, ngôi làng yên bình này chìm trong ngọn lửa chiến tranh. Trong một nỗ lực để chạy trốn, <i class=\"clr-orange\">Zuka</i> trẻ tuổi bắt tay vào một cuộc hành trình dài với gia đình của mình, vượt qua ngọn núi nguy hiểm để đến Khu Rừng Chạng Vạng huyền thoại.<br><i class=\"clr-orange\">Zuka</i> đã được nghe kể về Khu Rừng Chạng Vạng qua những câu chuyện của người già trong làng. Đây là nhà của Nữ hoàng Tel'Annas, nhưng cũng là nơi trú ngụ của vô số sinh vật lạ kì. Họ là đội quân dưới quyền nàng, lực lượng bảo vệ đất đai khỏi ác quỷ.<br>Trong suốt cuộc hành trình, <i class=\"clr-orange\">Zuka</i> đã chứng kiến nhiều tội ác của Lực Lượng Sa Đọa. Võ thuật mà ông đã luyện tập bao năm qua cuối cùng cũng đến lúc sử dụng. Với bộ giáp biểu tượng và tuyệt kĩ xài quyền trượng, ông đã chiến đấu chống lại kẻ ác thuộc Lực Lượng Sa Đọa và ra tay cứu người vô tội trong tay bọn chúng.<br>Những câu chuyện về người anh hùng <i class=\"clr-orange\">Zuka</i> được lan truyền khắp nơi. Từ Cung Điện Ánh Sáng đến Lâu Đài Khởi Nguyên, vốn nghi ngờ loài Thú từ lâu nay đã phải công khai tán dương chủ nghĩa anh hùng của <i class=\"clr-orange\">Zuka</i>. Ngay cả Nữ hoàng Tel'Annas cũng đã chuẩn bị một lễ đón xa hoa cho chiến binh danh dự của Khu Rừng. Sau đó, theo lời",
+		"hero_story": "\"Một chiến binh thực thụ bảo vệ người yếu đuối và trừng trị cái ác.\"<br><i class=\"clr-orange\">Zuka</i> sinh ra trong một ngôi làng xinh đẹp và trù phú. Người trong làng hoạt động trong ban ngày và giữ yên tĩnh vào ban đêm. Đó là nơi mà con người được che chở khỏi những khó khăn và đau khổ của thế giới. Võ thuật chính là điều mà cư dân của ngôi làng đánh giá cao nhất. Vì vậy, ngay từ thuở niên thiếu, <i class=\"clr-orange\">Zuka</i> đã buộc phải nghiên cứu tất cả các phong cách chiến đấu và môn phái võ thuật do các bậc sư phụ chỉ dạy.<br>Chàng <i class=\"clr-orange\">Zuka</i> trẻ tuổi không hiểu tại sao anh ta cần phải dành nhiều thời gian và công sức để học võ, khi mà <i class=\"clr-orange\">Zuka</i> chưa bao giờ sử dụng? Chắc chắn nó sẽ tốt hơn nếu dành thời gian đó nghiên cứu những lĩnh vực khác bản thân thực sự muốn theo đuổi? \"Hòa bình không chỉ đơn giản là ngồi một chỗ và ao ước, con người phải có khả năng mới bảo vệ được hòa bình!\" Đó là câu trả lời của sư phụ với <i class=\"clr-orange\">Zuka</i>.<br>Những lời giáo huấn đó để lại một ấn tượng sâu sắc trong tâm trí <i class=\"clr-orange\">Zuka</i>. Khi Lực Lượng Sa Đọa xuất hiện từ thung lũng quỷ dữ đã lan truyền dịch bệnh và hỗn loạn, ngôi làng yên bình này chìm trong ngọn lửa chiến tranh. Trong một nỗ lực để chạy trốn, <i class=\"clr-orange\">Zuka</i> trẻ tuổi bắt tay vào một cuộc hành trình dài với gia đình của mình, vượt qua ngọn núi nguy hiểm để đến Khu Rừng Chạng Vạng huyền thoại.<br><i class=\"clr-orange\">Zuka</i> đã được nghe kể về Khu Rừng Chạng Vạng qua những câu chuyện của người già trong làng. Đây là nhà của Nữ hoàng Tel'Annas, nhưng cũng là nơi trú ngụ của vô số sinh vật lạ kì. Họ là đội quân dưới quyền nàng, lực lượng bảo vệ đất đai khỏi ác quỷ.<br>Trong suốt cuộc hành trình, <i class=\"clr-orange\">Zuka</i> đã chứng kiến nhiều tội ác của Lực Lượng Sa Đọa. Võ thuật mà ông đã luyện tập bao năm qua cuối cùng cũng đến lúc sử dụng. Với bộ giáp biểu tượng và tuyệt kĩ xài quyền trượng, ông đã chiến đấu chống lại kẻ ác thuộc Lực Lượng Sa Đọa và ra tay cứu người vô tội trong tay bọn chúng.<br>Những câu chuyện về người tướng <i class=\"clr-orange\">Zuka</i> được lan truyền khắp nơi. Từ Cung Điện Ánh Sáng đến Lâu Đài Khởi Nguyên, vốn nghi ngờ loài Thú từ lâu nay đã phải công khai tán dương chủ nghĩa tướng của <i class=\"clr-orange\">Zuka</i>. Ngay cả Nữ hoàng Tel'Annas cũng đã chuẩn bị một lễ đón xa hoa cho chiến binh danh dự của Khu Rừng. Sau đó, theo lời",
 		"hero_skin": [
 			{
 				"name": "Đại Sư Gấu Mèo",
@@ -6754,6 +6815,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư",
 			"special": "Cấu rỉa",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -6889,6 +6951,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Sát thủ / Đấu sĩ",
 			"special": "Tiền đạo / Trung phong",
+			"lane": "Đi rừng",
 		},
 		"main_skill": [
 			{
@@ -6905,7 +6968,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Ảo ảnh trảm",
-				"info": "ST Gốc: 150/215/280<br>Murad giải phóng sức mạnh của bản thân, tạo ra vô số ảo ảnh tấn công liên tục 5 đòn đánh lên mọi kẻ địch trong vùng ảnh hưởng, gây 150 (+114) STVL mỗi đợt, kèm hiệu ứng hút máu (dựa trên thông số Anh hùng), suốt thời gian tung chiêu, Murad không thể bị tấn công hoặc chọn làm mục tiêu, ngoài ra Ảo ảnh trảm chỉ có thể được tung sau khi phong ấn được phá giải, và lập tức bị phong ấn trở lại sau khi vừa tung chiêu.",
+				"info": "ST Gốc: 150/215/280<br>Murad giải phóng sức mạnh của bản thân, tạo ra vô số ảo ảnh tấn công liên tục 5 đòn đánh lên mọi kẻ địch trong vùng ảnh hưởng, gây 150 (+114) STVL mỗi đợt, kèm hiệu ứng hút máu (dựa trên thông số tướng), suốt thời gian tung chiêu, Murad không thể bị tấn công hoặc chọn làm mục tiêu, ngoài ra Ảo ảnh trảm chỉ có thể được tung sau khi phong ấn được phá giải, và lập tức bị phong ấn trở lại sau khi vừa tung chiêu.",
 			}
 		],
 		"skill_up": {
@@ -6924,7 +6987,7 @@ var infoHeros = {
 			}
 		],
 		"skill_note": "*Chọn vị trí an toàn để bật chiêu cuối, sao đó có thể rút khỏi giao tranh một cách an toàn.",
-		"skill_special": "TrungTri,TocBien",
+		"skill_special": "TrungTri,BocPha",
 		"main_rune": {
 			"rune2": [
 				{
@@ -6957,20 +7020,16 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Đi rừng Tốc độ đánh + ST",
-				"info": "KiemTruyHon,GiayDuMuc,ThuongLonginus,PhucHopKiem,AoChoangBangGia,LiemDoatMenh",
+				"name": "Đi rừng 1",
+				"info": "KiemTruyHon,GiayHoVe,ThuongXuyenPha,PhucHopKiem,NanhFenrir,KiemMuramasa",
 			},
 			{
-				"name": "Đi rừng",
-				"info": "KiemTruyHon,GiayKienCuong,ThuongXuyenPha,PhucHopKiem,LiemDoatMenh,KiemMuramasa",
-			},
-			{
-				"name": "Đi rừng",
-				"info": "RiuLeviathan,GiayKienCuong,GiapHoMenh,ThuongXuyenPha,LiemDoatMenh,GiapThongKho",
+				"name": "Đường Caesar",
+				"info": "ThuongLonginus,GiayHoVe,ThuongXuyenPha,AoChoangBangGia,PhucHopKiem,LiemDoatMenh",
 			},
 			{
 				"name": "Game thủ hay lên",
-				"info": "KiemTruyHon,GiayKienCuong,ThuongLonginus,ThuongXuyenPha,PhucHopKiem,NanhFenrir",
+				"info": "KiemTruyHon,GiayDuMuc,ThuongXuyenPha,PhucHopKiem,NanhFenrir,GiapHoMenh",
 			}
 		],
 		"hero_battle": [
@@ -7047,6 +7106,16 @@ var infoHeros = {
 				"img": "thumb5.jpg",
 				"video": "",
 			},
+			{
+				"name": "Đồ Thần Đao (Bậc S)",
+				"gold": "",
+				"voucher": "429",
+				"event": "",
+				"wall": "Murad06",
+				"disable": "yes",
+				"img": "thumb6.jpg",
+				"video": "",
+			},
 		]
 	},
 	"zill": {
@@ -7058,6 +7127,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư / Sát thủ",
 			"special": "Tiền đạo / Trung phong",
+			"lane": "Đi rừng",
 		},
 		"main_skill": [
 			{
@@ -7158,7 +7228,7 @@ var infoHeros = {
 				]
 			}
 		],
-		"hero_story": "\"Tiếng gầm của cơn bão chính là điềm báo tử của các ngươi!\"<br>Lịch sử kể rằng nhiều anh hùng đã thoát khỏi sự kiểm soát của lực hấp dẫn và bay lên không trung. Tuy nhiên, không ai trong số họ đã có thể thoải mái bay lượn tự do như những chú chim bởi sự xuất hiện của <i class=\"clr-orange\">Zill</i>, mối nguy hiểm tiềm ẩn trên bầu trời. Là hiện thân của sức mạnh tự nhiên, <i class=\"clr-orange\">Zill</i> tàn phá cơ chế phòng thủ của đối phương mạnh mẽ như bão và cũng nhẹ nhàng, đau đớn tới thấu xương như một ngọn gió.<br>Trong cuộc chiến vĩ đại, <i class=\"clr-orange\">Zill</i> đã ra tay diệt trừ hàng tá quỷ dữ. Những chiến tích xuất sắc và vang dội đã giúp <i class=\"clr-orange\">Zill</i> giành lấy đỉnh cao danh vọng và ngưỡng mộ. Tuy nhiên, không ai hiểu tại sao ông lại từ chối danh hiệu Người bảo vệ Khu Rừng Hắc Ám. Đơn giản, <i class=\"clr-orange\">Zill</i> nói rằng vinh quang là không phù hợp với bản chất tự do của mình.<br>\"Khi bạn cần tôi, lưỡi dao của tôi sẽ luôn sẵn sàng phục vụ. Nhưng ta là gió, và gió thì không gì có thể trói buộc\". Đó là lời giải thích của ông với Nữ hoàng Tel'Annas. Sự trung thành và bản ngã của ông luôn giành được sự tôn trọng và tin tưởng của nữ hoàng. Trước khi tiến vào ngủ ngàn năm, nàng đã trao cho <i class=\"clr-orange\">Zill</i> quyền thực hiện ý chí tự do. Ông không bị yêu cầu thực hiện bất kỳ nhiệm vụ cụ thể nào, nhưng được phép tiếp cận với các tài nguyên của Khu Rừng Chạng Vạng<br>Sau đó, <i class=\"clr-orange\">Zill</i> biến mất khỏi sự chú ý của công chúng. Ngoại trừ tinh linh Krixi thỉnh thoảng cảm nhận được sự hiện diện của ông, không ai khác tìm thấy được dấu vết của <i class=\"clr-orange\">Zill</i>. Trong một thời gian, mọi người thậm chí còn quên tất cả về người anh hùng cai trị bầu trời tên tuổi thuở nào. Tuy nhiên, ngày thức dậy của nữ hoàng Tel’Annas, <i class=\"clr-orange\">Zill</i> là người đầu tiên trở lại bên cạnh cô. Trong một nghìn năm dài, <i class=\"clr-orange\">Zill</i> đã bỏ tự do mà ông hằng mong muốn để canh giữ cho giấc ngủ của Tel'Annas. Đây là cách để đáp trả lại sự tin tưởng vô điều kiện mà nữ hoàng đã dành cho ông.",
+		"hero_story": "\"Tiếng gầm của cơn bão chính là điềm báo tử của các ngươi!\"<br>Lịch sử kể rằng nhiều tướng đã thoát khỏi sự kiểm soát của lực hấp dẫn và bay lên không trung. Tuy nhiên, không ai trong số họ đã có thể thoải mái bay lượn tự do như những chú chim bởi sự xuất hiện của <i class=\"clr-orange\">Zill</i>, mối nguy hiểm tiềm ẩn trên bầu trời. Là hiện thân của sức mạnh tự nhiên, <i class=\"clr-orange\">Zill</i> tàn phá cơ chế phòng thủ của đối phương mạnh mẽ như bão và cũng nhẹ nhàng, đau đớn tới thấu xương như một ngọn gió.<br>Trong cuộc chiến vĩ đại, <i class=\"clr-orange\">Zill</i> đã ra tay diệt trừ hàng tá quỷ dữ. Những chiến tích xuất sắc và vang dội đã giúp <i class=\"clr-orange\">Zill</i> giành lấy đỉnh cao danh vọng và ngưỡng mộ. Tuy nhiên, không ai hiểu tại sao ông lại từ chối danh hiệu Người bảo vệ Khu Rừng Hắc Ám. Đơn giản, <i class=\"clr-orange\">Zill</i> nói rằng vinh quang là không phù hợp với bản chất tự do của mình.<br>\"Khi bạn cần tôi, lưỡi dao của tôi sẽ luôn sẵn sàng phục vụ. Nhưng ta là gió, và gió thì không gì có thể trói buộc\". Đó là lời giải thích của ông với Nữ hoàng Tel'Annas. Sự trung thành và bản ngã của ông luôn giành được sự tôn trọng và tin tưởng của nữ hoàng. Trước khi tiến vào ngủ ngàn năm, nàng đã trao cho <i class=\"clr-orange\">Zill</i> quyền thực hiện ý chí tự do. Ông không bị yêu cầu thực hiện bất kỳ nhiệm vụ cụ thể nào, nhưng được phép tiếp cận với các tài nguyên của Khu Rừng Chạng Vạng<br>Sau đó, <i class=\"clr-orange\">Zill</i> biến mất khỏi sự chú ý của công chúng. Ngoại trừ tinh linh Krixi thỉnh thoảng cảm nhận được sự hiện diện của ông, không ai khác tìm thấy được dấu vết của <i class=\"clr-orange\">Zill</i>. Trong một thời gian, mọi người thậm chí còn quên tất cả về người tướng cai trị bầu trời tên tuổi thuở nào. Tuy nhiên, ngày thức dậy của nữ hoàng Tel’Annas, <i class=\"clr-orange\">Zill</i> là người đầu tiên trở lại bên cạnh cô. Trong một nghìn năm dài, <i class=\"clr-orange\">Zill</i> đã bỏ tự do mà ông hằng mong muốn để canh giữ cho giấc ngủ của Tel'Annas. Đây là cách để đáp trả lại sự tin tưởng vô điều kiện mà nữ hoàng đã dành cho ông.",
 		"hero_skin": [
 			{
 				"name": "Ma Phong Ba",
@@ -7201,6 +7271,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ / Đỡ đòn",
 			"special": "Tiền đạo / Khống chế",
+			"lane": "Đường Caesar / Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -7209,7 +7280,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Hồn trảm",
-				"info": "ST Gốc: 250/300/350/400/450/500<br>Arduin vung rìu chém ra một vòng cung năng lượng gây 250 (+159) STVL, và làm chậm 40% tốc chạy của nạn nhân trúng chiêu trong 2s, nếu có Anh hùng địch trúng chiêu, Arduin có thể tiếp tục nện rìu xuống đất gây 250 (+159) STVL và hất tung những kẻ địch trong vùng ảnh hưởng trong 1s."
+				"info": "ST Gốc: 250/300/350/400/450/500<br>Arduin vung rìu chém ra một vòng cung năng lượng gây 250 (+159) STVL, và làm chậm 40% tốc chạy của nạn nhân trúng chiêu trong 2s, nếu có tướng địch trúng chiêu, Arduin có thể tiếp tục nện rìu xuống đất gây 250 (+159) STVL và hất tung những kẻ địch trong vùng ảnh hưởng trong 1s."
 			},
 			{
 				"name": "Hồn giáp",
@@ -7302,7 +7373,7 @@ var infoHeros = {
 				]
 			}
 		],
-		"hero_story": "Dưới huấn luyện của Vedä, <i class=\"clr-orange\">Arduin</i> đã trở thành lãnh đạo của loài người.<br>Dũng cảm và kiên trì, <i class=\"clr-orange\">Arduin</i> chính là hình mẫu của một nhà lãnh đạo vĩ đại trong mắt công chúng. Bài diễn văn đầy say mê và thuyết phục của anh đã thu hút vô vàn chiến binh trẻ tuổi tham gia quân đoàn của mình, đấu tranh cho những mục tiêu cao cả.<br><i class=\"clr-orange\">Arduin</i> đã từng coi Thane là đối thủ chính của mình. Cả hai đã hẹn thách đấu vì danh dự, mặc dù đã chiến thắng nhưng phong cách chiến đấu không sợ hãi và tư duy chiến thuật của Thane đã khuất phục <i class=\"clr-orange\">Arduin</i>. Cả hai đã quyết định hợp táãnhây dựng tình bạn và trở thành đồng minh.<br>Bộ đôi này chính là chìa khóa cho chiến thắng vẻ vang của quân đoàn, khiến Lực lượng Sa ngã buộc phải rút lui về Inferi phòng thủ. Trong trận chiến cuối cùng, <i class=\"clr-orange\">Arduin</i> và Thane lần đầu bất đồng quan điểm. <i class=\"clr-orange\">Arduin</i> muốn tiếp tục đem quân đi chiến đấu, với hy vọng xóa sổ các thế lực Bóng tối, trong khi Thane cho rằng hành động như vậy sẽ phá hủy những gì họ đã giành được bấy lâu nay.<br>Không thuyết phục được Thane, <i class=\"clr-orange\">Arduin</i> đã bỏ đi cùng với những chiến binh Vedä và người ủng hộ. Họ tiến vào Inferi để săn lùng những thành viên còn lại của phe Lực lượng Sa đọa. Tuy nhiên, họ đã mắc vào bẫy của Veera quỷ quyệt. Ả hồi sinh ngọn lửa băng giá, quyết tâm thiêu trụi quân đoàn. Hối tiếc về quyết định nóng vội của mình, <i class=\"clr-orange\">Arduin</i> sải bước qua đám lửa, cố gắng tạo ra một cơn bão bằng cách quẳng cây rìu của mình, mở lối đi an toàn cho các chiến binh.<br>Nhờ nỗ lực của <i class=\"clr-orange\">Arduin</i>, một vài chiến binh đã kịp bỏ chạy trong khi người thủ lĩnh cùng những đồng đội khác không may mắn tới vậy. <i class=\"clr-orange\">Arduin</i> tưởng như đã bị biển lửa thiêu trụi, tuy nhiên bộ giáp Vedä đã kịp bảo vệ anh. Anh quăng rìu trong vô vọng, nhằm đẩy lùi đội quân quỷ dữ bủa vây xung quanh<br>Veera bước vào và dùng ngọn lửa băng giá làm tê liệt hoàn toàn cơ thể <i class=\"clr-orange\">Arduin</i>, vô hiệu hóa dấu ấn Vedä và thay thế bằng dấu ấn của ác quỷ. Cơ thể của <i class=\"clr-orange\">Arduin</i> trở thành tro tàn, tinh thần chiến đấu của anh nay đã bị bóng tối chiếm lấy. Ngọn lửa bang giá chi phối hoàn toàn tâm trí và bộ giáp của Adurin, biến anh thành công cụ chiến tranh của Lực lượng Sa đọa.<br>\"Hãy bày tỏ lòng thương tiếc cho <i class=\"clr-orange\">Arduin</i> bởi bạn sẽ không còn cơ hội nhìn thấy một người anh hùng huyền thoại như thế lần nữa!\"",
+		"hero_story": "Dưới huấn luyện của Vedä, <i class=\"clr-orange\">Arduin</i> đã trở thành lãnh đạo của loài người.<br>Dũng cảm và kiên trì, <i class=\"clr-orange\">Arduin</i> chính là hình mẫu của một nhà lãnh đạo vĩ đại trong mắt công chúng. Bài diễn văn đầy say mê và thuyết phục của anh đã thu hút vô vàn chiến binh trẻ tuổi tham gia quân đoàn của mình, đấu tranh cho những mục tiêu cao cả.<br><i class=\"clr-orange\">Arduin</i> đã từng coi Thane là đối thủ chính của mình. Cả hai đã hẹn thách đấu vì danh dự, mặc dù đã chiến thắng nhưng phong cách chiến đấu không sợ hãi và tư duy chiến thuật của Thane đã khuất phục <i class=\"clr-orange\">Arduin</i>. Cả hai đã quyết định hợp táãnhây dựng tình bạn và trở thành đồng minh.<br>Bộ đôi này chính là chìa khóa cho chiến thắng vẻ vang của quân đoàn, khiến Lực lượng Sa ngã buộc phải rút lui về Inferi phòng thủ. Trong trận chiến cuối cùng, <i class=\"clr-orange\">Arduin</i> và Thane lần đầu bất đồng quan điểm. <i class=\"clr-orange\">Arduin</i> muốn tiếp tục đem quân đi chiến đấu, với hy vọng xóa sổ các thế lực Bóng tối, trong khi Thane cho rằng hành động như vậy sẽ phá hủy những gì họ đã giành được bấy lâu nay.<br>Không thuyết phục được Thane, <i class=\"clr-orange\">Arduin</i> đã bỏ đi cùng với những chiến binh Vedä và người ủng hộ. Họ tiến vào Inferi để săn lùng những thành viên còn lại của phe Lực lượng Sa đọa. Tuy nhiên, họ đã mắc vào bẫy của Veera quỷ quyệt. Ả hồi sinh ngọn lửa băng giá, quyết tâm thiêu trụi quân đoàn. Hối tiếc về quyết định nóng vội của mình, <i class=\"clr-orange\">Arduin</i> sải bước qua đám lửa, cố gắng tạo ra một cơn bão bằng cách quẳng cây rìu của mình, mở lối đi an toàn cho các chiến binh.<br>Nhờ nỗ lực của <i class=\"clr-orange\">Arduin</i>, một vài chiến binh đã kịp bỏ chạy trong khi người thủ lĩnh cùng những đồng đội khác không may mắn tới vậy. <i class=\"clr-orange\">Arduin</i> tưởng như đã bị biển lửa thiêu trụi, tuy nhiên bộ giáp Vedä đã kịp bảo vệ anh. Anh quăng rìu trong vô vọng, nhằm đẩy lùi đội quân quỷ dữ bủa vây xung quanh<br>Veera bước vào và dùng ngọn lửa băng giá làm tê liệt hoàn toàn cơ thể <i class=\"clr-orange\">Arduin</i>, vô hiệu hóa dấu ấn Vedä và thay thế bằng dấu ấn của ác quỷ. Cơ thể của <i class=\"clr-orange\">Arduin</i> trở thành tro tàn, tinh thần chiến đấu của anh nay đã bị bóng tối chiếm lấy. Ngọn lửa bang giá chi phối hoàn toàn tâm trí và bộ giáp của Adurin, biến anh thành công cụ chiến tranh của Lực lượng Sa đọa.<br>\"Hãy bày tỏ lòng thương tiếc cho <i class=\"clr-orange\">Arduin</i> bởi bạn sẽ không còn cơ hội nhìn thấy một người tướng huyền thoại như thế lần nữa!\"",
 		"hero_skin": [
 			{
 				"name": "Linh Hồn Phẫn Nộ",
@@ -7335,6 +7406,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Xạ thủ",
 			"special": "Cấu rỉa",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -7477,6 +7549,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ / Sát thủ",
 			"special": "Cấu rỉa / Trung phong",
+			"lane": "Đường Caesar / Đi rừng",
 		},
 		"main_skill": [
 			{
@@ -7485,7 +7558,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Thần hành bách biến",
-				"info": "ST Gốc: 250/300/350/400/450/500<br>Ryoma nhảy lùi lại để tung một đường kiếm cực mạnh, gây 250 (+206) STVL lên kẻ địch lân cận, nếu chiêu thức sát thương Anh hùng địch sẽ khiến thời gian chiêu của Thành hành bách biến được giảm 3s, hiệu ứng này không cộng dồn."
+				"info": "ST Gốc: 250/300/350/400/450/500<br>Ryoma nhảy lùi lại để tung một đường kiếm cực mạnh, gây 250 (+206) STVL lên kẻ địch lân cận, nếu chiêu thức sát thương tướng địch sẽ khiến thời gian chiêu của Thành hành bách biến được giảm 3s, hiệu ứng này không cộng dồn."
 			},
 			{
 				"name": "Nhất kích tất sát",
@@ -7493,7 +7566,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Loạn trảm",
-				"info": "ST Gốc: 130/180/230<br>H.Chiêu: 12/11/10<br>Hồi máu: 70/100/130<br>Ryoma đâm kiếm liên tục 4 lần, mỗi đợt gây 140 (+115) STVL, mỗi cú đấm trúng Anh hùng địch giúp Ryoma hồi 70 (+57) máu.",
+				"info": "ST Gốc: 130/180/230<br>H.Chiêu: 12/11/10<br>Hồi máu: 70/100/130<br>Ryoma đâm kiếm liên tục 4 lần, mỗi đợt gây 140 (+115) STVL, mỗi cú đấm trúng tướng địch giúp Ryoma hồi 70 (+57) máu.",
 			}
 		],
 		"skill_up": {
@@ -7549,12 +7622,12 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Đi rừng",
-				"info": "ThuongXuyenPha,GiayHermes,KiemMuramasa,PhucHopKiem,NanhFenrir,GiapHoMenh",
+				"name": "Đường Caesar",
+				"info": "ThuongLonginus,GiayHoVe,ThuongXuyenPha,AoChoangBangGia,NanhFenrir,GiapHoMenh",
 			},
 			{
-				"name": "Đường trên hoặc dưới",
-				"info": "RiuGnoll,GiayKienCuong,ThuongXuyenPha,AoChoangBangGia,KiemMuramasa,HuanChuongTroy",
+				"name": "Đi rừng",
+				"info": "KiemTruyHon,GiayKienCuong,ThuongXuyenPha,AoChoangBangGia,KiemMuramasa,HuanChuongTroy",
 			},
 			{
 				"name": "Game thủ hay lên",
@@ -7635,6 +7708,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ / Đỡ đòn",
 			"special": "Tiền đạo",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -7647,7 +7721,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Quả cảm",
-				"info": "ST Gốc: 60/90/120/150/180/210<br>H.Chiêu: 10/9.6/9.2/8.8/8.4/8<br>Astrid lướt theo hướng chỉ định, khiến đòn đánh kế gây thêm 60 (+85) STVL, và làm chậm 50% tốc chạy của kẻ địch trúng chiêu trong 1.5s, đồng thời giảm 30% giáp của nạn nhân trong 4s, đòn đánh thường lên Anh hùng giúp giảm 1s hồi chiêu Quả cảm (trúng nhiều Anh hùng không cộng dồn).",
+				"info": "ST Gốc: 60/90/120/150/180/210<br>H.Chiêu: 10/9.6/9.2/8.8/8.4/8<br>Astrid lướt theo hướng chỉ định, khiến đòn đánh kế gây thêm 60 (+85) STVL, và làm chậm 50% tốc chạy của kẻ địch trúng chiêu trong 1.5s, đồng thời giảm 30% giáp của nạn nhân trong 4s, đòn đánh thường lên tướng giúp giảm 1s hồi chiêu Quả cảm (trúng nhiều tướng không cộng dồn).",
 			},
 			{
 				"name": "Cự kiếm",
@@ -7780,11 +7854,12 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Xạ thủ",
 			"special": "Cấu rỉa",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
 				"name": "Sao trời",
-				"info": "Nội tại: tăng 8% công vật lý khi có Anh hùng đồng minh xung quanh.<br>Tốc đánh cơ bản theo cấp：3%<br>Công vật lý cơ bản：163",
+				"info": "Nội tại: tăng 8% công vật lý khi có tướng đồng minh xung quanh.<br>Tốc đánh cơ bản theo cấp：3%<br>Công vật lý cơ bản：163",
 			},
 			{
 				"name": "Ưng nhãn",
@@ -7946,6 +8021,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ / Đỡ đòn",
 			"special": "Tiền đạo / Tiền vệ",
+			"lane": "Đường giữa / Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -8049,7 +8125,7 @@ var infoHeros = {
 				]
 			}
 		],
-		"hero_story": "Trên hành tinh Krypton sắp chết, một đứa trẻ tên là Kal-El được đặt bên trong một tên lửa và được lập trình gửi tới Trái Đất. Là người Krypton cuối cùng sống sót, Kal-El đã được nuôi dưỡng bởi hai nông dân: bà Martha và ông Jonathan Kent. Hai người đặt cho Kal-El một cái tên mới là Clark và nuôi nấng cậu bé ấy bằng tình yêu và đức hạnh. Từ những giá trị đó, cậu bé đã khôn lớn và trở thành người anh hùng Siêu Nhân.<br>Bức xạ màu vàng từ mặt trời của Trái Đất cho phép Siêu Nhân có khả năng phi thường, bao gồm: siêu sức mạnh, tốc độ và cơ thể bất hoại. Siêu nhân sở hữu khả năng bay lượn với tốc độ cao, mắt chuyển hóa năng lượng thành chùm tia X phóng ra nhiệt lượng, nhìn thấy hạt ánh sáng hay trường năng lượng sinh học trên cơ thể sống. Siêu Nhân sử dụng năng lực của bản thân để giúp đỡ người dân của Trái Đất tránh khỏi tai hoạ và phát triển giác quan đạt tới giới hạn tiềm năng.<br>Mặc dù coi Trái đất là nhà nhưng Siêu Nhân vẫn không hoàn toàn thuộc thế giới này. Kiến thức ít ỏi của về hành tinh Krypton - ngôi nhà thực sự, về ánh sao xa mờ hay mảnh mặt trời đã khiến Siêu Nhân không dám liều lĩnh rời xa Trái Đất.<br>Định mệnh đã thay đổi trong một ngày mùa thu, Siêu Nhân đối mặt một trong những kẻ thù đáng gờm nhất của mình. Kẻ phản diện Brainiac với sức mạnh không rõ nguồn gốc, đã tìm đến Trái Đất cùng một đội quân robot tiên tiến. Phải sử dụng tới chút năng lực cuối cùng, Siêu Nhân mới tiêu diệt Brainiac. Sức bền của Người đàn ông thép đã chiến thắng và trước khi dùng tia X để quan sát Brainiac, Siêu Nhân nhận ra một luồng sáng chói lóa. Những viên ngọc lấp lánh từ bộ giáp của Brainiac truyền năng lượng đột biến vào bàn tay và cột sống của Siêu Nhân. Cảm thấy không tin tưởng vào nguồn sức mạnh đáng kinh ngạc này, <i class=\"clr-orange\">Superman</i> mang chúng về Pháo Đài Cô Đơn ở Bắc Cực để phân tích.<br>Máy tính của Pháo Đài Cô Đơn không thể tìm thấy bất cứ vật liệu nào tương tự trong dải thiên hà. Tuy nhiên, một lời gợi ý về hiện vật đó vô tình xuất hiện trong nhật ký cha của Siêu Nhân, nhà khoa học Kryptonian: Jor-El. <i class=\"clr-orange\">Superman</i> phát hiện ra rằng cha mình đã từng nghiên cứu một mẫu vật tương tự, được gọi là mảnh vỡ Andura. Mẫu vật này, thứ là chìa khóa sức mạnh giúp Brainiac chiếm Trái Đất, mới chỉ là một mảnh nhỏ. Nguồn gốc của những mảnh Andura đến từ một vương quốc có tên Athanor, một nơi nằm ngoài Vùng Vô Định. Các nhà khoa học Krypton đã chế giễu nghiên cứu của Jor-El về sự tồn tại của chiều không gian song song và ma thuật phát sinh từ Athanor có liên quan đến vũ trụ vật chất – khiến công trình và sự nghiệp của ông tiêu tan.<br>Nhưng Jor-El đã đúng. Khi xem xét kho lưu trữ của Pháo Đài Cô Đơn, Siêu Nhân đã biết được rằng những người Krypton cổ đại đã tìm kiếm những mảnh vỡ Andura để khám phá dải Thiên Hà và thậm chí có thể họ đã viếng thăm Trái Đất từ rất lâu trong một nhiệm vụ. Tuy nhiên tại đây Siêu Nhân phát hiện ra rằng rằng Brainiac đã tăng gấp đôi việc tìm kiếm mảnh vỡ Andura và nếu công bố nguồn sức mạnh tối thượng này, tất cả Trái Đất sẽ gặp nguy hiểm.<br><i class=\"clr-orange\">Superman</i> đã mất đi một quê hương, anh ta không thể đánh mất thêm quê hương thứ hai. Vì vậy, người đàn ông thép tự đi tìm kiếm Athanor và mảnh vỡ Andura trong dải Thiên Hà. Đây là cách hoàn thành nốt di sản của cha mình, cũng đồng thời biến Siêu Nhân trở thành người bảo vệ mới của thế giới trong cơn tuyệt vọng giữa sự thật và công lý.",
+		"hero_story": "Trên hành tinh Krypton sắp chết, một đứa trẻ tên là Kal-El được đặt bên trong một tên lửa và được lập trình gửi tới Trái Đất. Là người Krypton cuối cùng sống sót, Kal-El đã được nuôi dưỡng bởi hai nông dân: bà Martha và ông Jonathan Kent. Hai người đặt cho Kal-El một cái tên mới là Clark và nuôi nấng cậu bé ấy bằng tình yêu và đức hạnh. Từ những giá trị đó, cậu bé đã khôn lớn và trở thành người tướng Siêu Nhân.<br>Bức xạ màu vàng từ mặt trời của Trái Đất cho phép Siêu Nhân có khả năng phi thường, bao gồm: siêu sức mạnh, tốc độ và cơ thể bất hoại. Siêu nhân sở hữu khả năng bay lượn với tốc độ cao, mắt chuyển hóa năng lượng thành chùm tia X phóng ra nhiệt lượng, nhìn thấy hạt ánh sáng hay trường năng lượng sinh học trên cơ thể sống. Siêu Nhân sử dụng năng lực của bản thân để giúp đỡ người dân của Trái Đất tránh khỏi tai hoạ và phát triển giác quan đạt tới giới hạn tiềm năng.<br>Mặc dù coi Trái đất là nhà nhưng Siêu Nhân vẫn không hoàn toàn thuộc thế giới này. Kiến thức ít ỏi của về hành tinh Krypton - ngôi nhà thực sự, về ánh sao xa mờ hay mảnh mặt trời đã khiến Siêu Nhân không dám liều lĩnh rời xa Trái Đất.<br>Định mệnh đã thay đổi trong một ngày mùa thu, Siêu Nhân đối mặt một trong những kẻ thù đáng gờm nhất của mình. Kẻ phản diện Brainiac với sức mạnh không rõ nguồn gốc, đã tìm đến Trái Đất cùng một đội quân robot tiên tiến. Phải sử dụng tới chút năng lực cuối cùng, Siêu Nhân mới tiêu diệt Brainiac. Sức bền của Người đàn ông thép đã chiến thắng và trước khi dùng tia X để quan sát Brainiac, Siêu Nhân nhận ra một luồng sáng chói lóa. Những viên ngọc lấp lánh từ bộ giáp của Brainiac truyền năng lượng đột biến vào bàn tay và cột sống của Siêu Nhân. Cảm thấy không tin tưởng vào nguồn sức mạnh đáng kinh ngạc này, <i class=\"clr-orange\">Superman</i> mang chúng về Pháo Đài Cô Đơn ở Bắc Cực để phân tích.<br>Máy tính của Pháo Đài Cô Đơn không thể tìm thấy bất cứ vật liệu nào tương tự trong dải thiên hà. Tuy nhiên, một lời gợi ý về hiện vật đó vô tình xuất hiện trong nhật ký cha của Siêu Nhân, nhà khoa học Kryptonian: Jor-El. <i class=\"clr-orange\">Superman</i> phát hiện ra rằng cha mình đã từng nghiên cứu một mẫu vật tương tự, được gọi là mảnh vỡ Andura. Mẫu vật này, thứ là chìa khóa sức mạnh giúp Brainiac chiếm Trái Đất, mới chỉ là một mảnh nhỏ. Nguồn gốc của những mảnh Andura đến từ một vương quốc có tên Athanor, một nơi nằm ngoài Vùng Vô Định. Các nhà khoa học Krypton đã chế giễu nghiên cứu của Jor-El về sự tồn tại của chiều không gian song song và ma thuật phát sinh từ Athanor có liên quan đến vũ trụ vật chất – khiến công trình và sự nghiệp của ông tiêu tan.<br>Nhưng Jor-El đã đúng. Khi xem xét kho lưu trữ của Pháo Đài Cô Đơn, Siêu Nhân đã biết được rằng những người Krypton cổ đại đã tìm kiếm những mảnh vỡ Andura để khám phá dải Thiên Hà và thậm chí có thể họ đã viếng thăm Trái Đất từ rất lâu trong một nhiệm vụ. Tuy nhiên tại đây Siêu Nhân phát hiện ra rằng rằng Brainiac đã tăng gấp đôi việc tìm kiếm mảnh vỡ Andura và nếu công bố nguồn sức mạnh tối thượng này, tất cả Trái Đất sẽ gặp nguy hiểm.<br><i class=\"clr-orange\">Superman</i> đã mất đi một quê hương, anh ta không thể đánh mất thêm quê hương thứ hai. Vì vậy, người đàn ông thép tự đi tìm kiếm Athanor và mảnh vỡ Andura trong dải Thiên Hà. Đây là cách hoàn thành nốt di sản của cha mình, cũng đồng thời biến Siêu Nhân trở thành người bảo vệ mới của thế giới trong cơn tuyệt vọng giữa sự thật và công lý.",
 		"hero_skin": [
 			{
 				"name": "Siêu Nhân",
@@ -8092,6 +8168,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ",
 			"special": "Khống chế",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -8225,6 +8302,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đỡ đòn / Trợ thủ",
 			"special": "Khống chế / Hồi phục",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -8241,7 +8319,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Sứ mệnh cứu thế",
-				"info": "ST Gốc: 300/450/600<br>H.Chiêu: 70/65/60<br>Xeniel chọn 1 Anh hùng đồng minh rồi phóng lên trời bay đến mục tiêu, sau 2.2s Xeniel giáng trần, gây 300 (+0) STP, đồng thời giúp đồng minh được chọn hồi 15% máu tối đa, và bản thân tăng 40% tốc chạy trong 3s, đặc biệt cả hai được tăng 40% miễn thương trong 2.2s.",
+				"info": "ST Gốc: 300/450/600<br>H.Chiêu: 70/65/60<br>Xeniel chọn 1 tướng đồng minh rồi phóng lên trời bay đến mục tiêu, sau 2.2s Xeniel giáng trần, gây 300 (+0) STP, đồng thời giúp đồng minh được chọn hồi 15% máu tối đa, và bản thân tăng 40% tốc chạy trong 3s, đặc biệt cả hai được tăng 40% miễn thương trong 2.2s.",
 			}
 		],
 		"skill_up": {
@@ -8259,7 +8337,7 @@ var infoHeros = {
 				"info": "4,2,3,2,0",
 			},
 		],
-		"skill_note": "*Là một vị Anh hùng thuộc hàng \"Trâu\" vì thế hãy tận dụng và cản trở đối thủ.",
+		"skill_note": "*Là một vị tướng thuộc hàng \"Trâu\" vì thế hãy tận dụng và cản trở đối thủ.",
 		"skill_special": "TrungTri,CapCuu",
 		"main_rune": {
 			"rune2": [
@@ -8367,6 +8445,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ",
 			"special": "Tiền đạo",
+			"lane": "Đường Caesar / Đi rừng",
 		},
 		"main_skill": [
 			{
@@ -8375,7 +8454,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Sóng tử vong",
-				"info": "ST Gốc: 100/125/150/175/200/225<br>H.Chiêu: 13.5/13/12.5/12/11.5/11<br>Giảm tốc chạy: 25%/30%/35%/40%/45%/50%<br>N.Lượng: 50<br>Kil'Groth lướt tới trước đâm mâu vào kẻ địch, gây 100 (+109) STVL, kèm hiệu ứng làm giảm 25% tốc chạy trong 1.5s, đâm trúng Anh hùng giúp giảm 4s hồi chiêu."
+				"info": "ST Gốc: 100/125/150/175/200/225<br>H.Chiêu: 13.5/13/12.5/12/11.5/11<br>Giảm tốc chạy: 25%/30%/35%/40%/45%/50%<br>N.Lượng: 50<br>Kil'Groth lướt tới trước đâm mâu vào kẻ địch, gây 100 (+109) STVL, kèm hiệu ứng làm giảm 25% tốc chạy trong 1.5s, đâm trúng tướng giúp giảm 4s hồi chiêu."
 			},
 			{
 				"name": "Mâu thần lực",
@@ -8511,11 +8590,12 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Xạ thủ",
 			"special": "Cấu rỉa",
+			"lane": "Đường rồng / Đi rừng",
 		},
 		"main_skill": [
 			{
 				"name": "Tinh chuẩn",
-				"info": "Nội tại: Các đòn đánh và chiêu thức trúng đích giúp cộng dồn dấu ấn Tinh Chuẩn trên Moren. Khi đạt đủ năm dấu ấn, thời gian hồi của Súng thần công lập tức hoàn tất, đồng thời giúp Moren nhận 12- 26% hút máu (tăng 1% mỗi cấp Anh hùng).",
+				"info": "Nội tại: Các đòn đánh và chiêu thức trúng đích giúp cộng dồn dấu ấn Tinh Chuẩn trên Moren. Khi đạt đủ năm dấu ấn, thời gian hồi của Súng thần công lập tức hoàn tất, đồng thời giúp Moren nhận 12- 26% hút máu (tăng 1% mỗi cấp tướng).",
 			},
 			{
 				"name": "Súng Thần Công",
@@ -8545,7 +8625,7 @@ var infoHeros = {
 				"info": "2,4,3,2,0",
 			},
 		],
-		"skill_note": "*Là một Anh hùng dame to nên không cần ngần ngại gì cả tank hả bắn luôn, bắn nát cả thế giới.",
+		"skill_note": "*Là một tướng dame to nên không cần ngần ngại gì cả tank hả bắn luôn, bắn nát cả thế giới.",
 		"skill_special": "TrungTri,TocBien",
 		"main_rune": {
 			"rune2": [
@@ -8644,11 +8724,12 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Trợ thủ / Đỡ đòn",
 			"special": "Tiền về / Yểm hộ",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
 				"name": "Vàng vung vãi",
-				"info": "Nội tại: các đơn vị kẻ địch lân cận (không phải Anh hùng) khi bị hạ gục khiến TeeMee và đồng đội xung quanh nhận thêm 25% vàng.<br>Máu cơ bản：3201",
+				"info": "Nội tại: các đơn vị kẻ địch lân cận (không phải tướng) khi bị hạ gục khiến TeeMee và đồng đội xung quanh nhận thêm 25% vàng.<br>Máu cơ bản：3201",
 			},
 			{
 				"name": "Rắm thần lực",
@@ -8660,7 +8741,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Pháp trận thần kỳ",
-				"info": "ST Gốc: 600/750/900<br>H.Chiêu: 70/65/60<br>Máu hồi sinh: 2000/2750/3500<br>TeeMee tạo ra một vùng ma trận phục sinh bao phủ bản thân và đồng minh thấp máu nhất (vẫn có thể tung chiêu khi bị khống chế) trong 3s, suốt thời gian hiệu lực, khi bản thân hoặc Anh hùng mục tiêu đồng minh bị hạ gục sẽ được hồi sinh sau 2s với 2000 (+0) máu, đơn vị khi sống lại gây 600 (+0) STP và làm chậm 50% tốc chạy trong 2s lên các kẻ địch lân cận.",
+				"info": "ST Gốc: 600/750/900<br>H.Chiêu: 70/65/60<br>Máu hồi sinh: 2000/2750/3500<br>TeeMee tạo ra một vùng ma trận phục sinh bao phủ bản thân và đồng minh thấp máu nhất (vẫn có thể tung chiêu khi bị khống chế) trong 3s, suốt thời gian hiệu lực, khi bản thân hoặc tướng mục tiêu đồng minh bị hạ gục sẽ được hồi sinh sau 2s với 2000 (+0) máu, đơn vị khi sống lại gây 600 (+0) STP và làm chậm 50% tốc chạy trong 2s lên các kẻ địch lân cận.",
 			}
 		],
 		"skill_up": {
@@ -8782,6 +8863,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Xạ thủ",
 			"special": "Tiền vệ / Trung phong",
+			"lane": "Đi rừng / Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -8938,6 +9020,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ",
 			"special": "Tiền đạo",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -9084,6 +9167,7 @@ var infoHeros = {
 			"price_voucher": "539",
 			"position": "Pháp sư",
 			"special": "Trung Phong / Cấu rỉa",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -9119,7 +9203,7 @@ var infoHeros = {
 			}
 		],
 		"skill_note": "*Tulen một vị Pháp sư với 2 lối chơi Sốc sát thương và Cấu rỉa.<br>*Cố gắng tích lũy đủ 5 điểm Nội tại để tăng lượng sát thương đáng kể.<br>*Cố gắng áp sát mục tiêu, dùng Lôi quang hiệu quả sẽ mang lại 3 điểm Nội tại.<br>*Với 3 điểm tích lũy Lôi động, Tulen được xem là người cầm 4 Tốc biến.<br>*Kết thúc tướng địch bằng Lôi điểu sẽ kích hoạt Nội tại!",
-		"skill_special": "TocBien,ThanhTay,TrungTri",
+		"skill_special": "TocBien,ThanhTay,TrungTri,BocPha",
 		"main_rune": {
 			"rune2": [
 				{
@@ -9246,6 +9330,7 @@ var infoHeros = {
 			"price_voucher": "539",
 			"position": "Pháp sư / Sát thủ",
 			"special": "Tiền đạo / Trung phong",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -9329,9 +9414,10 @@ var infoHeros = {
 		"hero_battle": [
 			{
 				"name": "và đồng đội",
-				"desc": "thích hợp khi chơi cùng",
+				"desc": "tận dụng khả năng khống chế, làm chậm hoặc câm lặng từ đồng đội giúp Liliana dễ dồn sát thương hơn.",
 				"info": [
-					{"hero_id": "toro", "id_page": "Toro"},
+					{"hero_id": "alice", "id_page": "Alice"},
+					{"hero_id": "payna", "id_page": "Payna"},
 					{"hero_id": "teemee", "id_page": "TeeMee"},
 					{"hero_id": "grakk", "id_page": "Grakk"},
 					{"hero_id": "gildur", "id_page": "Gildur"},
@@ -9339,11 +9425,13 @@ var infoHeros = {
 			},
 			{
 				"name": "và cách khắc chế",
-				"desc": "thấy khó chịu khi gặp",
+				"desc": "khá cơ động tuy nhiên gặp phải những đối thủ cơ động không kém sẽ khiến Liliana phải e dè.",
 				"info": [
-					{"hero_id": "aleister", "id_page": "Aleister"},
+					{"hero_id": "annette", "id_page": "Annette"},
 					{"hero_id": "omen", "id_page": "Omen"},
-					{"hero_id": "alice", "id_page": "Alice"},
+					{"hero_id": "tulen", "id_page": "Tulen"},
+					{"hero_id": "ngo_khong", "id_page": "NgoKhong"},
+					{"hero_id": "lauriel", "id_page": "Lauriel"},
 				]
 			}
 		],
@@ -9399,6 +9487,7 @@ var infoHeros = {
 			"price_voucher": "359",
 			"position": "Đỡ đòn / Đấu sĩ",
 			"special": "Tiền đạo / Tiền vệ",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -9554,6 +9643,7 @@ var infoHeros = {
 			"price_voucher": "629",
 			"position": "Pháp sư / Sát thủ",
 			"special": "Tiền đạo / Tiền vệ",
+			"lane": "Đường giữa",
 		},
 		"main_skill": [
 			{
@@ -9687,6 +9777,7 @@ var infoHeros = {
 			"price_voucher": "539",
 			"position": "Xạ thủ",
 			"special": "Cấu rỉa",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -9837,6 +9928,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đỡ đòn",
 			"special": "Hút máu / Tiền vệ",
+			"lane": "Đường Caesar / Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -9964,17 +10056,28 @@ var infoHeros = {
 				"img": "thumb2.jpg",
 				"video": "Arum02",
 			},
+			{
+				"name": "Vũ Khúc Long Hổ (Bậc SS)",
+				"gold": "",
+				"voucher": "",
+				"event": "Mở sự kiện",
+				"wall": "Arum03",
+				"disable": "yes",
+				"img": "thumb3.jpg",
+				"video": "Arum03",
+			},
 		]
 	},
 	"rourke": {
 		"hero_id": "Rourke",
 		"hero_name": "Rourke",
 		"main_info": {
-			"price_gold": "",
-			"price_voucher": "",
-			"price_text": "1 viên đá quý trong kho báu",
+			"price_gold": "25,888",
+			"price_voucher": "599",
+			"price_text": "",
 			"position": "Đấu sĩ / Xạ thủ",
 			"special": "Tiền đạo / Trung phong",
+			"lane": "Đi rừng",
 		},
 		"main_skill": [
 			{
@@ -10085,9 +10188,9 @@ var infoHeros = {
 		"hero_skin": [
 			{
 				"name": "Quận Trưởng Lạc Quan",
-				"gold": "",
-				"voucher": "",
-				"event": "Nhận trong kho báu",
+				"gold": "25,888",
+				"voucher": "599",
+				"event": "",
 				"wall": "Rourke01",
 				"disable": "yes",
 				"img": "thumb1.jpg",
@@ -10103,6 +10206,16 @@ var infoHeros = {
 				"img": "thumb2.jpg",
 				"video": "Rourke02",
 			},
+			{
+				"name": "Biệt Đội Siêu Hùng (Bậc S)",
+				"gold": "",
+				"voucher": "",
+				"event": "Mở sự kiện",
+				"wall": "Rourke03",
+				"disable": "yes",
+				"img": "thumb3.jpg",
+				"video": "Rourke03",
+			},
 		]
 	},
 	"marja": {
@@ -10114,6 +10227,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Pháp sư / Đỡ đòn",
 			"special": "Hút máu",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -10250,6 +10364,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đỡ đòn / Đấu sĩ",
 			"special": "Cấu rĩa",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -10385,6 +10500,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đỡ đòn",
 			"special": "Khống chế / Tiền vệ",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -10523,6 +10639,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Trợ thủ / Pháp sư",
 			"special": "Yểm hộ",
+			"lane": "Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -10659,6 +10776,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đấu sĩ / Sát thủ",
 			"special": "Tiền đạo",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -10801,6 +10919,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đỡ đòn / Đấu sĩ",
 			"special": "Khống chế",
+			"lane": "Đường rồng / Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -10937,6 +11056,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Xạ thủ / Sát thủ",
 			"special": "Cấu rỉa",
+			"lane": "Đường rồng / Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -11070,9 +11190,10 @@ var infoHeros = {
 		"main_info": {
 			"price_gold": "",
 			"price_voucher": "",
-			"price_text": "Nhận từ sổ Sứ Mệnh chương II",
+			"price_text": "1 viên đá quý",
 			"position": "Đấu sĩ / Sát thủ",
 			"special": "Tiền đạo",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -11100,19 +11221,15 @@ var infoHeros = {
 		"skill_combo": [
 			{
 				"name": "*Combo đầu game",
-				"info": "3,2,0",
+				"info": "2,0,3,2,0",
 			},
-			{
+			{	
 				"name": "*Combo khi có đủ 3 kỹ năng (chú ý đổi vị trí, đất, nước, bụi cỏ)",
-				"info": "3,2,4,0,2,0",
-			},
-			{
-				"name": "*Hoặc như này",
-				"info": "3,4,0,2,0,2,0",
+				"info": "2,0,4,2,0,3",
 			},
 		],
 		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Richter khá lạnh lùng và cô độc vì thế đường đơn hợp zới anh ta hơn!!<br>- Đầu game tùy lane bạn là ai nên lựa chọn vị trí dùng Chặt và chém cấu rỉa hợp lý, chiêu này hơi khó muốn như ý phải dựa vào địa hình hiện tại vì thế đồi hỏi bạn phải tập luyện nhiều để có thể ứng biến.<br>- Khô máu khỏi lo vì có Công thủ toàn diện miễn nhiễm mọi trạng thái khống chế hoành tráng chưa nào.<br>- Tuy nhiên không nên hổ báo, hãy tìm kiếm lợi thế bằng cách ăn chim, và kiểm soát các mục tiêu như Dơi, hoặc tranh thủ giúp mid dọn lính khi đi gank.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game, khả năng bộc phá của Richter là một đều gì đó táo bạo, tận dụng chiêu cuối quẩy càng đông càng lợi, có sát thương chuẩn đấy nhé.<br>- Về Vùng diệt quỷ rất lợi khi đông đảo kẻ địch với các dấu ấn tích lũy sẽ mang cho Richter kha khá sát thương.<br>- Cuộc vui nào cũng tàng, canh thời gian nếu có thể thì dứt điểm hoặc rút lui về vùng an toàn.",
-		"skill_special": "TocBien,TrungTri",
+		"skill_special": "TocBien,TrungTri,BocPha",
 		"main_rune": {
 			"rune2": [
 				{
@@ -11187,7 +11304,7 @@ var infoHeros = {
 				"name": "Lưỡi Gươm Diệt Quỷ",
 				"gold": "",
 				"voucher": "",
-				"event": "Quà từ sổ Sứ Mệnh II",
+				"event": "1 viên đá quý",
 				"wall": "Richter01",
 				"disable": "yes",
 				"img": "thumb1.jpg",
@@ -11214,6 +11331,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Đỡ đòn / Đấu sĩ",
 			"special": "Khống chế / Tiền vệ",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -11343,6 +11461,7 @@ var infoHeros = {
 			"price_text": "",
 			"position": "Sát thủ",
 			"special": "Tiền đạo / Trung phong",
+			"lane": "Đi rừng",
 		},
 		"main_skill": [
 			{
@@ -11480,11 +11599,12 @@ var infoHeros = {
 		"hero_id": "Sephera",
 		"hero_name": "Sephera",
 		"main_info": {
-			"price_gold": "??",
+			"price_gold": "13,888",
 			"price_voucher": "359",
 			"price_text": "",
 			"position": "Pháp sư / Trợ thủ",
 			"special": "Yểm hộ / Cấu rỉa",
+			"lane": "Đường giữa / Đường rồng",
 		},
 		"main_skill": [
 			{
@@ -11512,16 +11632,12 @@ var infoHeros = {
 		"skill_combo": [
 			{
 				"name": "*Combo đầu game",
-				"info": "2,3,0",
+				"info": "3,2,0",
 			},
 			{
 				"name": "*Combo khi có đủ 3 kỹ năng",
-				"info": "2,3,4,0,2",
-			},
-			{
-				"name": "*Hoặc như này",
-				"info": "4,2,3,0,2",
-			},
+				"info": "3,2,0,4",
+			}
 		],
 		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Sephera là một Pháp sư kiêm luôn vai trò Trợ thủ, vì thế cô có thể chơi ở Đường giữa hoặc theo cùng Xạ thủ là oke.<br>- Chiêu 1 Thủy âm của cô sau khi dùng nhớ đánh thường thêm 1 cái để tối ưu hóa sát thương, hãy nhớ rằng mỗi lần cô dùng chiêu thức sẽ hồi lượng máu cho đồng minh xung quanh đó rất lợi!!<br>- Chiêu 2 Ao tù là chiêu hơi khó xíu, nhưng chơi nhiều sẽ quen, những kẻ địch đứng ngoài rìa mới bị làm choáng các bạn phải canh chuẩn nha!!<br>- Sephera cũng khá dễ chơi nhưng đừng ảo tưởng về sức mạnh nhé chờ đồng đội lên gank thì chơi, không thì đứng thấp thui không thì bốc hơi đấy dạo gần đây Sát thủ đầy ra!! :P.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game cố giữ chiêu cuối và tung ra hợp lý vừa hồi máu cho đồng đội và gây sát thương cho kẻ địch, và đặt biệt chiêu này có hiệu lực ngắn ngủi, nên phải tập luyện canh thật chuẩn thời gian.<br>- Dùng chiêu 1 Thủy âm cấu rỉa rất thốn + hiệu ứng làm chậm rất khó chịu và hãy dùng nó liên tục.<br>- Chiêu 2 Ao tù mặc dù hơi khó canh chuẩn nhưng dùng nó để tăng tốc truy sát hoặc dùng cho các pha tẩu thoát.<br>- Chiêu cuối tuy ngắn ngủi nhưng khi dùng khiến bản thân né được hầu hết các chiêu thức bất lợi cho bản thân.",
 		"skill_special": "TocBien,CapCuu",
@@ -11532,8 +11648,8 @@ var infoHeros = {
 					"info": "Công phép +2.5<br>Xuyên giáp phép +1.4",
 				},
 				{
-					"name": "NgocTim27",
-					"info": "Tốc đánh +0.4%<br>Tỷ lệ chí mạng +0.3%<br>Tốc chạy +0.5%",
+					"name": "NgocTim22",
+					"info": "Công phép +1.4 <br>Hút máu phép +0.8%<br>Giáp phép +1.6",
 				},
 				{
 					"name": "NgocXanh28",
@@ -11557,16 +11673,16 @@ var infoHeros = {
 		},
 		"item_build": [
 			{
-				"name": "Đi đường giữa",
-				"info": "NgocDaiPhapSu,GiayThuatSi,MatNaBerith,TruongHonMang,VuongMiengHecate,TruongBungNo",
+				"name": "Đường giữa",
+				"info": "NgocDaiPhapSu,GiayThuatSi,GuomTanThe,MatNaBerith,VuongMiengHecate,CauPhaLe",
 			},
 			{
-				"name": "Chơi hỗ trợ cùng Xạ thủ",
+				"name": "Chơi hỗ trợ 1",
+				"info": "HuanChuongHaiThan,GiayThuatSi,MatNaBerith,AoChoangBangGia,PhuChuTruongSinh,CauPhaLe",
+			},
+			{
+				"name": "Chơi hỗ trợ 2",
 				"info": "LenhBaiPhongThan,GiayThuatSi,DayChuyenLucBao,MatNaBerith,TruongBang,GuomHienTriet",
-			},
-			{
-				"name": "Đi đường giữa",
-				"info": "PhuongHoangLe,GiayPhuThuy,MatNaBerith,GuomHienTriet,TruongBang,TruongBungNo",
 			},
 		],
 		"hero_battle": [
@@ -11597,7 +11713,7 @@ var infoHeros = {
 		"hero_skin": [
 			{
 				"name": "Thiên Mệnh Thủy Sư",
-				"gold": "??",
+				"gold": "13,888",
 				"voucher": "359",
 				"event": "",
 				"wall": "Sephera01",
@@ -11621,11 +11737,12 @@ var infoHeros = {
 		"hero_id": "Florentino",
 		"hero_name": "Florentino",
 		"main_info": {
-			"price_gold": "??",
-			"price_voucher": "<s>539</s> -> 379",
-			"price_text": "Combo tướng và trang phục có giá 493 quân huy (<s>758 quân huy</s>), từ 28/12/2018 đến ngày 03/01/2019",
+			"price_gold": "18,888",
+			"price_voucher": "539",
+			"price_text": "",
 			"position": "Đấu sĩ / Sát thủ",
 			"special": "Trung phong / Ám sát",
+			"lane": "Đường Caesar",
 		},
 		"main_skill": [
 			{
@@ -11737,8 +11854,8 @@ var infoHeros = {
 		"hero_skin": [
 			{
 				"name": "Tay Kiếm Hào Hoa",
-				"gold": "??",
-				"voucher": "<s>539</s> -> 379",
+				"gold": "18,888",
+				"voucher": "539",
 				"event": "",
 				"wall": "Florentino01",
 				"disable": "yes",
@@ -11751,6 +11868,147 @@ var infoHeros = {
 				"voucher": "219",
 				"event": "",
 				"wall": "Florentino02",
+				"disable": "yes",
+				"img": "thumb2.jpg",
+				"video": "",
+			},
+		]
+	},
+	"veres": {
+		"hero_id": "Veres",
+		"hero_name": "Veres",
+		"main_info": {
+			"price_gold": "??",
+			"price_voucher": "<s>539</s> -> 379",
+			"price_text": "Combo tướng và trang phục Veres đạo tặc có giá 499 quân huy (<s>758</s>), Từ ngày 18 đến ngày 24/01/2019",
+			"position": "Đấu sĩ / Sát thủ",
+			"special": "Trung phong / Ám sát",
+			"lane": "Đường Caesar",
+		},
+		"main_skill": [
+			{
+				"name": "HUYẾT XÍCH",
+				"info": "Nội tại: Các đòn đánh thường trúng đích giúp Veres tích lũy 1 điểm nội tại Huyết xích; khi đạt đủ 4 điểm tích lũy Veres sẽ tung Huyết xích tấn công tất cả kẻ địch lân cận, gây 320 + (30 mỗi cấp) (+1.5 công vật lý) sát thương vật lý; nếu có tướng địch trúng đòn, Veres hồi lại 10% sát thương gây ra (máu càng thấp, tỷ lệ hút máu càng cao lên đến 100%).<br>Đặc biệt Veres còn được giảm 1 giây hồi Song xích & Xiềng xích, và 2 giây hồi Đoạt mệnh xích. Chưa hết, suốt thời gian tung Huyết xích Veres có thể thoải mái di chuyển, và còn được tăng 35% kháng hiệu ứng.",
+			},
+			{
+				"name": "SONG XÍCH",
+				"info": "Hồi chiêu: 6 giây<br>Tiêu hao: 0 năng lượng<br>Veres phóng xích tách làm hai sợi tấn công kẻ địch gây 130/180/230/280/330/380 (+0.6 công vật lý) sát thương vật lý. Nạn nhân xấu số trúng cả hai sợi xích sẽ bị choáng 1 giây.<br>Chưa hết, tung xích trúng tướng địch giúp Veres nhận một điểm tích lũy Huyết xích."
+			},
+			{
+				"name": "XIỀNG XÍCH",
+				"info": "Hồi chiêu: 12/11.4/10.8/10.2/9.6/9 giây<br>Tiêu hao: 0 năng lượng<br>Veres phóng xích tấn công kẻ địch gây 85/120/155/190/225/260 (+0.4 công vật lý) sát thương vật lý. Đặc biệt sợi xích sẽ đẩy lùi kẻ địch nếu chúng đang ở gần Veres, hoặc kéo kẻ địch về trước mặt nếu chúng đang ở xa Veres; trong cả hai trường hợp nạn nhân đều sẽ bị choáng ngay sau đó.<br>Chưa hết, tung xích trúng tướng địch giúp Veres nhận một điểm tích lũy Huyết xích.",
+			},
+			{
+				"name": "ĐOẠT MỆNH XÍCH",
+				"info": "Hồi chiêu: 24/21/18 giây<br>Tiêu hao: 0 năng lượng<br>Veres nhảy đến phía trước triệu hồi vô số xích trồi lên từ mặt đất tấn công những kẻ địch trong vùng ảnh hưởng, gây 300/450/600 + 12/16/20% (+1% mỗi 100 công vật lý) máu đã mất của mục tiêu sát thương chuẩn<br>Tung chiêu trúng tướng địch giúp Veres tiến vào trạng thái Cuồng huyết: tăng 30/45/60% tốc đánh, 150/250/350 công vật lý, 15/25/35% xuyên giáp trong 4 giây (nếu kết liễu tướng địch sẽ tăng thành 10 giây). Suốt thời gian này nếu nội tại được kích hoạt tung Huyết xích trúng một tướng địch sẽ giúp tăng thêm 2 giây trạng thái Cuồng huyết.",
+			}
+		],
+		"skill_up": {
+			"line1": "1,3,5,7,9,11",
+			"line2": "2,6,10,13,14,15",
+			"line3": "4,8,12",
+		},
+		"skill_combo": [
+			{
+				"name": "*Combo đầu game: kết hợp nội tại khi tích 4 điểm",
+				"info": "0,3,2,1",
+			},
+			{
+				"name": "*Combo khi có đủ 3 kỹ năng: kết hợp nội tại khi tích 4 điểm",
+				"info": "0,3,2,1,4",
+			},
+			{
+				"name": "*Hoặc như này",
+				"info": "4,3,2,1,0",
+			},
+		],
+		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Veres giữ vai trò Đấu sĩ kiêm Sát thủ vì thế đường Caesar sẽ vô cùng thích hợp đối với cô.<br>- Đầu game nên chơi an toàn giữ vị trí farm nhanh lính và cố gắng ăn các mục tiêu lớn hơn như chim, dơi,..<br>- Dùng Chiêu 2 Xiềng xích linh hoạt để ăn lính và cấu máu đối phương, hãy để ý chiêu này nếu mục tiêu gần người sẽ đẩy ra, còn mục tiêu ở xa sẽ kéo về và choáng nhẹ.<br>- Để ý Chiêu 1 Song xích sẽ làm choáng mục tiêu nếu cả 2 sợi xích cùng trúng mục tiêu.<br>- Cái quan trọng nhất đối với Veres là chiêu Nội tại, khi đánh thường hoặc dùng kỹ năng sẽ tích lũy điểm nội tại.<br>- Đạt đủ 4 điểm nội tại sẽ tung ra vùng chiêu gây sát thương kẻ địch xung quanh, hãy canh sao cho rìa vùng chiêu trúng mục tiêu càng nhiều càng tốt, làm choáng và hồi máu cho cô. Vùng chiêu này rất khó canh vì thế hãy tập luyện nhiều Veres thì mới có thể chơi tốt được cô nàng gai gốc này.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game, cố gắng dọn dẹp lính, và đẩy trụ nếu có thể, đảo đường giúp đỡ các lane khác, cùng đồng đội ăn các mục tiêu lớn như Rồng, Rồng bạo chúa, hoặc cao hơn là Caesar.<br>- Khả năng tay đôi là có tuy nhiên đừng vì quá hăng máu mà cân 2, 3 nhé.<br>- Chiêu cuối Đoạt mệnh xích dùng để kết thúc mục tiêu khá tốt, dùng tốt quá kẻo đồng đội gọi là KS đấy nhé. Chiêu này đặc biệt dùng để tấn công hoặc bỏ chạy khá ổn, có thể vượt cả địa hình nửa đó.<br>- Nói chung Veres khá ổn khi đi đường nên đừng ngại solo nhé. cảm thấy không ổn thì gọi rừng lên chơi kk!!",
+		"skill_special": "TocBien,BocPha",
+		"main_rune": {
+			"rune2": [
+				{
+					"name": "NgocDo26",
+					"info": "Công vật lý +1.5<br>Tốc đánh +0.4%",
+				},
+				{
+					"name": "NgocTim23",
+					"info": "Công vật lý +0.6<br>Máu tối đa +36",
+				},
+				{
+					"name": "NgocXanh21",
+					"info": "Tốc đánh +0.4%<br>Giảm hồi chiêu +0.5%",
+				}
+			],
+			"rune3": [
+				{
+					"name": "NgocDo36",
+					"info": "Công vật lý +2<br>Xuyên giáp +3.6",
+				},
+				{
+					"name": "NgocTim32",
+					"info": "Tốc đánh +1%<br>Tốc chạy +1%",
+				},
+				{
+					"name": "NgocXanh31",
+					"info": "Công vật lý +0.9<br>Xuyên giáp +6.4",
+				}
+			],
+		},
+		"item_build": [
+			{
+				"name": "Đường Caesar",
+				"info": "AoChoangThanRa,GiayKienCuong,KhienHuyenThoai,HuanChuongTroy,HerculeThinhNo,GiapHoMenh",
+			},
+			{
+				"name": "Đường Caesar (thay thế 1)",
+				"info": "ThuongLonginus,GiayKienCuong,KhienHuyenThoai,GiapGaia,GiapCuongNo,GiapHoMenh",
+			},
+			{
+				"name": "Đường Caesar (thay thế 2)",
+				"info": "KiemTruyHon,GiayThuatSi,RiuHyoga,KiemFafnir,NanhFenrir,GiapHoMenh",
+			},
+		],
+		"hero_battle": [
+			{
+				"name": "và đồng bọn",
+				"desc": "có bộ kỹ năng ở dạng khá về sát thương lẫn khống chế, khi chơi cùng các đồng đội có khả năng giữ, làm chậm, câm lặng,.. mục tiêu sẽ khiến Veres càng trở nên mạnh hơn bao giờ hết,..",
+				"info": [
+					{"hero_id": "mina", "id_page": "Mina"},
+					{"hero_id": "aleister", "id_page": "Aleister"},
+					{"hero_id": "alice", "id_page": "Alice"},
+					{"hero_id": "ybneth", "id_page": "Ybneth"},
+				]
+			},
+			{
+				"name": "và cách khắc chế",
+				"desc": "khá phụ thuộc vào Nội tại, vì thế một số tướng cơ động, bay nhảy, thậm chí là giữ chân cô sẽ làm Veres trở nên khốn đốn và khó tích đủ Nội tại chiêu giúp cô hồi phục,..",
+				"info": [
+					{"hero_id": "annette", "id_page": "Annette"},
+					{"hero_id": "arum", "id_page": "Arum"},
+					{"hero_id": "roxie", "id_page": "Roxie"},
+					{"hero_id": "tulen", "id_page": "Tulen"},
+					{"hero_id": "liliana", "id_page": "Liliana"},
+				]
+			}
+		],
+		"hero_story": "“Thật thú vị, kẻ nào vừa triệu hoán ta?” Âm thanh mê hoặc vang vọng phá vỡ sự tĩnh lặng nơi đây, một tầng hầm cỡ bảy mét vuông với duy nhất cửa ra vào, không cửa sổ hoặc bất kỳ nội thất dư thừa nào khác. Nền sàn và bức tượng nặn ác ma nằm ở giữa căn phòng – tất cả đều đúc từ hắc diện thạch (đá obsidian) – được khắc đầy những chú ngữ ma pháp phức tạp.<br>Máu của <i class=\"clr-orange\">Veres</i> thẩm thấu khắp pháp trận, chúng bò dọc theo các đường vân chú ngữ lấp lánh ánh đỏ, hệt như lũ mãng xà háu đói đang tỏa ra tìm mồi. Nghi thức hiến tế cực kỳ nguy hiểm này sử dụng năng lượng chú ngữ hắc ám làm môi giới, máu làm vật dẫn để mở đường cho hình chiếu của “vị khách” đến từ chiều không gian khác.<br>Suốt quá trình này, nếu sinh lực của kẻ hiến tế không đủ cung cấp, nạn nhân sẽ bị hút cạn máu thành xác khô; nếu ý lực không đủ sẽ dễ bị hình chiếu mê hoặc rồi sa đọa thành tay sai của Vực hỗn mang. Đây quả thực là một cuộc khảo nghiệm sinh tử cả thể xác lẫn tinh thần.<br>Hiện tại vị khách đã đáp lời mời và xuất hiện cùng giọng điệu ma mị rung động tâm hồn. Nhưng <i class=\"clr-orange\">Veres</i> không quan tâm, cô dừng hiến tế rồi tập trung dùng răng và cánh tay còn lại để băng bó vết thương. Nghi thức đã hoàn thành được một nửa, cô cần đảm bảo đủ tỉnh táo để tiếp tục mà không phạm sai lầm nào.<br>“Người đừng lặng yên đến thế? Cô bé, chẳng phải ngươi gọi ta đến đây sao?” Âm thanh nhỏ như muỗi kêu, êm ái thấu tận xương tủy.<br>“Không ngờ lại là mụ già nhà ngươi xuất hiện.” <i class=\"clr-orange\">Veres</i> dùng răng cắn đứt băng vải gạc, lạnh lùng nói.<br>“Haha, cô bé vẫn đanh đá như xưa nhỉ.” Veera - kẻ chủ mưu kế hoạch sa đọa, trí giả của Vực hỗn mang – bật cười khanh khách. Tuy nhiên kể cả đã sống hàng vạn năm và từng trải khôn cùng, vẫn thật khó có thể thoát khỏi thất tình lục dục. Câu vừa rồi của <i class=\"clr-orange\">Veres</i> quả thật khó nghe.<br>“Đừng nói nhảm. Thời gian có hạn, tập trung vào giao dịch đi!” Nói xong <i class=\"clr-orange\">Veres</i> móc trong ngực ra một quyển sổ da dê rồi ném vào quầng sáng bao quanh bức tượng. “Đây là thứ ta muốn, kèm bảng giá bên trong.”<br>Như có một bàn tay vô hình trong không trung từ từ lật mở cuốn sách.<br>“Giao dịch thỏa đáng. Ngươi cung cấp thứ ta cần, thứ ngươi muốn ta có, không, chính xác hơn là chỉ ta mới có.” Veera nhanh giọng, “Chỉ là, ta thật tò mò, ai dạy cho ngươi nghi thức này? Còn quyển sổ, mùi có vẻ nghe quen quen làm sao…”<br>“Ác ma đã già khú đế, sao toàn nói nhảm hệt loài người vậy?” <i class=\"clr-orange\">Veres</i> nhếch mép, “Nếu không còn gì khác thì bắt đầu ký khế ước đi!”<br>“Haha, tốt nhất là ngươi cầu cả đời này đừng gặp phải ta, nếu không đừng hỏi ta sẽ làm gì với cái mồm của ngươi.” Nói xong không đợi <i class=\"clr-orange\">Veres</i> đáp lại, Veera liền biến mất.<br>Khế ước, đã có hiệu lực.<br><i class=\"clr-orange\">Veres</i> thở dài nhẹ nhõm. Kế hoạch hôm nay hệt như đang diễn xiếc thăng bằng trên dây, chỉ cần sai một ly dễ đi cả mạng người. Dẫu đã có hứa hẹn tất cả trong tầm kiểm soát của vị Ma đạo sĩ kia, nhưng <i class=\"clr-orange\">Veres</i> chưa bao giờ tin gã cả. Một  tên suốt ngày lén lén lút lút, tên cũng không dám để lộ ra, thì nói gì đến niềm tin?<br>Xuất thân sát thủ siêu cấp đời mới nhất, người <i class=\"clr-orange\">Veres</i> tin cậy chỉ duy nhất Quillen, sư phụ của nàng. Bằng khả năng của mình, <i class=\"clr-orange\">Veres</i> đã vực dậy Hội ám hoàng, gián tiếp giúp Quillen lấy lại vị thế của bản thân. Sau đó Quillen tạm điều <i class=\"clr-orange\">Veres</i> sang phục vụ dưới trướng Ma đạo sĩ, đây là một động thái đắc nhân tâm các đại biểu, cũng như gián tiếp chứng minh sự tận tụy với tổ chức trước mắt lãnh đạo các phe phái khác.<br>Đợt phản loạn của Amily ba năm trước gây ảnh hưởng cực kỳ nặng nề đối với Hội ám hoàng nói chung, và Quillen nói riêng. Trước sự chất vấn của tổ chức, Quillen buộc phải đứng ra chịu trách nhiệm và giao ra một bộ phận quyền lực, rồi tạm thời ẩn nhẫn chờ cơ hội mới. Suốt quãng thời gian đó, gần như mỗi ngày trôi qua với Quillen đều đầy u ám và dày vò. <i class=\"clr-orange\">Veres</i> - một đệ tử ruột được chính tay Quillen đào tạo - mắt thấy tai nghe tất cả những điều này không khỏi khiến cô ngày càng căm hận Amily hơn.<br>“Mỗi lần nhìn thấy ngươi, ta lại nhớ đến nàng. Cớ sao cả hai lại giống nhau đến thế!” Quillen luôn lặp lại điều này với <i class=\"clr-orange\">Veres</i>. Bất kể mọi chuyện đã xảy ra, bất kể mâu thuẫn nội tâm, Quillen vẫn luôn một mực rất ưu ái Amily.<br>Tuy không hiểu được ẩn ý của Quillen, nhưng <i class=\"clr-orange\">Veres</i> - thời bấy giờ còn là một thiếu nữ mới lớn – không khỏi phản cảm trước sự so sánh bản thân với kẻ phản đồ, đặc biệt khi điều này lại đến từ người mình kính yêu nhất. Trên hết, cô mơ hồ cảm thấy có vẻ trong lòng của Quillen, mình chưa bao giờ vượt qua được hình bóng của Amily.<br>Thế nên <i class=\"clr-orange\">Veres</i> mới bằng mọi giá, bất chấp tất cả nguy hiểm để thực hiện cuộc giao dịch. Điều này không chỉ nhằm giúp Quillen danh chính ngôn thuận tái xuất hiện, mà còn để bản thân siêu việt trước kia. Chính Ma đạo sĩ đã khẳng định, khi chủ thể trở thành vật dẫn giữa hai thế giới thông qua khế ước, năng lượng từ Vực hỗn mang sẽ cuồn cuộn không ngừng rót vào huyết mạch, và nhờ đó cô sẽ đạt được lực lượng mới, thậm chí thay da đổi thịt cải biến dung mạo.<br>“Ta chỉ cần xác nhận mình sẽ không trở thành tay sai của lũ sa đọa!” <i class=\"clr-orange\">Veres</i> lòng dặn lòng quyết tâm. Lời hứa hẹn của Ma đạo sĩ chưa bao giờ khiến <i class=\"clr-orange\">Veres</i> yên tâm, nhưng với sự ủng hộ của Quillen, nàng sẵn sàng liều tất cả. Và sau khi hoàn thành giao dịch này, nàng có một và chỉ một mục tiêu: truy lùng kẻ phản bội để khiến ả ta phải trả cái giá rất đắt.<br>“Ta hoàn toàn ưu tú hơn ngươi, hãy đợi đấy!”",
+		"hero_skin": [
+			{
+				"name": "Huyết Luyện Xích",
+				"gold": "??",
+				"voucher": "<s>539</s> -> 379",
+				"event": "",
+				"wall": "Veres01",
+				"disable": "yes",
+				"img": "thumb1.jpg",
+				"video": "",
+			},
+			{
+				"name": "Đạo Tặc",
+				"gold": "",
+				"voucher": "219",
+				"event": "",
+				"wall": "Veres02",
 				"disable": "yes",
 				"img": "thumb2.jpg",
 				"video": "",

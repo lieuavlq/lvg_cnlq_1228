@@ -110,6 +110,9 @@ $('document').ready(function(){
       idInfo.append('<p>' + mainInfo.price_text + '</p>');
     });
     idInfo.append('<p>' + commonLang['hero_position'] + ': ' + mainInfo.position + '</p><p>' + commonLang['hero_special'] + ': ' + mainInfo.special + '</p>');
+    checkShow(mainInfo.lane,function(){
+      idInfo.append('<p>' + commonLang['hero_lane'] + ': ' + mainInfo.lane + '</p>');
+    });
     idInfo.append(blockBreak);
 
     /* Skill detail */

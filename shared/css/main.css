@@ -319,15 +319,17 @@ background-image: url(../img/common/icon_news.png);
 background-image: url(../img/common/icon_news_dl.png);
 }
 .ui-page-theme-a .ui-navbar .ui-btn {
-padding: 12px 0 12px 48px;
-background: url(../img/common/bg_left.png) no-repeat -23px -10px;
-background-size: 88px;
+padding: 12px 0 12px 50px;
+background: url(../img/common/bg_left.png) no-repeat 0 -10px;
+background-size: 58px;
+margin: 0;
 }
 .ui-page-theme-a .ui-navbar ul li:first-child + li .ui-btn {
 background-image: url(../img/common/bg_right.png);
-background-position: 116% -20px;
-padding-right: 42px;
+background-position: right -20px;
+padding-right: 50px;
 padding-left: 0;
+margin: 0;
 }
 .disable,
 .btn-disable {
