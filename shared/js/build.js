@@ -3619,7 +3619,7 @@ var infoHeros = {
 				"name": "Khiêu Chiến (AIC 2018)",
 				"gold": "",
 				"voucher": "",
-				"event": "Mở sự kiện",
+				"event": "1 viên đá quý",
 				"wall": "Nakroth06",
 				"disable": "yes",
 				"img": "thumb6.jpg",
@@ -9360,6 +9360,16 @@ var infoHeros = {
 				"img": "thumb5.jpg",
 				"video": "Tulen05",
 			},
+			{
+				"name": "Tulen Phó Kỷ Luật",
+				"gold": "",
+				"voucher": "",
+				"event": "Mở sự kiện",
+				"wall": "Tulen06",
+				"disable": "yes",
+				"img": "thumb6.jpg",
+				"video": "",
+			},
 		]
 	},
 	"liliana": {
@@ -9510,8 +9520,8 @@ var infoHeros = {
 			{
 				"name": "Nguyệt Mị Ly (Bậc SS)",
 				"gold": "",
-				"voucher": "",
-				"event": "1 viên đá quý",
+				"voucher": "799",
+				"event": "",
 				"wall": "Liliana04",
 				"disable": "yes",
 				"img": "thumb4.jpg",
@@ -10529,6 +10539,16 @@ var infoHeros = {
 				"img": "thumb2.jpg",
 				"video": "Roxie02",
 			},
+			{
+				"name": "Roxie Kèn Ái Tình (Valentine)",
+				"gold": "",
+				"voucher": "499",
+				"event": "",
+				"wall": "Roxie03",
+				"disable": "yes",
+				"img": "thumb3.jpg",
+				"video": "",
+			},
 		]
 	},
 	"baldum": {
@@ -10805,6 +10825,16 @@ var infoHeros = {
 				"img": "thumb2.jpg",
 				"video": "Annette02",
 			},
+			{
+				"name": "Annette Xứ Sở Thần Tiên",
+				"gold": "",
+				"voucher": "",
+				"event": "Sổ sứ mệnh 4",
+				"wall": "Annette03",
+				"disable": "yes",
+				"img": "thumb3.jpg",
+				"video": "",
+			},
 		]
 	},
 	"amily": {
@@ -10947,6 +10977,16 @@ var infoHeros = {
 				"disable": "yes",
 				"img": "thumb2.jpg",
 				"video": "Amily02",
+			},
+			{
+				"name": "Amily Thư Ký",
+				"gold": "",
+				"voucher": "",
+				"event": "Sổ sứ mệnh 4",
+				"wall": "Amily03",
+				"disable": "yes",
+				"img": "thumb3.jpg",
+				"video": "",
 			},
 		]
 	},
@@ -11221,6 +11261,16 @@ var infoHeros = {
 				"disable": "yes",
 				"img": "thumb2.jpg",
 				"video": "Elsu02",
+			},
+			{
+				"name": "Elsu Guitar Tình Ái (Valentine)",
+				"gold": "",
+				"voucher": "",
+				"event": "Mở sự kiện",
+				"wall": "Elsu03",
+				"disable": "yes",
+				"img": "thumb3.jpg",
+				"video": "",
 			},
 		]
 	},
@@ -11918,7 +11968,7 @@ var infoHeros = {
 		"hero_id": "Veres",
 		"hero_name": "Veres",
 		"main_info": {
-			"price_gold": "??",
+			"price_gold": "18,888",
 			"price_voucher": "539",
 			"price_text": "",
 			"position": "Đấu sĩ / Sát thủ",
@@ -12035,7 +12085,7 @@ var infoHeros = {
 		"hero_skin": [
 			{
 				"name": "Huyết Luyện Xích",
-				"gold": "??",
+				"gold": "18,888",
 				"voucher": "539",
 				"event": "",
 				"wall": "Veres01",
@@ -12049,6 +12099,150 @@ var infoHeros = {
 				"voucher": "219",
 				"event": "",
 				"wall": "Veres02",
+				"disable": "yes",
+				"img": "thumb2.jpg",
+				"video": "",
+			},
+		]
+	},
+	"darcy": {
+		"hero_id": "Darcy",
+		"hero_name": "D'Arcy",
+		"main_info": {
+			"price_gold": "??",
+			"price_voucher": "539",
+			"price_text": "",
+			"position": "Pháp sư",
+			"special": "Khống Chế / Cấu rỉa",
+			"lane": "Đường giữa / Đường Caesar",
+		},
+		"main_skill": [
+			{
+				"name": "LỰC LƯỢNG THỨ NGUYÊN",
+				"info": "Hồi chiêu: 0 giây<br>Tiêu hao: 0 năng lượng<br>Nội tại: D'Arcy tăng Lực lượng thứ nguyên trong suốt trạng thái giao tranh thông qua các đòn đánh thường và chiêu trúng đối phương. Nếu thoát khỏi giao tranh, Lực lượng thứ nguyên sẽ nhanh chóng giảm dần.<br>Khi Lực lượng thứ nguyên đạt đến tối đa, D'Arcy được cường hóa trong 8 giây, hồi 20% năng lượng đã tổn thất, đồng thời được tăng 20% tốc chạy và cường hóa kỹ năng thường kế tiếp.",
+			},
+			{
+				"name": "DU HÀNH THỨ NGUYÊN",
+				"info": "Hồi chiêu: 8/7.6/7.2/6.8/6.4/6 giây<br>Tiêu hao: 70 năng lượng<br>D'Arcy tiến vào một chiều không gian cấp cao trong 1.5 giây giúp bản thân miễn nhiễm khống chế đồng thời được tăng 20% tốc chạy và chịu giảm 40/42/44/46/48/50% sát thương. Đòn đánh thường tiếp theo trong vòng 5 giây sẽ được tăng tầm đánh và gây thêm 300/370/440/510/580/650 (+0.8 công phép) sát thương phép và làm chậm 60% tốc chạy của nạn nhân. Du hành thứ nguyên sẽ mất tác dụng ngay khi D'Arcy tung chiêu hoặc đòn đánh.<br>Lực lượng thứ nguyên đạt tối đa giúp cường hóa: Darcy tăng thêm 40% tốc chạy và hồi phục [10/11/12/13/14/15% máu đã tổn thất + 100/120/140/160/180/200 (+0.3 công phép)] máu."
+			},
+			{
+				"name": "LẬP PHƯƠNG THỨ NGUYÊN",
+				"info": "Hồi chiêu: 6.5/6/5.5/5/4.5/4 giây<br>Tiêu hao: 70 năng lượng<br>D'Arcy tạo ra một Lập phương thứ nguyên tại điểm đã chọn, thứ sẽ bùng nổ sau 1,25 giây và gây 900/990/1080/1170/1260/1350 (+1.75 công phép) sát thương phép.<br>Lực lượng thứ nguyên đạt tối đa giúp cường hóa: gia tăng phạm vi sát thương của Lập phương thứ nguyên, đồng thời giúp D'Arcy tích lũy thêm 10 Lực lượng thứ nguyên theo mỗi đơn vị trúng chiêu.",
+			},
+			{
+				"name": "MA TRẬN THỨ NGUYÊN",
+				"info": "Hồi chiêu: 45/40/35 giây<br>Tiêu hao: 125 năng lượng<br>D'Arcry tạo ra một Ma trận thứ nguyên tại điểm đã chọn, tất cả kẻ địch trúng chiêu sẽ phải chịu 100/150/200 (+0.4 công phép) sát thương phép và chịu dấu ấn thứ nguyên. Sau 2 giây tất cả nạn nhân đang phải chịu dấu ấn sẽ bị cưỡng ép truyền tống về Ma trận và trúng choáng thoáng chốc (thời gian hồi chiêu bắt đầu tính từ lúc này).<br>Đặc biệt trong vòng 6 giây sau khi tung chiêu, D'Arcy có thể kích hoạt lần nữa để tự truyền tống bản thân về tâm Ma trận và gây 200/350/500 (+1.0 công phép) sát thương phép.",
+			}
+		],
+		"skill_up": {
+			"line1": "2,6,10,13,14,15",
+			"line2": "1,3,5,7,9,11",
+			"line3": "4,8,12",
+		},
+		"skill_combo": [
+			{
+				"name": "*Combo đầu game: cơ bản",
+				"info": "3,2,0",
+			},
+			{
+				"name": "*Combo đầu game 2: Nội tại + Chiêu 1",
+				"info": "3,2,0,1,2,0",
+			},
+			{
+				"name": "*Combo đầu game 3: Nội tại + Chiêu 2",
+				"info": "3,2,0,1,3",
+			},
+			{
+				"name": "*Combo khi có đủ 3 kỹ năng: nếu có Nội tại có thể chọn tiếp Chiêu 1 hoặc 2",
+				"info": "4,3,4,2,0",
+			},
+		],
+		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- D'Arcy một Pháp sư với lối chơi hoàn toàn mới, bộ chiêu thức khá cứng nên D'Arcy phù hợp chơi ở Đường giữa hoặc Đường Caesar.<br>- Như bao Pháp sư khác đầu game nên chơi an toàn và cố gắng tích lũy Lực lượng thứ nguyên hay chính xác hơn là thanh màu Đỏ phía dưới thanh Năng lượng.<br>- Dùng Chiêu 2 đẩy lính và cấu máu đối phương tầm xa.<br>- Chiêu 1 rất lợi cho D'Arcy vừa miễn khống chế, tăng tốc chạy còn chịu giảm sát thương nhận từ kẻ địch. Ngoài ra sau khi dùng Chiêu 1 đòn đánh thường kế tiếp sẽ mạnh hơn đôi chút, cấu máu kẻ địch cũng ngon lành.<br>- Điều đặc biệt ở D'Arcy là Nội tại, khi tích lũy đủ thanh màu đỏ, thì chiêu thức 1 và 2 sẽ được làm mới, vì thế không phải lo hết chiêu nhé.<br>- Đầu game cũng khá nhẹ nhàng di chuyển qua các đường giúp đỡ đồng đội và ăn mục tiêu lớn như Rồng nhé, hạn chế solo khi thiếu người!!.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game dùng Chiêu 2 cấu máu đối phương tầm xa, tầm trong trụ, có thể tranh cướp Rồng hoặc Caesar. Chiêu này có thời gian phát nổ vì thế hãy đoán hướng di chuyển của kẻ địch và đặt chiêu nhé.<br>- Chiêu cuối là điểm khác biệt của D'Arcy. Hãy chọn vị trí đặt chiêu sao cho trúng nhiều kẻ địch càng tốt.<br>- Những kẻ trúng chiêu sẽ được kéo lại ở giữa chổ mình vừa đặt chiêu. Và sau đó nếu D'Arcy kích hoạt lại chiêu cuối anh ta sẽ được đưa đến vị trí đó và gây thêm nhiều sát thương.<br>- Tuy nhiên không phải lúc nào cũng phải kích hoạt quay lại mà xem coi ở vị trí đó có ai, tình hình có ổn không nếu có thể hạ được ai đổi mạng luôn thì chơi nhé.<br>- Nói thì nói thế các bạn nên chơi thử vài ba lần hoặc nhiều hơn để có thêm kinh nghiệm, không thì trong team mình lại xì xào chuyện có thằng chơi tướng mới nhé!!",
+		"skill_special": "TocBien,BocPha",
+		"main_rune": {
+			"rune2": [
+				{
+					"name": "NgocDo24",
+					"info": "Công phép +2.5<br>Xuyên giáp phép +1.4",
+				},
+				{
+					"name": "NgocTim27",
+					"info": "Tốc đánh +0.4%<br>Tỷ lệ chí mạng +0.3%<br>Tốc chạy +0.5%",
+				},
+				{
+					"name": "NgocXanh28",
+					"info": "Công phép +0.9<br>Xuyên giáp phép +3.8",
+				}
+			],
+			"rune3": [
+				{
+					"name": "NgocDo31",
+					"info": "Công phép +4.2<br>Xuyên giáp phép +2.4",
+				},
+				{
+					"name": "NgocTim32",
+					"info": "Tốc đánh +1%<br>Tốc chạy +1%",
+				},
+				{
+					"name": "NgocXanh310",
+					"info": "Tốc đánh +0.6%<br>Xuyên giáp phép +6.4",
+				}
+			],
+		},
+		"item_build": [
+			{
+				"name": "Đường giữa 1",
+				"info": "TruongBungNo,GiayPhuThuy,TruongHonMang,QuyenTruongRhea,VuongMiengHecate,GuomTanThe",
+			},
+			{
+				"name": "Đường giữa 2",
+				"info": "NgocDaiPhapSu,GiayPhuThuy,TruongBungNo,GuomTanThe,VuongMiengHecate,SachThanh",
+			},
+			{
+				"name": "Đường Caesar",
+				"info": "AoChoangBangGia,GiayThuatSi,TruongBang,MatNaBerith,SachTruyHon,GiapGaia",
+			},
+		],
+		"hero_battle": [
+			{
+				"name": "và đồng bọn",
+				"desc": "với bộ chiêu thức khá hay đặc biệt là Chiêu cuối, đồng đội của anh ta cùng hưởng ứng sau khi có 1 vài kẻ địch bị đưa về tâm chiêu cuối.",
+				"info": [
+					{"hero_id": "maloch", "id_page": "Maloch"},
+					{"hero_id": "teemee", "id_page": "TeeMee"},
+					{"hero_id": "annette", "id_page": "Annette"},
+					{"hero_id": "ngo_khong", "id_page": "NgoKhong"},
+				]
+			},
+			{
+				"name": "và cách khắc chế",
+				"desc": "có thể sẽ khá khó chịu khi gặp một số tướng bay nhảy khiến chiêu thức của anh ta khó mà chạm được vào đối thủ.",
+				"info": [
+					{"hero_id": "tulen", "id_page": "Tulen"},
+					{"hero_id": "liliana", "id_page": "Liliana"},
+					{"hero_id": "nakroth", "id_page": "Nakroth"},
+					{"hero_id": "annette", "id_page": "Annette"},
+				]
+			}
+		],
+		"hero_story": "Phía Nam vương quốc Romain, sừng sững một tòa Trường thành ma pháp hùng vĩ,  tường thành trải dài uốn lượn như một con rồng khổng lồ.<br>Là một trong những kỳ tích vĩ đại nhất của lịch sử nhân loại, Trường thành ma pháp đã được xây dựng trăm năm và trải qua vô số trận chiến đẫm máu với tộc ác ma Vực hỗn mang. Và người hùng - thủ hộ giả - người sáng lập nên Trường thành ma pháp - ma pháp sư truyền kỳ <i class=\"clr-orange\">D’Arcy</i>, đã trở thành một tồn tại sánh ngang thần cứu thế.<br>Hiện tại, vị thần cứu thế này đang gặp phải một phiền phức nhỏ : Mỗi khi đến nửa đêm, cánh tay phải của <i class=\"clr-orange\">D’Arcy</i> có hiện tượng đau ê ẩm. Đó không chỉ là sự đau đớn từ thể xác, mà phảng phất như bị xé rách linh hồn.<br>Trên thực tế,  khi từ không gian thứ nguyên trở về Athanor, cánh tay phải của <i class=\"clr-orange\">D’Arcy</i> thi thoảng xuất hiện cảm giác đau nhói. Chàng vốn cho rằng hiện tượng này là hậu quả do năm xưa quyết chiến cùng sư phụ của mình - một ma pháp sư danh tiếng lẫy lừng - hắc ma pháp sư Lorient. <i class=\"clr-orange\">D’Arcy</i> nghĩ rằng đó là ám thương lưu lại sau trận chiến. Nhưng theo quy mô phát triển ngày càng mở rộng của Trường thành, tần suất tấn công của ác ma Vực hỗn mang cũng theo đó mà tăng lên. Cánh tay phải của chàng cũng phản ứng theo những trận chiến ấy, phảng phất giống như có vật gì đó muốn ngọ nguậy trồi ra.<br><i class=\"clr-orange\">D’Arcy</i> ý thức được, sự việc này không đơn giản.<br>Dựa vào nhiều năm kinh nghiệm nghiên cứu về ma thuật đen, <i class=\"clr-orange\">D’Arcy</i> ngày càng quen thuộc với lực lượng thứ nguyên, chàng có thể áp chế những rung động cuồng bạo của cánh tay phải xuống. Duy nhất chỉ có vào nửa đêm, là thời điểm quái vật Vực hỗn mang tiến đến gần Athanor nhất, cánh tay phải của chàng mới xuất hiện lại loại cảm giác đau nhói kia.<br>Tuy vậy <i class=\"clr-orange\">D’Arcy</i> vẫn luôn giữ kín bí mật của mình. Ngay cả Sephera và Dirac đều chưa biết đến hiện tượng kỳ dị của cánh tay phải này. Việc xây dựng Trường thành ma pháp đã hao tổn vô số tài nguyên nhưng uy lực thực sự của nó còn chưa hiện ra. Lúc này <i class=\"clr-orange\">D’Arcy</i> cần nhất là duy trì trạng thái đỉnh phong của mình để  quân đoàn phương Nam và toàn bộ vương quốc tin tưởng chàng- rằng chàng và Trường thành ma pháp mãi mãi sẽ là tồn tại tối cao thủ hộ cho sự bình yên của nhân loại.<br>“Rầm rập!” Tiếng giày bốt quân đội đạp trên bùn khiến <i class=\"clr-orange\">D’Arcy</i> sực tỉnh.<br>“Ai?”  Tay trái <i class=\"clr-orange\">D’Arcy</i> lập tức đặt lên trên cánh tay phải, ngân sắc ma pháp bàng bạc ẩn hiện.<br>“Hừm...” Người vừa tới liền bị sự cảnh giác của <i class=\"clr-orange\">D’Arcy</i> làm cho chấn kinh. Hắn trầm mặc một lúc sau đó mới khẽ nói: “Điện hạ, rất xin lỗi đã quấy rầy sự nghỉ ngơi của ngài, tôi là Errol - thân vệ của tướng quân Edmund. Tướng quân để cho tôi chuyển lời đến ngài rằng: Đám người phía nam kia hành tung có chút quỷ dị, đêm nay rất có thể bọn chúng sẽ phát động tập kích quân ta. Toàn quân phe ta hiện đã tiến vào trạng thái cảnh giác cấp độ hai- chuẩn bị chiến đấu. Edmund tướng quân mời điện hạ cũng chuẩn bị trạng thái tốt nhất để ra trận.”<br>“Biết rồi. Ngươi chuyển lời cho Edmund tướng quân, ta lập tức sẽ đến.”<br>“Tạ ơn Điện hạ, tôi lập tức trở về phục mệnh!” Lại là một loạt tiếng giày bốt vang lên , hình bóng Errol xa dần trong đêm tối.<br>Sau khi người lính trẻ rời đi , cánh tay phải <i class=\"clr-orange\">D’Arcy</i> vẫn có chút cảm giác nhói đau. Nhưng chàng có chút kinh ngạc, thời gian cơn đau của đêm nay so ngày trước đã nhẹ đi nhiều.<br>“Chẳng lẽ nguyên nhân này là do người trẻ tuổi kia?”<br><i class=\"clr-orange\">D’Arcy</i> đã gặp qua mấy lần thân vệ trẻ tuổi kia cạnh Edmund. Ấn tượng không tồi: Thân thể mặc dù không quá cường tráng nhưng bên trong đôi mắt ấy tiềm ẩn sát khí mãnh liệt. Sát khí bậc này chỉ có thể được hun đúc trên chiến trường sinh tử, đạp lên vạn thây. Khí thế sát phạt và sự thiết huyết này quả thật chứng tỏ có được chiến binh bậc này là việc khả ngộ bất khả cầu. Khí thế này cũng làm cho <i class=\"clr-orange\">D’Arcy</i> nhớ tới thời niên thiếu của mình. Cho dù Errol là một Thợ săn ác quỷ nhưng vì một số nguyên nhân bí mật, <i class=\"clr-orange\">D’Arcy</i> nếu có thể - sẽ tránh xa sự liên quan đến ma thuật đen.<br>Nhưng Thợ săn ác quỷ lại chính là tạo vật kết hợp tuyệt vời nhất với loại ma thuật này. Errol cùng đám chiến hữu của mình gia nhập quân đoàn phương nam, thủ hộ cho Trường thành ma pháp. Đó là sự minh chứng với thế nhân rằng: Họ đã rũ bỏ hoàn toàn sự kết nối với ma thuật đen. Điều đó cũng giống với <i class=\"clr-orange\">D’Arcy</i> năm xưa - đã chính tay đánh bại vị sư phụ hắc ám của mình.<br>Âm thanh sát phạt , tiếng vũ khí va chạm, tiếng gào thảm thiết vang lên xé tan màn đêm yên tĩnh,  <i class=\"clr-orange\">D’Arcy</i> lập tức lấy lại tinh thần, vịn mép giường đứng dậy, khoác lên chiến bào ma pháp sư mà Ma pháp nghị viện đặc chế cho chàng, miệng  ngâm chú ngữ, thân ảnh mờ dần rồi biến mất khỏi đại sảnh.<br>Trong thời gian vài hơi thở, <i class=\"clr-orange\">D’Arcy</i> đã thuấn di lơ lửng trên không trung thuộc phạm vi Trường thành. Ngân sắc ma quang lan tỏa năng lượng bàng bạc phủ lên chiến bào xanh thẫm. Ma pháp cường đại từ <i class=\"clr-orange\">D’Arcy</i> không ngừng lan rộng, trong nháy mắt đã trải rộng toàn bộ chiến trường. Song phương đang giao chiến đều cảm nhận được áp lực của cỗ hơi thở cuồng bạo này . Hai bên không hẹn mà cùng nhìn về phía bầu trời. Tuy nhiên cuộc chiến tranh rất nhanh lại khôi phục bản chất điên cuồng tàn bạo của nó. Nhất là những ma thú phảng phất nhận được lời hiệu triệu nào đó, chúng đồng loạt bỏ qua những bẫy chông, làn tên, mũi giáo mà  điên cuồng hướng về vị trí của <i class=\"clr-orange\">D’Arcy</i> triển khai công kích.<br>“Đến hay lắm!” <i class=\"clr-orange\">D’Arcy</i> thầm nói trong lòng. Chàng giang hai cánh tay, từ trong đó tỏa ra vô số ngân sắc tinh mang, từ đầu ngón tay tuôn trào ra những sợi tơ ma pháp. Những sợi tơ như có mắt liền đem tinh mang xếp thành một trận đồ ma pháp khổng lồ sáng rực.<br>“ Lực lượng thứ nguyên —— Trấn!”<br>Ma pháp cường đại vô hình bùng phát, giống như một bàn tay khổng lồ từ trên trời giáng xuống.<br>“ Uỳnh Uỳnh!”Trọng lực ma pháp thứ nguyên đè xuống áp chế tốc độ của lũ ma thú. Ngay lập tức, hành động của chúng trở thành trì độn. Những tiểu ma thú thực lực tương đối yếu thậm chí bị nghiền vụn, tan xương nát thịt.<br>“Ngay lúc này!” Tướng quân Edmund nãy giờ trên Trường thành quan chiến đột nhiên rống to ra lệnh: “Toàn bộ cung tiễn thủ bắn nhanh ba lượt, không cần bảo tồn sức lực!”<br>“Tuân lệnh!”<br>“Hạ lệnh, kỵ binh đoàn xuất kích, phân hai đội tả hữu  bắt đầu tập kích từ hai cánh.”<br>“Tuân lệnh!”<br>“Hạ lệnh, bộ binh đổi sang trận hình công kích, tấn công theo cờ lệnh của ta!”<br>“Tuân lệnh!”<br>“Errol!”<br>“A? Có thuộc hạ!” Đột nhiên nghe thấy lệnh của tướng quân Edmund, Errol đang quan chiến liền vội vàng đem ánh mắt thu hồi lại.<br>“Hạ lệnh, quân đoàn Thợ săn ác quỷ xuất kích. Trước khi bộ binh bắt đầu tấn công có thể tự do tàn sát, quan trọng là phải tiêu diệt hết những quái vật còn đang thoi thóp kia, hiểu chưa?!”<br>“Tuân lệnh!” Errol lập tức rời đi.<br>Trong khi đó, <i class=\"clr-orange\">D’Arcy</i> vẫn đang toàn lực thi triển ma pháp trận mà không biết tình huống này. Chàng chỉ biết một điều: Tất cả đều là chiến hữu kề vai sát cánh vào sinh ra tử nhiều năm. Chàng tận mắt chứng kiến sự quật khởi từng ngày của ma pháp Trường thành- những chiến binh quả cảm ấy- chưa từng khiến chàng phải thất vọng.<br>“ Sức mạnh trong tay chúng ta, vận mệnh tương lai là do chúng ta nắm giữ!”",
+		"hero_skin": [
+			{
+				"name": "Pháp Sư Thứ Nguyên",
+				"gold": "??",
+				"voucher": "539",
+				"event": "",
+				"wall": "Darcy01",
+				"disable": "yes",
+				"img": "thumb1.jpg",
+				"video": "",
+			},
+			{
+				"name": "Nam Tước",
+				"gold": "",
+				"voucher": "219",
+				"event": "",
+				"wall": "Darcy02",
 				"disable": "yes",
 				"img": "thumb2.jpg",
 				"video": "",

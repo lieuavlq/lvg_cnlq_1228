@@ -61,7 +61,7 @@ var app = {
 
             var wrapCountdown = $('#wrap-countdown');
             var lvgChamps = $('.lvg_champs');
-            var timeClickShowBanner = 90000;
+            var timeClickShowBanner = 120000;
             var delayShowBanner = setTimeout(function(){
                 wrapCountdown.addClass('allready');
             }, timeClickShowBanner);

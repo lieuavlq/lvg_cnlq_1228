@@ -46,7 +46,7 @@ $('document').ready(function(){
   var itemAllPage = $('.lvg_item_all');
   for(i=0; i<allItem.length; i++){
     body.find('.items-wrap').append('<div class="item ui-content" data-theme="a" id="' + allItem[i].id + '">' + popupClose + '<strong>' + allItem[i].name + '</strong><p>' + allItem[i].info + '</p></div>');
-    itemAllPage.append('<div data-filtertext="' + allItem[i].id + ' ' + allItem[i].name + ' ' + change_vn_text(allItem[i].name) + '" class="ui-block-b"><a href="#' + allItem[i].id + '" class="ui-btn item" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'items/' + allItem[i].id + '.png)"></a></div>');
+    itemAllPage.append('<div data-filtertext="' + allItem[i].id + ' ' + allItem[i].name + ' ' + change_vn_text(allItem[i].name) + '" class="ui-block-b"><a href="#' + allItem[i].id + '" class="ui-btn item btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'items/' + allItem[i].id + '.png)"></a></div>');
   }
 
   /* Add spells */
@@ -54,7 +54,7 @@ $('document').ready(function(){
   var spellAllPage = $('.lvg_spell_all');
   for(i=0; i<allSpell.length; i++){
     body.find('.spells-wrap').append('<div class="item ui-content" data-theme="a" id="' + allSpell[i].id + '">' + popupClose + '<strong>' + allSpell[i].name + '</strong><p>' + allSpell[i].info + '</p></div>');
-    spellAllPage.append('<div data-filtertext="' + allSpell[i].id + ' ' + allSpell[i].name + ' ' + change_vn_text(allSpell[i].name) + '" class="ui-block-b"><a href="#' + allSpell[i].id + '" class="ui-btn skill" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'skills/' + allSpell[i].id + '.png)"></a></div>');
+    spellAllPage.append('<div data-filtertext="' + allSpell[i].id + ' ' + allSpell[i].name + ' ' + change_vn_text(allSpell[i].name) + '" class="ui-block-b"><a href="#' + allSpell[i].id + '" class="ui-btn skill btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'skills/' + allSpell[i].id + '.png)"></a></div>');
   }
 
   /* Btn read more */
@@ -118,7 +118,7 @@ $('document').ready(function(){
     /* Skill detail */
     idInfo.append('<h3>' + commonLang['hero_skill'] + '</h3><p class="note">' + commonLang['btn_tap'] + '</p><div class="ui-grid-c lvg_skills detail"></div>');
     for(i=0; i<4; i++){
-      idInfo.find('.lvg_skills.detail').append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#' + heroId + '_Skill' + (i+1) + '" class="ui-btn skill" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared +'champs/' + heroId + '/skill' + (i+1) + '.png)"></a><div data-role="popup" id="' + heroId + '_Skill' + (i+1) + '" class="ui-content" data-theme="a">' + popupClose + '<strong>' + mainSkill[i].name + '</strong><p>' + mainSkill[i].info + '</p></div></div>');
+      idInfo.find('.lvg_skills.detail').append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#' + heroId + '_Skill' + (i+1) + '" class="ui-btn skill btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared +'champs/' + heroId + '/skill' + (i+1) + '.png)"></a><div data-role="popup" id="' + heroId + '_Skill' + (i+1) + '" class="ui-content" data-theme="a">' + popupClose + '<strong>' + mainSkill[i].name + '</strong><p>' + mainSkill[i].info + '</p></div></div>');
     }
     idInfo.find('.lvg_skills.detail').append('<div data-role="popup" id="' + heroId + '_Skill0" class="ui-content" data-theme="a">' + popupClose + '<strong>' + commonLang['normal_skill'] + '</strong><p>' + commonLang['normal_skill_info'] + '</p></div>');
 
@@ -151,7 +151,7 @@ $('document').ready(function(){
       $(this).text('');
       for(j=0; j<splCombo.length; j++){
         if(splCombo[j] != "0"){
-          $(this).append('<div><a href="#' + heroId + '_Skill' + splCombo[j] + '" class="ui-btn skill" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared +'champs/' + heroId + '/skill' + splCombo[j] + '.png)"></a></div>');
+          $(this).append('<div><a href="#' + heroId + '_Skill' + splCombo[j] + '" class="ui-btn skill btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared +'champs/' + heroId + '/skill' + splCombo[j] + '.png)"></a></div>');
         }else{
           $(this).append('<div><a href="#' + heroId + '_Skill' + splCombo[j] + '" class="ui-btn skill" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared +'common/normal.png)"></a></div>');
         }
@@ -168,7 +168,7 @@ $('document').ready(function(){
     var splSkillSp = lvgSkillSp.text().split(',');
     lvgSkillSp.text('');
     for(i=0; i<splSkillSp.length; i++){
-      lvgSkillSp.append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#' + splSkillSp[i] + '" class="ui-btn skill" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'skills/' + splSkillSp[i] + '.png)"></a></div>');
+      lvgSkillSp.append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#' + splSkillSp[i] + '" class="ui-btn skill btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'skills/' + splSkillSp[i] + '.png)"></a></div>');
     }
     idInfo.append(blockBreak);
 
@@ -191,7 +191,7 @@ $('document').ready(function(){
       var splItems = itemBuild[i].info.split(',');
       var iup = 1;
       for(j=0; j<splItems.length; j++){
-        idInfo.find('.lvg_items.build' + i).append('<div class="ui-block-' + getBlockChar(iup) + '"><a href="#' + splItems[j] + '" class="ui-btn item" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'items/' + splItems[j] + '.png)"></a></div>');
+        idInfo.find('.lvg_items.build' + i).append('<div class="ui-block-' + getBlockChar(iup) + '"><a href="#' + splItems[j] + '" class="ui-btn item btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'items/' + splItems[j] + '.png)"></a></div>');
         iup = checkGridB(iup);
       }
     }

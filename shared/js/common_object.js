@@ -79,7 +79,8 @@ var common_object = {
         {"id": "quillen", "id_page": "Quillen", "name": "Quillen", "position": "assassin"},
         {"id": "sephera", "id_page": "Sephera", "name": "Sephera", "position": "mage support"},
         {"id": "florentino", "id_page": "Florentino", "name": "Florentino", "position": "warrior assassin"},
-        {"id": "veres", "id_page": "Veres", "name": "Veres", "position": "warrior assassin new"},
+        {"id": "veres", "id_page": "Veres", "name": "Veres", "position": "warrior assassin"},
+        {"id": "darcy", "id_page": "Darcy", "name": "D'Arcy", "position": "mage new"},
     ],
     "all_item": [
         {"id": "AoChoangBangGia", "name": "Áo choàng băng giá", "info": "Giá: 1970<br>+10% Giảm hồi chiêu<br>+200 Giáp<br>+800 Máu<br>Sức mạnh nguyên tố: Sau khi tung chiêu sẽ khiến đòn đánh kế gây thêm 150 sát thương vật lý (mỗi cấp tăng thêm 20) kèm 30% làm chậm , 3s hồi."},
