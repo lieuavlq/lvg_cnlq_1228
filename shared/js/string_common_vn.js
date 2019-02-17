@@ -30,7 +30,7 @@ var string_common_vn = {
   "coming_soon": "Coming soon",
   "coming_soon_info": "Sắp Tới Có Gì Mới?",
   "what_new": "Có gì mới?!",
-  "thanks_for": "Ứng dụng của mình chỉ hướng dẫn mọi người làm sao chơi Liên Quân Mobile cho tốt hơn, vì thế mọi ý kiến đóng góp xin mọi người gửi qua mail hoặc gửi tin nhắn thông qua Facebook nhé! Cảm ơn!!",
+  "thanks_for": "Năm mới Tết đến! Chúc mọi người năm mới vui vẻ, gặp nhiều may mắn và thành công hơn trong năm chú Hợi 2019!!<br><br>Ứng dụng của mình chỉ hướng dẫn mọi người làm sao chơi Liên Quân Mobile cho tốt hơn, vì thế mọi ý kiến đóng góp xin mọi người gửi qua mail hoặc gửi tin nhắn thông qua Facebook nhé! Cảm ơn!!",
   "btn_mail": "Gửi mail",
   "mail_status": "Đừng quên Đánh Giá ứng dụng nha mọi người! :D",
   "aov_download": "Link tải game Liên Quân Mobile",

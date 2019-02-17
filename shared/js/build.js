@@ -1557,6 +1557,16 @@ var infoHeros = {
 				"img": "thumb3.jpg",
 				"video": "Kahlii03",
 			},
+			{
+				"name": "Kim Cô Giáo Chủ (Bậc S)",
+				"gold": "",
+				"voucher": "<s>409</s> -> 286",
+				"event": "",
+				"wall": "Kahlii04",
+				"disable": "yes",
+				"img": "thumb4.jpg",
+				"video": "Kahlii04",
+			},
 		]
 	},
 	"zephys": {
@@ -2192,6 +2202,16 @@ var infoHeros = {
 				"img": "thumb7.jpg",
 				"video": "Violet07",
 			},
+			{
+				"name": "Pháo Hoa Neon",
+				"gold": "",
+				"voucher": "",
+				"event": "Nhận từ vẽ bùa",
+				"wall": "Violet08",
+				"disable": "yes",
+				"img": "thumb8.jpg",
+				"video": "Violet08",
+			},
 		]
 	},
 	"butterfly": {
@@ -2393,7 +2413,7 @@ var infoHeros = {
 		"main_skill": [
 			{
 				"name": "Man lực",
-				"info": "Nội tại: Tất cả sát thương của Ormarr đều có tỷ lệ làm choáng mục tiêu và gây 9 – 15% máu hiện tại của nạn nhân thành STVL, 4s hồi chiêu.",
+				"info": "Nội tại: Tất cả sát thương của Ormarr đều có 60% tỷ lệ làm choáng 0.75 giây mục tiêu, và gây 3-7% máu tối đa của bản thân thành sát thương phép (6 giây hồi).",
 			},
 			{
 				"name": "Búa cuồng",
@@ -2401,11 +2421,11 @@ var infoHeros = {
 			},
 			{
 				"name": "Búa tạ",
-				"info": "ST Gốc: 215/260/305/350/395/440<br>Ormarr nện búa xuống đất gây 215 (+179) STVL lên những kẻ địch trúng chiêu, đồng thời làm chậm 50% tốc chạy của nạn nhân trong 1s. Mỗi lần tung chiêu trúng địch giúp nhận 1 điểm Cuồng dã, khi đạt đủ 3 điểm sẽ khiến lần tung chiêu kế gây kèm hiệu ứng làm choáng.",
+				"info": "ST Gốc: 215/260/305/350/395/440<br>Hồi chiêu: 6 giây<br>Ormarr nện búa xuống đất gây 215 (+179) STVL lên những kẻ địch trúng chiêu, đồng thời làm chậm 50% tốc chạy của nạn nhân trong 1s. Mỗi lần tung chiêu trúng địch giúp nhận 1 điểm Cuồng dã, khi đạt đủ 3 điểm sẽ khiến lần tung chiêu kế gây kèm hiệu ứng làm choáng.",
 			},
 			{
 				"name": "Bão búa",
-				"info": "ST Gốc: 100/120/140<br>H.Chiêu: 28/24/20<br>Ormarr xoay búa cực nhanh gây 100 (+85) STVL mỗi đợt lên những kẻ địch trúng chiêu.",
+				"info": "Hồi chiêu: 40/35/30 giây<br>Vũ khí trên tay Ormarr xoay vòng cực nhanh gây 100/120/140 (+0.50 công vật lý) sát thương vật lý kèm theo tỷ lệ làm choáng trên mỗi chiêu trúng đích. Nếu có tướng địch trúng chiêu sẽ khiến Ormarr được hồi 2% máu tối đa của bản thân (cộng dồn lên đến 3 tầng hiệu lực). Suốt thời gian này Ormarr không thể bị ngắt quãng chiêu, và có thể sử dụng Búa cuồng, nhưng bù lại sẽ bị giảm tốc chạy.",
 			}
 		],
 		"skill_up": {
@@ -3306,7 +3326,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Thân thể thép",
-				"info": "Thời gian hiệu lực: 5/7/9<br>Taara vận hết sức bình sinh giúp phục hồi 8% máu tối đa mỗi giây trong 5s, đồng thời tăng 30% tốc chạy.",
+				"info": "Hồi chiêu: 35 giâybr>Taara sử dụng hết tiềm năng của mình giúp phục hồi 8% máu tối đa mỗi giây trong 5/7/9 giây, đồng thời tăng 30% tốc chạy.",
 			}
 		],
 		"skill_up": {
@@ -3593,6 +3613,16 @@ var infoHeros = {
 				"wall": "Nakroth05",
 				"disable": "yes",
 				"img": "thumb5.jpg",
+				"video": "",
+			},
+			{
+				"name": "Khiêu Chiến (AIC 2018)",
+				"gold": "",
+				"voucher": "",
+				"event": "Mở sự kiện",
+				"wall": "Nakroth06",
+				"disable": "yes",
+				"img": "thumb6.jpg",
 				"video": "",
 			},
 		]
@@ -5871,15 +5901,15 @@ var infoHeros = {
 				"info": "Nội tại: mỗi 10s Skud sẽ tung một cú đấm đặc biệt, gây 120% STCB, đồng thời giúp hồi 80 (+128) (+4% chỉ số máu tối đa) máu cùng 30 (+3% năng lượng đã sử dụng) năng lượng, mỗi đòn đánh thường giúp giảm thời gian hồi nội tại này đi 1s.",
 			},
 			{
-				"name": "Găng tay nổi loạn",
-				"info": "ST Gốc: 210/240/270/300/330/360<br>H.Chiêu: 7/6.7/6.4/6.1/5.8/5.5<br>Tăng giáp: 60/90/120/150/180/210<br>Skud nhảy xổ đến phía trước tung một cú đấm, gây 210 (+171) STVL và hất tung những kẻ địch trung chiêu 0.5s, đồng thời khiến Skud được tăng 60 giáp trong 3s."
+				"name": "Găng nổi loạn",
+				"info": "Hồi chiêu: 6 giây<br>Skud nhảy xổ đến phía trước tung một cú đấm, gây 200/250/300/350/400/450 (+1.0 công vật lý) sát thương vật lý kèm hiệu ứng hất văng trong 0.5 giây. Chiêu trúng kẻ địch giúp Skud nhận 60/90/120/150/180/210 giáp vật lý trong 3 giây."
 			},
 			{
-				"name": "Găng tay cuồng bạo",
+				"name": "Găng cuồng bạo",
 				"info": "ST Gốc: 120/160/200/240/280/320<br>H.Chiêu: 11/10.6/10.2/9.8/9.4/9<br>Skud dồn sức mạnh vào găng tay khiến bản thân được tăng 20% tốc đánh, 10% tốc chạy trong 5 giây. Cú đấm kế tiếp trong thời gian hiệu lực sẽ gây thêm 120 (+0.4 công vật lý) sSTVL, kèm hiệu ứng làm chậm tốc chạy.<br>Sau khi dùng găng cuồng bạo, sát thương nhiều nhất có thể tăng: 100%.",
 			},
 			{
-				"name": "Găng tay hung thần",
+				"name": "Găng hung thần",
 				"info": "ST Gốc: 370/470/570<br>H.Chiêu: 35/30/25<br>Skud niệm chú trong thoáng chốc rồi hất văng tất cả kẻ địch lân cận, gây 370 (+1.2 công vật lý) STVL đồng thời làm choáng 1s, ngoại ra chiêu còn gây thêm 15% máu hiện tại của nạn nhân thành STVL, đồng thời khiến Găng cuồng bạo được lập tức làm mới.",
 			}
 		],
@@ -6643,19 +6673,19 @@ var infoHeros = {
 		"main_skill": [
 			{
 				"name": "Võ hồn",
-				"info": "Nội tại: mỗi 15s khi gây sát thương lên tướng địch giúp kích hoạt nội lực của Zuka, khiến công vật lý khi tung đòn đánh kế trong vòng 4s được cường hóa 25/30/35/40% (tăng trưởng khi ở các cấp 1/5/9/13).",
+				"info": "Nội tại: Mỗi 15 giây khi gây sát thương lên tướng địch giúp kích hoạt nội lực Zuka, tăng thêm 15/20/25/30% công vật lý trong 4 giây.",
 			},
 			{
 				"name": "Loạn đã bổng",
-				"info": "ST Gốc: 135/160/185/210/235/260<br>H.Chiêu: 10/9.2/8.4/7.6/6.8/6<br>Zuka lướt tới trước tung gậy phỉ thúy tấn công kẻ địch, 135 (+0.9 công vật lý) STVL lên những nạn nhân lân cận, chiêu này có thể tái sử dụng trong vòng 5s, đồng thời mỗi lần tung chiêu cường hóa đòn đánh thường kế tiếp của Zuka, giúp gia tăng tầm đánh và gây thêm (+85) STVL."
+				"info": "Zuka lướt tới trước vung gậy phỉ thúy tấn công kẻ địch, gây 135/160/185/210/235/260 (+0.90 công vật lý) sát thương vật lý lên những nạn nhân lân cận. Chiêu thức này có thể tái sử dụng trong vòng 5 giây kế, đồng thời mỗi lần tung chiêu cường hóa đòn đánh thường kế tiếp của Zuka giúp gây thêm 60/80/100/120/140/160（+0.25 công vật lý) sát thương vật lý và gia tăng tầm đánh."
 			},
 			{
 				"name": "Phi thân kích",
-				"info": "ST Gốc: 100/120/140/160/180/200<br>H.Chiêu: 9/8.4/7.8/7.2/6.6/6<br>Lá chắn: 150/180/210/240/270/300<br>Zuka lộn nhào về phía trước, gây 100 (+59) STVL lên những nạn nhân trúng chiêu dọc đường bay, tung chiêu trúng đích giúp Zuka nhận lớp lá chắn chặn 150 (+255) sát thương trong 2.5s, đồng thời cường hóa đòn đánh thường kế tiếp giúp gây thêm (+85) STVL và lạm choáng các kẻ địch lân cận trong 0.75s.",
+				"info": "Zuka lộn nhào về phía trước, gây 100/120/140/160/180/200 (+0.35 công vật lý) sát thương vật lý lên những nạn nhân trúng chiêu dọc đường bay. Tung chiêu trúng đích giúp Zuka nhận 250/300/350/400/450/500 (+1.5 công vật lý) lá chắn trong 2.5 giây, đồng thời cường hóa đòn đánh thường kế tiếp gây thêm 50% công vật lý sát thương vật lý và làm choáng các kẻ địch lân cận trong 1 giây. Đặc biệt khi lá chắn biến mất, Zuka sẽ được hồi 30/40/50/60/70/80 (+0.1 công vật lý) máu mỗi giây trong 3 giây.",
 			},
 			{
 				"name": "Trầm trọng lực",
-				"info": "ST Gốc: 500/650/800<br>H.Chiêu: 32/28/24<br>Zuka phóng vút lên không rồi nện xuống mặt đất, gây 500 (+1.0 Công vật lý) STVL lên các nạn nhân trong vùng ảnh hưởng, đồng thời làm choáng chúng trong 0.75s, đòn đánh thường kế tiếp của Zuka được cường hóa, gây thêm (+85) STVL lên những kẻ địch lân cận.",
+				"info": "Zuka phóng vút lên không rồi nện xuống mặt đất, gây 500/650/800 (+ 1.0 công vật lý) sát thương vật lý lên các nạn nhân trong vùng ảnh hưởng, đồng thời làm choáng trúng trong 1 giây. Đòn đánh thường kế tiếp của Zuka được cường hóa, gây thêm 70/110/150（+0.25 công vật lý) sát thương vật lý lên những kẻ địch lân cận.",
 			}
 		],
 		"skill_up": {
@@ -6820,15 +6850,15 @@ var infoHeros = {
 		"main_skill": [
 			{
 				"name": "Hỏa hồn",
-				"info": "Nội tại: Chiêu thức trúng đích của Ignis khiến các nạn nhân phải gánh chịu hiệu ứng Hỏa hồn sau 1s, hiệu ứng kéo dài 2.5s, chiêu thức tiếp theo của Ignis nếu kích phát Hỏa hồn sẽ hồi lại 100 máu (+5 mỗi cấp) (+0.15 công phép).",
+				"info": "Nội tại: Hoả cầu trúng đích khiến các nạn nhân phải gánh chịu hiệu ứng Hỏa hồn, hiệu ứng kéo dài 3 giây. Chiêu thức tiếp theo của Ignis nếu kích phát Hỏa hồn sẽ được cường hóa và hồi cho Ignis 100 (+5 mỗi cấp) (+0.15 công phép) máu.",
 			},
 			{
 				"name": "Hỏa cầu",
-				"info": "Ignis tung cầu lửa vào mục tiêu đầu tiên, thứ sẽ phát nổ theo hình nón lên những kẻ địch phía sau, gây 340/380/420/460/500/540 (+0.4 Công phép) sát thương phép, đồng thời tăng 40% tốc chạy trong 1 giây. Nếu mục tiêu trúng chiêu đang dính phải hiệu ứng Hỏa hồn, Ignis sẽ nhận một lá chắn giúp chặn 300/400/500/600/700/800 (+0.65 Công phép) sát thương trong 2 giây."
+				"info": "Ignis tung cầu lửa vào mục tiêu đầu tiên, thứ sẽ phát nổ theo hình nón lên những kẻ địch phía sau, gây 300/340/380/420/460/500（+0.4 Công phép) sát thương phép, đồng thời tăng 40% tốc chạy trong 1 giây. Nếu mục tiêu trúng chiêu đang dính phải hiệu ứng Hỏa hồn, Ignis sẽ nhận một lá chắn giúp chặn 300/400/500/600/700/800 (+0.65 Công phép) sát thương trong 2 giây."
 			},
 			{
 				"name": "Hỏa hoạn",
-				"info": "ST Gốc: 135/170/205/240/275/310<br>H.Chiêu: 12/11/10/9/8/7<br>Ignis triệu hồi một cơn mưa lửa trong 3s tại điểm chỉ định, gây 135 (+0) STP mỗi giây lên những kẻ địch trúng chiêu, và làm chậm 50% tốc chạy của nạn nhân trong 2s, nếu mục tiêu trúng chiêu đang dính phải hiệu ứng Hỏa hồn, nạn nhân sẽ bị choáng trong 1.5s.",
+				"info": "Ignis triệu hồi một cơn mưa lửa trong 3 giây tại điểm chỉ định, gây 135/170/205/240/275/310 sát thương phép mỗi giây, và làm chậm 30% tốc chạy của nạn nhân trong 2 giây. Nếu mục tiêu đang bị dính hỏa hồn, sẽ bị choáng trong 0.75 giây.",
 			},
 			{
 				"name": "Hỏa trận",
@@ -7276,7 +7306,7 @@ var infoHeros = {
 		"main_skill": [
 			{
 				"name": "Hồn huyết",
-				"info": "Nội tại: khi máu của Arduin còn thấp hơn 50%, hắn sẽ tiến vào trạng thái Hồn huyết trong 8s, suốt thời gian này Arduin được hồi lại 4% máu tối đa mỗi khi đòn đánh thường hoặc chiêu thức của hắn gây sát thương lên kẻ địch, chỉ kích hoạt trong chiến đấu, nội tại này có thời gian hồi 60s.",
+				"info": "Nội tại: khi máu của Arduin còn thấp hơn 50%, hắn sẽ tiến vào trạng thái Hồn huyết trong 8s, suốt thời gian này Arduin được hồi lại 4% máu tối đa mỗi khi đòn đánh thường hoặc chiêu thức của hắn gây sát thương lên kẻ địch, chỉ kích hoạt trong chiến đấu, nội tại này có thời gian hồi 45 giây.",
 			},
 			{
 				"name": "Hồn trảm",
@@ -7717,15 +7747,15 @@ var infoHeros = {
 			},
 			{
 				"name": "Bạt kiếm",
-				"info": "ST Gốc: 150/200/250/300/350/400<br>Tốc đánh: 20%/24%/28%/32%/36%/40%<br>Astrid vung thanh kiếm cực đại gây 150 (+1.1 công vật lý) STVL lên những kẻ địch lân cận. Kẻ địch trúng chiêu giúp Astrid tăng 20% tốc đánh, và thêm 5% theo mỗi nạn nhân là tướng địch lên đến tối đa 25%, hiệu ứng kéo dài 3s."
+				"info": "ST Gốc: 150/200/250/300/350/400<br>Tốc đánh: 20%/24%/28%/32%/36%/40%<br>Astrid vung thanh kiếm cực đại gây 200/240/280/320/360/400 (1.2 Công vật lý) sát thương vật lý lên những kẻ địch lân cận. Kẻ địch trúng chiêu giúp Astrid tăng 30/36/42/48/54/60% tốc đánh, và thêm 5% theo mỗi nạn nhân là tướng địch lên đến tối đa 25%; hiệu ứng kéo dài 3 giây."
 			},
 			{
 				"name": "Quả cảm",
-				"info": "ST Gốc: 60/90/120/150/180/210<br>H.Chiêu: 10/9.6/9.2/8.8/8.4/8<br>Astrid lướt theo hướng chỉ định, khiến đòn đánh kế gây thêm 60 (+85) STVL, và làm chậm 50% tốc chạy của kẻ địch trúng chiêu trong 1.5s, đồng thời giảm 30% giáp của nạn nhân trong 4s, đòn đánh thường lên tướng giúp giảm 1s hồi chiêu Quả cảm (trúng nhiều tướng không cộng dồn).",
+				"info": "ST Gốc: 60/90/120/150/180/210<br>H.Chiêu: 10/9.6/9.2/8.8/8.4/8<br>Astrid lướt theo hướng chỉ định, khiến đòn đánh kế gây 60/90/120/150/180/210 (+1.5 Công vật lý) sát thương vật lý, và làm chậm 50% tốc chạy của kẻ địch trúng chiêu trong 1.5 giây, đồng thời giảm 30% giáp của nạn nhân trong 4 giây. Đòn đánh thường kế tiếp sẽ tăng tốc đánh và khi trúng tướng giúp giảm 1 giây hồi chiêu Quả cảm (trúng nhiều tướng không cộng dồn).",
 			},
 			{
 				"name": "Cự kiếm",
-				"info": "ST Gốc: 400/600/800<br>H.Chiêu: 50/45/40<br>Astrid tập trung sức mạnh trong 2s giúp miễn nhiễm mọi sát thương, sau 1.5s cô vung kiếm gây 400 (+2.0 công vật lý) STVL, nếu máu mục tiêu ít hơn hoặc bằng với Astrid sẽ tăng thêm 16% STC với kẻ địch đã bị mất máu (giới hạn với Quái rừng： tối đa 500 điểm, nếu máu của mục tiêu cao hơn Astrid, nạn nhân sẽ bị choáng trong 1s.",
+				"info": "H.Chiêu: 50/45/40<br>Astrid tập trung sức mạnh trong 2 giây giúp miễn nhiễm mọi sát thương và khống chế. Sau 1.5 giây cô vung kiếm gây 400/600/800 (+2.0 Công vật lý) sát thương vật lý. Nếu Astrid thấp hơn 60% máu sẽ khiến nạn nhân bị choáng trong 1.5 giây, còn nếu Tướng địch thấp hơn 60% máu thì chịu thêm sát thương chuẩn bằng 16% máu đã mất. (Tối đa 2000 lên quái).",
 			}
 		],
 		"skill_up": {
@@ -8434,6 +8464,16 @@ var infoHeros = {
 				"img": "thumb3.jpg",
 				"video": "Xeniel03",
 			},
+			{
+				"name": "Kim Sí Điểu",
+				"gold": "",
+				"voucher": "",
+				"event": "Mở VIP có",
+				"wall": "Xeniel04",
+				"disable": "",
+				"img": "thumb4.jpg",
+				"video": "Xeniel04",
+			},
 		]
 	},
 	"kil_groth": {
@@ -8733,7 +8773,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Rắm thần lực",
-				"info": "ST Gốc: 233/300/367/434/501/568<br>ST cực đại: 700/900/1100/1300/1500/1700<br>TeeMee bỗng nhiên đau bụng khiến toàn thân căng thẳng, liên tục toát mồ hôi và tăng tốc chạy 6% trong 5s, suốt thời gian này TeeMee có thể tự chủ động hoặc hết thời gian chịu đựng dẫn đến đánh rắm khiến kẻ địch lân cận chịu tối đa 700 (+0) STP và bị choáng, thời gian nín càng lâu, sát thương và choáng càng cao."
+				"info": "TeeMee bỗng nhiên đau bụng dữ dội, liên tục toát mồ hôi trong 5 giây. Suốt thời gian này, TeeMee có thể tự chủ động hoặc chờ hết thời gian chịu đựng dẫn đến đánh rắm khiến kẻ địch lân cận chịu tối đa 700/900/1100/1300/1500/1700 (+1.65 công phép) sát thương phép và bị choáng 1.5 giây. Thời gian nín càng lâu, sát thương và choáng càng cao. Đặc biệt nếu TeeMee đánh rắm trúng tướng địch sẽ giúp giảm đến 40% hồi chiêu."
 			},
 			{
 				"name": "Giáo móc TeeMee",
@@ -9660,7 +9700,7 @@ var infoHeros = {
 			},
 			{
 				"name": "Lốc chân không",
-				"info": "ST Gốc: 90/130/170<br>ST chấn động: 450/675/900<br>H.Chiêu: 60/55/50<br>The Flash chạy vòng quanh tạo nên một cơn lốc chân không giúp bản thân không bị chọn làm mục tiêu và gây 90/130/170（+0.12 Công phép) STP lên những kẻ địch trong phạm vi ảnh hưởng, bù lại tự giảm 40% tốc chạy của bản thân trong 2s.<br>Sau 2s The Flash dừng lại đột ngột khiến kẻ địch bị hút về tâm bão, gây 900（+0.6 Công phép) STP, suốt quá trình di chuyển The Flash hoàn toàn có thể từ từ thay đổi hướng gió.",
+				"info": "Hồi chiêu: 50/45/40 giây<br>The Flash chạy vòng quanh tạo nên một cơn lốc chân không giúp bản thân không bị chọn làm mục tiêu và gây 90/130/170（+0.12 Công phép) sát thương phép lên những kẻ địch trong phạm vi ảnh hưởng, bù lại tự giảm 30% tốc chạy của bản thân trong 2 giây.<br>Sau 2 giây The Flash dừng lại đột ngột khiến kẻ địch bị hút về tâm bão, gây 450/675/900 (+0.7 công phép) sát thương phép và gây thêm 1 giây 40% giảm tốc.",
 			}
 		],
 		"skill_up": {
@@ -10369,7 +10409,7 @@ var infoHeros = {
 		"main_skill": [
 			{
 				"name": "Cuốc lửa",
-				"info": "Nội tại: mỗi 50 máu tối đa giúp tăng 1 công phép, ngoài ra các đòn đánh thường thứ 3 trúng đích sẽ giúp hồi 8% năng lượng tối đa, đồng thời khắc 1 dấu ấn cuốc lửa lên nạn nhân trong 5s.",
+				"info": "Nội tại: Mỗi 40 máu tối đa Roxie có, cô được tăng thêm 1 công phép.<br>Đòn đánh thường thứ ba lên kẻ địch sẽ giúp Roxie hồi 8% năng lượng tối đa, và đánh dấu Cuốc lửa lên nạn nhân trong 5 giây.",
 			},
 			{
 				"name": "Patin lửa",
@@ -10377,11 +10417,11 @@ var infoHeros = {
 			},
 			{
 				"name": "Ba lô lửa",
-				"info": "ST Gốc: 150/200/250/300/350/400<br>H.Chiêu: 12/11.6/11.2/10.8/10.4/10<br>Roxie tăng 20% tốc chạy và tạo lá chắn lửa giúp chặn 150 (+207) (6% máu tối đa) ST trong 3s.<br>Suốt thời gian này các kẻ địch va phải Roxie sẽ bị làm chậm 50% tốc chạy trong 1.5s.",
+				"info": "Hồi chiêu: 10/9.6/9.2/8.8/8.4/8 giây<br>Roxie tăng 25% tốc chạy và tạo lá chắn lửa giúp chặn đứng 150 (6% máu tối đa bản thân) sát thương trong 3 giây. Suốt thời gian này kẻ địch va phải Roxie sẽ bị làm chậm 50% trong 2 giây.",
 			},
 			{
 				"name": "Keo lửa",
-				"info": "ST Gốc: 75/100/125<br>H.Chiêu: 40/36/32<br>% máu hiện tại: 4%/5%/6%<br>Agnie bay đến lôi mục tiêu đầu tiên tóm được về phía bản thân trong 1.5 giây ~ 2.5 giây và giúp Roxie làm mới thời gian hồi Patin lửa, đồng thời khắc dấu ấn cuốc lửa lên nạn nhân và gây 75 (+4% máu hiện tại mục tiêu) STP sau khi chiêu kết thúc, suốt thời gian này Roxie đi đâu nạn nhân sẽ bị kéo theo đó, thậm chí có thể kéo vượt địa hình, bù lại nạn nhân được miễn nhiễm với các hiệu ứng khống chế.",
+				"info": "ST Gốc: 75/100/125<br>H.Chiêu: 35/31/27 giây<br>% máu hiện tại: 4%/5%/6%<br>Agnie bay đến lôi mục tiêu đầu tiên tóm được về phía bản thân trong 1.5 giây ~ 2.5 giây và giúp Roxie làm mới thời gian hồi Patin lửa, đồng thời khắc dấu ấn cuốc lửa lên nạn nhân và gây 75 (+4% máu hiện tại mục tiêu) STP sau khi chiêu kết thúc, suốt thời gian này Roxie đi đâu nạn nhân sẽ bị kéo theo đó, thậm chí có thể kéo vượt địa hình, bù lại nạn nhân được miễn nhiễm với các hiệu ứng khống chế.",
 			}
 		],
 		"skill_up": {
@@ -10648,11 +10688,11 @@ var infoHeros = {
 			},
 			{
 				"name": "GIÓ XOÁY",
-				"info": "Hồi chiêu: 9/8.5/8/7.5/7/6.5 giây<br>Tiêu hao: 50/55/60/65/70/75 năng lượng<br>Annette tạo ra một cơn gió lốc gây 65~110（+0.15 công phép) sát thương phép mỗi 0.25 giây tại điểm chỉ định. Mỗi đợt tăng 33% sát thương, kéo dài trong 2 giây. Những kẻ địch tại vùng tâm cơn gió sẽ phải chịu thêm 2% máu tối đa thành sát thương phép, đồng thời bị làm chậm 50% tốc chạy trong 0.25 giây."
+				"info": "Hồi chiêu: 10/9.5/9/8.5/8/7.5 giây<br>Annette tạo ra một cơn gió lốc gây 55/64/73/82/91/100 (+ 0.15 công phép) sát thương phép mỗi 0.25 giây tại điểm chỉ định. Mỗi đợt tăng 33% sát thương, kéo dài trong 2 giây. Những kẻ địch tại vùng tâm cơn gió sẽ phải chịu thêm 2% máu tối đa thành sát thương phép, đồng thời bị làm chậm 50% tốc chạy trong 0.25 giây (sát thương cộng thêm và hiệu ứng làm chậm này cộng dồn tối đa 4 lần)."
 			},
 			{
 				"name": "GIÓ NỒM",
-				"info": "Hồi chiêu: 11/10.4/9.8/9.2/8.6/8 giây<br>Tiêu hao: 70/75/80/85/90/95 năng lượng<br>Kích hoạt: Annette bắn một quả cầu gió theo hướng chỉ định gây 250 (+ 0.3 công phép) sát thương phép, và làm chậm 50% tốc chạy của các đơn vị trúng chiêu. Quả cầu gió bay xuyên qua nạn nhân đầu tiên, nếu trúng phải nạn nhân thứ hai sẽ gom cả hai lại, gây thêm 300 + (+ 0.5 công phép) sát thương phép, và làm choáng trúng 1 giây.<br>Nội tại: Nếu Annette bị choáng sẽ lập tức hoàn lại thời gian hồi chiêu này, đồng thời giúp tạo lá chắn 300/360/420/480/540/600 (+ 0.5 công phép) và tăng 150/192/234/276/318/360 giáp cùng giáp phép trong 2 giây; 45 giây hồi chiêu.",
+				"info": "Hồi chiêu: 11/10.4/9.8/9.2/8.6/8 giây<br>Tiêu hao: 70/75/80/85/90/95 năng lượng<br>Kích hoạt: Annette bắn một quả cầu gió theo hướng chỉ định gây 250 (+ 0.3 công phép) sát thương phép, và làm chậm 50% tốc chạy của các đơn vị trúng chiêu. Quả cầu gió bay xuyên qua nạn nhân đầu tiên, nếu trúng phải nạn nhân thứ hai sẽ gom cả hai lại, gây thêm 300 + (+ 0.5 công phép) sát thương phép, và làm choáng trúng 1 giây.<br>Nội tại: Nếu Annette bị choáng sẽ lập tức hoàn lại thời gian hồi chiêu này, đồng thời giúp tạo lá chắn 300/360/420/480/540/600 (+ 0.5 công phép) và tăng 150/192/234/276/318/360 giáp cùng giáp phép trong 2 giây; 60 giây hồi chiêu.",
 			},
 			{
 				"name": "MẮT BÃO",
@@ -10793,7 +10833,7 @@ var infoHeros = {
 			},
 			{
 				"name": "CUỒNG BẠO CƯỚC",
-				"info": "Hồi chiêu: 60/55/50 giây<br>Tiêu hao: 120/130/140 năng lượng<br>Sau 1 giây vận công, Amily gây 300/400/500 sát thương phép diện rộng và cường hoá bản thân giúp tăng 100/150/200 công vật lý, 50 tốc chạy, 50/75/100 miễn thương. Suốt thời gian cường hoá Amily gây 60/80/100 sát thương phép lên kẻ địch lân cận mỗi giây; hiệu ứng kéo dài 8 giây.",
+				"info": "Hồi chiêu: 60/55/50 giây<br>Tiêu hao: 120/130/140 năng lượng<br>Sau 1 giây vận công, Amily gây 300/450/600 sát thương phép diện rộng và cường hoá bản thân giúp tăng 100/150/200 công vật lý, 50 tốc chạy, 50/75/100 miễn thương. Suốt thời gian cường hoá Amily gây 60/90/120 sát thương phép lên kẻ địch lân cận mỗi giây; hiệu ứng kéo dài 8 giây.",
 			}
 		],
 		"skill_up": {
@@ -10924,7 +10964,7 @@ var infoHeros = {
 		"main_skill": [
 			{
 				"name": "ĐẤT MẸ",
-				"info": "Hồi chiêu: 15 giây<br>Nội tại: Mỗi khi tiến vào bụi cỏ, Y'Bneth nhận được bùa lợi hồi 45 (+18 mỗi cấp) máu và 14 (+2 mỗi cấp) năng lượng mỗi giây, kéo dài trong 5 giây. Hiệu ứng kết thúc ngay khi Y'Bneth tiến vào giao tranh.",
+				"info": "Hồi chiêu: 15 giây<br>Nội tại: Mỗi khi tiến vào bụi cỏ, Y'Bneth nhận được bùa lợi hồi 32 (+15 mỗi cấp tướng) máu và 10 (+2 mỗi cấp tướng) năng lượng mỗi giây, kéo dài trong 5 giây. Hiệu ứng kết thúc ngay khi Y'Bneth tiến vào giao tranh.",
 			},
 			{
 				"name": "DÂY LEO",
@@ -10932,7 +10972,7 @@ var infoHeros = {
 			},
 			{
 				"name": "THIÊN NHIÊN VỖ VỀ",
-				"info": "Hồi chiêu: 9 giây<br>Tiêu hao: 70/75/80/85/90/95 năng lượng<br>Y'Bneth vung tay tấn công các kẻ địch trong vùng hình nón phía trước gây 285/340/395/450/505/560 (+0.95 công vật lý) sát thương vật lý, đồng thời đẩy mục tiêu vào trung tâm; nếu có hai nạn nhân trở lên đồng thời trúng chiêu thì chúng sẽ phải chịu thêm 50% sát thương và bị choáng 1 giây.",
+				"info": "Hồi chiêu: 9 giây<br>Tiêu hao: 70/75/80/85/90/95 năng lượng<br>Y'Bneth vung tay tấn công các kẻ địch trong vùng hình nón phía trước gây 240/310/380/450/520/590 + (0.95 công vật lý) sát thương vật lý, đồng thời đẩy mục tiêu vào trung tâm; nếu có hai nạn nhân trở lên đồng thời trúng chiêu thì chúng sẽ phải chịu thêm 50% sát thương và bị choáng 1 giây.",
 			},
 			{
 				"name": "HẠT GIỐNG SINH MỆNH",
@@ -11202,11 +11242,11 @@ var infoHeros = {
 			},
 			{
 				"name": "CHẶT & CHÉM",
-				"info": "Hồi chiêu: 9 giây<br>Tiêu hao: 0 nội năng<br>Richter lướt về phía trước gây 60/75/90/105/120/135 (+0.40 công vật lý) sát thương vật lý, đồng thời gây hiệu ứng tuỳ theo màu gươm hiện có<br>Gươm xanh: tăng tầm lướt và gây làm chậm 60%<br>Gươm đỏ: Hất tung<br>Chưa hết, Richter vung gươm chém tiếp gây 125/155/185/215/245/275 (+0.80 công vật lý) sát thương vật lý, rồi biến đòn đánh kế tiếp gây 10/35/60/85/110/135 (+1.0 công vật lý) sát thương phép<br>Nếu chiêu thức trúng kẻ địch sẽ được hồi lại ngay lập tức. Hiệu ứng này chỉ xảy ra mỗi 4 giây một lần.<br>Tầm lướt tới của Kiếm Đỏ bằng tầm lướt tới ở dạng Kiếm Vàng."
+				"info": "Hồi chiêu: 8 giây<br>Richter lướt về phía trước gây 50/70/90/110/130/150（+0.5 công vật lý) sát thương vật lý, đồng thời gây hiệu ứng tuỳ theo màu gươm hiện có.<br>Gươm xanh: tăng tầm lướt và gây làm chậm 60%<br>Gươm đỏ: Hất tung 0.75 giây và gây 5-10% máu tối đa của kẻ địch.<br>Chưa hết, Richter vung gươm chém tiếp gây 100~300 (+1.0 công vật lý) sát thương vật lý, rồi biến đòn đánh kế tiếp gây 25/50/75/100/125/150 (+1.0 công vật lý) sát thương phép<br>Nếu chiêu thức trúng kẻ địch sẽ được hồi lại ngay lập tức. Hiệu ứng này chỉ xảy ra mỗi 4 giây một lần.<br>Tầm lướt tới của Kiếm Đỏ bằng tầm lướt tới ở dạng Kiếm Vàng."
 			},
 			{
 				"name": "CÔNG THỦ TOÀN DIỆN",
-				"info": "Hồi chiêu: 16 giây<br>Tiêu hao: 0 nội năng<br>Richter huơ gươm phòng thủ giúp bản thân miễn nhiễm mọi trạng thái khống chế và sát thương trong 0.75 giây (có thể di chuyển bình thường).<br>Vừa hết thời gian, Richter lập tức tấn công gây 200/245/290/335/380/425 (+1 công vật lý) sát thương vật lý. Tích trữ tối đa 2 cộng dồn.<br>Ở trạng thái Gươm vàng sát thương gây ra sẽ là：200/255/310/365/420/475 (+1.5 công vật lý).<br>Nếu Richter đang có Gươm vàng và chặn thành công một hiệu ứng khống chế thì hắn sẽ gây choáng mục tiêu 1 giây.",
+				"info": "Hồi chiêu: 16 giây<br>Tiêu hao: 0 nội năng<br>Richter huơ gươm phòng thủ giúp bản thân miễn nhiễm mọi trạng thái khống chế và sát thương trong 0.75 giây (có thể di chuyển bình thường).<br>Vừa hết thời gian, Richter lập tức tấn công gây 200/245/290/335/380/425 (+1 công vật lý) sát thương vật lý. Tích trữ tối đa 2 cộng dồn.<br>Ở trạng thái Gươm vàng sát thương gây ra sẽ là：200/255/310/365/420/475 (+1.5 công vật lý).<br>Nếu Richter đang có Gươm vàng và chặn thành công một hiệu ứng khống chế thì hắn sẽ gây choáng mục tiêu 1 giây.<br>Thời gian sử dụng chiêu thức lần nữa: 5 giây.",
 			},
 			{
 				"name": "VÙNG DIỆT QUỶ",
@@ -11474,11 +11514,11 @@ var infoHeros = {
 			},
 			{
 				"name": "ĐOẢN MỆNH",
-				"info": "Hồi chiêu: 9/8.6/8.2/7.8/7.4/7 giây<br>Tiêu hao: 0 nội năng<br>Quillen lướt đi, khi đến đích lập tức tấn công kẻ địch gây 350/390/430/470/510/550 + (1.0 công vật lý cộng thêm) sát thương vật lý và đánh dấu nó trong 10 giây (chỉ có thể đánh dấu một kẻ địch mỗi lần).<br>Mỗi lần Quillen công kích nạn nhân bị đánh dấu sẽ làm chậm 50% tốc chạy trong 1 giây, và giảm 1 giây hồi chiêu này.<br>Kẻ địch chịu dấu ấn sẽ bị giảm 30% sát thương gây ra lên Quillen.",
+				"info": "Hồi chiêu: 9/8.6/8.2/7.8/7.4/7 giây<br>Tiêu hao: 0 nội năng<br>Quillen lướt đi, khi đến đích lập tức tấn công kẻ địch gây 300/340/380/420/ 460/500 + (0.8 công vật lý cộng thêm) sát thương vật lý và đánh dấu nó trong 10 giây (chỉ có thể đánh dấu một kẻ địch mỗi lần).<br>Mỗi lần Quillen công kích nạn nhân bị đánh dấu sẽ làm chậm 50% tốc chạy trong 1 giây, và giảm 1 giây hồi chiêu này.<br>Kẻ địch chịu dấu ấn sẽ bị giảm 30% sát thương gây ra lên Quillen.",
 			},
 			{
 				"name": "ẨN SÁT",
-				"info": "Hồi chiêu: 20/18/16 giây<br>Tiêu hao: 0 nội năng<br>Quillen lăn một vòng, sau đó tàng hình trong 3 giây, tăng 40% tốc chạy và hồi 100/150/200 + ( 0.25 công vật lý cộng thêm) máu mỗi 0.5 giây. Suốt thời gian này, nếu Quillen tấn công kẻ địch sẽ hiện hình và cường hoá bản thân trong 3 giây kế tiếp.<br>Cường hoá: Quillen nhận 150/175/200 công vật lý, và 30% tốc chạy mỗi khi gây sát thương lên kẻ địch.<br>Nội tại: Phụ hoặc hạ gục tướng địch sẽ làm mới hồi chiêu của toàn bộ kỹ năng.",
+				"info": "Hồi chiêu: 20/18/16 giây<br>Tiêu hao: 0 nội năng<br>Quillen lăn một vòng, sau đó tàng hình trong 3 giây, tăng 40% tốc chạy và hồi 70/105/140 + (0.15 công vật lý cộng thêm) máu mỗi 0.5 giây. Suốt thời gian này, nếu Quillen tấn công kẻ địch sẽ hiện hình và cường hoá bản thân trong 3 giây kế tiếp.<br>Cường hoá: Quillen nhận 150/175/200 công vật lý, và 30% tốc chạy mỗi khi gây sát thương lên kẻ địch.<br>Nội tại: Phụ hoặc hạ gục tướng địch sẽ làm mới hồi chiêu của toàn bộ kỹ năng.",
 			}
 		],
 		"skill_up": {
@@ -11747,7 +11787,7 @@ var infoHeros = {
 		"main_skill": [
 			{
 				"name": "XUẤT CHÚNG",
-				"info": "Hồi chiêu: 5 giây<br>Đột kích: Florentino khi rời giao tranh sẽ khiến đòn đánh thường kế tiếp lướt tới kẻ địch, gây thêm 80 + (8 mỗi cấp) (+ 1.25 công vật lý cộng thêm) sát thương vật lý, đồng thời làm chậm tốc chạy kẻ địch 70% trong 0.5 giây. Đòn đánh thường tiếp theo đó sẽ được tăng 20% sát thương. Đột kích trúng tướng địch giúp Florentino hồi 85 + (7 mỗi cấp) (+ 1.0 công vật lý cộng thêm) máu.<br>Kiếm bộ: Sau khi tung Đột kích, Florentino sẽ lướt một đoạn ngắn, miễn nhiễm mọi hiệu ứng khống chế. Lướt xong Florentino được tăng 50% tốc chạy trong 0.5 giây.",
+				"info": "Hồi chiêu: 5 giây<br>Đột kích: Florentino khi rời giao tranh sẽ khiến đòn đánh thường kế tiếp lướt tới kẻ địch, gây thêm 80 + (8 mỗi cấp) (+ 1.25 công vật lý cộng thêm) sát thương vật lý. Đòn đánh thường tiếp theo đó sẽ được tăng 20% sát thương. Đột kích trúng tướng địch giúp Florentino hồi 85 + (7 mỗi cấp) (+ 1.0 công vật lý cộng thêm) máu.<br>Kiếm bộ: Sau khi tung Đột kích, Florentino sẽ lướt một đoạn ngắn, miễn nhiễm mọi hiệu ứng khống chế. Lướt xong Florentino được tăng 50% tốc chạy trong 0.5 giây.",
 			},
 			{
 				"name": "HÀO HOA",
@@ -11755,11 +11795,11 @@ var infoHeros = {
 			},
 			{
 				"name": "THƯỞNG HOA",
-				"info": "Hồi chiêu: 4 giây<br>Tiêu hao: 100 nội năng<br>Florentino tung ba nhát kiếm xảo diệu lên kẻ địch, mỗi lần gây thêm sát thương chuẩn bằng 4% + (0.01 công vật lý cộng thêm) máu tối đa kẻ địch. Khi kết thúc chiêu có thể tung Kiếm bộ, nếu trúng tướng địch sẽ giảm 1 giây hồi chiêu Hào hoa.<br>Thưởng hoa: gây 300/380/460/540/620/700 STVL<br>Hộ hoa: gây 300/380/460/540/620/700 STVL và hất tung 0.75 giây<br>Khai hoa: tung kiếm hai lần gây 250/300/350/400/450/500 STVL mỗi kiếm.",
+				"info": "Hồi chiêu: 4 giây<br>Tiêu hao: 100 nội năng<br>Florentino tung ba nhát kiếm xảo diệu lên kẻ địch, mỗi lần gây thêm sát thương chuẩn bằng 4% + (0.01 công vật lý cộng thêm) máu tối đa kẻ địch. Khi kết thúc chiêu có thể tung Kiếm bộ, nếu trúng tướng địch sẽ giảm 1 giây hồi chiêu Hào hoa.<br>Thưởng hoa: gây 275/345/415/585/555/625 sát thương vật lý và làm chậm 50% tốc chạy của mục tiêu trong 1 giây<br>Hộ hoa: gây 275/345/415/585/555/625 sát thương vật lý và hất tung 0.75 giây<br>Khai hoa: tung kiếm hai lần gây 225/270/315/360/405/450 sát thương vật lý mỗi kiếm.",
 			},
 			{
 				"name": "TÀI HOA",
-				"info": "Hồi chiêu: 35/30/25 giây<br>Tiêu hao: 0 nội năng<br>Florentino lướt đến phía trước, Quyết đấu với tướng đầu tiên trúng chiêu. Trong 5 giây kế tiếp, Florentino gây thêm 20% sát thương lên mục tiêu, đồng thời giảm giáp kẻ đó 15/20/25%.<br>Suốt thời gian này, Florentino miễn nhiễm mọi khống chế và miễn 50% sát thương từ những kẻ địch không bị Quyết đấu.<br>Nếu hạ gục mục tiêu, Florentino nhận 20 công vật lý vĩnh viễn, cộng dồn 10 lần.",
+				"info": "Hồi chiêu: 40/35/30 giây<br>Tiêu hao: 0 nội năng<br>Florentino lướt đến phía trước, Quyết đấu với tướng đầu tiên trúng chiêu đồng thời tạo ra ba đóa hoa quanh mục tiêu. Trong 5 giây kế tiếp, Florentino tăng 100% hiệu ứng hồi máu từ nội tại, đồng thời giảm giáp kẻ đó 15/20/25%.<br>Suốt thời gian này, Florentino miễn nhiễm mọi khống chế và miễn 50% sát thương từ những kẻ địch không bị Quyết đấu.<br>Nếu hạ gục mục tiêu, Florentino nhận 20 công vật lý vĩnh viễn, cộng dồn 10 lần.",
 			}
 		],
 		"skill_up": {
@@ -11879,8 +11919,8 @@ var infoHeros = {
 		"hero_name": "Veres",
 		"main_info": {
 			"price_gold": "??",
-			"price_voucher": "<s>539</s> -> 379",
-			"price_text": "Combo tướng và trang phục Veres đạo tặc có giá 499 quân huy (<s>758</s>), Từ ngày 18 đến ngày 24/01/2019",
+			"price_voucher": "539",
+			"price_text": "",
 			"position": "Đấu sĩ / Sát thủ",
 			"special": "Trung phong / Ám sát",
 			"lane": "Đường Caesar",
@@ -11888,7 +11928,7 @@ var infoHeros = {
 		"main_skill": [
 			{
 				"name": "HUYẾT XÍCH",
-				"info": "Nội tại: Các đòn đánh thường trúng đích giúp Veres tích lũy 1 điểm nội tại Huyết xích; khi đạt đủ 4 điểm tích lũy Veres sẽ tung Huyết xích tấn công tất cả kẻ địch lân cận, gây 320 + (30 mỗi cấp) (+1.5 công vật lý) sát thương vật lý; nếu có tướng địch trúng đòn, Veres hồi lại 10% sát thương gây ra (máu càng thấp, tỷ lệ hút máu càng cao lên đến 100%).<br>Đặc biệt Veres còn được giảm 1 giây hồi Song xích & Xiềng xích, và 2 giây hồi Đoạt mệnh xích. Chưa hết, suốt thời gian tung Huyết xích Veres có thể thoải mái di chuyển, và còn được tăng 35% kháng hiệu ứng.",
+				"info": "Nội tại: Các đòn đánh thường trúng đích giúp Veres tích lũy 1 điểm nội tại Huyết xích trong vòng 10 giây; khi đạt đủ 4 điểm tích lũy Veres sẽ tung Bạo xích tấn công tất cả kẻ địch lân cận, gây sát thương vật lý; nếu có tướng địch trúng đòn, Veres hồi lại 12% sát thương gây ra (máu càng thấp, tỷ lệ hút máu càng cao lên đến 120%). Đặc biệt Veres còn được giảm 1 giây hồi Song xích & Xiềng xích, và 2 giây hồi Đoạt mệnh xích. Chưa hết, suốt thời gian tung Bạo xích Veres có thể thoải mái di chuyển, và còn được tăng 35% kháng hiệu ứng.",
 			},
 			{
 				"name": "SONG XÍCH",
@@ -11996,7 +12036,7 @@ var infoHeros = {
 			{
 				"name": "Huyết Luyện Xích",
 				"gold": "??",
-				"voucher": "<s>539</s> -> 379",
+				"voucher": "539",
 				"event": "",
 				"wall": "Veres01",
 				"disable": "yes",

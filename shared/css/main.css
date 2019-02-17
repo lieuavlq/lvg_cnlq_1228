@@ -1096,5 +1096,21 @@ width: 16%;
 }
 
 .shop_active {
-  display: none;
+display: none;
+}
+.wrap-newyear {
+width: 98px;
+height: 50px;
+position: absolute;
+top: 85px;
+left: -7px;
+background: url(../img/common/hoamai.png) no-repeat;
+background-size: 100%;
+z-index: 1;
+}
+#hero-page .wrap-newyear {
+top: 62px;
+left: 12px;
+right: 0;
+margin: auto;
 }
