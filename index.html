@@ -39,22 +39,15 @@
         <title>Cẩm Nang Liên Quân</title>
     </head>
     <body id="deviceready" data-appversion="10007">
-        <div id="wrap-countdown"></div>
-        <div id="wrap-video-popup"></div>
-        <span id="click_refresh_video_page"></span>
         <!-- Start of first page: #main -->
         <div data-role="page" id="main">
-            <div data-role="header" class="page-head">
-                <a href="#main-menu" class="ui-btn-left ico-star">Menu</a>
-                <h1>Cẩm Nang Liên Quân</h1>
-                <a href="#news-panel" class="ui-btn-right ico-news">News</a>
-            </div>
-            <div role="main" class="ui-content lvg_select">
-                <div class="filter-wrap">
-                    <div class="col"><form class="ui-filterable"><input id="rich-autocomplete-input" data-type="search" placeholder="Tìm kiếm..."></form></div>
-                    <div class="col"><select data-mini="true" class="lvg_class"></select></div>
+            <div class="lvg_select">
+                <div>
+                    <a href="#main-menu">Menu</a> - <a href="#news-panel">News</a>
                 </div>
-                <div data-role="listview" data-filter="true" data-inset="true" data-input="#rich-autocomplete-input" class="ui-grid-b lvg_champs lvg_select_champs"></div>
+                <form class="ui-filterable"><input id="rich-autocomplete-input" data-type="search" placeholder="Tìm kiếm..."></form>
+                <select data-mini="true" class="lvg_class"></select>
+                <div data-role="listview" data-filter="true" data-inset="true" data-input="#rich-autocomplete-input" class="ui-grid-c lvg_champs lvg_select_champs"></div>
             </div>
             <div data-role="panel" data-display="overlay" data-theme="b" id="main-menu">
                 <div class="ui-panel-inner"></div>
@@ -63,14 +56,34 @@
 
         <!-- Start page: #hero-page -->
         <div data-role="page" id="hero-page">
-            <div class="hero-bg"></div>
-            <div class="transi-page"></div>
-            <div data-role="header" class="page-head">
-                <a href="#main" class="ui-btn-left ico-back">Back</a>
+            <div data-role="header">
+                <a href="#main" class="ui-btn-left">Back</a>
                 <h1>Hero Name</h1>
-                <a href="#news-panel" class="ui-btn-right ico-news">News</a>
+                <a href="#news-panel" class="ui-btn-right">News</a>
             </div>
-            <div data-role="tabs" class="lvg_tabs">
+            <div data-role="tabs" id="hero-tabs" class="tabs-fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#hero-tab01">Guide</a></li>
+                        <li><a href="#hero-tab02">Tips</a></li>
+                        <li><a href="#hero-tab03">Info</a></li>
+                        <li><a href="#hero-tab04">Skins</a></li>
+                    </ul>
+                </div>
+                <div id="hero-tab01">
+                    <p>First tab contents 1</p>
+                </div>
+                <div id="hero-tab02">
+                    <p>First tab contents 2</p>
+                </div>
+                <div id="hero-tab03">
+                    <p>First tab contents 3</p>
+                </div>
+                <div id="hero-tab04">
+                    <p>First tab contents 4</p>
+                </div>
+            </div>
+            <!-- <div data-role="tabs" class="lvg_tabs">
                 <div data-role="navbar">
                     <ul>
                         <li><a href="#hero-page-info" class="ui-btn info-tab">Hero Info</a></li>
@@ -79,78 +92,10 @@
                 </div>
                 <div id="hero-page-info" class="ui-body-d ui-content"></div>
                 <div id="hero-page-skin" class="ui-body-d ui-content"></div>
-            </div>
+            </div> -->
         </div><!-- /hero-page -->
 
-        <!-- Start page: #news-page -->
-        <div data-role="page" id="news-page">
-            <div data-role="header" class="page-head">
-                <a href="#main" class="ui-btn-left ico-back">Back</a>
-                <h1>Tin Tức Nóng Hỏi</h1>
-                <a href="#news-panel" class="ui-btn-right ico-news">News</a>
-            </div>
-            <div role="main" class="ui-content lvg_select lvg_filter_news select_mb15">
-                <select data-mini="true"></select>
-                <p class="notify_wifi_text txt-small clr-orange"></p>
-                <div class="wrap_btn st02"><a href="#" class="btn-news-more txt-small">Tải mới tin tức sau 1 phút &#9656;&#9656;</a></div>
-                <div class="lvg-news-content"></div>
-            </div>
-        </div><!-- /news-page -->
-
-        <!-- Start page: #items_page -->
-        <div data-role="page" id="items_page">
-            <div data-role="header" class="page-head">
-                <a href="#main" class="ui-btn-left ico-back">Back</a>
-                <h1>Trang Bị Chinh Chiến</h1>
-                <a href="#news-panel" class="ui-btn-right ico-news">News</a>
-            </div>
-            <div role="main" class="ui-content">
-                <div class="filter-wrap">
-                    <form class="ui-filterable"><input id="items_page_search" data-type="search" placeholder="Tìm kiếm trang bị..."></form>
-                </div>
-                <p class="txt-small clr-orange">*Dưới đây là danh sách một số trang bị hay dùng!! (không đầy đủ như trong game âu!!)</p>
-                <div data-role="listview" data-filter="true" data-inset="true" data-input="#items_page_search" class="ui-grid-b lvg_items lvg_item_all"></div>
-            </div>
-        </div><!-- /items_page -->
-
-        <!-- Start page: #spells_page -->
-        <div data-role="page" id="spells_page">
-            <div data-role="header" class="page-head">
-                <a href="#main" class="ui-btn-left ico-back">Back</a>
-                <h1>Phép Bổ Trợ</h1>
-                <a href="#news-panel" class="ui-btn-right ico-news">News</a>
-            </div>
-            <div role="main" class="ui-content">
-                <div class="filter-wrap">
-                    <form class="ui-filterable"><input id="spells_page_search" data-type="search" placeholder="Tìm kiếm phép bổ trợ..."></form>
-                </div>
-                <div data-role="listview" data-filter="true" data-inset="true" data-input="#spells_page_search" class="ui-grid-c lvg_skills_sp lvg_spell_all"></div>
-            </div>
-        </div><!-- /spells_page -->
-
-        <!-- Right panel -->
-        <div data-role="panel" data-display="overlay" data-theme="b" data-position="right" id="news-panel">
-            <div class="ui-panel-inner items-brd-light">
-                <h3>Khu Giải Trí Tổng Hợp</h3>
-                <p><a href="#news-page" class="btn-news-get"><img src="shared/img/common/kenhtintuc.jpg" alt=""></a></p>
-                <p><a href="" target="_blank" class="btn-caudo-link"><img src="shared/img/common/thuthachcaudolq.jpg" alt=""></a></p>
-                <p class="shop_noactive"><img src="shared/img/common/shop.jpg" alt="" class="img_noactive"></p>
-                <p class="shop_active"><a href="" target="_blank" class="btn-shop-link"><img src="shared/img/common/shop_active.jpg" alt=""></a></p>
-                <p>&nbsp;</p>
-                <h3>Kho lưu trữ</h3>
-                <p><a href="#items_page">Trang bị chinh chiến</a></p>
-                <p><a href="#spells_page">Phép bổ trợ chiến đấu</a></p>
-                <a href="#" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-inline close-panel">Đóng</a>
-            </div>
-        </div>
-
-        <!-- Start all items -->
-        <div class="popup-wrap items-wrap"></div>
-
-        <!-- Start all spells -->
-        <div class="popup-wrap spells-wrap"></div>
-
-        <script type="text/javascript" src="cordova.js"></script>
+        <!-- <script type="text/javascript" src="cordova.js"></script> -->
         <script type="text/javascript" src="shared/js/jquery-1.12.4.min.js"></script>
         <script type="text/javascript" src="shared/js/jquery.mobile-1.4.5.min.js"></script>
         <script type="text/javascript" src="shared/js/slick.min.js"></script>
@@ -158,6 +103,6 @@
         <script type="text/javascript" src="shared/js/string_common_vn.js"></script>
         <script type="text/javascript" src="shared/js/build.js"></script>
         <script type="text/javascript" src="shared/js/main.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+        <!-- <script type="text/javascript" src="js/index.js"></script> -->
     </body>
 </html>

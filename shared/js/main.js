@@ -5,7 +5,7 @@ $('document').ready(function(){
   var i,j;
   var argsSlider = {infinite: false, speed: 300, slidesToShow: 1, variableWidth: true, arrows: true,};
   var blockBreak = '<hr class="hr">';
-  var popupClose = '<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>';
+  var popupClose = '<a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>';
   var rightBack = '<a href="#main" class="ui-btn-left btn-back">Back</a>';
   var hostLink = 'http://lvgames.net/lienquan/';
   var wallPath = hostLink + 'wall/?champ=';
@@ -18,9 +18,9 @@ $('document').ready(function(){
   var getVideoId = common_object['all_video'];
   var marketLink = storage.getItem('store_url_storage');
 
-  body.append('<div id="wrap-review"><div class="holder"><div class="inner"><div class="content"><p>' + commonLang['review_info'] + '</p><p class="al-center">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + marketLink + '" rel="external" class="ui-btn btn-sys btn-review">' + commonLang['review'] + '</a><a href="#" class="ui-btn btn-close">' + commonLang['next_time'] + '</a></p></div></div></div></div>');
+  // body.append('<div id="wrap-review"><div class="holder"><div class="inner"><div class="content"><p>' + commonLang['review_info'] + '</p><p class="al-center">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + marketLink + '" rel="external" class="ui-btn btn-sys btn-review">' + commonLang['review'] + '</a><a href="#" class="ui-btn btn-close">' + commonLang['next_time'] + '</a></p></div></div></div></div>');
 
-  body.append('<div id="wrap-updated"><div class="holder"><div class="inner"><div class="content"><p><strong>' + commonLang['update_title'] + '</strong></p><br><p>' + commonLang['update_info'] + '</p><p><a href="' + marketLink + '" rel="external" class="ui-btn btn-sys btn-review">' + commonLang['update_btn'] + '</a></p></div></div></div></div>');
+  // body.append('<div id="wrap-updated"><div class="holder"><div class="inner"><div class="content"><p><strong>' + commonLang['update_title'] + '</strong></p><br><p>' + commonLang['update_info'] + '</p><p><a href="' + marketLink + '" rel="external" class="ui-btn btn-sys btn-review">' + commonLang['update_btn'] + '</a></p></div></div></div></div>');
 
   /* Add all hero */
   var allHeroVN = common_object['all_hero_vn'];
@@ -35,27 +35,27 @@ $('document').ready(function(){
   mainPage.find('select.lvg_class').append('<option value="all">' + commonLang['all_hero'] + ' (' + countHero + ')</option><option value="free">Miễn phí</option><option value="warrior">' + commonLang['warr_hero'] + '</option><option value="tank">' + commonLang['tank_hero'] + '</option><option value="assassin">' + commonLang['assa_hero'] + '</option><option value="mage">' + commonLang['mage_hero'] + '</option><option value="marksman">' + commonLang['mark_hero'] + '</option><option value="support">' + commonLang['supo_hero'] + '</option>');
   mainPage.find('span.lvg_class').text(commonLang['all_hero'] + ' (' + countHero + ')');
 
-  mainPage.find('.ui-panel-inner').append('<h3>' + commonLang['app_name'] + '</h3><p>' + commonLang['thanks_for'] + '</p><p><a href="mailto:' + mailContact + '" class="btn-sys">' + commonLang['btn_mail'] + '</a></p><p><a href="' + fbContact + '" class="btn-sys">' + fbName + '</a></p><p>' + commonLang['mail_status'] + '</p><p><a href="' + marketLink + '" rel="external" class="btn-sys">' + commonLang['review'] + '</a></p><p>' + commonLang['aov_download'] + '</p><p><a href="https://play.google.com/store/apps/details?id=com.garena.game.kgvn" rel="external" class="btn-sys">Tại đây</a></p><a href="#" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-inline close-panel">' + commonLang['btn_close'] + '</a>');
+  mainPage.find('.ui-panel-inner').append('<h3>' + commonLang['app_name'] + '</h3><p>' + commonLang['thanks_for'] + '</p><p><a href="mailto:' + mailContact + '" class="btn-sys">' + commonLang['btn_mail'] + '</a></p><p><a href="' + fbContact + '" class="btn-sys">' + fbName + '</a></p><p>' + commonLang['mail_status'] + '</p><p><a href="' + marketLink + '" rel="external" class="btn-sys">' + commonLang['review'] + '</a></p><p>' + commonLang['aov_download'] + '</p><p><a href="https://play.google.com/store/apps/details?id=com.garena.game.kgvn" rel="external" class="btn-sys">Tại đây</a></p><a href="#" data-rel="close" class="ui-btn ui-shadow ui-btn-inline close-panel">' + commonLang['btn_close'] + '</a>');
   mainPage.find('.close-panel').click(function() {
     $(this).parents('.ui-panel').panel( "close" );
   });
   mainPage.find('h1').text(commonLang['app_name']);
 
   /* Add items */
-  var allItem = common_object['all_item'];
-  var itemAllPage = $('.lvg_item_all');
-  for(i=0; i<allItem.length; i++){
-    body.find('.items-wrap').append('<div class="item ui-content" data-theme="a" id="' + allItem[i].id + '">' + popupClose + '<strong>' + allItem[i].name + '</strong><p>' + allItem[i].info + '</p></div>');
-    itemAllPage.append('<div data-filtertext="' + allItem[i].id + ' ' + allItem[i].name + ' ' + change_vn_text(allItem[i].name) + '" class="ui-block-b"><a href="#' + allItem[i].id + '" class="ui-btn item btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'items/' + allItem[i].id + '.png)"></a></div>');
-  }
+  // var allItem = common_object['all_item'];
+  // var itemAllPage = $('.lvg_item_all');
+  // for(i=0; i<allItem.length; i++){
+  //   body.find('.items-wrap').append('<div class="item ui-content" data-theme="a" id="' + allItem[i].id + '">' + popupClose + '<strong>' + allItem[i].name + '</strong><p>' + allItem[i].info + '</p></div>');
+  //   itemAllPage.append('<div data-filtertext="' + allItem[i].id + ' ' + allItem[i].name + ' ' + change_vn_text(allItem[i].name) + '" class="ui-block-b"><a href="#' + allItem[i].id + '" class="ui-btn item btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'items/' + allItem[i].id + '.png)"></a></div>');
+  // }
 
   /* Add spells */
-  var allSpell = common_object['all_spell'];
-  var spellAllPage = $('.lvg_spell_all');
-  for(i=0; i<allSpell.length; i++){
-    body.find('.spells-wrap').append('<div class="item ui-content" data-theme="a" id="' + allSpell[i].id + '">' + popupClose + '<strong>' + allSpell[i].name + '</strong><p>' + allSpell[i].info + '</p></div>');
-    spellAllPage.append('<div data-filtertext="' + allSpell[i].id + ' ' + allSpell[i].name + ' ' + change_vn_text(allSpell[i].name) + '" class="ui-block-b"><a href="#' + allSpell[i].id + '" class="ui-btn skill btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'skills/' + allSpell[i].id + '.png)"></a></div>');
-  }
+  // var allSpell = common_object['all_spell'];
+  // var spellAllPage = $('.lvg_spell_all');
+  // for(i=0; i<allSpell.length; i++){
+  //   body.find('.spells-wrap').append('<div class="item ui-content" data-theme="a" id="' + allSpell[i].id + '">' + popupClose + '<strong>' + allSpell[i].name + '</strong><p>' + allSpell[i].info + '</p></div>');
+  //   spellAllPage.append('<div data-filtertext="' + allSpell[i].id + ' ' + allSpell[i].name + ' ' + change_vn_text(allSpell[i].name) + '" class="ui-block-b"><a href="#' + allSpell[i].id + '" class="ui-btn skill btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'skills/' + allSpell[i].id + '.png)"></a></div>');
+  // }
 
   /* Btn read more */
   $(this).on("click",".btn-read-more",function(){
@@ -66,13 +66,13 @@ $('document').ready(function(){
   /* Select hero */
   $(this).on("click",".hero-tap",function(){
     var dataPage = $(this).attr('data-page');
-    var dataHref = $(this).attr('href');
-    var transiPage = $('.transi-page');
-    transiPage.show();
+    // var dataHref = $(this).attr('href');
+    // var transiPage = $('.transi-page');
+    // transiPage.show();
     add_hero_page(dataPage);
-    transiPage.fadeOut(800);
-    $('#hero-page').trigger('create');
-    $.mobile.changePage(dataHref, { allowSamePageTransition: true, transition: "none" });
+    // transiPage.fadeOut(800);
+    // $('#hero-page').trigger('create');
+    // $.mobile.changePage(dataHref, { allowSamePageTransition: true, transition: "none" });
   });
 
   /* Start Add hero */
@@ -82,21 +82,26 @@ $('document').ready(function(){
     var heroName = hero.hero_name;
     var mainInfo = hero.main_info;
     var mainSkill = hero.main_skill;
-    var heroSelector = $('#hero-page');
-    var idInfo = heroSelector.find('#hero-page-info');
-    var idSkin = heroSelector.find('#hero-page-skin');
+    var hero_page = $('#hero-page');
+    var idInfo = hero_page.find('#hero-page-info');
+    var idSkin = hero_page.find('#hero-page-skin');
+    var hero_tab01 = hero_page.find('#hero-tab01');
+    var hero_tab02 = hero_page.find('#hero-tab02');
+    var hero_tab03 = hero_page.find('#hero-tab03');
+    var hero_tab04 = hero_page.find('#hero-tab04');
 
-    heroSelector.find('.info-tab').text(commonLang['btn_info']);
-    heroSelector.find('.skin-tab').text(commonLang['btn_skin']);
+    hero_page.find('.info-tab').text(commonLang['btn_info']);
+    hero_page.find('.skin-tab').text(commonLang['btn_skin']);
 
-    idInfo.html('');
-    idSkin.html('');
-    heroSelector.find('.info-tab').click();
-    heroSelector.find('.hero-bg').css({'background-image': 'none'});
-    heroSelector.find('h1').text(heroName);
+    hero_tab01.html('');
+    hero_tab02.html('');
+    hero_tab03.html('');
+    hero_tab04.html('');
+    hero_tab01.click();
+    hero_page.find('h1').text(heroName);
 
     /* Hero bg */
-    heroSelector.find('.hero-bg').css({'background-image': 'url('+ imgShared +'champs/' + heroId + '/thumb' + getRandom(hero.hero_skin.length) + '.jpg)'});
+    // hero_page.find('.hero-bg').css({'background-image': 'url('+ imgShared +'champs/' + heroId + '/thumb' + getRandom(hero.hero_skin.length) + '.jpg)'});
 
     /* Common info */
     idInfo.append('<h3>' + commonLang['info_common'] + '</h3>');
@@ -124,8 +129,8 @@ $('document').ready(function(){
 
     /* Skill up */
     var skillUp = hero.skill_up;
-    idInfo.append('<p>' + commonLang['skill_up'] + '</p><div class="lvg_incskill"><div>' + skillUp.line1 + '</div><div>' + skillUp.line2 + '</div><div>' + skillUp.line3 + '</div></div>');
-    var lvgIncSkill = idInfo.find('.lvg_incskill');
+    hero_tab02.append('<p>' + commonLang['skill_up'] + '</p><div class="lvg_incskill"><div>' + skillUp.line1 + '</div><div>' + skillUp.line2 + '</div><div>' + skillUp.line3 + '</div></div>');
+    var lvgIncSkill = hero_tab02.find('.lvg_incskill');
     lvgIncSkill.children('div').each(function(){
       var txtSkill = $(this).text();
       var splText = txtSkill.split(',');
@@ -139,9 +144,9 @@ $('document').ready(function(){
     });
 
     /* Skill combo */
-    idInfo.append('<div class="lvg_combo"></div>');
+    hero_tab02.append('<div class="lvg_combo"></div>');
     var skillCombo = hero.skill_combo;
-    var lvgCombo = idInfo.find('.lvg_combo');
+    var lvgCombo = hero_tab02.find('.lvg_combo');
     for(i=0; i<skillCombo.length; i++){
       lvgCombo.append('<p class="note">' + skillCombo[i].name + '</p><div class="lvg_skills combo" data-skill="' + heroId + '">' + skillCombo[i].info + '</div>');
     }
@@ -160,42 +165,42 @@ $('document').ready(function(){
 
     /* Skill special */
     var skillNote = hero.skill_note;
-    idInfo.append('<p class="note">' + skillNote + '</p>');
-    idInfo.append(blockBreak);
+    hero_tab02.append('<p class="note">' + skillNote + '</p>');
+    hero_tab02.append(blockBreak);
     var skillSpecial = hero.skill_special;
-    idInfo.append('<h3>' + commonLang['hero_special_skill'] + '</h3><p>' + commonLang['hero_special_skill_info'] + '</p><p class="note">' + commonLang['btn_tap_spell'] + '</p><div class="ui-grid-c lvg_skills_sp">' + skillSpecial + '</div>');
-    var lvgSkillSp = idInfo.find('.lvg_skills_sp');
+    hero_tab01.append('<h3>' + commonLang['hero_special_skill'] + '</h3><p>' + commonLang['hero_special_skill_info'] + '</p><p class="note">' + commonLang['btn_tap_spell'] + '</p><div class="ui-grid-c lvg_skills_sp">' + skillSpecial + '</div>');
+    var lvgSkillSp = hero_tab01.find('.lvg_skills_sp');
     var splSkillSp = lvgSkillSp.text().split(',');
     lvgSkillSp.text('');
     for(i=0; i<splSkillSp.length; i++){
       lvgSkillSp.append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#' + splSkillSp[i] + '" class="ui-btn skill btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'skills/' + splSkillSp[i] + '.png)"></a></div>');
     }
-    idInfo.append(blockBreak);
+    hero_tab01.append(blockBreak);
 
     /* Runes */
-    idInfo.append('<h3>' + commonLang['hero_rune'] + '</h3><p>' + commonLang['hero_rune2'] + '</p><div class="ui-grid-b lvg_runes rune2"></div><p>' + commonLang['hero_rune3'] + '</p><div class="ui-grid-b lvg_runes rune3"></div>');
+    hero_tab01.append('<h3>' + commonLang['hero_rune'] + '</h3><p>' + commonLang['hero_rune2'] + '</p><div class="ui-grid-b lvg_runes rune2"></div><p>' + commonLang['hero_rune3'] + '</p><div class="ui-grid-b lvg_runes rune3"></div>');
     var mainRune = hero.main_rune;
     for(i=0; i<mainRune.rune2.length; i++){
-      idInfo.find('.lvg_runes.rune2').append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#" class="ui-btn rune btn-disable" style="background-image: url('+ imgShared + 'runes/' + mainRune.rune2[i].name + '.png)"></a><p>' + mainRune.rune2[i].info + '</p></div>');
+      hero_tab01.find('.lvg_runes.rune2').append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#" class="ui-btn rune btn-disable" style="background-image: url('+ imgShared + 'runes/' + mainRune.rune2[i].name + '.png)"></a><p>' + mainRune.rune2[i].info + '</p></div>');
     }
     for(i=0; i<mainRune.rune3.length; i++){
-      idInfo.find('.lvg_runes.rune3').append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#" class="ui-btn rune btn-disable" style="background-image: url('+ imgShared + 'runes/' + mainRune.rune3[i].name + '.png)"></a><p>' + mainRune.rune3[i].info + '</p></div>');
+      hero_tab01.find('.lvg_runes.rune3').append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#" class="ui-btn rune btn-disable" style="background-image: url('+ imgShared + 'runes/' + mainRune.rune3[i].name + '.png)"></a><p>' + mainRune.rune3[i].info + '</p></div>');
     }
-    idInfo.append(blockBreak);
+    hero_tab01.append(blockBreak);
 
     /* Items */
-    idInfo.append('<h3>' + commonLang['item_title'] + '</h3><p class="note">' + commonLang['btn_tap_item'] + '</p>');
+    hero_tab01.append('<h3>' + commonLang['item_title'] + '</h3><p class="note">' + commonLang['btn_tap_item'] + '</p>');
     var itemBuild = hero.item_build;
     for(i=0; i<itemBuild.length; i++){
-      idInfo.append('<p>' + (i+1) + '. ' + commonLang['full_set'] + ': ' + itemBuild[i].name + '</p><div class="ui-grid-b lvg_items build' + i + '"></div>');
+      hero_tab01.append('<p>' + (i+1) + '. ' + commonLang['full_set'] + ': ' + itemBuild[i].name + '</p><div class="ui-grid-b lvg_items build' + i + '"></div>');
       var splItems = itemBuild[i].info.split(',');
       var iup = 1;
       for(j=0; j<splItems.length; j++){
-        idInfo.find('.lvg_items.build' + i).append('<div class="ui-block-' + getBlockChar(iup) + '"><a href="#' + splItems[j] + '" class="ui-btn item btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'items/' + splItems[j] + '.png)"></a></div>');
+        hero_tab01.find('.lvg_items.build' + i).append('<div class="ui-block-' + getBlockChar(iup) + '"><a href="#' + splItems[j] + '" class="ui-btn item btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ imgShared + 'items/' + splItems[j] + '.png)"></a></div>');
         iup = checkGridB(iup);
       }
     }
-    idInfo.append(blockBreak);
+    hero_tab01.append(blockBreak);
 
     /* Team and enemy */
     var heroBattle = hero.hero_battle;
