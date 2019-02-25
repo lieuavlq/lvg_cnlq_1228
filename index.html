@@ -34,71 +34,40 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" href="shared/css/jquery.mobile-1.4.5.min.css">
-        <link rel="stylesheet" href="shared/css/slick.css">
         <link rel="stylesheet" href="shared/css/main.css">
         <title>Cẩm Nang Liên Quân</title>
     </head>
-    <body id="deviceready" data-appversion="10007">
+    <body id="deviceready" data-appversion="1.0.1">
         <!-- Start of first page: #main -->
         <div data-role="page" id="main">
-            <div class="lvg_select">
-                <div>
-                    <a href="#main-menu">Menu</a> - <a href="#news-panel">News</a>
+            <div class="lvg_holder">
+                <div class="lvg_link_main">
+                    <a href="#menu-left">Menu</a> - <a href="#news-panel">News</a>
                 </div>
-                <form class="ui-filterable"><input id="rich-autocomplete-input" data-type="search" placeholder="Tìm kiếm..."></form>
-                <select data-mini="true" class="lvg_class"></select>
-                <div data-role="listview" data-filter="true" data-inset="true" data-input="#rich-autocomplete-input" class="ui-grid-c lvg_champs lvg_select_champs"></div>
-            </div>
-            <div data-role="panel" data-display="overlay" data-theme="b" id="main-menu">
-                <div class="ui-panel-inner"></div>
+                <div class="lvg_champs_class"><span data-value="warrior">Đấu sĩ</span><span data-value="tank">Đỡ đòn</span><span data-value="assassin">Sát thủ</span><span data-value="mage">Pháp sư</span><span data-value="marksman">Xạ thủ</span><span data-value="support">Trợ thủ</span></div>
+                <div class="lvg_select">
+                    <input id="lvg_filter_champs" data-type="search">
+                    <div class="lvg_champs_free">
+                        <a href="#newchamps">Tướng mới</a> - <a href="#freechamps">Tướng miễn phí</a>
+                    </div>
+                    <div data-role="listview" data-filter="true" data-filter-reveal="true" data-input="#lvg_filter_champs" class="lvg_champs lvg_select_champs"></div>
+                </div>
+                
             </div>
         </div><!-- /main -->
 
-        <!-- Start page: #hero-page -->
-        <div data-role="page" id="hero-page">
-            <div data-role="header">
-                <a href="#main" class="ui-btn-left">Back</a>
-                <h1>Hero Name</h1>
-                <a href="#news-panel" class="ui-btn-right">News</a>
-            </div>
-            <div data-role="tabs" id="hero-tabs" class="tabs-fixed">
-                <div data-role="navbar">
-                    <ul>
-                        <li><a href="#hero-tab01">Guide</a></li>
-                        <li><a href="#hero-tab02">Tips</a></li>
-                        <li><a href="#hero-tab03">Info</a></li>
-                        <li><a href="#hero-tab04">Skins</a></li>
-                    </ul>
-                </div>
-                <div id="hero-tab01">
-                    <p>First tab contents 1</p>
-                </div>
-                <div id="hero-tab02">
-                    <p>First tab contents 2</p>
-                </div>
-                <div id="hero-tab03">
-                    <p>First tab contents 3</p>
-                </div>
-                <div id="hero-tab04">
-                    <p>First tab contents 4</p>
-                </div>
-            </div>
-            <!-- <div data-role="tabs" class="lvg_tabs">
-                <div data-role="navbar">
-                    <ul>
-                        <li><a href="#hero-page-info" class="ui-btn info-tab">Hero Info</a></li>
-                        <li><a href="#hero-page-skin" class="ui-btn skin-tab">Hero Skin</a></li>
-                    </ul>
-                </div>
-                <div id="hero-page-info" class="ui-body-d ui-content"></div>
-                <div id="hero-page-skin" class="ui-body-d ui-content"></div>
-            </div> -->
-        </div><!-- /hero-page -->
+        <!-- Start all items -->
+        <div class="popup-wrap items-wrap"></div>
+
+        <!-- Start all spells -->
+        <div class="popup-wrap spells-wrap"></div>
+
+        <!-- Panel left -->
+        <div id="menu-left" data-role="panel" data-display="overlay" data-theme="b" class="lvg_menu_left pnl_outside"></div>
 
         <!-- <script type="text/javascript" src="cordova.js"></script> -->
         <script type="text/javascript" src="shared/js/jquery-1.12.4.min.js"></script>
         <script type="text/javascript" src="shared/js/jquery.mobile-1.4.5.min.js"></script>
-        <script type="text/javascript" src="shared/js/slick.min.js"></script>
         <script type="text/javascript" src="shared/js/common_object.js"></script>
         <script type="text/javascript" src="shared/js/string_common_vn.js"></script>
         <script type="text/javascript" src="shared/js/build.js"></script>

@@ -1,6 +1,16 @@
 @charset "utf-8";
-body, input, select, textarea, button, .ui-btn {
-font-family: Tahoma, Geneva, sans-serif;
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/roboto-regular.ttf') format('truetype');
+}
+body {
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
+*,
+*:focus {
+	box-shadow: none;
+	outline: none;
 }
 img {
 max-width: 100%;
@@ -16,43 +26,96 @@ vertical-align: top;
 	width: 100%;
 	z-index: 1;
 }
-
-@media screen and (max-width: 1024px){
-.ui-content {
+.ui-mini {
+	margin: 0;
+}
+.lvg_holder {
 max-width: 640px;
 margin: auto;
+padding: 30px;
 box-sizing: border-box;
+overflow: hidden;
+}
+.ui-corner-all,
+.ui-btn.ui-corner-all {
+	border-radius: 0;
+}
+.ui-tabs {
+	padding: 0;
+}
+.hr {
+border-top: none;
+border-width: 2px;
+margin: 50px 0;
+border-color: #cc263d;
+}
+.ui-shadow-inset,
+.ui-shadow,
+.ui-page-theme-a .ui-focus,
+.ui-page-theme-a .ui-btn:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.lvg_champs {
+  margin: 0 -3px;
+  overflow: hidden;
+  font-size: 0;
+  text-align: center;
+}
+.lvg_champs > div {
+  margin: 3px;
+  display: inline-block;
+}
+.lvg_champs > div a {
+	height: 32px;
+	float: left;
+	background: no-repeat 0 0;
+	background-size: 32px;
+	border: none;
+	padding: 0 0 0 32px;
+	margin: 0;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: normal;
+	width: auto;
+	text-decoration: none;
+}
+.lvg_select_champs > div a {
+	margin: 3px;
+}
+.lvg_champs > div > a span {
+  padding: 6px;
+  display: block;
+  background: #333;
+  color: #fff;
+  text-shadow: none;
+}
+
+@media (max-width: 600px){
+.lvg_holder {
+padding: 15px;
 }
 }
 
-@media screen and (max-width: 768px){
+@media (max-width: 540px){
 
 }
 
-@media screen and (max-width: 640px){
+@media (max-width: 480px){
 
 }
 
-@media screen and (max-width: 600px){
+@media (max-width: 425px){
 
 }
 
-@media screen and (max-width: 540px){
+@media (max-width: 375px){
 
 }
 
-@media screen and (max-width: 480px){
-
+@media (max-width: 320px){
+.lvg_holder {
+padding: 10px;
 }
-
-@media screen and (max-width: 425px){
-
-}
-
-@media screen and (max-width: 375px){
-
-}
-
-@media screen and (max-width: 320px){
-
 }
