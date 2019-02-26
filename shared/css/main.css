@@ -17,6 +17,12 @@ max-width: 100%;
 height: auto;
 vertical-align: top;
 }
+a {
+	text-decoration: none;
+}
+.ui-page-theme-a a, .ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited, .ui-page-theme-a a:hover, html .ui-bar-a a:hover, html .ui-body-a a:hover, html body .ui-group-theme-a a:hover {
+	color: #cc263d;
+}
 .ui-page { -webkit-backface-visibility: hidden; }
 .tabs-fixed [data-role="navbar"] {
 	position: fixed;
@@ -81,8 +87,11 @@ border-color: #cc263d;
 	width: auto;
 	text-decoration: none;
 }
-.lvg_select_champs > div a {
-	margin: 3px;
+.lvg_champs_wrap .lvg_champs > div a {
+	border: 2px solid #f7d861 !important;
+}
+.lvg_champs_wrap .lvg_champs > div.new a {
+	border-color: #cc263d !important;
 }
 .lvg_champs > div > a span {
   padding: 6px;
@@ -90,6 +99,56 @@ border-color: #cc263d;
   background: #333;
   color: #fff;
   text-shadow: none;
+}
+.lvg_champs_class {
+	font-size: 0;
+	margin: 0 -5px;
+	text-align: center;
+}
+.lvg_champs_class > span {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin: 5px;
+	background: no-repeat center;
+	background-size: 90%;
+	border: 1px solid #e1e1e1;
+	border-radius: 50%;
+}
+.lvg_champs_class > span.active {
+	border-color: #cc263d;
+}
+.lvg_champs_class > span[data-value="warrior"] { background-image: url(../img/common/ico_war.png); }
+.lvg_champs_class > span[data-value="tank"] { background-image: url(../img/common/ico_tank.png); }
+.lvg_champs_class > span[data-value="assassin"] { background-image: url(../img/common/ico_assa.png); }
+.lvg_champs_class > span[data-value="mage"] { background-image: url(../img/common/ico_mage.png); }
+.lvg_champs_class > span[data-value="marksman"] { background-image: url(../img/common/ico_mark.png); }
+.lvg_champs_class > span[data-value="support"] { background-image: url(../img/common/ico_sp.png); }
+.lvg_champs_wrap .ttl {
+	text-align: center;
+}
+.lvg_champs_wrap .ttl > span {
+  display: inline-block;
+  position: relative;
+  font-size: 85%;
+  padding-left: 8px;
+  font-weight: bold;
+}
+.lvg_champs_wrap .ttl > span + span {
+	margin-left: 10px;
+}
+.lvg_champs_wrap .ttl > span:before {
+	content: '';
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #f7d861;
+	position: absolute;
+	left: 0;
+	top: 8px;
+}
+.lvg_champs_wrap .ttl > span.ttl_new:before {
+	background: #cc263d;
 }
 
 @media (max-width: 600px){
