@@ -3,15 +3,24 @@
   font-family: 'Roboto';
   src: url('../font/roboto-regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Roboto Medium';
+  src: url('../font/roboto-medium.ttf') format('truetype');
+}
 body {
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
+  background-color: #fff;
 }
 *,
 *:focus {
 	box-shadow: none;
 	outline: none;
+	text-shadow: none;
 }
+/* h1, h2, h3, h4, h5, h6, strong {
+	font-family: 'Roboto', sans-serif;
+} */
 img {
 max-width: 100%;
 height: auto;
@@ -22,6 +31,11 @@ a {
 }
 .ui-page-theme-a a, .ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited, .ui-page-theme-a a:hover, html .ui-bar-a a:hover, html .ui-body-a a:hover, html body .ui-group-theme-a a:hover {
 	color: #cc263d;
+}
+.ui-page-theme-a,
+.ui-overlay-a {
+	background-color: transparent;
+	color: #000;
 }
 .ui-page { -webkit-backface-visibility: hidden; }
 .tabs-fixed [data-role="navbar"] {
@@ -87,18 +101,49 @@ border-color: #cc263d;
 	width: auto;
 	text-decoration: none;
 }
-.lvg_champs_wrap .lvg_champs > div a {
-	border: 2px solid #f7d861 !important;
-}
-.lvg_champs_wrap .lvg_champs > div.new a {
-	border-color: #cc263d !important;
-}
 .lvg_champs > div > a span {
   padding: 6px;
   display: block;
   background: #333;
   color: #fff;
   text-shadow: none;
+}
+.lvg_champs > div.new > a span,
+.lvg_champs > div.free > a span {
+  padding-right: 10px;
+  position: relative;
+}
+.lvg_champs > div.new > a span:after,
+.lvg_champs > div.free > a span:after {	
+  content: '';
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #ffde00;
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	animation: change_color01 1s infinite;
+}
+.lvg_champs > div.new > a span:after {
+	background: #cc263d;
+	animation: change_color02 1s infinite;
+}
+@keyframes change_color01 {
+  0% {
+    background: #ffde00;
+  }
+  100% {
+    background: #fff;
+  }
+}
+@keyframes change_color02 {
+  0% {
+    background: #cc263d;
+  }
+  100% {
+    background: #fff;
+  }
 }
 .lvg_champs_class {
 	font-size: 0;
@@ -127,28 +172,26 @@ border-color: #cc263d;
 .lvg_champs_wrap .ttl {
 	text-align: center;
 }
-.lvg_champs_wrap .ttl > span {
-  display: inline-block;
-  position: relative;
-  font-size: 85%;
-  padding-left: 8px;
-  font-weight: bold;
+.ui-page-theme-a .lvg_select_champs .ui-body-inherit {
+  border: 2px solid #cc263d;
 }
-.lvg_champs_wrap .ttl > span + span {
-	margin-left: 10px;
+.lvg_main_img {
+	position: fixed;
+	width: 102%;
+	height: 102%;
+	background: url(../img/common/main_img.jpg) no-repeat center;
+	background-size: cover;
+	opacity: 0.2;
+	-webkit-filter: blur(4px);
+	filter: blur(4px);
+	top: -1%;
+	left: -1%;
 }
-.lvg_champs_wrap .ttl > span:before {
-	content: '';
-	width: 5px;
-	height: 5px;
-	border-radius: 50%;
-	background: #f7d861;
-	position: absolute;
-	left: 0;
-	top: 8px;
-}
-.lvg_champs_wrap .ttl > span.ttl_new:before {
-	background: #cc263d;
+.ui-page-theme-a .ui-bar-inherit {
+	background-color: #333;
+	color: #fff;
+	border: none;
+  border-bottom: 2px solid #cc263d;
 }
 
 @media (max-width: 600px){

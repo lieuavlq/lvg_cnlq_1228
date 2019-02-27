@@ -38,7 +38,8 @@ $('document').ready(function(){
   lvg_select_champs.find('input').focus(function(){
     $(this).val('');
     $('.lvg_champs_class > span').removeClass('active');
-    $('.lvg_select_champs > .lvg_champs > div').addClass('ui-screen-hidden');
+    // $('.lvg_select_champs > .lvg_champs > div').addClass('ui-screen-hidden');
+    $('.lvg_champs_wrap').hide();
   });
 
   // Class champs
@@ -50,6 +51,7 @@ $('document').ready(function(){
     var cur_value = $(this).attr('data-value');
     lvg_champs.addClass('ui-screen-hidden');
     $('.lvg_champs > div[class*="'+cur_value+'"]').removeClass('ui-screen-hidden');
+    $('.lvg_champs_wrap').hide();
   });
 
   // Champs Free and New show
@@ -58,13 +60,14 @@ $('document').ready(function(){
   var champs_free_spl = champs_free_str.split(',');
   for(i=0;i<champs_free_spl.length;i++){
     $('.lvg_champs_wrap').find('.lvg_champs').append($('.lvg_champs > div[class*="'+champs_free_spl[i]+'"]')[0].outerHTML);
+    $('.lvg_champs > div[class*="'+champs_free_spl[i]+'"]').addClass('free');
   }
   $('.lvg_champs_wrap .lvg_champs > div').removeClass('ui-screen-hidden');
 
   /* Add hero */
   $(this).on("click",".hero-tap",function(){
     $('#hero-page').remove();
-    body.append('<div data-role="page" id="hero-page"><div data-role="header" data-position="fixed" data-fullscreen="true"><a href="#main" class="ui-btn-left">Back</a><h1></h1><a href="#news-panel" class="ui-btn-right">News</a></div><div class="lvg_holder"><div data-role="tabs" id="hero-tabs" class="tabs-fixed"><div data-role="navbar"><ul><li><a href="#hero-tab01">Guide</a></li><li><a href="#hero-tab02">Tips</a></li><li><a href="#hero-tab03">Info</a></li><li><a href="#hero-tab04">Skins</a></li></ul></div><div id="hero-tab01"></div><div id="hero-tab02"></div><div id="hero-tab03"></div><div id="hero-tab04"></div></div></div></div>');
+    body.append('<div data-role="page" id="hero-page"><div data-role="header" data-position="fixed" data-fullscreen="true"><a href="#main" class="ui-btn-left">Back</a><h1 class="'+$(this).parent().attr('class')+'"></h1><a href="#news-panel" class="ui-btn-right">News</a></div><div class="lvg_holder"><div data-role="tabs" id="hero-tabs" class="tabs-fixed"><div data-role="navbar"><ul><li><a href="#hero-tab01">Guide</a></li><li><a href="#hero-tab02">Tips</a></li><li><a href="#hero-tab03">Info</a></li><li><a href="#hero-tab04">Skins</a></li></ul></div><div id="hero-tab01"></div><div id="hero-tab02"></div><div id="hero-tab03"></div><div id="hero-tab04"></div></div></div></div>');
     $('#hero-page').trigger('create');
     add_hero_page($(this).attr('data-page'));
     $.mobile.changePage('#hero-page', { allowSamePageTransition: true, transition: "none" });
@@ -72,6 +75,10 @@ $('document').ready(function(){
 
   $(this).on("click","a[href*='#hero-tab0']",function(){
     $('html, body').animate({ scrollTop: $('#hero-page').offset().top }, 1);
+  });
+
+  $(this).on("click","a[href='#main']",function(){
+    $('.lvg_main_img').attr('style', '');
   });
 
   function add_hero_page(idhero){
@@ -89,6 +96,9 @@ $('document').ready(function(){
     var hero_tab04 = hero_page.find('#hero-tab04');
 
     hero_page.find('h1').text(hero_name);
+
+    $('.lvg_main_img').css({'background-image':'url(shared/img/champs/'+ hero.hero_id +'/thumb1.jpg)'});
+    console.log($('.lvg_main_img').text())
 
     /* Common info */
     hero_tab03.append('<h3>' + lang_str_vn['info_common'] + '</h3>');
