@@ -3,10 +3,6 @@
   font-family: 'Roboto';
   src: url('../font/roboto-regular.ttf') format('truetype');
 }
-@font-face {
-  font-family: 'Roboto Medium';
-  src: url('../font/roboto-medium.ttf') format('truetype');
-}
 body {
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
@@ -176,16 +172,16 @@ border-color: #cc263d;
   border: 2px solid #cc263d;
 }
 .lvg_main_img {
-	position: fixed;
-	width: 102%;
-	height: 102%;
-	background: url(../img/common/main_img.jpg) no-repeat center;
-	background-size: cover;
-	opacity: 0.2;
-	-webkit-filter: blur(4px);
-	filter: blur(4px);
-	top: -1%;
-	left: -1%;
+  position: fixed;
+  width: 110%;
+  height: 110%;
+  background: url(../img/common/main_img.jpg) no-repeat center;
+  background-size: cover;
+  opacity: 0.1;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+  top: -5%;
+  left: -5%;
 }
 .ui-page-theme-a .ui-bar-inherit {
 	background-color: #333;
