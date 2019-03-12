@@ -1,0 +1,159 @@
+{
+	"hero_id": "Sephera",
+	"hero_name": "Sephera",
+	"main_info": {
+		"price_gold": "13,888",
+		"price_voucher": "359",
+		"price_text": "",
+		"position": "Pháp sư / Trợ thủ",
+		"special": "Yểm hộ / Cấu rỉa",
+		"lane": "Đường giữa / Đường rồng"
+	},
+	"main_skill": [{
+			"name": "SUỐI NGUỒN",
+			"info": "Nội tại: Mỗi khi tung chiêu Sephera sẽ kích hoạt nội tại Suối nguồn gây 75 (+9 mỗi cấp) (0.15 công phép) sát thương phép lên tướng địch lân cận thấp máu nhất, đồng thời hồi 50 + (6 mỗi cấp) + (0.1 công phép) máu cho tướng đồng minh lân cận thấp máu nhất."
+		},
+		{
+			"name": "THUỶ ÂM",
+			"info": "Hồi chiêu: 5 giây<br>Tiêu hao: 50/55/60/65/70/75 năng lượng<br>Sephera gảy đàn tấn công 3 kẻ địch lân cận (ưu tiên tướng), gây 250/280/310/340/370/400 (+0.3 công phép) sát thương phép, đồng thời làm chậm 50% tốc chạy của nạn nhân trong 1 giây.<br>Đặc biệt đòn đánh thường kế tiếp sau khi tung chiêu này sẽ gây thêm 175/200/225/250/275/300 (+0.25 công phép) sát thương phép, và giúp giảm 1 giây hồi tất cả chiêu."
+		},
+		{
+			"name": "AO TÙ",
+			"info": "Hồi chiêu: 15/14.4/13.8/13.2/12.6/12 giây<br>Tiêu hao: 70/75/80/85/90/95 năng lượng<br>Sephera được tăng 40% tốc chạy trong thoáng chốc, rồi 1.5 giây sau dựng lên một vòng tròn nước gây 300/360/420/480/540/600 (+0.4 công phép) sát thương phép kèm 0.75 giây choáng, áp dụng đối với những nạn nhân đứng ở rìa."
+		},
+		{
+			"name": "SUỐI NGUỒN",
+			"info": "Hồi chiêu: 50 giây<br>Tiêu hao: 100/110/120 năng lượng<br>Sephera hòa mình vào dòng nước khiến bản thân không thể bị chọn làm mục tiêu trong 1.7 giây, đồng thời giúp hồi 500/650/800 (+0.75 công phép) máu cho các đồng minh lân cận, và gây 600/800/1000 (+0.9 công phép) sát thương phép lên những kẻ địch cạnh bên."
+		}
+	],
+	"skill_up": {
+		"line1": "1,3,5,7,9,11",
+		"line2": "2,6,10,13,14,15",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "3,2,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "3,2,0,4"
+		}
+	],
+	"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Sephera là một Pháp sư kiêm luôn vai trò Trợ thủ, vì thế cô có thể chơi ở Đường giữa hoặc theo cùng Xạ thủ là oke.<br>- Chiêu 1 Thủy âm của cô sau khi dùng nhớ đánh thường thêm 1 cái để tối ưu hóa sát thương, hãy nhớ rằng mỗi lần cô dùng chiêu thức sẽ hồi lượng máu cho đồng minh xung quanh đó rất lợi!!<br>- Chiêu 2 Ao tù là chiêu hơi khó xíu, nhưng chơi nhiều sẽ quen, những kẻ địch đứng ngoài rìa mới bị làm choáng các bạn phải canh chuẩn nha!!<br>- Sephera cũng khá dễ chơi nhưng đừng ảo tưởng về sức mạnh nhé chờ đồng đội lên gank thì chơi, không thì đứng thấp thui không thì bốc hơi đấy dạo gần đây Sát thủ đầy ra!! :P.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game cố giữ chiêu cuối và tung ra hợp lý vừa hồi máu cho đồng đội và gây sát thương cho kẻ địch, và đặt biệt chiêu này có hiệu lực ngắn ngủi, nên phải tập luyện canh thật chuẩn thời gian.<br>- Dùng chiêu 1 Thủy âm cấu rỉa rất thốn + hiệu ứng làm chậm rất khó chịu và hãy dùng nó liên tục.<br>- Chiêu 2 Ao tù mặc dù hơi khó canh chuẩn nhưng dùng nó để tăng tốc truy sát hoặc dùng cho các pha tẩu thoát.<br>- Chiêu cuối tuy ngắn ngủi nhưng khi dùng khiến bản thân né được hầu hết các chiêu thức bất lợi cho bản thân.",
+	"skill_special": "TocBien,CapCuu",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo24",
+				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+			},
+			{
+				"name": "NgocTim22",
+				"info": "Công phép +1.4 <br>Hút máu phép +0.8%<br>Giáp phép +1.6"
+			},
+			{
+				"name": "NgocXanh28",
+				"info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo31",
+				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+			},
+			{
+				"name": "NgocTim32",
+				"info": "Tốc đánh +1%<br>Tốc chạy +1%"
+			},
+			{
+				"name": "NgocXanh310",
+				"info": "Tốc đánh +0.6%<br>Xuyên giáp phép +6.4"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đường giữa",
+			"info": "NgocDaiPhapSu,GiayThuatSi,GuomTanThe,MatNaBerith,VuongMiengHecate,CauPhaLe"
+		},
+		{
+			"name": "Chơi hỗ trợ 1",
+			"info": "HuanChuongHaiThan,GiayThuatSi,MatNaBerith,AoChoangBangGia,PhuChuTruongSinh,CauPhaLe"
+		},
+		{
+			"name": "Chơi hỗ trợ 2",
+			"info": "LenhBaiPhongThan,GiayThuatSi,DayChuyenLucBao,MatNaBerith,TruongBang,GuomHienTriet"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng bọn",
+			"desc": "với bộ chiêu thức có sát thương diện rộng nếu kết hợp với đồng bọn sẽ tối ưu hóa sát thương của cô,..",
+			"info": [{
+					"hero_id": "richter",
+					"id_page": "Richter"
+				},
+				{
+					"hero_id": "wiro",
+					"id_page": "Wiro"
+				},
+				{
+					"hero_id": "maloch",
+					"id_page": "Maloch"
+				},
+				{
+					"hero_id": "ybneth",
+					"id_page": "Ybneth"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "cùng bộ chiêu thức cấu rỉa và khống chế tầm xa, việc lựa chọn các vị tướng cơ động hoặc có khả năng ám sát cô nhanh nhất cỏ thể,..",
+			"info": [{
+					"hero_id": "liliana",
+					"id_page": "Liliana"
+				},
+				{
+					"hero_id": "tulen",
+					"id_page": "Tulen"
+				},
+				{
+					"hero_id": "annette",
+					"id_page": "Annette"
+				},
+				{
+					"hero_id": "alice",
+					"id_page": "Alice"
+				},
+				{
+					"hero_id": "quillen",
+					"id_page": "Quillen"
+				},
+				{
+					"hero_id": "ngo_khong",
+					"id_page": "NgoKhong"
+				}
+			]
+		}
+	],
+	"hero_story": "Nước, nguồn gốc của sinh mệnh.<br>Dòng sông Lothar tựa như một dải lụa xanh biếc nhẹ nhàng quấn vờn quanh tòa thành Karen. Thủy lực vô cùng tận giúp tòa thành chốn biên cương này luôn tràn đầy sức sống, và cũng đồng thời khiến bức tượng tại trung tâm dòng sông nhuốm đầy màu sắc truyền kỳ huy hoàng – khắc họa người sáng lập Hội đồng pháp thuật, kiêm nhiệm viện trưởng Học viện ma pháp, không ai khác hơn pháp sư huyền thoại <i class=\"clr-orange\">Sephera</i>. Dòng sông Lothar cũng là một kỳ tích do chính tay cô tạo ra, ấy thế nên thế gian còn trìu mến gọi cô là Thiên mệnh thủy sư.<br><i class=\"clr-orange\">Sephera</i> bắt đầu học tập ma pháp từ các pháp sư khế ước trực thuộc gia tộc của cô.<br>Tại thời đại thịnh hành ma pháp, lệ thường các quý tộc đều cung phụng một vị pháp sư khế ước. Mối quan hệ đôi bên cùng có lợi này giúp các pháp sư luôn được cung cấp tài nguyên dồi dào, bù lại họ sẽ thực hiện nghĩa vụ bảo hộ không chỉ các thành viên mà còn cả lãnh địa của cả gia tộc, đặc biệt những vấn đề liên quan đến phép thuật siêu phàm. Đối với các gia tộc, pháp sư khế ước hùng mạnh ra sao cũng là một cách thể hiện trực tiếp mặt mũi và thực lực.<br>Đồng thời các pháp sư này cũng sẽ sàng lọc những hậu duệ với thiên phú ma pháp từ gia tộc để biến thành học đồ của mình. Các trường hợp thành tài thường đều sẽ kế nhiệm vai trò của lão sư trong công cuộc bảo hộ gia tộc ở những năm về sau. Và trong lứa học đồ thời bấy giờ, <i class=\"clr-orange\">Sephera</i> đặc biệt nổi bật hơn tất thảy.<br>Vốn <i class=\"clr-orange\">Sephera</i> đã nắm giữ sức mạnh ma pháp một cách sơ bộ. Về sau khi tiếp thu những kiến thức cao cấp hơn, nàng hoàn toàn bộc lộ thiên phú thần kỳ, thậm chí siêu việt lão sư của mình. Đồng thời <i class=\"clr-orange\">Sephera</i> còn là một tín đồ của Tháp quang minh, với nhiều lần tham dự các hoạt động cầu nguyện cùng cứu trợ. Nếu không phải vì còn quan tâm đến gia tộc, nàng đã rửa tội để trở thành một tín đồ chân chính của tòa Tháp.<br>Cả hai thân phận học đồ ma pháp và tín đồ Tháp quang minh của <i class=\"clr-orange\">Sephera</i> vốn không hề mâu thuẫn. Thực ra ma pháp từ thuở Man hoang chính là một trong các tri thức được những Bán thần truyền thụ cho nhân loại. Chuyện này nói có sách, mách có chứng đều đã được công nhận bởi các ma pháp sư truyền kỳ, thậm chí còn được ghi lại trong thánh điển ma pháp. Nói chung ma pháp có thể xem như khởi nguồn từ thần thuật, hoặc nói một cách khác thì ma pháp đẳng cấp cao nhất đạt được chính là thần thuật, thứ có thể giúp kích hoạt thiên phú trong mỗi huyết mạch nhân loại.<br>Thế nên việc <i class=\"clr-orange\">Sephera</i> trở thành tín đồ là một chuyện cực kỳ đáng mừng, đặc biệt khi Tháp quang minh bị tổn hại vô cùng nghiêm trọng sau cuộc đại chiến Hắc ám xâm lược lần một khiến khiến họ không thể không mở rộng thu nạp tín chúng. Trớ trêu thay sự phục hưng của Tháp quang minh khó tránh khỏi tổn hại đến lợi ích của giới quý tộc, và liên đới trực tiếp chính là các pháp sư khế ước cũng không mong muốn tài nguyên vốn đã hữu hạn nay lại càng khan hiếm hơn. <i class=\"clr-orange\">Sephera</i> đứng giữa hai thế lực, một tay cầm quyền trượng, một tay cầm thánh điển, bối rối chẳng biết chọn sao cho đành. Trạng thái cân bằng thật mỏng manh bỗng rạn nứt bởi cuộc đại chiến Thanh trừng. Tháp quang minh đã vạch trần các pháp sư hắc ám đã nghiên cứu ma thuật hắc ám hàng trăm năm qua, việc này đã tạo nên một làn sóng bài trừ ma thuật. <i class=\"clr-orange\">Sephera</i> lúc bấy giờ cũng đã có chút danh tiếng, nàng cùng Dirac và D’Arcy đều tham dự vào cuộc chiến này, họ lãnh đạo một liên minh tiên phong trong công cuộc bài trừ ma thuật hắc ám.<br>Nhưng theo thời gian dần trôi qua, cuộc chiến ngày càng nghiêm trọng hơn, các thế lực liên đới cũng ngày càng đông đảo hơn. Các nhóm quý tộc mới thậm chí còn thừa thắng đổ dầu thêm lửa, buộc tội những quý tộc đã từng có liên hệ với pháp sư hắc ám. <i class=\"clr-orange\">Sephera</i> cảm nhận được tình hình đang leo thang vuột khỏi tầm khống chế, nàng cố gắng tìm cách giúp quần chúng bình tĩnh lại để suy nghĩ thấu đáo hơn, nhưng còn chưa kịp có hành động gì thì Dirac bên cạnh nàng đã lún sâu vào vòng xoáy này đến khôn cùng.<br>Vì cứu vãn Dirac cũng như các pháp sư vô tội khác, và cũng vì để kết thúc trận chiến đã biến chất này, <i class=\"clr-orange\">Sephera</i> cố vận dụng lực lượng của gia tộc, cũng như tìm đến sự trợ giúp của Tháp quang minh. Nhưng lúc bấy giờ khi nhóm quý tộc mới cùng tòa Tháp đã tạo nên mối liên hệ ràng buộc chặt chẽ về lợi ích, và rõ ràng họ đang chiếm thế thượng phong chèn ép hoàn toàn nhóm quý tộc cũ cùng các pháp sư, thì cớ sao họ lại phải ngừng tay.<br>Nếu như tín ngưỡng của ta là quang minh, thì vì sao hiện tại ta lại như đang đầu nhập vào bóng tối? Trước thái độ qua loa đầy lạnh lùng của Tháp quang minh, <i class=\"clr-orange\">Sephera</i> không khỏi tự chất vấn bản thân. Và rồi nàng ngộ ra, vì sao những người thân cận như Dirac và D’Arcy lại ngày càng xa cách và ngờ vực tín ngưỡng của nàng đến thế.<br>May mắn thay <i class=\"clr-orange\">Sephera</i> cũng là một ma pháp sư có danh vọng, điều giúp tiếng nói của nàng có trọng lực hơn. Và với nỗ lực của họ, một số các ma pháp sư vô tội đã được giải cứu, tuy nhiên điều này đã khiến liên minh bài trừ ma thuật và nhóm quý tộc mới dần nảy sinh mâu thuẫn ngày càng kịch liệt hơn.<br>Cuối cùng <i class=\"clr-orange\">Sephera</i> không còn cách nào khác ngoài lãnh đạo những đồng bạn bỏ trốn đến một nơi các thế lực kia không thể vươn xúc tu đến. Trên đường đi không ngừng có các ma pháp sư mới gia nhập vào đội ngũ, một số vì sự căm phẫn tình hình hiện tại, một số vì bị bức hại buộc phải ra đi. Khi đến được Karen, một tổ chức hoàn toàn mới đã vì thế được sáng lập: Hội đồng pháp thuật!<br>Lấy thành Karen làm nền tảng, dùng pháp thuật cải tạo hoàn cảnh sống làm căn cơ, Hội đồng pháp thuật mong muốn tạo ra một vùng đất an lành mới. Họ còn dựng nên một tòa tháp ma pháp ẩn sâu trong chín tầng mây để hiệu triệu thêm các ma pháp sư vẫn còn đang vương vấn chốn trần thế không nơi nương tựa. Sau mấy trăm năm trôi qua, <i class=\"clr-orange\">Sephera</i> với tư cách người sáng lập Hội đồng, cũng như người cải tạo dòng sông Lothar, đã thành công vun đáp nên một nơi thực sự ấm no hạnh phúc.<br>Sức mạnh chỉ có ý nghĩa khi được dùng để bảo vệ!",
+	"hero_skin": [{
+			"name": "Thiên Mệnh Thủy Sư",
+			"gold": "13,888",
+			"voucher": "359",
+			"event": "",
+			"wall": "Sephera01",
+			"disable": "yes",
+			"img": "thumb1.jpg",
+			"video": ""
+		},
+		{
+			"name": "Quý Tiểu Thư",
+			"gold": "",
+			"voucher": "219",
+			"event": "",
+			"wall": "Sephera02",
+			"disable": "yes",
+			"img": "thumb2.jpg",
+			"video": ""
+		}
+	]
+}

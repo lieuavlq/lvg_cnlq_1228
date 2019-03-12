@@ -1,0 +1,171 @@
+{
+	"hero_id": "Veera",
+	"hero_name": "Veera",
+	"main_info": {
+		"price_gold": "",
+		"price_voucher": "",
+		"price_text": "Có thể mua bằng Ruby",
+		"position": "Pháp sư",
+		"special": "Tiền vệ",
+		"lane": "Đường giữa"
+	},
+	"main_skill": [{
+			"name": "Mê hoặc",
+			"info": "Nội tại: Chiêu thức trúng đích của Veera khiến nạn nhân bị giảm giáp phép, tối đa 3 lần cộng dồn, mỗi lần giảm 30-72 giáp phép (tăng theo cấp tướng)."
+		},
+		{
+			"name": "Dơi địa ngục",
+			"info": "ST Gốc: 575/625/675/725/775/825<br>H.Chiêu: 8/7.7/7.4/7.1/6.8/6.5<br>N.Lượng: 70<br>Veera triệu hồi bầy dơi địa ngục bay đi tấn công những kẻ địch theo hướng chỉ định, gây ra 575 (+1.15 công phép) STP."
+		},
+		{
+			"name": "Hôn gió",
+			"info": "ST Gốc: 285/320/355/390/425/460<br>H.Chiêu: 10/9.4/8.8/8.2/7.6/7<br>Veera quyến rũ 1 mục tiêu bằng nụ hôn chết người, gây 285 (+0) STP và làm choáng nạn nhân trong 1,5s."
+		},
+		{
+			"name": "Tiểu quỷ",
+			"info": "ST Gốc: 325/405/485<br>H.Chiêu: 18/15/12<br>Veera triệu hồi tối đa 5 tiểu quỷ tấn công những kẻ địch lân cận. Mỗi tiểu quỷ gây 325 (+0) STP, nếu tấn công cùng mục tiêu sẽ khiến tiểu quỷ thứ 2 trở đi chỉ còn gây 50% sát thương."
+		}
+	],
+	"skill_up": {
+		"line1": "1,3,5,7,9,11",
+		"line2": "2,6,10,13,14,15",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "2,3,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "3,4,2,0"
+		}
+	],
+	"skill_note": "*Hôn gió là chiêu thức khá độc đáo và là chiêu bắt lẻ khá tốt, một combo đủ cả 3 chiêu thức, đối thủ cũng khó mà sống sót.",
+	"skill_special": "TocBien,CapCuu",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo24",
+				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+			},
+			{
+				"name": "NgocTim22",
+				"info": "Công phép +1.4<br>Hút máu phép +0.8%<br>Giáp phép +1.6"
+			},
+			{
+				"name": "NgocXanh28",
+				"info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo31",
+				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+			},
+			{
+				"name": "NgocTim33",
+				"info": "Máu tối đa +45<br>Hồi máu/5s +5.2<br>Tốc chạy +0.4%"
+			},
+			{
+				"name": "NgocXanh33",
+				"info": "Công phép +2.4<br>Giảm hồi chiêu +0.7%"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đường giữa",
+			"info": "NgocDaiPhapSu,GiayThuatSi,VuongMiengHecate,TruongBungNo,QuyenTruongRhea,TruongHonMang"
+		},
+		{
+			"name": "Đường giữa",
+			"info": "NgocDaiPhapSu,GiayPhuThuy,VuongMiengHecate,TruongBungNo,MatNaBerith,SachThanh"
+		},
+		{
+			"name": "Đường giữa",
+			"info": "NgocDaiPhapSu,GiayHermes,VuongMiengHecate,MatNaBerith,QuyenTruongRhea,GuomHienTriet"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "GiayPhuThuy,TruongBungNo,MatNaBerith,VuongMiengHecate,TruongHonMang,SachThanh"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng đội",
+			"desc": "thích hợp đi cùng các tướng bảo kê",
+			"info": [{
+					"hero_id": "alice",
+					"id_page": "Alice"
+				},
+				{
+					"hero_id": "teemee",
+					"id_page": "TeeMee"
+				},
+				{
+					"hero_id": "toro",
+					"id_page": "Toro"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp các tướng sau",
+			"info": [{
+					"hero_id": "murad",
+					"id_page": "Murad"
+				},
+				{
+					"hero_id": "kahlii",
+					"id_page": "Kahlii"
+				},
+				{
+					"hero_id": "zill",
+					"id_page": "Zill"
+				},
+				{
+					"hero_id": "lauriel",
+					"id_page": "Lauriel"
+				}
+			]
+		}
+	],
+	"hero_story": "\"Ta là <i class=\"clr-orange\">Veera</i>, Nữ Hoàng Bóng Đêm\"<br>Theo cổ thư ghi lại, <i class=\"clr-orange\">Veera</i> là Đại Tông Đồ mộ đạo và quyền lực nhất của các Đấng Toàn Năng. Ả ta càng cầu nguyện và tìm kiếm sự thông tuệ của họ, họ càng giữ im lặng. Vì nôn nóng muốn chứng tỏ bản lĩnh, ả ta quyết một mình tấn công Toán Cai Ngục. Ả chắc chắn sẽ nhận được vinh quang trong mắt các Đấng Toàn Năng khi triệt hạ được Toán Cai NGục, nhưng cũng chính sự ngạo mạn của ả làm cho các Đấng Toàn Năng thấy kinh tởm.<br>Mặc dù rất anh dũng trên chiến trường, ả vẫn bị địch tóm gọn. Không cần phải bàn tới những đòn roi ả phải hứng chịu. Điều quan trọng nhất là trong đôi mắt trong trẻo từng hướng về thiên đường để tìm chân lý, nay chỉ còn máu và những ngọn lửa tăm tối. Maloch, thủ lĩnh của Toán Cai Ngục, tự tay mình thực hiện những trận tra tấn với <i class=\"clr-orange\">Veera</i>. Và từ đó giữa 2 bên đã hình thành một mối quan hệ tăm tối khác.<br>Từ đó, ả luôn ở bên cạnh hắn ta, chỉ huỷ quân lính Maloc và tiêu diệt tất cả những kẻ thù của hắn ta. Nhưng ả luôn thích tiếp cận một cách âm thầm. Bằng sự mưu mô và nét quyết rũ của mình để hạ gục cả những kẻ hùng mạnh nhất. Trên bia mộ của những kẻ ngã xuống luôn ghi cùng một lời răn dằn, nếu gặp ả phải che tai lại để không nghe những lời dụ dỗ của ả để đi đến vinh quang.<br>Vì con đường tới đó không hơn gì đi vào chỗ chết. Nữ hoàng bóng đêm luôn bình tĩnh. Ả biết rõ mình sẽ đạt được mục đích. Và ả sẽ là luôn là kẻ cuối cùng còn sống. Ả cũng luôn mơ, mơ một ngày sẽ được tắm mình trong máu của những Đấng Toàn Năng, và cho họ nhìn thấu được nỗi đau của mình.",
+	"hero_skin": [{
+			"name": "Nữ Hoàng Bóng Đêm",
+			"gold": "",
+			"voucher": "",
+			"event": "Có thể mua bằng Ruby",
+			"wall": "Veera01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": ""
+		},
+		{
+			"name": "Cô Giáo Hắc Ám (Bậc S)",
+			"gold": "",
+			"voucher": "510",
+			"event": "",
+			"wall": "Veera02",
+			"disable": "",
+			"img": "thumb2.jpg",
+			"video": "Veera02"
+		},
+		{
+			"name": "Nàng Dơi Tuyết",
+			"gold": "",
+			"voucher": "",
+			"event": "Mở bán: Giáng Sinh",
+			"wall": "Veera03",
+			"disable": "",
+			"img": "thumb3.jpg",
+			"video": "Veera03"
+		},
+		{
+			"name": "Y Tá Bạo Loạn (Bậc A)",
+			"gold": "",
+			"voucher": "309",
+			"event": "",
+			"wall": "Veera04",
+			"disable": "yes",
+			"img": "thumb4.jpg",
+			"video": "Veera04"
+		}
+	]
+}

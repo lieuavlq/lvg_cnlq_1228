@@ -1,0 +1,147 @@
+{
+	"hero_id": "Arduin",
+	"hero_name": "Arduin",
+	"main_info": {
+		"price_gold": "13,888",
+		"price_voucher": "359",
+		"price_text": "",
+		"position": "Đấu sĩ / Đỡ đòn",
+		"special": "Tiền đạo / Khống chế",
+		"lane": "Đường Caesar / Đường rồng"
+	},
+	"main_skill": [{
+			"name": "Hồn huyết",
+			"info": "Nội tại: khi máu của Arduin còn thấp hơn 50%, hắn sẽ tiến vào trạng thái Hồn huyết trong 8s, suốt thời gian này Arduin được hồi lại 4% máu tối đa mỗi khi đòn đánh thường hoặc chiêu thức của hắn gây sát thương lên kẻ địch, chỉ kích hoạt trong chiến đấu, nội tại này có thời gian hồi 45 giây."
+		},
+		{
+			"name": "Hồn trảm",
+			"info": "ST Gốc: 250/300/350/400/450/500<br>Arduin vung rìu chém ra một vòng cung năng lượng gây 250 (+159) STVL, và làm chậm 40% tốc chạy của nạn nhân trúng chiêu trong 2s, nếu có tướng địch trúng chiêu, Arduin có thể tiếp tục nện rìu xuống đất gây 250 (+159) STVL và hất tung những kẻ địch trong vùng ảnh hưởng trong 1s."
+		},
+		{
+			"name": "Hồn giáp",
+			"info": "ST Gốc: 200/225/250/275/300/325<br>H.Chiêu: 12/11/10/9/8/7<br>ST chuẩn: 100/125/150/175/200/225<br>Arduin tạo ra một lá chắn trị giá 10% máu tối đa trong 5s, ngay khi kích hoạt lá chắn gây 200 (+119) STP lên những kẻ địch lân cận, trong vòng 8s sau khi tạo lá chắn, 3 đòn đánh thường kế của Arduin gây thêm 100 STC, đồng thời mỗi đòn trúng đích giúp giảm thời gian hồi của Câu hồn rìu đi 1s."
+		},
+		{
+			"name": "Câu hồn rìu",
+			"info": "ST Gốc: 300/425/550<br>Arduin phóng rìu phía trước gây 300 (+190) STVL diện rộng, và làm choáng kẻ địch trúng chiêu đầu tiên trong 1.5s, sau đó hắn phóng đến vị trí chiếc rìu, gây 300 (+190) STVL lên các kẻ địch lân cận, khi Câu hồn rìu được kích hoạt, các trạng thái khống chế sẽ không thể cản Arduin hoàn tất chiêu."
+		}
+	],
+	"skill_up": {
+		"line1": "1,3,5,7,10,13",
+		"line2": "2,6,9,11,14,15",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "2,3,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "2,4,2,3,0"
+		}
+	],
+	"skill_note": "*Một đỡ đòn bảo mẫu, vì thế nên sử dụng tốt combo để tăng khả năng chống chịu, giúp trụ trong giao tranh lâu hơn.",
+	"skill_special": "BocPha,CapCuu",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo25",
+				"info": "Công vật lý +1.5<br>Máu tối đa +13.5"
+			},
+			{
+				"name": "NgocTim25",
+				"info": "Máu tối đa +45"
+			},
+			{
+				"name": "NgocXanh23",
+				"info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo37",
+				"info": "Tốc đánh +1%<br>Máu tối đa +33.7<br>Giáp +2.3"
+			},
+			{
+				"name": "NgocTim310",
+				"info": "Máu tối đa +60<br>Hồi máu/5s +4.5"
+			},
+			{
+				"name": "NgocXanh34",
+				"info": "Máu tối đa +37.5<br>Giảm hồi chiêu +0.6%"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đường đơn",
+			"info": "ThuongLonginus,GiayHoVe,AoChoangBangGia,GiapThongKho,HuanChuongTroy,GiapHoMenh"
+		},
+		{
+			"name": "Đường đơn",
+			"info": "GiayHoVe,AoChoangThanRa,KhienThatTruyen,HuanChuongTroy,GiapThongKho,HerculeThinhNo"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "AoChoangThanRa,GiayKienCuong,ThuongLonginus,AoChoangBangGia,HuanChuongTroy,GiapThongKho"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng đội",
+			"desc": "thích hợp khi chơi cùng",
+			"info": [{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "lu_bo",
+					"id_page": "LuBo"
+				},
+				{
+					"hero_id": "jinna",
+					"id_page": "Jinna"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp",
+			"info": [{
+					"hero_id": "lauriel",
+					"id_page": "Lauriel"
+				},
+				{
+					"hero_id": "raz",
+					"id_page": "Raz"
+				},
+				{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "dieu_thuyen",
+					"id_page": "DieuThuyen"
+				}
+			]
+		}
+	],
+	"hero_story": "Dưới huấn luyện của Vedä, <i class=\"clr-orange\">Arduin</i> đã trở thành lãnh đạo của loài người.<br>Dũng cảm và kiên trì, <i class=\"clr-orange\">Arduin</i> chính là hình mẫu của một nhà lãnh đạo vĩ đại trong mắt công chúng. Bài diễn văn đầy say mê và thuyết phục của anh đã thu hút vô vàn chiến binh trẻ tuổi tham gia quân đoàn của mình, đấu tranh cho những mục tiêu cao cả.<br><i class=\"clr-orange\">Arduin</i> đã từng coi Thane là đối thủ chính của mình. Cả hai đã hẹn thách đấu vì danh dự, mặc dù đã chiến thắng nhưng phong cách chiến đấu không sợ hãi và tư duy chiến thuật của Thane đã khuất phục <i class=\"clr-orange\">Arduin</i>. Cả hai đã quyết định hợp táãnhây dựng tình bạn và trở thành đồng minh.<br>Bộ đôi này chính là chìa khóa cho chiến thắng vẻ vang của quân đoàn, khiến Lực lượng Sa ngã buộc phải rút lui về Inferi phòng thủ. Trong trận chiến cuối cùng, <i class=\"clr-orange\">Arduin</i> và Thane lần đầu bất đồng quan điểm. <i class=\"clr-orange\">Arduin</i> muốn tiếp tục đem quân đi chiến đấu, với hy vọng xóa sổ các thế lực Bóng tối, trong khi Thane cho rằng hành động như vậy sẽ phá hủy những gì họ đã giành được bấy lâu nay.<br>Không thuyết phục được Thane, <i class=\"clr-orange\">Arduin</i> đã bỏ đi cùng với những chiến binh Vedä và người ủng hộ. Họ tiến vào Inferi để săn lùng những thành viên còn lại của phe Lực lượng Sa đọa. Tuy nhiên, họ đã mắc vào bẫy của Veera quỷ quyệt. Ả hồi sinh ngọn lửa băng giá, quyết tâm thiêu trụi quân đoàn. Hối tiếc về quyết định nóng vội của mình, <i class=\"clr-orange\">Arduin</i> sải bước qua đám lửa, cố gắng tạo ra một cơn bão bằng cách quẳng cây rìu của mình, mở lối đi an toàn cho các chiến binh.<br>Nhờ nỗ lực của <i class=\"clr-orange\">Arduin</i>, một vài chiến binh đã kịp bỏ chạy trong khi người thủ lĩnh cùng những đồng đội khác không may mắn tới vậy. <i class=\"clr-orange\">Arduin</i> tưởng như đã bị biển lửa thiêu trụi, tuy nhiên bộ giáp Vedä đã kịp bảo vệ anh. Anh quăng rìu trong vô vọng, nhằm đẩy lùi đội quân quỷ dữ bủa vây xung quanh<br>Veera bước vào và dùng ngọn lửa băng giá làm tê liệt hoàn toàn cơ thể <i class=\"clr-orange\">Arduin</i>, vô hiệu hóa dấu ấn Vedä và thay thế bằng dấu ấn của ác quỷ. Cơ thể của <i class=\"clr-orange\">Arduin</i> trở thành tro tàn, tinh thần chiến đấu của anh nay đã bị bóng tối chiếm lấy. Ngọn lửa bang giá chi phối hoàn toàn tâm trí và bộ giáp của Adurin, biến anh thành công cụ chiến tranh của Lực lượng Sa đọa.<br>\"Hãy bày tỏ lòng thương tiếc cho <i class=\"clr-orange\">Arduin</i> bởi bạn sẽ không còn cơ hội nhìn thấy một người tướng huyền thoại như thế lần nữa!\"",
+	"hero_skin": [{
+			"name": "Linh Hồn Phẫn Nộ",
+			"gold": "13,888",
+			"voucher": "359",
+			"event": "",
+			"wall": "Arduin01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": ""
+		},
+		{
+			"name": "Cận Vệ Hoàng Gia (Bậc A)",
+			"gold": "",
+			"voucher": "219",
+			"event": "",
+			"wall": "Arduin02",
+			"disable": "",
+			"img": "thumb2.jpg",
+			"video": ""
+		}
+	]
+}

@@ -1,0 +1,203 @@
+{
+	"hero_id": "Violet",
+	"hero_name": "Violet",
+	"main_info": {
+		"price_gold": "13,888",
+		"price_voucher": "359",
+		"price_text": "",
+		"position": "Xạ thủ",
+		"special": "Tiền đạo / Trung phong",
+		"lane": "Đi rừng / Đường rồng"
+	},
+	"main_skill": [{
+			"name": "Nạp đạn",
+			"info": "Nội tại: đánh trúng lính giảm 0.25s hồi chiều, đánh trúng tướng địch làm giảm 0.5s hồi chiêu của Đạn Xuyên Thấu."
+		},
+		{
+			"name": "Đạn xuyên thấu",
+			"info": "ST Gốc: 275/315/355/395/435/475<br>Violet lộn về phía trước cường hoán đòn đánh thường tiếp theo giúp tăng tầm đánh trong thoáng chốc và gây 330 (+197) STVL lên những kẻ địch theo đường thẳng. Ngoài ra nếu xung quanh Violet có kẻ địch sau khi lộn nhào, cô sẽ được tăng 50% tốc chạy giảm dần trong 2s."
+		},
+		{
+			"name": "Lựu đạn nổ",
+			"info": "ST Gốc: 125/140/155/170/185/200<br>H.Chiêu: 10/9.2/8.4/7.6/6.8/6<br>Violet ném lựu đạn vào vùng chỉ định, gây 125 (+86) STVL lên những kẻ địch trúng chiêu, đồng thời làm chậm 90% tốc chạy của nạn nhân trong 1s."
+		},
+		{
+			"name": "Pháo đại",
+			"info": "ST Gốc: 400/500/600<br>H.Chiêu: 30/25/20<br>Violet bắn một phát pháo cực đại theo hướng chỉ định, gây 400 (+258) STVL lên những kẻ địch trúng chiêu."
+		}
+	],
+	"skill_up": {
+		"line1": "1,3,5,7,9,11",
+		"line2": "2,6,10,13,14,15",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "2,0,3,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "2,0,3,0,4"
+		}
+	],
+	"skill_note": "*Hãy tận dụng chiêu Đạn xuyên thấu để cấu máu, và dùng Pháo đại để kết thúc kẻ địch bỏ trốn.",
+	"skill_special": "TocBien,TrungTri,ThanhTay",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo27",
+				"info": "Tỷ lệ chí mạng +1%"
+			},
+			{
+				"name": "NgocTim21",
+				"info": "Tốc đánh +0.4%<br>Hút máu +0.8%"
+			},
+			{
+				"name": "NgocXanh23",
+				"info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo310",
+				"info": "Tỷ lệ chí mạng +1.6%"
+			},
+			{
+				"name": "NgocTim35",
+				"info": "Hút máu +1.6%"
+			},
+			{
+				"name": "NgocXanh31",
+				"info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đường trên hoặc dưới",
+			"info": "ThanhKiem,GiayThuatSi,SongDaoBaoTap,PhucHopKiem,ThuongXuyenPha,NanhFenrir"
+		},
+		{
+			"name": "Đi rừng",
+			"info": "KiemTruyHon,GiayKienCuong,ThuongXuyenPha,KiemFafnir,AoChoangBangGia,KiemMuramasa"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "KiemTruyHon,GiayHoVe,ThuongXuyenPha,ThanhKiem,PhucHopKiem,NanhFenrir"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng đội",
+			"desc": "thích hợp đi cùng các tướng bảo kê",
+			"info": [{
+					"hero_id": "alice",
+					"id_page": "Alice"
+				},
+				{
+					"hero_id": "gildur",
+					"id_page": "Gildur"
+				},
+				{
+					"hero_id": "toro",
+					"id_page": "Toro"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp các tướng sau",
+			"info": [{
+					"hero_id": "veera",
+					"id_page": "Veera"
+				},
+				{
+					"hero_id": "nakroth",
+					"id_page": "Nakroth"
+				},
+				{
+					"hero_id": "zephys",
+					"id_page": "Zephys"
+				}
+			]
+		}
+	],
+	"hero_story": "\"Những phát bắn của ta luôn nhắc nhở mọi người về thời kỳ khủng khiếp dưới ách thống trị của Hắc Ám\".<br>Xuyên suốt cuộc Chiến Tranh Chạng Vạng, bóng hồng <i class=\"clr-orange\">Violet</i> nổi lên như một thợ săn dòng giống ác quỷ với cái tên Thái tử. Sức mạnh của những con quỷ dần trở nên không thể kiểm soát, không đơn thuần sử dụng móng vuốt và răng nanh như trước đây nữa, ma cà rồng thuộc chủng loại mới có tên là Thái Tử giờ đây có thể sử dụng phép thuật để tạo ra các vụ nổ, sấm sét hay thậm chí là bay lượn. Kĩ năng của <i class=\"clr-orange\">Violet</i> mang tới cho cô những lợi thế lớn không dễ bị áp đảo. Chỉ có những người giống <i class=\"clr-orange\">Violet</i>, những người đã trải qua quá trình huấn luyện khắc nghiệt, mới có thể đối đầu với những thế lực phi tự nhiên và ma thuật của chúng.<br>Đồng loại bị tiêu diệt càng nhiều, lũ ma cà rồng càng căm hận <i class=\"clr-orange\">Violet</i>. Chúng liên tục tìm cách tiêu diệt lực lượng của cô. Liên tục phải phòng ngự trước những đợt tấn công đến từ kẻ thù, khẩu súng thân tín “Hoa Hồng Định Mệnh” của <i class=\"clr-orange\">Violet</i> cũng bị phá hủy.<br>Mất cặp súng trên tay và nhìn thấy bạn bè mình từng người một ngã xuống, <i class=\"clr-orange\">Violet</i> gào lên giận giữ và thề rằng sẽ tận diệt ma cà rồng đến tận hơi thở cuối cùng, cho dù không còn tấc sắt trên tay.<br>“Ma cà rồng săn đuổi chúng ta, chúng ta săn đuổi lại ma cà rồng!”",
+	"hero_skin": [{
+			"name": "Tay Súng Quả Cảm",
+			"gold": "13,888",
+			"voucher": "359",
+			"event": "",
+			"wall": "Violet01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": "Violet01"
+		},
+		{
+			"name": "Nữ Hoàng Pháo Hoa (Bậc S)",
+			"gold": "",
+			"voucher": "",
+			"event": "Mở dịp lễ tết",
+			"wall": "Violet03",
+			"disable": "",
+			"img": "thumb2.jpg",
+			"video": "Violet03"
+		},
+		{
+			"name": "Nữ Đặc Cảnh",
+			"gold": "",
+			"voucher": "175",
+			"event": "",
+			"wall": "Violet02",
+			"disable": "",
+			"img": "thumb3.jpg",
+			"video": "Violet02"
+		},
+		{
+			"name": "Mèo Siêu Quậy",
+			"gold": "",
+			"voucher": "",
+			"event": "Mở sinh nhật 1 tuổi",
+			"wall": "Violet04",
+			"disable": "yes",
+			"img": "thumb4.jpg",
+			"video": "Violet04"
+		},
+		{
+			"name": "Phi Công Trẻ (Bậc A)",
+			"gold": "",
+			"voucher": "279",
+			"event": "",
+			"wall": "Violet05",
+			"disable": "",
+			"img": "thumb5.jpg",
+			"video": "Violet05"
+		},
+		{
+			"name": "Tiệc Bãi Biển (Bậc SS)",
+			"gold": "",
+			"voucher": "",
+			"event": "2 viên đá quý",
+			"wall": "Violet06",
+			"disable": "yes",
+			"img": "thumb6.jpg",
+			"video": "Violet06"
+		},
+		{
+			"name": "Phó Học Tập",
+			"gold": "",
+			"voucher": "",
+			"event": "Từ Sổ sứ mệnh 3",
+			"wall": "Violet07",
+			"disable": "yes",
+			"img": "thumb7.jpg",
+			"video": "Violet07"
+		},
+		{
+			"name": "Pháo Hoa Neon",
+			"gold": "",
+			"voucher": "",
+			"event": "Nhận từ vẽ bùa",
+			"wall": "Violet08",
+			"disable": "yes",
+			"img": "thumb8.jpg",
+			"video": "Violet08"
+		}
+	]
+}

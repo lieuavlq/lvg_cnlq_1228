@@ -1,0 +1,177 @@
+{
+	"hero_id": "Airi",
+	"hero_name": "Airi",
+	"main_info": {
+		"price_gold": "25,888",
+		"price_voucher": "599",
+		"price_text": "",
+		"position": "Đấu sĩ / Sát thủ",
+		"special": "Tiền đạo / Trung phong",
+		"lane": "Đường Caesar"
+	},
+	"main_skill": [{
+			"name": "Sắc lẻm",
+			"info": "Nội tại: mỗi đòn đánh thường giúp giảm thời gian hồi của Phi tiêu đi 1s."
+		},
+		{
+			"name": "Phi tiêu",
+			"info": "ST Gốc: 200/275/350/425/500/575<br>Airi phóng phi tiêu theo hướng chỉ định, gây 200 (+1.1 Công vật lý) STVL và làm choáng những kẻ địch trúng chiêu."
+		},
+		{
+			"name": "Kiếm vũ",
+			"info": "ST Gốc: 100/120/140/160/180/200<br>H.Chiêu: 10/9.4/8.8/8.2/7.6/7<br>Airi múa kiếm lướt theo hướng chỉ định, gây 100 (+95) STVL, chiêu thức này có thể tung tối đa 3 lượt trước khi tiến vào thời gian hồi chiêu."
+		},
+		{
+			"name": "Long kiếm",
+			"info": "ST Gốc: 250/350/450<br>H.Chiêu: 40/35/30<br>Bảo hộ: 250/400/550<br>Airi tung Long kiếm, gây 250 (+147) STVL lên các mục tiêu và làm chậm tốc chạy của chúng, ngay sau đó Airi tiếp tục tung kiếm gây lượng sát thương tương tự và làm choáng các nạn nhân, mỗi tướng địch trúng chiêu giúp Airi nhận lá chắn giúp chặn 250 (+127) sát thương, chưa hết Airi còn được tăng 100% tốc chạy giảm dần trong 2.5s kèm 30% tốc đánh trong 8s."
+		}
+	],
+	"skill_up": {
+		"line1": "1,3,5,7,9,11",
+		"line2": "2,6,10,13,14,15",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "2,3,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "2,3,4,3,2,3,0"
+		}
+	],
+	"skill_note": "*Bộ combo nhanh nhẹn với độ cơ động cao, dễ dàng kết liễu đối thủ, dễ dàng rút khỏi giao tranh.",
+	"skill_special": "BocPha,TrungTri",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo25",
+				"info": "Công vật lý +1.5<br>Máu tối đa +13.5"
+			},
+			{
+				"name": "NgocTim23",
+				"info": "Công vật lý +0.6<br>Máu tối đa +36"
+			},
+			{
+				"name": "NgocXanh23",
+				"info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo36",
+				"info": "Công vật lý +2<br>Xuyên giáp +3.6"
+			},
+			{
+				"name": "NgocTim31",
+				"info": "Công vật lý +1.6<br>Tốc chạy +1%"
+			},
+			{
+				"name": "NgocXanh31",
+				"info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đi đường trên hoặc dưới",
+			"info": "ThuongLonginus,GiayKienCuong,AoChoangThanRa,AoChoangBangGia,HuanChuongTroy,NanhFenrir"
+		},
+		{
+			"name": "Đi rừng",
+			"info": "RiuLeviathan,GiayKienCuong,AoChoangThanRa,AoChoangBangGia,HuanChuongTroy,KiemMuramasa"
+		},
+		{
+			"name": "Đi rừng",
+			"info": "KiemTruyHon,GiayHoVe,ThuongLonginus,AoChoangBangGia,HuanChuongTroy,ThuongXuyenPha"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "AoChoangThanRa,GiayKienCuong,AoChoangBangGia,ThuongXuyenPha,HuanChuongTroy,NanhFenrir"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng đội",
+			"desc": "thích hợp khi chơi cùng",
+			"info": [{
+					"hero_id": "superman",
+					"id_page": "Superman"
+				},
+				{
+					"hero_id": "cresht",
+					"id_page": "Cresht"
+				},
+				{
+					"hero_id": "raz",
+					"id_page": "Raz"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp",
+			"info": [{
+					"hero_id": "taara",
+					"id_page": "Taara"
+				},
+				{
+					"hero_id": "thane",
+					"id_page": "Thane"
+				},
+				{
+					"hero_id": "alice",
+					"id_page": "Alice"
+				}
+			]
+		}
+	],
+	"hero_story": "\"Dòng máu thuần khiết của họ nhà rồng cuồn cuộn tuôn chảy trong huyết quản của <i class=\"clr-orange\">Airi</i> Thượng nhẫn, truyền nhân mới nhất của một dòng tộc Ninja cổ xưa có tên là Rồng phương đông. Họ có một và chỉ một sứ mệnh đó chính là duy trì sự hòa bình và an toàn của cả lục địa bằng thứ sức mạnh họ sở hữu từ họ nhà rồng. Bản thân gánh vác trọng trách của cả dòng tộc Ninja thế hệ mới, <i class=\"clr-orange\">Airi</i> không chỉ xuất sắc đạt được danh hiệu cao quý \"\"Thượng nhẫn\"\", mà còn được chính loài Rồng huyền bí phương đông chứng nhận tài năng của cô bằng Dấu ấn Rồng ngài ban tặng.<br>Khi lực lượng hắc ám xâm lăng thế giới, các đội Ninja thượng đẳng dẫn đầu bởi <i class=\"clr-orange\">Airi</i>, lập tức tiến vế Đền ánh sáng để cứu viện. Bằng các nhẫn thuật thượng thừa của bản thân, <i class=\"clr-orange\">Airi</i> vượt qua vô số những ma quái ác quỷ với đầy rẫy những ma pháp hắc ám nhất. Để tăng tốc, <i class=\"clr-orange\">Airi</i> hóa thân thành một cơn lốc sắc bén vô bì, cắt xuyên tất cả mọi trở ngại trên đường đến Maloch, kẻ thống lãnh của quân đoàn ác quỷ.<br>Càng tiến đến gần Maloch, thương tích trên người <i class=\"clr-orange\">Airi</i> càng tích tụ nhiều hơn. Biết rõ bản thân nếu chiến đấu càng kéo dài, tình hình sẽ càng chỉ bất lợi hơn, <i class=\"clr-orange\">Airi</i> quyết định đánh cuộc tất cả bằng một và chỉ một đòn duy nhất. Cô dùng hết sức tàn còn lại để kích hoạt Dấu ấn Rồng rồi vung kiếm - vốn đã nhuộm vô số dòng máu hắc ám của bầy ác quỷ cô hạ gục trước đó - chém một đường tuyệt mỹ vào Maloch. Ngay tại khoảnh khắc ấy Maloch thậm chí không thể rút nổi thanh gươm quỷ của hắn để đón đỡ, tất cả những gì hắn có thể làm bao trùm bản thân bằng đôi cánh ác quỷ. Mọi nỗ lực chống cự trước sức mạnh thần thánh của loài rồng dường như đều vô ích.<br>Máu tuôn ra như suối từ vết thương trên ngực Maloch, đôi cánh của hắn chỉ có thể giúp hắn thoát chết trong đường tơ kẽ tóc. Chỉ một đường kiếm duy nhất từ <i class=\"clr-orange\">Airi</i> đã khiến kẻ thống lãnh đầy hùng mạnh Maloch trở nên vô vọng hơn bao giờ. Chẳng còn cách nào khác, Maloch buộc phải rút lui ngay lập tức để bảo toàn tính mạng, để lại một đoàn quân ác quỷ hỗn loạn như rắn mất đầu.<br>Sự quyết tâm của <i class=\"clr-orange\">Airi</i> thể hiện trên chiến trường này đã khiến tất cả ngưỡng mộ cô. Ngay cả bè lũ xấu xa nhất cũng đều phải run sợ khi nghe đến tên của <i class=\"clr-orange\">Airi</i>.\"",
+	"hero_skin": [{
+			"name": "Ninja Rồng",
+			"gold": "25,888",
+			"voucher": "599",
+			"event": "",
+			"wall": "Airi01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": ""
+		},
+		{
+			"name": "Ninja Xanh Lá (Bậc A)",
+			"gold": "",
+			"voucher": "219",
+			"event": "",
+			"wall": "Airi02",
+			"disable": "",
+			"img": "thumb2.jpg",
+			"video": ""
+		},
+		{
+			"name": "Thích Khách (Bậc A)",
+			"gold": "",
+			"voucher": "",
+			"event": "Mở sự kiện",
+			"wall": "Airi03",
+			"disable": "yes",
+			"img": "thumb3.jpg",
+			"video": ""
+		},
+		{
+			"name": "Cấm Vệ Nguyệt Tộc (Bậc S)",
+			"gold": "",
+			"voucher": "379",
+			"event": "",
+			"wall": "Airi04",
+			"disable": "",
+			"img": "thumb4.jpg",
+			"video": ""
+		},
+		{
+			"name": "Keimono (Bậc SS)",
+			"gold": "",
+			"voucher": "799",
+			"event": "",
+			"wall": "Airi05",
+			"disable": "yes",
+			"img": "thumb5.jpg",
+			"video": "Airi05"
+		}
+	]
+}

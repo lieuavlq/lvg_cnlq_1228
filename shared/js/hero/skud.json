@@ -1,0 +1,147 @@
+{
+	"hero_id": "Skud",
+	"hero_name": "Skud",
+	"main_info": {
+		"price_gold": "13,888",
+		"price_voucher": "359",
+		"price_text": "",
+		"position": "Đấu sĩ / Đỡ đòn",
+		"special": "Tiền đạo / Khống chế",
+		"lane": "Đường Caesar"
+	},
+	"main_skill": [{
+			"name": "Sôi máu",
+			"info": "Nội tại: mỗi 10s Skud sẽ tung một cú đấm đặc biệt, gây 120% STCB, đồng thời giúp hồi 80 (+128) (+4% chỉ số máu tối đa) máu cùng 30 (+3% năng lượng đã sử dụng) năng lượng, mỗi đòn đánh thường giúp giảm thời gian hồi nội tại này đi 1s."
+		},
+		{
+			"name": "Găng nổi loạn",
+			"info": "Hồi chiêu: 6 giây<br>Skud nhảy xổ đến phía trước tung một cú đấm, gây 200/250/300/350/400/450 (+1.0 công vật lý) sát thương vật lý kèm hiệu ứng hất văng trong 0.5 giây. Chiêu trúng kẻ địch giúp Skud nhận 60/90/120/150/180/210 giáp vật lý trong 3 giây."
+		},
+		{
+			"name": "Găng cuồng bạo",
+			"info": "ST Gốc: 120/160/200/240/280/320<br>H.Chiêu: 11/10.6/10.2/9.8/9.4/9<br>Skud dồn sức mạnh vào găng tay khiến bản thân được tăng 20% tốc đánh, 10% tốc chạy trong 5 giây. Cú đấm kế tiếp trong thời gian hiệu lực sẽ gây thêm 120 (+0.4 công vật lý) sSTVL, kèm hiệu ứng làm chậm tốc chạy.<br>Sau khi dùng găng cuồng bạo, sát thương nhiều nhất có thể tăng: 100%."
+		},
+		{
+			"name": "Găng hung thần",
+			"info": "ST Gốc: 370/470/570<br>H.Chiêu: 35/30/25<br>Skud niệm chú trong thoáng chốc rồi hất văng tất cả kẻ địch lân cận, gây 370 (+1.2 công vật lý) STVL đồng thời làm choáng 1s, ngoại ra chiêu còn gây thêm 15% máu hiện tại của nạn nhân thành STVL, đồng thời khiến Găng cuồng bạo được lập tức làm mới."
+		}
+	],
+	"skill_up": {
+		"line1": "2,5,7,10,14,15",
+		"line2": "1,3,6,9,11,13",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "2,3,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "2,3,4,2,0"
+		}
+	],
+	"skill_note": "*Với kỹ năng làm chậm diện rộng của mình,hãy kiếm vị trí combo tốt nhất có thể.",
+	"skill_special": "TocBien,BocPha",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo25",
+				"info": "Công vật lý +1.5<br>Máu tối đa +13.5"
+			},
+			{
+				"name": "NgocTim23",
+				"info": "Công vật lý +0.6<br>Máu tối đa +36"
+			},
+			{
+				"name": "NgocXanh23",
+				"info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo37",
+				"info": "Tốc đánh +1%<br>Máu tối đa +33.7<br>Giáp +2.3"
+			},
+			{
+				"name": "NgocTim31",
+				"info": "Công vật lý +1.6<br>Tốc chạy +1%"
+			},
+			{
+				"name": "NgocXanh35",
+				"info": "Giáp +2.7<br>Giáp phép +2.7<br>Giảm hồi chiêu +0.6%"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đường trên hoặc dưới",
+			"info": "AoChoangThanRa,GiayKienCuong,AoChoangBangGia,GiapGaia,KhienThatTruyen,GiapThongKho"
+		},
+		{
+			"name": "Đường trên hoặc dưới",
+			"info": "ThuongLonginus,GiayHoVe,GiapGaia,KhienHuyenThoai,AoChoangBangGia,GiapHoMenh"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "ThuongLonginus,GiayKienCuong,AoChoangBangGia,HuanChuongTroy,KhienThatTruyen,GiapHoMenh"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng đội",
+			"desc": "thích hợp chơi cùng",
+			"info": [{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "natalya",
+					"id_page": "Natalya"
+				},
+				{
+					"hero_id": "preyta",
+					"id_page": "Preyta"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp",
+			"info": [{
+					"hero_id": "batman",
+					"id_page": "Batman"
+				},
+				{
+					"hero_id": "raz",
+					"id_page": "Raz"
+				},
+				{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "dieu_thuyen",
+					"id_page": "DieuThuyen"
+				}
+			]
+		}
+	],
+	"hero_story": "\"Hắn là một cỗ máy chiến đấu chứa đầy dòng máu ác quỷ luôn sục sôi sự phẫn nộ\".<br><i class=\"clr-orange\">Skud</i> là sáng chế tự hào nhất của Mganga. Chảy trong mình dòng máu ác quỷ luôn sục sôi thứ năng lượng của sự phẫn nộ, <i class=\"clr-orange\">Skud</i> không chỉ sở hữu sức mạnh khôn cùng mà còn luôn khao khát tàn sát tất cả mọi sinh linh. Nắm đấm của hắn khiến bất kỳ ai muốn đối đầu với các thế lực bóng tối đều phải suy nghĩ lại thật cẩn thận. Trong suốt những năm tháng chiến tranh, <i class=\"clr-orange\">Skud</i> được cắt cử phục vụ dưới trướng Preyta, đảm nhiệm trọng trách quân tiên phong của lực lượng Sa đọa.<br>Cuộc chiến tại Lâu đài Giả kim đánh dấu một cột mốc quan trọng trong chuỗi chiến tích của <i class=\"clr-orange\">Skud</i>. Hắn đã thành công dẫn một toán quân nhỏ vượt qua được phòng tuyến ma pháp trứ danh của Moen, chuyên gia cơ khí hóa. Chưa dừng lại ở đó, hắn một mình hạ gục tất cả các cỗ máy phòng ngự để thẳng tiến đến các tầng sâu hơn của lâu đài. Lúc bấy giờ Omega bất thình lình xuất hiện phản công, lập tức <i class=\"clr-orange\">Skud</i> cùng đồng bọn bị bao vây bởi cả biển những cỗ máy thép lạnh.<br>Nhìn thấy lực lượng phòng ngự hùng mạnh của Lâu đài Giả kim không khiến <i class=\"clr-orange\">Skud</i> chùn bước, thậm chí hắn càng sôi máu, điên cuồng và trở nên mạnh mẽ hơn. Các cỗ máy không thể cản nổi bước tiến của hắn, sắt thép giờ đây với hắn thậm chí còn mỏng manh hơn cả giấy. Chỉ một mình <i class=\"clr-orange\">Skud</i> đã quét sạch lực lượng phòng ngự vừa trỗi dậy. Không còn cách nào khác, Omega buộc phải tóm lấy Moen và tháo chạy trước khi quá muộn.<br>Khi cuộc chiến ngã ngũ, <i class=\"clr-orange\">Skud</i> giành được một phần thưởng đặc biệt khiến hắn đã mạnh nay càng trở nên đáng sợ hơn bao giờ hết; một cặp găng được rèn bởi chính tay Moen. Đặc biệt Mganga đã tinh chỉnh khiến đôi găng này hoàn toàn tích hợp với dòng máu ác quỷ sục sôi bên trong <i class=\"clr-orange\">Skud</i>, khiến tổ hợp này trở nên bất khả chiến bại.<br>\"Máu của ta lại bắt đầu sục sôi!\"",
+	"hero_skin": [{
+			"name": "Cỗ Máy Cuồng Nộ",
+			"gold": "13,888",
+			"voucher": "359",
+			"event": "",
+			"wall": "Skud01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": ""
+		},
+		{
+			"name": "Sơn Tặc (Bậc A)",
+			"gold": "",
+			"voucher": "219",
+			"event": "",
+			"wall": "Skud02",
+			"disable": "",
+			"img": "thumb2.jpg",
+			"video": ""
+		}
+	]
+}

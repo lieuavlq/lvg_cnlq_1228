@@ -1,0 +1,161 @@
+{
+	"hero_id": "Arum",
+	"hero_name": "Arum",
+	"main_info": {
+		"price_gold": "18,888",
+		"price_voucher": "539",
+		"price_text": "",
+		"position": "Đỡ đòn",
+		"special": "Hút máu / Tiền vệ",
+		"lane": "Đường Caesar / Đường rồng"
+	},
+	"main_skill": [{
+			"name": "Linh thú",
+			"info": "Nội tại: Arum triệu hồi linh thú vờn quanh bản thân, gây sát thương phép lên những kẻ địch lân cận, đồng thời giúp Arum hồi máu. Nếu nạn nhân trúng đòn không phải tướng địch, Arum sẽ chỉ được hồi 1% máu tối đa bản thân. Khi Arum đang ở bụi và địch không có tầm nhìn của Arum, địch sẽ không thể nhìn thấy những Linh Thú mà Arum triệu hồi."
+		},
+		{
+			"name": "Thú kích",
+			"info": "ST Gốc: 250/300/350/400/450/500<br>Arum phóng năng lượng lan tỏa ra xung quanh gây 250 (+0.4 công phép) STP lên những kẻ địch lân cận, đồng thời triệu hồi 1 linh thú vờn quanh bản thân, trong thời gian linh thú vờn quanh bản thân, tung chiêu trúng tướng địch giúp giảm thời gian hồi 50%, số lượng linh thú quyết định hiệu lực của Thú sổng; tối đa tồn tại 3 linh thú."
+		},
+		{
+			"name": "Thú sổng",
+			"info": "ST Gốc: 500/600/700/800/900/1000<br>Arum lệnh cho linh thú tấn công vùng chỉ định gây 500 STP, đồng thời giúp bản thân tăng tốc chạy trong thoáng chốc, sau khi tấn công linh thú sẽ biến mất khỏi Arum, số lượng linh thú quyết định số lần và hiệu quả công kích; linh thú đầu tiên làm chậm 50% tốc chạy trong 1s, linh thú thứ hai làm chậm 90% tốc chạy trong 1s, linh thú thứ ba gây choáng 1s."
+		},
+		{
+			"name": "Thú khốn",
+			"info": "H.Chiêu: 50/45/40<br>Arum lướt đến trói buộc mục tiêu trong 2.5s, đồng thời lập tức triệu hồi 3 linh thú vờn quanh bản thân, suốt thời gian này cả Arum lẫn nạn nhân đều bất động hoàn toàn dưới tác động của mối liên kết không thể bị phá vỡ, đặc biệt mọi sát thương bất kỳ ai trong cả hai gánh chịu đều sẽ được truyền đến người còn lại."
+		}
+	],
+	"skill_up": {
+		"line1": "1,3,5,7,9,11",
+		"line2": "2,6,10,13,14,15",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "2,2,2,3,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng: Có thể kết hợp với Tốc biến tiếp cận mục tiêu rồi dùng Chiêu 3",
+			"info": "2,2,2,3,4,0"
+		}
+	],
+	"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Arum là vị tướng khá trâu vì thế có thể chọn đi đường đơn hoặc chơi vị trí hỗ trợ<br>- Từ những cấp độ đầu cố gắng kích hoạt Thú Kích để tích lũy đủ 3 Linh Thú xung quanh người sau đó farm hoặc hù dọa đối phương<br>- Cố gắng di chuyển hợp lệ sao cho 3 Linh Thú này có thể chạm thật nhiều vào quái hoặc đối phương càng tốt vừa có sát thương kha khá vừa hồi lượng máu đủ xài<br>- Vì khoảng cách của Chiêu 3 Thú Khốn khá hẹp nên việc sử dụng rất khó, vì thế bạn có thể dùng Chiêu 2 Thú Sổng để giảm tốc độ hoặc choáng đối phương sao đó di chuyển đến gần và dùng Chiêu 3, hoặc nếu mang theo Tốc Biến thì có thể tiếp cận và dùng Chiêu 3 dễ dàng hơn<br>- Giai đoạn đầu game Arum chưa phải trâu lắm đâu vì thế hãy di chuyển ra vào giao tranh cẩn thận kẻo bốc hơi đó!!<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về sau cứ tích lũy 3 Linh Thú thì chơi thôi, 1 là dùng để cấu rỉa tầm xa, 2 là xông pha trận mạc, cứ bơi hết vào team đối phương thôi, nhớ là đầu game phải chơi tốt đó 3 4 món cuối là phải bơi<br>- Dùng thật tốt chuổi combo phía trên và kết hợp với Tốc biến để bắt lẻ sát thương chủ lực của địch<br>- Canh me Nakroth, Murad, Zill, The Flash,.. nhào vô là chụp lại bằng Chiêu 3 đừng cho ulti, nên nhớ thời gian của Chiêu 3 giữ chân rất lâu cộng với sự xuất hiện của 3 Linh Thú trở lại, khỏi lo vì tụt huyết áp<br>- Thú Sổng là con bài dùng để cướp Caesar hoặc khả năng hiệu ứng diện rộng vì thế hãy sử dụng nó một cách có tính toán<br>- Thành bại tại Arum khi có cô nàng trong đội hình, cố gắng lên nhé mọi người",
+	"skill_special": "TocBien,TrungTri",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo24",
+				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+			},
+			{
+				"name": "NgocTim28",
+				"info": "Máu tối đa +13.5<br>Tốc chạy +0.7%"
+			},
+			{
+				"name": "NgocXanh22",
+				"info": "Máu tối đa +15.7<br>Hồi máu/5s +3.1<br>Giảm hồi chiêu +0.3%"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo31",
+				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+			},
+			{
+				"name": "NgocTim33",
+				"info": "Máu tối đa +45<br>Hồi máu/5s +5.2<br>Tốc chạy +0.4%"
+			},
+			{
+				"name": "NgocXanh34",
+				"info": "Máu tối đa +37.5<br>Giảm hồi chiêu +0.6%"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đồ rừng",
+			"info": "RiuLeviathan,GiayHoVe,KhienThatTruyen,GiapGaia,PhuChuTruongSinh,MatNaBerith"
+		},
+		{
+			"name": "Đường đơn hoặc hỗ trợ",
+			"info": "GiayKienCuong,GiapThongKho,GiapGaia,KhienHuyenThoai,GiapHoMenh,PhuChuTruongSinh"
+		},
+		{
+			"name": "Đường đơn hoặc hỗ trợ",
+			"info": "NgocDaiPhapSu,GiayKienCuong,KhienThatTruyen,GiapGaia,HuanChuongTroy,GiapThongKho"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "NgocDaiPhapSu,GiayHoVe,GiapGaia,SachThanh,KhienHuyenThoai,GiapThongKho"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng bọn",
+			"desc": "với thời gian giữ chân con mồi khá lâu để cho Violet bắn thì thôi rồi, với pha Thú Sổng chỉnh chu là điều kiện đê Maloch tiếp đất một chiến lượt hoàn hảo, ngoài ra Arum là tanker mà phù hợp với đại đa số các tướng có sức mạnh vượt trội đứng sau lưng và xã đạn thôi :P",
+			"info": [{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "maloch",
+					"id_page": "Maloch"
+				},
+				{
+					"hero_id": "wisp",
+					"id_page": "Wisp"
+				},
+				{
+					"hero_id": "lindis",
+					"id_page": "Lindis"
+				},
+				{
+					"hero_id": "liliana",
+					"id_page": "Liliana"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "rất ái ngại với các vị tướng câm lặng, choáng hoặc giữ chân tầm xa, tránh xa nhé!!",
+			"info": [{
+					"hero_id": "alice",
+					"id_page": "Alice"
+				},
+				{
+					"hero_id": "liliana",
+					"id_page": "Liliana"
+				}
+			]
+		}
+	],
+	"hero_story": "\"Leo, hình như ta hơi bướng bỉnh nhỉ?\"<br>Cảm nhận sự ấm áp từ chú sư tử, <i class=\"clr-orange\">Arum</i> cuối cùng cũng bình tĩnh lại. Không hạnh phúc từ khi dính vào một cuộc hôn nhân sắp đặt, chạy trốn sẽ gây ra nhiều rắc rối và đau khổ cho cha cô. Mệt mỏi về cả tinh thần và thể xác, cuối cùng cô quyết định sẽ nghỉ ngơi trong rừng, một nơi mà cô gọi là nhà, bên cạnh Leo, chú sư tử mà cô dành tất cả sự tin tưởng.<br>Cách đây 10 năm, <i class=\"clr-orange\">Arum</i> đến Tamuq cùng người cha Varian vì ông được đảm nhận vai trò là người bảo vệ. Ông đã nhanh chóng được thăng cấp và có được một vị trí Tướng lĩnh trong Hội đồng Liên bang. Tuy nhiên, cuộc sống vẫn không hề yên bình. Mâu thuẫn giữa Liên đoàn cùng khu rừng Verno leo thang và Tamuq, một thị trấn nhỏ không may nằm ở vùng biên giới, đã trở thành địa điểm lý tưởng cho cả hai phe chiếm đóng.<br><i class=\"clr-orange\">Arum</i> là một cô gái chu đáo và thấu hiểu, và cô biết những áp lực đang đè nặng lên người cha của mình. Nhưng làm thế nào mà cô có thể vứt bỏ tình yêu của mình dành cho khu rừng Verno, nơi cô đã gặp và cứu vớt Leo, cùng bản hiệp ước của người giám hộ Hội Sư Tử, chỉ để giúp đỡ cha cô? Đã có nhiều kẻ tỏ thái độ thù địch với <i class=\"clr-orange\">Arum</i> bởi vị trí quá đặc biệt của cô, an toàn sau hàng rào chắn. Nếu không nhờ danh tiếng của người cha Varian, có lẽ <i class=\"clr-orange\">Arum</i> đã bị đưa vào tù vì thông đồng với kẻ địch.<br>Thị trấn đang dần bị đẩy tới bờ vực chiến tranh, Varian buộc <i class=\"clr-orange\">Arum</i> phải cưới Rahms. Tất cả để cho cô được an toàn, <i class=\"clr-orange\">Arum</i> biết, vì cha cô không hề mong đợi một cuộc chiến giữa hai chủng tộc, và cách duy nhất để giữ cô an toàn gả cô cho Rahms, kẻ duy nhất có dòng máu quý tộc ở Tamuq. Sau khi cưới Rahms, <i class=\"clr-orange\">Arum</i> sẽ có được tất cả các quyền miễn trừ dành cho tầng lớp quý tộc và không còn bị nhắm tới bởi những cáo buộc từ công chúng. Điều đó sẽ cho cô một tương lai tươi sáng và an toàn hơn, ngay cả khi Rahms không phải là người đàn ông tuyệt vời.<br>Tuy nhiên, <i class=\"clr-orange\">Arum</i> đã bỏ trốn, kế hoạch Varian đã trở thất bại và cả thị trấn dần đánh mất lòng tin từ ông. Họ tin rằng ông đã sắp xếp điều này để cho con gái mình có cơ hội bỏ trốn vào khu rừng Verno. \"Kẻ phản bội vô liêm sỉ,\" cả thị trấn giận dữ kêu lên. Họ quyết định bỏ tù Varian, và ông chỉ biết cố gắng biện minh cho những hành động của mình.<br><i class=\"clr-orange\">Arum</i> đau khổ - quá đau khổ. Cuối cùng, cô quay trở về nhà để thấy rằng cha cô đã không còn ở đó - chỉ có những người bảo vệ đang chờ. Sau khi biết cha cô đã bị đưa đến nhà tù, <i class=\"clr-orange\">Arum</i> đầu hàng với một điều kiện: cô phải được ở chung với cha của mình. Những người bảo vệ đồng ý và đưa cô đi.<br><i class=\"clr-orange\">Arum</i> gặp lại cha trong ngục tù. Không còn là một vị tướng vĩ đại và kiêu hãnh, Varian giờ đây trông thật sầu thảm và vô hồn. Chính lúc đó, <i class=\"clr-orange\">Arum</i> cảm thấy trái tim mình như vỡ ra từng mảnh.<br>\"Ôi con, sao con lại trở về? Họ ... họ sẽ treo cổ cả 2 mất!\"<br>\"Con xin lỗi, Cha. Hai ta sẽ không ở đây nếu con không bướng bỉnh và ích kỷ,\" <i class=\"clr-orange\">Arum</i> khóc nấc, quỳ trước mặt cha cô và nhớ lại những hành động thiếu suy nghĩ của mình.<br>\"Không, ta mới là người có lỗi. Nếu cha không buộc con kết hôn, con sẽ không…\"<br>\"Cha ơi, đừng khóc! Hãy tin con, con sẽ đưa cha ra khỏi đây!\"<br>Sự quyết tâm cao độ đã vượt qua khả năng tầm thường của <i class=\"clr-orange\">Arum</i>. Đây là lần đầu tiên cô có thể triệu hồi sức mạnh, sức mạnh vô hạn mà cô đã thừa hưởng từ những linh hồn thần thú. Mọi thứ dần thay đổi. Trong khoảng không, những con thú hoang xuất hiện dưới chân cô, tỏa ra ánh hào quang, nhìn chằm chằm vào bóng tối. Varian từ lâu đã biết mối quan hệ của con gái mình với Woods, nhưng không bao giờ nghĩ rằng cô có khả năng kiểm soát những sức mạnh bí ẩn đó.<br>Trong vài giây ngắn ngủi, tất cả sức mạnh của những linh hồn thần thú đã xuất hiện trên <i class=\"clr-orange\">Arum</i>, biến cô trở thành Người giám hộ Sư tử. <i class=\"clr-orange\">Arum</i> bây giờ đã là thành viên của Woods, và cô không còn là con người. <i class=\"clr-orange\">Arum</i> chưa từng cố gắng để sử dụng năng lực của mình, không biết làm thế nào để giải thích cho cha mình, nhưng khoảnh khắc này ép buộc cô cần có những hành động quyết liệt. Cô cần quyền năng để thoát khỏi nhà tù, để đánh bại tất cả, và để cứu người cha yêu quý của cô!<br>\"Hỡi linh hồn của những thần thú, đã đến lúc chiến đấu!”",
+	"hero_skin": [{
+			"name": "Nữ Vương Linh Thú",
+			"gold": "18,888",
+			"voucher": "539",
+			"event": "",
+			"wall": "Arum01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": "Arum01"
+		},
+		{
+			"name": "Thú Vệ Cổ Mộ (Bậc A)",
+			"gold": "",
+			"voucher": "219",
+			"event": "",
+			"wall": "Arum02",
+			"disable": "yes",
+			"img": "thumb2.jpg",
+			"video": "Arum02"
+		},
+		{
+			"name": "Vũ Khúc Long Hổ (Bậc SS)",
+			"gold": "",
+			"voucher": "",
+			"event": "Mở sự kiện",
+			"wall": "Arum03",
+			"disable": "yes",
+			"img": "thumb3.jpg",
+			"video": "Arum03"
+		}
+	]
+}

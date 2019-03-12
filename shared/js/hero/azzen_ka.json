@@ -1,0 +1,149 @@
+{
+	"hero_id": "AzzenKa",
+	"hero_name": "Azzen'Ka",
+	"main_info": {
+		"price_gold": "13,888",
+		"price_voucher": "359",
+		"price_text": "",
+		"position": "Pháp sư",
+		"special": "Khống chế",
+		"lane": "Đường giữa"
+	},
+	"main_skill": [{
+			"name": "Bẫy cát",
+			"info": "Nội tại: Các mục tiêu bị sát thương bởi các kỹ năng sẽ bị nguyền rủa, tối đa 3 lần. Mục tiêu chịu đủ 3 lời nguyền sẽ bị hóa đá và gây 150 (+0.75 công phép) (+10 mỗi cấp) STP.<br>Thời gian duy trì dấu ấn：5s<br>Thời gian hồi giữa 2 lần kích hoạt nội tại：2s"
+		},
+		{
+			"name": "Cồn cát tà ác",
+			"info": "ST Gốc: 350/390/430/470/510/550<br>H.Chiêu: 9/8.6/8.2/7.8/7.4/7<br>Azzen'Ka triệu hồi những bãi cát dịch chuyển để tấn công kẻ thù, sau 0.6s sẽ gây 300 (+0.9 công phép) STP và hất tung chúng 1s."
+		},
+		{
+			"name": "Bụi hắc ám",
+			"info": "ST Gốc: 235/285/335/385/435/485<br>Azzen’Ka tung Bụi hắc ám vào kẻ địch, gây 235 (+0) STP. Kẻ địch trúng bụi lần 2 sẽ chỉ phải chịu 80% sát thương."
+		},
+		{
+			"name": "Sa mạc hóa",
+			"info": "ST Gốc: 200/260/320<br>H.Chiêu: 35/30/25<br>ST kéo dài: 140/175/210<br>Azzen’Ka triệu hồi cồn cát cực đại lướt đến tấn công kẻ địch, gây 200 (+0) STP. Cồn cát sau khi va chạm liền hóa thành 1 cơn bão cát, gây 140 (+0) STP lên những kẻ địch vùng ảnh hưởng và làm chậm 60% tốc chạy của nạn nhân."
+		}
+	],
+	"skill_up": {
+		"line1": "2,6,10,13,14,15",
+		"line2": "1,3,5,7,9,11",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "2,3,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "2,4,3,0"
+		}
+	],
+	"skill_note": "*Cố gắng giữ vị trí và kiếm gốc đẹp để dùng Sa Mạc Hóa tốt nhất có thể.",
+	"skill_special": "TocBien,TocHanh,CapCuu",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo24",
+				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+			},
+			{
+				"name": "NgocTim28",
+				"info": "Máu tối đa +13.5<br>Tốc chạy +0.7%"
+			},
+			{
+				"name": "NgocXanh28",
+				"info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo31",
+				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+			},
+			{
+				"name": "NgocTim32",
+				"info": "Tốc đánh +1%<br>Tốc chạy +1%"
+			},
+			{
+				"name": "NgocXanh32",
+				"info": "Giảm hồi chiêu +1%"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đường giữa",
+			"info": "NgocDaiPhapSu,GiayKienCuong,TruongBang,VuongMiengHecate,SachThanh,GiapHoMenh"
+		},
+		{
+			"name": "Đường giữa",
+			"info": "NgocDaiPhapSu,GiayKienCuong,TruongBang,DayChuyenLucBao,AoChoangBangGia,SachThanh"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "TruongBungNo,GiayPhuThuy,VuongMiengHecate,NgocDaiPhapSu,TruongHonMang,SachThanh"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng đội",
+			"desc": "phù hợp khi chời cùng",
+			"info": [{
+					"hero_id": "chaugnar",
+					"id_page": "Chaugnar"
+				},
+				{
+					"hero_id": "maloch",
+					"id_page": "Maloch"
+				},
+				{
+					"hero_id": "payna",
+					"id_page": "Payna"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp",
+			"info": [{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "nakroth",
+					"id_page": "Nakroth"
+				}
+			]
+		}
+	],
+	"hero_story": "\"Ta là <i class=\"clr-orange\">Azzen'Ka</i>, vua của các vị vua!\"<br><i class=\"clr-orange\">Azzen'Ka</i> là hiện thân của một vị thần vô danh cổ xưa. Những ai du hành qua sa mạc phải làm đồ cúng tế cho <i class=\"clr-orange\">Azzen'Ka</i> để chuyến đi được an toàn; nếu không, họ sẽ bị cát nuốt chửng. Vùng đất sa mạc không hiếu khách tách biệt với phần còn lại của thế giới, và những cơn bão cát bất tận đã làm suy giảm hứng thú của mọi vị thần khác, để lại <i class=\"clr-orange\">Azzen'Ka</i> là người cai trị duy nhất trên sa mạc.<br>Thần Horus từng cố dẫn dắt một đội quân để chinh phục sa mạc. Thất bại nhanh chóng theo sau. Bởi không có một trận chiến bình thường trên một vùng đất bất thường. Dù là thần chết, sa mạc vẫn nằm ngoài tầm với của Horus. Ngài tự tin có thể đánh bại <i class=\"clr-orange\">Azzen'Ka</i>, nhưng gục ngã trước cơn bão cát không ngừng và ý chí sinh tồn của sa mạc, và buộc phải rút lui.<br>Mọi ghi chép về <i class=\"clr-orange\">Azzen'Ka</i> nói ngài là một kẻ tà ác. Tuy nhiên, các hành khách phản bác rằng nếu họ thật sự dâng hiến cúng tế, họ sẽ được đảm bảo an toàn. Do đó luôn có những luồng dư luận trái chiều nhau về <i class=\"clr-orange\">Azzen'Ka</i>. Có người coi ngài là thần, có kẻ ghét ngài đến tận xương tủy. Tất nhiên, <i class=\"clr-orange\">Azzen'Ka</i> chẳng quan tâm đến cả hai.<br>\"Đến cả thần linh cũng đầu hàng trong lĩnh vực của ta.\"",
+	"hero_skin": [{
+			"name": "U Hồn Sa Mạc",
+			"gold": "13,888",
+			"voucher": "359",
+			"event": "",
+			"wall": "AzzenKa01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": "AzzenKa01"
+		},
+		{
+			"name": "Linh Hồn Lữ Khách",
+			"gold": "",
+			"voucher": "",
+			"event": "S3 Thưởng hạng",
+			"wall": "AzzenKa02",
+			"disable": "",
+			"img": "thumb2.jpg",
+			"video": "AzzenKa02"
+		},
+		{
+			"name": "Ghẹo Hay Kẹo (Halloween)",
+			"gold": "",
+			"voucher": "349",
+			"event": "",
+			"wall": "AzzenKa03",
+			"disable": "",
+			"img": "thumb3.jpg",
+			"video": ""
+		}
+	]
+}

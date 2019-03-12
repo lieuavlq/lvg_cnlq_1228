@@ -1,0 +1,165 @@
+{
+	"hero_id": "Superman",
+	"hero_name": "Superman",
+	"main_info": {
+		"price_gold": "28,888",
+		"price_voucher": "629",
+		"price_text": "",
+		"position": "Đấu sĩ / Đỡ đòn",
+		"special": "Tiền đạo / Tiền vệ",
+		"lane": "Đường giữa / Đường Caesar"
+	},
+	"main_skill": [{
+			"name": "Siêu phàm",
+			"info": "Nội tại: Superman có 2 cơ chế di chuyển: Phi hành và Bộ hành, anh tích tụ siêu năng và được tăng 2% tốc chạy theo mỗi 100 đơn vị khoảng cách bước đi, rồi chuyển sang Phi hành khi tích tđủ siêu năng, Superman được tăng 20% tốc chạy khi bay về phía kẻ địch, ngoài ra đòn đánh thường đầu tiên trong trạng thái này sẽ gây thêm 10% máu tối đa của nạn nhân thành STVL, trạng thái Phi hành sẽ biến mất khi Superman trúng phải hiệu ứng khống chế hoặc giảm tốc khiến tốc chạy của anh còn 375 trở xuống."
+		},
+		{
+			"name": "Siêu năng lực",
+			"info": "ST Gốc: 215/430/645/860/1075/1290<br>H.Chiêu: 8/7.2/6.4/5.6/4.8/4<br>ST tai laze: 250/500/750/1000/1250/1500<br>Superman thổi hơi cực lạnh gây 215 (+1.27 Công vật lý) STVL lên những kẻ địch trúng nhiều và làm chậm 30% tốc chạy của chúng trong 1s, nếu tung chiêu trong trạng thái Phi hành, anh lướt đến gây 170 (+398) (10% máu tối đa) STVL, đồng thời bắn tia laze gây 250 (+255) STVL."
+		},
+		{
+			"name": "Người đàn ông thép",
+			"info": "ST Gốc: 335/470/605/740/875/1010<br>Tăng tốc chạy: 30%/34%/38%/42%/46%/50%<br>Lập tức loại bỏ mọi trạng thái khống chế, đồng thời giúp tăng mạnh tốc chạy, nếu tung chiêu trong trạng thái Phi hành, Superman lướt đến nện tay xuống đất gây 335 (+191) STVL, đồng thời hóa giải mọi trạng thái khống chế và giúp tăng tốc chạy."
+		},
+		{
+			"name": "Superman",
+			"info": "H.Chiêu: 70/60/50<br>Superman hấp thu năng lượng mặt trời, giúp tăng 100% tốc độ nạp siêu năng trong 10s, nếu tung chiêu trong trạng thái Phi hành, anh bay đến đẩy lùi nạn nhân, gây 170 (+398) (10% máu tối đa) STVL và tăng 100% tốc độ nạp siêu năng trong 10s."
+		}
+	],
+	"skill_up": {
+		"line1": "1,3,5,7,9,11",
+		"line2": "2,6,10,13,14,15",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "2,3,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "2,3,4,3,2,0"
+		}
+	],
+	"skill_note": "*Là một Đấu sĩ cứng cáp, vì thế hãy tận dụng mọi khả năng để làm những điều không thể.",
+	"skill_special": "BocPha,CamTru",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo26",
+				"info": "Công vật lý +1.5<br>Tốc đánh +0.4%"
+			},
+			{
+				"name": "NgocTim28",
+				"info": "Máu tối đa +13.5<br>Tốc chạy +0.7%"
+			},
+			{
+				"name": "NgocXanh22",
+				"info": "Máu tối đa +15.7<br>Hồi máu/5s +3.1<br>Giảm hồi chiêu +0.3%"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo37",
+				"info": "Tốc đánh +1%<br>Máu tối đa +33.7<br>Giáp +2.3"
+			},
+			{
+				"name": "NgocTim31",
+				"info": "Công vật lý +1.6<br>Tốc chạy +1%"
+			},
+			{
+				"name": "NgocXanh34",
+				"info": "Máu tối đa +37.5<br>Giảm hồi chiêu +0.6%"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đường trên hoặc dưới",
+			"info": "GiayKienCuong,ThuongXuyenPha,GiapGaia,KhienThatTruyen,KiemMuramasa,GiapHoMenh"
+		},
+		{
+			"name": "Đường trên hoặc dưới",
+			"info": "GiayKienCuong,GiapCuongNo,KiemMuramasa,GiapThongKho,GiapGaia,NanhFenrir"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "GiayHermes,ThuongXuyenPha,AoChoangBangGia,GiapGaia,KhienThatTruyen,GiapHoMenh"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng đội",
+			"desc": "thích hợp khi chơi cùng",
+			"info": [{
+					"hero_id": "batman",
+					"id_page": "Batman"
+				},
+				{
+					"hero_id": "joker",
+					"id_page": "Joker"
+				},
+				{
+					"hero_id": "lauriel",
+					"id_page": "Lauriel"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp",
+			"info": [{
+					"hero_id": "alice",
+					"id_page": "Alice"
+				},
+				{
+					"hero_id": "moren",
+					"id_page": "Moren"
+				},
+				{
+					"hero_id": "chaugnar",
+					"id_page": "Chaugnar"
+				},
+				{
+					"hero_id": "maloch",
+					"id_page": "Maloch"
+				},
+				{
+					"hero_id": "mganga",
+					"id_page": "Mganga"
+				},
+				{
+					"hero_id": "tel_annas",
+					"id_page": "TelAnnas"
+				}
+			]
+		}
+	],
+	"hero_story": "Trên hành tinh Krypton sắp chết, một đứa trẻ tên là Kal-El được đặt bên trong một tên lửa và được lập trình gửi tới Trái Đất. Là người Krypton cuối cùng sống sót, Kal-El đã được nuôi dưỡng bởi hai nông dân: bà Martha và ông Jonathan Kent. Hai người đặt cho Kal-El một cái tên mới là Clark và nuôi nấng cậu bé ấy bằng tình yêu và đức hạnh. Từ những giá trị đó, cậu bé đã khôn lớn và trở thành người tướng Siêu Nhân.<br>Bức xạ màu vàng từ mặt trời của Trái Đất cho phép Siêu Nhân có khả năng phi thường, bao gồm: siêu sức mạnh, tốc độ và cơ thể bất hoại. Siêu nhân sở hữu khả năng bay lượn với tốc độ cao, mắt chuyển hóa năng lượng thành chùm tia X phóng ra nhiệt lượng, nhìn thấy hạt ánh sáng hay trường năng lượng sinh học trên cơ thể sống. Siêu Nhân sử dụng năng lực của bản thân để giúp đỡ người dân của Trái Đất tránh khỏi tai hoạ và phát triển giác quan đạt tới giới hạn tiềm năng.<br>Mặc dù coi Trái đất là nhà nhưng Siêu Nhân vẫn không hoàn toàn thuộc thế giới này. Kiến thức ít ỏi của về hành tinh Krypton - ngôi nhà thực sự, về ánh sao xa mờ hay mảnh mặt trời đã khiến Siêu Nhân không dám liều lĩnh rời xa Trái Đất.<br>Định mệnh đã thay đổi trong một ngày mùa thu, Siêu Nhân đối mặt một trong những kẻ thù đáng gờm nhất của mình. Kẻ phản diện Brainiac với sức mạnh không rõ nguồn gốc, đã tìm đến Trái Đất cùng một đội quân robot tiên tiến. Phải sử dụng tới chút năng lực cuối cùng, Siêu Nhân mới tiêu diệt Brainiac. Sức bền của Người đàn ông thép đã chiến thắng và trước khi dùng tia X để quan sát Brainiac, Siêu Nhân nhận ra một luồng sáng chói lóa. Những viên ngọc lấp lánh từ bộ giáp của Brainiac truyền năng lượng đột biến vào bàn tay và cột sống của Siêu Nhân. Cảm thấy không tin tưởng vào nguồn sức mạnh đáng kinh ngạc này, <i class=\"clr-orange\">Superman</i> mang chúng về Pháo Đài Cô Đơn ở Bắc Cực để phân tích.<br>Máy tính của Pháo Đài Cô Đơn không thể tìm thấy bất cứ vật liệu nào tương tự trong dải thiên hà. Tuy nhiên, một lời gợi ý về hiện vật đó vô tình xuất hiện trong nhật ký cha của Siêu Nhân, nhà khoa học Kryptonian: Jor-El. <i class=\"clr-orange\">Superman</i> phát hiện ra rằng cha mình đã từng nghiên cứu một mẫu vật tương tự, được gọi là mảnh vỡ Andura. Mẫu vật này, thứ là chìa khóa sức mạnh giúp Brainiac chiếm Trái Đất, mới chỉ là một mảnh nhỏ. Nguồn gốc của những mảnh Andura đến từ một vương quốc có tên Athanor, một nơi nằm ngoài Vùng Vô Định. Các nhà khoa học Krypton đã chế giễu nghiên cứu của Jor-El về sự tồn tại của chiều không gian song song và ma thuật phát sinh từ Athanor có liên quan đến vũ trụ vật chất – khiến công trình và sự nghiệp của ông tiêu tan.<br>Nhưng Jor-El đã đúng. Khi xem xét kho lưu trữ của Pháo Đài Cô Đơn, Siêu Nhân đã biết được rằng những người Krypton cổ đại đã tìm kiếm những mảnh vỡ Andura để khám phá dải Thiên Hà và thậm chí có thể họ đã viếng thăm Trái Đất từ rất lâu trong một nhiệm vụ. Tuy nhiên tại đây Siêu Nhân phát hiện ra rằng rằng Brainiac đã tăng gấp đôi việc tìm kiếm mảnh vỡ Andura và nếu công bố nguồn sức mạnh tối thượng này, tất cả Trái Đất sẽ gặp nguy hiểm.<br><i class=\"clr-orange\">Superman</i> đã mất đi một quê hương, anh ta không thể đánh mất thêm quê hương thứ hai. Vì vậy, người đàn ông thép tự đi tìm kiếm Athanor và mảnh vỡ Andura trong dải Thiên Hà. Đây là cách hoàn thành nốt di sản của cha mình, cũng đồng thời biến Siêu Nhân trở thành người bảo vệ mới của thế giới trong cơn tuyệt vọng giữa sự thật và công lý.",
+	"hero_skin": [{
+			"name": "Siêu Nhân",
+			"gold": "28,888",
+			"voucher": "629",
+			"event": "",
+			"wall": "Superman01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": "Superman01"
+		},
+		{
+			"name": "Chúa Tể Công Lý (Bậc A)",
+			"gold": "",
+			"voucher": "249",
+			"event": "",
+			"wall": "Superman02",
+			"disable": "",
+			"img": "thumb2.jpg",
+			"video": "Superman02"
+		},
+		{
+			"name": "Bất Công Lý (Bậc S)",
+			"gold": "",
+			"voucher": "309",
+			"event": "",
+			"wall": "Superman03",
+			"disable": "",
+			"img": "thumb3.jpg",
+			"video": "Superman03"
+		}
+	]
+}

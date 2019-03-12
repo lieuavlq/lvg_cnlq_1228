@@ -1,0 +1,159 @@
+{
+	"hero_id": "Mina",
+	"hero_name": "Mina",
+	"main_info": {
+		"price_gold": "2,888",
+		"price_voucher": "259",
+		"price_text": "",
+		"position": "Đỡ đòn",
+		"special": "Khống chế",
+		"lane": "Đường rồng"
+	},
+	"main_skill": [{
+			"name": "Lưỡi hái phục hận",
+			"info": "Nội tại: Mina có tỷ lệ xoay lưỡi hái mỗi khi gánh chiệu sát thương, gây 50 (+158) (+70) (2% máu tối đa của bản thân) STVL lên những kẻ địch lân cận."
+		},
+		{
+			"name": "Vũ điệu lưỡi hái",
+			"info": "ST Gốc: 125/150/175/200/225/250<br>H.Chiêu: 8/7.4/6.8/6.2/5.6/5<br>Mina xoay lưỡi hái gây 125 (+189) (+70) (2% máu tối đa của bản thân) STVL lên những kẻ địch lân cận."
+		},
+		{
+			"name": "Lưỡi hái tử thần",
+			"info": "ST Gốc: 150/185/220/255/290/325<br>H.Chiêu: 12/11.4/10.8/10.2/9.6/9<br>Mina vung lưỡi hái kéo các kẻ địch lại gần, gây 150 (+110) STVL và làm chậm 50% tốc chạy của nạn nhân trong 2s."
+		},
+		{
+			"name": "Ma lực bóng tối",
+			"info": "H.Chiêu: 24/20/16<br>Mina thôi miên những kẻ địch lân cận, khiến chúng buộc phải tập trung tấn công cô trong 2s. Suốt thời gian này những nạn nhân bị thôi miên chỉ gây 50% sát thương lên Mina."
+		}
+	],
+	"skill_up": {
+		"line1": "1,3,5,7,9,11",
+		"line2": "2,6,10,13,14,15",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "3,2,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "3,4,2,0"
+		}
+	],
+	"skill_note": "*Làm tốt combo Mina khiến đối thủ phải quay lưng bỏ chạy.<br>*Bật Ma Lực Bóng Tối khiến tất cả mọi đối thủ phải tập trung vào cô và thế là đồng đội mình cứ xả thoải mái thôi!!",
+	"skill_special": "TocBien,CapCuu,BocPha",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo25",
+				"info": "Công vật lý +1.5<br>Máu tối đa +13.5"
+			},
+			{
+				"name": "NgocTim24",
+				"info": "Máu tối đa +36<br>Giáp +1.6"
+			},
+			{
+				"name": "NgocXanh22",
+				"info": "Máu tối đa +15.7<br>Hồi máu/5s +3.1<br>Giảm hồi chiêu +0.3%"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo37",
+				"info": "Tốc đánh +1%<br>Máu tối đa +33.7<br>Giáp +2.3"
+			},
+			{
+				"name": "NgocTim33",
+				"info": "Máu tối đa +45<br>Hồi máu/5s +5.2<br>Tốc chạy +0.4%"
+			},
+			{
+				"name": "NgocXanh38",
+				"info": "Giáp +9"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đường rồng",
+			"info": "LenhBaiPhongThan,GiayKienCuong,GiapGaia,GiapThongKho,KhienThatTruyen,PhuChuTruongSinh"
+		},
+		{
+			"name": "Đường đơn",
+			"info": "AoChoangThanRa,GiayHoVe,RiuHyoga,PhucHopKiem,GiapThongKho,ThuongLonginus"
+		},
+		{
+			"name": "Đường đơn",
+			"info": "AoChoangThanRa,GiayHermes,GiapThongKho,AoChoangBangGia,HuanChuongTroy,PhuChuTruongSinh"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng đội",
+			"desc": "thích hợp đi cùng các tướng bảo kê",
+			"info": [{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "ormarr",
+					"id_page": "Ormarr"
+				},
+				{
+					"hero_id": "natalya",
+					"id_page": "Natalya"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp các tướng sau",
+			"info": [{
+					"hero_id": "ormarr",
+					"id_page": "Ormarr"
+				},
+				{
+					"hero_id": "chaugnar",
+					"id_page": "Chaugnar"
+				}
+			]
+		}
+	],
+	"hero_story": "\"Ngươi nên đến xem ta diễn, sẽ rất đáng sợ đấy.\"<br>Nhìn vào lọ thuộc trên tay gã đàn ông mặc áo blouse trắng, <i class=\"clr-orange\">Mina</i> gắng chút sức tàn để thoát khỏi chiếc dây thừng. Nhưng càng cố giãy, sợ dây càng siết chặt cánh tay gầy guộc của cô. Đói lả sau nhiều ngày nhịn ăn, hơi thở của <i class=\"clr-orange\">Mina</i> ngày một yếu dần. Cô buông xuôi tất cả. Gã đàn ông bắt đầu chậm rãi tiến đến gần, khẽ nâng cổ <i class=\"clr-orange\">Mina</i> như một nhà sưu tầm đồ cổ nâng niu món đồ của mình vậy. Nhanh tay tiêm thứ huyết thanh kì lạ lên cổ cô, rồi nhanh chóng rút ra. Thứ huyết thanh đó chảy qua huyết quản, len lỏi qua từng milimet cơ thể của <i class=\"clr-orange\">Mina</i>. Cô cảm nhận được nó nhưng không còn chút sức lực nào để chống lại.<br>Cứ từng chút, từng chút một, thứ huyết thanh đó dần gặm nhấm tâm trí của cô thật giống phong cách của một gã nhà giàu đang dùng điểm tâm vậy. Gã đàn ông nhìn <i class=\"clr-orange\">Mina</i> một cách khoan khoái, hắn biết chuyện đã tiến triển ngoài cả dự liệu của mình.<br>\"Chờ chút đi, cô làm được mà… Chỉ một hai ngày nữa thôi, cô sẽ trở thành tạo vật tuyệt vời nhất trên thế giới này\".<br>Nói xong, gã quay lưng rời khỏi phòng mà không nhận ra rằng dây trói đã được tháo bỏ từ lúc nào không hay.<br>\"Vậy… câu trả lời đúng là gì?\"<br>Thứ âm thanh vang vọng này làm ớn lạnh bất kì ai. Chưa kịp định thần, gã đã bị ghim chặt xuống sàn, và thét lên.<br>\"Làm thế nào mà cô… không, KHÔNG, LÀM ƠN! Làm ơn… đừng!\"<br>Tiếng thét của gã xé tan màn đêm tĩnh lặng. Căn phòng đó, công xưởng bỏ hoang đó tất cả sau đó bị thiêu rụi hoàn toàn… tất cả bí mật nó nắm giữ sẽ mãi nằm đó. Còn <i class=\"clr-orange\">Mina</i> ở đâu, làm gì, không ai biết. Sự biến mất của cô bí ẩn giống như nó đã từng xuất hiện vậy.<br>\"Chỉ có kẻ sống mới sợ cái chết\"",
+	"hero_skin": [{
+			"name": "Nữ Hoàng Lưỡi Hái",
+			"gold": "2,888",
+			"voucher": "259",
+			"event": "",
+			"wall": "Mina01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": "Mina01"
+		},
+		{
+			"name": "Tiểu Thư Đoạt Hồn (Tân Xuân)",
+			"gold": "",
+			"voucher": "",
+			"event": "Mở sự kiện",
+			"wall": "Mina02",
+			"disable": "",
+			"img": "thumb2.jpg",
+			"video": "Mina02"
+		},
+		{
+			"name": "Tiệc Bánh Kẹo",
+			"gold": "",
+			"voucher": "309",
+			"event": "",
+			"wall": "Mina03",
+			"disable": "",
+			"img": "thumb3.jpg",
+			"video": "Mina03"
+		},
+		{
+			"name": "Kẹo Hay Ghẹo (Halloween)",
+			"gold": "",
+			"voucher": "",
+			"event": "Mở sự kiện",
+			"wall": "Mina04",
+			"disable": "",
+			"img": "thumb4.jpg",
+			"video": ""
+		}
+	]
+}

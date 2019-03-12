@@ -1,0 +1,197 @@
+{
+	"hero_id": "Butterfly",
+	"hero_name": "Butterfly",
+	"main_info": {
+		"price_gold": "18,888",
+		"price_voucher": "539",
+		"price_text": "",
+		"position": "Sát thủ / Đấu sĩ",
+		"special": "Tiền đạo / Trung phong",
+		"lane": "Đi rừng"
+	},
+	"main_skill": [{
+			"name": "Sát thủ",
+			"info": "Nội tại: Hạ hoạc phụ sẽ làm mới toàn bộ thời gian hồi chiêu."
+		},
+		{
+			"name": "Quét kiếm",
+			"info": "ST Gốc: 200/240/280/320/360/400<br>Butterfly vung kiếm theo hình vòng cung gây 200 (+0.65 công vật lý) STVL và tăng tốc cho bản thân 50%, xóa làm chậm và miễn nhiễm làm chậm trong 1 giây."
+		},
+		{
+			"name": "Phi kiếm",
+			"info": "ST Gốc: 350/400/450/500/550/600<br>H.Chiêu: 9/8.4/7.8/7.2/6.6/6<br>Butterfly phóng kiếm chớp nhoáng gây 350（+1.25 công vật lý) STVL lên những kẻ địch theo đường thẳng, đồng thời Butterfly được tăng 50% tốc đánh cơ bản trong 3s."
+		},
+		{
+			"name": "Ám sát",
+			"info": "ST Gốc: 500/725/950<br>H.Chiêu: 13.5/12.3/11.1<br>Butterfly đột kích kẻ địch có lượng máu thấp nhất (ưu tiên tướng) từ phía sau, gây 525 (+238) STVL, đồng thời Butterfly được tăng 50% miễn thương trong 3s giảm dần về 0, và mục tiêu sẽ bị đánh dấu trong 3s. Trong khoảng thời gian này Tốc chạy của kẻ địch bị giảm 30%. Khi kết thúc đánh dấu hoặc mục tiêu đã chết, 20% sát thương mà mục tiêu đã chịu sẽ chuyển thành trị liệu cho bản thân."
+		}
+	],
+	"skill_up": {
+		"line1": "2,6,8,11,13,15",
+		"line2": "1,3,5,7,10,14",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "2,3,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "4,2,3,0"
+		}
+	],
+	"skill_note": "*Bộ kỹ năng của cô được tạo ra là để đi rừng, bức bí thì đường trên dưới cũng được.<br>*Hạ mục tiêu hoặc hỗ trợ đồng đội, bộ kỹ năng sẽ được reset hồi chiêu.<br>*Sử dụng Chiêu 1 và 2 chuẩn sát để có thể làm chậm và choáng các mục tiêu.<br>*Bật Ám Sát lên mà quẩy thôi, còn ai lao vào không em tiển!!",
+	"skill_special": "TrungTri,BocPha",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo26",
+				"info": "Công vật lý +1.5<br>Tốc đánh +0.4%"
+			},
+			{
+				"name": "NgocTim24",
+				"info": "Máu tối đa +36<br>Giáp +1.6"
+			},
+			{
+				"name": "NgocXanh27",
+				"info": "Hồi máu/5s +4.5<br>Giáp +3.2"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo37",
+				"info": "Tốc đánh +1%<br>Máu tối đa +33.7<br>Giáp +2.3"
+			},
+			{
+				"name": "NgocTim34",
+				"info": "Tỷ lệ chí mạng +0.5%<br>Máu tối đa +60"
+			},
+			{
+				"name": "NgocXanh34",
+				"info": "Máu tối đa +37.5<br>Giảm hồi chiêu +0.6%"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đường đơn",
+			"info": "AoChoangThanRa,GiayHoVe,ThuongXuyenPha,GiapGaia,KhienThatTruyen,GiapThongKho"
+		},
+		{
+			"name": "Đi rừng",
+			"info": "KiemTruyHon,GiayHoVe,ThuongXuyenPha,AoChoangBangGia,GiapThongKho,LiemDoatMenh"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "RiuLeviathan,GiayHermes,AoChoangThanRa,ThuongXuyenPha,NanhFenrir,HerculeThinhNo"
+		}
+	],
+	"hero_battle": [{
+			"name": "chơi trên cơ",
+			"desc": "dễ dàng chiến thắng khi gặp",
+			"info": [{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "slimz",
+					"id_page": "Slimz"
+				},
+				{
+					"hero_id": "kriknak",
+					"id_page": "Kriknak"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp",
+			"info": [{
+					"hero_id": "maloch",
+					"id_page": "Maloch"
+				},
+				{
+					"hero_id": "batman",
+					"id_page": "Batman"
+				},
+				{
+					"hero_id": "zephys",
+					"id_page": "Zephys"
+				},
+				{
+					"hero_id": "nakroth",
+					"id_page": "Nakroth"
+				}
+			]
+		}
+	],
+	"hero_story": "\"Cuộc đời của ta sẽ ra sao khi chiến tranh kết thúc?\" Trong một đêm lạnh giá, <i class=\"clr-orange\">Butterfly</i> trầm ngâm bên thanh gươm lấp lánh ánh sáng dìu dịu ấm áp.<br>\"Tồn tại trong thế giới hỗn loạn này chẳng dễ dàng chút nào, đặc biệt là những người kiếm tiền từ máu của kẻ khác. Ta còn chẳng có thời gian để suy nghĩ về bất cứ điều gì khác\" giọng của cô lạnh lùng mà chua chát, phát ra từ bóng tối. Mới vừa thực hiện nhiệm vụ trước đó ít lâu, <i class=\"clr-orange\">Butterfly</i> không hề có dấu hiệu mệt mỏi. Là một sát thủ ám sát thuê được huấn luyện tốt, cô có khả năng duy trì và khôi phục sức chịu đựng của mình xuyên suốt các cuộc chiến.<br><i class=\"clr-orange\">Butterfly</i> là một biệt hiệu được cô sử dụng trong hợp đồng ám sát. Không giống như lính đánh thuê thông thường, nhiệm vụ của <i class=\"clr-orange\">Butterfly</i> rất đa dạng và phức tạp. Khách hàng bắt đầu yêu cầu sát thủ thực hiện nhiệm vụ khó khăn hơn; nhấn mạnh vào khả năng, giới tính, tuổi tác, và thậm chí thời gian xuất hiện. Để đáp lại, <i class=\"clr-orange\">Butterfly</i> không ngừng cải thiện bản thân để phục vụ những yêu cầu đó.<br><i class=\"clr-orange\">Butterfly</i> từng là một đứa trẻ mồ côi, được nuôi dưỡng bởi hiệp hội lính đánh thuê và huấn luyện qua rất nhiều cuộc chiến. Lớn lên, cô ra chiến trường kiếm tiền, trả lại khoản phí nuôi dạy cho hiệp hội. Mỗi nhiệm vụ thành công, <i class=\"clr-orange\">Butterfly</i> phải trả họ một nửa số tiền kiếm được, cho đến khi món nợ từ bé của cô được thanh toán sòng phẳng.<br>Những thành viên của hiệp hội tử trận ngày một nhiều. Điều này khiến cho <i class=\"clr-orange\">Butterfly</i> được giao nhiệm vụ quan trọng nhất: bảo vệ Astrid, con gái út của gia tộc Hoa Hồng. Cô đã hoàn thành rất nhiều nhiệm vụ tương tự, ngụy trang trong bộ đồ người hầu bí mật hộ tống những quý cô sang chảnh, diêm dúa đi đến các sự kiện khác nhau.<br>Nếu đó không phải là một công việc được trả lương cao, <i class=\"clr-orange\">Butterfly</i> đã chọn một nhiệm vụ thú vị hơn, như ám sát một gã cưỡi rồng, hoặc loại bỏ thủ lĩnh của toán cướp. Nó khiến cô thấy hưng phấn hơn việc dành cả đêm để nghe những câu chuyện viển vông của tụi quý tộc.<br>Kỳ lạ thay, nhiệm vụ mới không phải là nhàm chán như <i class=\"clr-orange\">Butterfly</i> đã nghĩ. Cô hoàn toàn bị choáng ngợp bởi độ khó của nhiệm vụ, bởi cô được cử đến để bảo vệ Astrid trong một cuộc chiến chống lại binh đoàn Lokheim, những kẻ đã đánh bại Arduin và nhóm hiệp sĩ Vedan.<br>Sau cái chết của cha, anh trai, và chứng kiên lâu đài bị vây hãm, Astrid lãnh đạo các hiệp sỹ Hoa Hồng cầm kiếm tử chiến với kẻ thù. <i class=\"clr-orange\">Butterfly</i> được thuê để bảo vệ Astrid. Và khi đao kiếm dừng lại, cả hai cùng bị thương nặng.<br>Theo các quy định của hợp đồng, <i class=\"clr-orange\">Butterfly</i> có quyền từ bỏ, chiếu theo điều khoản \"Mức độ phức tạp của công việc\". Tuy nhiên, cô tiếp tục nhiệm vụ bảo vệ Astrid bé bỏng, người thừa kế cuối cùng của dòng dõi Bá tước Hoa hồng. Chừng nào Astrid còn thở, còn sức nâng cao thanh kiếm Tro Tàn của cha nàng, nhiệm vụ của <i class=\"clr-orange\">Butterfly</i> còn chưa kết thúc.<br>Đó không chỉ đơn thuần là nhiệm vụ, nó cũng là cách cô làm việc.<br>\"Từ 'chạy trốn' không có trong từ vựng của tôi\"",
+	"hero_skin": [{
+			"name": "Siêu Cấp Sát Thủ",
+			"gold": "18,888",
+			"voucher": "539",
+			"event": "",
+			"wall": "Butterfly01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": "Butterfly01"
+		},
+		{
+			"name": "Xuân Nữ Ngổ Ngáo",
+			"gold": "",
+			"voucher": "",
+			"event": "Mở dịp lễ tết",
+			"wall": "Butterfly02",
+			"disable": "",
+			"img": "thumb2.jpg",
+			"video": "Butterfly02"
+		},
+		{
+			"name": "Thủy Thủ",
+			"gold": "",
+			"voucher": "175",
+			"event": "",
+			"wall": "Butterfly03",
+			"disable": "",
+			"img": "thumb3.jpg",
+			"video": "Butterfly03"
+		},
+		{
+			"name": "Teen Nữ Công Nghệ (Bậc S)",
+			"gold": "",
+			"voucher": "379",
+			"event": "",
+			"wall": "Butterfly04",
+			"disable": "",
+			"img": "thumb4.jpg",
+			"video": "Butterfly04"
+		},
+		{
+			"name": "Nữ Quái Nổi Loạn (Bậc SS)",
+			"gold": "",
+			"voucher": "599",
+			"event": "",
+			"wall": "Butterfly05",
+			"disable": "",
+			"img": "thumb5.jpg",
+			"video": "Butterfly05"
+		},
+		{
+			"name": "Quận Chúa Đế Chế (Bậc S)",
+			"gold": "",
+			"voucher": "429",
+			"event": "",
+			"wall": "Butterfly06",
+			"disable": "yes",
+			"img": "thumb6.jpg",
+			"video": "Butterfly06"
+		},
+		{
+			"name": "Đông Êm Đềm",
+			"gold": "",
+			"voucher": "",
+			"event": "Mở sự kiện",
+			"wall": "Butterfly07",
+			"disable": "yes",
+			"img": "thumb7.jpg",
+			"video": "Butterfly07"
+		}
+	]
+}

@@ -1,0 +1,205 @@
+{
+	"hero_id": "Lauriel",
+	"hero_name": "Lauriel",
+	"main_info": {
+		"price_gold": "18,888",
+		"price_voucher": "539",
+		"price_text": "",
+		"position": "Pháp sư / Sát thủ",
+		"special": "Tiền đạo",
+		"lane": "Đường giữa"
+	},
+	"main_skill": [{
+			"name": "Trời phạt",
+			"info": "Nội tại: Các chiêu thức trúng đích của Lauriel sẽ khắc dấu ấn Trời phạt lên mục tiêu, khi đạt đủ 4 lần tích lũy, dấu ấn sẽ bùng nổ giúp hồi 110 (+8 mỗi cấp tướng ) máu, và gây 160 (+0.64 công phép) STC diện rộng, đồng thời làm chậm 50% tốc chạy của nạn nhân, 1s hiệu lực."
+		},
+		{
+			"name": "Con đường sám hối",
+			"info": "ST Gốc: 215/260/305/350/395/440<br>Lauriel vẽ ra một con đường ánh sáng gây 215 (+0) STP, trong thoáng chốc sau đó con đường sẽ bùng nổ gây lượng sát thương tương đương tự lần nữa lên những nạn nhân còn trong vùng hiệu lực."
+		},
+		{
+			"name": "Đôi cánh thuần khiết",
+			"info": "ST Gốc: 175/190/205/220/235/250<br>Lauriel tung cánh lướt đến hướng chỉ định, khi đến nơi nàng vỗ cánh tạo ra 3 luồng ánh sáng tấn công kẻ địch gây 175 (+0) STP mỗi luồng, kẻ địch trúng chiêu giúp giảm thời gian hồi đi 4s."
+		},
+		{
+			"name": "Đại phán xét",
+			"info": "ST Gốc: 210/245/280<br>H.Chiêu: 40/35/30<br>Lauriel triệu hồi sức mạnh thần thánh tạo ra một pháp trận hùng mạnh, gây 210 (+0) STP lúc xuất hiện và biến mất, trong vùng hiệu lực Lauriel sẽ được giúp giảm mạnh thời gian hồi hai chiêu thức đầu."
+		}
+	],
+	"skill_up": {
+		"line1": "1,3,6,10,14,15",
+		"line2": "2,5,7,9,11,13",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "3,2,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "3,2,4,3,2,0,3,2,0"
+		}
+	],
+	"skill_note": "*Lauriel càng về sau game càng bá đạo vì thế mà cứ quẩy thôi.<br>*Tích lũy đủ 4 điểm Nội tại vào mục tiêu sẽ mang lại cho Lauriel thêm nhiều sức mạnh.<br>*Chú ý Chiêu 1 gây 2 lần sát thương, vì thế hãy sử dụng nó một cách tốt nhất.<br>*Chiêu 2 bay nhảy khá đẹp mắt nhưng nó cũng là thứ vũ khí lợi hại của cô.<br>*Đại Phán Xét vị trí thích hợp sẽ giúp Lauriel không còn lo ngại một ai nửa.",
+	"skill_special": "TocBien,ThanhTay,TrungTri",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo24",
+				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+			},
+			{
+				"name": "NgocTim23",
+				"info": "Công phép +1.4 <br>Hút máu phép +0.8%<br>Giáp phép +1.6"
+			},
+			{
+				"name": "NgocXanh28",
+				"info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo31",
+				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+			},
+			{
+				"name": "NgocTim36",
+				"info": "Công phép +2.4<br>Hút máu phép +1%"
+			},
+			{
+				"name": "NgocXanh37",
+				"info": "Hút máu phép +0.7%<br>Giáp +5.9"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đường giữa",
+			"info": "NgocDaiPhapSu,GiayKienCuong,KhienHuyenThoai,QuyenTruongRhea,VuongMiengHecate,GiapGaia"
+		},
+		{
+			"name": "Đi rừng",
+			"info": "GuomLoki,GiayHermes,AoChoangBangGia,KhienHuyenThoai,QuyenTruongRhea,TruongHonMang"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "NgocDaiPhapSu,GiayKienCuong,KhienHuyenThoai,QuyenTruongRhea,VuongMiengHecate,HuanChuongTroy"
+		}
+	],
+	"hero_battle": [{
+			"name": "chơi trên cơ",
+			"desc": "dễ dàng chiến thắng khi gặp",
+			"info": [{
+					"hero_id": "zuka",
+					"id_page": "Zuka"
+				},
+				{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "zephys",
+					"id_page": "Zephys"
+				},
+				{
+					"hero_id": "tel_annas",
+					"id_page": "TelAnnas"
+				},
+				{
+					"hero_id": "taara",
+					"id_page": "Taara"
+				},
+				{
+					"hero_id": "gildur",
+					"id_page": "Gildur"
+				},
+				{
+					"hero_id": "cresht",
+					"id_page": "Cresht"
+				},
+				{
+					"hero_id": "chaugnar",
+					"id_page": "Chaugnar"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp",
+			"info": [{
+					"hero_id": "grakk",
+					"id_page": "Grakk"
+				},
+				{
+					"hero_id": "aleister",
+					"id_page": "Aleister"
+				},
+				{
+					"hero_id": "skud",
+					"id_page": "Skud"
+				},
+				{
+					"hero_id": "maloch",
+					"id_page": "Maloch"
+				},
+				{
+					"hero_id": "thane",
+					"id_page": "Thane"
+				},
+				{
+					"hero_id": "arthur",
+					"id_page": "Arthur"
+				}
+			]
+		}
+	],
+	"hero_story": "\"Trên chín tầng trời, nàng ngự trị cùng các thần.\"<br><i class=\"clr-orange\">Lauriel</i> là hộ thần của Đền ánh sáng, và cũng là lãnh tụ tinh thần của các tín đồ. Nhằm bảo đảm thế giới được duy trì trật tự cùng bình an, <i class=\"clr-orange\">Lauriel</i> dành phần lớn thời gian cư ngụ bên trong ngôi đền thờ phụng chúng thần, và truyền đạt lại dụ ngôn của các ngài đến với chúng sinh. Đối với tín đồ, <i class=\"clr-orange\">Lauriel</i> chính là người đại diện của các thần.<br>Tín ngưỡng thành kính đã từng khiến <i class=\"clr-orange\">Lauriel</i> sở hữu sức mạnh vô bì, nàng thậm chí đã từng nắm giữ quyền cai quản luân hồi. Bất kể là sinh mạng mới ra đời, hay trút bỏ hơi thở cuối cùng, hoặc linh hồn đi đâu về đâu, đều phụ thuộc vào <i class=\"clr-orange\">Lauriel</i>. Tương truyền khi đôi cánh của nàng khẽ đập nghĩa là một sinh mạng mới chào đời, khi cánh nàng khép lại nghĩa là có sinh mạng lìa đời.<br>Các tín đồ từng được chứng kiến sức mạnh của <i class=\"clr-orange\">Lauriel</i> trên chiến trường, khi nàng sải cánh bay xuyên qua hàng ngũ quân thù hạ gục từng tên một. Với tốc độ ánh sáng cùng sức mạnh thần thánh, chẳng kẻ nào có thể chống lại được nàng. Cùng với đội quân của mình, <i class=\"clr-orange\">Lauriel</i> đã quét sạch một đoàn quân Sa đọa trên chiến trường dễ như trở bàn tay.<br>\"Khi ngày tận thế đến, ta sẽ thổi lên chiếc tù và phán xét!\"",
+	"hero_skin": [{
+			"name": "Đại Thiên Sứ",
+			"gold": "18,888",
+			"voucher": "539",
+			"event": "",
+			"wall": "Lauriel01",
+			"disable": "yes",
+			"img": "thumb1.jpg",
+			"video": ""
+		},
+		{
+			"name": "Đọa Lạc Thiên Sứ",
+			"gold": "",
+			"voucher": "219",
+			"event": "",
+			"wall": "Lauriel02",
+			"disable": "",
+			"img": "thumb2.jpg",
+			"video": ""
+		},
+		{
+			"name": "Phù Thủy Bí Ngô",
+			"gold": "",
+			"voucher": "",
+			"event": "Mở sự kiện",
+			"wall": "Lauriel03",
+			"disable": "yes",
+			"img": "thumb3.jpg",
+			"video": ""
+		},
+		{
+			"name": "Hỏa Phượng Hoàng (Bậc S)",
+			"gold": "",
+			"voucher": "279",
+			"event": "",
+			"wall": "Lauriel04",
+			"disable": "yes",
+			"img": "thumb4.jpg",
+			"video": ""
+		},
+		{
+			"name": "Thánh Quang Sứ (Bậc SS)",
+			"gold": "",
+			"voucher": "799",
+			"event": "",
+			"wall": "Lauriel05",
+			"disable": "yes",
+			"img": "thumb5.jpg",
+			"video": "Lauriel05"
+		}
+	]
+}

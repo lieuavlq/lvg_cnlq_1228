@@ -1,0 +1,159 @@
+{
+	"hero_id": "Zephys",
+	"hero_name": "Zephys",
+	"main_info": {
+		"price_gold": "13,888",
+		"price_voucher": "359",
+		"price_text": "",
+		"position": "Đấu sĩ / Sát thủ",
+		"special": "Tiền đạo",
+		"lane": "Đi rừng / Đường Caesar"
+	},
+	"main_skill": [{
+			"name": "Bền bỉ",
+			"info": "Nội tại: Mỗi 3% máu tối đa tổn thất giúp tăng 1% miễn thương."
+		},
+		{
+			"name": "Đâm lao",
+			"info": "ST Gốc: 190/214/238/262/286/310<br>H.Chiêu: 7/6.4/5.8/5.2/4.6/4<br>ST thêm: 85/97/109/121/133/145<br>Zephys lướt và đâm về hướng chỉ định, gây 190 (+173) STVL lên những kẻ địch trúng chiêu. Đòn đánh thường kế tiếp của Zephys gây thêm 85 (+259) STVL, đồng thời làm chậm 25% tốc chạy của nạn nhân trúng đòn trong 2s."
+		},
+		{
+			"name": "Liên kích",
+			"info": "ST Gốc: 95/105/115/125/135/145<br>H.Chiêu: 8/7.2/6.4/5.6/4.8/4<br>Hồi máu: 35/39/43/47/51/55<br>Zephys công kích liên tục các kẻ địch phía trước, mỗi đợt gây 95 (+69) STVL. Tung chiêu trúng tướng địch giúp Zephys được hồi 35 (+24) máu."
+		},
+		{
+			"name": "Không kích",
+			"info": "ST Gốc: 370/460/550<br>H.Chiêu: 18/15/12<br>ST sấm chóp: 30/45/60<br>Tầm tấn công của chiêu cuối: 6.5m<br>Zephys đột kích kẻ địch từ trên không, gây 370 (+242) STVL và hất văng các mục tiêu trong vùng ảnh hưởng. Ngoài ra Không kích còn gây hiệu ứng Rền vang lên những nạn nhân trúng chiêu, khiến đòn đánh thường hoặc chiêu thức của Zephys lên các mục tiêu này gây thêm 30 (+22) STP."
+		}
+	],
+	"skill_up": {
+		"line1": "1,3,5,7,9,11",
+		"line2": "2,6,10,13,14,15",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "2,3,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "4,3,2,0"
+		}
+	],
+	"skill_note": "*Lên 3 trang bị là thời điểm Zephys trở thành một con quỷ dữ.",
+	"skill_special": "TrungTri,BocPha",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo25",
+				"info": "Công vật lý +1.5<br>Máu tối đa +13.5"
+			},
+			{
+				"name": "NgocTim28",
+				"info": "Máu tối đa +13.5<br>Tốc chạy +0.7%"
+			},
+			{
+				"name": "NgocXanh22",
+				"info": "Máu tối đa +15.7<br>Hồi máu/5s +3.1<br>Giảm hồi chiêu +0.3%"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo37",
+				"info": "Tốc đánh +1%<br>Máu tối đa +33.7<br>Giáp +2.3"
+			},
+			{
+				"name": "NgocTim31",
+				"info": "Công vật lý +1.6<br>Tốc chạy +1%"
+			},
+			{
+				"name": "NgocXanh31",
+				"info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đường rừng",
+			"info": "RiuLeviathan,GiayHoVe,ThuongLonginus,AoChoangBangGia,ThuongXuyenPha,HuanChuongTroy"
+		},
+		{
+			"name": "Đường đơn",
+			"info": "AoChoangThanRa,GiayKienCuong,AoChoangBangGia,HuanChuongTroy,KiemMuramasa,HerculeThinhNo"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "RiuLeviathan,GiayKienCuong,AoChoangThanRa,AoChoangBangGia,KiemMuramasa,HuanChuongTroy"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng đội",
+			"desc": "thích hợp đi cùng các tướng bảo kê",
+			"info": [{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "cresht",
+					"id_page": "Cresht"
+				},
+				{
+					"hero_id": "valhein",
+					"id_page": "Valhein"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp các tướng sau",
+			"info": [{
+					"hero_id": "aleister",
+					"id_page": "Aleister"
+				},
+				{
+					"hero_id": "ormarr",
+					"id_page": "Ormarr"
+				}
+			]
+		}
+	],
+	"hero_story": "“Không một ai có thể thoát khỏi lưỡi hái Tử Thần của ta”<br>Mùi vị của cái chết ở thế giới loài người là minh chứng rõ ràng để biết hướng di chuyển của Tử thần. Tương truyền rằng, <i class=\"clr-orange\">Zephys</i> là một tử thần kiệm lời, toàn thân ông được bao phủ bởi làn sương giá lạnh. Mỗi khi du hành, <i class=\"clr-orange\">Zephys</i> khoác lên mình chiếc áo dài đen óng cùng chiếc lưỡi hái sắc đến mức có thể cắt lìa mọi thứ trên đời. Thu thập linh hồn chỉ là một công việc không hề đơn giản.<br>Bởi sau khi lìa cõi đời, rất nhiều linh hồn trở thành ác linh đi quấy phá và reo rắc nỗi sợ hãi lên loài người. Chính lúc này đây, <i class=\"clr-orange\">Zephys</i> sẽ phải dùng quyền lực của một vị thần, triệu gọi đội quân của mình để gìn giữ trật tự của cả 2 thế giới. Bất cứ kẻ nào chống đối đều sẽ phải chịu sự trừng phạt giày xéo tâm hồn, và nhận một kết cục đau đớn hơn cả cái chết.<br>\"Khi cái bóng của tử thần phủ xuống, lưỡi hái sẽ nhanh chóng theo sau thôi\"",
+	"hero_skin": [{
+			"name": "Lãnh Chúa Bất Tử",
+			"gold": "13,888",
+			"voucher": "359",
+			"event": "",
+			"wall": "Zephys01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": "Zephys01"
+		},
+		{
+			"name": "Oán Linh (Bậc A)",
+			"gold": "",
+			"voucher": "375",
+			"event": "",
+			"wall": "Zephys02",
+			"disable": "yes",
+			"img": "thumb2.jpg",
+			"video": "Zephys02"
+		},
+		{
+			"name": "Hiệp Sĩ Bí Ngô",
+			"gold": "",
+			"voucher": "",
+			"event": "Mở Halloween",
+			"wall": "Zephys03",
+			"disable": "yes",
+			"img": "thumb3.jpg",
+			"video": "Zephys03"
+		},
+		{
+			"name": "Dung Nham (AWC)",
+			"gold": "",
+			"voucher": "429",
+			"event": "",
+			"wall": "Zephys04",
+			"disable": "yes",
+			"img": "thumb4.jpg",
+			"video": ""
+		}
+	]
+}

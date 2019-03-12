@@ -1,4 +1,4 @@
-var string_common_vn = {
+var lang_vn_file = {
 	"app_name": "Cẩm Nang Liên Quân",
   "btn_back": "Trở lại",
   "btn_info": "Thông Tin",

@@ -1,0 +1,163 @@
+{
+	"hero_id": "DieuThuyen",
+	"hero_name": "Điêu Thuyền",
+	"main_info": {
+		"price_gold": "13,888",
+		"price_voucher": "359",
+		"price_text": "",
+		"position": "Pháp sư",
+		"special": "Khống chế",
+		"lane": "Đường giữa"
+	},
+	"main_skill": [{
+			"name": "Nữ hoàng băng tuyết",
+			"info": "Nội tại: Những kẻ địch bị đóng băng phải chịu thêm 155 STP."
+		},
+		{
+			"name": "Sương giá",
+			"info": "ST Gốc: 350/420/490/560/630/700<br>Điêu Thuyền tung hàn băng chưởng vào điểm chỉ định, gây 350 (+0.85 công phép) STP và làm chậm 50% tốc chạy của các kẻ địch trúng chiêu trong 2s. Chưa hết, những nạn nhân này còn phải chịu hiệu ứng Băng hàn trong 5.5s. Kẻ địch trúng Bão tuyết khi đang chịu hiệu ứng Băng hàn sẽ bị trói 1s."
+		},
+		{
+			"name": "Tuyết liên",
+			"info": "ST Gốc: 288/324/360/396/432/468<br>H.Chiêu: 9/8.6/8.2/7.8/7.4/7<br>Điêu Thuyền tạo ra một bông sen băng tại điểm đã chọn, thoáng chốc sau bông sen nở rộ gây 288 (+0) STP, có thể sử dụng chiêu 2 lần, mục tiêu sau khi bị đóng băng lần 1 sẽ bất động trong 2,5s, nếu dính chiêu thức lần 2 trong 5s sau đó thì thời gian đóng băng tăng thêm chỉ 0,75s, thời gian giữa 2 lần sử dụng chiêu thức: 1s, ngoài ra những nạn nhân này sẽ phải chịu thêm STP từ mọi nguồn sát thương của Điêu Thuyền."
+		},
+		{
+			"name": "Bão tuyết",
+			"info": "ST Gốc: 350/440/530<br>H.Chiêu: 42/35/28<br>Điêu Thuyền triệu hồi bão tuyết tấn công những kẻ địch lân cận, gây 350 (+0) STP và làm chậm 30% tốc chạy của các nạn nhân trúng chiêu. Ngoài ra Điêu Thuyền còn được tăng 600 giáp."
+		}
+	],
+	"skill_up": {
+		"line1": "1,3,6,9,11,14",
+		"line2": "2,5,7,10,13,15",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "2,3,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "2,3,4,0"
+		}
+	],
+	"skill_note": "*Sát thương khá cao nếu cô có thể làm đối thủ đóng băng.<br>*Kết hợp hoàn hảo Chiêu 1 và 2 giúp cô trở nên khá bá đạo.<br>*Bão Tuyết khá rộng vì thế hãy chọn vị trí thích hợp nhất và hạch sát kẻ địch.",
+	"skill_special": "CapCuu,TocBien",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo24",
+				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+			},
+			{
+				"name": "NgocTim22",
+				"info": "Công phép +1.4<br>Hút máu phép +0.8%<br>Giáp phép +1.6"
+			},
+			{
+				"name": "NgocXanh28",
+				"info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo31",
+				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+			},
+			{
+				"name": "NgocTim36",
+				"info": "Công phép +2.4<br>Hút máu phép +1%"
+			},
+			{
+				"name": "NgocXanh35",
+				"info": "Giáp +2.7<br>Giáp phép +2.7<br>Giảm hồi chiêu +0.6%"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đường giữa",
+			"info": "TruongBungNo,GiayPhuThuy,VuongMiengHecate,GuomTanThe,TruongHonMang,SachThanh"
+		},
+		{
+			"name": "Đường giữa",
+			"info": "QuyenTruongRhea,GiayThuatSi,TruongBungNo,GuomTanThe,ThapTuKiem,SachThanh"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "NgocDaiPhapSu,GiayPhuThuy,TruongBungNo,GuomHienTriet,TruongHonMang,MatNaBerith"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng đội",
+			"desc": "thích hợp đi cùng các tướng bảo kê",
+			"info": [{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "lu_bo",
+					"id_page": "LuBo"
+				},
+				{
+					"hero_id": "toro",
+					"id_page": "Toro"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp các tướng sau",
+			"info": [{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "nakroth",
+					"id_page": "Nakroth"
+				},
+				{
+					"hero_id": "butterfly",
+					"id_page": "Butterfly"
+				}
+			]
+		}
+	],
+	"hero_story": "\"Đàn ông chinh phục thế giới, ta sẽ chinh phục đàn ông.\"<br><i class=\"clr-orange\">Điêu Thuyền</i> nói câu đó năm mười lăm tuổi. Nàng vừa học nghệ thuật múa lụa nhưng đã có thể quyến rũ tất cả những ai hay ghé qua đại lộ Trường An. Một viên quan đã nói: \"Cô gái này là hiện thân của tội lỗi từ thiên đường!\" trước khi đổ gục dưới chân nàng tìm kiếm mùi hương vương trên áo.<br>Ngay cả Lữ Bố hùng mạnh cũng không thể cưỡng lại vẻ đẹp của <i class=\"clr-orange\">Điêu Thuyền</i>. Khi nàng nhăn mặt, Lữ Bố sẵn sàng ra tay với cha nuôi Đổng Trác. Chỉ một nét thoáng buồn trên mặt <i class=\"clr-orange\">Điêu Thuyền</i> cũng đủ để Lữ Bố trừng trị kẻ phạm lỗi.<br><i class=\"clr-orange\">Điêu Thuyền</i> xinh đẹp, nhưng cái đẹp đó cũng tương xứng với dã tâm trong nàng. Các tướng khắp thế giới đến thách thức Lữ Bố để có thể đoạt <i class=\"clr-orange\">Điêu Thuyền</i> về tay. Đa số đều bị hạ ngay lập tức. Nhưng người khác tập hợp cùng nhau và cũng chịu chung số phận. Thấy kẻ địch ngày một nhiều thêm và khát khao chiến trận của Lữ Bố ngày một lớn dần, <i class=\"clr-orange\">Điêu Thuyền</i> lặng lẽ rời bỏ người đàn ông yêu nàng tha thiết trong một sáng trời mưa bão.<br>\"Cố đừng nghĩ đến ta nhiều quá.\"",
+	"hero_skin": [{
+			"name": "Tuyệt Sắc Giai Nhân",
+			"gold": "13,888",
+			"voucher": "359",
+			"event": "",
+			"wall": "DieuThuyen01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": "DieuThuyen01"
+		},
+		{
+			"name": "Nữ Vương Anh Đào (Bậc A)",
+			"gold": "",
+			"voucher": "450",
+			"event": "",
+			"wall": "DieuThuyen02",
+			"disable": "",
+			"img": "thumb2.jpg",
+			"video": "DieuThuyen02"
+		},
+		{
+			"name": "Hoa Hậu (Bậc S)",
+			"gold": "",
+			"voucher": "349",
+			"event": "",
+			"wall": "DieuThuyen03",
+			"disable": "",
+			"img": "thumb3.jpg",
+			"video": "DieuThuyen03"
+		},
+		{
+			"name": "Tiệc Bãi Biển (Bậc SS)",
+			"gold": "",
+			"voucher": "499",
+			"event": "",
+			"wall": "DieuThuyen04",
+			"disable": "yes",
+			"img": "thumb4.jpg",
+			"video": "DieuThuyen04"
+		}
+	]
+}

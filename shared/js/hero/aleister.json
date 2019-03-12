@@ -1,0 +1,157 @@
+{
+	"hero_id": "Aleister",
+	"hero_name": "Aleister",
+	"main_info": {
+		"price_gold": "13,888",
+		"price_voucher": "359",
+		"price_text": "",
+		"position": "Pháp sư",
+		"special": "Khống chế",
+		"lane": "Đường giữa"
+	},
+	"main_skill": [{
+			"name": "Ma thuật đen",
+			"info": "Nội tại: Aleister nguyền rủa một mục tiêu với mỗi kỹ năng. Mỗi lần cộng dồn thứ 3 sẽ kích hoạt một vụ nổ gây 55 ( mỗi khi tăng 1 cấp +5 điểm)(+0.3 Công phép) STC<br>Thời gian duy trì dấu ấn： 5s<br>Khoảng cách giữa các lần kích hoạt dấu ấn: 0s."
+		},
+		{
+			"name": "Vách ngăn hắc ám",
+			"info": "ST Gốc: 315/355/395/435/475/515<br>H.Chiêu: 12/11.4/10.8/10.2/9.6/9<br>Aleister tạo ra một vách ngăn bằng năng lượng hắc ám gây choáng và gây 130 (+10 mỗi cấp)(+0.4 công phép) STP lên mục tiêu, kèm theo 1 điểm cộng dồn ma thuật đen."
+		},
+		{
+			"name": "Ma trận thống khổ",
+			"info": "ST Gốc: 125/140/155/170/185/200<br>Aleister triệu hồi một ma trận liên tục gây sát thương lên kẻ thù, mỗi lượt gây 125 (+0.3 Công phép) STP, mỗi lần gây sát thương tạo một điểm ma thuật đen."
+		},
+		{
+			"name": "Ngục tù vĩnh hằng",
+			"info": "ST Gốc: 100/125/150<br>H.Chiêu: 35/30/25<br>Aleister bẫy một kẻ địch trong nhà tù ma thuật, gây 100 (+0.25 Công phép) STP mỗi đợt trong 2.5s, mỗi lần gây sát thương tạo một điểm ma thuật đen."
+		}
+	],
+	"skill_up": {
+		"line1": "2,3,6,8,11,14",
+		"line2": "1,5,7,10,13,15",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "2,3,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "2,3,4,0"
+		}
+	],
+	"skill_note": "*Cố gằng tìm vị trí tốt nhất để dùng chiêu cuối một cách hiệu quả nhất.",
+	"skill_special": "TocBien,CapCuu",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo24",
+				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+			},
+			{
+				"name": "NgocTim23",
+				"info": "Công phép +1.4 <br>Hút máu phép +0.8%<br>Giáp phép +1.6"
+			},
+			{
+				"name": "NgocXanh28",
+				"info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo31",
+				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+			},
+			{
+				"name": "NgocTim36",
+				"info": "Công phép +2.4<br>Hút máu phép +1%"
+			},
+			{
+				"name": "NgocXanh310",
+				"info": "Tốc đánh +0.6%<br>Xuyên giáp phép +6.4"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đường giữa",
+			"info": "PhuongHoangLe,GiayPhuThuy,TruongBang,VuongMiengHecate,TruongHonMang,TruongBungNo"
+		},
+		{
+			"name": "Đường giữa",
+			"info": "NgocDaiPhapSu,GiayKienCuong,KhienHuyenThoai,DayChuyenLucBao,TruongBang,GiapHoMenh"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "NgocDaiPhapSu,GiayThuatSi,VuongMiengHecate,TruongBang,QuyenTruongRhea,SachThanh"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng đội",
+			"desc": "phù hợp khi chơi cùng",
+			"info": [{
+					"hero_id": "fennik",
+					"id_page": "Fennik"
+				},
+				{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "nakroth",
+					"id_page": "Nakroth"
+				},
+				{
+					"hero_id": "gildur",
+					"id_page": "Gildur"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp",
+			"info": [{
+					"hero_id": "krixi",
+					"id_page": "Krixi"
+				},
+				{
+					"hero_id": "butterfly",
+					"id_page": "Butterfly"
+				},
+				{
+					"hero_id": "nakroth",
+					"id_page": "Nakroth"
+				}
+			]
+		}
+	],
+	"hero_story": "\"Tột cùng của dối trá là gì ngoài sự thật?\"<br>Nhiều người có thể đã quên lãng, nhưng <i class=\"clr-orange\">Aleister</i> đã từng là một trong những ứng viên sáng giá của Cung điện ánh sáng. Đã từng có thời hắn cùng Yorn là cặp đôi xuất sắc, tài năng nhất của cả thế hệ trẻ Cung điện. Ấy thế mà <i class=\"clr-orange\">Aleister</i>, dẫu thông minh nhưng lại thiếu lòng tin, đã rơi vào sự mê hoặc của Veera rồi sa vào con đường bóng tối.<br><i class=\"clr-orange\">Aleister</i> quả thật đã không phụ lòng tin của mọi người về tài năng của hắn, điểm khác biệt duy nhất là giờ đây lập trường của hắn đã thay đổi hoàn toàn. Bằng thiên phú kinh người, <i class=\"clr-orange\">Aleister</i> đã liên tục giúp lực lượng Sa đoạ giành được hết chiến thắng này đến chiến thắng khác trước quân phản kháng.<br>Vì nghĩa quên thân, Valhein dẫn đầu một lực lượng đặc nhiệm quyết ám sát gã phản đồ. Nhưng nào hay tất cả đã nằm trong dự tính của <i class=\"clr-orange\">Aleister</i>, hắn lặng lẽ thiết lập cạm bẫy rồi bất thình lình phản công khiến Valhein suýt nữa đã phải hi sinh.<br>\"Muốn đấu trí với ta? Các ngươi đủ sức sao?\"",
+	"hero_skin": [{
+			"name": "Ác Thần Xảo Quyệt",
+			"gold": "13,888",
+			"voucher": "359",
+			"event": "",
+			"wall": "Aleister01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": ""
+		},
+		{
+			"name": "Thiếu Niên Hắc Ám",
+			"gold": "",
+			"voucher": "",
+			"event": "Mở sự kiện",
+			"wall": "Aleister02",
+			"disable": "",
+			"img": "thumb2.jpg",
+			"video": ""
+		},
+		{
+			"name": "Quang Vinh",
+			"gold": "",
+			"voucher": "",
+			"event": "S5 Thưởng hạng",
+			"wall": "Aleister03",
+			"disable": "",
+			"img": "thumb3.jpg",
+			"video": ""
+		}
+	]
+}

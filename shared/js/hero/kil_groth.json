@@ -1,0 +1,157 @@
+{
+	"hero_id": "KilGroth",
+	"hero_name": "Kil'Groth",
+	"main_info": {
+		"price_gold": "13,888",
+		"price_voucher": "359",
+		"price_text": "",
+		"position": "Đấu sĩ",
+		"special": "Tiền đạo",
+		"lane": "Đường Caesar / Đi rừng"
+	},
+	"main_skill": [{
+			"name": "Áp suất biển sâu",
+			"info": "Nội tại: mỗi đòn đánh thường giúp tăng 6-10% tốc đánh (tăng theo cấp tướng), tối đa cộng dồn 5 lần, đặc biệt các đòn thứ ba có phạm vi công kích rộng hơn."
+		},
+		{
+			"name": "Sóng tử vong",
+			"info": "ST Gốc: 100/125/150/175/200/225<br>H.Chiêu: 13.5/13/12.5/12/11.5/11<br>Giảm tốc chạy: 25%/30%/35%/40%/45%/50%<br>N.Lượng: 50<br>Kil'Groth lướt tới trước đâm mâu vào kẻ địch, gây 100 (+109) STVL, kèm hiệu ứng làm giảm 25% tốc chạy trong 1.5s, đâm trúng tướng giúp giảm 4s hồi chiêu."
+		},
+		{
+			"name": "Mâu thần lực",
+			"info": "ST Gốc: 60/100/140/180/220/260<br>Máu hồi: 45/56/67/78/89/100<br>ST thêm: 50/80/110/140/170/200<br>Nội tại: mỗi đòn đánh thứ ba gây thêm 60 (+0.3 công vật lý) STP.<br>Kích hoạt: Kil'Groth cường hóa vũ khí trong 4s, khiến các đòn đánh thường gây thêm 50（+0.25 công vật lý) STP theo nội tại của chiêu, mỗi đòn đánh trúng một mục tiêu giúp hồi 45 (+0.2 công vật lý) máu, khi đánh trúng tướng địch, giá trị hồi máu được tăng 150%."
+		},
+		{
+			"name": "Ác mộng biển khơi",
+			"info": "H.Chiêu: 35/30/25<br>Kil’Groth kích phát bản năng chiến đấu khiến hắn lập tức nhận 5 điểm cộng dồn nội tại Áp suất biển sâu, loại bỏ mọi trạng thái khống chế, đồng thời được tăng 80% tốc chạy giảm dần, chưa hết trong 4s kế tiếp, hắn được miễn nhiễm hoàn toàn khỏi mọi trạng thái khống chế, mỗi lần Kil’Groth tấn công tướng địch bằng đòn đánh thường hiệu ứng này sẽ kéo dài 0.3s, tối đa là 3s."
+		}
+	],
+	"skill_up": {
+		"line1": "1,3,6,9,11,14",
+		"line2": "2,5,7,10,13,15",
+		"line3": "4,8,12"
+	},
+	"skill_combo": [{
+			"name": "*Combo đầu game",
+			"info": "3,2,0"
+		},
+		{
+			"name": "*Combo khi có đủ 3 kỹ năng",
+			"info": "3,2,4,0"
+		}
+	],
+	"skill_note": "*Là một cổ máy phá trụ, có thể sánh ngang sức phá trụ của 2 xạ thủ bắn cùng lúc, vì thế hãy tận dụng lợi thế này.",
+	"skill_special": "TrungTri,BocPha",
+	"main_rune": {
+		"rune2": [{
+				"name": "NgocDo21",
+				"info": "Tốc đánh +1.2%"
+			},
+			{
+				"name": "NgocTim27",
+				"info": "Tốc đánh +0.4%<br>Tỷ lệ chí mạng +0.3%<br>Tốc chạy +0.5%"
+			},
+			{
+				"name": "NgocXanh23",
+				"info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
+			}
+		],
+		"rune3": [{
+				"name": "NgocDo38",
+				"info": "Tốc đánh +1.6%<br>Tỷ lệ chí mạng +0.5%"
+			},
+			{
+				"name": "NgocTim31",
+				"info": "Công vật lý +1.6<br>Tốc chạy +1%"
+			},
+			{
+				"name": "NgocXanh31",
+				"info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+			}
+		]
+	},
+	"item_build": [{
+			"name": "Đi rừng hoặc đường trên dưới",
+			"info": "CungBaoTo,GiayHoVe,KiemFafnir,AoChoangBangGia,KiemMuramasa,HuanChuongTroy"
+		},
+		{
+			"name": "Đi rừng hoặc đường trên dưới",
+			"info": "CungBaoTo,GiayHoVe,ThuongLonginus,AoChoangBangGia,HerculeThinhNo,RiuHyoga"
+		},
+		{
+			"name": "Game thủ hay lên",
+			"info": "KiemTruyHon,GiayHoVe,KiemFafnir,KhienThatTruyen,RiuHyoga,GiapHoMenh"
+		}
+	],
+	"hero_battle": [{
+			"name": "và đồng đội",
+			"desc": "thích hợp khi chơi cùng",
+			"info": [{
+					"hero_id": "ryoma",
+					"id_page": "Ryoma"
+				},
+				{
+					"hero_id": "aleister",
+					"id_page": "Aleister"
+				}
+			]
+		},
+		{
+			"name": "và cách khắc chế",
+			"desc": "thấy khó chịu khi gặp",
+			"info": [{
+					"hero_id": "raz",
+					"id_page": "Raz"
+				},
+				{
+					"hero_id": "violet",
+					"id_page": "Violet"
+				},
+				{
+					"hero_id": "dieu_thuyen",
+					"id_page": "DieuThuyen"
+				},
+				{
+					"hero_id": "alice",
+					"id_page": "Alice"
+				},
+				{
+					"hero_id": "joker",
+					"id_page": "Joker"
+				}
+			]
+		}
+	],
+	"hero_story": "<i class=\"clr-orange\">Kil'Groth</i> là kẻ thống trị của biển khơi, nơi có một và chỉ một luật lệ duy nhất: mạnh được yếu thua. Nhưng <i class=\"clr-orange\">Kil'Groth</i> không muốn tất cả chỉ dừng lại ở đó, hắn mặc kệ sự cân bằng của thứ tự chuỗi thức ăn. Tất cả những gì hắn quan tâm là cách tiêm nhiễm sự điên loạn, cuồng bạo muốn hủy diệt tất cả mọi thứ vào mọi sinh vật biển khơi. Còn chúng muốn hủy diệt thứ gì thì hắn chẳng quan tâm.<br>Dưới ách thống trị của hắn, vô số cuộc chiến nổ ra một cách đầy hỗn loại tại mọi ngóc ngách của biển khơi. Màu xanh của biển ngày càng nhuộm sắc đỏ thẫm của máu từ vô vàn sinh vật biển. Thậm chí ngay cả những loài ẩn núp tận đáy biển sâu cũng không thể kìm chế nỗi sự khát máu đang trỗi dậy ngày một mạnh mẽ hơn trong chúng. Và tất cả sự hỗn loạn đầy cuồng bạo này đã khiến thế lực ma quỷ trên đất liền bắt đầu lưu tâm đến.<br>Taara, một trong các chỉ huy của lực lượng Sa đọa, xuất hiện cùng chiếc búa khổng lồ trứ danh của cô. Bằng ma pháp băng giá với sức mạnh khôn cùng, Taara đã khiến cả mặt biển phải đóng băng, làm giảm mạnh sức chiến đấu của <i class=\"clr-orange\">Kil'Groth</i> cùng vô số sinh vật biển khác. Dẫu tình thế bất lợi, lòng tự trọng của <i class=\"clr-orange\">Kil'Groth</i> không cho phép hắn tháo chạy. Bằng dòng máu sôi sục trong huyết quản, <i class=\"clr-orange\">Kil'Groth</i> loại bỏ ma pháp băng giá đang khống chế bản thân, hắn cầm lấy vũ khí của mình quyết lao lên trước chiến đấu đến hơi thở cuối cùng.<br>Sự phản kháng của <i class=\"clr-orange\">Kil'Groth</i> không hề vô ích, nhưng trước vô vàn ác quỷ không ngừng lao đến tấn công hắn dưới lệnh của Taara, cũng phải đến lúc <i class=\"clr-orange\">Kil'Groth</i> kiệt sức tới mức chẳng thể vung nổi vũ khí của mình lên lần nữa. May thay Cresht cùng viện quân đã đến kịp thời để cứu lấy <i class=\"clr-orange\">Kil'Groth</i> đang hấp hối, giúp hắn thoát khỏi số phận mất xác chốn chiến trường.<br>Sau khi phục hồi, <i class=\"clr-orange\">Kil'Groth</i> đã trở thành đồng minh của Rừng chạng vạng để thể hiện sự tri ân, và cũng nhằm chờ đến ngày báo thù bè lũ Sa đọa.<br>Có hai điều về <i class=\"clr-orange\">Kil'Groth</i> ai cũng cần biết: hắn không nghe chỉ huy của bất kỳ ai, và bất kỳ kẻ Sa đọa nào xuất hiện trước mặt hắn đều phải chịu chung một số phận.",
+	"hero_skin": [{
+			"name": "Đồ Tể Đại Dương",
+			"gold": "13,888",
+			"voucher": "359",
+			"event": "",
+			"wall": "KilGroth01",
+			"disable": "",
+			"img": "thumb1.jpg",
+			"video": ""
+		},
+		{
+			"name": "Cảnh Vệ Biển",
+			"gold": "",
+			"voucher": "219",
+			"event": "",
+			"wall": "KilGroth02",
+			"disable": "",
+			"img": "thumb2.jpg",
+			"video": ""
+		},
+		{
+			"name": "Quang Vinh (S8)",
+			"gold": "",
+			"voucher": "",
+			"event": "Thưởng hạng",
+			"wall": "KilGroth03",
+			"disable": "",
+			"img": "thumb3.jpg",
+			"video": ""
+		}
+	]
+}
