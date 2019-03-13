@@ -67,20 +67,19 @@ $('document').ready(function(){
   /* Add hero */
   $(this).on("click",".hero-tap",function(){
     var data_hero = $(this).attr('data-page');
+    $('#hero-page').remove();
+    body.append('<div data-role="page" id="hero-page"><div data-role="header" data-position="fixed" data-fullscreen="true"><a href="#main" class="ui-btn-left">Back</a><h1 class="'+$(this).parent().attr('class')+'"></h1><a href="#news-panel" class="ui-btn-right">News</a></div><div class="lvg_holder"><div data-role="tabs" id="hero-tabs" class="tabs-fixed"><div data-role="navbar"><ul><li><a href="#hero-tab01">Guide</a></li><li><a href="#hero-tab02">Tips</a></li><li><a href="#hero-tab03">Info</a></li><li><a href="#hero-tab04">Skins</a></li></ul></div><div id="hero-tab01"></div><div id="hero-tab02"></div><div id="hero-tab03"></div><div id="hero-tab04"></div></div></div></div>');
+    $('#hero-page').trigger('create');
     $.ajax({
-        cache: false,
-        type: "GET",
-        url: 'http://lvgames.net/cnlq_app/champs/'+data_hero+'.json',
-        async: true,
-        success : function(val) {
-          console.log(val.hero_id)
-        }
+      cache: false,
+      type: "GET",
+      url: 'http://lvgames.net/cnlq_app/champs/'+data_hero+'.json',
+      async: true,
+      success : function(val) {
+        add_hero_page(val);
+      }
     });
-    // $('#hero-page').remove();
-    // body.append('<div data-role="page" id="hero-page"><div data-role="header" data-position="fixed" data-fullscreen="true"><a href="#main" class="ui-btn-left">Back</a><h1 class="'+$(this).parent().attr('class')+'"></h1><a href="#news-panel" class="ui-btn-right">News</a></div><div class="lvg_holder"><div data-role="tabs" id="hero-tabs" class="tabs-fixed"><div data-role="navbar"><ul><li><a href="#hero-tab01">Guide</a></li><li><a href="#hero-tab02">Tips</a></li><li><a href="#hero-tab03">Info</a></li><li><a href="#hero-tab04">Skins</a></li></ul></div><div id="hero-tab01"></div><div id="hero-tab02"></div><div id="hero-tab03"></div><div id="hero-tab04"></div></div></div></div>');
-    // $('#hero-page').trigger('create');
-    // add_hero_page(data_hero);
-    // $.mobile.changePage('#hero-page', { allowSamePageTransition: true, transition: "none" });
+    $.mobile.changePage('#hero-page', { allowSamePageTransition: true, transition: "none" });
   });
 
   $(this).on("click","a[href*='#hero-tab0']",function(){
@@ -94,11 +93,10 @@ $('document').ready(function(){
   function add_hero_page(idhero){
     // var hero_list = infoHeros;
     // var hero = hero_list[idhero];
-    var hero = hero_info_file;
+    var hero = idhero;
     var hero_id = hero.hero_id;
     var hero_name = hero.hero_name;
     var hero_info = hero.main_info;
-    var hero_skill = hero.main_skill;
     var hero_page = $('#hero-page');
 
     var hero_tab01 = hero_page.find('#hero-tab01');
@@ -109,7 +107,6 @@ $('document').ready(function(){
     hero_page.find('h1').text(hero_name);
 
     $('.lvg_main_img').css({'background-image':'url(shared/img/champs/'+ hero.hero_id +'/thumb1.jpg)'});
-    console.log($('.lvg_main_img').text())
 
     /* Common info */
     hero_tab03.append('<h3>' + lang_vn['info_common'] + '</h3>');
@@ -128,12 +125,22 @@ $('document').ready(function(){
     });
 
     /* Skill detail */
-    hero_tab03.append(hr_line);
-    hero_tab03.append('<h3>' + lang_vn['hero_skill'] + '</h3><p class="note">' + lang_vn['btn_tap'] + '</p><div class="ui-grid-c lvg_skills detail"></div>');
-    for(i=0; i<4; i++){
-      hero_tab03.find('.lvg_skills.detail').append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#' + hero_id + '_Skill' + (i+1) + '" class="ui-btn skill btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path +'champs/' + hero_id + '/skill' + (i+1) + '.png)"></a><div data-role="popup" id="' + hero_id + '_Skill' + (i+1) + '" class="ui-content" data-theme="a">' + popup_close + '<strong>' + hero_skill[i].name + '</strong><p>' + hero_skill[i].info + '</p></div></div>');
+    var hero_skill = hero.main_skill;
+    var skills_old_hero = '';
+    if($('.skills-wrap').attr('data-hero') != null) {
+      skills_old_hero = $('.skills-wrap').attr('data-hero');
+      $('.skills-wrap').attr('data-hero', hero_id);
     }
-    hero_tab03.find('.lvg_skills.detail').append('<div data-role="popup" id="' + hero_id + '_Skill0" class="ui-content" data-theme="a">' + popup_close + '<strong>' + lang_vn['normal_skill'] + '</strong><p>' + lang_vn['normal_skill_info'] + '</p></div>');
+    $('[id*="'+skills_old_hero+'_Skill"][class*="ui-popup"]').remove();
+    $('.skills-wrap').children().remove();
+    hero_tab03.append(hr_line);
+    hero_tab03.append('<h3>' + lang_vn['hero_skill'] + '</h3><p class="note">' + lang_vn['btn_tap'] + '</p><div class="lvg_skills detail"></div>');
+    $('.skills-wrap').append('<div id="' + hero_id + '_Skill0" class="item ui-content" data-theme="a">' + popup_close + '<strong>' + lang_vn['normal_skill'] + '</strong><p>' + lang_vn['normal_skill_info'] + '</p></div>');
+    for(i=0; i<4; i++){
+      hero_tab03.find('.lvg_skills.detail').append('<div><a href="#' + hero_id + '_Skill' + (i+1) + '" class="ui-btn skill btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path +'champs/' + hero_id + '/skill' + (i+1) + '.png)"></a></div>');
+      $('.skills-wrap').append('<div id="' + hero_id + '_Skill' + (i+1) + '" class="item ui-content" data-theme="a">' + popup_close + '<strong>' + hero_skill[i].name + '</strong><p>' + hero_skill[i].info + '</p></div>');
+    }
+    $('.popup-wrap.skills-wrap > .item').enhanceWithin().popup();
 
     /* Skill up */
     var skillUp = hero.skill_up;
@@ -190,15 +197,15 @@ $('document').ready(function(){
     hero_tab01.append(hr_line);
 
     /* Runes */
-    hero_tab01.append('<h3>' + lang_vn['hero_rune'] + '</h3><p>' + lang_vn['hero_rune2'] + '</p><div class="ui-grid-b lvg_runes rune2"></div><p>' + lang_vn['hero_rune3'] + '</p><div class="ui-grid-b lvg_runes rune3"></div>');
-    var mainRune = hero.main_rune;
-    for(i=0; i<mainRune.rune2.length; i++){
-      hero_tab01.find('.lvg_runes.rune2').append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#" class="ui-btn rune btn-disable" style="background-image: url('+ img_path + 'runes/' + mainRune.rune2[i].name + '.png)"></a><p>' + mainRune.rune2[i].info + '</p></div>');
-    }
-    for(i=0; i<mainRune.rune3.length; i++){
-      hero_tab01.find('.lvg_runes.rune3').append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#" class="ui-btn rune btn-disable" style="background-image: url('+ img_path + 'runes/' + mainRune.rune3[i].name + '.png)"></a><p>' + mainRune.rune3[i].info + '</p></div>');
-    }
-    hero_tab01.append(hr_line);
+    // hero_tab01.append('<h3>' + lang_vn['hero_rune'] + '</h3><p>' + lang_vn['hero_rune2'] + '</p><div class="ui-grid-b lvg_runes rune2"></div><p>' + lang_vn['hero_rune3'] + '</p><div class="ui-grid-b lvg_runes rune3"></div>');
+    // var mainRune = hero.main_rune;
+    // for(i=0; i<mainRune.rune2.length; i++){
+    //   hero_tab01.find('.lvg_runes.rune2').append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#" class="ui-btn rune btn-disable" style="background-image: url('+ img_path + 'runes/' + mainRune.rune2[i].name + '.png)"></a><p>' + mainRune.rune2[i].info + '</p></div>');
+    // }
+    // for(i=0; i<mainRune.rune3.length; i++){
+    //   hero_tab01.find('.lvg_runes.rune3').append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#" class="ui-btn rune btn-disable" style="background-image: url('+ img_path + 'runes/' + mainRune.rune3[i].name + '.png)"></a><p>' + mainRune.rune3[i].info + '</p></div>');
+    // }
+    // hero_tab01.append(hr_line);
 
     /* Items */
     hero_tab01.append('<h3>' + lang_vn['item_title'] + '</h3><p class="note">' + lang_vn['btn_tap_item'] + '</p>');
@@ -218,10 +225,11 @@ $('document').ready(function(){
     for(i=0; i<heroBattle.length; i++){
       var txtHero = '';
       var heroBattleInfo = heroBattle[i].info;
+      hero_tab02.append('<h3>' + heroBattle[i].name + '</h3>');
       for(j=0; j<heroBattleInfo.length; j++){
-        txtHero += '<div><a href="#hero-page" class="hero-tap btn_show_ads" data-page="' + heroBattleInfo[j].hero_id + '" style="background-image: url('+ img_path + 'champs/' + heroBattleInfo[j].id_page +'/avat1.jpg)"><span>' + hero_list[heroBattleInfo[j].hero_id].hero_name + '</span></a></div>';
+        txtHero += '<div><div class="lvg_champs"><div>'+get_name_hero(heroBattleInfo[j].hero_id)+'</div></div><p>'+heroBattleInfo[j].info+'</p></div>';
       }
-      hero_tab02.append('<h3>' + hero_name + ' ' + heroBattle[i].name + '</h3><p class="note">*' + hero_name + ' ' + heroBattle[i].desc + '</p><div class="lvg_champs">' + txtHero + '</div>');
+      hero_tab02.append(txtHero);
     }
 
     /* Story */
@@ -254,6 +262,11 @@ $('document').ready(function(){
   }
 
 });
+
+function get_name_hero(id_hero){
+  var hero_name = $('#all_champs.lvg_champs .' + id_hero).html();
+  return hero_name;
+}
 
 function getRandom(num) {
   var x = Math.floor((Math.random() * num) + 1);
