@@ -91,7 +91,7 @@
 		}
 	],
 	"hero_battle": [{
-			"name": "Valhein và đồng đội",
+			"name": "Đồng đội",
 			"info": [{
 					"hero_id": "alice",
 					"info": "Thích hợp đi cùng Alice"
@@ -107,7 +107,7 @@
 			]
 		},
 		{
-			"name": "Valhein và cách khắc chế",
+			"name": "Khắc chế",
 			"info": [{
 					"hero_id": "zephys",
 					"info": "Zephys có thể khắc chế Valhein"

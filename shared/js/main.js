@@ -6,14 +6,14 @@ $('document').ready(function(){
   var lang_vn = lang_vn_file;
   var hr_line = '<hr class="hr">';
   var img_path = 'shared/img/';
-  var champs_free_str = 'valhein,alice,krixi,ngo_khong,nakroth,murad';
+  var champs_free_str = 'valhein,airi';
 
   /* Hero loading */
   var hero_build = all_hero_file;
   var countHero = hero_build.length;
   var main_page = $('#main');
   for(i=countHero-1; i>=0; i--){
-    main_page.find('.lvg_champs').append('<div data-filtertext="' + hero_build[i].id + ' ' + hero_build[i].id_page + ' ' + hero_build[i].name + '" class="ui-screen-hidden ' + hero_build[i].id + ' ' + hero_build[i].position + '"><a href="#hero-page" class="ui-btn hero-tap btn_show_ads" data-page="' + hero_build[i].id + '" style="background-image: url(' + img_path + 'champs/' + hero_build[i].id_page + '/avat1.jpg);"><span>' + hero_build[i].name + '</span></a></div>');
+    main_page.find('.lvg_champs').append('<div data-filtertext="' + hero_build[i].id + ' ' + hero_build[i].id_page + ' ' + hero_build[i].name + '" class="ui-screen-hidden ' + hero_build[i].id + ' ' + hero_build[i].position + '"><a href="#hero-page" class="ui-btn hero-tap btn_show_ads" data-page="' + hero_build[i].id + '" style="background-image: url(' + img_path + 'champs/' + hero_build[i].id_page + '/thumb1.jpg);"><span>' + hero_build[i].name + '</span></a></div>');
   }
 
   /* Items loading */
@@ -106,7 +106,7 @@ $('document').ready(function(){
 
     hero_page.find('h1').text(hero_name);
 
-    $('.lvg_main_img').css({'background-image':'url(shared/img/champs/'+ hero.hero_id +'/thumb1.jpg)'});
+    $('.lvg_main_img').css({'background-image':'url(shared/img/champs/'+ hero.hero_id +'/screen.jpg)'});
 
     /* Common info */
     hero_tab03.append('<h3>' + lang_vn['info_common'] + '</h3>');
@@ -143,8 +143,11 @@ $('document').ready(function(){
     $('.popup-wrap.skills-wrap > .item').enhanceWithin().popup();
 
     /* Skill up */
-    var skillUp = hero.skill_up;
-    hero_tab02.append('<h3>' + lang_vn['skill_up'] + '</h3><div class="lvg_incskill"><div>' + skillUp.line1 + '</div><div>' + skillUp.line2 + '</div><div>' + skillUp.line3 + '</div></div>');
+    var hero_skill_up = hero.skill_up;
+    hero_tab02.append('<h3>' + lang_vn['skill_up'] + '</h3>');
+    for(i=0;i<hero_skill_up.length;i++){
+      hero_tab02.append('<p class="note">'+hero_skill_up[i].name+'</p><div class="lvg_incskill"><div>' + hero_skill_up[i].line1 + '</div><div>' + hero_skill_up[i].line2 + '</div><div>' + hero_skill_up[i].line3 + '</div></div>');
+    }
     var lvgIncSkill = hero_tab02.find('.lvg_incskill');
     lvgIncSkill.children('div').each(function(){
       var txtSkill = $(this).text();
@@ -187,35 +190,37 @@ $('document').ready(function(){
     hero_tab02.append('<p class="note">' + skillNote + '</p>');
     hero_tab02.append(hr_line);
     var skillSpecial = hero.skill_special;
-    hero_tab01.append('<h3>' + lang_vn['hero_special_skill'] + '</h3><p>' + lang_vn['hero_special_skill_info'] + '</p><p class="note">' + lang_vn['btn_tap_spell'] + '</p><div class="ui-grid-c lvg_skills_sp">' + skillSpecial + '</div>');
+    hero_tab01.append('<h3>' + lang_vn['hero_special_skill'] + '</h3><p>' + lang_vn['hero_special_skill_info'] + '</p><p class="note">' + lang_vn['btn_tap_spell'] + '</p><div class="lvg_skills_sp">' + skillSpecial + '</div>');
     var lvgSkillSp = hero_tab01.find('.lvg_skills_sp');
     var splSkillSp = lvgSkillSp.text().split(',');
     lvgSkillSp.text('');
     for(i=0; i<splSkillSp.length; i++){
-      lvgSkillSp.append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#' + splSkillSp[i] + '" class="ui-btn skill btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path + 'skills/' + splSkillSp[i] + '.png)"></a></div>');
+      lvgSkillSp.append('<div><a href="#' + splSkillSp[i] + '" class="ui-btn skill btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path + 'skills/' + splSkillSp[i] + '.png)"></a></div>');
     }
     hero_tab01.append(hr_line);
 
     /* Runes */
-    // hero_tab01.append('<h3>' + lang_vn['hero_rune'] + '</h3><p>' + lang_vn['hero_rune2'] + '</p><div class="ui-grid-b lvg_runes rune2"></div><p>' + lang_vn['hero_rune3'] + '</p><div class="ui-grid-b lvg_runes rune3"></div>');
-    // var mainRune = hero.main_rune;
-    // for(i=0; i<mainRune.rune2.length; i++){
-    //   hero_tab01.find('.lvg_runes.rune2').append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#" class="ui-btn rune btn-disable" style="background-image: url('+ img_path + 'runes/' + mainRune.rune2[i].name + '.png)"></a><p>' + mainRune.rune2[i].info + '</p></div>');
-    // }
-    // for(i=0; i<mainRune.rune3.length; i++){
-    //   hero_tab01.find('.lvg_runes.rune3').append('<div class="ui-block-' + getBlockChar(i+1) + '"><a href="#" class="ui-btn rune btn-disable" style="background-image: url('+ img_path + 'runes/' + mainRune.rune3[i].name + '.png)"></a><p>' + mainRune.rune3[i].info + '</p></div>');
-    // }
-    // hero_tab01.append(hr_line);
+    var hero_rune_up = hero.main_rune;
+    hero_tab01.append('<h3>' + lang_vn['hero_rune'] + '</h3>');
+    for(i=0;i<hero_rune_up.length;i++){
+      var rune_inner = hero_rune_up[i].info;
+      var rune_str = '';
+      for(j=0;j<rune_inner.length;j++){
+        rune_str += '<div><span class="rune" style="background-image: url('+ img_path + 'runes/' + rune_inner[j].name + '.png)"></span><p>' + rune_inner[j].info + '</p></div>'
+      }
+      hero_tab01.append('<p>' + hero_rune_up[i].name+ '</p><div class="lvg_runes">'+rune_str+'</div>');
+    }
+    hero_tab01.append(hr_line);
 
     /* Items */
     hero_tab01.append('<h3>' + lang_vn['item_title'] + '</h3><p class="note">' + lang_vn['btn_tap_item'] + '</p>');
     var itemBuild = hero.item_build;
     for(i=0; i<itemBuild.length; i++){
-      hero_tab01.append('<p>' + (i+1) + '. ' + lang_vn['full_set'] + ': ' + itemBuild[i].name + '</p><div class="ui-grid-b lvg_items build' + i + '"></div>');
+      hero_tab01.append('<p>' + (i+1) + '. ' + lang_vn['full_set'] + ': ' + itemBuild[i].name + '</p><div class="lvg_items build' + i + '"></div>');
       var splItems = itemBuild[i].info.split(',');
       var iup = 1;
       for(j=0; j<splItems.length; j++){
-        hero_tab01.find('.lvg_items.build' + i).append('<div class="ui-block-' + getBlockChar(iup) + '"><a href="#' + splItems[j] + '" class="ui-btn item btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path + 'items/' + splItems[j] + '.png)"></a></div>');
+        hero_tab01.find('.lvg_items.build' + i).append('<div><a href="#' + splItems[j] + '" class="ui-btn item btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path + 'items/' + splItems[j] + '.png)"></a></div>');
         iup = checkGridB(iup);
       }
     }
@@ -294,18 +299,6 @@ function checkShow(val,success,fail){
       return fail();
     }
   }
-}
-
-function getBlockChar(number){
-  var char;
-  switch(number){
-    case 1: char = 'a'; break;
-    case 2: char = 'b'; break;
-    case 3: char = 'c'; break;
-    case 4: char = 'd'; break;
-    default: break;
-  }
-  return char;
 }
 
 function change_vn_text(alias) {
