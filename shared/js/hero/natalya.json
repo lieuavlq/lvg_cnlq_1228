@@ -1,177 +1,179 @@
 {
-	"hero_id": "Natalya",
-	"hero_name": "Natalya",
-	"main_info": {
-		"price_gold": "13,888",
-		"price_voucher": "359",
-		"price_text": "",
-		"position": "Pháp sư",
-		"special": "Cấu rỉa",
-		"lane": "Đường giữa"
-	},
-	"main_skill": [{
-			"name": "Âm hỏa",
-			"info": "Nội tại: chiêu thức trúng đích gây thêm sát thương lên kẻ địch, có thể cộng dồn tối đa 10 lần trong thời gian ngắn."
-		},
-		{
-			"name": "Ác quỷ tụ hội",
-			"info": "ST Gốc: 350/390/430/470/510/550<br>Natalya triệu hồi 5 bóng ma tấn công nơi chỉ định, mỗi bóng ma gây 350 (+0) STP, những bóng ma bồi thêm vào cùng mục tiêu sẽ chỉ gây 30% sát thương, sau khi trúng tướng địch các bóng ma sẽ biến mất ngay sau đó và hồi cho Natalya 10 năng lượng cùng 0.6s hồi chiêu."
-		},
-		{
-			"name": "Quả cầu hắc ám",
-			"info": "ST Gốc: 130/145/160/175/190/205<br>H.Chiêu: 10/9.6/9.2/8.8/8.4/8<br>Natalya tung ra một quả cầu năng lượng, sau khi bay hết tầm tối đa hoặc trúng đích sẽ bùng nổ gây choáng, rồi tiếp tục lơ lửng thêm thoáng chốc khiến các nạn nhân trong vùng ảnh hưởng chịu 130 (+0) STP và bị làm chậm 50 tốc chạy trong 1.5s."
-		},
-		{
-			"name": "Tia sáng tử vong",
-			"info": "ST Gốc: 120/150/180<br>H.Chiêu: 30/26/22<br>Lắ chắn: 500/750/1000<br>Natalya ngay lập tức giải trừ hiệu ứng khống chế và tập trung năng lượng phóng ra một luồng năng lượng chết chóc gây 120 (+0) STP mỗi 0.25s, đồng thời nhận được một lớp lá chắn giúp miễn dịch trạng thái khống chế, và chặn 500 (+0.75 Công phép) ST. (Ấn 1 lần nữa sau khi tung chiêu 1s để hủy chiêu)."
-		}
-	],
-	"skill_up": {
-		"line1": "1,3,5,7,10,13",
-		"line2": "2,6,9,11,14,15",
-		"line3": "4,8,12"
-	},
-	"skill_combo": [{
-			"name": "*Combo đầu game",
-			"info": "3,2,0"
-		},
-		{
-			"name": "*Combo khi có đủ 3 kỹ năng",
-			"info": "3,2,4,0"
-		}
-	],
-	"skill_note": "*Tận dụng tốt vị trí để xóa sổ địch nhanh nhất có thể với 1 combo.",
-	"skill_special": "TocBien,CapCuu",
-	"main_rune": {
-		"rune2": [{
-				"name": "NgocDo24",
-				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
-			},
-			{
-				"name": "NgocTim23",
-				"info": "Công phép +1.4 <br>Hút máu phép +0.8%<br>Giáp phép +1.6"
-			},
-			{
-				"name": "NgocXanh28",
-				"info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
-			}
-		],
-		"rune3": [{
-				"name": "NgocDo32",
-				"info": "Công phép +5.3"
-			},
-			{
-				"name": "NgocTim36",
-				"info": "Công phép +2.4<br>Hút máu phép +1%"
-			},
-			{
-				"name": "NgocXanh33",
-				"info": "Công phép +2.4<br>Giảm hồi chiêu +0.7%"
-			}
-		]
-	},
-	"item_build": [{
-			"name": "Đường giữa",
-			"info": "PhuongHoangLe,GiayPhuThuy,TruongBang,VuongMiengHecate,MatNaBerith,TruongHonMang"
-		},
-		{
-			"name": "Đường giữa",
-			"info": "NgocDaiPhapSu,GiayPhuThuy,VuongMiengHecate,TruongBungNo,TruongHonMang,SachThanh"
-		},
-		{
-			"name": "Game thủ hay lên",
-			"info": "NgocDaiPhapSu,GiayThuatSi,VuongMiengHecate,TruongBang,QuyenTruongRhea,SachThanh"
-		}
-	],
-	"hero_battle": [{
-			"name": "và đồng đội",
-			"desc": "phù hợp khi chơi cùng",
-			"info": [{
-					"hero_id": "violet",
-					"id_page": "Violet"
-				},
-				{
-					"hero_id": "nakroth",
-					"id_page": "Nakroth"
-				},
-				{
-					"hero_id": "maloch",
-					"id_page": "Maloch"
-				},
-				{
-					"hero_id": "ormarr",
-					"id_page": "Ormarr"
-				}
-			]
-		},
-		{
-			"name": "và cách khắc chế",
-			"desc": "thấy khó chịu khi gặp",
-			"info": [{
-					"hero_id": "krixi",
-					"id_page": "Krixi"
-				},
-				{
-					"hero_id": "butterfly",
-					"id_page": "Butterfly"
-				},
-				{
-					"hero_id": "nakroth",
-					"id_page": "Nakroth"
-				}
-			]
-		}
-	],
-	"hero_story": "Trước thảm họa bè lũ ác quỷ xâm lăng thế giới, một nhóm quang minh chiến sĩ đã tự nguyện hy sinh bản thân, họ sẵn sàng gánh chịu thứ nguyền rủa ma thuật tà ác để trở thành những hộ vệ bất tử của thánh điện. Dẫu thành công ngăn chặn cuộc xâm lược, nhưng họ buộc phải lùi vào bóng tối vì thứ nguyền rủa đang mang trên mình, và <i class=\"clr-orange\">Natalya</i> chính là hậu duệ của những chiến sĩ này.<br>Kẻ bị nguyền rủa không thể chết cho đến khi truyền lại nó cho dòng dõi của họ, và đó là cách <i class=\"clr-orange\">Natalya</i> trở thành kẻ bị nguyền rủa. Đôi khi sẽ có những kẻ không thể khống chế thứ năng lượng tà ác bên trong, khiến họ trở nên điên loạn và nuốt chửng các đồng loại của mình. Càng cắn nuốt lẫn nhau, họ lại càng trở nên hùng mạnh. Trước mối hiểm họa bị xâm lược, thánh điện đã quyết định duy trì, và thậm chí nuôi dưỡng những chiến sĩ bị nguyền rủa này.<br><i class=\"clr-orange\">Natalya</i> là một trong những chiến sĩ nổi bật nhất, đến mức thánh điện đã chuẩn bị sẵn cả một bữa tiệc để chúc mừng lễ trưởng thành của cô. Nhưng họ nào ngờ rằng <i class=\"clr-orange\">Natalya</i> đã chán ghét cuộc sống địa ngục không chút tự tôn này đến tận cổ. Thứ cảm xúc tội lỗi cô gánh chịu mỗi ngày khi buộc phải chứng kiến và tự tay sát hại các đồng loại của mình đã đến lúc để bùng nổ.<br>\"Tất cả tội ác, cứ để ta gánh vác!\" <i class=\"clr-orange\">Natalya</i> ngay tại lễ trưởng thành của mình đã cắn nuốt tất cả đồng loại để kết liễu cuộc sống địa ngục của họ. Chưa dừng lại ở đó, cô tiêu diệt luôn cả gã sứ giả của thánh điện để chứng minh cho chúng thấy quyết tâm của mình, bởi cô biết rõ chính chúng là cội nguồn của thứ nguyền rủa này.<br>Sau đó <i class=\"clr-orange\">Natalya</i> náu mình trong bóng tối, cô thậm chí còn tách được lời nguyền ra khỏi bản thân và ký kết hiệp ước với chúng bằng cách tuyên thệ thần phục hắc ám. Từ đấy về sau <i class=\"clr-orange\">Natalya</i>, với sức mạnh của lời nguyền nay là trợ thủ, trở thành một cỗ lực lượng khủng khiếp đến cùng cực!",
-	"hero_skin": [{
-			"name": "Hiểm Họa Địa Ngục",
-			"gold": "13,888",
-			"voucher": "359",
-			"event": "",
-			"wall": "Natalya01",
-			"disable": "",
-			"img": "thumb1.jpg",
-			"video": ""
-		},
-		{
-			"name": "Quý Cô Thủy Tề",
-			"gold": "",
-			"voucher": "219",
-			"event": "",
-			"wall": "Natalya02",
-			"disable": "yes",
-			"img": "thumb2.jpg",
-			"video": ""
-		},
-		{
-			"name": "Nghệ Nhân Lân (Bậc S)",
-			"gold": "",
-			"voucher": "",
-			"event": "Mở sự kiện",
-			"wall": "Natalya03",
-			"disable": "",
-			"img": "thumb3.jpg",
-			"video": ""
-		},
-		{
-			"name": "Quà Quái Quỷ (XMAS)",
-			"gold": "",
-			"voucher": "409",
-			"event": "",
-			"wall": "Natalya04",
-			"disable": "",
-			"img": "thumb4.jpg",
-			"video": ""
-		},
-		{
-			"name": "Phó Nháy Nhí Nhảnh (Bậc A)",
-			"gold": "",
-			"voucher": "309",
-			"event": "",
-			"wall": "Natalya05",
-			"disable": "yes",
-			"img": "thumb5.jpg",
-			"video": ""
-		}
-	]
+  "hero_id": "Natalya",
+  "hero_name": "Natalya",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Pháp sư",
+    "special": "Cấu rỉa",
+    "lane": "Đường giữa"
+  },
+  "main_skill": [{
+      "name": "Âm hỏa",
+      "info": "Nội tại: chiêu thức trúng đích gây thêm sát thương lên kẻ địch, có thể cộng dồn tối đa 10 lần trong thời gian ngắn."
+    },
+    {
+      "name": "Ác quỷ tụ hội",
+      "info": "ST Gốc: 350/390/430/470/510/550<br>Natalya triệu hồi 5 bóng ma tấn công nơi chỉ định, mỗi bóng ma gây 350 (+0) STP, những bóng ma bồi thêm vào cùng mục tiêu sẽ chỉ gây 30% sát thương, sau khi trúng tướng địch các bóng ma sẽ biến mất ngay sau đó và hồi cho Natalya 10 năng lượng cùng 0.6s hồi chiêu."
+    },
+    {
+      "name": "Quả cầu hắc ám",
+      "info": "ST Gốc: 130/145/160/175/190/205<br>H.Chiêu: 10/9.6/9.2/8.8/8.4/8<br>Natalya tung ra một quả cầu năng lượng, sau khi bay hết tầm tối đa hoặc trúng đích sẽ bùng nổ gây choáng, rồi tiếp tục lơ lửng thêm thoáng chốc khiến các nạn nhân trong vùng ảnh hưởng chịu 130 (+0) STP và bị làm chậm 50 tốc chạy trong 1.5s."
+    },
+    {
+      "name": "Tia sáng tử vong",
+      "info": "ST Gốc: 120/150/180<br>H.Chiêu: 30/26/22<br>Lắ chắn: 500/750/1000<br>Natalya ngay lập tức giải trừ hiệu ứng khống chế và tập trung năng lượng phóng ra một luồng năng lượng chết chóc gây 120 (+0) STP mỗi 0.25s, đồng thời nhận được một lớp lá chắn giúp miễn dịch trạng thái khống chế, và chặn 500 (+0.75 Công phép) ST. (Ấn 1 lần nữa sau khi tung chiêu 1s để hủy chiêu)."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,10,13",
+    "line2": "2,6,9,11,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "3,2,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 kỹ năng",
+      "info": "3,2,4,0"
+    }
+  ],
+  "skill_note": "*Tận dụng tốt vị trí để xóa sổ địch nhanh nhất có thể với 1 combo.",
+  "skill_special": "TocBien,CapCuu",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo24",
+        "info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+      },
+      {
+        "name": "NgocTim23",
+        "info": "Công phép +1.4 <br>Hút máu phép +0.8%<br>Giáp phép +1.6"
+      },
+      {
+        "name": "NgocXanh28",
+        "info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo32",
+        "info": "Công phép +5.3"
+      },
+      {
+        "name": "NgocTim36",
+        "info": "Công phép +2.4<br>Hút máu phép +1%"
+      },
+      {
+        "name": "NgocXanh33",
+        "info": "Công phép +2.4<br>Giảm hồi chiêu +0.7%"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường giữa",
+      "info": "PhuongHoangLe,GiayPhuThuy,TruongBang,VuongMiengHecate,MatNaBerith,TruongHonMang"
+    },
+    {
+      "name": "Đường giữa",
+      "info": "NgocDaiPhapSu,GiayPhuThuy,VuongMiengHecate,TruongBungNo,TruongHonMang,SachThanh"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "NgocDaiPhapSu,GiayThuatSi,VuongMiengHecate,TruongBang,QuyenTruongRhea,SachThanh"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "nakroth",
+          "info": "Nakroth"
+        },
+        {
+          "hero_id": "maloch",
+          "info": "Maloch"
+        },
+        {
+          "hero_id": "ormarr",
+          "info": "Ormarr"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "krixi",
+          "info": "Krixi"
+        },
+        {
+          "hero_id": "butterfly",
+          "info": "Butterfly"
+        },
+        {
+          "hero_id": "nakroth",
+          "info": "Nakroth"
+        }
+      ]
+    }
+  ],
+  "hero_story": "Trước thảm họa bè lũ ác quỷ xâm lăng thế giới, một nhóm quang minh chiến sĩ đã tự nguyện hy sinh bản thân, họ sẵn sàng gánh chịu thứ nguyền rủa ma thuật tà ác để trở thành những hộ vệ bất tử của thánh điện. Dẫu thành công ngăn chặn cuộc xâm lược, nhưng họ buộc phải lùi vào bóng tối vì thứ nguyền rủa đang mang trên mình, và <i class=\"clr-orange\">Natalya</i> chính là hậu duệ của những chiến sĩ này.<br>Kẻ bị nguyền rủa không thể chết cho đến khi truyền lại nó cho dòng dõi của họ, và đó là cách <i class=\"clr-orange\">Natalya</i> trở thành kẻ bị nguyền rủa. Đôi khi sẽ có những kẻ không thể khống chế thứ năng lượng tà ác bên trong, khiến họ trở nên điên loạn và nuốt chửng các đồng loại của mình. Càng cắn nuốt lẫn nhau, họ lại càng trở nên hùng mạnh. Trước mối hiểm họa bị xâm lược, thánh điện đã quyết định duy trì, và thậm chí nuôi dưỡng những chiến sĩ bị nguyền rủa này.<br><i class=\"clr-orange\">Natalya</i> là một trong những chiến sĩ nổi bật nhất, đến mức thánh điện đã chuẩn bị sẵn cả một bữa tiệc để chúc mừng lễ trưởng thành của cô. Nhưng họ nào ngờ rằng <i class=\"clr-orange\">Natalya</i> đã chán ghét cuộc sống địa ngục không chút tự tôn này đến tận cổ. Thứ cảm xúc tội lỗi cô gánh chịu mỗi ngày khi buộc phải chứng kiến và tự tay sát hại các đồng loại của mình đã đến lúc để bùng nổ.<br>\"Tất cả tội ác, cứ để ta gánh vác!\" <i class=\"clr-orange\">Natalya</i> ngay tại lễ trưởng thành của mình đã cắn nuốt tất cả đồng loại để kết liễu cuộc sống địa ngục của họ. Chưa dừng lại ở đó, cô tiêu diệt luôn cả gã sứ giả của thánh điện để chứng minh cho chúng thấy quyết tâm của mình, bởi cô biết rõ chính chúng là cội nguồn của thứ nguyền rủa này.<br>Sau đó <i class=\"clr-orange\">Natalya</i> náu mình trong bóng tối, cô thậm chí còn tách được lời nguyền ra khỏi bản thân và ký kết hiệp ước với chúng bằng cách tuyên thệ thần phục hắc ám. Từ đấy về sau <i class=\"clr-orange\">Natalya</i>, với sức mạnh của lời nguyền nay là trợ thủ, trở thành một cỗ lực lượng khủng khiếp đến cùng cực!",
+  "hero_skin": [{
+      "name": "Hiểm Họa Địa Ngục",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Natalya01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": ""
+    },
+    {
+      "name": "Quý Cô Thủy Tề",
+      "gold": "",
+      "voucher": "219",
+      "event": "",
+      "wall": "Natalya02",
+      "disable": "yes",
+      "img": "thumb2.jpg",
+      "video": ""
+    },
+    {
+      "name": "Nghệ Nhân Lân (Bậc S)",
+      "gold": "",
+      "voucher": "",
+      "event": "Mở sự kiện",
+      "wall": "Natalya03",
+      "disable": "",
+      "img": "thumb3.jpg",
+      "video": ""
+    },
+    {
+      "name": "Quà Quái Quỷ (XMAS)",
+      "gold": "",
+      "voucher": "409",
+      "event": "",
+      "wall": "Natalya04",
+      "disable": "",
+      "img": "thumb4.jpg",
+      "video": ""
+    },
+    {
+      "name": "Phó Nháy Nhí Nhảnh (Bậc A)",
+      "gold": "",
+      "voucher": "309",
+      "event": "",
+      "wall": "Natalya05",
+      "disable": "yes",
+      "img": "thumb5.jpg",
+      "video": ""
+    }
+  ]
 }

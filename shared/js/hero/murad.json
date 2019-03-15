@@ -1,191 +1,193 @@
 {
-	"hero_id": "Murad",
-	"hero_name": "Murad",
-	"main_info": {
-		"price_gold": "18,888",
-		"price_voucher": "539",
-		"price_text": "",
-		"position": "Sát thủ / Đấu sĩ",
-		"special": "Tiền đạo / Trung phong",
-		"lane": "Đi rừng"
-	},
-	"main_skill": [{
-			"name": "Ảnh hồn",
-			"info": "Nội tại: đòn đánh thứ 4 liên tục trong vòng 3s giúp Murad tăng 5% công vật lý (không hữu hiệu với Trụ), đồng thời tạm phá phong ấn của Ảo ảnh trảm."
-		},
-		{
-			"name": "Tàn ảnh đao",
-			"info": "ST Gốc: 120/144/168/192/216/240<br>H.Chiêu: 12/10.6/9.2/7.8/6.4/5<br>Murad lướt đi gây 120 (+169) STVL và làm choáng những kẻ địch trúng chiêu, chiếu thức có thể tung ra 3 lần, đặc biệt ở lần thứ 3 Murad sẽ quay trở về vị trí ban đầu của bản thân."
-		},
-		{
-			"name": "Vô ảnh cực",
-			"info": "ST Gốc: 110/142/174/206/238/270<br>H.Chiêu: 12/11.6/11.2/10.8/10.4/10<br>Giáp giảm: 100/175/250/325/400/475<br>Murad tạo ra một vùng không gian gây 110 (+91) STVL lên tất cả nạn nhân bên trong phạm vi ảnh hưởng, những kẻ địch dại dột chạm phải biên giới vùng không gian này sẽ phải chịu 180 (+152) STVL, và bị làm chậm 90% tốc chạy trong 2s, kèm chịu giảm 100 giáp trong 3s, ngay thời điểm kích hoạt chiêu thức Murad sẽ trở nên không bị tấn công hoặc chọn làm mục tiêu."
-		},
-		{
-			"name": "Ảo ảnh trảm",
-			"info": "ST Gốc: 150/215/280<br>Murad giải phóng sức mạnh của bản thân, tạo ra vô số ảo ảnh tấn công liên tục 5 đòn đánh lên mọi kẻ địch trong vùng ảnh hưởng, gây 150 (+114) STVL mỗi đợt, kèm hiệu ứng hút máu (dựa trên thông số tướng), suốt thời gian tung chiêu, Murad không thể bị tấn công hoặc chọn làm mục tiêu, ngoài ra Ảo ảnh trảm chỉ có thể được tung sau khi phong ấn được phá giải, và lập tức bị phong ấn trở lại sau khi vừa tung chiêu."
-		}
-	],
-	"skill_up": {
-		"line1": "1,3,5,9,10,13",
-		"line2": "2,6,7,11,14,15",
-		"line3": "4,8,12"
-	},
-	"skill_combo": [{
-			"name": "*Combo đầu game",
-			"info": "2,3,0"
-		},
-		{
-			"name": "*Combo khi có đủ 3 kỹ năng",
-			"info": "2,3,4,2,0"
-		}
-	],
-	"skill_note": "*Chọn vị trí an toàn để bật chiêu cuối, sao đó có thể rút khỏi giao tranh một cách an toàn.",
-	"skill_special": "TrungTri,BocPha",
-	"main_rune": {
-		"rune2": [{
-				"name": "NgocDo22",
-				"info": "Tốc đánh +0.6%<br>Tỷ lệ chí mạng +0.3%<br>Sát thương chí mạng +1.1%"
-			},
-			{
-				"name": "NgocTim27",
-				"info": "Tốc đánh +0.4%<br>Tỷ lệ chí mạng +0.3%<br>Tốc chạy +0.5%"
-			},
-			{
-				"name": "NgocXanh22",
-				"info": "Máu tối đa +15.7<br>Hồi máu/5s +3.1<br>Giảm hồi chiêu +0.3%"
-			}
-		],
-		"rune3": [{
-				"name": "NgocDo37",
-				"info": "Tốc đánh +1%<br>Máu tối đa +33.7<br>Giáp +2.3"
-			},
-			{
-				"name": "NgocTim35",
-				"info": "Hút máu +1.6%"
-			},
-			{
-				"name": "NgocXanh31",
-				"info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
-			}
-		]
-	},
-	"item_build": [{
-			"name": "Đi rừng 1",
-			"info": "KiemTruyHon,GiayHoVe,ThuongXuyenPha,PhucHopKiem,NanhFenrir,KiemMuramasa"
-		},
-		{
-			"name": "Đường Caesar",
-			"info": "ThuongLonginus,GiayHoVe,ThuongXuyenPha,AoChoangBangGia,PhucHopKiem,LiemDoatMenh"
-		},
-		{
-			"name": "Game thủ hay lên",
-			"info": "KiemTruyHon,GiayDuMuc,ThuongXuyenPha,PhucHopKiem,NanhFenrir,GiapHoMenh"
-		}
-	],
-	"hero_battle": [{
-			"name": "và đồng đội",
-			"desc": "thích hợp khi chơi cùng",
-			"info": [{
-					"hero_id": "joker",
-					"id_page": "Joker"
-				},
-				{
-					"hero_id": "cresht",
-					"id_page": "Cresht"
-				},
-				{
-					"hero_id": "ilumia",
-					"id_page": "Ilumia"
-				}
-			]
-		},
-		{
-			"name": "và cách khắc chế",
-			"desc": "thấy khó chịu khi gặp",
-			"info": [{
-					"hero_id": "airi",
-					"id_page": "Airi"
-				},
-				{
-					"hero_id": "aleister",
-					"id_page": "Aleister"
-				},
-				{
-					"hero_id": "taara",
-					"id_page": "Taara"
-				},
-				{
-					"hero_id": "thane",
-					"id_page": "Thane"
-				},
-				{
-					"hero_id": "alice",
-					"id_page": "Alice"
-				}
-			]
-		}
-	],
-	"hero_story": "Không gian - thời gian là cấu trúc của thực tại và cũng đồng thời là khởi nguồn sức mạnh tối cao. Tuy nhiên chưa một thần chú ma thuật nào đủ khả năng khai thác sức mạnh của không gian - thời gian. Chỉ có đá Andura mới có thể chứa được sức mạnh phi thường của không gian - thời gian, cho phép người dùng khai thác nó.<br>Với mục tiêu sở hữu sức mạnh này, tổ tiên của <i class=\"clr-orange\">Murad</i> đã tiến vào sa mạc để tìm kiếm các mảnh vỡ của Andura. Ở đó, họ phải đối mặt với Azzen'ka hung ác và nham hiểm, nhưng bằng sự khôn ngoan, họ đã thu thập được các mảnh vỡ. Họ chế tạo ra một thứ vũ khí vô cùng đáng sợ, có thể thao túng không gian - thời gian và xây dựng một đế chế mới trên sa mạc bằng sức mạnh đó.<br>Khi <i class=\"clr-orange\">Murad</i> đến tuổi trưởng thành, anh chàng đã thừa kế vũ khí từ cha mình và chính thức trở thành người lãnh đạo đế chế. Chàng đã dẫn dắt quân đội Hoàng gia tham gia viễn chinh, diệt trừ các sinh vật nguy hiểm và mở rộng đế chế. Điều này đe dọa nghiêm trọng tới quyền lực của Azzen'ka, gã rất tức giận sau khi khám phá ra sự thật đằng sau thứ vũ khí của <i class=\"clr-orange\">Murad</i>. Nhưng <i class=\"clr-orange\">Murad</i> chẳng để tâm, bởi vì miễn là có vũ khí bên cạnh, Azzen'ka không thể làm tổn thương chàng.<br>Azzen'Ka buộc phải thương lượng, đầu hàng có điều kiện với hoàng tử. <i class=\"clr-orange\">Murad</i> vui mừng chấp nhận và chính vì vậy, chàng đã bỏ qua cơ hội vàng để giải thoát đế chế khỏi mối đe dọa tiềm tàng mãi mãi. Không có quyền lực kéo dài mãi mãi và Azzen'Ka hiểu vụ thương lượng này chỉ lợi cho gã. Từ trong bóng tối, gã ngầm tạo ra vô số biến cố, buộc <i class=\"clr-orange\">Murad</i> sử dụng vũ khí của mình để bảo vệ đế chế non trẻ.<br>Việc lạm dụng quyền năng đã khiến đá Andura suy yếu rõ rệt, dần dần vũ khí của <i class=\"clr-orange\">Murad</i> đã xuất hiện nhiều vết nứt, khiến sức mạnh của thời gian - không gian rò rỉ. Điều này đã làm giảm khả năng chiến đấu của <i class=\"clr-orange\">Murad</i> và Azzen'Ka đã nắm lấy cơ hội để triệu hồi một cơn bão cát hùng mạnh nhấn chìm hoàn toàn đế chế thịnh vượng một thời. Nhờ lời cầu xin của cha chàng, vũ khí phát huy sức mạnh cứu <i class=\"clr-orange\">Murad</i> thoát khỏi thảm họa, tuy nhiên nó chỉ có thể bảo vệ một mình chàng.<br>Nhưng chàng trai ấy không bỏ cuộc. <i class=\"clr-orange\">Murad</i> che khuôn mặt điển trai của mình và trở thành một lãng khách sa mạc đơn độc, tìm cách phục hồi sức mạnh cho vũ khí của mình cũng như chờ ngày đối đầu với Azzen'Ka. <i class=\"clr-orange\">Murad</i> tin chắc rằng miễn là có vũ khí bên cạnh, ngày nào đó chàng sẽ giết Azzen'Ka và khôi phục danh dự, vinh quang cho đế chế.",
-	"hero_skin": [{
-			"name": "Lãng Khách Thời Không",
-			"gold": "18,888",
-			"voucher": "539",
-			"event": "",
-			"wall": "Murad01",
-			"disable": "yes",
-			"img": "thumb1.jpg",
-			"video": "Murad01"
-		},
-		{
-			"name": "Thợ Săn Tiền Thưởng",
-			"gold": "",
-			"voucher": "219",
-			"event": "",
-			"wall": "Murad02",
-			"disable": "",
-			"img": "thumb2.jpg",
-			"video": "Murad02"
-		},
-		{
-			"name": "M-TP Thần Tượng Học Đường (Bậc S)",
-			"gold": "",
-			"voucher": "499",
-			"event": "",
-			"wall": "Murad03",
-			"disable": "yes",
-			"img": "thumb3.jpg",
-			"video": "Murad03"
-		},
-		{
-			"name": "Thiên Tài Sân Cỏ (Football Fever)",
-			"gold": "",
-			"voucher": "",
-			"event": "Mở sự kiện",
-			"wall": "Murad04",
-			"disable": "yes",
-			"img": "thumb4.jpg",
-			"video": "Murad04"
-		},
-		{
-			"name": "Siêu Việt (Bậc SS)",
-			"gold": "",
-			"voucher": "",
-			"event": "Từ Sổ Sứ Mệnh I",
-			"wall": "Murad05",
-			"disable": "yes",
-			"img": "thumb5.jpg",
-			"video": ""
-		},
-		{
-			"name": "Đồ Thần Đao (Bậc S)",
-			"gold": "",
-			"voucher": "429",
-			"event": "",
-			"wall": "Murad06",
-			"disable": "yes",
-			"img": "thumb6.jpg",
-			"video": ""
-		}
-	]
+  "hero_id": "Murad",
+  "hero_name": "Murad",
+  "main_info": {
+    "price_gold": "18,888",
+    "price_voucher": "539",
+    "price_text": "",
+    "position": "Sát thủ / Đấu sĩ",
+    "special": "Tiền đạo / Trung phong",
+    "lane": "Đi rừng"
+  },
+  "main_skill": [{
+      "name": "Ảnh hồn",
+      "info": "Nội tại: đòn đánh thứ 4 liên tục trong vòng 3s giúp Murad tăng 5% công vật lý (không hữu hiệu với Trụ), đồng thời tạm phá phong ấn của Ảo ảnh trảm."
+    },
+    {
+      "name": "Tàn ảnh đao",
+      "info": "ST Gốc: 120/144/168/192/216/240<br>H.Chiêu: 12/10.6/9.2/7.8/6.4/5<br>Murad lướt đi gây 120 (+169) STVL và làm choáng những kẻ địch trúng chiêu, chiếu thức có thể tung ra 3 lần, đặc biệt ở lần thứ 3 Murad sẽ quay trở về vị trí ban đầu của bản thân."
+    },
+    {
+      "name": "Vô ảnh cực",
+      "info": "ST Gốc: 110/142/174/206/238/270<br>H.Chiêu: 12/11.6/11.2/10.8/10.4/10<br>Giáp giảm: 100/175/250/325/400/475<br>Murad tạo ra một vùng không gian gây 110 (+91) STVL lên tất cả nạn nhân bên trong phạm vi ảnh hưởng, những kẻ địch dại dột chạm phải biên giới vùng không gian này sẽ phải chịu 180 (+152) STVL, và bị làm chậm 90% tốc chạy trong 2s, kèm chịu giảm 100 giáp trong 3s, ngay thời điểm kích hoạt chiêu thức Murad sẽ trở nên không bị tấn công hoặc chọn làm mục tiêu."
+    },
+    {
+      "name": "Ảo ảnh trảm",
+      "info": "ST Gốc: 150/215/280<br>Murad giải phóng sức mạnh của bản thân, tạo ra vô số ảo ảnh tấn công liên tục 5 đòn đánh lên mọi kẻ địch trong vùng ảnh hưởng, gây 150 (+114) STVL mỗi đợt, kèm hiệu ứng hút máu (dựa trên thông số tướng), suốt thời gian tung chiêu, Murad không thể bị tấn công hoặc chọn làm mục tiêu, ngoài ra Ảo ảnh trảm chỉ có thể được tung sau khi phong ấn được phá giải, và lập tức bị phong ấn trở lại sau khi vừa tung chiêu."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,9,10,13",
+    "line2": "2,6,7,11,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,3,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 kỹ năng",
+      "info": "2,3,4,2,0"
+    }
+  ],
+  "skill_note": "*Chọn vị trí an toàn để bật chiêu cuối, sao đó có thể rút khỏi giao tranh một cách an toàn.",
+  "skill_special": "TrungTri,BocPha",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo22",
+        "info": "Tốc đánh +0.6%<br>Tỷ lệ chí mạng +0.3%<br>Sát thương chí mạng +1.1%"
+      },
+      {
+        "name": "NgocTim27",
+        "info": "Tốc đánh +0.4%<br>Tỷ lệ chí mạng +0.3%<br>Tốc chạy +0.5%"
+      },
+      {
+        "name": "NgocXanh22",
+        "info": "Máu tối đa +15.7<br>Hồi máu/5s +3.1<br>Giảm hồi chiêu +0.3%"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo37",
+        "info": "Tốc đánh +1%<br>Máu tối đa +33.7<br>Giáp +2.3"
+      },
+      {
+        "name": "NgocTim35",
+        "info": "Hút máu +1.6%"
+      },
+      {
+        "name": "NgocXanh31",
+        "info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đi rừng 1",
+      "info": "KiemTruyHon,GiayHoVe,ThuongXuyenPha,PhucHopKiem,NanhFenrir,KiemMuramasa"
+    },
+    {
+      "name": "Đường Caesar",
+      "info": "ThuongLonginus,GiayHoVe,ThuongXuyenPha,AoChoangBangGia,PhucHopKiem,LiemDoatMenh"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "KiemTruyHon,GiayDuMuc,ThuongXuyenPha,PhucHopKiem,NanhFenrir,GiapHoMenh"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "joker",
+          "info": "Joker"
+        },
+        {
+          "hero_id": "cresht",
+          "info": "Cresht"
+        },
+        {
+          "hero_id": "ilumia",
+          "info": "Ilumia"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "airi",
+          "info": "Airi"
+        },
+        {
+          "hero_id": "aleister",
+          "info": "Aleister"
+        },
+        {
+          "hero_id": "taara",
+          "info": "Taara"
+        },
+        {
+          "hero_id": "thane",
+          "info": "Thane"
+        },
+        {
+          "hero_id": "alice",
+          "info": "Alice"
+        }
+      ]
+    }
+  ],
+  "hero_story": "Không gian - thời gian là cấu trúc của thực tại và cũng đồng thời là khởi nguồn sức mạnh tối cao. Tuy nhiên chưa một thần chú ma thuật nào đủ khả năng khai thác sức mạnh của không gian - thời gian. Chỉ có đá Andura mới có thể chứa được sức mạnh phi thường của không gian - thời gian, cho phép người dùng khai thác nó.<br>Với mục tiêu sở hữu sức mạnh này, tổ tiên của <i class=\"clr-orange\">Murad</i> đã tiến vào sa mạc để tìm kiếm các mảnh vỡ của Andura. Ở đó, họ phải đối mặt với Azzen'ka hung ác và nham hiểm, nhưng bằng sự khôn ngoan, họ đã thu thập được các mảnh vỡ. Họ chế tạo ra một thứ vũ khí vô cùng đáng sợ, có thể thao túng không gian - thời gian và xây dựng một đế chế mới trên sa mạc bằng sức mạnh đó.<br>Khi <i class=\"clr-orange\">Murad</i> đến tuổi trưởng thành, anh chàng đã thừa kế vũ khí từ cha mình và chính thức trở thành người lãnh đạo đế chế. Chàng đã dẫn dắt quân đội Hoàng gia tham gia viễn chinh, diệt trừ các sinh vật nguy hiểm và mở rộng đế chế. Điều này đe dọa nghiêm trọng tới quyền lực của Azzen'ka, gã rất tức giận sau khi khám phá ra sự thật đằng sau thứ vũ khí của <i class=\"clr-orange\">Murad</i>. Nhưng <i class=\"clr-orange\">Murad</i> chẳng để tâm, bởi vì miễn là có vũ khí bên cạnh, Azzen'ka không thể làm tổn thương chàng.<br>Azzen'Ka buộc phải thương lượng, đầu hàng có điều kiện với hoàng tử. <i class=\"clr-orange\">Murad</i> vui mừng chấp nhận và chính vì vậy, chàng đã bỏ qua cơ hội vàng để giải thoát đế chế khỏi mối đe dọa tiềm tàng mãi mãi. Không có quyền lực kéo dài mãi mãi và Azzen'Ka hiểu vụ thương lượng này chỉ lợi cho gã. Từ trong bóng tối, gã ngầm tạo ra vô số biến cố, buộc <i class=\"clr-orange\">Murad</i> sử dụng vũ khí của mình để bảo vệ đế chế non trẻ.<br>Việc lạm dụng quyền năng đã khiến đá Andura suy yếu rõ rệt, dần dần vũ khí của <i class=\"clr-orange\">Murad</i> đã xuất hiện nhiều vết nứt, khiến sức mạnh của thời gian - không gian rò rỉ. Điều này đã làm giảm khả năng chiến đấu của <i class=\"clr-orange\">Murad</i> và Azzen'Ka đã nắm lấy cơ hội để triệu hồi một cơn bão cát hùng mạnh nhấn chìm hoàn toàn đế chế thịnh vượng một thời. Nhờ lời cầu xin của cha chàng, vũ khí phát huy sức mạnh cứu <i class=\"clr-orange\">Murad</i> thoát khỏi thảm họa, tuy nhiên nó chỉ có thể bảo vệ một mình chàng.<br>Nhưng chàng trai ấy không bỏ cuộc. <i class=\"clr-orange\">Murad</i> che khuôn mặt điển trai của mình và trở thành một lãng khách sa mạc đơn độc, tìm cách phục hồi sức mạnh cho vũ khí của mình cũng như chờ ngày đối đầu với Azzen'Ka. <i class=\"clr-orange\">Murad</i> tin chắc rằng miễn là có vũ khí bên cạnh, ngày nào đó chàng sẽ giết Azzen'Ka và khôi phục danh dự, vinh quang cho đế chế.",
+  "hero_skin": [{
+      "name": "Lãng Khách Thời Không",
+      "gold": "18,888",
+      "voucher": "539",
+      "event": "",
+      "wall": "Murad01",
+      "disable": "yes",
+      "img": "thumb1.jpg",
+      "video": "Murad01"
+    },
+    {
+      "name": "Thợ Săn Tiền Thưởng",
+      "gold": "",
+      "voucher": "219",
+      "event": "",
+      "wall": "Murad02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": "Murad02"
+    },
+    {
+      "name": "M-TP Thần Tượng Học Đường (Bậc S)",
+      "gold": "",
+      "voucher": "499",
+      "event": "",
+      "wall": "Murad03",
+      "disable": "yes",
+      "img": "thumb3.jpg",
+      "video": "Murad03"
+    },
+    {
+      "name": "Thiên Tài Sân Cỏ (Football Fever)",
+      "gold": "",
+      "voucher": "",
+      "event": "Mở sự kiện",
+      "wall": "Murad04",
+      "disable": "yes",
+      "img": "thumb4.jpg",
+      "video": "Murad04"
+    },
+    {
+      "name": "Siêu Việt (Bậc SS)",
+      "gold": "",
+      "voucher": "",
+      "event": "Từ Sổ Sứ Mệnh I",
+      "wall": "Murad05",
+      "disable": "yes",
+      "img": "thumb5.jpg",
+      "video": ""
+    },
+    {
+      "name": "Đồ Thần Đao (Bậc S)",
+      "gold": "",
+      "voucher": "429",
+      "event": "",
+      "wall": "Murad06",
+      "disable": "yes",
+      "img": "thumb6.jpg",
+      "video": ""
+    }
+  ]
 }

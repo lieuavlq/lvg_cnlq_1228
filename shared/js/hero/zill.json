@@ -1,153 +1,155 @@
 {
-	"hero_id": "Zill",
-	"hero_name": "Zill",
-	"main_info": {
-		"price_gold": "13,888",
-		"price_voucher": "359",
-		"price_text": "",
-		"position": "Pháp sư / Sát thủ",
-		"special": "Tiền đạo / Trung phong",
-		"lane": "Đi rừng"
-	},
-	"main_skill": [{
-			"name": "Bão tố",
-			"info": "Nội tại: các chiêu thức trúng đích của Zill khiến mục tiêu phải chịu thêm dấu ấn giông tố, khi đạt đủ 3 cộng dồn, dấu ấn tiến hóa thành bão tố kéo dài 5s đồng thời giảm 80% tốc chạy của mục tiêu trong 0.25s, dấu ấn tồn tại 5s, các đòn đánh thường của Zill gây thêm 40 STP, đặc biệt nếu mục tiêu đang chịu ấn bão tố sẽ giúp Zill lập tức hoàn tất hồi chiêu của Phong độn, và gây thêm 150 (+0) STP."
-		},
-		{
-			"name": "Phong đao",
-			"info": "ST Gốc: 200/240/280/320/360/400<br>ST phản: 300/360/420/480/540/600<br>H.Chiêu: 8/7.5/7/6.5/6/5.5<br>Zill ném cặp song đao gây 200 (+0) STP lên tất cả kẻ địch trúng phải trên đường bay đi, và làm chậm 50% tốc chạy của chúng trong 1.5s, Song đao khi quay ngược về gây 300 (+0) STP lên những nạn nhân trúng chiêu."
-		},
-		{
-			"name": "Phong độn",
-			"info": "ST Gốc: 260/300/340/380/420/460<br>H.Chiêu: 12.5/12/11.5/11/10.5/10<br>Zill dịch chuyển đến điểm đã chọn, gây 260 (+0) STP lên tất cả kẻ địch quanh vùng ảnh hưởng."
-		},
-		{
-			"name": "Phong ba",
-			"info": "ST Gốc: 300/550/800<br>H.Chiêu: 50/45/40<br>Zill hóa thân thành một luồng phong ba bão tố trong 1.5s, tấn công liên tục 5 lần lên những kẻ địch lân cận, gây 300 (+0) STP mỗi đợt, kẻ địch trúng nhiều đòn sẽ chỉ phải chịu 40% sát thương từ đòn thứ 2 trở đi, suốt khoảng thời gian này Zill không thể bị công kích hoặc chọn làm mục tiêu."
-		}
-	],
-	"skill_up": {
-		"line1": "1,3,5,7,9,11",
-		"line2": "2,6,10,13,14,15",
-		"line3": "4,8,12"
-	},
-	"skill_combo": [{
-			"name": "*Combo đầu game",
-			"info": "2,3,0"
-		},
-		{
-			"name": "*Combo khi có đủ 3 kỹ năng",
-			"info": "2,3,0,4,0"
-		}
-	],
-	"skill_note": "*Chú ý các đòn đánh thường nhằm hồi lại kỹ năng Phong độn.",
-	"skill_special": "TrungTri,BocPha",
-	"main_rune": {
-		"rune2": [{
-				"name": "NgocDo22",
-				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
-			},
-			{
-				"name": "NgocTim22",
-				"info": "Công phép +1.4<br>Hút máu phép +0.8%<br>Giáp phép +1.6"
-			},
-			{
-				"name": "NgocXanh28",
-				"info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
-			}
-		],
-		"rune3": [{
-				"name": "NgocDo31",
-				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
-			},
-			{
-				"name": "NgocTim36",
-				"info": "Công phép +2.4<br>Hút máu phép +1%"
-			},
-			{
-				"name": "NgocXanh310",
-				"info": "Tốc đánh +0.6%<br>Xuyên giáp phép +6.4"
-			}
-		]
-	},
-	"item_build": [{
-			"name": "Đi rừng",
-			"info": "GuomLoki,GiayKienCuong,GuomTanThe,VuongMiengHecate,TruongBang,QuyenTruongRhea"
-		},
-		{
-			"name": "Đi rừng",
-			"info": "GuomLoki,GiayHoVe,VuongMiengHecate,TruongBungNo,AoChoangBangGia,SachThanh"
-		},
-		{
-			"name": "Game thủ hay lên",
-			"info": "GuomLoki,GiayPhuThuy,GuomTanThe,VuongMiengHecate,TruongBungNo,SachThanh"
-		}
-	],
-	"hero_battle": [{
-			"name": "và đồng đội",
-			"desc": "thích hợp khi chơi cùng",
-			"info": [{
-					"hero_id": "zuka",
-					"id_page": "Zuka"
-				},
-				{
-					"hero_id": "ilumia",
-					"id_page": "Ilumia"
-				}
-			]
-		},
-		{
-			"name": "và cách khắc chế",
-			"desc": "thấy khó chịu khi gặp",
-			"info": [{
-					"hero_id": "superman",
-					"id_page": "Superman"
-				},
-				{
-					"hero_id": "taara",
-					"id_page": "Taara"
-				},
-				{
-					"hero_id": "ormarr",
-					"id_page": "Ormarr"
-				},
-				{
-					"hero_id": "alice",
-					"id_page": "Alice"
-				}
-			]
-		}
-	],
-	"hero_story": "\"Tiếng gầm của cơn bão chính là điềm báo tử của các ngươi!\"<br>Lịch sử kể rằng nhiều tướng đã thoát khỏi sự kiểm soát của lực hấp dẫn và bay lên không trung. Tuy nhiên, không ai trong số họ đã có thể thoải mái bay lượn tự do như những chú chim bởi sự xuất hiện của <i class=\"clr-orange\">Zill</i>, mối nguy hiểm tiềm ẩn trên bầu trời. Là hiện thân của sức mạnh tự nhiên, <i class=\"clr-orange\">Zill</i> tàn phá cơ chế phòng thủ của đối phương mạnh mẽ như bão và cũng nhẹ nhàng, đau đớn tới thấu xương như một ngọn gió.<br>Trong cuộc chiến vĩ đại, <i class=\"clr-orange\">Zill</i> đã ra tay diệt trừ hàng tá quỷ dữ. Những chiến tích xuất sắc và vang dội đã giúp <i class=\"clr-orange\">Zill</i> giành lấy đỉnh cao danh vọng và ngưỡng mộ. Tuy nhiên, không ai hiểu tại sao ông lại từ chối danh hiệu Người bảo vệ Khu Rừng Hắc Ám. Đơn giản, <i class=\"clr-orange\">Zill</i> nói rằng vinh quang là không phù hợp với bản chất tự do của mình.<br>\"Khi bạn cần tôi, lưỡi dao của tôi sẽ luôn sẵn sàng phục vụ. Nhưng ta là gió, và gió thì không gì có thể trói buộc\". Đó là lời giải thích của ông với Nữ hoàng Tel'Annas. Sự trung thành và bản ngã của ông luôn giành được sự tôn trọng và tin tưởng của nữ hoàng. Trước khi tiến vào ngủ ngàn năm, nàng đã trao cho <i class=\"clr-orange\">Zill</i> quyền thực hiện ý chí tự do. Ông không bị yêu cầu thực hiện bất kỳ nhiệm vụ cụ thể nào, nhưng được phép tiếp cận với các tài nguyên của Khu Rừng Chạng Vạng<br>Sau đó, <i class=\"clr-orange\">Zill</i> biến mất khỏi sự chú ý của công chúng. Ngoại trừ tinh linh Krixi thỉnh thoảng cảm nhận được sự hiện diện của ông, không ai khác tìm thấy được dấu vết của <i class=\"clr-orange\">Zill</i>. Trong một thời gian, mọi người thậm chí còn quên tất cả về người tướng cai trị bầu trời tên tuổi thuở nào. Tuy nhiên, ngày thức dậy của nữ hoàng Tel’Annas, <i class=\"clr-orange\">Zill</i> là người đầu tiên trở lại bên cạnh cô. Trong một nghìn năm dài, <i class=\"clr-orange\">Zill</i> đã bỏ tự do mà ông hằng mong muốn để canh giữ cho giấc ngủ của Tel'Annas. Đây là cách để đáp trả lại sự tin tưởng vô điều kiện mà nữ hoàng đã dành cho ông.",
-	"hero_skin": [{
-			"name": "Ma Phong Ba",
-			"gold": "13,888",
-			"voucher": "359",
-			"event": "",
-			"wall": "Zill01",
-			"disable": "",
-			"img": "thumb1.jpg",
-			"video": ""
-		},
-		{
-			"name": "Lốc Địa Ngục",
-			"gold": "",
-			"voucher": "219",
-			"event": "",
-			"wall": "Zill02",
-			"disable": "",
-			"img": "thumb2.jpg",
-			"video": ""
-		},
-		{
-			"name": "Dung Nham (Bậc S)",
-			"gold": "",
-			"voucher": "379",
-			"event": "",
-			"wall": "Zill03",
-			"disable": "yes",
-			"img": "thumb3.jpg",
-			"video": ""
-		}
-	]
+  "hero_id": "Zill",
+  "hero_name": "Zill",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Pháp sư / Sát thủ",
+    "special": "Tiền đạo / Trung phong",
+    "lane": "Đi rừng"
+  },
+  "main_skill": [{
+      "name": "Bão tố",
+      "info": "Nội tại: các chiêu thức trúng đích của Zill khiến mục tiêu phải chịu thêm dấu ấn giông tố, khi đạt đủ 3 cộng dồn, dấu ấn tiến hóa thành bão tố kéo dài 5s đồng thời giảm 80% tốc chạy của mục tiêu trong 0.25s, dấu ấn tồn tại 5s, các đòn đánh thường của Zill gây thêm 40 STP, đặc biệt nếu mục tiêu đang chịu ấn bão tố sẽ giúp Zill lập tức hoàn tất hồi chiêu của Phong độn, và gây thêm 150 (+0) STP."
+    },
+    {
+      "name": "Phong đao",
+      "info": "ST Gốc: 200/240/280/320/360/400<br>ST phản: 300/360/420/480/540/600<br>H.Chiêu: 8/7.5/7/6.5/6/5.5<br>Zill ném cặp song đao gây 200 (+0) STP lên tất cả kẻ địch trúng phải trên đường bay đi, và làm chậm 50% tốc chạy của chúng trong 1.5s, Song đao khi quay ngược về gây 300 (+0) STP lên những nạn nhân trúng chiêu."
+    },
+    {
+      "name": "Phong độn",
+      "info": "ST Gốc: 260/300/340/380/420/460<br>H.Chiêu: 12.5/12/11.5/11/10.5/10<br>Zill dịch chuyển đến điểm đã chọn, gây 260 (+0) STP lên tất cả kẻ địch quanh vùng ảnh hưởng."
+    },
+    {
+      "name": "Phong ba",
+      "info": "ST Gốc: 300/550/800<br>H.Chiêu: 50/45/40<br>Zill hóa thân thành một luồng phong ba bão tố trong 1.5s, tấn công liên tục 5 lần lên những kẻ địch lân cận, gây 300 (+0) STP mỗi đợt, kẻ địch trúng nhiều đòn sẽ chỉ phải chịu 40% sát thương từ đòn thứ 2 trở đi, suốt khoảng thời gian này Zill không thể bị công kích hoặc chọn làm mục tiêu."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,3,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 kỹ năng",
+      "info": "2,3,0,4,0"
+    }
+  ],
+  "skill_note": "*Chú ý các đòn đánh thường nhằm hồi lại kỹ năng Phong độn.",
+  "skill_special": "TrungTri,BocPha",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo22",
+        "info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+      },
+      {
+        "name": "NgocTim22",
+        "info": "Công phép +1.4<br>Hút máu phép +0.8%<br>Giáp phép +1.6"
+      },
+      {
+        "name": "NgocXanh28",
+        "info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo31",
+        "info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+      },
+      {
+        "name": "NgocTim36",
+        "info": "Công phép +2.4<br>Hút máu phép +1%"
+      },
+      {
+        "name": "NgocXanh310",
+        "info": "Tốc đánh +0.6%<br>Xuyên giáp phép +6.4"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đi rừng",
+      "info": "GuomLoki,GiayKienCuong,GuomTanThe,VuongMiengHecate,TruongBang,QuyenTruongRhea"
+    },
+    {
+      "name": "Đi rừng",
+      "info": "GuomLoki,GiayHoVe,VuongMiengHecate,TruongBungNo,AoChoangBangGia,SachThanh"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "GuomLoki,GiayPhuThuy,GuomTanThe,VuongMiengHecate,TruongBungNo,SachThanh"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "zuka",
+          "info": "Zuka"
+        },
+        {
+          "hero_id": "ilumia",
+          "info": "Ilumia"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "superman",
+          "info": "Superman"
+        },
+        {
+          "hero_id": "taara",
+          "info": "Taara"
+        },
+        {
+          "hero_id": "ormarr",
+          "info": "Ormarr"
+        },
+        {
+          "hero_id": "alice",
+          "info": "Alice"
+        }
+      ]
+    }
+  ],
+  "hero_story": "\"Tiếng gầm của cơn bão chính là điềm báo tử của các ngươi!\"<br>Lịch sử kể rằng nhiều tướng đã thoát khỏi sự kiểm soát của lực hấp dẫn và bay lên không trung. Tuy nhiên, không ai trong số họ đã có thể thoải mái bay lượn tự do như những chú chim bởi sự xuất hiện của <i class=\"clr-orange\">Zill</i>, mối nguy hiểm tiềm ẩn trên bầu trời. Là hiện thân của sức mạnh tự nhiên, <i class=\"clr-orange\">Zill</i> tàn phá cơ chế phòng thủ của đối phương mạnh mẽ như bão và cũng nhẹ nhàng, đau đớn tới thấu xương như một ngọn gió.<br>Trong cuộc chiến vĩ đại, <i class=\"clr-orange\">Zill</i> đã ra tay diệt trừ hàng tá quỷ dữ. Những chiến tích xuất sắc và vang dội đã giúp <i class=\"clr-orange\">Zill</i> giành lấy đỉnh cao danh vọng và ngưỡng mộ. Tuy nhiên, không ai hiểu tại sao ông lại từ chối danh hiệu Người bảo vệ Khu Rừng Hắc Ám. Đơn giản, <i class=\"clr-orange\">Zill</i> nói rằng vinh quang là không phù hợp với bản chất tự do của mình.<br>\"Khi bạn cần tôi, lưỡi dao của tôi sẽ luôn sẵn sàng phục vụ. Nhưng ta là gió, và gió thì không gì có thể trói buộc\". Đó là lời giải thích của ông với Nữ hoàng Tel'Annas. Sự trung thành và bản ngã của ông luôn giành được sự tôn trọng và tin tưởng của nữ hoàng. Trước khi tiến vào ngủ ngàn năm, nàng đã trao cho <i class=\"clr-orange\">Zill</i> quyền thực hiện ý chí tự do. Ông không bị yêu cầu thực hiện bất kỳ nhiệm vụ cụ thể nào, nhưng được phép tiếp cận với các tài nguyên của Khu Rừng Chạng Vạng<br>Sau đó, <i class=\"clr-orange\">Zill</i> biến mất khỏi sự chú ý của công chúng. Ngoại trừ tinh linh Krixi thỉnh thoảng cảm nhận được sự hiện diện của ông, không ai khác tìm thấy được dấu vết của <i class=\"clr-orange\">Zill</i>. Trong một thời gian, mọi người thậm chí còn quên tất cả về người tướng cai trị bầu trời tên tuổi thuở nào. Tuy nhiên, ngày thức dậy của nữ hoàng Tel’Annas, <i class=\"clr-orange\">Zill</i> là người đầu tiên trở lại bên cạnh cô. Trong một nghìn năm dài, <i class=\"clr-orange\">Zill</i> đã bỏ tự do mà ông hằng mong muốn để canh giữ cho giấc ngủ của Tel'Annas. Đây là cách để đáp trả lại sự tin tưởng vô điều kiện mà nữ hoàng đã dành cho ông.",
+  "hero_skin": [{
+      "name": "Ma Phong Ba",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Zill01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": ""
+    },
+    {
+      "name": "Lốc Địa Ngục",
+      "gold": "",
+      "voucher": "219",
+      "event": "",
+      "wall": "Zill02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": ""
+    },
+    {
+      "name": "Dung Nham (Bậc S)",
+      "gold": "",
+      "voucher": "379",
+      "event": "",
+      "wall": "Zill03",
+      "disable": "yes",
+      "img": "thumb3.jpg",
+      "video": ""
+    }
+  ]
 }

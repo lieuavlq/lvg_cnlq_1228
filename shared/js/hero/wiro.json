@@ -1,156 +1,158 @@
 {
-	"hero_id": "Wiro",
-	"hero_name": "Wiro Sableng",
-	"main_info": {
-		"price_gold": "18,888",
-		"price_voucher": "539",
-		"price_text": "",
-		"position": "Đỡ đòn / Đấu sĩ",
-		"special": "Khống chế / Tiền vệ",
-		"lane": "Đường Caesar"
-	},
-	"main_skill": [{
-			"name": "DẤU ẤN 212",
-			"info": "Hồi chiêu: 120 giây<br>Nội tại: Wiro cường hoá 60 (+ 5 mỗi cấp) cả giáp vật lý lẫn giáp phép (vô hiệu hoá khi chiêu đang hồi).<br>Khi Wiro nhận sát thương chí tử, anh không chết mà được hồi 60% máu. Đổi lại, trong 4.5 giây Wiro sẽ miễn nhiễm khống chế, nhưng không thể hành động và bị giảm 25% cả hai loại giáp.<br>Đồng thời, sẽ có 3 dấu ấn xung quanh anh, đồng đội giẫm lên sẽ giúp Wiro và tướng đó hồi 10% máu. Nếu 3 dấu ấn đều được kích hoạt, hoặc qua 4.5 giây, Wiro sẽ gầm lên gây 150 + (1.0 công vật lý) sát thương phép, và làm chậm tốc chạy của kẻ địch. Bản thân Wiro nhận 50% tốc đánh và 30% tốc chạy trong 5 giây kế."
-		},
-		{
-			"name": "RÌU CHIẾN LỰC",
-			"info": "Hồi chiêu: 9/8.4/7.8/7.2/6.6/6 giây<br>Tiêu hao: 60/65/70/75/80/85 năng lượng<br>Wiro làm mới lại đòn đánh, cường hoá ba đòn đánh kế tiếp. Mỗi đòn sẽ gây thêm 100/130/160/190/220/250 (+0.2 công vật lý) sát thương vật lý. Riêng đòn thứ ba sẽ hất tung kẻ địch trong 0.75 giây.<br>Thời gian tồn tại cường hoá của đòn đánh đầu tiên：3 giây<br>Thời gian tồn tại cường hoá của đòn đánh thứ hai và thứ ba： 1.5 giây."
-		},
-		{
-			"name": "GĂNG CHIẾN LỰC",
-			"info": "Hồi chiêu: 10/9.6/9.2/8.8/8.4/8 giây<br>Tiêu hao: 80/85/90/95/100/105 năng lượng<br>Wiro ủi kẻ địch về phía chỉ định, gây 100/130/160/190/220/250 (+0.4 công vật lý) sát thương vật lý. Nếu kẻ địch bị đẩy vào tường sẽ nhận thêm 50% sát thương từ chiêu thức. Chiêu thức này sẽ gây 250/325/400/475/550/625 (+1.0 công vật lý) sát thương vật lý lên trụ kẻ địch."
-		},
-		{
-			"name": "THẦN LỰC 212",
-			"info": "Hồi chiêu: 45/40/35 giây<br>Tiêu hao: 120/135/150 năng lượng<br>Wiro vận sức tung rìu gây 300/375/450 (+1.5 công vật lý) sát thương vật lý kèm 1 giây hất tung lên kẻ địch xung quanh. Tụ lực càng lâu, phạm vi ảnh hưởng và sát thương càng lớn, tối đa 1000/1250/1500 (+1.5 công vật lý) sát thương vật lý. Mỗi nạn nhân rơi xuống sẽ gây 50% sát thương chiêu thức lên kẻ địch lân cận (nạn nhân rơi không chịu thêm sát thương này). Wiro có thể di chuyển khi tung chiêu, và hồi chiêu sẽ giảm đi 80% nếu huỷ chiêu.<br>Nội tại: Khi Wiro tung chiêu hoặc cường hoá đánh thường sẽ tạo lốc xoáy xung quanh bản thân trong 3 giây, gây 38/42/46 (+0.25 công vật lý) sát thương phép mỗi giây lên mọi kẻ địch, kể cả công trình."
-		}
-	],
-	"skill_up": {
-		"line1": "1,3,5,7,9,11",
-		"line2": "2,6,10,13,14,15",
-		"line3": "4,8,12"
-	},
-	"skill_combo": [{
-			"name": "*Combo đầu game",
-			"info": "3,2,0"
-		},
-		{
-			"name": "*Combo khi có đủ 3 kỹ năng",
-			"info": "3,2,0,0,0,4,2,3"
-		}
-	],
-	"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Wiro là một đấu sĩ tự do vì thế anh ta rất hợp đi đường Caesar.<br>- Đầu game tận dụng bộ combo Găng chiến lực + Rìu chiến lực gây áp đảo đối thủ, đồng thời đẩy lính tạo lợi thế.<br>- Tranh thủ ăn chim, dơi, hoặc cướp bùa đỏ nếu có thể kk :P, không ép à!!<br>- Cứ khô máu đi Nội tại Dấu ấn 212 có khả năng hồi sinh, ngại gì vết bẩn, quẩy tung nốc!!<br>- Nói thế thôi hãy tập luyện bộ kỹ năng và di chuyển hợp lý vào, sức mạnh thật sự của Wiro còn ở phía sau cơ!!.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game, độ chừng 3 4 món cuối, lại quẩy không chừa ai cả, combo hai chiêu đầu đã mệt mỗi rồi đừng nói đến chiêu cuối nha!!<br>- Khi kẻ địch sợ hải bỏ chạy là lúc Thần lực 212 được gọi ra, vùng chiêu cuối khá rộng khi nổ kèm hất tung, mạnh quá ai chơi!! :P<br>- Vì Nội tại có đến 90 giây hồi, nên để dành cho các pha combat tổng chủ chốt, cứ khô máu rồi lại hồi sinh, kèm theo em TeeMee, cộng giáp Hồi sinh ôi thôi, hồi sinh mãi, đánh chán kk!!",
-	"skill_special": "TocBien,BocPha",
-	"main_rune": {
-		"rune2": [{
-				"name": "NgocDo25",
-				"info": "+1.5 Công vật lý<br>+13.5 Máu"
-			},
-			{
-				"name": "NgocTim28",
-				"info": "+13.5 Máu<br>+0.7% Tốc chạy"
-			},
-			{
-				"name": "NgocXanh23",
-				"info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
-			}
-		],
-		"rune3": [{
-				"name": "NgocDo36",
-				"info": "Công vật lý +2<br>Xuyên giáp +3.6"
-			},
-			{
-				"name": "NgocTim32",
-				"info": "+1% Tốc đánh<br>+1% Tốc chạy"
-			},
-			{
-				"name": "NgocXanh31",
-				"info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
-			}
-		]
-	},
-	"item_build": [{
-			"name": "Đường Caesar",
-			"info": "AoChoangThanRa,GiayHoVe,ThuongLonginus,PhucHopKiem,NanhFenrir,GiapHoMenh"
-		},
-		{
-			"name": "Đường Caesar (thay thế)",
-			"info": "AoChoangThanRa,GiayKienCuong,ThuongLonginus,AoChoangBangGia,KiemMuramasa,GiapHoMenh"
-		},
-		{
-			"name": "Đường Caesar (thử bộ này)",
-			"info": "AoChoangThanRa,GiayHoVe,GiapGaia,KhienHuyenThoai,KiemMuramasa,GiapHoMenh"
-		}
-	],
-	"hero_battle": [{
-			"name": "và đồng bọn",
-			"desc": "sở hữu chiêu cuối bá mà không chấp vá, việc làm chậm tốc chạy hoặc giữ chân kẻ địch quả là một điều gì đó có lợi cho Wiro,..",
-			"info": [{
-					"hero_id": "payna",
-					"id_page": "Payna"
-				},
-				{
-					"hero_id": "cresht",
-					"id_page": "Cresht"
-				},
-				{
-					"hero_id": "alice",
-					"id_page": "Alice"
-				},
-				{
-					"hero_id": "ybneth",
-					"id_page": "Ybneth"
-				},
-				{
-					"hero_id": "baldum",
-					"id_page": "Baldum"
-				},
-				{
-					"hero_id": "teemee",
-					"id_page": "TeeMee"
-				}
-			]
-		},
-		{
-			"name": "và cách khắc chế",
-			"desc": "là một quái vật trong giao tranh tổng, vì thế hãy cách ly anh ta ngay và luôn,..",
-			"info": [{
-					"hero_id": "alice",
-					"id_page": "Alice"
-				},
-				{
-					"hero_id": "arum",
-					"id_page": "Arum"
-				},
-				{
-					"hero_id": "annette",
-					"id_page": "Annette"
-				},
-				{
-					"hero_id": "roxie",
-					"id_page": "Roxie"
-				},
-				{
-					"hero_id": "omen",
-					"id_page": "Omen"
-				},
-				{
-					"hero_id": "cresht",
-					"id_page": "Cresht"
-				}
-			]
-		}
-	],
-	"hero_story": "Người trong giang hồ, ngại gì va chạm?<br><i class=\"clr-orange\">Wiro</i> là một chàng điên hiệp nổi tiếng. Có người thích hắn vì cá tính thẳng thắng và phóng khoáng, có người lại chán ghét sự điên điên khùng khùng của hắn. Nhưng <i class=\"clr-orange\">Wiro</i> chẳng bận tâm, người ngoài đánh giá thì liên quan gì - Hắn cứ là chính mình, hưởng thụ cuộc sống và mạo hiểm khám phá thế thôi. Vùng đất mới mẻ này có quá nhiều thứ đang chờ đợi, từ những kẻ địch hắc ám đến vô số nơi để phiêu lưu tìm hiểu.<br>Chẳng có mấy kẻ thật sự không đội trời chung với <i class=\"clr-orange\">Wiro</i>, kể cả những tay tài phiệt thâu tóm quân sự. Dù với cá tính của <i class=\"clr-orange\">Wiro</i>, không trực thì cũng gián tiếp, một ngày nào đó họ sẽ phải đối đầu với nhau. Nhưng chẳng sao, bởi giữa họ và dạng người ưa thích tiếu ngạo giang hồ không chút đam mê quyền lực hay tiền tài như <i class=\"clr-orange\">Wiro</i> vốn không tồn tại mâu thuẫn về lợi ích.<br><i class=\"clr-orange\">Wiro</i> tự do tự tại trải qua vô số cuộc phiêu lưu mạo hiểm, và cũng từng đấy sự tích hào hùng về hắn được lưu truyền. Quả thật đối với chàng <i class=\"clr-orange\">Wiro</i> hài hước và hữu dũng vô số mưu, thiên hạ không thể không gật đầu tấm tắc khen, nhưng cũng đồi thời lắc đầu tự hỏi cớ gì hắn lại cứ lao đầu vào những chốn hiểm nguy?<br>Có người giải thích ấy là do <i class=\"clr-orange\">Wiro</i> vốn không sợ trời không sợ đất, nhưng dĩ nhiên sự thật thì khác xa. Hóa ra bên trong <i class=\"clr-orange\">Wiro</i> ẩn chứa những hai linh hồn. Khi hiểm họa thời không tan vỡ càng ngày càng cận kề, <i class=\"clr-orange\">Wiro</i> của thế giới khác đã cảm nhận được <i class=\"clr-orange\">Wiro</i> của thế giới này đang gặp nguy hiểm, thế là hắn cất công tìm đến tận chốn này để tìm được chính mình.<br>Vốn cùng tu luyện dòng năng lượng 212, ngay khoảnh khắc cả hai chạm mặt, linh hồn của họ đã cộng hưởng. <i class=\"clr-orange\">Wiro</i> của thế giới này cố gắng giải quyết hiểm họa thời không, <i class=\"clr-orange\">Wiro</i> của thế giới bên ngoài cố bảo vệ quê hương khỏi tai ương khủng khiếp. Cả hai cần một sức mạnh phi thường hơn để ngăn chặn tất thảy.<br>Thế là với sức mạnh của năng lượng 212, cả hai <i class=\"clr-orange\">Wiro</i> đã dung hợp thể xác lại làm một. Tuy nhiên do cơ thể chẳng cách nào chứa nổi hai linh hồn cùng lúc, thế là họ chuyển dời linh hồn còn lại vào chiếc rìu 212 thần kỳ, thứ duy nhất đủ hùng mạnh để chứa đựng thứ linh hồn phi thường này. Và đến khi <i class=\"clr-orange\">Wiro</i> gặp nguy hiểm, phần hồn trong chiếc rìu sẽ thức tỉnh để hỗ trợ nhau. Dĩ nhiên với cả thế gian thì <i class=\"clr-orange\">Wiro</i> vẫn là <i class=\"clr-orange\">Wiro</i> mà thôi.<br>Ấy thế cho nên câu cửa miệng của <i class=\"clr-orange\">Wiro</i> thật ra rất thâm thúy.<br>Tiêu diệt được ta thì ta vẫn còn sống!",
-	"hero_skin": [{
-		"name": "Cuồng Chiến Rìu",
-		"gold": "18,888",
-		"voucher": "539",
-		"event": "",
-		"wall": "Wiro01",
-		"disable": "yes",
-		"img": "thumb1.jpg",
-		"video": "Wiro01"
-	}]
+  "hero_id": "Wiro",
+  "hero_name": "Wiro Sableng",
+  "main_info": {
+    "price_gold": "18,888",
+    "price_voucher": "539",
+    "price_text": "",
+    "position": "Đỡ đòn / Đấu sĩ",
+    "special": "Khống chế / Tiền vệ",
+    "lane": "Đường Caesar"
+  },
+  "main_skill": [{
+      "name": "DẤU ẤN 212",
+      "info": "Hồi chiêu: 120 giây<br>Nội tại: Wiro cường hoá 60 (+ 5 mỗi cấp) cả giáp vật lý lẫn giáp phép (vô hiệu hoá khi chiêu đang hồi).<br>Khi Wiro nhận sát thương chí tử, anh không chết mà được hồi 60% máu. Đổi lại, trong 4.5 giây Wiro sẽ miễn nhiễm khống chế, nhưng không thể hành động và bị giảm 25% cả hai loại giáp.<br>Đồng thời, sẽ có 3 dấu ấn xung quanh anh, đồng đội giẫm lên sẽ giúp Wiro và tướng đó hồi 10% máu. Nếu 3 dấu ấn đều được kích hoạt, hoặc qua 4.5 giây, Wiro sẽ gầm lên gây 150 + (1.0 công vật lý) sát thương phép, và làm chậm tốc chạy của kẻ địch. Bản thân Wiro nhận 50% tốc đánh và 30% tốc chạy trong 5 giây kế."
+    },
+    {
+      "name": "RÌU CHIẾN LỰC",
+      "info": "Hồi chiêu: 9/8.4/7.8/7.2/6.6/6 giây<br>Tiêu hao: 60/65/70/75/80/85 năng lượng<br>Wiro làm mới lại đòn đánh, cường hoá ba đòn đánh kế tiếp. Mỗi đòn sẽ gây thêm 100/130/160/190/220/250 (+0.2 công vật lý) sát thương vật lý. Riêng đòn thứ ba sẽ hất tung kẻ địch trong 0.75 giây.<br>Thời gian tồn tại cường hoá của đòn đánh đầu tiên：3 giây<br>Thời gian tồn tại cường hoá của đòn đánh thứ hai và thứ ba： 1.5 giây."
+    },
+    {
+      "name": "GĂNG CHIẾN LỰC",
+      "info": "Hồi chiêu: 10/9.6/9.2/8.8/8.4/8 giây<br>Tiêu hao: 80/85/90/95/100/105 năng lượng<br>Wiro ủi kẻ địch về phía chỉ định, gây 100/130/160/190/220/250 (+0.4 công vật lý) sát thương vật lý. Nếu kẻ địch bị đẩy vào tường sẽ nhận thêm 50% sát thương từ chiêu thức. Chiêu thức này sẽ gây 250/325/400/475/550/625 (+1.0 công vật lý) sát thương vật lý lên trụ kẻ địch."
+    },
+    {
+      "name": "THẦN LỰC 212",
+      "info": "Hồi chiêu: 45/40/35 giây<br>Tiêu hao: 120/135/150 năng lượng<br>Wiro vận sức tung rìu gây 300/375/450 (+1.5 công vật lý) sát thương vật lý kèm 1 giây hất tung lên kẻ địch xung quanh. Tụ lực càng lâu, phạm vi ảnh hưởng và sát thương càng lớn, tối đa 1000/1250/1500 (+1.5 công vật lý) sát thương vật lý. Mỗi nạn nhân rơi xuống sẽ gây 50% sát thương chiêu thức lên kẻ địch lân cận (nạn nhân rơi không chịu thêm sát thương này). Wiro có thể di chuyển khi tung chiêu, và hồi chiêu sẽ giảm đi 80% nếu huỷ chiêu.<br>Nội tại: Khi Wiro tung chiêu hoặc cường hoá đánh thường sẽ tạo lốc xoáy xung quanh bản thân trong 3 giây, gây 38/42/46 (+0.25 công vật lý) sát thương phép mỗi giây lên mọi kẻ địch, kể cả công trình."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "3,2,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 kỹ năng",
+      "info": "3,2,0,0,0,4,2,3"
+    }
+  ],
+  "skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Wiro là một đấu sĩ tự do vì thế anh ta rất hợp đi đường Caesar.<br>- Đầu game tận dụng bộ combo Găng chiến lực + Rìu chiến lực gây áp đảo đối thủ, đồng thời đẩy lính tạo lợi thế.<br>- Tranh thủ ăn chim, dơi, hoặc cướp bùa đỏ nếu có thể kk :P, không ép à!!<br>- Cứ khô máu đi Nội tại Dấu ấn 212 có khả năng hồi sinh, ngại gì vết bẩn, quẩy tung nốc!!<br>- Nói thế thôi hãy tập luyện bộ kỹ năng và di chuyển hợp lý vào, sức mạnh thật sự của Wiro còn ở phía sau cơ!!.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game, độ chừng 3 4 món cuối, lại quẩy không chừa ai cả, combo hai chiêu đầu đã mệt mỗi rồi đừng nói đến chiêu cuối nha!!<br>- Khi kẻ địch sợ hải bỏ chạy là lúc Thần lực 212 được gọi ra, vùng chiêu cuối khá rộng khi nổ kèm hất tung, mạnh quá ai chơi!! :P<br>- Vì Nội tại có đến 90 giây hồi, nên để dành cho các pha combat tổng chủ chốt, cứ khô máu rồi lại hồi sinh, kèm theo em TeeMee, cộng giáp Hồi sinh ôi thôi, hồi sinh mãi, đánh chán kk!!",
+  "skill_special": "TocBien,BocPha",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo25",
+        "info": "+1.5 Công vật lý<br>+13.5 Máu"
+      },
+      {
+        "name": "NgocTim28",
+        "info": "+13.5 Máu<br>+0.7% Tốc chạy"
+      },
+      {
+        "name": "NgocXanh23",
+        "info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo36",
+        "info": "Công vật lý +2<br>Xuyên giáp +3.6"
+      },
+      {
+        "name": "NgocTim32",
+        "info": "+1% Tốc đánh<br>+1% Tốc chạy"
+      },
+      {
+        "name": "NgocXanh31",
+        "info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường Caesar",
+      "info": "AoChoangThanRa,GiayHoVe,ThuongLonginus,PhucHopKiem,NanhFenrir,GiapHoMenh"
+    },
+    {
+      "name": "Đường Caesar (thay thế)",
+      "info": "AoChoangThanRa,GiayKienCuong,ThuongLonginus,AoChoangBangGia,KiemMuramasa,GiapHoMenh"
+    },
+    {
+      "name": "Đường Caesar (thử bộ này)",
+      "info": "AoChoangThanRa,GiayHoVe,GiapGaia,KhienHuyenThoai,KiemMuramasa,GiapHoMenh"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "payna",
+          "info": "Payna"
+        },
+        {
+          "hero_id": "cresht",
+          "info": "Cresht"
+        },
+        {
+          "hero_id": "alice",
+          "info": "Alice"
+        },
+        {
+          "hero_id": "ybneth",
+          "info": "Ybneth"
+        },
+        {
+          "hero_id": "baldum",
+          "info": "Baldum"
+        },
+        {
+          "hero_id": "teemee",
+          "info": "TeeMee"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "alice",
+          "info": "Alice"
+        },
+        {
+          "hero_id": "arum",
+          "info": "Arum"
+        },
+        {
+          "hero_id": "annette",
+          "info": "Annette"
+        },
+        {
+          "hero_id": "roxie",
+          "info": "Roxie"
+        },
+        {
+          "hero_id": "omen",
+          "info": "Omen"
+        },
+        {
+          "hero_id": "cresht",
+          "info": "Cresht"
+        }
+      ]
+    }
+  ],
+  "hero_story": "Người trong giang hồ, ngại gì va chạm?<br><i class=\"clr-orange\">Wiro</i> là một chàng điên hiệp nổi tiếng. Có người thích hắn vì cá tính thẳng thắng và phóng khoáng, có người lại chán ghét sự điên điên khùng khùng của hắn. Nhưng <i class=\"clr-orange\">Wiro</i> chẳng bận tâm, người ngoài đánh giá thì liên quan gì - Hắn cứ là chính mình, hưởng thụ cuộc sống và mạo hiểm khám phá thế thôi. Vùng đất mới mẻ này có quá nhiều thứ đang chờ đợi, từ những kẻ địch hắc ám đến vô số nơi để phiêu lưu tìm hiểu.<br>Chẳng có mấy kẻ thật sự không đội trời chung với <i class=\"clr-orange\">Wiro</i>, kể cả những tay tài phiệt thâu tóm quân sự. Dù với cá tính của <i class=\"clr-orange\">Wiro</i>, không trực thì cũng gián tiếp, một ngày nào đó họ sẽ phải đối đầu với nhau. Nhưng chẳng sao, bởi giữa họ và dạng người ưa thích tiếu ngạo giang hồ không chút đam mê quyền lực hay tiền tài như <i class=\"clr-orange\">Wiro</i> vốn không tồn tại mâu thuẫn về lợi ích.<br><i class=\"clr-orange\">Wiro</i> tự do tự tại trải qua vô số cuộc phiêu lưu mạo hiểm, và cũng từng đấy sự tích hào hùng về hắn được lưu truyền. Quả thật đối với chàng <i class=\"clr-orange\">Wiro</i> hài hước và hữu dũng vô số mưu, thiên hạ không thể không gật đầu tấm tắc khen, nhưng cũng đồi thời lắc đầu tự hỏi cớ gì hắn lại cứ lao đầu vào những chốn hiểm nguy?<br>Có người giải thích ấy là do <i class=\"clr-orange\">Wiro</i> vốn không sợ trời không sợ đất, nhưng dĩ nhiên sự thật thì khác xa. Hóa ra bên trong <i class=\"clr-orange\">Wiro</i> ẩn chứa những hai linh hồn. Khi hiểm họa thời không tan vỡ càng ngày càng cận kề, <i class=\"clr-orange\">Wiro</i> của thế giới khác đã cảm nhận được <i class=\"clr-orange\">Wiro</i> của thế giới này đang gặp nguy hiểm, thế là hắn cất công tìm đến tận chốn này để tìm được chính mình.<br>Vốn cùng tu luyện dòng năng lượng 212, ngay khoảnh khắc cả hai chạm mặt, linh hồn của họ đã cộng hưởng. <i class=\"clr-orange\">Wiro</i> của thế giới này cố gắng giải quyết hiểm họa thời không, <i class=\"clr-orange\">Wiro</i> của thế giới bên ngoài cố bảo vệ quê hương khỏi tai ương khủng khiếp. Cả hai cần một sức mạnh phi thường hơn để ngăn chặn tất thảy.<br>Thế là với sức mạnh của năng lượng 212, cả hai <i class=\"clr-orange\">Wiro</i> đã dung hợp thể xác lại làm một. Tuy nhiên do cơ thể chẳng cách nào chứa nổi hai linh hồn cùng lúc, thế là họ chuyển dời linh hồn còn lại vào chiếc rìu 212 thần kỳ, thứ duy nhất đủ hùng mạnh để chứa đựng thứ linh hồn phi thường này. Và đến khi <i class=\"clr-orange\">Wiro</i> gặp nguy hiểm, phần hồn trong chiếc rìu sẽ thức tỉnh để hỗ trợ nhau. Dĩ nhiên với cả thế gian thì <i class=\"clr-orange\">Wiro</i> vẫn là <i class=\"clr-orange\">Wiro</i> mà thôi.<br>Ấy thế cho nên câu cửa miệng của <i class=\"clr-orange\">Wiro</i> thật ra rất thâm thúy.<br>Tiêu diệt được ta thì ta vẫn còn sống!",
+  "hero_skin": [{
+    "name": "Cuồng Chiến Rìu",
+    "gold": "18,888",
+    "voucher": "539",
+    "event": "",
+    "wall": "Wiro01",
+    "disable": "yes",
+    "img": "thumb1.jpg",
+    "video": "Wiro01"
+  }]
 }

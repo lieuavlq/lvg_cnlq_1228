@@ -1,171 +1,173 @@
 {
-	"hero_id": "Ilumia",
-	"hero_name": "Ilumia",
-	"main_info": {
-		"price_gold": "18,888",
-		"price_voucher": "539",
-		"price_text": "",
-		"position": "Pháp sư",
-		"special": "Khống chế / Cấu rỉa",
-		"lane": "Đường giữa"
-	},
-	"main_skill": [{
-			"name": "Thần lực",
-			"info": "Nội tại: Quả cầu ánh sáng sẽ lập tức được làm mới thời gian hồi, đồng thời được cường hóa trong vòng 3s tiếp theo sau mỗi khi Ilumia tung 2 chiêu thức bất kỳ."
-		},
-		{
-			"name": "Quả cầu ánh sáng",
-			"info": "ST Gốc: 300/360/420/480/540/600<br>Ilumia tung quả cầu năng lượng theo hướng chỉ định, thứ sẽ phát nổ khi bay hết tầm hoặc trúng phải mục tiêu, gây sát thương phép. Khi được cường hóa bởi nội tại, Quả cầu ánh sáng sẽ gây sát thương gấp 1,6 lần sát thương trên đường bay và gấp đôi sát thương ở cuối đường bay và hất văng các nạn nhân trúng chiêu<br>Sẽ có thêm một bộ đếm báo hiệu thời gian Quả cầu ánh sáng được cường hoá<br>Bán kính nổ khi được cường hóa: 3"
-		},
-		{
-			"name": "Trục xuất",
-			"info": "ST Gốc: 190/214/238/262/286/310<br>H.Chiêu: 10/9/8/7/6/5<br>Làm chậm: 30%/34%/38%/42%/46%/50%<br>Ilumia đẩy lùi mọi kẻ địch lân cận, gây 190 (+0.4 công phép) STP đồng thời làm chậm 30% tốc chạy trong 1s."
-		},
-		{
-			"name": "Thần trận",
-			"info": "ST Gốc: 640/820/1000<br>H.Chiêu: 70/60/50<br>Ilumia triệu hồi pháp trận chứa đầy sức mạnh thần thánh ngay vị trí hiện tại của tất cả tướng địch, gây 640 (+0) STP, đồng thời làm choáng các nạn nhân.<br>Sau khi kích hoạt chiêu thức sẽ cho phép hiển thị vị trí mục tiêu."
-		}
-	],
-	"skill_up": {
-		"line1": "1,3,5,7,9,11",
-		"line2": "2,6,10,13,14,15",
-		"line3": "4,8,12"
-	},
-	"skill_combo": [{
-			"name": "*Combo đầu game",
-			"info": "2,3,2,0"
-		},
-		{
-			"name": "*Combo khi có đủ 3 kỹ năng",
-			"info": "2,3,2,4,2,0"
-		}
-	],
-	"skill_note": "*Chiêu 1 hưởng reset và cường hóa từ Nội tại vì thế đây là chiêu khá độc đáo và khá mạnh của cô nàng.<br>*Bật Thần Trận trong các pha giao tranh tổng khiến kẻ địch phải dè chừng.",
-	"skill_special": "TocBien,TocHanh",
-	"main_rune": {
-		"rune2": [{
-				"name": "NgocDo24",
-				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
-			},
-			{
-				"name": "NgocTim23",
-				"info": "Công phép +1.4 <br>Hút máu phép +0.8%<br>Giáp phép +1.6"
-			},
-			{
-				"name": "NgocXanh21",
-				"info": "Tốc đánh +0.4%<br>Giảm hồi chiêu +0.5%"
-			}
-		],
-		"rune3": [{
-				"name": "NgocDo31",
-				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
-			},
-			{
-				"name": "NgocTim36",
-				"info": "Công phép +2.4<br>Hút máu phép +1%"
-			},
-			{
-				"name": "NgocXanh33",
-				"info": "Công phép +2.4<br>Giảm hồi chiêu +0.7%"
-			}
-		]
-	},
-	"item_build": [{
-			"name": "Đường giữa",
-			"info": "PhuongHoangLe,GiayPhuThuy,TruongBang,VuongMiengHecate,MatNaBerith,TruongHonMang"
-		},
-		{
-			"name": "Đường giữa",
-			"info": "NgocDaiPhapSu,GiayThuatSi,QuyenTruongRhea,TruongHonMang,VuongMiengHecate,SachThanh"
-		},
-		{
-			"name": "Game thủ hay lên",
-			"info": "NgocDaiPhapSu,GiayThuatSi,VuongMiengHecate,TruongBang,SachThanh,DayChuyenLucBao"
-		}
-	],
-	"hero_battle": [{
-			"name": "chơi trên cơ",
-			"desc": "dễ dàng chiến thắng khi gặp",
-			"info": [{
-					"hero_id": "arthur",
-					"id_page": "Arthur"
-				},
-				{
-					"hero_id": "payna",
-					"id_page": "Payna"
-				},
-				{
-					"hero_id": "dieu_thuyen",
-					"id_page": "DieuThuyen"
-				}
-			]
-		},
-		{
-			"name": "và cách khắc chế",
-			"desc": "thấy khó chịu khi gặp",
-			"info": [{
-					"hero_id": "alice",
-					"id_page": "Alice"
-				},
-				{
-					"hero_id": "zill",
-					"id_page": "Zill"
-				},
-				{
-					"hero_id": "chaugnar",
-					"id_page": "Chaugnar"
-				},
-				{
-					"hero_id": "ngo_khong",
-					"id_page": "NgoKhong"
-				},
-				{
-					"hero_id": "kriknak",
-					"id_page": "Kriknak"
-				}
-			]
-		}
-	],
-	"hero_story": "<i class=\"clr-orange\">Ilumia</i> sở hữu mọi thứ: nhan sắc, thông thái, sức mạnh, vinh quang, và quyền lực. Nếu Maloch đại diện cho thế lực bóng tối, <i class=\"clr-orange\">Ilumia</i> đại diện cho thế quyền uy ánh sáng. Mọi tướng đều trở nên lu mờ trước <i class=\"clr-orange\">Ilumia</i>. Cô không bao giờ để lộ diện mạo của mình, vì vẫn còn đó một danh tính cô cần duy trì: Nữ thần ánh sáng.<br>Sự thánh khiết, cao quý, đầy thanh tao của cô khiến tất cả đều tin rằng <i class=\"clr-orange\">Ilumia</i> chính là nữ thần mang đến hy vọng và ánh sáng cho nhân loại. Cung điện ánh sáng được dựng nên chính bởi thứ niềm tin này. Thời gian trôi qua niềm tin này không hề phai nhạt đi mà ngày càng trở nên vững chắc hơn, giúp những tín đồ kiên tâm trước các cám dỗ bóng tối.<br>Là một nhà lãnh đạo tài ba, <i class=\"clr-orange\">Ilumia</i> tinh thông cả đối nội lẫn đối ngoại. Dẫu rằng quyền uy của Thane như mặt trời buổi ban trưa, cô vẫn giải phóng được Cung điện khỏi các ràng buộc của Lâu đài Khởi nguyên. Đồng thời cô hợp sức cùng Rừng chạng vạng đánh bật được các cuộc tấn công của lực lượng Sa đọa. <i class=\"clr-orange\">Ilumia</i> sẽ chẳng bao giờ để quyền lực tuột khỏi tầm khống chế của bản thân.",
-	"hero_skin": [{
-			"name": "Nữ Thần Ánh Sáng",
-			"gold": "18,888",
-			"voucher": "539",
-			"event": "",
-			"wall": "Ilumia01",
-			"disable": "",
-			"img": "thumb1.jpg",
-			"video": "Ilumia01"
-		},
-		{
-			"name": "Nữ Chúa Tuyết (Bậc A)",
-			"gold": "",
-			"voucher": "219",
-			"event": "",
-			"wall": "Ilumia02",
-			"disable": "",
-			"img": "thumb2.jpg",
-			"video": ""
-		},
-		{
-			"name": "Hồng Hoa Hậu (Bậc S)",
-			"gold": "",
-			"voucher": "379",
-			"event": "",
-			"wall": "Ilumia03",
-			"disable": "",
-			"img": "thumb3.jpg",
-			"video": ""
-		},
-		{
-			"name": "Thiên Nữ Áo Dài (Bậc S)",
-			"gold": "",
-			"voucher": "449",
-			"event": "",
-			"wall": "Ilumia04",
-			"disable": "",
-			"img": "thumb4.jpg",
-			"video": ""
-		}
-	]
+  "hero_id": "Ilumia",
+  "hero_name": "Ilumia",
+  "main_info": {
+    "price_gold": "18,888",
+    "price_voucher": "539",
+    "price_text": "",
+    "position": "Pháp sư",
+    "special": "Khống chế / Cấu rỉa",
+    "lane": "Đường giữa"
+  },
+  "main_skill": [{
+      "name": "Thần lực",
+      "info": "Nội tại: Quả cầu ánh sáng sẽ lập tức được làm mới thời gian hồi, đồng thời được cường hóa trong vòng 3s tiếp theo sau mỗi khi Ilumia tung 2 chiêu thức bất kỳ."
+    },
+    {
+      "name": "Quả cầu ánh sáng",
+      "info": "ST Gốc: 300/360/420/480/540/600<br>Ilumia tung quả cầu năng lượng theo hướng chỉ định, thứ sẽ phát nổ khi bay hết tầm hoặc trúng phải mục tiêu, gây sát thương phép. Khi được cường hóa bởi nội tại, Quả cầu ánh sáng sẽ gây sát thương gấp 1,6 lần sát thương trên đường bay và gấp đôi sát thương ở cuối đường bay và hất văng các nạn nhân trúng chiêu<br>Sẽ có thêm một bộ đếm báo hiệu thời gian Quả cầu ánh sáng được cường hoá<br>Bán kính nổ khi được cường hóa: 3"
+    },
+    {
+      "name": "Trục xuất",
+      "info": "ST Gốc: 190/214/238/262/286/310<br>H.Chiêu: 10/9/8/7/6/5<br>Làm chậm: 30%/34%/38%/42%/46%/50%<br>Ilumia đẩy lùi mọi kẻ địch lân cận, gây 190 (+0.4 công phép) STP đồng thời làm chậm 30% tốc chạy trong 1s."
+    },
+    {
+      "name": "Thần trận",
+      "info": "ST Gốc: 640/820/1000<br>H.Chiêu: 70/60/50<br>Ilumia triệu hồi pháp trận chứa đầy sức mạnh thần thánh ngay vị trí hiện tại của tất cả tướng địch, gây 640 (+0) STP, đồng thời làm choáng các nạn nhân.<br>Sau khi kích hoạt chiêu thức sẽ cho phép hiển thị vị trí mục tiêu."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,3,2,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 kỹ năng",
+      "info": "2,3,2,4,2,0"
+    }
+  ],
+  "skill_note": "*Chiêu 1 hưởng reset và cường hóa từ Nội tại vì thế đây là chiêu khá độc đáo và khá mạnh của cô nàng.<br>*Bật Thần Trận trong các pha giao tranh tổng khiến kẻ địch phải dè chừng.",
+  "skill_special": "TocBien,TocHanh",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo24",
+        "info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+      },
+      {
+        "name": "NgocTim23",
+        "info": "Công phép +1.4 <br>Hút máu phép +0.8%<br>Giáp phép +1.6"
+      },
+      {
+        "name": "NgocXanh21",
+        "info": "Tốc đánh +0.4%<br>Giảm hồi chiêu +0.5%"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo31",
+        "info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+      },
+      {
+        "name": "NgocTim36",
+        "info": "Công phép +2.4<br>Hút máu phép +1%"
+      },
+      {
+        "name": "NgocXanh33",
+        "info": "Công phép +2.4<br>Giảm hồi chiêu +0.7%"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường giữa",
+      "info": "PhuongHoangLe,GiayPhuThuy,TruongBang,VuongMiengHecate,MatNaBerith,TruongHonMang"
+    },
+    {
+      "name": "Đường giữa",
+      "info": "NgocDaiPhapSu,GiayThuatSi,QuyenTruongRhea,TruongHonMang,VuongMiengHecate,SachThanh"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "NgocDaiPhapSu,GiayThuatSi,VuongMiengHecate,TruongBang,SachThanh,DayChuyenLucBao"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Chơi trên cơ",
+      "info": [{
+          "hero_id": "arthur",
+          "info": "Arthur"
+        },
+        {
+          "hero_id": "payna",
+          "info": "Payna"
+        },
+        {
+          "hero_id": "dieu_thuyen",
+          "info": "DieuThuyen"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "alice",
+          "info": "Alice"
+        },
+        {
+          "hero_id": "zill",
+          "info": "Zill"
+        },
+        {
+          "hero_id": "chaugnar",
+          "info": "Chaugnar"
+        },
+        {
+          "hero_id": "ngo_khong",
+          "info": "NgoKhong"
+        },
+        {
+          "hero_id": "kriknak",
+          "info": "Kriknak"
+        }
+      ]
+    }
+  ],
+  "hero_story": "<i class=\"clr-orange\">Ilumia</i> sở hữu mọi thứ: nhan sắc, thông thái, sức mạnh, vinh quang, và quyền lực. Nếu Maloch đại diện cho thế lực bóng tối, <i class=\"clr-orange\">Ilumia</i> đại diện cho thế quyền uy ánh sáng. Mọi tướng đều trở nên lu mờ trước <i class=\"clr-orange\">Ilumia</i>. Cô không bao giờ để lộ diện mạo của mình, vì vẫn còn đó một danh tính cô cần duy trì: Nữ thần ánh sáng.<br>Sự thánh khiết, cao quý, đầy thanh tao của cô khiến tất cả đều tin rằng <i class=\"clr-orange\">Ilumia</i> chính là nữ thần mang đến hy vọng và ánh sáng cho nhân loại. Cung điện ánh sáng được dựng nên chính bởi thứ niềm tin này. Thời gian trôi qua niềm tin này không hề phai nhạt đi mà ngày càng trở nên vững chắc hơn, giúp những tín đồ kiên tâm trước các cám dỗ bóng tối.<br>Là một nhà lãnh đạo tài ba, <i class=\"clr-orange\">Ilumia</i> tinh thông cả đối nội lẫn đối ngoại. Dẫu rằng quyền uy của Thane như mặt trời buổi ban trưa, cô vẫn giải phóng được Cung điện khỏi các ràng buộc của Lâu đài Khởi nguyên. Đồng thời cô hợp sức cùng Rừng chạng vạng đánh bật được các cuộc tấn công của lực lượng Sa đọa. <i class=\"clr-orange\">Ilumia</i> sẽ chẳng bao giờ để quyền lực tuột khỏi tầm khống chế của bản thân.",
+  "hero_skin": [{
+      "name": "Nữ Thần Ánh Sáng",
+      "gold": "18,888",
+      "voucher": "539",
+      "event": "",
+      "wall": "Ilumia01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": "Ilumia01"
+    },
+    {
+      "name": "Nữ Chúa Tuyết (Bậc A)",
+      "gold": "",
+      "voucher": "219",
+      "event": "",
+      "wall": "Ilumia02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": ""
+    },
+    {
+      "name": "Hồng Hoa Hậu (Bậc S)",
+      "gold": "",
+      "voucher": "379",
+      "event": "",
+      "wall": "Ilumia03",
+      "disable": "",
+      "img": "thumb3.jpg",
+      "video": ""
+    },
+    {
+      "name": "Thiên Nữ Áo Dài (Bậc S)",
+      "gold": "",
+      "voucher": "449",
+      "event": "",
+      "wall": "Ilumia04",
+      "disable": "",
+      "img": "thumb4.jpg",
+      "video": ""
+    }
+  ]
 }

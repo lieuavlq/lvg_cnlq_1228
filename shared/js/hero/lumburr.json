@@ -1,143 +1,147 @@
 {
-	"hero_id": "Lumburr",
-	"hero_name": "Lumburr",
-	"main_info": {
-		"price_gold": "13,888",
-		"price_voucher": "359",
-		"price_text": "",
-		"position": "Đỡ đòn / Trợ thủ",
-		"special": "Khống chế / Yểm hộ",
-		"lane": "Đường rồng"
-	},
-	"main_skill": [{
-			"name": "Ỷ mạnh vệ yếu",
-			"info": "Nội tại: Lumburr giúp đồng đội có lượng máu  thấp nhất trong bán kính 500 xung quanh 80 giáp và giáp phép."
-		},
-		{
-			"name": "Đất bằng dậy sóng",
-			"info": "ST Gốc: 230/280/330/380/430/480<br>Giảm st: 15%/17%/19%/21%/23%/25%<br>Lumburr giận dữ đấm xuống đất hất văng đất đá, gây 230 (+1156) STVL. Kẻ địch trúng chiêu sẽ chịu suy yếu, bị giảm 15% STVL và phép gây ra (chỉ hiệu lực với tướng), hiệu ứng kéo dài 3s."
-		},
-		{
-			"name": "Bất khả cản phá",
-			"info": "H.Chiêu: 13/12.4/11.8/11.2/10.6/10<br>Năng lượng：75/80/85/90/95/100<br>.Lumburr xông về phía trước gây 300/340/380/420/460/500 (+95) STVL đồng thời hất văng những kẻ địch trúng chiêu. Sau khi rớt xuống đất nạn nhân sẽ bị làm chậm 50% trong 1s. Đồng đội trúng chiêu sẽ nhận 450/505/560/615/670/725 (+78) lá chắn và 115% tốc chạy trong 3s."
-		},
-		{
-			"name": "Long trời lở đất",
-			"info": "H.Chiêu: 36/33/30<br>Năng lượng： 120/140/160<br>Lumburr nổi thịnh nộ tạo ra 11 cơn động đát hất văng kẻ địch, gây 520/650/780 (+168) STVL. Khê nứt khiến những nạn nhân còn bên trong sẽ bị làm chậm 60% tốc chạy và chịu 52/65/78 (+16) STVL mỗi giây trong 5s."
-		}
-	],
-	"skill_up": {
-		"line1": "1,3,5,7,9,11",
-		"line2": "2,6,10,13,14,15",
-		"line3": "4,8,12"
-	},
-	"skill_combo": [{
-			"name": "*Combo đầu game",
-			"info": "3,0,2"
-		},
-		{
-			"name": "*Combo khi có đủ 3 kỹ năng",
-			"info": "4,3,2,0"
-		}
-	],
-	"skill_note": "*Cố gắng hất tung nhiều kẻ địch nhất có thể.",
-	"skill_special": "CapCuu,BocPha",
-	"main_rune": {
-		"rune2": [{
-				"name": "NgocDo25",
-				"info": "Công vật lý +1.5<br>Máu tối đa +13.5"
-			},
-			{
-				"name": "NgocTim25",
-				"info": "Máu tối đa +45"
-			},
-			{
-				"name": "NgocXanh22",
-				"info": "Máu tối đa +15.7<br>Hồi máu/5s +3.1<br>Giảm hồi chiêu +0.3%"
-			}
-		],
-		"rune3": [{
-				"name": "NgocDo34",
-				"info": "Công vật lý +3.2"
-			},
-			{
-				"name": "NgocTim39",
-				"info": "Máu tối đa +75"
-			},
-			{
-				"name": "NgocXanh34",
-				"info": "Máu tối đa +37.5<br>Giảm hồi chiêu +0.6%"
-			}
-		]
-	},
-	"item_build": [{
-			"name": "Chơi hỗ trợ",
-			"info": "LenhBaiPhongThan,GiayKienCuong,KhienHuyenThoai,HuanChuongTroy,HerculeThinhNo,KhienThatTruyen"
-		},
-		{
-			"name": "Chơi hỗ trợ",
-			"info": "LenhBaiPhongThan,GiayHoVe,GiapGaia,KhienHuyenThoai,AoChoangBangGia,PhuChuTruongSinh"
-		},
-		{
-			"name": "Đường Caesar",
-			"info": "AoChoangThanRa,GiayHoVe,KhienHuyenThoai,GiapGaia,HuanChuongTroy,GiapHoMenh"
-		}
-	],
-	"hero_battle": [{
-			"name": "và đồng đội",
-			"desc": "phù hợp khi chơi cùng",
-			"info": [{
-					"hero_id": "violet",
-					"id_page": "Violet"
-				},
-				{
-					"hero_id": "omega",
-					"id_page": "Omega"
-				},
-				{
-					"hero_id": "nakroth",
-					"id_page": "Nakroth"
-				},
-				{
-					"hero_id": "natalya",
-					"id_page": "Natalya"
-				}
-			]
-		},
-		{
-			"name": "và cách khắc chế",
-			"desc": "thấy khó chịu khi gặp",
-			"info": [{
-					"hero_id": "ormarr",
-					"id_page": "Ormarr"
-				},
-				{
-					"hero_id": "toro",
-					"id_page": "Toro"
-				}
-			]
-		}
-	],
-	"hero_story": "\"Chiến tranh tàn phá đất đai. Đất đai tàn phá chiến tranh!\"<br>Đất đai là một trong những nguyên tố cơ bản của thế giới. Và <i class=\"clr-orange\">Lumburr</i>, một trong những trường hợp đặc biệt nhất của các kỳ tích hi hữu, được kế thừa toàn bộ ý thức từ đất mẹ. Hắn lẳng lặng bảo vệ tất cả những sinh linh trên vùng đất này đã hàng ngàn năm trôi qua.<br>Nguyên tắc của <i class=\"clr-orange\">Lumburr</i> thật ra rất đơn giản, hắn không hề can dự gì đến tất cả những quỹ đạo vận động của thế giới tự nhiên. Bất kể hành vi dù là mạnh được yếu thua, ỷ mạnh hiếp yếu... hắn đều điềm nhiên quan sát và chỉ quan sát mà thôi. Thế nhưng, khi quân đoàn ác quỷ ngoại giới muốn xâm lược thế giới này, thời điểm hắn xuất thế đã điểm.<br><i class=\"clr-orange\">Lumburr</i> rời khỏi núi rừng, nơi nghỉ ngơi hàng ngàn năm qua, để gia nhập đội quân bảo vệ thế giới. Trước bầy ác quỷ hung hãn, <i class=\"clr-orange\">Lumburr</i> luôn là một lớp lá chắn đáng tin cậy. Đã từng có lần hàng ngàn đợt ác quỷ công kích liên tục, nhưng <i class=\"clr-orange\">Lumburr</i> vẫn sừng sững hiên ngang đầy vững chãi. Trước một thế lực bảo vệ đầy hùng mạnh như thế, đến cả biển ác quỷ cũng đành phải bó tay rút lui.<br>\"Vùng đất này sẽ luôn được ta bảo vệ\"",
-	"hero_skin": [{
-			"name": "Khổng Lồ Lục Địa",
-			"gold": "13,888",
-			"voucher": "359",
-			"event": "",
-			"wall": "Lumburr01",
-			"disable": "",
-			"img": "thumb1.jpg",
-			"video": ""
-		},
-		{
-			"name": "Dung Nham (Bậc A)",
-			"gold": "",
-			"voucher": "270",
-			"event": "",
-			"wall": "Lumburr02",
-			"disable": "",
-			"img": "thumb2.jpg",
-			"video": ""
-		}
-	]
+  "hero_id": "Lumburr",
+  "hero_name": "Lumburr",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Đỡ đòn / Trợ thủ",
+    "special": "Khống chế / Yểm hộ",
+    "lane": "Đường rồng"
+  },
+  "main_skill": [{
+      "name": "Ỷ mạnh vệ yếu",
+      "info": "Nội tại: Lumburr giúp đồng đội có lượng máu  thấp nhất trong bán kính 500 xung quanh 80 giáp và giáp phép."
+    },
+    {
+      "name": "Đất bằng dậy sóng",
+      "info": "ST Gốc: 230/280/330/380/430/480<br>Giảm st: 15%/17%/19%/21%/23%/25%<br>Lumburr giận dữ đấm xuống đất hất văng đất đá, gây 230 (+1156) STVL. Kẻ địch trúng chiêu sẽ chịu suy yếu, bị giảm 15% STVL và phép gây ra (chỉ hiệu lực với tướng), hiệu ứng kéo dài 3s."
+    },
+    {
+      "name": "Bất khả cản phá",
+      "info": "H.Chiêu: 13/12.4/11.8/11.2/10.6/10<br>Năng lượng：75/80/85/90/95/100<br>.Lumburr xông về phía trước gây 300/340/380/420/460/500 (+95) STVL đồng thời hất văng những kẻ địch trúng chiêu. Sau khi rớt xuống đất nạn nhân sẽ bị làm chậm 50% trong 1s. Đồng đội trúng chiêu sẽ nhận 450/505/560/615/670/725 (+78) lá chắn và 115% tốc chạy trong 3s."
+    },
+    {
+      "name": "Long trời lở đất",
+      "info": "H.Chiêu: 36/33/30<br>Năng lượng： 120/140/160<br>Lumburr nổi thịnh nộ tạo ra 11 cơn động đát hất văng kẻ địch, gây 520/650/780 (+168) STVL. Khê nứt khiến những nạn nhân còn bên trong sẽ bị làm chậm 60% tốc chạy và chịu 52/65/78 (+16) STVL mỗi giây trong 5s."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "3,0,2"
+    },
+    {
+      "name": "*Combo khi có đủ 3 kỹ năng",
+      "info": "4,3,2,0"
+    }
+  ],
+  "skill_note": "*Cố gắng hất tung nhiều kẻ địch nhất có thể.",
+  "skill_special": "CapCuu,BocPha",
+  "main_rune": [{
+      "name": "*Ngọc cấp 2",
+      "info": [{
+          "name": "NgocDo25",
+          "info": "Công vật lý +1.5<br>Máu tối đa +13.5"
+        },
+        {
+          "name": "NgocTim25",
+          "info": "Máu tối đa +45"
+        },
+        {
+          "name": "NgocXanh22",
+          "info": "Máu tối đa +15.7<br>Hồi máu/5s +3.1<br>Giảm hồi chiêu +0.3%"
+        }
+      ]
+    },
+    {
+      "name": "*Ngọc cấp 3",
+      "info": [{
+          "name": "NgocDo34",
+          "info": "Công vật lý +3.2"
+        },
+        {
+          "name": "NgocTim39",
+          "info": "Máu tối đa +75"
+        },
+        {
+          "name": "NgocXanh34",
+          "info": "Máu tối đa +37.5<br>Giảm hồi chiêu +0.6%"
+        }
+      ]
+    }
+  ],
+  "item_build": [{
+      "name": "Chơi hỗ trợ",
+      "info": "LenhBaiPhongThan,GiayKienCuong,KhienHuyenThoai,HuanChuongTroy,HerculeThinhNo,KhienThatTruyen"
+    },
+    {
+      "name": "Chơi hỗ trợ",
+      "info": "LenhBaiPhongThan,GiayHoVe,GiapGaia,KhienHuyenThoai,AoChoangBangGia,PhuChuTruongSinh"
+    },
+    {
+      "name": "Đường Caesar",
+      "info": "AoChoangThanRa,GiayHoVe,KhienHuyenThoai,GiapGaia,HuanChuongTroy,GiapHoMenh"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "omega",
+          "info": "Omega"
+        },
+        {
+          "hero_id": "nakroth",
+          "info": "Nakroth"
+        },
+        {
+          "hero_id": "natalya",
+          "info": "Natalya"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "ormarr",
+          "info": "Ormarr"
+        },
+        {
+          "hero_id": "toro",
+          "info": "Toro"
+        }
+      ]
+    }
+  ],
+  "hero_story": "\"Chiến tranh tàn phá đất đai. Đất đai tàn phá chiến tranh!\"<br>Đất đai là một trong những nguyên tố cơ bản của thế giới. Và <i class=\"clr-orange\">Lumburr</i>, một trong những trường hợp đặc biệt nhất của các kỳ tích hi hữu, được kế thừa toàn bộ ý thức từ đất mẹ. Hắn lẳng lặng bảo vệ tất cả những sinh linh trên vùng đất này đã hàng ngàn năm trôi qua.<br>Nguyên tắc của <i class=\"clr-orange\">Lumburr</i> thật ra rất đơn giản, hắn không hề can dự gì đến tất cả những quỹ đạo vận động của thế giới tự nhiên. Bất kể hành vi dù là mạnh được yếu thua, ỷ mạnh hiếp yếu... hắn đều điềm nhiên quan sát và chỉ quan sát mà thôi. Thế nhưng, khi quân đoàn ác quỷ ngoại giới muốn xâm lược thế giới này, thời điểm hắn xuất thế đã điểm.<br><i class=\"clr-orange\">Lumburr</i> rời khỏi núi rừng, nơi nghỉ ngơi hàng ngàn năm qua, để gia nhập đội quân bảo vệ thế giới. Trước bầy ác quỷ hung hãn, <i class=\"clr-orange\">Lumburr</i> luôn là một lớp lá chắn đáng tin cậy. Đã từng có lần hàng ngàn đợt ác quỷ công kích liên tục, nhưng <i class=\"clr-orange\">Lumburr</i> vẫn sừng sững hiên ngang đầy vững chãi. Trước một thế lực bảo vệ đầy hùng mạnh như thế, đến cả biển ác quỷ cũng đành phải bó tay rút lui.<br>\"Vùng đất này sẽ luôn được ta bảo vệ\"",
+  "hero_skin": [{
+      "name": "Khổng Lồ Lục Địa",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Lumburr01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": ""
+    },
+    {
+      "name": "Dung Nham (Bậc A)",
+      "gold": "",
+      "voucher": "270",
+      "event": "",
+      "wall": "Lumburr02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": ""
+    }
+  ]
 }

@@ -1,145 +1,149 @@
 {
-	"hero_id": "Mganga",
-	"hero_name": "Mganga",
-	"main_info": {
-		"price_gold": "13,888",
-		"price_voucher": "359",
-		"price_text": "",
-		"position": "Pháp sư / Trợ Thủ",
-		"special": "Cấu rỉa / Khôi phục",
-		"lane": "Đường giữa"
-	},
-	"main_skill": [{
-			"name": "Tà thuật",
-			"info": "Nội tại: Các đòn đánh thường và chiêu thức đều kèm theo hiệu ứng độc, gây 25 (+0) STP và cộng dồn 1 ấn tà thuật, tối đa 5 ấn."
-		},
-		{
-			"name": "Độc khí",
-			"info": "ST Gốc: 60/66/72/78/84/90<br>H.Chiêu: 12/11.4/10.8/10.2/9.6/9<br>Mganga tạo ra 1 vùng khói độc tại vùng chỉ định trong 4s. Làn khói này dần lan rộng ra và gây 60 (+0.16 công phép) STP, kèm hiệu ứng làm chậm 30% tốc chạy của các nạn nhân tại vùng ảnh hưởng trong 2s, chiêu thức có thể tích trữ tối đa 2 lần, thời gian nạp đạn giữa 2 điểm tích lũy là 2s."
-		},
-		{
-			"name": "Độc tố",
-			"info": "ST Gốc: 90/103/116/129/142/155<br>Mganga phóng độc theo hướng chỉ định gây 90 (+0) STP lên những kẻ địch trúng chiêu. Nếu mục tiêu là tướng đồng minh, họ sẽ được yểm dấu ấn giúp hồi máu."
-		},
-		{
-			"name": "Độc dược",
-			"info": "ST Gốc: 120/180/240<br>H.Chiêu: 18/15/12<br>Mganga kích nổ tất cả Ấn tà thuật lân cận, gây 120 (+0) STP lên các nạn nhân, và hồi 120 (+0) máu cho tướng đồng minh, mỗi dấu ấn cộng dồn gây thêm 120 (+0) STP và tăng 50% hiệu lực hồi phục."
-		}
-	],
-	"skill_up": {
-		"line1": "1,3,6,9,11,14",
-		"line2": "2,5,7,10,13,15",
-		"line3": "4,8,12"
-	},
-	"skill_combo": [{
-			"name": "*Combo đầu game",
-			"info": "2,0,3,0"
-		},
-		{
-			"name": "*Combo khi có đủ 3 kỹ năng (đủ 5 dấu ấn thì dùng chiêu cuối)",
-			"info": "2,0,3,0,4"
-		}
-	],
-	"skill_note": "*Hãy nhớ đủ 5 điểm Nội tại rồi dùng Chiêu cuối cho hiệu quả nhất.",
-	"skill_special": "TocBien,CapCuu,TocHanh",
-	"main_rune": {
-		"rune2": [{
-				"name": "NgocDo24",
-				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
-			},
-			{
-				"name": "NgocTim22",
-				"info": "Công phép +1.4<br>Hút máu phép +0.8%<br>Giáp phép +1.6"
-			},
-			{
-				"name": "NgocXanh28",
-				"info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
-			}
-		],
-		"rune3": [{
-				"name": "NgocDo31",
-				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
-			},
-			{
-				"name": "NgocTim32",
-				"info": "Tốc đánh +1%<br>Tốc chạy +1%"
-			},
-			{
-				"name": "NgocXanh310",
-				"info": "Tốc đánh +0.6%<br>Xuyên giáp phép +6.4"
-			}
-		]
-	},
-	"item_build": [{
-			"name": "Đường giữa (xong món cuối có thể bán Phượng hoàng lệ mua món khác tùy trận đấu)",
-			"info": "PhuongHoangLe,GiayKienCuong,TruongBang,MatNaBerith,VuongMiengHecate,TruongBungNo"
-		},
-		{
-			"name": "Đường giữa (như trên)",
-			"info": "PhuongHoangLe,GiayHermes,TruongBang,AoChoangBangGia,VuongMiengHecate,SachTruyHon"
-		}
-	],
-	"hero_battle": [{
-			"name": "và đồng đội",
-			"desc": "thích hợp đi cùng các tướng bảo kê",
-			"info": [{
-					"hero_id": "toro",
-					"id_page": "Toro"
-				},
-				{
-					"hero_id": "butterfly",
-					"id_page": "Butterfly"
-				}
-			]
-		},
-		{
-			"name": "và cách khắc chế",
-			"desc": "thấy khó chịu khi gặp các tướng sau",
-			"info": [{
-					"hero_id": "krixi",
-					"id_page": "Krixi"
-				},
-				{
-					"hero_id": "nakroth",
-					"id_page": "Nakroth"
-				},
-				{
-					"hero_id": "zephys",
-					"id_page": "Zephys"
-				}
-			]
-		}
-	],
-	"hero_story": "\"Quyền lực là thứ duy nhất đáng để theo đuổi.\"<br>Sự khát khao quyền lực đã khiến <i class=\"clr-orange\">Mganga</i> đi theo con đường ma thuật hắc ám. Trước khi bộ tộc của hắn được thành lập, <i class=\"clr-orange\">Mganga</i> đã lên kế hoạch thu thập những con thú mạnh nhất để đổi chúng lấy nguồn ma thuật hắc ám từ lũ quỷ. Kế hoạch của hắn nhanh chóng bị các thầy tu phát giác và ngăn chặn. Khắc sâu mối thù này vào trong tim, <i class=\"clr-orange\">Mganga</i> tìm cách tiêu diệt từng người, từng người một trong hội đồng các thầy tu. Hắn sát hại họ một cách dã man.<br>Trước sự tàn ác của <i class=\"clr-orange\">Mganga</i>, người dân lúc nào cũng cảm giác bất an, ám ảnh và sợ hãi. Cho đến khi sự điên rồ, vô nhân đạo vượt ngoài sự chịu đựng đã buộc dân chúng cùng đoàn kết lại, đứng lên chống lại hắn. Bị bao vây, nhưng nhờ vào khả sự khôn ranh của mình, hắn vẫn trốn được vào Khu rừng Chết chóc. Ẩn mình trong khu đầm lầy bao quanh là rất nhiều loài rắn độc, hắn tiếp tục nghiên cứu về ma thuật đen.<br>Dưới sự trợ giúp của thế lực hắc ám, <i class=\"clr-orange\">Mganga</i> giờ đây thông thạo ma thuật hắc ám hơn bao giờ hết.<br>\"Kẻ yếu chỉ có thể thu mình lại trước quyền lực, trong khi kẻ mạnh dùng nó để thống trị.\"",
-	"hero_skin": [{
-			"name": "Tên Hề Ma Quái",
-			"gold": "13,888",
-			"voucher": "359",
-			"event": "",
-			"wall": "Mganga01",
-			"disable": "",
-			"img": "thumb1.jpg",
-			"video": "Mganga01"
-		},
-		{
-			"name": "Hề Cung Đình (Bậc A)",
-			"gold": "",
-			"voucher": "450",
-			"event": "",
-			"wall": "Mganga02",
-			"disable": "",
-			"img": "thumb2.jpg",
-			"video": "Mganga02"
-		},
-		{
-			"name": "Tiệc Bánh Kẹo (Bậc A)",
-			"gold": "",
-			"voucher": "309",
-			"event": "",
-			"wall": "Mganga02",
-			"disable": "",
-			"img": "thumb3.jpg",
-			"video": "Mganga03"
-		}
-	]
+  "hero_id": "Mganga",
+  "hero_name": "Mganga",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Pháp sư / Trợ Thủ",
+    "special": "Cấu rỉa / Khôi phục",
+    "lane": "Đường giữa"
+  },
+  "main_skill": [{
+      "name": "Tà thuật",
+      "info": "Nội tại: Các đòn đánh thường và chiêu thức đều kèm theo hiệu ứng độc, gây 25 (+0) STP và cộng dồn 1 ấn tà thuật, tối đa 5 ấn."
+    },
+    {
+      "name": "Độc khí",
+      "info": "ST Gốc: 60/66/72/78/84/90<br>H.Chiêu: 12/11.4/10.8/10.2/9.6/9<br>Mganga tạo ra 1 vùng khói độc tại vùng chỉ định trong 4s. Làn khói này dần lan rộng ra và gây 60 (+0.16 công phép) STP, kèm hiệu ứng làm chậm 30% tốc chạy của các nạn nhân tại vùng ảnh hưởng trong 2s, chiêu thức có thể tích trữ tối đa 2 lần, thời gian nạp đạn giữa 2 điểm tích lũy là 2s."
+    },
+    {
+      "name": "Độc tố",
+      "info": "ST Gốc: 90/103/116/129/142/155<br>Mganga phóng độc theo hướng chỉ định gây 90 (+0) STP lên những kẻ địch trúng chiêu. Nếu mục tiêu là tướng đồng minh, họ sẽ được yểm dấu ấn giúp hồi máu."
+    },
+    {
+      "name": "Độc dược",
+      "info": "ST Gốc: 120/180/240<br>H.Chiêu: 18/15/12<br>Mganga kích nổ tất cả Ấn tà thuật lân cận, gây 120 (+0) STP lên các nạn nhân, và hồi 120 (+0) máu cho tướng đồng minh, mỗi dấu ấn cộng dồn gây thêm 120 (+0) STP và tăng 50% hiệu lực hồi phục."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,6,9,11,14",
+    "line2": "2,5,7,10,13,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,0,3,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 kỹ năng (đủ 5 dấu ấn thì dùng chiêu cuối)",
+      "info": "2,0,3,0,4"
+    }
+  ],
+  "skill_note": "*Hãy nhớ đủ 5 điểm Nội tại rồi dùng Chiêu cuối cho hiệu quả nhất.",
+  "skill_special": "TocBien,CapCuu,TocHanh",
+  "main_rune": [{
+      "name": "*Ngọc cấp 2",
+      "info": [{
+          "name": "NgocDo24",
+          "info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+        },
+        {
+          "name": "NgocTim22",
+          "info": "Công phép +1.4<br>Hút máu phép +0.8%<br>Giáp phép +1.6"
+        },
+        {
+          "name": "NgocXanh28",
+          "info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
+        }
+      ]
+    },
+    {
+      "name": "*Ngọc cấp 3",
+      "info": [{
+          "name": "NgocDo31",
+          "info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+        },
+        {
+          "name": "NgocTim32",
+          "info": "Tốc đánh +1%<br>Tốc chạy +1%"
+        },
+        {
+          "name": "NgocXanh310",
+          "info": "Tốc đánh +0.6%<br>Xuyên giáp phép +6.4"
+        }
+      ]
+    }
+  ],
+  "item_build": [{
+      "name": "Đường giữa (xong món cuối có thể bán Phượng hoàng lệ mua món khác tùy trận đấu)",
+      "info": "PhuongHoangLe,GiayKienCuong,TruongBang,MatNaBerith,VuongMiengHecate,TruongBungNo"
+    },
+    {
+      "name": "Đường giữa (như trên)",
+      "info": "PhuongHoangLe,GiayHermes,TruongBang,AoChoangBangGia,VuongMiengHecate,SachTruyHon"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "toro",
+          "info": "Toro"
+        },
+        {
+          "hero_id": "butterfly",
+          "info": "Butterfly"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "krixi",
+          "info": "Krixi"
+        },
+        {
+          "hero_id": "nakroth",
+          "info": "Nakroth"
+        },
+        {
+          "hero_id": "zephys",
+          "info": "Zephys"
+        }
+      ]
+    }
+  ],
+  "hero_story": "\"Quyền lực là thứ duy nhất đáng để theo đuổi.\"<br>Sự khát khao quyền lực đã khiến <i class=\"clr-orange\">Mganga</i> đi theo con đường ma thuật hắc ám. Trước khi bộ tộc của hắn được thành lập, <i class=\"clr-orange\">Mganga</i> đã lên kế hoạch thu thập những con thú mạnh nhất để đổi chúng lấy nguồn ma thuật hắc ám từ lũ quỷ. Kế hoạch của hắn nhanh chóng bị các thầy tu phát giác và ngăn chặn. Khắc sâu mối thù này vào trong tim, <i class=\"clr-orange\">Mganga</i> tìm cách tiêu diệt từng người, từng người một trong hội đồng các thầy tu. Hắn sát hại họ một cách dã man.<br>Trước sự tàn ác của <i class=\"clr-orange\">Mganga</i>, người dân lúc nào cũng cảm giác bất an, ám ảnh và sợ hãi. Cho đến khi sự điên rồ, vô nhân đạo vượt ngoài sự chịu đựng đã buộc dân chúng cùng đoàn kết lại, đứng lên chống lại hắn. Bị bao vây, nhưng nhờ vào khả sự khôn ranh của mình, hắn vẫn trốn được vào Khu rừng Chết chóc. Ẩn mình trong khu đầm lầy bao quanh là rất nhiều loài rắn độc, hắn tiếp tục nghiên cứu về ma thuật đen.<br>Dưới sự trợ giúp của thế lực hắc ám, <i class=\"clr-orange\">Mganga</i> giờ đây thông thạo ma thuật hắc ám hơn bao giờ hết.<br>\"Kẻ yếu chỉ có thể thu mình lại trước quyền lực, trong khi kẻ mạnh dùng nó để thống trị.\"",
+  "hero_skin": [{
+      "name": "Tên Hề Ma Quái",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Mganga01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": "Mganga01"
+    },
+    {
+      "name": "Hề Cung Đình (Bậc A)",
+      "gold": "",
+      "voucher": "450",
+      "event": "",
+      "wall": "Mganga02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": "Mganga02"
+    },
+    {
+      "name": "Tiệc Bánh Kẹo (Bậc A)",
+      "gold": "",
+      "voucher": "309",
+      "event": "",
+      "wall": "Mganga02",
+      "disable": "",
+      "img": "thumb3.jpg",
+      "video": "Mganga03"
+    }
+  ]
 }

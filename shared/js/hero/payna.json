@@ -1,155 +1,159 @@
 {
-	"hero_id": "Payna",
-	"hero_name": "Payna",
-	"main_info": {
-		"price_gold": "13,888",
-		"price_voucher": "359",
-		"price_text": "",
-		"position": "Trợ thủ",
-		"special": "Yểm hộ",
-		"lane": "Đường rồng"
-	},
-	"main_skill": [{
-			"name": "Thanh cao",
-			"info": "Nội tại: kẻ địch dám tấn công Payna sẽ phải chịu sự trừng phát của rửng thẳm, khiến nạn nhân gánh chịu 200 (+0) STP, đồng thời bị giảm 90% tốc chạy trong 1s, 90 giây hồi chiêu."
-		},
-		{
-			"name": "Ánh sáng thần thánh",
-			"info": "Hồi máu gốc: 60/80/100/120/140/160<br>H.Chiêu: 20/19/18/17/16/15<br>Tăng tốc đánh: 25%/30%/35%/40%/45%/50%<br>Payna phủ ánh sáng ma pháp xuống một vùng nhỏ quanh bản thân, giúp hồi 60 (+0) máu (cộng thêm 10% máu tổn thất) mỗi giây cho các tướng đồng minh lân cận, đồng thời giúp tăng cho tất cả trong vùng hiệu lực 25% tốc đánh trong 3s."
-		},
-		{
-			"name": "Cú ma pháp",
-			"info": "ST Gốc: 200/225/250/275/300/325<br>Payna sử dụng sức mạnh của rửng thẳm triệu hồi ra một chú chim cú bay theo hướng chỉ định, tấn công mục tiêu, gây 200 (+0) STP và làm choáng nạn nhân, Chim cú sau khi tấn công mục tiêu đầu có thể tiếp tục bay lượn công kích thêm các mục tiêu ngẫu nhiên khác (cùng mục tiêu vẫn có thể bị trúng chiêu nhiều lần) lên đến 6 lượt."
-		},
-		{
-			"name": "Kết giới sinh mệnh",
-			"info": "ST Gốc: 250/310/370<br>H.Chiêu: 60/50/40<br>Tăng giáp: 200/250/300<br>Payna niệm chú tạo ra một kết giới năng lượng tác động lên cả tướng đồng minh lẫn đối phương trong vùng ảnh hưởng theo các cách khác nhau, tăng 200 giáp cho phe ta, gây 250 (+0) STP lên phe địch mỗi 0.5s, kèm hiệu ứng giảm 20% tốc chạy, đặc biệt những nạn nhân xấu số vẫn còn trong kết giới sau 2s sẽ bị choáng 1.5s."
-		}
-	],
-	"skill_up": {
-		"line1": "1,5,9,13,14,15",
-		"line2": "2,3,6,7,10,11",
-		"line3": "4,8,12"
-	},
-	"skill_combo": [{
-			"name": "*Combo đầu game",
-			"info": "3,2,0"
-		},
-		{
-			"name": "*Combo khi có đủ 3 kỹ năng",
-			"info": "4,3,2,0"
-		}
-	],
-	"skill_note": "*Tận dụng vị trí đồng đội và vị trí đối phương để ra đòn chuẩn sát.",
-	"skill_special": "CapCuu,TocBien",
-	"main_rune": {
-		"rune2": [{
-				"name": "NgocDo24",
-				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
-			},
-			{
-				"name": "NgocTim25",
-				"info": "Máu tối đa +45"
-			},
-			{
-				"name": "NgocXanh21",
-				"info": "Tốc đánh +0.4%<br>Giảm hồi chiêu +0.5%"
-			}
-		],
-		"rune3": [{
-				"name": "NgocDo31",
-				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
-			},
-			{
-				"name": "NgocTim33",
-				"info": "Máu tối đa +45<br>Hồi máu/5s +5.2<br>Tốc chạy +0.4%"
-			},
-			{
-				"name": "NgocXanh32",
-				"info": "Giảm hồi chiêu +1%"
-			}
-		]
-	},
-	"item_build": [{
-			"name": "Chơi hỗ trợ",
-			"info": "LenhBaiPhongThan,GiayHoVe,GiapGaia,KhienHuyenThoai,GiapThongKho,HuanChuongTroy"
-		},
-		{
-			"name": "Chơi hỗ trợ",
-			"info": "LenhBaiPhongThan,GiayKienCuong,KhienHuyenThoai,TruongBang,HuanChuongTroy,PhuChuTruongSinh"
-		},
-		{
-			"name": "Đường giữa",
-			"info": "NgocDaiPhapSu,GiayHoVe,DayChuyenLucBao,AoChoangBangGia,VuongMiengHecate,SachThanh"
-		}
-	],
-	"hero_battle": [{
-			"name": "và đồng đội",
-			"desc": "phù hợp khi chơi cùng",
-			"info": [{
-					"hero_id": "violet",
-					"id_page": "Violet"
-				},
-				{
-					"hero_id": "maloch",
-					"id_page": "Maloch"
-				},
-				{
-					"hero_id": "krixi",
-					"id_page": "Krixi"
-				},
-				{
-					"hero_id": "butterfly",
-					"id_page": "Butterfly"
-				}
-			]
-		},
-		{
-			"name": "và cách khắc chế",
-			"desc": "thấy khó chịu khi gặp",
-			"info": [{
-					"hero_id": "alice",
-					"id_page": "Alice"
-				},
-				{
-					"hero_id": "chaugnar",
-					"id_page": "Chaugnar"
-				},
-				{
-					"hero_id": "batman",
-					"id_page": "Batman"
-				},
-				{
-					"hero_id": "butterfly",
-					"id_page": "Butterfly"
-				},
-				{
-					"hero_id": "kriknak",
-					"id_page": "Kriknak"
-				}
-			]
-		}
-	],
-	"hero_story": "Lần đầu tiên <i class=\"clr-orange\">Payna</i> nhìn thấy đôi cánh thiên thần của Lauriel, là lúc Lauriel đang bị Aleister điên cuồng truy đuổi. Từ lúc rời bỏ Cung Điện Ánh Sáng, Aleister vẫn luôn rất khao khát Suối Nguồn Ánh Sáng mà Lauriel đang canh giữ, đây là nguồn nguyên liệu cực quan trọng để hắn thực hành những thí nghiệm ma pháp. Sau khi bị vậy hãm, Lauriel bị trọng thương, buộc phải trốn vào trong Khu Rừng Hắc Ám để tránh sự truy đuổi. Chính vào lúc này, Thần rừng hộ mệnh <i class=\"clr-orange\">Payna</i> đã ra tay hỗ trợ cho Lauriel.<br>Đối mặt với sức mạnh hủy diệt của Aleister, <i class=\"clr-orange\">Payna</i> cũng không thể cản phá. Để đập tan âm mưu của Aleister, Lauriel quyết định giao Suối Nguồn Ánh Sáng lại cho <i class=\"clr-orange\">Payna</i>, và ở lại giữ chân Aleister. Nhưng hai người đều không thể tránh khỏi những đòn sấm sét của Aleister và bị thương tổn khắp người.<br>\"Thà uống hết chứ không để ngươi đạt được!\" <i class=\"clr-orange\">Payna</i> dùng chút sức lực cuối cùng uống hết Suối Nguồn Ánh Sáng, sức mạnh của ánh sáng bùng phát ra trong cơ thể cô. Sức mạnh phát ra nhanh chóng chữa trị vết thương trên người của Lauriel. Dưới sự giúp sức của <i class=\"clr-orange\">Payna</i>, Lauriel đã phục hồi và đẩy lùi được Aleister.<br>Sau sự việc, Lauriel kiên quyết mời <i class=\"clr-orange\">Payna</i> gia nhập vào Cung Điện Ánh Sáng, nhưng <i class=\"clr-orange\">Payna</i> đã từ chối rằng: \"Ta đã thề ở mãi trong Khu Rừng Hắc Ám, nhưng những ai đến từ Cung Điện Ánh Sáng, sẽ mãi là bạn của ta.\"",
-	"hero_skin": [{
-			"name": "Thần Rừng Hộ Mệnh",
-			"gold": "13,888",
-			"voucher": "359",
-			"event": "",
-			"wall": "Payna01",
-			"disable": "",
-			"img": "thumb1.jpg",
-			"video": ""
-		},
-		{
-			"name": "Cảnh Vệ Rừng",
-			"gold": "",
-			"voucher": "185",
-			"event": "",
-			"wall": "Payna02",
-			"disable": "",
-			"img": "thumb2.jpg",
-			"video": ""
-		}
-	]
+  "hero_id": "Payna",
+  "hero_name": "Payna",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Trợ thủ",
+    "special": "Yểm hộ",
+    "lane": "Đường rồng"
+  },
+  "main_skill": [{
+      "name": "Thanh cao",
+      "info": "Nội tại: kẻ địch dám tấn công Payna sẽ phải chịu sự trừng phát của rửng thẳm, khiến nạn nhân gánh chịu 200 (+0) STP, đồng thời bị giảm 90% tốc chạy trong 1s, 90 giây hồi chiêu."
+    },
+    {
+      "name": "Ánh sáng thần thánh",
+      "info": "Hồi máu gốc: 60/80/100/120/140/160<br>H.Chiêu: 20/19/18/17/16/15<br>Tăng tốc đánh: 25%/30%/35%/40%/45%/50%<br>Payna phủ ánh sáng ma pháp xuống một vùng nhỏ quanh bản thân, giúp hồi 60 (+0) máu (cộng thêm 10% máu tổn thất) mỗi giây cho các tướng đồng minh lân cận, đồng thời giúp tăng cho tất cả trong vùng hiệu lực 25% tốc đánh trong 3s."
+    },
+    {
+      "name": "Cú ma pháp",
+      "info": "ST Gốc: 200/225/250/275/300/325<br>Payna sử dụng sức mạnh của rửng thẳm triệu hồi ra một chú chim cú bay theo hướng chỉ định, tấn công mục tiêu, gây 200 (+0) STP và làm choáng nạn nhân, Chim cú sau khi tấn công mục tiêu đầu có thể tiếp tục bay lượn công kích thêm các mục tiêu ngẫu nhiên khác (cùng mục tiêu vẫn có thể bị trúng chiêu nhiều lần) lên đến 6 lượt."
+    },
+    {
+      "name": "Kết giới sinh mệnh",
+      "info": "ST Gốc: 250/310/370<br>H.Chiêu: 60/50/40<br>Tăng giáp: 200/250/300<br>Payna niệm chú tạo ra một kết giới năng lượng tác động lên cả tướng đồng minh lẫn đối phương trong vùng ảnh hưởng theo các cách khác nhau, tăng 200 giáp cho phe ta, gây 250 (+0) STP lên phe địch mỗi 0.5s, kèm hiệu ứng giảm 20% tốc chạy, đặc biệt những nạn nhân xấu số vẫn còn trong kết giới sau 2s sẽ bị choáng 1.5s."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,5,9,13,14,15",
+    "line2": "2,3,6,7,10,11",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "3,2,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 kỹ năng",
+      "info": "4,3,2,0"
+    }
+  ],
+  "skill_note": "*Tận dụng vị trí đồng đội và vị trí đối phương để ra đòn chuẩn sát.",
+  "skill_special": "CapCuu,TocBien",
+  "main_rune": [{
+      "name": "*Ngọc cấp 2",
+      "info": [{
+          "name": "NgocDo24",
+          "info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+        },
+        {
+          "name": "NgocTim25",
+          "info": "Máu tối đa +45"
+        },
+        {
+          "name": "NgocXanh21",
+          "info": "Tốc đánh +0.4%<br>Giảm hồi chiêu +0.5%"
+        }
+      ]
+    },
+    {
+      "name": "*Ngọc cấp 3",
+      "info": [{
+          "name": "NgocDo31",
+          "info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+        },
+        {
+          "name": "NgocTim33",
+          "info": "Máu tối đa +45<br>Hồi máu/5s +5.2<br>Tốc chạy +0.4%"
+        },
+        {
+          "name": "NgocXanh32",
+          "info": "Giảm hồi chiêu +1%"
+        }
+      ]
+    }
+  ],
+  "item_build": [{
+      "name": "Chơi hỗ trợ",
+      "info": "LenhBaiPhongThan,GiayHoVe,GiapGaia,KhienHuyenThoai,GiapThongKho,HuanChuongTroy"
+    },
+    {
+      "name": "Chơi hỗ trợ",
+      "info": "LenhBaiPhongThan,GiayKienCuong,KhienHuyenThoai,TruongBang,HuanChuongTroy,PhuChuTruongSinh"
+    },
+    {
+      "name": "Đường giữa",
+      "info": "NgocDaiPhapSu,GiayHoVe,DayChuyenLucBao,AoChoangBangGia,VuongMiengHecate,SachThanh"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "maloch",
+          "info": "Maloch"
+        },
+        {
+          "hero_id": "krixi",
+          "info": "Krixi"
+        },
+        {
+          "hero_id": "butterfly",
+          "info": "Butterfly"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "alice",
+          "info": "Alice"
+        },
+        {
+          "hero_id": "chaugnar",
+          "info": "Chaugnar"
+        },
+        {
+          "hero_id": "batman",
+          "info": "Batman"
+        },
+        {
+          "hero_id": "butterfly",
+          "info": "Butterfly"
+        },
+        {
+          "hero_id": "kriknak",
+          "info": "Kriknak"
+        }
+      ]
+    }
+  ],
+  "hero_story": "Lần đầu tiên <i class=\"clr-orange\">Payna</i> nhìn thấy đôi cánh thiên thần của Lauriel, là lúc Lauriel đang bị Aleister điên cuồng truy đuổi. Từ lúc rời bỏ Cung Điện Ánh Sáng, Aleister vẫn luôn rất khao khát Suối Nguồn Ánh Sáng mà Lauriel đang canh giữ, đây là nguồn nguyên liệu cực quan trọng để hắn thực hành những thí nghiệm ma pháp. Sau khi bị vậy hãm, Lauriel bị trọng thương, buộc phải trốn vào trong Khu Rừng Hắc Ám để tránh sự truy đuổi. Chính vào lúc này, Thần rừng hộ mệnh <i class=\"clr-orange\">Payna</i> đã ra tay hỗ trợ cho Lauriel.<br>Đối mặt với sức mạnh hủy diệt của Aleister, <i class=\"clr-orange\">Payna</i> cũng không thể cản phá. Để đập tan âm mưu của Aleister, Lauriel quyết định giao Suối Nguồn Ánh Sáng lại cho <i class=\"clr-orange\">Payna</i>, và ở lại giữ chân Aleister. Nhưng hai người đều không thể tránh khỏi những đòn sấm sét của Aleister và bị thương tổn khắp người.<br>\"Thà uống hết chứ không để ngươi đạt được!\" <i class=\"clr-orange\">Payna</i> dùng chút sức lực cuối cùng uống hết Suối Nguồn Ánh Sáng, sức mạnh của ánh sáng bùng phát ra trong cơ thể cô. Sức mạnh phát ra nhanh chóng chữa trị vết thương trên người của Lauriel. Dưới sự giúp sức của <i class=\"clr-orange\">Payna</i>, Lauriel đã phục hồi và đẩy lùi được Aleister.<br>Sau sự việc, Lauriel kiên quyết mời <i class=\"clr-orange\">Payna</i> gia nhập vào Cung Điện Ánh Sáng, nhưng <i class=\"clr-orange\">Payna</i> đã từ chối rằng: \"Ta đã thề ở mãi trong Khu Rừng Hắc Ám, nhưng những ai đến từ Cung Điện Ánh Sáng, sẽ mãi là bạn của ta.\"",
+  "hero_skin": [{
+      "name": "Thần Rừng Hộ Mệnh",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Payna01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": ""
+    },
+    {
+      "name": "Cảnh Vệ Rừng",
+      "gold": "",
+      "voucher": "185",
+      "event": "",
+      "wall": "Payna02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": ""
+    }
+  ]
 }

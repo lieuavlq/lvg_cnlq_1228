@@ -1,182 +1,184 @@
 {
-	"hero_id": "Tulen",
-	"hero_name": "Tulen",
-	"main_info": {
-		"price_gold": "18,888",
-		"price_voucher": "539",
-		"position": "Pháp sư",
-		"special": "Trung Phong / Cấu rỉa",
-		"lane": "Đường giữa"
-	},
-	"main_skill": [{
-			"name": "Lôi điện",
-			"info": "Nội tại: Chiêu thức trúng đích giúp Tulen tích lũy dấu ấn Lôi Điện, khi đạt tới 5 điểm Tulen sẽ tạo ra 5 luồng sét quanh bản thân, thứ sẽ lần lượt tự công kích kẻ địch lân cận (ưu tiên tướng) gây ra 320 (+0.52 công phép) (+40 với mỗi cấp) STP mỗi luồng, nếu 1 mục tiêu bị nhiều luồng sét tấn công trong 1s, nạn nhân sẽ chịu giảm 20% sát thương (sét đánh không tấn công các đơn vị quái rừng không trong trạng thái chiến đấu).<br>Tốc chạy cơ bản：340"
-		},
-		{
-			"name": "Lôi quang",
-			"info": "ST Gốc: 450/510/570/630/690/750<br>H.chiêu: 8/7.4/6.8/6.2/5.6/5<br>Tulen bắn ra ba tia sét về phía trước, mỗi tia trúng đích gây 450（+0.78 Công Phép) STP, mục tiêu trúng nhiều tia sẽ chỉ phải chịu 30% ST từ các tia khác, mỗi tia chỉ có thể gây 1 điểm hiệu ứng Lôi điện."
-		},
-		{
-			"name": "Lôi động",
-			"info": "ST Gốc: 350/420/490/560/630/700<br>Thời gian nạp đạn: 10/9.6/9.2/8.8/8.4/8<br>Tulen biến ảo cực nhanh gây 350 (+0 STP) STP tại cả vùng biến đến và biến đi (nạn nhân trúng chiêu nhiều lần trong thời gian ngắn sẽ chỉ phải chịu 50% ST ở các lần sau), nếu kẻ địch trong vòng 5s liên tục chịu ảnh hưởng bởi chiêu này sẽ bị làm chậm 90% tốc chạy giảm dần trong 3s, ngoài ra mỗi mục tiêu trúng chiêu sẽ chỉ phải chịu 1 điểm hiệu ứng Lôi điện, chiêu thức tích lũy tối đa 3 lần (giảm hồi chiêu giúp nạp đạn nhanh hơn)."
-		},
-		{
-			"name": "Lôi điểu",
-			"info": "ST Gốc: 360/450/540<br>H.chiêu: 35/30/25<br>Tulen có thể vừa di chuyển, vừa tung chiêu triệu hồi một chú chim điện tấn công mục tiêu chỉ định gây 360 (+0 STP) STP, kèm theo 30% máu đã mất của nạn nhân thành sát thương thêm, đồng thời tự tăng cho bản thân 1 dấu ấn Lôi điện, nếu chim điện trực tiếp hạ gục tướng địch sẽ lập tức kích hoạt nội tại Lôi điện, đồng thời giảm 80% thời gian hồi Lôi điểu, chim điện có thể bị cản lại bởi những tướng địch khác, còn đối với các đơn vị không phải tướng sẽ phải chịu ST và bị đẩy lùi."
-		}
-	],
-	"skill_up": {
-		"line1": "1,3,5,7,9,11",
-		"line2": "2,6,10,13,14,15",
-		"line3": "4,8,12"
-	},
-	"skill_combo": [{
-			"name": "*Combo đầu game",
-			"info": "3,2,0,3"
-		},
-		{
-			"name": "*Combo khi có đủ 3 kỹ năng",
-			"info": "3,2,4,3,0,3"
-		}
-	],
-	"skill_note": "*Tulen một vị Pháp sư với 2 lối chơi Sốc sát thương và Cấu rỉa.<br>*Cố gắng tích lũy đủ 5 điểm Nội tại để tăng lượng sát thương đáng kể.<br>*Cố gắng áp sát mục tiêu, dùng Lôi quang hiệu quả sẽ mang lại 3 điểm Nội tại.<br>*Với 3 điểm tích lũy Lôi động, Tulen được xem là người cầm 4 Tốc biến.<br>*Kết thúc tướng địch bằng Lôi điểu sẽ kích hoạt Nội tại!",
-	"skill_special": "TocBien,ThanhTay,TrungTri,BocPha",
-	"main_rune": {
-		"rune2": [{
-				"name": "NgocDo24",
-				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
-			},
-			{
-				"name": "NgocTim22",
-				"info": "Công phép +1.4<br>Hút máu phép +0.8%<br>Giáp phép +1.6"
-			},
-			{
-				"name": "NgocXanh28",
-				"info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
-			}
-		],
-		"rune3": [{
-				"name": "NgocDo31",
-				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
-			},
-			{
-				"name": "NgocTim36",
-				"info": "Công phép +2.4<br>Hút máu phép +1%"
-			},
-			{
-				"name": "NgocXanh33",
-				"info": "Công phép +2.4<br>Giảm hồi chiêu +0.7%"
-			}
-		]
-	},
-	"item_build": [{
-			"name": "Đường giữa",
-			"info": "NgocDaiPhapSu,GiayHoVe,VuongMiengHecate,KhienHuyenThoai,QuyenTruongRhea,SachThanh"
-		},
-		{
-			"name": "Đi rừng",
-			"info": "GuomLoki,GiayHoVe,QuyenTruongRhea,VuongMiengHecate,KhienThatTruyen,HuanChuongTroy"
-		},
-		{
-			"name": "Game thủ hay lên",
-			"info": "NgocDaiPhapSu,GiayHoVe,QuyenTruongRhea,VuongMiengHecate,GiapThongKho,GiapGaia"
-		}
-	],
-	"hero_battle": [{
-			"name": "và đồng đội",
-			"desc": "thích hợp khi chơi cùng",
-			"info": [{
-					"hero_id": "alice",
-					"id_page": "Alice"
-				},
-				{
-					"hero_id": "cresht",
-					"id_page": "Cresht"
-				}
-			]
-		},
-		{
-			"name": "và cách khắc chế",
-			"desc": "thấy khó chịu khi gặp",
-			"info": [{
-					"hero_id": "nakroth",
-					"id_page": "Nakroth"
-				},
-				{
-					"hero_id": "arthur",
-					"id_page": "Arthur"
-				},
-				{
-					"hero_id": "maloch",
-					"id_page": "Maloch"
-				},
-				{
-					"hero_id": "grakk",
-					"id_page": "Grakk"
-				}
-			]
-		}
-	],
-	"hero_story": "\"Sấm chớp, sẵn sàng nghe hiệu lệnh của ta\".<br><i class=\"clr-orange\">Tulen</i> là một á thần được sinh ra để hiệu lệnh cho sấm sét. Từ khi còn nhỏ, chàng đã tỏ ra là một đứa trẻ phi thường, khiến sấm sét phải cúi đầu nghe lệnh. Sấm sét mà <i class=\"clr-orange\">Tulen</i> tạo ra mạnh thần thánh hơn pháp thuật bình thường hàng nghìn lần. Chính vì vậy, Ilumia quyết định để Aleister trở thành sư phụ, hướng dẫn <i class=\"clr-orange\">Tulen</i> điều khuyển hoàn toàn sức mạnh mà mình sở hữu.<br>Thế nhưng, Aleister lại không hề ưa <i class=\"clr-orange\">Tulen</i> chút nào. Hắn nhận ra <i class=\"clr-orange\">Tulen</i> sớm thôi sẽ thế chỗ hắn và vì thế hắn quyết định không dạy dỗ thêm gì. Không may thay, <i class=\"clr-orange\">Tulen</i> lại là cậu bé thích tự mình tìm hiểu những điều mới lạ. Khả năng kiểm soát sấm sét tự bẩm sinh đã cho phép chàng sử dụng năng lực mà không cần thần chú. Trí tưởng tượng sống động của chàng càng đẩy sức mạnh của <i class=\"clr-orange\">Tulen</i> lên những tầm cao mới.<br>Thành công của <i class=\"clr-orange\">Tulen</i> đã đưa Aleister vào vòng xoắn ốc của thất bại mà gã tự chuốc lấy. <i class=\"clr-orange\">Tulen</i> không mù quáng học theo những phương pháp giáo điều. Chàng cũng chẳng bận tâm tới việc lấy vị thế của Aleister. Thứ duy nhất chàng muốn sự tự do tuyệt đối mà Aleister sở hữu ... điều mà một học sinh như chàng sẽ gặp nhiều khó khăn để đạt được.<br>Cuối cùng, <i class=\"clr-orange\">Tulen</i> đã bất ngờ tìm tới ngôi đền bằng bằng năng lực điều khiển sấm sét kỳ diệu của mình, loại bỏ đi dấu tích của giáo viên trước những cặp mắt choáng váng của ngừoi xung quanh. Bằng cách đó, <i class=\"clr-orange\">Tulen</i> đã chứng minh rằng chàng không chỉ có sức mạnh để kế thừa ngai vàng của Aleister, mà ngôi đền cũng đã chọn cậu. Sau đó, dưới sự hướng dẫn của Ilumia, <i class=\"clr-orange\">Tulen</i> đã thành công, trở thành vị vua của sấm sét.<br>Nhiệm vụ đầu tiên của chàng là đoạt lại ngai vàng của chủ nhân cũ – đồng thời là giáo viên của mình, Aleister. Bởi vì không có Aleister, <i class=\"clr-orange\">Tulen</i> chỉ là vị vua hữu danh vô thực, không một ai công nhận. Nhiệm vụ này gần như là bất khả thi khi chàng không được phép phô trương sức mạnh bừa bãi, nhưng đó không phải điều đáng quan tâm.<br>\"Không ai hiểu tôi thực sự muốn gì!\"",
-	"hero_skin": [{
-			"name": "Hoàng Tử Lôi Quang",
-			"gold": "18,888",
-			"voucher": "539",
-			"event": "",
-			"wall": "Tulen01",
-			"disable": "yes",
-			"img": "thumb1.jpg",
-			"video": "Tulen01"
-		},
-		{
-			"name": "Nhà Thám Hiểm (Bậc A)",
-			"gold": "",
-			"voucher": "219",
-			"event": "",
-			"wall": "Tulen02",
-			"disable": "yes",
-			"img": "thumb2.jpg",
-			"video": "Tulen02"
-		},
-		{
-			"name": "Tân Thần Thiên Hà (Bậc SS)",
-			"gold": "",
-			"voucher": "599",
-			"event": "",
-			"wall": "Tulen03",
-			"disable": "yes",
-			"img": "thumb3.jpg",
-			"video": "Tulen03"
-		},
-		{
-			"name": "Phù Thủy Kiến Tạo (Football Fever)",
-			"gold": "",
-			"voucher": "",
-			"event": "Mở sự kiện",
-			"wall": "Tulen04",
-			"disable": "yes",
-			"img": "thumb4.jpg",
-			"video": "Tulen04"
-		},
-		{
-			"name": "Đông Êm Đềm",
-			"gold": "",
-			"voucher": "",
-			"event": "Mở sự kiện",
-			"wall": "Tulen05",
-			"disable": "yes",
-			"img": "thumb5.jpg",
-			"video": "Tulen05"
-		},
-		{
-			"name": "Tulen Phó Kỷ Luật",
-			"gold": "",
-			"voucher": "",
-			"event": "Mở sự kiện",
-			"wall": "Tulen06",
-			"disable": "yes",
-			"img": "thumb6.jpg",
-			"video": ""
-		}
-	]
+  "hero_id": "Tulen",
+  "hero_name": "Tulen",
+  "main_info": {
+    "price_gold": "18,888",
+    "price_voucher": "539",
+    "position": "Pháp sư",
+    "special": "Trung Phong / Cấu rỉa",
+    "lane": "Đường giữa"
+  },
+  "main_skill": [{
+      "name": "Lôi điện",
+      "info": "Nội tại: Chiêu thức trúng đích giúp Tulen tích lũy dấu ấn Lôi Điện, khi đạt tới 5 điểm Tulen sẽ tạo ra 5 luồng sét quanh bản thân, thứ sẽ lần lượt tự công kích kẻ địch lân cận (ưu tiên tướng) gây ra 320 (+0.52 công phép) (+40 với mỗi cấp) STP mỗi luồng, nếu 1 mục tiêu bị nhiều luồng sét tấn công trong 1s, nạn nhân sẽ chịu giảm 20% sát thương (sét đánh không tấn công các đơn vị quái rừng không trong trạng thái chiến đấu).<br>Tốc chạy cơ bản：340"
+    },
+    {
+      "name": "Lôi quang",
+      "info": "ST Gốc: 450/510/570/630/690/750<br>H.chiêu: 8/7.4/6.8/6.2/5.6/5<br>Tulen bắn ra ba tia sét về phía trước, mỗi tia trúng đích gây 450（+0.78 Công Phép) STP, mục tiêu trúng nhiều tia sẽ chỉ phải chịu 30% ST từ các tia khác, mỗi tia chỉ có thể gây 1 điểm hiệu ứng Lôi điện."
+    },
+    {
+      "name": "Lôi động",
+      "info": "ST Gốc: 350/420/490/560/630/700<br>Thời gian nạp đạn: 10/9.6/9.2/8.8/8.4/8<br>Tulen biến ảo cực nhanh gây 350 (+0 STP) STP tại cả vùng biến đến và biến đi (nạn nhân trúng chiêu nhiều lần trong thời gian ngắn sẽ chỉ phải chịu 50% ST ở các lần sau), nếu kẻ địch trong vòng 5s liên tục chịu ảnh hưởng bởi chiêu này sẽ bị làm chậm 90% tốc chạy giảm dần trong 3s, ngoài ra mỗi mục tiêu trúng chiêu sẽ chỉ phải chịu 1 điểm hiệu ứng Lôi điện, chiêu thức tích lũy tối đa 3 lần (giảm hồi chiêu giúp nạp đạn nhanh hơn)."
+    },
+    {
+      "name": "Lôi điểu",
+      "info": "ST Gốc: 360/450/540<br>H.chiêu: 35/30/25<br>Tulen có thể vừa di chuyển, vừa tung chiêu triệu hồi một chú chim điện tấn công mục tiêu chỉ định gây 360 (+0 STP) STP, kèm theo 30% máu đã mất của nạn nhân thành sát thương thêm, đồng thời tự tăng cho bản thân 1 dấu ấn Lôi điện, nếu chim điện trực tiếp hạ gục tướng địch sẽ lập tức kích hoạt nội tại Lôi điện, đồng thời giảm 80% thời gian hồi Lôi điểu, chim điện có thể bị cản lại bởi những tướng địch khác, còn đối với các đơn vị không phải tướng sẽ phải chịu ST và bị đẩy lùi."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "3,2,0,3"
+    },
+    {
+      "name": "*Combo khi có đủ 3 kỹ năng",
+      "info": "3,2,4,3,0,3"
+    }
+  ],
+  "skill_note": "*Tulen một vị Pháp sư với 2 lối chơi Sốc sát thương và Cấu rỉa.<br>*Cố gắng tích lũy đủ 5 điểm Nội tại để tăng lượng sát thương đáng kể.<br>*Cố gắng áp sát mục tiêu, dùng Lôi quang hiệu quả sẽ mang lại 3 điểm Nội tại.<br>*Với 3 điểm tích lũy Lôi động, Tulen được xem là người cầm 4 Tốc biến.<br>*Kết thúc tướng địch bằng Lôi điểu sẽ kích hoạt Nội tại!",
+  "skill_special": "TocBien,ThanhTay,TrungTri,BocPha",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo24",
+        "info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+      },
+      {
+        "name": "NgocTim22",
+        "info": "Công phép +1.4<br>Hút máu phép +0.8%<br>Giáp phép +1.6"
+      },
+      {
+        "name": "NgocXanh28",
+        "info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo31",
+        "info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+      },
+      {
+        "name": "NgocTim36",
+        "info": "Công phép +2.4<br>Hút máu phép +1%"
+      },
+      {
+        "name": "NgocXanh33",
+        "info": "Công phép +2.4<br>Giảm hồi chiêu +0.7%"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường giữa",
+      "info": "NgocDaiPhapSu,GiayHoVe,VuongMiengHecate,KhienHuyenThoai,QuyenTruongRhea,SachThanh"
+    },
+    {
+      "name": "Đi rừng",
+      "info": "GuomLoki,GiayHoVe,QuyenTruongRhea,VuongMiengHecate,KhienThatTruyen,HuanChuongTroy"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "NgocDaiPhapSu,GiayHoVe,QuyenTruongRhea,VuongMiengHecate,GiapThongKho,GiapGaia"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "alice",
+          "info": "Alice"
+        },
+        {
+          "hero_id": "cresht",
+          "info": "Cresht"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "nakroth",
+          "info": "Nakroth"
+        },
+        {
+          "hero_id": "arthur",
+          "info": "Arthur"
+        },
+        {
+          "hero_id": "maloch",
+          "info": "Maloch"
+        },
+        {
+          "hero_id": "grakk",
+          "info": "Grakk"
+        }
+      ]
+    }
+  ],
+  "hero_story": "\"Sấm chớp, sẵn sàng nghe hiệu lệnh của ta\".<br><i class=\"clr-orange\">Tulen</i> là một á thần được sinh ra để hiệu lệnh cho sấm sét. Từ khi còn nhỏ, chàng đã tỏ ra là một đứa trẻ phi thường, khiến sấm sét phải cúi đầu nghe lệnh. Sấm sét mà <i class=\"clr-orange\">Tulen</i> tạo ra mạnh thần thánh hơn pháp thuật bình thường hàng nghìn lần. Chính vì vậy, Ilumia quyết định để Aleister trở thành sư phụ, hướng dẫn <i class=\"clr-orange\">Tulen</i> điều khuyển hoàn toàn sức mạnh mà mình sở hữu.<br>Thế nhưng, Aleister lại không hề ưa <i class=\"clr-orange\">Tulen</i> chút nào. Hắn nhận ra <i class=\"clr-orange\">Tulen</i> sớm thôi sẽ thế chỗ hắn và vì thế hắn quyết định không dạy dỗ thêm gì. Không may thay, <i class=\"clr-orange\">Tulen</i> lại là cậu bé thích tự mình tìm hiểu những điều mới lạ. Khả năng kiểm soát sấm sét tự bẩm sinh đã cho phép chàng sử dụng năng lực mà không cần thần chú. Trí tưởng tượng sống động của chàng càng đẩy sức mạnh của <i class=\"clr-orange\">Tulen</i> lên những tầm cao mới.<br>Thành công của <i class=\"clr-orange\">Tulen</i> đã đưa Aleister vào vòng xoắn ốc của thất bại mà gã tự chuốc lấy. <i class=\"clr-orange\">Tulen</i> không mù quáng học theo những phương pháp giáo điều. Chàng cũng chẳng bận tâm tới việc lấy vị thế của Aleister. Thứ duy nhất chàng muốn sự tự do tuyệt đối mà Aleister sở hữu ... điều mà một học sinh như chàng sẽ gặp nhiều khó khăn để đạt được.<br>Cuối cùng, <i class=\"clr-orange\">Tulen</i> đã bất ngờ tìm tới ngôi đền bằng bằng năng lực điều khiển sấm sét kỳ diệu của mình, loại bỏ đi dấu tích của giáo viên trước những cặp mắt choáng váng của ngừoi xung quanh. Bằng cách đó, <i class=\"clr-orange\">Tulen</i> đã chứng minh rằng chàng không chỉ có sức mạnh để kế thừa ngai vàng của Aleister, mà ngôi đền cũng đã chọn cậu. Sau đó, dưới sự hướng dẫn của Ilumia, <i class=\"clr-orange\">Tulen</i> đã thành công, trở thành vị vua của sấm sét.<br>Nhiệm vụ đầu tiên của chàng là đoạt lại ngai vàng của chủ nhân cũ – đồng thời là giáo viên của mình, Aleister. Bởi vì không có Aleister, <i class=\"clr-orange\">Tulen</i> chỉ là vị vua hữu danh vô thực, không một ai công nhận. Nhiệm vụ này gần như là bất khả thi khi chàng không được phép phô trương sức mạnh bừa bãi, nhưng đó không phải điều đáng quan tâm.<br>\"Không ai hiểu tôi thực sự muốn gì!\"",
+  "hero_skin": [{
+      "name": "Hoàng Tử Lôi Quang",
+      "gold": "18,888",
+      "voucher": "539",
+      "event": "",
+      "wall": "Tulen01",
+      "disable": "yes",
+      "img": "thumb1.jpg",
+      "video": "Tulen01"
+    },
+    {
+      "name": "Nhà Thám Hiểm (Bậc A)",
+      "gold": "",
+      "voucher": "219",
+      "event": "",
+      "wall": "Tulen02",
+      "disable": "yes",
+      "img": "thumb2.jpg",
+      "video": "Tulen02"
+    },
+    {
+      "name": "Tân Thần Thiên Hà (Bậc SS)",
+      "gold": "",
+      "voucher": "599",
+      "event": "",
+      "wall": "Tulen03",
+      "disable": "yes",
+      "img": "thumb3.jpg",
+      "video": "Tulen03"
+    },
+    {
+      "name": "Phù Thủy Kiến Tạo (Football Fever)",
+      "gold": "",
+      "voucher": "",
+      "event": "Mở sự kiện",
+      "wall": "Tulen04",
+      "disable": "yes",
+      "img": "thumb4.jpg",
+      "video": "Tulen04"
+    },
+    {
+      "name": "Đông Êm Đềm",
+      "gold": "",
+      "voucher": "",
+      "event": "Mở sự kiện",
+      "wall": "Tulen05",
+      "disable": "yes",
+      "img": "thumb5.jpg",
+      "video": "Tulen05"
+    },
+    {
+      "name": "Tulen Phó Kỷ Luật",
+      "gold": "",
+      "voucher": "",
+      "event": "Mở sự kiện",
+      "wall": "Tulen06",
+      "disable": "yes",
+      "img": "thumb6.jpg",
+      "video": ""
+    }
+  ]
 }

@@ -1,153 +1,157 @@
 {
-	"hero_id": "Chaugnar",
-	"hero_name": "Chaugnar",
-	"main_info": {
-		"price_gold": "13,888",
-		"price_voucher": "359",
-		"price_text": "",
-		"position": "Trợ thủ / Đỡ đòn",
-		"special": "Yểm hộ",
-		"lane": "Đường rồng / Đường Caesar"
-	},
-	"main_skill": [{
-			"name": "Đại dương sâu thẳm",
-			"info": "Nội tại: Mỗi khi tung Thủy triều giúp Chaugnar hóa giải tất cả hiệu ứng khống chế, đồng thời tăng 10% miễn thương và 20% tốc chạy trong 2s."
-		},
-		{
-			"name": "Thủy triều",
-			"info": "ST Gốc: 375/450/525/600/675/750<br>Chaugnar tung ra 1 luồng sóng năng lượng, gây 375 (+0) STP lên những kẻ địch trúng chiêu, đồng thời giảm 50% tốc chạy của nạn nhân trong 2s."
-		},
-		{
-			"name": "Nước xoáy",
-			"info": "ST Gốc: 275/325/375/425/475/525<br>Chaugnar tạo chấn động quanh bản thân, gây 275 (0) STP lên tất cả kẻ địch lân cận, đồng thời giảm 1s hồi chiêu Thủy triều và cường hóa sát thương của lần tung chiêu Nước xoáy kế tiếp thêm 30%, cộng dồn tối đa 2 lần."
-		},
-		{
-			"name": "Vực Hỗn Loạn",
-			"info": "H.Chiêu: 45/40/35<br>Chaugnar gội ra 1 luồng năng lượng hỗn độn giúp hóa giải mọi hiệu ứng khống chế trên đồng minh, đồng thời giúp cường hóa kháng hiệu ứng, miễn thương, và tăng tốc chạy trong 1s, riếng bản thân kéo dài 3s. Đặc biệt trong vòng 6s Nước xoáy sẽ được giảm hồi chiêu và sử dụng không tốn năng lượng."
-		}
-	],
-	"skill_up": {
-		"line1": "1,3,5,7,9,11",
-		"line2": "2,6,10,13,14,15",
-		"line3": "4,8,12"
-	},
-	"skill_combo": [{
-			"name": "*Combo đầu game",
-			"info": "2,3,0"
-		},
-		{
-			"name": "*Combo khi có đủ 3 kỹ năng",
-			"info": "2,3,4,0"
-		}
-	],
-	"skill_note": "*Hãy đứng trung tâm đội trong giao tranh để Vực Hỗn Loạn thực sự có hiệu quả.",
-	"skill_special": "BocPha,CamTru,CapCuu",
-	"main_rune": {
-		"rune2": [{
-				"name": "NgocDo24",
-				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
-			},
-			{
-				"name": "NgocTim24",
-				"info": "Máu tối đa +36<br>Giáp +1.6"
-			},
-			{
-				"name": "NgocXanh27",
-				"info": "Hồi máu/5s +4.5<br>Giáp +3.2"
-			}
-		],
-		"rune3": [{
-				"name": "NgocDo32",
-				"info": "Công phép +5.3"
-			},
-			{
-				"name": "NgocTim310",
-				"info": "Máu tối đa +60<br>Hồi máu/5s +4.5"
-			},
-			{
-				"name": "NgocXanh36",
-				"info": "Giáp +5<br>Giáp phép +5"
-			}
-		]
-	},
-	"item_build": [{
-			"name": "Đường giữa hoặc trợ thủ",
-			"info": "PhuongHoangLe,GiayHoVe,TruongBang,MatNaBerith,GiapGaia,AoChoangBangGia"
-		},
-		{
-			"name": "Đường giữa hoặc trợ thủ",
-			"info": "NgocDaiPhapSu,SachThanh,VuongMiengHecate,QuyenTruongRhea,ThapTuKiem,TruongBang"
-		},
-		{
-			"name": "Game thủ hay lên",
-			"info": "NgocDaiPhapSu,GiayHoVe,TruongBang,MatNaBerith,VuongMiengHecate,SachTruyHon"
-		}
-	],
-	"hero_battle": [{
-			"name": "và đồng đội",
-			"desc": "thích hợp đi cùng các tướng bảo kê",
-			"info": [{
-					"hero_id": "violet",
-					"id_page": "Violet"
-				},
-				{
-					"hero_id": "butterfly",
-					"id_page": "Butterfly"
-				},
-				{
-					"hero_id": "gildur",
-					"id_page": "Gildur"
-				},
-				{
-					"hero_id": "mganga",
-					"id_page": "Mganga"
-				}
-			]
-		},
-		{
-			"name": "và cách khắc chế",
-			"desc": "thấy khó chịu khi gặp các tướng sau",
-			"info": [{
-					"hero_id": "violet",
-					"id_page": "Violet"
-				},
-				{
-					"hero_id": "ormarr",
-					"id_page": "Ormarr"
-				}
-			]
-		}
-	],
-	"hero_story": "\"Ta là hóa thân của hỗn loạn, tổ tiên của ma quỷ\"<br>Kẻ có tên <i class=\"clr-orange\">Chaugnar</i>, Sứ giả của Cthulu, là một thực thể tà ác do hỗn độn sinh ra. Hắn đã tồn tại lâu hơn cả Thiên Đường hay Địa Ngục. Trong mắt hắn, sự tồn tại chỉ đơn thuần là cuộc chiến bất tận giữa hỗn loạn và trật tự. Sự sống, luật lệ, quy luật, cảm xúc và đức tin không có ý nghĩa với hắn. Những ai không may đối diện con quỷ độc ác này sẽ phải thu mình lại và cảm nhận sự tăm tối hơn cả bóng đêm, nỗi kinh hoàng hơn tất cả những sợ hãi từng trải qua.<br>Nếu không có một thiên tài lừa <i class=\"clr-orange\">Chaugnar</i> vào bẫy và nhốt hắn dưới đáy của Biển Đen thì có thể thế giới này đã biến mất từ lâu. Tuy nhiên, sức mạnh của sự hỗn loạn không bao giờ có thể được dập tắt hoàn toàn. Tất cả những gì loài người có thể làm là chiến đấu để làm suy yếu <i class=\"clr-orange\">Chaugnar</i> và giảm thiểu các mối đe dọa mà hắn tạo ra. Tuy nhiên, mọi người đều biết rằng một ngày <i class=\"clr-orange\">Chaugnar</i> sẽ phá vỡ xiềng xích của hắn và cho nổ tung thế giới này bằng lửa thù hận.<br>\"Ta sẽ cho ngươi chứng kiến thế giới này bị hỗn loạn nuốt chửng!\"",
-	"hero_skin": [{
-			"name": "Sứ Giả Hư Vô",
-			"gold": "13,888",
-			"voucher": "359",
-			"event": "",
-			"wall": "Chaugnar01",
-			"disable": "",
-			"img": "thumb1.jpg",
-			"video": "Chaugnar01"
-		},
-		{
-			"name": "Ác Mộng Sinh Hóa (Bậc A)",
-			"gold": "",
-			"voucher": "270",
-			"event": "",
-			"wall": "Chaugnar02",
-			"disable": "yes",
-			"img": "thumb2.jpg",
-			"video": "Chaugnar02"
-		},
-		{
-			"name": "Quang Vinh (Bậc A)",
-			"gold": "",
-			"voucher": "",
-			"event": "S6 Thưởng hạng",
-			"wall": "Chaugnar03",
-			"disable": "",
-			"img": "thumb3.jpg",
-			"video": ""
-		}
-	]
+  "hero_id": "Chaugnar",
+  "hero_name": "Chaugnar",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Trợ thủ / Đỡ đòn",
+    "special": "Yểm hộ",
+    "lane": "Đường rồng / Đường Caesar"
+  },
+  "main_skill": [{
+      "name": "Đại dương sâu thẳm",
+      "info": "Nội tại: Mỗi khi tung Thủy triều giúp Chaugnar hóa giải tất cả hiệu ứng khống chế, đồng thời tăng 10% miễn thương và 20% tốc chạy trong 2s."
+    },
+    {
+      "name": "Thủy triều",
+      "info": "ST Gốc: 375/450/525/600/675/750<br>Chaugnar tung ra 1 luồng sóng năng lượng, gây 375 (+0) STP lên những kẻ địch trúng chiêu, đồng thời giảm 50% tốc chạy của nạn nhân trong 2s."
+    },
+    {
+      "name": "Nước xoáy",
+      "info": "ST Gốc: 275/325/375/425/475/525<br>Chaugnar tạo chấn động quanh bản thân, gây 275 (0) STP lên tất cả kẻ địch lân cận, đồng thời giảm 1s hồi chiêu Thủy triều và cường hóa sát thương của lần tung chiêu Nước xoáy kế tiếp thêm 30%, cộng dồn tối đa 2 lần."
+    },
+    {
+      "name": "Vực Hỗn Loạn",
+      "info": "H.Chiêu: 45/40/35<br>Chaugnar gội ra 1 luồng năng lượng hỗn độn giúp hóa giải mọi hiệu ứng khống chế trên đồng minh, đồng thời giúp cường hóa kháng hiệu ứng, miễn thương, và tăng tốc chạy trong 1s, riếng bản thân kéo dài 3s. Đặc biệt trong vòng 6s Nước xoáy sẽ được giảm hồi chiêu và sử dụng không tốn năng lượng."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,3,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 kỹ năng",
+      "info": "2,3,4,0"
+    }
+  ],
+  "skill_note": "*Hãy đứng trung tâm đội trong giao tranh để Vực Hỗn Loạn thực sự có hiệu quả.",
+  "skill_special": "BocPha,CamTru,CapCuu",
+  "main_rune": [{
+      "name": "*Ngọc cấp 2",
+      "info": [{
+          "name": "NgocDo24",
+          "info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+        },
+        {
+          "name": "NgocTim24",
+          "info": "Máu tối đa +36<br>Giáp +1.6"
+        },
+        {
+          "name": "NgocXanh27",
+          "info": "Hồi máu/5s +4.5<br>Giáp +3.2"
+        }
+      ]
+    },
+    {
+      "name": "*Ngọc cấp 3",
+      "info": [{
+          "name": "NgocDo32",
+          "info": "Công phép +5.3"
+        },
+        {
+          "name": "NgocTim310",
+          "info": "Máu tối đa +60<br>Hồi máu/5s +4.5"
+        },
+        {
+          "name": "NgocXanh36",
+          "info": "Giáp +5<br>Giáp phép +5"
+        }
+      ]
+    }
+  ],
+  "item_build": [{
+      "name": "Đường giữa hoặc trợ thủ",
+      "info": "PhuongHoangLe,GiayHoVe,TruongBang,MatNaBerith,GiapGaia,AoChoangBangGia"
+    },
+    {
+      "name": "Đường giữa hoặc trợ thủ",
+      "info": "NgocDaiPhapSu,SachThanh,VuongMiengHecate,QuyenTruongRhea,ThapTuKiem,TruongBang"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "NgocDaiPhapSu,GiayHoVe,TruongBang,MatNaBerith,VuongMiengHecate,SachTruyHon"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "butterfly",
+          "info": "Butterfly"
+        },
+        {
+          "hero_id": "gildur",
+          "info": "Gildur"
+        },
+        {
+          "hero_id": "mganga",
+          "info": "Mganga"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "ormarr",
+          "info": "Ormarr"
+        }
+      ]
+    }
+  ],
+  "hero_story": "\"Ta là hóa thân của hỗn loạn, tổ tiên của ma quỷ\"<br>Kẻ có tên <i class=\"clr-orange\">Chaugnar</i>, Sứ giả của Cthulu, là một thực thể tà ác do hỗn độn sinh ra. Hắn đã tồn tại lâu hơn cả Thiên Đường hay Địa Ngục. Trong mắt hắn, sự tồn tại chỉ đơn thuần là cuộc chiến bất tận giữa hỗn loạn và trật tự. Sự sống, luật lệ, quy luật, cảm xúc và đức tin không có ý nghĩa với hắn. Những ai không may đối diện con quỷ độc ác này sẽ phải thu mình lại và cảm nhận sự tăm tối hơn cả bóng đêm, nỗi kinh hoàng hơn tất cả những sợ hãi từng trải qua.<br>Nếu không có một thiên tài lừa <i class=\"clr-orange\">Chaugnar</i> vào bẫy và nhốt hắn dưới đáy của Biển Đen thì có thể thế giới này đã biến mất từ lâu. Tuy nhiên, sức mạnh của sự hỗn loạn không bao giờ có thể được dập tắt hoàn toàn. Tất cả những gì loài người có thể làm là chiến đấu để làm suy yếu <i class=\"clr-orange\">Chaugnar</i> và giảm thiểu các mối đe dọa mà hắn tạo ra. Tuy nhiên, mọi người đều biết rằng một ngày <i class=\"clr-orange\">Chaugnar</i> sẽ phá vỡ xiềng xích của hắn và cho nổ tung thế giới này bằng lửa thù hận.<br>\"Ta sẽ cho ngươi chứng kiến thế giới này bị hỗn loạn nuốt chửng!\"",
+  "hero_skin": [{
+      "name": "Sứ Giả Hư Vô",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Chaugnar01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": "Chaugnar01"
+    },
+    {
+      "name": "Ác Mộng Sinh Hóa (Bậc A)",
+      "gold": "",
+      "voucher": "270",
+      "event": "",
+      "wall": "Chaugnar02",
+      "disable": "yes",
+      "img": "thumb2.jpg",
+      "video": "Chaugnar02"
+    },
+    {
+      "name": "Quang Vinh (Bậc A)",
+      "gold": "",
+      "voucher": "",
+      "event": "S6 Thưởng hạng",
+      "wall": "Chaugnar03",
+      "disable": "",
+      "img": "thumb3.jpg",
+      "video": ""
+    }
+  ]
 }

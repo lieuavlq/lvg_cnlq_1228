@@ -1,133 +1,135 @@
 {
-	"hero_id": "TheFlash",
-	"hero_name": "The Flash",
-	"main_info": {
-		"price_gold": "28,888",
-		"price_voucher": "629",
-		"position": "Pháp sư / Sát thủ",
-		"special": "Tiền đạo / Tiền vệ",
-		"lane": "Đường giữa"
-	},
-	"main_skill": [{
-			"name": "Thần tốc lực",
-			"info": "Nội tại: The Flash nhận 1 điểm tốc lực sau mỗi 4 mét di chuyển, khi tích đủ 4 điểm sẽ khiến bản thân cường hóa đòn đánh kế giúp lướt đến mục tiêu, gây (+90) STP và làm chậm 50% tốc chạy của nạn nhân, đòn đánh trúng đích giúp The Flash nhận lá chắn hấp thu 375 (+45) ST."
-		},
-		{
-			"name": "Hành trình siêu tốc",
-			"info": "ST Gốc: 200/220/240/260/280/300<br>ST thêm: 300/360/420/480/540/600<br>H.Chiêu: 10/9.4/8.8/8.2/7.6/7<br>The Flash lướt đi cực nhanh gây 200 (+36) STP lên những kẻ địch trúng chiêu dọc đường, khi lướt đi The Flash không bị chọn ngăn chặn, trừ khi tự dừng lại bằng cách phối hợp với chiêu thức khác, khi đến đích, The Flash có thể kích hoạt chiêu lần nữa để lướt về điểm khởi đầu, gây 200 (+36) STP lên những kẻ địch trúng chiêu dọc đường, các nạn nhân cả hai lần sẽ phải chịu thêm 300（+0.75 Công phép) STP."
-		},
-		{
-			"name": "Cú đấm chớp nhoáng",
-			"info": "ST Gốc: 135/160/185/210/235/260<br>H.Chiêu: 8/7.4/6.8/6.2/5.6/5<br>The Flash tung chuỗi liên hoàn đấm công kích kẻ địch 5 lần trong 0.8s, mỗi đợt gây 135 (+0.2 công phép) STP, đặc biệt cú đấm cuối có thể gây gấp đôi sát thương, đồng thời giúp bản thân tăng 80% tốc chạy (hiệu ứng giảm dần theo thời gian) trong 2s."
-		},
-		{
-			"name": "Lốc chân không",
-			"info": "Hồi chiêu: 50/45/40 giây<br>The Flash chạy vòng quanh tạo nên một cơn lốc chân không giúp bản thân không bị chọn làm mục tiêu và gây 90/130/170（+0.12 Công phép) sát thương phép lên những kẻ địch trong phạm vi ảnh hưởng, bù lại tự giảm 30% tốc chạy của bản thân trong 2 giây.<br>Sau 2 giây The Flash dừng lại đột ngột khiến kẻ địch bị hút về tâm bão, gây 450/675/900 (+0.7 công phép) sát thương phép và gây thêm 1 giây 40% giảm tốc."
-		}
-	],
-	"skill_up": {
-		"line1": "1,3,5,7,9,11",
-		"line2": "2,6,10,13,14,15",
-		"line3": "4,8,12"
-	},
-	"skill_combo": [{
-			"name": "*Combo đầu game 1",
-			"info": "2,0,3,2"
-		},
-		{
-			"name": "*Combo khi có đủ 3 kỹ năng",
-			"info": "2,0,4,3,2"
-		},
-		{
-			"name": "*Hoặc như này",
-			"info": "2,0,3,4,2"
-		}
-	],
-	"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Ngay cấp độ đầu nâng Chiêu 2 để dọn dẹp lính nhanh nhất có thể, lên cấp 2 là bá rồi.<br>- Dùng bộ combo Chiêu 1 > Đáng tay > Chiêu 2 cấu rỉa máu đối phương.<br>- Tận dụng Hành trình siêu tốc để gank các đường khác để gia tăng sức mạnh.<br>- Đầu game nên cấu rỉa máu rồi lui về không thì bốc hơi đó.<br><br><strong class=\"clr-orange\">*Cuối game</strong><br>- Sau khi có được Gươm tận thế lúc này Flash bá lắm rồi, khô máu thôi.<br>- Chú ý đòn đánh tay của Flash khá mạnh, trường hợp bị bắt dùng Chiêu 3 gơm đối phương cho đồng bọn xử.<br>- Tận dụng các bụi gặm để phân bóng, nhằm cấu rỉa hoặc có thể kết thúc mục tiêu thì càng tốt.",
-	"skill_special": "BocPha,TocBien",
-	"main_rune": {
-		"rune2": [{
-				"name": "NgocDo24",
-				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
-			},
-			{
-				"name": "NgocTim22",
-				"info": "Công phép +1.4<br>Hút máu phép +0.8%<br>Giáp phép +1.6"
-			},
-			{
-				"name": "NgocXanh28",
-				"info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
-			}
-		],
-		"rune3": [{
-				"name": "NgocDo31",
-				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
-			},
-			{
-				"name": "NgocTim32",
-				"info": "Tốc đánh +1%<br>Tốc chạy +1%"
-			},
-			{
-				"name": "NgocXanh33",
-				"info": "Công phép +2.4<br>Giảm hồi chiêu +0.7%"
-			}
-		]
-	},
-	"item_build": [{
-			"name": "Đường giữa full phép",
-			"info": "NgocDaiPhapSu,GiayPhuThuy,VuongMiengHecate,GuomTanThe,QuyenTruongRhea,TruongHonMang"
-		},
-		{
-			"name": "Đường giữa cấu rỉa có tí thủ",
-			"info": "NgocDaiPhapSu,GiayKienCuong,VuongMiengHecate,GiapThongKho,TruongBang,SachThanh"
-		},
-		{
-			"name": "Game thủ hay lên",
-			"info": "PhuongHoangLe,GiayPhuThuy,VuongMiengHecate,GuomTanThe,QuyenTruongRhea,MatNaBerith"
-		}
-	],
-	"hero_battle": [{
-			"name": "và đồng bọn",
-			"desc": "cùng với Maloch tạo ra combo Lốc chân không và Luyện ngục, địch bị giữ chân khá lâu cộng với dame của Maloch thì ôi thôi.<br>*Kế đó là cùng với Murad, Flash nhào lên cấu máu trước, Murad nhảy lên và dứt điểm, có thể ngược lại, một combo khủng khíp chăng?!",
-			"info": [{
-					"hero_id": "maloch",
-					"id_page": "Maloch"
-				},
-				{
-					"hero_id": "murad",
-					"id_page": "Murad"
-				}
-			]
-		},
-		{
-			"name": "và cách khắc chế",
-			"desc": "khá ái ngại khi gặp Alice với chiêu cuối căm lặng và slowmotion, cộng với Chiêu 1 giữ chân khá bá đạo, ôi thôi không còn đường lui rùi!!",
-			"info": [{
-				"hero_id": "alice",
-				"id_page": "Alice"
-			}]
-		}
-	],
-	"hero_story": "Barry Allen luôn luôn chạy với tốc độ hàng ngàn mét một phút – dường như không ai có thể làm anh ấy chậm lại. Điều đó đã bắt đầu từ cái ngày mẹ anh bị sát hại. Một khi đứa trẻ hiếu động này làm cho các giáo viên phát điên, toàn bộ năng lượng của Barry được tập trung vào một tâm trí duy nhất là tìm ra kẻ đã giết mẹ của mình. Lối đi của anh chọn đã đưa anh trở thành một nhà khoa học pháp y, và anh đã hoàn toàn bị cuốn hút bởi công việc này.<br>Khi một tia chớp kỳ lạ đánh vào phòng thí nghiệm, Barry đã hấp thụ toàn bộ sức mạnh từ Thần tốc lực, và trở thành <i class=\"clr-orange\">Flash</i>. Giờ đây, anh lên đỉnh những tòa nhà, xuyên qua đại dương, đi khắp thế giới để ngăn chặn những kẻ vi phạm luật pháp. Với tốc độ tiệm cận tốc độ ánh sáng, Barry đã khám phá sức mạnh tối hậu. Bằng sự quyết tâm và tập trung, <i class=\"clr-orange\">Flash</i> đã có thể học cách di chuyển qua các vật thể, tạo ra những vụ nổ siêu thanh chỉ bằng một cái đập tay - và không bao giờ thua cuộc.<br>Nhưng khả năng của <i class=\"clr-orange\">Flash</i> lại được thử nghiệm bằng một sự kiện rất bất ngờ. Khi anh cố gắng cứu một nhóm học sinh khỏi một ngôi trường đang cháy, <i class=\"clr-orange\">Flash</i> đã đẩy khả năng của mình đến giới hạn, di chuyển quá nhanh đến mức anh bước tới đường giới hạn của tốc độ ánh sáng. Trong khi anh cố gắng cứu một đứa bé, <i class=\"clr-orange\">Flash</i> đã lọt vào trung tâm của Thầ tốc lực - năng lượng siêu nhiên bí ẩn đã kích hoạt các khả năng của anh và anh dần bị cuốn vào đấy.<br>Dọc theo dòng chảy, biến dạng, các chiều không gian của Thần tốc lực, <i class=\"clr-orange\">Flash</i> đã phóng qua nhiều không gian, cho đến khi <i class=\"clr-orange\">Flash</i> dừng lại tại một vùng đất huyền diệu gọi là Athanor. Ban đầu, <i class=\"clr-orange\">Flash</i> than vãn khi mình bị bỏ lại trong thế giới đầy nguy hiểm này, nhưng ngay sau đó anh phát hiện nơi này có Thần tốc lực. Trong Athanor, <i class=\"clr-orange\">Flash</i> phát hiện ra những đầu mối tại Athanor thuộc về một những vị tướng Lokheim, nguồn cơn của việc <i class=\"clr-orange\">Flash</i> bị mắc kẹt trong Athanor.<br><i class=\"clr-orange\">Flash</i> đã tham gia cùng với các thành viên còn lại của Liên minh Công lý để khám phá những bí ẩn của Athanor và khôi phục Thần tốc lực. Khi bắt tay vào cuộc tìm kiếm, <i class=\"clr-orange\">Flash</i> dần khám phá ra bản tính thực sự của khả năng mà mình đang nắm giữ, và phát hiện này không chỉ dành cho <i class=\"clr-orange\">Flash</i>, nó dành cho tất cả mọi thành viên của Thần tốc lực.",
-	"hero_skin": [{
-			"name": "Hiệp Sĩ Thần Tốc",
-			"gold": "28,888",
-			"voucher": "629",
-			"event": "",
-			"wall": "TheFlash01",
-			"disable": "yes",
-			"img": "thumb1.jpg",
-			"video": "TheFlash01"
-		},
-		{
-			"name": "Tia Chớp Tương Lai (Bậc S)",
-			"gold": "",
-			"voucher": "409",
-			"event": "",
-			"wall": "TheFlash02",
-			"disable": "yes",
-			"img": "thumb2.jpg",
-			"video": ""
-		}
-	]
+  "hero_id": "TheFlash",
+  "hero_name": "The Flash",
+  "main_info": {
+    "price_gold": "28,888",
+    "price_voucher": "629",
+    "position": "Pháp sư / Sát thủ",
+    "special": "Tiền đạo / Tiền vệ",
+    "lane": "Đường giữa"
+  },
+  "main_skill": [{
+      "name": "Thần tốc lực",
+      "info": "Nội tại: The Flash nhận 1 điểm tốc lực sau mỗi 4 mét di chuyển, khi tích đủ 4 điểm sẽ khiến bản thân cường hóa đòn đánh kế giúp lướt đến mục tiêu, gây (+90) STP và làm chậm 50% tốc chạy của nạn nhân, đòn đánh trúng đích giúp The Flash nhận lá chắn hấp thu 375 (+45) ST."
+    },
+    {
+      "name": "Hành trình siêu tốc",
+      "info": "ST Gốc: 200/220/240/260/280/300<br>ST thêm: 300/360/420/480/540/600<br>H.Chiêu: 10/9.4/8.8/8.2/7.6/7<br>The Flash lướt đi cực nhanh gây 200 (+36) STP lên những kẻ địch trúng chiêu dọc đường, khi lướt đi The Flash không bị chọn ngăn chặn, trừ khi tự dừng lại bằng cách phối hợp với chiêu thức khác, khi đến đích, The Flash có thể kích hoạt chiêu lần nữa để lướt về điểm khởi đầu, gây 200 (+36) STP lên những kẻ địch trúng chiêu dọc đường, các nạn nhân cả hai lần sẽ phải chịu thêm 300（+0.75 Công phép) STP."
+    },
+    {
+      "name": "Cú đấm chớp nhoáng",
+      "info": "ST Gốc: 135/160/185/210/235/260<br>H.Chiêu: 8/7.4/6.8/6.2/5.6/5<br>The Flash tung chuỗi liên hoàn đấm công kích kẻ địch 5 lần trong 0.8s, mỗi đợt gây 135 (+0.2 công phép) STP, đặc biệt cú đấm cuối có thể gây gấp đôi sát thương, đồng thời giúp bản thân tăng 80% tốc chạy (hiệu ứng giảm dần theo thời gian) trong 2s."
+    },
+    {
+      "name": "Lốc chân không",
+      "info": "Hồi chiêu: 50/45/40 giây<br>The Flash chạy vòng quanh tạo nên một cơn lốc chân không giúp bản thân không bị chọn làm mục tiêu và gây 90/130/170（+0.12 Công phép) sát thương phép lên những kẻ địch trong phạm vi ảnh hưởng, bù lại tự giảm 30% tốc chạy của bản thân trong 2 giây.<br>Sau 2 giây The Flash dừng lại đột ngột khiến kẻ địch bị hút về tâm bão, gây 450/675/900 (+0.7 công phép) sát thương phép và gây thêm 1 giây 40% giảm tốc."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game 1",
+      "info": "2,0,3,2"
+    },
+    {
+      "name": "*Combo khi có đủ 3 kỹ năng",
+      "info": "2,0,4,3,2"
+    },
+    {
+      "name": "*Hoặc như này",
+      "info": "2,0,3,4,2"
+    }
+  ],
+  "skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Ngay cấp độ đầu nâng Chiêu 2 để dọn dẹp lính nhanh nhất có thể, lên cấp 2 là bá rồi.<br>- Dùng bộ combo Chiêu 1 > Đáng tay > Chiêu 2 cấu rỉa máu đối phương.<br>- Tận dụng Hành trình siêu tốc để gank các đường khác để gia tăng sức mạnh.<br>- Đầu game nên cấu rỉa máu rồi lui về không thì bốc hơi đó.<br><br><strong class=\"clr-orange\">*Cuối game</strong><br>- Sau khi có được Gươm tận thế lúc này Flash bá lắm rồi, khô máu thôi.<br>- Chú ý đòn đánh tay của Flash khá mạnh, trường hợp bị bắt dùng Chiêu 3 gơm đối phương cho đồng bọn xử.<br>- Tận dụng các bụi gặm để phân bóng, nhằm cấu rỉa hoặc có thể kết thúc mục tiêu thì càng tốt.",
+  "skill_special": "BocPha,TocBien",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo24",
+        "info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+      },
+      {
+        "name": "NgocTim22",
+        "info": "Công phép +1.4<br>Hút máu phép +0.8%<br>Giáp phép +1.6"
+      },
+      {
+        "name": "NgocXanh28",
+        "info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo31",
+        "info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+      },
+      {
+        "name": "NgocTim32",
+        "info": "Tốc đánh +1%<br>Tốc chạy +1%"
+      },
+      {
+        "name": "NgocXanh33",
+        "info": "Công phép +2.4<br>Giảm hồi chiêu +0.7%"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường giữa full phép",
+      "info": "NgocDaiPhapSu,GiayPhuThuy,VuongMiengHecate,GuomTanThe,QuyenTruongRhea,TruongHonMang"
+    },
+    {
+      "name": "Đường giữa cấu rỉa có tí thủ",
+      "info": "NgocDaiPhapSu,GiayKienCuong,VuongMiengHecate,GiapThongKho,TruongBang,SachThanh"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "PhuongHoangLe,GiayPhuThuy,VuongMiengHecate,GuomTanThe,QuyenTruongRhea,MatNaBerith"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "maloch",
+          "info": "Maloch"
+        },
+        {
+          "hero_id": "murad",
+          "info": "Murad"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+        "hero_id": "alice",
+        "info": "Alice"
+      }]
+    }
+  ],
+  "hero_story": "Barry Allen luôn luôn chạy với tốc độ hàng ngàn mét một phút – dường như không ai có thể làm anh ấy chậm lại. Điều đó đã bắt đầu từ cái ngày mẹ anh bị sát hại. Một khi đứa trẻ hiếu động này làm cho các giáo viên phát điên, toàn bộ năng lượng của Barry được tập trung vào một tâm trí duy nhất là tìm ra kẻ đã giết mẹ của mình. Lối đi của anh chọn đã đưa anh trở thành một nhà khoa học pháp y, và anh đã hoàn toàn bị cuốn hút bởi công việc này.<br>Khi một tia chớp kỳ lạ đánh vào phòng thí nghiệm, Barry đã hấp thụ toàn bộ sức mạnh từ Thần tốc lực, và trở thành <i class=\"clr-orange\">Flash</i>. Giờ đây, anh lên đỉnh những tòa nhà, xuyên qua đại dương, đi khắp thế giới để ngăn chặn những kẻ vi phạm luật pháp. Với tốc độ tiệm cận tốc độ ánh sáng, Barry đã khám phá sức mạnh tối hậu. Bằng sự quyết tâm và tập trung, <i class=\"clr-orange\">Flash</i> đã có thể học cách di chuyển qua các vật thể, tạo ra những vụ nổ siêu thanh chỉ bằng một cái đập tay - và không bao giờ thua cuộc.<br>Nhưng khả năng của <i class=\"clr-orange\">Flash</i> lại được thử nghiệm bằng một sự kiện rất bất ngờ. Khi anh cố gắng cứu một nhóm học sinh khỏi một ngôi trường đang cháy, <i class=\"clr-orange\">Flash</i> đã đẩy khả năng của mình đến giới hạn, di chuyển quá nhanh đến mức anh bước tới đường giới hạn của tốc độ ánh sáng. Trong khi anh cố gắng cứu một đứa bé, <i class=\"clr-orange\">Flash</i> đã lọt vào trung tâm của Thầ tốc lực - năng lượng siêu nhiên bí ẩn đã kích hoạt các khả năng của anh và anh dần bị cuốn vào đấy.<br>Dọc theo dòng chảy, biến dạng, các chiều không gian của Thần tốc lực, <i class=\"clr-orange\">Flash</i> đã phóng qua nhiều không gian, cho đến khi <i class=\"clr-orange\">Flash</i> dừng lại tại một vùng đất huyền diệu gọi là Athanor. Ban đầu, <i class=\"clr-orange\">Flash</i> than vãn khi mình bị bỏ lại trong thế giới đầy nguy hiểm này, nhưng ngay sau đó anh phát hiện nơi này có Thần tốc lực. Trong Athanor, <i class=\"clr-orange\">Flash</i> phát hiện ra những đầu mối tại Athanor thuộc về một những vị tướng Lokheim, nguồn cơn của việc <i class=\"clr-orange\">Flash</i> bị mắc kẹt trong Athanor.<br><i class=\"clr-orange\">Flash</i> đã tham gia cùng với các thành viên còn lại của Liên minh Công lý để khám phá những bí ẩn của Athanor và khôi phục Thần tốc lực. Khi bắt tay vào cuộc tìm kiếm, <i class=\"clr-orange\">Flash</i> dần khám phá ra bản tính thực sự của khả năng mà mình đang nắm giữ, và phát hiện này không chỉ dành cho <i class=\"clr-orange\">Flash</i>, nó dành cho tất cả mọi thành viên của Thần tốc lực.",
+  "hero_skin": [{
+      "name": "Hiệp Sĩ Thần Tốc",
+      "gold": "28,888",
+      "voucher": "629",
+      "event": "",
+      "wall": "TheFlash01",
+      "disable": "yes",
+      "img": "thumb1.jpg",
+      "video": "TheFlash01"
+    },
+    {
+      "name": "Tia Chớp Tương Lai (Bậc S)",
+      "gold": "",
+      "voucher": "409",
+      "event": "",
+      "wall": "TheFlash02",
+      "disable": "yes",
+      "img": "thumb2.jpg",
+      "video": ""
+    }
+  ]
 }

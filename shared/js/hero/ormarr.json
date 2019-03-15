@@ -1,167 +1,169 @@
 {
-	"hero_id": "Ormarr",
-	"hero_name": "Ormarr",
-	"main_info": {
-		"price_gold": "13,888",
-		"price_voucher": "359",
-		"price_text": "",
-		"position": "Đấu sĩ / Đỡ đòn",
-		"special": "Khống chế / Tiền đạo",
-		"lane": "Đường rồng"
-	},
-	"main_skill": [{
-			"name": "Man lực",
-			"info": "Nội tại: Tất cả sát thương của Ormarr đều có 60% tỷ lệ làm choáng 0.75 giây mục tiêu, và gây 3-7% máu tối đa của bản thân thành sát thương phép (6 giây hồi)."
-		},
-		{
-			"name": "Búa cuồng",
-			"info": "ST Gốc: 150/200/250/300/350/400<br>H.Chiêu: 10/9/8/7/6/5<br>Ormarr lao đến vung búa hất tung những kẻ địch trúng chiêu và gây 150 (+196) STVL."
-		},
-		{
-			"name": "Búa tạ",
-			"info": "ST Gốc: 215/260/305/350/395/440<br>Hồi chiêu: 6 giây<br>Ormarr nện búa xuống đất gây 215 (+179) STVL lên những kẻ địch trúng chiêu, đồng thời làm chậm 50% tốc chạy của nạn nhân trong 1s. Mỗi lần tung chiêu trúng địch giúp nhận 1 điểm Cuồng dã, khi đạt đủ 3 điểm sẽ khiến lần tung chiêu kế gây kèm hiệu ứng làm choáng."
-		},
-		{
-			"name": "Bão búa",
-			"info": "Hồi chiêu: 40/35/30 giây<br>Vũ khí trên tay Ormarr xoay vòng cực nhanh gây 100/120/140 (+0.50 công vật lý) sát thương vật lý kèm theo tỷ lệ làm choáng trên mỗi chiêu trúng đích. Nếu có tướng địch trúng chiêu sẽ khiến Ormarr được hồi 2% máu tối đa của bản thân (cộng dồn lên đến 3 tầng hiệu lực). Suốt thời gian này Ormarr không thể bị ngắt quãng chiêu, và có thể sử dụng Búa cuồng, nhưng bù lại sẽ bị giảm tốc chạy."
-		}
-	],
-	"skill_up": {
-		"line1": "1,6,10,13,14,15",
-		"line2": "2,3,5,7,9,11",
-		"line3": "4,8,12"
-	},
-	"skill_combo": [{
-			"name": "*Combo đầu game",
-			"info": "2,3,0"
-		},
-		{
-			"name": "*Combo khi có đủ 3 kỹ năng",
-			"info": "4,2,3,0"
-		}
-	],
-	"skill_note": "*Bật Bão Búa quay tay khá vui nhưng lượng sát thương không hề ít nhé.<br>*Chiêu 2 nện búa xuống đất khá rộng vì thế tìm vị trí tốt có thể trúng nhiều địch càng tốt.",
-	"skill_special": "CapCuu,BocPha",
-	"main_rune": {
-		"rune2": [{
-				"name": "NgocDo25",
-				"info": "Công vật lý +1.5<br>Máu tối đa +13.5"
-			},
-			{
-				"name": "NgocTim23",
-				"info": "Công vật lý +0.6<br>Máu tối đa +36"
-			},
-			{
-				"name": "NgocXanh23",
-				"info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
-			}
-		],
-		"rune3": [{
-				"name": "NgocDo34",
-				"info": "Công vật lý +3.2"
-			},
-			{
-				"name": "NgocTim34",
-				"info": "Tỷ lệ chí mạng +0.5%<br>Máu tối đa +60"
-			},
-			{
-				"name": "NgocXanh31",
-				"info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
-			}
-		]
-	},
-	"item_build": [{
-			"name": "Chơi hỗ trợ",
-			"info": "LenhBaiPhongThan,GiayKienCuong,KhienThatTruyen,AoChoangBangGia,GiapGaia,HerculeThinhNo"
-		},
-		{
-			"name": "Chơi hỗ trợ",
-			"info": "LenhBaiPhongThan,GiayKienCuong,GiapHiepSi,HuanChuongTroy,GiapThongKho,GiapHoMenh"
-		},
-		{
-			"name": "Đường Caesar",
-			"info": "AoChoangThanRa,GiayKienCuong,RiuHyoga,ThuongLonginus,HuanChuongTroy,PhucHopKiem"
-		}
-	],
-	"hero_battle": [{
-			"name": "và đồng đội",
-			"desc": "phù hợp khi chời cùng",
-			"info": [{
-					"hero_id": "violet",
-					"id_page": "Violet"
-				},
-				{
-					"hero_id": "krixi",
-					"id_page": "Krixi"
-				},
-				{
-					"hero_id": "yorn",
-					"id_page": "Yorn"
-				},
-				{
-					"hero_id": "tel_annas",
-					"id_page": "TelAnnas"
-				},
-				{
-					"hero_id": "valhein",
-					"id_page": "Valhein"
-				}
-			]
-		},
-		{
-			"name": "và cách khắc chế",
-			"desc": "thấy khó chịu khi gặp",
-			"info": [{
-					"hero_id": "alice",
-					"id_page": "Alice"
-				},
-				{
-					"hero_id": "chaugnar",
-					"id_page": "Chaugnar"
-				}
-			]
-		}
-	],
-	"hero_story": "\"Thử đánh bại ta xem nào!\"<br>Sinh ra trong bộ lạc Huyết Phủ, <i class=\"clr-orange\">Ormarr</i> sở hữu sức mạnh phi thường và sức chịu đựng dẻo dai.<br>Với cây búa khổng lồ và thanh kiếm của mình, <i class=\"clr-orange\">Ormarr</i> xung phong tham chiến không biết bao nhiêu trận đánh của bộ tộc của mình với. Gã luôn là người xung phong đầu tiên và rút lui cuối cùng. Trước sự bất khuất, gan dạ, quả cảm đó, <i class=\"clr-orange\">Ormarr</i> nhận được sự kính nể của cả đồng minh lẫn kẻ thù. Biệt danh “Cuồng Chiến Binh” cũng bắt đầu từ đây.<br>Nhận được sự tín nhiệm của nhiều người trong bộ tộc, <i class=\"clr-orange\">Ormarr</i> trở thành đầu lĩnh. Nhưng trong quá trình lãnh đạo, gã có nhiều quyết định sai lầm, mà nổi bật trong đó là việc cố gắng cướp kho lương thực dự trữ của đồng minh. Điều này đã khiến bộ tộc của gã bị trục xuất đến vùng đất băng giá phương Bắc xa xôi. Điều kì lạ là điều này lại không hề làm ảnh hưởng đến danh tiếng của <i class=\"clr-orange\">Ormarr</i>. Mọi người trong bộ tộc vẫn nhất nhất nghe theo <i class=\"clr-orange\">Ormarr</i>, điều này luôn thôi thúc gã phải cố gắng nhiều hơn nữa.<br>Không làm mọi người trong bộ tộc thất vọng, khi đội quân quỷ dữ xâm lược lục địa, <i class=\"clr-orange\">Ormarr</i> đã dẫn đầu đội quân để bảo vệ bộ tộc của mình. Cảm phục trước tinh thần quả cảm, vì bộ tộc quên thân đó, những bộ tộc lân cận nhanh chóng cho người chi viện vật tư, quân đội để cùng <i class=\"clr-orange\">Ormarr</i> chống lại lũ quỷ dữ kia.<br>\"Chiến trường là nơi duy nhất dành cho một chiến binh ngã xuống!\"",
-	"hero_skin": [{
-			"name": "Cuồng Chiễn Sĩ",
-			"gold": "13,888",
-			"voucher": "359",
-			"event": "",
-			"wall": "Ormarr01",
-			"disable": "",
-			"img": "thumb1.jpg",
-			"video": "Ormarr01"
-		},
-		{
-			"name": "Cựu Chiến Binh (Bậc A)",
-			"gold": "",
-			"voucher": "270",
-			"event": "",
-			"wall": "Ormarr02",
-			"disable": "",
-			"img": "thumb2.jpg",
-			"video": "Ormarr02"
-		},
-		{
-			"name": "Thông Thỏa Thích (Bậc S)",
-			"gold": "",
-			"voucher": "409",
-			"event": "",
-			"wall": "Ormarr03",
-			"disable": "",
-			"img": "thumb3.jpg",
-			"video": "Ormarr03"
-		},
-		{
-			"name": "Giáo Viên Thể Hình (Bậc A)",
-			"gold": "",
-			"voucher": "279",
-			"event": "",
-			"wall": "Ormarr04",
-			"disable": "",
-			"img": "thumb4.jpg",
-			"video": "Ormarr04"
-		}
-	]
+  "hero_id": "Ormarr",
+  "hero_name": "Ormarr",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Đấu sĩ / Đỡ đòn",
+    "special": "Khống chế / Tiền đạo",
+    "lane": "Đường rồng"
+  },
+  "main_skill": [{
+      "name": "Man lực",
+      "info": "Nội tại: Tất cả sát thương của Ormarr đều có 60% tỷ lệ làm choáng 0.75 giây mục tiêu, và gây 3-7% máu tối đa của bản thân thành sát thương phép (6 giây hồi)."
+    },
+    {
+      "name": "Búa cuồng",
+      "info": "ST Gốc: 150/200/250/300/350/400<br>H.Chiêu: 10/9/8/7/6/5<br>Ormarr lao đến vung búa hất tung những kẻ địch trúng chiêu và gây 150 (+196) STVL."
+    },
+    {
+      "name": "Búa tạ",
+      "info": "ST Gốc: 215/260/305/350/395/440<br>Hồi chiêu: 6 giây<br>Ormarr nện búa xuống đất gây 215 (+179) STVL lên những kẻ địch trúng chiêu, đồng thời làm chậm 50% tốc chạy của nạn nhân trong 1s. Mỗi lần tung chiêu trúng địch giúp nhận 1 điểm Cuồng dã, khi đạt đủ 3 điểm sẽ khiến lần tung chiêu kế gây kèm hiệu ứng làm choáng."
+    },
+    {
+      "name": "Bão búa",
+      "info": "Hồi chiêu: 40/35/30 giây<br>Vũ khí trên tay Ormarr xoay vòng cực nhanh gây 100/120/140 (+0.50 công vật lý) sát thương vật lý kèm theo tỷ lệ làm choáng trên mỗi chiêu trúng đích. Nếu có tướng địch trúng chiêu sẽ khiến Ormarr được hồi 2% máu tối đa của bản thân (cộng dồn lên đến 3 tầng hiệu lực). Suốt thời gian này Ormarr không thể bị ngắt quãng chiêu, và có thể sử dụng Búa cuồng, nhưng bù lại sẽ bị giảm tốc chạy."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,6,10,13,14,15",
+    "line2": "2,3,5,7,9,11",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,3,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 kỹ năng",
+      "info": "4,2,3,0"
+    }
+  ],
+  "skill_note": "*Bật Bão Búa quay tay khá vui nhưng lượng sát thương không hề ít nhé.<br>*Chiêu 2 nện búa xuống đất khá rộng vì thế tìm vị trí tốt có thể trúng nhiều địch càng tốt.",
+  "skill_special": "CapCuu,BocPha",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo25",
+        "info": "Công vật lý +1.5<br>Máu tối đa +13.5"
+      },
+      {
+        "name": "NgocTim23",
+        "info": "Công vật lý +0.6<br>Máu tối đa +36"
+      },
+      {
+        "name": "NgocXanh23",
+        "info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo34",
+        "info": "Công vật lý +3.2"
+      },
+      {
+        "name": "NgocTim34",
+        "info": "Tỷ lệ chí mạng +0.5%<br>Máu tối đa +60"
+      },
+      {
+        "name": "NgocXanh31",
+        "info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Chơi hỗ trợ",
+      "info": "LenhBaiPhongThan,GiayKienCuong,KhienThatTruyen,AoChoangBangGia,GiapGaia,HerculeThinhNo"
+    },
+    {
+      "name": "Chơi hỗ trợ",
+      "info": "LenhBaiPhongThan,GiayKienCuong,GiapHiepSi,HuanChuongTroy,GiapThongKho,GiapHoMenh"
+    },
+    {
+      "name": "Đường Caesar",
+      "info": "AoChoangThanRa,GiayKienCuong,RiuHyoga,ThuongLonginus,HuanChuongTroy,PhucHopKiem"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "krixi",
+          "info": "Krixi"
+        },
+        {
+          "hero_id": "yorn",
+          "info": "Yorn"
+        },
+        {
+          "hero_id": "tel_annas",
+          "info": "TelAnnas"
+        },
+        {
+          "hero_id": "valhein",
+          "info": "Valhein"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "alice",
+          "info": "Alice"
+        },
+        {
+          "hero_id": "chaugnar",
+          "info": "Chaugnar"
+        }
+      ]
+    }
+  ],
+  "hero_story": "\"Thử đánh bại ta xem nào!\"<br>Sinh ra trong bộ lạc Huyết Phủ, <i class=\"clr-orange\">Ormarr</i> sở hữu sức mạnh phi thường và sức chịu đựng dẻo dai.<br>Với cây búa khổng lồ và thanh kiếm của mình, <i class=\"clr-orange\">Ormarr</i> xung phong tham chiến không biết bao nhiêu trận đánh của bộ tộc của mình với. Gã luôn là người xung phong đầu tiên và rút lui cuối cùng. Trước sự bất khuất, gan dạ, quả cảm đó, <i class=\"clr-orange\">Ormarr</i> nhận được sự kính nể của cả đồng minh lẫn kẻ thù. Biệt danh “Cuồng Chiến Binh” cũng bắt đầu từ đây.<br>Nhận được sự tín nhiệm của nhiều người trong bộ tộc, <i class=\"clr-orange\">Ormarr</i> trở thành đầu lĩnh. Nhưng trong quá trình lãnh đạo, gã có nhiều quyết định sai lầm, mà nổi bật trong đó là việc cố gắng cướp kho lương thực dự trữ của đồng minh. Điều này đã khiến bộ tộc của gã bị trục xuất đến vùng đất băng giá phương Bắc xa xôi. Điều kì lạ là điều này lại không hề làm ảnh hưởng đến danh tiếng của <i class=\"clr-orange\">Ormarr</i>. Mọi người trong bộ tộc vẫn nhất nhất nghe theo <i class=\"clr-orange\">Ormarr</i>, điều này luôn thôi thúc gã phải cố gắng nhiều hơn nữa.<br>Không làm mọi người trong bộ tộc thất vọng, khi đội quân quỷ dữ xâm lược lục địa, <i class=\"clr-orange\">Ormarr</i> đã dẫn đầu đội quân để bảo vệ bộ tộc của mình. Cảm phục trước tinh thần quả cảm, vì bộ tộc quên thân đó, những bộ tộc lân cận nhanh chóng cho người chi viện vật tư, quân đội để cùng <i class=\"clr-orange\">Ormarr</i> chống lại lũ quỷ dữ kia.<br>\"Chiến trường là nơi duy nhất dành cho một chiến binh ngã xuống!\"",
+  "hero_skin": [{
+      "name": "Cuồng Chiễn Sĩ",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Ormarr01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": "Ormarr01"
+    },
+    {
+      "name": "Cựu Chiến Binh (Bậc A)",
+      "gold": "",
+      "voucher": "270",
+      "event": "",
+      "wall": "Ormarr02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": "Ormarr02"
+    },
+    {
+      "name": "Thông Thỏa Thích (Bậc S)",
+      "gold": "",
+      "voucher": "409",
+      "event": "",
+      "wall": "Ormarr03",
+      "disable": "",
+      "img": "thumb3.jpg",
+      "video": "Ormarr03"
+    },
+    {
+      "name": "Giáo Viên Thể Hình (Bậc A)",
+      "gold": "",
+      "voucher": "279",
+      "event": "",
+      "wall": "Ormarr04",
+      "disable": "",
+      "img": "thumb4.jpg",
+      "video": "Ormarr04"
+    }
+  ]
 }

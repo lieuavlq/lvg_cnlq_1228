@@ -1,153 +1,155 @@
 {
-	"hero_id": "Jinna",
-	"hero_name": "Jinna",
-	"main_info": {
-		"price_gold": "13,888",
-		"price_voucher": "359",
-		"price_text": "",
-		"position": "Pháp sư",
-		"special": "Cấu rỉa",
-		"lane": "Đường giữa"
-	},
-	"main_skill": [{
-			"name": "Ấn chú",
-			"info": "Nội tại: sau 4 lần công kích (gồm cả đánh thường lẫn chiêu thức), đòn đánh thường kế tiếp sẽ phóng kình lực xuyên thấu kẻ địch gây 300 (+0) STP."
-		},
-		{
-			"name": "Loạn hạt",
-			"info": "ST Gốc: 300/360/420/480/540/600<br>Jinna tung chuỗi hạt vào tối đa 2 kẻ địch lân cận gây 300 (+0.5 công phép) STP, kẻ địch trúng chiêu sẽ khiến chuỗi hạt nảy đi tối đa 2 lần, các nạn nhân trúng chiêu nhiều lần sẽ chỉ phải chịu 30% sát thương ở các lần nảy sau."
-		},
-		{
-			"name": "Hàng yêu phục ma",
-			"info": "ST Gốc: 450/510/570/630/690/750<br>H.Chiêu: 10/9.4/8.8/8.2/7.6/7<br>Jinna dậm chân phát kình lực gây 450 (+0) STP lên những kẻ địch lân cận, đồng thời làm giảm 50% tốc độ chạy của các nạn nhân trong 2s."
-		},
-		{
-			"name": "Kết giới xá lợi",
-			"info": "ST Gốc: 170/210/250<br>H.Chiêu: 35/30/25<br>Jinna tạo ra một kết giới bằng những viên xá lợi bay quanh bản thân gây 170 (+0.2 công phép) STP mỗi đợt, trong 0.5s, tổng cộng 10 lần Ngay tại thời điểm kích hoạt kết giới, Jinna lập tức nhận được 15% miễn thương, với mỗi tướng địch cạnh bên sẽ khiến Jinna nhận thêm 5% miễn thương, trong 5 giây, phát hiện số lượng tướng địch ở xung quanh, kích hoạt miễn thương theo con số tương ứng, ngoài ra Jinna được tăng 80% tốc chạy (giảm dần) cộng thêm trong 2.5s."
-		}
-	],
-	"skill_up": {
-		"line1": "1,3,6,9,11,15",
-		"line2": "2,5,7,10,13,14",
-		"line3": "4,8,12"
-	},
-	"skill_combo": [{
-			"name": "*Combo đầu game",
-			"info": "3,2,0"
-		},
-		{
-			"name": "*Combo khi có đủ 3 kỹ năng",
-			"info": "4,3,2,0"
-		}
-	],
-	"skill_note": "*Tận dụng chiêu cuối để đỡ sát thương giúp đồng đội và đừng quên hạ gục đối thủ.",
-	"skill_special": "TocBien,BocPha,TocHanh",
-	"main_rune": {
-		"rune2": [{
-				"name": "NgocDo24",
-				"info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
-			},
-			{
-				"name": "NgocTim23",
-				"info": "Công phép +1.4 <br>Hút máu phép +0.8%<br>Giáp phép +1.6"
-			},
-			{
-				"name": "NgocXanh28",
-				"info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
-			}
-		],
-		"rune3": [{
-				"name": "NgocDo31",
-				"info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
-			},
-			{
-				"name": "NgocTim36",
-				"info": "Công phép +2.4<br>Hút máu phép +1%"
-			},
-			{
-				"name": "NgocXanh310",
-				"info": "Tốc đánh +0.6%<br>Xuyên giáp phép +6.4"
-			}
-		]
-	},
-	"item_build": [{
-			"name": "Đường giữa",
-			"info": "PhuongHoangLe,GiayHoVe,VuongMiengHecate,GuomHienTriet,QuyenTruongRhea,AoChoangBangGia"
-		},
-		{
-			"name": "Đường giữa",
-			"info": "NgocDaiPhapSu,GiayHoVe,VuongMiengHecate,TruongBang,GuomHienTriet,GiapGaia"
-		},
-		{
-			"name": "Game thủ hay lên",
-			"info": "VuongMiengHecate,GiayPhuThuy,TruongHonMang,SachThanh,TruongBang,GuomHienTriet"
-		}
-	],
-	"hero_battle": [{
-			"name": "và đồng đội",
-			"desc": "phù hợp khi chơi cùng",
-			"info": [{
-					"hero_id": "violet",
-					"id_page": "Violet"
-				},
-				{
-					"hero_id": "nakroth",
-					"id_page": "Nakroth"
-				},
-				{
-					"hero_id": "ormarr",
-					"id_page": "Ormarr"
-				},
-				{
-					"hero_id": "toro",
-					"id_page": "Toro"
-				}
-			]
-		},
-		{
-			"name": "và cách khắc chế",
-			"desc": "thấy khó chịu khi gặp",
-			"info": [{
-					"hero_id": "aleister",
-					"id_page": "Aleister"
-				},
-				{
-					"hero_id": "krixi",
-					"id_page": "Krixi"
-				}
-			]
-		}
-	],
-	"hero_story": "Chuỗi hạt luân hồi, là thánh vật lưu truyền của gia tốc <i class=\"clr-orange\">Jinna</i>.<br>Từ thời xa xưa, tổ tiên của bộ tộc <i class=\"clr-orange\">Jinna</i>, chỉ dựa vào sức mạnh khi niệm thần chú của chuỗi hạt mà có thể đối đầu với ác ma trong địa ngục. Tuy nhiên, việc tàn sát quá nhiều khiến chuỗi hạt bị nhiễm phải sức mạnh hắc ám tà ác, cuối cùng tổ tiên <i class=\"clr-orange\">Jinna</i> buộc phải hy sinh linh hồn để phong ấn chuỗi hạt, và căn dặn hậu thế bảo vệ thật cẩn thận.<br>Một lần nữa sức mạnh hắc ám lại trỗi dậy, phong ấn cổ xưa đang dần bị lung lay. <i class=\"clr-orange\">Jinna</i> tu luyện quanh năm, cảm nhận được sự thay đổi của chuỗi hạt. Để tránh chuối hạt bị sức mạnh hắc ám nuốt trọn, hắn quyết định mang chuỗi hạt lên Cung Điện Ánh Sáng để thanh tẩy.<br>Cái mà không ai ngờ đến, là sức mạnh hắc ám phát ra từ chuỗi hạt, đã thu hút được sự chú ý của tên Maloch đến từ địa ngục, những tên ác ma dưới trướng của hắn nhanh chóng truy đuổi theo <i class=\"clr-orange\">Jinna</i>. Trong lúc nguy cấp, sức mạnh linh hồn còn sót lại trong chuỗi hạt bỗng thức tỉnh, <i class=\"clr-orange\">Jinna</i> đã đẩy lùi được ác ma dưới sự giúp đỡ của tổ tiên, đồng thời cũng nắm giữ được cách điều khiển sức mạnh chuỗi hạt.<br>Cuối cùng, <i class=\"clr-orange\">Jinna</i> đã mang chuỗi hạt luân hồi đến được Cung Điện Ánh Sáng. Sức mạnh tu luyện nhiều năm của <i class=\"clr-orange\">Jinna</i> và sức mạnh lấy được từ chuỗi hạt, đã được mọi người trong Cung Điện công nhận. Dưới sự gợi ý của Thánh nữ Lauriel, <i class=\"clr-orange\">Jinna</i> bắt đầu tu luyện sức mạnh ma pháp khó nhất của Cung Điện Ánh Sáng là Bí pháp thiền tông, tu luyện tâm pháp bằng cách không nói 1 lời nào.<br><i class=\"clr-orange\">Jinna</i> hiểu rằng, chỉ có sức mạnh ánh sáng thuần khiết này, mới có thể thanh tẩy được sức mạnh hắc ám bên trong chuỗi hạt luân hồi!",
-	"hero_skin": [{
-			"name": "Đại Thiền Sư",
-			"gold": "13,888",
-			"voucher": "359",
-			"event": "",
-			"wall": "Jinna01",
-			"disable": "",
-			"img": "thumb1.jpg",
-			"video": ""
-		},
-		{
-			"name": "Đại Tư Tế",
-			"gold": "",
-			"voucher": "185",
-			"event": "",
-			"wall": "Jinna02",
-			"disable": "",
-			"img": "thumb2.jpg",
-			"video": ""
-		},
-		{
-			"name": "Dạ Xoa Vương (Bậc S)",
-			"gold": "",
-			"voucher": "409",
-			"event": "",
-			"wall": "Jinna03",
-			"disable": "",
-			"img": "thumb3.jpg",
-			"video": ""
-		}
-	]
+  "hero_id": "Jinna",
+  "hero_name": "Jinna",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Pháp sư",
+    "special": "Cấu rỉa",
+    "lane": "Đường giữa"
+  },
+  "main_skill": [{
+      "name": "Ấn chú",
+      "info": "Nội tại: sau 4 lần công kích (gồm cả đánh thường lẫn chiêu thức), đòn đánh thường kế tiếp sẽ phóng kình lực xuyên thấu kẻ địch gây 300 (+0) STP."
+    },
+    {
+      "name": "Loạn hạt",
+      "info": "ST Gốc: 300/360/420/480/540/600<br>Jinna tung chuỗi hạt vào tối đa 2 kẻ địch lân cận gây 300 (+0.5 công phép) STP, kẻ địch trúng chiêu sẽ khiến chuỗi hạt nảy đi tối đa 2 lần, các nạn nhân trúng chiêu nhiều lần sẽ chỉ phải chịu 30% sát thương ở các lần nảy sau."
+    },
+    {
+      "name": "Hàng yêu phục ma",
+      "info": "ST Gốc: 450/510/570/630/690/750<br>H.Chiêu: 10/9.4/8.8/8.2/7.6/7<br>Jinna dậm chân phát kình lực gây 450 (+0) STP lên những kẻ địch lân cận, đồng thời làm giảm 50% tốc độ chạy của các nạn nhân trong 2s."
+    },
+    {
+      "name": "Kết giới xá lợi",
+      "info": "ST Gốc: 170/210/250<br>H.Chiêu: 35/30/25<br>Jinna tạo ra một kết giới bằng những viên xá lợi bay quanh bản thân gây 170 (+0.2 công phép) STP mỗi đợt, trong 0.5s, tổng cộng 10 lần Ngay tại thời điểm kích hoạt kết giới, Jinna lập tức nhận được 15% miễn thương, với mỗi tướng địch cạnh bên sẽ khiến Jinna nhận thêm 5% miễn thương, trong 5 giây, phát hiện số lượng tướng địch ở xung quanh, kích hoạt miễn thương theo con số tương ứng, ngoài ra Jinna được tăng 80% tốc chạy (giảm dần) cộng thêm trong 2.5s."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,6,9,11,15",
+    "line2": "2,5,7,10,13,14",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "3,2,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 kỹ năng",
+      "info": "4,3,2,0"
+    }
+  ],
+  "skill_note": "*Tận dụng chiêu cuối để đỡ sát thương giúp đồng đội và đừng quên hạ gục đối thủ.",
+  "skill_special": "TocBien,BocPha,TocHanh",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo24",
+        "info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+      },
+      {
+        "name": "NgocTim23",
+        "info": "Công phép +1.4 <br>Hút máu phép +0.8%<br>Giáp phép +1.6"
+      },
+      {
+        "name": "NgocXanh28",
+        "info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo31",
+        "info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+      },
+      {
+        "name": "NgocTim36",
+        "info": "Công phép +2.4<br>Hút máu phép +1%"
+      },
+      {
+        "name": "NgocXanh310",
+        "info": "Tốc đánh +0.6%<br>Xuyên giáp phép +6.4"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường giữa",
+      "info": "PhuongHoangLe,GiayHoVe,VuongMiengHecate,GuomHienTriet,QuyenTruongRhea,AoChoangBangGia"
+    },
+    {
+      "name": "Đường giữa",
+      "info": "NgocDaiPhapSu,GiayHoVe,VuongMiengHecate,TruongBang,GuomHienTriet,GiapGaia"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "VuongMiengHecate,GiayPhuThuy,TruongHonMang,SachThanh,TruongBang,GuomHienTriet"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "nakroth",
+          "info": "Nakroth"
+        },
+        {
+          "hero_id": "ormarr",
+          "info": "Ormarr"
+        },
+        {
+          "hero_id": "toro",
+          "info": "Toro"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "aleister",
+          "info": "Aleister"
+        },
+        {
+          "hero_id": "krixi",
+          "info": "Krixi"
+        }
+      ]
+    }
+  ],
+  "hero_story": "Chuỗi hạt luân hồi, là thánh vật lưu truyền của gia tốc <i class=\"clr-orange\">Jinna</i>.<br>Từ thời xa xưa, tổ tiên của bộ tộc <i class=\"clr-orange\">Jinna</i>, chỉ dựa vào sức mạnh khi niệm thần chú của chuỗi hạt mà có thể đối đầu với ác ma trong địa ngục. Tuy nhiên, việc tàn sát quá nhiều khiến chuỗi hạt bị nhiễm phải sức mạnh hắc ám tà ác, cuối cùng tổ tiên <i class=\"clr-orange\">Jinna</i> buộc phải hy sinh linh hồn để phong ấn chuỗi hạt, và căn dặn hậu thế bảo vệ thật cẩn thận.<br>Một lần nữa sức mạnh hắc ám lại trỗi dậy, phong ấn cổ xưa đang dần bị lung lay. <i class=\"clr-orange\">Jinna</i> tu luyện quanh năm, cảm nhận được sự thay đổi của chuỗi hạt. Để tránh chuối hạt bị sức mạnh hắc ám nuốt trọn, hắn quyết định mang chuỗi hạt lên Cung Điện Ánh Sáng để thanh tẩy.<br>Cái mà không ai ngờ đến, là sức mạnh hắc ám phát ra từ chuỗi hạt, đã thu hút được sự chú ý của tên Maloch đến từ địa ngục, những tên ác ma dưới trướng của hắn nhanh chóng truy đuổi theo <i class=\"clr-orange\">Jinna</i>. Trong lúc nguy cấp, sức mạnh linh hồn còn sót lại trong chuỗi hạt bỗng thức tỉnh, <i class=\"clr-orange\">Jinna</i> đã đẩy lùi được ác ma dưới sự giúp đỡ của tổ tiên, đồng thời cũng nắm giữ được cách điều khiển sức mạnh chuỗi hạt.<br>Cuối cùng, <i class=\"clr-orange\">Jinna</i> đã mang chuỗi hạt luân hồi đến được Cung Điện Ánh Sáng. Sức mạnh tu luyện nhiều năm của <i class=\"clr-orange\">Jinna</i> và sức mạnh lấy được từ chuỗi hạt, đã được mọi người trong Cung Điện công nhận. Dưới sự gợi ý của Thánh nữ Lauriel, <i class=\"clr-orange\">Jinna</i> bắt đầu tu luyện sức mạnh ma pháp khó nhất của Cung Điện Ánh Sáng là Bí pháp thiền tông, tu luyện tâm pháp bằng cách không nói 1 lời nào.<br><i class=\"clr-orange\">Jinna</i> hiểu rằng, chỉ có sức mạnh ánh sáng thuần khiết này, mới có thể thanh tẩy được sức mạnh hắc ám bên trong chuỗi hạt luân hồi!",
+  "hero_skin": [{
+      "name": "Đại Thiền Sư",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Jinna01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": ""
+    },
+    {
+      "name": "Đại Tư Tế",
+      "gold": "",
+      "voucher": "185",
+      "event": "",
+      "wall": "Jinna02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": ""
+    },
+    {
+      "name": "Dạ Xoa Vương (Bậc S)",
+      "gold": "",
+      "voucher": "409",
+      "event": "",
+      "wall": "Jinna03",
+      "disable": "",
+      "img": "thumb3.jpg",
+      "video": ""
+    }
+  ]
 }
