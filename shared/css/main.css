@@ -1,21 +1,21 @@
 @charset "utf-8";
 @font-face {
-  font-family: 'Roboto';
-  src: url('../font/roboto-regular.ttf') format('truetype');
+font-family: 'Roboto';
+src: url('../font/roboto-regular.ttf') format('truetype');
 }
 body {
-  line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
-  background-color: #fff;
+line-height: 1.5;
+font-family: 'Roboto', sans-serif;
+background-color: #fff;
 }
 *,
 *:focus {
-	box-shadow: none;
-	outline: none;
-	text-shadow: none;
+box-shadow: none;
+outline: none;
+text-shadow: none;
 }
 /* h1, h2, h3, h4, h5, h6, strong {
-	font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 } */
 img {
 max-width: 100%;
@@ -23,41 +23,41 @@ height: auto;
 vertical-align: top;
 }
 a {
-	text-decoration: none;
+text-decoration: none;
 }
 .ui-page-theme-a a, .ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited, .ui-page-theme-a a:hover, html .ui-bar-a a:hover, html .ui-body-a a:hover, html body .ui-group-theme-a a:hover {
-	color: #cc263d;
+color: #cc263d;
 }
 .ui-page-theme-a,
 .ui-overlay-a {
-	background-color: transparent;
-	color: #000;
+background-color: transparent;
+color: #000;
 }
 .ui-page { -webkit-backface-visibility: hidden; }
 .tabs-fixed [data-role="navbar"] {
-	position: fixed;
-	bottom: -1px;
-	left: -1px;
-	right: -1px;
-	width: 100%;
-	z-index: 1;
+position: fixed;
+bottom: -1px;
+left: -1px;
+right: -1px;
+width: 100%;
+z-index: 1;
 }
 .ui-mini {
-	margin: 0;
+margin: 0;
 }
 .lvg_holder {
 max-width: 640px;
 margin: auto;
-padding: 30px;
+padding: 55px 30px 60px;
 box-sizing: border-box;
 overflow: hidden;
 }
 .ui-corner-all,
 .ui-btn.ui-corner-all {
-	border-radius: 0;
+border-radius: 0;
 }
 .ui-tabs {
-	padding: 0;
+padding: 0;
 }
 .hr {
 border-top: none;
@@ -69,130 +69,255 @@ border-color: #cc263d;
 .ui-shadow,
 .ui-page-theme-a .ui-focus,
 .ui-page-theme-a .ui-btn:focus {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
 }
-.lvg_champs {
-  margin: 0 -3px;
-  overflow: hidden;
-  font-size: 0;
-  text-align: center;
+.lvg_champs,
+.lvg_skills_sp,
+.lvg_items,
+.lvg_combo .combo {
+margin: 0 -3px;
+overflow: hidden;
+font-size: 0;
+text-align: center;
 }
-.lvg_champs > div {
-  margin: 3px;
-  display: inline-block;
+.lvg_champs > div,
+.lvg_skills_sp > div,
+.lvg_items > div,
+.lvg_combo .combo > div {
+margin: 3px;
+display: inline-block;
 }
 .lvg_champs > div a {
-	height: 32px;
-	float: left;
-	background: no-repeat 0 0;
-	background-size: 32px;
-	border: none;
-	padding: 0 0 0 32px;
-	margin: 0;
-	font-size: 12px;
-	line-height: 20px;
-	font-weight: normal;
-	width: auto;
-	text-decoration: none;
+height: 32px;
+float: left;
+background: no-repeat 0 0;
+background-size: 32px;
+border: none;
+padding: 0 0 0 32px;
+margin: 0;
+font-size: 12px;
+line-height: 20px;
+font-weight: normal;
+width: auto;
+text-decoration: none;
 }
 .lvg_champs > div > a span {
-  padding: 6px;
-  display: block;
-  background: #333;
-  color: #fff;
-  text-shadow: none;
+padding: 6px;
+display: block;
+background: #333;
+color: #fff;
+text-shadow: none;
 }
 .lvg_champs > div.new > a span,
 .lvg_champs > div.free > a span {
-  padding-right: 10px;
-  position: relative;
+padding-right: 10px;
+position: relative;
 }
 .lvg_champs > div.new > a span:after,
 .lvg_champs > div.free > a span:after {	
-  content: '';
-	width: 5px;
-	height: 5px;
-	border-radius: 50%;
-	background: #ffde00;
-	position: absolute;
-	right: 3px;
-	top: 3px;
-	animation: change_color01 1s infinite;
+content: '';
+width: 5px;
+height: 5px;
+border-radius: 50%;
+background: #ffde00;
+position: absolute;
+right: 3px;
+top: 3px;
+animation: change_color01 1s infinite;
 }
 .lvg_champs > div.new > a span:after {
-	background: #cc263d;
-	animation: change_color02 1s infinite;
+background: #cc263d;
+animation: change_color02 1s infinite;
 }
 @keyframes change_color01 {
-  0% {
-    background: #ffde00;
-  }
-  100% {
-    background: #fff;
-  }
+0% {
+background: #ffde00;
+}
+100% {
+background: #fff;
+}
 }
 @keyframes change_color02 {
-  0% {
-    background: #cc263d;
-  }
-  100% {
-    background: #fff;
-  }
+0% {
+background: #cc263d;
+}
+100% {
+background: #fff;
+}
 }
 .lvg_champs_class {
-	font-size: 0;
-	margin: 0 -5px;
-	text-align: center;
+font-size: 0;
+margin: 0 -5px;
+text-align: center;
 }
 .lvg_champs_class > span {
-	width: 40px;
-	height: 40px;
-	display: inline-block;
-	margin: 5px;
-	background: no-repeat center;
-	background-size: 90%;
-	border: 1px solid #e1e1e1;
-	border-radius: 50%;
+width: 40px;
+height: 40px;
+display: inline-block;
+margin: 5px;
+background: no-repeat center;
+background-size: 90%;
+border: 1px solid #e1e1e1;
+border-radius: 50%;
 }
 .lvg_champs_class > span.active {
-	border-color: #cc263d;
+border-color: #cc263d;
 }
-.lvg_champs_class > span[data-value="warrior"] { background-image: url(../img/common/ico_war.png); }
-.lvg_champs_class > span[data-value="tank"] { background-image: url(../img/common/ico_tank.png); }
-.lvg_champs_class > span[data-value="assassin"] { background-image: url(../img/common/ico_assa.png); }
-.lvg_champs_class > span[data-value="mage"] { background-image: url(../img/common/ico_mage.png); }
-.lvg_champs_class > span[data-value="marksman"] { background-image: url(../img/common/ico_mark.png); }
-.lvg_champs_class > span[data-value="support"] { background-image: url(../img/common/ico_sp.png); }
+#hero-page h3 {
+padding-left: 26px;
+background: no-repeat 0 1px;
+background-size: 24px;
+}
+.lvg_champs_class > span[data-value="warrior"],
+#hero-page.warrior h3 { background-image: url(../img/common/ico_war.png); }
+.lvg_champs_class > span[data-value="tank"],
+#hero-page.tank h3 { background-image: url(../img/common/ico_tank.png); }
+.lvg_champs_class > span[data-value="assassin"],
+#hero-page.assassin h3 { background-image: url(../img/common/ico_assa.png); }
+.lvg_champs_class > span[data-value="mage"],
+#hero-page.mage h3 { background-image: url(../img/common/ico_mage.png); }
+.lvg_champs_class > span[data-value="marksman"],
+#hero-page.marksman h3 { background-image: url(../img/common/ico_mark.png); }
+.lvg_champs_class > span[data-value="support"],
+#hero-page.support h3 { background-image: url(../img/common/ico_sp.png); }
 .lvg_champs_wrap .ttl {
-	text-align: center;
+text-align: center;
 }
 .ui-page-theme-a .lvg_select_champs .ui-body-inherit {
-  border: 2px solid #cc263d;
+border: 2px solid #cc263d;
 }
 .lvg_main_img {
-  position: fixed;
-  width: 110%;
-  height: 110%;
-  background: url(../img/common/main_img.jpg) no-repeat center;
-  background-size: cover;
-  opacity: 0.1;
-  -webkit-filter: blur(1px);
-  filter: blur(1px);
-  top: -5%;
-  left: -5%;
+position: fixed;
+width: 110%;
+height: 110%;
+background: url(../img/common/main_img.jpg) no-repeat center;
+background-size: cover;
+opacity: 0.1;
+-webkit-filter: blur(1px);
+filter: blur(1px);
+top: -5%;
+left: -5%;
 }
 .ui-page-theme-a .ui-bar-inherit {
-	background-color: #333;
-	color: #fff;
-	border: none;
-  border-bottom: 2px solid #cc263d;
+background-color: #333;
+color: #fff;
+border: none;
+border-bottom: 2px solid #cc263d;
+}
+.lvg_skills_sp > div a,
+.lvg_items > div a,
+.lvg_incskill_info > div a,
+.lvg_combo .combo > div a {
+width: 50px;
+height: 50px;
+background-size: cover;
+display: block;
+}
+.note {
+font-size: 80%;
+font-style: italic;
+color: #333;
+line-height: 18px;
+}
+.lvg_runes {
+font-size: 90%;
+}
+.lvg_runes > div,
+.lvg_champs_related {
+padding: 10px 0 10px 70px;
+position: relative;
+margin-bottom: 10px;
+border: 1px solid #333;
+}
+.lvg_runes span {
+width: 60px;
+height: 60px;
+display: block;
+background-size: cover;
+position: absolute;
+top: 50%;
+left: 5px;
+-webkit-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+.lvg_incskill > div span {
+display: none;
+font-size: 90%;
+line-height: 24px;
+min-width: 24px;
+text-align: center;
+padding: 2px;
+background: #333;
+color: #fff;
+margin: 3px;
+}
+.lvg_incskill > div .active {
+display: inline-block;
+}
+.lvg_incskill_info {
+  float: left;
+  margin-right: 3px;
+  margin-top: 3px;
+}
+.lvg_incskill_info > div {
+  margin-bottom: 6px;
+}
+.lvg_incskill_info > :first-child,
+.lvg_combo .combo > :last-child:after {
+  display: none;
+}
+.lvg_incskill_info > div a {
+  width: 28px;
+  height: 28px;
+}
+.lvg_combo .combo > div {
+  position: relative;
+  margin: 5px 12px 5px 0;
+  padding-right: 12px;
+}
+.lvg_combo .combo > :last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+.lvg_combo .combo > div:after {
+  content: '>';
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 18px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.lvg_champs_related {
+  padding: 5px;
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 90%;
+}
+.lvg_champs_related > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.lvg_champs_related .lvg_champs {
+  text-align: left;
+  width: 30%;
+}
+.lvg_champs_related .lvg_champs > div {
+  margin: 0;
+  width: 90%;
+}
+.lvg_champs_related .lvg_champs > div a {
+  float: none;
 }
 
 @media (max-width: 600px){
 .lvg_holder {
-padding: 15px;
+padding: 45px 15px 60px;
 }
 }
 
@@ -214,6 +339,10 @@ padding: 15px;
 
 @media (max-width: 320px){
 .lvg_holder {
-padding: 10px;
+padding: 40px 10px 55px;
+}
+.lvg_skills_sp > div a, .lvg_items > div a {
+width: 45px;
+height: 45px;
 }
 }

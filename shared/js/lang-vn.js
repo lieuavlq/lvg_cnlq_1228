@@ -15,7 +15,7 @@ var lang_vn_file = {
   "normal_skill_info": "Là chiêu đánh mặc định của mỗi tướng, không thời gian hồi chiêu, không tốn năng lượng.",
   "skill_up": "Tăng chiêu thức",
   "hero_special_skill": "Phép bổ trợ",
-  "hero_special_skill_info": "Chọn 1 trong các chiêu sau",
+  "hero_special_skill_info": "*Chọn 1 trong các chiêu sau",
   "hero_rune": "Ngọc bổ trợ",
   "hero_rune2": "Ngọc cấp 2",
   "hero_rune3": "Ngọc cấp 3",

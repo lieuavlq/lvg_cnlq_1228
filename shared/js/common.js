@@ -8,7 +8,7 @@ $(function(){
   var fbName = '@LVGamesDotNet';
 
   // Add menu left
-  $('.lvg_menu_left').append('<h3>' + lang_vn['app_name'] + '</h3><p>' + lang_vn['thanks_for'] + '</p><p><a href="mailto:' + mailContact + '" target="_blank">' + lang_vn['btn_mail'] + '</a></p><p><a href="' + fbContact + '" target="_blank">' + fbName + '</a></p><p>' + lang_vn['mail_status'] + '</p><p><a href="' + marketLink + '" target="_blank">' + lang_vn['review'] + '</a></p><a href="#" data-rel="close" class="ui-btn ui-btn-inline">' + lang_vn['btn_close'] + '</a>');
+  $('.lvg_menu_left').append('<h2>' + lang_vn['app_name'] + '</h2><p>' + lang_vn['thanks_for'] + '</p><p><a href="mailto:' + mailContact + '" target="_blank">' + lang_vn['btn_mail'] + '</a></p><p><a href="' + fbContact + '" target="_blank">' + fbName + '</a></p><p>' + lang_vn['mail_status'] + '</p><p><a href="' + marketLink + '" target="_blank">' + lang_vn['review'] + '</a></p><a href="#" data-rel="close" class="ui-btn ui-btn-inline">' + lang_vn['btn_close'] + '</a>');
 
   /* Open link outsite */
   var idWrapreview = $('#wrap-review');
