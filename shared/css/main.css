@@ -256,6 +256,10 @@ margin: 3px;
 .lvg_incskill > div .active {
 display: inline-block;
 }
+.lvg_incskill_wrap {
+  border: 1px solid #333;
+  padding: 6px;
+}
 .lvg_incskill_info {
   float: left;
   margin-right: 3px;
@@ -293,7 +297,7 @@ display: inline-block;
   transform: translateY(-50%);
 }
 .lvg_champs_related {
-  padding: 5px;
+  padding: 8px;
   display: table;
   width: 100%;
   box-sizing: border-box;
@@ -302,6 +306,10 @@ display: inline-block;
 .lvg_champs_related > * {
   display: table-cell;
   vertical-align: middle;
+}
+.lvg_champs_related > :last-child {
+  padding-left: 10px;
+  border-left: 1px solid #333;
 }
 .lvg_champs_related .lvg_champs {
   text-align: left;

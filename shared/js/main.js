@@ -213,7 +213,6 @@ $('document').ready(function(){
       }
       hero_tab01.append('<p>' + hero_rune_up[i].name+ '</p><div class="lvg_runes">'+rune_str+'</div>');
     }
-    hero_tab01.append(hr_line);
 
     /* Skill Tips */
     var skillNote = hero.skill_note;
@@ -223,7 +222,7 @@ $('document').ready(function(){
     hero_tab02.append('<p>' + skillNote + '</p>');
 
     /* Skill special */
-    hero_tab02.append(hr_line);
+    hero_tab01.append(hr_line);
     var skillSpecial = hero.skill_special;
     hero_tab01.append('<h3>' + lang_vn['hero_special_skill'] + '</h3><p>' + lang_vn['hero_special_skill_info'] + '</p><p class="note">' + lang_vn['btn_tap_spell'] + '</p><div class="lvg_skills_sp">' + skillSpecial + '</div>');
     var lvgSkillSp = hero_tab01.find('.lvg_skills_sp');
@@ -238,6 +237,7 @@ $('document').ready(function(){
     for(i=0; i<heroBattle.length; i++){
       var txtHero = '';
       var heroBattleInfo = heroBattle[i].info;
+      hero_tab02.append(hr_line);
       hero_tab02.append('<h3>' + heroBattle[i].name + '</h3>');
       hero_tab02.append('<p class="note">*Tap vào tướng để xem chi tiết</p>');
       for(j=0; j<heroBattleInfo.length; j++){
