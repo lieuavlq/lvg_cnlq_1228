@@ -76,7 +76,8 @@ box-shadow: none;
 .lvg_champs,
 .lvg_skills_sp,
 .lvg_items,
-.lvg_combo .combo {
+.lvg_combo .combo,
+.lvg_skills {
 margin: 0 -3px;
 overflow: hidden;
 font-size: 0;
@@ -85,7 +86,8 @@ text-align: center;
 .lvg_champs > div,
 .lvg_skills_sp > div,
 .lvg_items > div,
-.lvg_combo .combo > div {
+.lvg_combo .combo > div,
+.lvg_skills > div {
 margin: 3px;
 display: inline-block;
 }
@@ -209,7 +211,8 @@ border-bottom: 2px solid #cc263d;
 .lvg_skills_sp > div a,
 .lvg_items > div a,
 .lvg_incskill_info > div a,
-.lvg_combo .combo > div a {
+.lvg_combo .combo > div a,
+.lvg_skills > div a {
 width: 50px;
 height: 50px;
 background-size: cover;
@@ -321,6 +324,16 @@ display: inline-block;
 }
 .lvg_champs_related .lvg_champs > div a {
   float: none;
+}
+.lvg_skills > div {
+margin: 3px 6px;
+}
+.lvg_skills > div a {
+width: 60px;
+height: 60px;
+}
+.clr-orange {
+  color: #cc263d;
 }
 
 @media (max-width: 600px){

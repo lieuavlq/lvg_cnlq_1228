@@ -137,7 +137,7 @@ $('document').ready(function(){
     hero_tab03.append('<h3>' + lang_vn['hero_skill'] + '</h3><p class="note">' + lang_vn['btn_tap'] + '</p><div class="lvg_skills detail"></div>');
     $('.skills-wrap').append('<div id="' + hero_id + '_Skill0" class="item ui-content" data-theme="a">' + popup_close + '<strong>' + lang_vn['normal_skill'] + '</strong><p>' + lang_vn['normal_skill_info'] + '</p></div>');
     for(i=0; i<4; i++){
-      hero_tab03.find('.lvg_skills.detail').append('<div><a href="#' + hero_id + '_Skill' + (i+1) + '" class="ui-btn skill btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path +'champs/' + hero_id + '/skill' + (i+1) + '.png)"></a></div>');
+      hero_tab03.find('.lvg_skills.detail').append('<div><a href="#' + hero_id + '_Skill' + (i+1) + '" class="btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path +'champs/' + hero_id + '/skill' + (i+1) + '.png)"></a></div>');
       $('.skills-wrap').append('<div id="' + hero_id + '_Skill' + (i+1) + '" class="item ui-content" data-theme="a">' + popup_close + '<strong>' + hero_skill[i].name + '</strong><p>' + hero_skill[i].info + '</p></div>');
     }
     $('.popup-wrap.skills-wrap > .item').enhanceWithin().popup();
