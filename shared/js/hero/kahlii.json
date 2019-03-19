@@ -15,7 +15,7 @@
     },
     {
       "name": "Lời nguyền Vĩnh cửu",
-      "info": "ST Gốc: 135/155/175/195/215/235<br>Kahlii tạo ra một vùng đất bị nguyền rủa gây 130 (+0.3 công phép) STP mỗi 0.5s lên tất cả, đồng thời khiến nạn nhân bị làm chậm 15% tốc chạy trong 2s, hiệu ứng cộng dồn tối đa 5 lần, thời gian thi triển kỹ năng là 0.5s."
+      "info": "ST Gốc: 135/155/175/195/215/235<br>Kahlii tạo ra một vùng đất bị nguyền rủa gây 130 (+0.3 công phép) STP mỗi 0.5s lên tất cả, đồng thời khiến nạn nhân bị làm chậm 15% tốc chạy trong 2s, hiệu ứng cộng dồn tối đa 5 lần, thời gian thi triển chiêu thức là 0.5s."
     },
     {
       "name": "Linh hồn hộ mệnh",
@@ -23,7 +23,7 @@
     },
     {
       "name": "Binh đoàn linh hồn",
-      "info": "ST Gốc: 70/90/110<br>Kahlii trút giận lên kẻ địch, trong vòng 5s, cô triệu hồi 55 đợt hồn ma liên tục tấn công kẻ địch phía trước, mỗi đợt gây 70 (+0.09 công phép) STP, kỹ năng này gây sát thương lên quái rừng nhiều hơn 10%."
+      "info": "ST Gốc: 70/90/110<br>Kahlii trút giận lên kẻ địch, trong vòng 5s, cô triệu hồi 55 đợt hồn ma liên tục tấn công kẻ địch phía trước, mỗi đợt gây 70 (+0.09 công phép) STP, chiêu thức này gây sát thương lên quái rừng nhiều hơn 10%."
     }
   ],
   "skill_up": [{
@@ -37,7 +37,7 @@
       "info": "2,3,0"
     },
     {
-      "name": "*Combo khi có đủ 3 kỹ năng",
+      "name": "*Combo khi có đủ 3 chiêu thức",
       "info": "2,3,4,0"
     }
   ],

@@ -37,11 +37,11 @@
       "info": "2,3,0"
     },
     {
-      "name": "*Combo khi có đủ 3 kỹ năng",
+      "name": "*Combo khi có đủ 3 chiêu thức",
       "info": "4,2,3,0"
     }
   ],
-  "skill_note": "*Bộ kỹ năng của cô được tạo ra là để đi rừng, bức bí thì đường trên dưới cũng được.<br>*Hạ mục tiêu hoặc hỗ trợ đồng đội, bộ kỹ năng sẽ được reset hồi chiêu.<br>*Sử dụng Chiêu 1 và 2 chuẩn sát để có thể làm chậm và choáng các mục tiêu.<br>*Bật Ám Sát lên mà quẩy thôi, còn ai lao vào không em tiển!!",
+  "skill_note": "*Bộ chiêu thức của cô được tạo ra là để đi rừng, bức bí thì đường trên dưới cũng được.<br>*Hạ mục tiêu hoặc hỗ trợ đồng đội, bộ chiêu thức sẽ được reset hồi chiêu.<br>*Sử dụng Chiêu 1 và 2 chuẩn sát để có thể làm chậm và choáng các mục tiêu.<br>*Bật Ám Sát lên mà quẩy thôi, còn ai lao vào không em tiển!!",
   "skill_special": "TrungTri,BocPha",
   "main_rune": [{
       "name": "*Ngọc cấp 2",

@@ -37,7 +37,7 @@
 				"info": "0,3,2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,0,2,3,0,4,3,0"
 			}
 		],
@@ -208,7 +208,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,0"
 			}
 		],
@@ -369,7 +369,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,0"
 			}
 		],
@@ -451,7 +451,7 @@
 				]
 			}
 		],
-		"hero_story": "Dãy Núi Thép nằm sừng sững ở đất Bắc xa xôi, bao quanh Cung điện ánh sáng như một bức tường bằng sắt. Dãy núi nổi tiếng này được biết đến với các mỏ quặng kim loại, vốn là nguồn năng lượng chính của giới chức sắc trong Cung điện ánh sáng.<br>Là một nhóm người đến với vùng đất này, Cung điện ánh sáng trực tiếp điều khiển tất cả những người theo tín hữu của họ. Bộ tộc do <i class=\"clr-orange\">Taara</i> dẫn đầu đã đạt được nhiều thành tích trong thời kỳ chiến tranh. Mặc dù họ còn thiếu những kỹ năng chế tác cần thiết để chế tạo vũ khí, họ vẫn nắm giữ những chiếc búa quyền năng và đẩy lùi mọi cuộc tấn công dưới chân núi. Những dòng sông máu cứ chảy, bộ lạc của <i class=\"clr-orange\">Taara</i> phải trả cái giá quá đắt. Tuy nhiên, khi gần như thất thế khắp Núi Thép, ý nghĩa bỏ cuộc vẫn không xuất hiện trong đầu <i class=\"clr-orange\">Taara</i>.<br>Trong ngày ánh sáng hồi sinh, <i class=\"clr-orange\">Taara</i> cùng các bộ lạc tổ chức một bữa tiệc linh đình. Họ thắp lên ngọc lửa sáng sâu trong những ngọn núi và đốt lên những cột lửa sáng lóa. Các sứ giả của Thane đến, mang tới mệnh lệnh từ vị vua đáng kính: Vì sự trung thành của <i class=\"clr-orange\">Taara</i> trong chiến tranh, cô xứng đáng được trao danh hiệu cao quý. Cô sở hữu một vùng đất rộng lớn trong vương quốc mới và cả bộ lạc cuối cùng cũng thoát khỏi cảnh nghèo đói.<br>Tuy nhiên, trước khi <i class=\"clr-orange\">Taara</i> có thể lên kế hoạch cho những điều mới mẻ, sự giận dữ của Gildur đã lan đến Sông Thép. Nắm giữ ngân khố của Cung điện ánh sáng, Gildur biết rằng tăng dân số là tăng khả năng sản xuất, và ông không cho phép Thane tự ý đưa thêm người vào Cung điện. Người đưa tin của Thane bị lưu đày, <i class=\"clr-orange\">Taara</i> bị coi như là kẻ phản bội niềm tin và bị bỏ tù. Ngoài ra, các khoản thuế áp dụng với bộ lạc của cô bị tăng gấp đôi trong 10 như một hình phạt thích đáng.<br>Mọi thứ quay ngoắt 180 độ, <i class=\"clr-orange\">Taara</i> như rơi thẳng từ thiên đàng xuống địa ngục. Veera, gián điệp bóng đêm, nắm lấy cơ hội và giải cứu <i class=\"clr-orange\">Taara</i>, và để lại lời nhắn: \"Những vị thần Ánh Sáng đã khiến cô gục ngã, tại sao cô không nắm lấy Bóng Tối thật sự?\". Thất vọng vì những gì Cung điện ánh sáng đối xử với cô, <i class=\"clr-orange\">Taara</i> đã tự gieo mình xuống vực thẳm. Cô sẵn sàng bị dầy vò bởi lửa băng, và dâng linh hồn mình cho bóng đêm.<br>\"Ta chỉ dựa vào sức mạnh mà ta có trong tay!\"",
+		"hero_story": "Dãy Núi Thép nằm sừng sững ở đất Bắc xa xôi, bao quanh Cung điện ánh sáng như một bức tường bằng sắt. Dãy núi nổi tiếng này được biết đến với các mỏ quặng kim loại, vốn là nguồn năng lượng chính của giới chức sắc trong Cung điện ánh sáng.<br>Là một nhóm người đến với vùng đất này, Cung điện ánh sáng trực tiếp điều khiển tất cả những người theo tín hữu của họ. Bộ tộc do <i class=\"clr-orange\">Taara</i> dẫn đầu đã đạt được nhiều thành tích trong thời kỳ chiến tranh. Mặc dù họ còn thiếu những chiêu thức chế tác cần thiết để chế tạo vũ khí, họ vẫn nắm giữ những chiếc búa quyền năng và đẩy lùi mọi cuộc tấn công dưới chân núi. Những dòng sông máu cứ chảy, bộ lạc của <i class=\"clr-orange\">Taara</i> phải trả cái giá quá đắt. Tuy nhiên, khi gần như thất thế khắp Núi Thép, ý nghĩa bỏ cuộc vẫn không xuất hiện trong đầu <i class=\"clr-orange\">Taara</i>.<br>Trong ngày ánh sáng hồi sinh, <i class=\"clr-orange\">Taara</i> cùng các bộ lạc tổ chức một bữa tiệc linh đình. Họ thắp lên ngọc lửa sáng sâu trong những ngọn núi và đốt lên những cột lửa sáng lóa. Các sứ giả của Thane đến, mang tới mệnh lệnh từ vị vua đáng kính: Vì sự trung thành của <i class=\"clr-orange\">Taara</i> trong chiến tranh, cô xứng đáng được trao danh hiệu cao quý. Cô sở hữu một vùng đất rộng lớn trong vương quốc mới và cả bộ lạc cuối cùng cũng thoát khỏi cảnh nghèo đói.<br>Tuy nhiên, trước khi <i class=\"clr-orange\">Taara</i> có thể lên kế hoạch cho những điều mới mẻ, sự giận dữ của Gildur đã lan đến Sông Thép. Nắm giữ ngân khố của Cung điện ánh sáng, Gildur biết rằng tăng dân số là tăng khả năng sản xuất, và ông không cho phép Thane tự ý đưa thêm người vào Cung điện. Người đưa tin của Thane bị lưu đày, <i class=\"clr-orange\">Taara</i> bị coi như là kẻ phản bội niềm tin và bị bỏ tù. Ngoài ra, các khoản thuế áp dụng với bộ lạc của cô bị tăng gấp đôi trong 10 như một hình phạt thích đáng.<br>Mọi thứ quay ngoắt 180 độ, <i class=\"clr-orange\">Taara</i> như rơi thẳng từ thiên đàng xuống địa ngục. Veera, gián điệp bóng đêm, nắm lấy cơ hội và giải cứu <i class=\"clr-orange\">Taara</i>, và để lại lời nhắn: \"Những vị thần Ánh Sáng đã khiến cô gục ngã, tại sao cô không nắm lấy Bóng Tối thật sự?\". Thất vọng vì những gì Cung điện ánh sáng đối xử với cô, <i class=\"clr-orange\">Taara</i> đã tự gieo mình xuống vực thẳm. Cô sẵn sàng bị dầy vò bởi lửa băng, và dâng linh hồn mình cho bóng đêm.<br>\"Ta chỉ dựa vào sức mạnh mà ta có trong tay!\"",
 		"hero_skin": [{
 				"name": "Búa Cuồng Bạo",
 				"gold": "",
@@ -532,7 +532,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "4,3,0,2,0"
 			}
 		],
@@ -711,7 +711,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,2,4,0"
 			}
 		],
@@ -845,7 +845,7 @@
 		},
 		"main_skill": [{
 				"name": "Ma thuật đen",
-				"info": "Nội tại: Aleister nguyền rủa một mục tiêu với mỗi kỹ năng. Mỗi lần cộng dồn thứ 3 sẽ kích hoạt một vụ nổ gây 55 ( mỗi khi tăng 1 cấp +5 điểm)(+0.3 Công phép) STC<br>Thời gian duy trì dấu ấn： 5s<br>Khoảng cách giữa các lần kích hoạt dấu ấn: 0s."
+				"info": "Nội tại: Aleister nguyền rủa một mục tiêu với mỗi chiêu thức. Mỗi lần cộng dồn thứ 3 sẽ kích hoạt một vụ nổ gây 55 ( mỗi khi tăng 1 cấp +5 điểm)(+0.3 Công phép) STC<br>Thời gian duy trì dấu ấn： 5s<br>Khoảng cách giữa các lần kích hoạt dấu ấn: 0s."
 			},
 			{
 				"name": "Vách ngăn hắc ám",
@@ -870,7 +870,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,0"
 			}
 		],
@@ -1027,7 +1027,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,4,2,0"
 			}
 		],
@@ -1190,7 +1190,7 @@
 				"info": "3,0,2"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "4,3,2,0"
 			}
 		],
@@ -1333,7 +1333,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,2,4,0"
 			}
 		],
@@ -1510,7 +1510,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "4,2,3,0"
 			}
 		],
@@ -1667,7 +1667,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "4,3,2,0"
 			}
 		],
@@ -1820,7 +1820,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "4,3,2,0"
 			}
 		],
@@ -1975,7 +1975,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "4,3,2,0"
 			}
 		],
@@ -2158,7 +2158,7 @@
 				"info": "2,0,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,0,4,0,3,0"
 			},
 			{
@@ -2341,7 +2341,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "4,2,3,0"
 			}
 		],
@@ -2498,7 +2498,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,0"
 			}
 		],
@@ -2675,11 +2675,11 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,0"
 			}
 		],
-		"skill_note": "*Hãy tập luyện kỹ năng vừa đánh vừa chạy và giữ vị trí thật tốt để có sát thương cao nhất.",
+		"skill_note": "*Hãy tập luyện chiêu thức vừa đánh vừa chạy và giữ vị trí thật tốt để có sát thương cao nhất.",
 		"skill_special": "TrungTri,TocBien",
 		"main_rune": {
 			"rune2": [{
@@ -2832,7 +2832,7 @@
 				"info": "2,3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,2,4,2,0"
 			}
 		],
@@ -3003,7 +3003,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,2,3,0"
 			}
 		],
@@ -3160,11 +3160,11 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,2,0"
 			}
 		],
-		"skill_note": "*Với kỹ năng làm chậm diện rộng của mình,hãy kiếm vị trí combo tốt nhất có thể.",
+		"skill_note": "*Với chiêu thức làm chậm diện rộng của mình,hãy kiếm vị trí combo tốt nhất có thể.",
 		"skill_special": "TocBien,BocPha",
 		"main_rune": {
 			"rune2": [{
@@ -3307,7 +3307,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,2,4,3,0"
 			}
 		],
@@ -3474,7 +3474,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,2,4,3,2,0,3,2,0"
 			}
 		],
@@ -3679,7 +3679,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "4,3,2,0"
 			}
 		],
@@ -3836,7 +3836,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,3,2,3,0"
 			}
 		],
@@ -4017,7 +4017,7 @@
 				"info": "2,0,3,0,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "4,2,0,2,0,3,0"
 			},
 			{
@@ -4214,7 +4214,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,2,4,2,0"
 			}
 		],
@@ -4365,7 +4365,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,2,0"
 			}
 		],
@@ -4556,11 +4556,11 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,0,4,0"
 			}
 		],
-		"skill_note": "*Chú ý các đòn đánh thường nhằm hồi lại kỹ năng Phong độn.",
+		"skill_note": "*Chú ý các đòn đánh thường nhằm hồi lại chiêu thức Phong độn.",
 		"skill_special": "TrungTri,BocPha",
 		"main_rune": {
 			"rune2": [{
@@ -4709,7 +4709,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,4,2,3,0"
 			}
 		],
@@ -4856,7 +4856,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "4,2,3,0"
 			}
 		],
@@ -5005,7 +5005,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,4,2,0"
 			},
 			{
@@ -5176,7 +5176,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,0,2,4,0"
 			}
 		],
@@ -5337,7 +5337,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,0"
 			}
 		],
@@ -5431,7 +5431,7 @@
 				]
 			}
 		],
-		"hero_story": "Sau khi chia tay quê nhà, nơi <i class=\"clr-orange\">Tel’Annas</i> chìm trong giấc ngủ kéo dài một thiên niên kỷ, Nữ hoàng đã thức giấc, tỏa ra ánh nắng rực rỡ, vụt sáng như ngôi sao.<br>Là một trong những chiến binh dũng cảm chống lại cuộc xâm lăng lần đầu của phe Bóng Tối, Tel'Annas với kỹ năng bắn cung tuyệt vời của nàng đã trở thành huyền thoại, là chủ đề ngợi ca của bài hát và áng thơ qua nhiều thế kỷ. Chiến công xuất sắc và vang dội nhất của <i class=\"clr-orange\">Tel’Annas</i> chính là trận chiến cuối cùng chống lại đội quân xâm lăng, mũi tên kết liễu Chúa Tể Bóng Tối. Chính mũi tên này đã cứu tất cả sinh vật không được thần linh bảo hộ sống sót qua thời khắc đen tối nhất lịch sử.<br>Tuy nhiên, Tel'Annas đã phải trả giá đắt là cơ thể và trí óc của nàng bị ăn mòn bởi sức mạnh hắc ám của Chúa Tể Bóng Tối trong giây phút hấp hối. Nàng buộc phải phong ấn bản thân và tiến vào giấc ngủ sâu, kéo dài hàng ngàn năm cho đến khi toàn bộ sức mạnh hắc ám trong người được vô hiệu hóa hoàn toàn. Trong thời gian nàng ngủ, Maloch, kẻ kế vị của Chúa Tể Bóng Tối, đã cố gắng phá vỡ phong ấn nhằm chiếm đoạt sức mạnh tối tăm bên trong Tel'Annas. Tuy nhiên phong ấn trên người nàng mạnh hơn hắn tưởng tượng.<br>Nhìn thấy cơ hội của mình trong cuộc xâm lược lần thứ hai của phe Bóng Tối, Maloch phát động một cuộc tấn công nhằm thảm sát Khu Rừng Chạng Vạng, buộc Tel'Annas phá vỡ phong ấn và trở lại chiến trường. Những vết tích trên gương mặt nàng cho thấy <i class=\"clr-orange\">Tel’Annas</i> đã phải cố gắng chịu đựng suốt ngàn năm qua và giờ, nàng hoàn toàn làm chủ nguồn sức mạnh bóng tối trong cơ thể. Đối mặt với binh đoàn quỷ dữ, Tel'Annas một lần nữa cầm cung để bảo vệ cuộc sống của tất cả các sinh vật.<br>\"Ánh rực rỡ của ngôi sao sáng sẽ mãi mãi bảo vệ mảnh đất này.\"",
+		"hero_story": "Sau khi chia tay quê nhà, nơi <i class=\"clr-orange\">Tel’Annas</i> chìm trong giấc ngủ kéo dài một thiên niên kỷ, Nữ hoàng đã thức giấc, tỏa ra ánh nắng rực rỡ, vụt sáng như ngôi sao.<br>Là một trong những chiến binh dũng cảm chống lại cuộc xâm lăng lần đầu của phe Bóng Tối, Tel'Annas với chiêu thức bắn cung tuyệt vời của nàng đã trở thành huyền thoại, là chủ đề ngợi ca của bài hát và áng thơ qua nhiều thế kỷ. Chiến công xuất sắc và vang dội nhất của <i class=\"clr-orange\">Tel’Annas</i> chính là trận chiến cuối cùng chống lại đội quân xâm lăng, mũi tên kết liễu Chúa Tể Bóng Tối. Chính mũi tên này đã cứu tất cả sinh vật không được thần linh bảo hộ sống sót qua thời khắc đen tối nhất lịch sử.<br>Tuy nhiên, Tel'Annas đã phải trả giá đắt là cơ thể và trí óc của nàng bị ăn mòn bởi sức mạnh hắc ám của Chúa Tể Bóng Tối trong giây phút hấp hối. Nàng buộc phải phong ấn bản thân và tiến vào giấc ngủ sâu, kéo dài hàng ngàn năm cho đến khi toàn bộ sức mạnh hắc ám trong người được vô hiệu hóa hoàn toàn. Trong thời gian nàng ngủ, Maloch, kẻ kế vị của Chúa Tể Bóng Tối, đã cố gắng phá vỡ phong ấn nhằm chiếm đoạt sức mạnh tối tăm bên trong Tel'Annas. Tuy nhiên phong ấn trên người nàng mạnh hơn hắn tưởng tượng.<br>Nhìn thấy cơ hội của mình trong cuộc xâm lược lần thứ hai của phe Bóng Tối, Maloch phát động một cuộc tấn công nhằm thảm sát Khu Rừng Chạng Vạng, buộc Tel'Annas phá vỡ phong ấn và trở lại chiến trường. Những vết tích trên gương mặt nàng cho thấy <i class=\"clr-orange\">Tel’Annas</i> đã phải cố gắng chịu đựng suốt ngàn năm qua và giờ, nàng hoàn toàn làm chủ nguồn sức mạnh bóng tối trong cơ thể. Đối mặt với binh đoàn quỷ dữ, Tel'Annas một lần nữa cầm cung để bảo vệ cuộc sống của tất cả các sinh vật.<br>\"Ánh rực rỡ của ngôi sao sáng sẽ mãi mãi bảo vệ mảnh đất này.\"",
 		"hero_skin": [{
 				"name": "Nữ Vương Tinh Linh",
 				"gold": "18,888",
@@ -5522,7 +5522,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,3,2,0"
 			}
 		],
@@ -5687,7 +5687,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,2,4,2,0"
 			}
 		],
@@ -5830,7 +5830,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "4,2,3,2,0"
 			}
 		],
@@ -5989,7 +5989,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,2,4,0"
 			}
 		],
@@ -6146,7 +6146,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,4,3,2,0"
 			}
 		],
@@ -6289,7 +6289,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,0"
 			}
 		],
@@ -6456,7 +6456,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "4,0,4"
 			},
 			{
@@ -6633,7 +6633,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,2,4,0"
 			},
 			{
@@ -6641,7 +6641,7 @@
 				"info": "4,3,2,0"
 			}
 		],
-		"skill_note": "*Omen là một tay solo khá trội vì thế ưu tiên đi đường Caesar hoặc đường Rồng.<br>*Lựa chọn thời điểm tốt để bật Sát niệm không thì phí.<br>*Nội tại sẽ giúp bạn tăng sức mạnh vì thế hãy luân phiên dùng đòn đánh thường và các kỹ năng.<br>*Với chiêu cuối đóng lồng bá đạo Murad, Zill hay Joker khó mà có thể dùng kỹ năng thoát ra. :P<br>*Với các món đồ đủ mạnh phút thứ 7 hoặc 8 Omen có khả năng xơi tái con Khỉ :D!",
+		"skill_note": "*Omen là một tay solo khá trội vì thế ưu tiên đi đường Caesar hoặc đường Rồng.<br>*Lựa chọn thời điểm tốt để bật Sát niệm không thì phí.<br>*Nội tại sẽ giúp bạn tăng sức mạnh vì thế hãy luân phiên dùng đòn đánh thường và các chiêu thức.<br>*Với chiêu cuối đóng lồng bá đạo Murad, Zill hay Joker khó mà có thể dùng chiêu thức thoát ra. :P<br>*Với các món đồ đủ mạnh phút thứ 7 hoặc 8 Omen có khả năng xơi tái con Khỉ :D!",
 		"skill_special": "BocPha,TocBien",
 		"main_rune": {
 			"rune2": [{
@@ -6789,7 +6789,7 @@
 				"info": "3,2,0,3"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,2,4,3,0,3"
 			}
 		],
@@ -6971,7 +6971,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,2,0,3,2,4,3,2"
 			}
 		],
@@ -7069,7 +7069,7 @@
 				]
 			}
 		],
-		"hero_story": "Trong hàng nghìn năm qua, <i class=\"clr-orange\">Liliana</i> đã đi tới mọi nơi trên thế giới.<br>Một trong những thực thể cổ xưa nhất ở Athanor còn tồn tại, <i class=\"clr-orange\">Liliana</i> đã được sinh ra khi thế giới vẫn còn hỗn loạn và tất cả các sinh vật còn sống sót đều nhờ bản năng. <i class=\"clr-orange\">Liliana</i> vô cùng tò mò, khám phá con đường của mình trong một thế giới hỗn loạn, tiếp tục tìm kiếm bản chất và nguồn năng lượng của vũ trụ. Cô muốn tìm hiểu về quá khứ và tương lai, sự khởi đầu của cuộc sống và ý nghĩa của cái chết. Để cuộc tìm kiếm câu trả lời của mình được thành công, <i class=\"clr-orange\">Liliana</i> biến thành các hình hài khác nhau và nhìn thấu sự sống qua con mắt của đủ mọi giống loài.<br>Một con cáo chín đuôi là sinh vật đầu tiên <i class=\"clr-orange\">Liliana</i> gặp. Cô đã xem ngài như vị thầy của mình, và tự nhận bản thân là một kẻ kế thừa. Nhờ sự chỉ dẫn của người thầy và những gì cô chứng kiến xuyên suốt chuyến đi của mình, <i class=\"clr-orange\">Liliana</i> nhanh chóng trở nên thông thái hơn. Tuy nhiên, cô hiểu rằng cô vẫn còn một con đường dài để tìm kiếm câu trả lời cuối cùng cho tất cả mọi thứ. Cô đã chọn một cuộc sống biệt lập, dành thời gian để từ từ thấm nhuần và suy ngẫm về tất cả những gì cô được học. Tuy vậy, cứ vài trăm năm, cô lại xuất hiện để tiếp thu sự thông thái và hiểu biết một cách sâu sắc hơn.<br>Trong những cuộc hành trình trước đây, <i class=\"clr-orange\">Liliana</i> đã tiếp xúc với Con người và đã có cơ hội quan sát họ gần hơn. Con người dường như ngu si đần độn và chỉ đạt tới mức trung bình ở tất cả mọi mặt, quyền năng, tâm linh và luật pháp, đó là lý do tại sao <i class=\"clr-orange\">Liliana</i> lại không hề quan tâm đến giống loài này. Tuy nhiên, sau khi cô biết nhiều hơn về những khát vọng của con người và cách họ truyền lại di sản của mình, cô nhanh chóng bị cuốn hút từ trong lối suy nghĩ của mình và bắt đầu những đổi mới cùng phát triển của loài người. Bất cứ khi nào con người thực hiện bước nhảy vọt, <i class=\"clr-orange\">Liliana</i> lại biến chuyển trà trộn vào loài người và học hỏi từ những học giả uyên bác.<br>Trong thời kỳ tăm tối, Con người thường bị tấn công bởi những sinh vật vô dạng. Không muốn phải nhìn thấy những đau khổ, <i class=\"clr-orange\">Liliana</i> đã sử dụng những phương pháp tinh tế nhất để tiết lộ những bí mật và đưa ra lời khuyên về cách sử dụng ma thuật để giúp con người trong giai đoạn khổ ai này. Từ những quan sát của mình, cô tiên đoán rằng nếu con người sống sót được qua quãng thời gian đen tối này, họ chắc chắc có thể tạo ra một nền văn minh vô tiền khoáng hậu, trong đó sẽ xuất hiện những nền tri thức mới và những kỹ năng mới, dần đưa cô đến gần hơn với câu trả lời cuối cùng. Và cô cân nhắc đến những trợ giúp mà cô gửi cho loài người như một dạng đầu tư - sau tất cả, nếu điều đó giúp cô có được thứ cô muốn thì tại sao lại không cơ chứ? Với một nụ cười và hi vọng dành cho tương lai, <i class=\"clr-orange\">Liliana</i> đã trở lại.<br>Vài trăm năm sau, khi <i class=\"clr-orange\">Liliana</i> trở lại nền văn minh của loài người một lần nữa, cô đã bị sốc. Những ngọn nến và lò sưởi cô đã từng được sử dụng nay đã được thay thế bằng những chiếc đèn pha lê chạm khắc bởi ma thuật, có khả năng mang ánh sáng tới hàng ngàn gia đình cùng một lúc. Những lưỡi giáo và những thanh kiếm mà cô từng biết không còn được nhiều người sử dụng nữa, những chiến binh loài người giờ đây đã sử dụng cơ khí và súng đại bác một cách mạnh mẽ và cực kỳ ấn tượng. Những cải tiến này, thứ mà con người gọi là \"công nghệ\" đã thay đổi hoàn toàn cách <i class=\"clr-orange\">Liliana</i> nhìn nhận thế giới.<br>Đó là một sự thay đổi lý tưởng cho <i class=\"clr-orange\">Liliana</i>, cô háo hức tham gia vào mọi sự phát triển mới. Nhưng ngay cả với một người vô cùng uyên bác như <i class=\"clr-orange\">Liliana</i> cũng phải cần hàng chục, thậm chí hàng trăm năm để thấu hiểu được tri thức này. Vì thế, <i class=\"clr-orange\">Liliana</i> đã quyết định biến đổi thành con người và gia nhập quân đội thức nghiệm với vai trò cán bộ truyền thông, người có quyền tự do đi lại giữa các lục địa và thu thập thông tin tình báo. Vai trò mới sẽ giúp cô thuận tiện hơn và đạt được tất cả những gì cô mong muốn. Tất nhiên điều đó cũng mang lại những kẻ địch mới, nhưng <i class=\"clr-orange\">Liliana</i> không ngại những thứ vụn vặt này và sẵn sàng đương đầu với chúng bất kỳ lúc nào.<br>\"Đó chỉ là một phần của học phí thôi!\"",
+		"hero_story": "Trong hàng nghìn năm qua, <i class=\"clr-orange\">Liliana</i> đã đi tới mọi nơi trên thế giới.<br>Một trong những thực thể cổ xưa nhất ở Athanor còn tồn tại, <i class=\"clr-orange\">Liliana</i> đã được sinh ra khi thế giới vẫn còn hỗn loạn và tất cả các sinh vật còn sống sót đều nhờ bản năng. <i class=\"clr-orange\">Liliana</i> vô cùng tò mò, khám phá con đường của mình trong một thế giới hỗn loạn, tiếp tục tìm kiếm bản chất và nguồn năng lượng của vũ trụ. Cô muốn tìm hiểu về quá khứ và tương lai, sự khởi đầu của cuộc sống và ý nghĩa của cái chết. Để cuộc tìm kiếm câu trả lời của mình được thành công, <i class=\"clr-orange\">Liliana</i> biến thành các hình hài khác nhau và nhìn thấu sự sống qua con mắt của đủ mọi giống loài.<br>Một con cáo chín đuôi là sinh vật đầu tiên <i class=\"clr-orange\">Liliana</i> gặp. Cô đã xem ngài như vị thầy của mình, và tự nhận bản thân là một kẻ kế thừa. Nhờ sự chỉ dẫn của người thầy và những gì cô chứng kiến xuyên suốt chuyến đi của mình, <i class=\"clr-orange\">Liliana</i> nhanh chóng trở nên thông thái hơn. Tuy nhiên, cô hiểu rằng cô vẫn còn một con đường dài để tìm kiếm câu trả lời cuối cùng cho tất cả mọi thứ. Cô đã chọn một cuộc sống biệt lập, dành thời gian để từ từ thấm nhuần và suy ngẫm về tất cả những gì cô được học. Tuy vậy, cứ vài trăm năm, cô lại xuất hiện để tiếp thu sự thông thái và hiểu biết một cách sâu sắc hơn.<br>Trong những cuộc hành trình trước đây, <i class=\"clr-orange\">Liliana</i> đã tiếp xúc với Con người và đã có cơ hội quan sát họ gần hơn. Con người dường như ngu si đần độn và chỉ đạt tới mức trung bình ở tất cả mọi mặt, quyền năng, tâm linh và luật pháp, đó là lý do tại sao <i class=\"clr-orange\">Liliana</i> lại không hề quan tâm đến giống loài này. Tuy nhiên, sau khi cô biết nhiều hơn về những khát vọng của con người và cách họ truyền lại di sản của mình, cô nhanh chóng bị cuốn hút từ trong lối suy nghĩ của mình và bắt đầu những đổi mới cùng phát triển của loài người. Bất cứ khi nào con người thực hiện bước nhảy vọt, <i class=\"clr-orange\">Liliana</i> lại biến chuyển trà trộn vào loài người và học hỏi từ những học giả uyên bác.<br>Trong thời kỳ tăm tối, Con người thường bị tấn công bởi những sinh vật vô dạng. Không muốn phải nhìn thấy những đau khổ, <i class=\"clr-orange\">Liliana</i> đã sử dụng những phương pháp tinh tế nhất để tiết lộ những bí mật và đưa ra lời khuyên về cách sử dụng ma thuật để giúp con người trong giai đoạn khổ ai này. Từ những quan sát của mình, cô tiên đoán rằng nếu con người sống sót được qua quãng thời gian đen tối này, họ chắc chắc có thể tạo ra một nền văn minh vô tiền khoáng hậu, trong đó sẽ xuất hiện những nền tri thức mới và những chiêu thức mới, dần đưa cô đến gần hơn với câu trả lời cuối cùng. Và cô cân nhắc đến những trợ giúp mà cô gửi cho loài người như một dạng đầu tư - sau tất cả, nếu điều đó giúp cô có được thứ cô muốn thì tại sao lại không cơ chứ? Với một nụ cười và hi vọng dành cho tương lai, <i class=\"clr-orange\">Liliana</i> đã trở lại.<br>Vài trăm năm sau, khi <i class=\"clr-orange\">Liliana</i> trở lại nền văn minh của loài người một lần nữa, cô đã bị sốc. Những ngọn nến và lò sưởi cô đã từng được sử dụng nay đã được thay thế bằng những chiếc đèn pha lê chạm khắc bởi ma thuật, có khả năng mang ánh sáng tới hàng ngàn gia đình cùng một lúc. Những lưỡi giáo và những thanh kiếm mà cô từng biết không còn được nhiều người sử dụng nữa, những chiến binh loài người giờ đây đã sử dụng cơ khí và súng đại bác một cách mạnh mẽ và cực kỳ ấn tượng. Những cải tiến này, thứ mà con người gọi là \"công nghệ\" đã thay đổi hoàn toàn cách <i class=\"clr-orange\">Liliana</i> nhìn nhận thế giới.<br>Đó là một sự thay đổi lý tưởng cho <i class=\"clr-orange\">Liliana</i>, cô háo hức tham gia vào mọi sự phát triển mới. Nhưng ngay cả với một người vô cùng uyên bác như <i class=\"clr-orange\">Liliana</i> cũng phải cần hàng chục, thậm chí hàng trăm năm để thấu hiểu được tri thức này. Vì thế, <i class=\"clr-orange\">Liliana</i> đã quyết định biến đổi thành con người và gia nhập quân đội thức nghiệm với vai trò cán bộ truyền thông, người có quyền tự do đi lại giữa các lục địa và thu thập thông tin tình báo. Vai trò mới sẽ giúp cô thuận tiện hơn và đạt được tất cả những gì cô mong muốn. Tất nhiên điều đó cũng mang lại những kẻ địch mới, nhưng <i class=\"clr-orange\">Liliana</i> không ngại những thứ vụn vặt này và sẵn sàng đương đầu với chúng bất kỳ lúc nào.<br>\"Đó chỉ là một phần của học phí thôi!\"",
 		"hero_skin": [{
 				"name": "Cửu Vĩ Yêu Hồ",
 				"gold": "18,888",
@@ -7153,7 +7153,7 @@
 				"info": "2,0,3,0,3"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "4,3,2,0,3"
 			},
 			{
@@ -7161,7 +7161,7 @@
 				"info": "4,2,0,3,0,3"
 			}
 		],
-		"skill_note": "*Max là một đấu sĩ tự do, có thể đi đường đơn hoặc chơi ở vị trí trợ thủ, đấu sĩ thôi đừng quá hổ báo nhé.<br>*Mọi kỹ năng của Max đều khiến đối thủ giảm khả năng hồi máu, các đòn đánh gây sát thương chuẩn kể cả trụ, mạnh như này đừng quên gank các đường khác nhé!<br>*Chiêu 2 Santo về trước, tăng miễn thương và có thể vượt cả địa hình (có mục tiêu mới xài được).<br>*Bật Rađa Đạn Đạo, kẻ trốn chạy coi như hết đời! :D<br>*Chiêu cuối xài như này: Bật tìm kẻ địch xung quanh > Chọn kẻ địch yếu máu >  Bật lần nửa bay tới đó (Trong quá trình bay muốn đáp chổ nào thì bật lần nửa). :P",
+		"skill_note": "*Max là một đấu sĩ tự do, có thể đi đường đơn hoặc chơi ở vị trí trợ thủ, đấu sĩ thôi đừng quá hổ báo nhé.<br>*Mọi chiêu thức của Max đều khiến đối thủ giảm khả năng hồi máu, các đòn đánh gây sát thương chuẩn kể cả trụ, mạnh như này đừng quên gank các đường khác nhé!<br>*Chiêu 2 Santo về trước, tăng miễn thương và có thể vượt cả địa hình (có mục tiêu mới xài được).<br>*Bật Rađa Đạn Đạo, kẻ trốn chạy coi như hết đời! :D<br>*Chiêu cuối xài như này: Bật tìm kẻ địch xung quanh > Chọn kẻ địch yếu máu >  Bật lần nửa bay tới đó (Trong quá trình bay muốn đáp chổ nào thì bật lần nửa). :P",
 		"skill_special": "BocPha,TocBien",
 		"main_rune": {
 			"rune2": [{
@@ -7317,7 +7317,7 @@
 				"info": "2,0,3,2"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,0,4,3,2"
 			},
 			{
@@ -7450,7 +7450,7 @@
 				"info": "3,2,0,3"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,4,2,0,3"
 			}
 		],
@@ -7619,7 +7619,7 @@
 				"info": "2,2,2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng: Có thể kết hợp với Tốc biến tiếp cận mục tiêu rồi dùng Chiêu 3",
+				"name": "*Combo khi có đủ 3 chiêu thức: Có thể kết hợp với Tốc biến tiếp cận mục tiêu rồi dùng Chiêu 3",
 				"info": "2,2,2,3,4,0"
 			}
 		],
@@ -7784,7 +7784,7 @@
 				"info": "3,0,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng: (có thể kết hợp với Trừng trị)",
+				"name": "*Combo khi có đủ 3 chiêu thức: (có thể kết hợp với Trừng trị)",
 				"info": "0,2,3,4,2,0"
 			}
 		],
@@ -7948,7 +7948,7 @@
 				"info": "2,0,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,0,2,0,4,3,2,0"
 			}
 		],
@@ -8099,7 +8099,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng (kết hợp Tốc biến tiếp cận mục tiêu)",
+				"name": "*Combo khi có đủ 3 chiêu thức (kết hợp Tốc biến tiếp cận mục tiêu)",
 				"info": "2,3,0,4,0"
 			}
 		],
@@ -8272,7 +8272,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,4,2,3,0"
 			},
 			{
@@ -8280,7 +8280,7 @@
 				"info": "4,2,3,0"
 			}
 		],
-		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Là một tướng Đỡ đòn dạng cứng nên có thể mang đi đường đơn hoặc chơi vị trí hỗ trợ cũng được.<br>- Về đầu game nên tận dụng Chiêu Địa chấn để dọn lính và trợ giúp đồng đội.<br>- Về Chiêu Vật tổ hãy tận dụng chính xác có thể tấn công hoặc rút lui đều được.<br>- Tậu một số trang bị thiên hướng đốt kẻ địch cùng Địa chấn.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game, ngoài việc là bức tường vững chãi, và gây khó chịu cho kẻ địch, thì Chiêu cuối là một chiêu thức đặc biệt quan tâm và chú ý khi sử dụng.<br>- Chiêu cuối có khoảng thời gian chậm trễ trước khi bung ra và giam cầm kẻ địch, phải luyện dùng kỹ năng này thành thục đoán hướng di chuyển của kẻ địch.<br>- Khi đã giam cầm kẻ địch thành công thì việc tiếp theo để đồng bọn dọn kk.",
+		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Là một tướng Đỡ đòn dạng cứng nên có thể mang đi đường đơn hoặc chơi vị trí hỗ trợ cũng được.<br>- Về đầu game nên tận dụng Chiêu Địa chấn để dọn lính và trợ giúp đồng đội.<br>- Về Chiêu Vật tổ hãy tận dụng chính xác có thể tấn công hoặc rút lui đều được.<br>- Tậu một số trang bị thiên hướng đốt kẻ địch cùng Địa chấn.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game, ngoài việc là bức tường vững chãi, và gây khó chịu cho kẻ địch, thì Chiêu cuối là một chiêu thức đặc biệt quan tâm và chú ý khi sử dụng.<br>- Chiêu cuối có khoảng thời gian chậm trễ trước khi bung ra và giam cầm kẻ địch, phải luyện dùng chiêu thức này thành thục đoán hướng di chuyển của kẻ địch.<br>- Khi đã giam cầm kẻ địch thành công thì việc tiếp theo để đồng bọn dọn kk.",
 		"skill_special": "TocBien,BocPha",
 		"main_rune": {
 			"rune2": [{
@@ -8427,7 +8427,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,2,4,3,2,0"
 			}
 		],
@@ -8588,7 +8588,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,0,4,2,0"
 			},
 			{
@@ -8596,7 +8596,7 @@
 				"info": "4,3,0,2,0"
 			}
 		],
-		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Là một tay đấu sĩ kiêm luôn sát thủ, đường Caesar là một chọn lựa tuyệt vời nhất.<br>- Coi bộ các kỹ năng của cô nàng không khó gì máy nhưng làm sao cho hiệu quả nhất mới là quan trọng nhỉ, dùng Tàng đao kích đẩy lính và cấu máu địch.<br>- Liên hoàn cước chiêu này dùng trao đổi chiêu thức rất có lợi, canh rừng lên gank dùng chiêu này khống chế nhẹ.<br>- Có thể nói là mạnh nhưng không đến nổi mỏng, giai đoạn đầu tốt nhất hiên lành, đợi đồng đội lên chơi nhé!!<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game tầm 3 món trang bị cuối trở lên, thả sức mà tung hoành nhé, dame to lắm, vào cô cân hết.<br>- Chiêu cuối Cuồng bạo cước phải chơi nhiều và biết thời gian lúc nào là đến, bật trước khi giao tranh nổ ra 1s, kết hợp tốc biến vào nơi nào có đông tướng địch nhất mà quẩy, nhớ thấy không ổn thì tìm đường lui, không lui được thì kiếm em nào mỏng khô máu kk!!<br>- Đừng lo chiêu cuối có miễn thương đồ khá ổn đấy, phải nói tổng thể Amily mạnh khi ai biết chơi @@!",
+		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Là một tay đấu sĩ kiêm luôn sát thủ, đường Caesar là một chọn lựa tuyệt vời nhất.<br>- Coi bộ các chiêu thức của cô nàng không khó gì máy nhưng làm sao cho hiệu quả nhất mới là quan trọng nhỉ, dùng Tàng đao kích đẩy lính và cấu máu địch.<br>- Liên hoàn cước chiêu này dùng trao đổi chiêu thức rất có lợi, canh rừng lên gank dùng chiêu này khống chế nhẹ.<br>- Có thể nói là mạnh nhưng không đến nổi mỏng, giai đoạn đầu tốt nhất hiên lành, đợi đồng đội lên chơi nhé!!<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game tầm 3 món trang bị cuối trở lên, thả sức mà tung hoành nhé, dame to lắm, vào cô cân hết.<br>- Chiêu cuối Cuồng bạo cước phải chơi nhiều và biết thời gian lúc nào là đến, bật trước khi giao tranh nổ ra 1s, kết hợp tốc biến vào nơi nào có đông tướng địch nhất mà quẩy, nhớ thấy không ổn thì tìm đường lui, không lui được thì kiếm em nào mỏng khô máu kk!!<br>- Đừng lo chiêu cuối có miễn thương đồ khá ổn đấy, phải nói tổng thể Amily mạnh khi ai biết chơi @@!",
 		"skill_special": "TocBien,BocPha",
 		"main_rune": {
 			"rune2": [{
@@ -8765,7 +8765,7 @@
 				"info": "2,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "2,3,4,2,3,0"
 			}
 		],
@@ -8920,7 +8920,7 @@
 				"info": "2,3,3"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng (trước đó nhớ kiếm chổ đặt Ưng trạm)",
+				"name": "*Combo khi có đủ 3 chiêu thức (trước đó nhớ kiếm chổ đặt Ưng trạm)",
 				"info": "3,3,4,0"
 			}
 		],
@@ -9085,7 +9085,7 @@
 				"info": "2,0,3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng (chú ý đổi vị trí, đất, nước, bụi cỏ)",
+				"name": "*Combo khi có đủ 3 chiêu thức (chú ý đổi vị trí, đất, nước, bụi cỏ)",
 				"info": "2,0,4,2,0,3"
 			}
 		],
@@ -9244,11 +9244,11 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,2,0,0,0,4,2,3"
 			}
 		],
-		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Wiro là một đấu sĩ tự do vì thế anh ta rất hợp đi đường Caesar.<br>- Đầu game tận dụng bộ combo Găng chiến lực + Rìu chiến lực gây áp đảo đối thủ, đồng thời đẩy lính tạo lợi thế.<br>- Tranh thủ ăn chim, dơi, hoặc cướp bùa đỏ nếu có thể kk :P, không ép à!!<br>- Cứ khô máu đi Nội tại Dấu ấn 212 có khả năng hồi sinh, ngại gì vết bẩn, quẩy tung nốc!!<br>- Nói thế thôi hãy tập luyện bộ kỹ năng và di chuyển hợp lý vào, sức mạnh thật sự của Wiro còn ở phía sau cơ!!.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game, độ chừng 3 4 món cuối, lại quẩy không chừa ai cả, combo hai chiêu đầu đã mệt mỗi rồi đừng nói đến chiêu cuối nha!!<br>- Khi kẻ địch sợ hải bỏ chạy là lúc Thần lực 212 được gọi ra, vùng chiêu cuối khá rộng khi nổ kèm hất tung, mạnh quá ai chơi!! :P<br>- Vì Nội tại có đến 90 giây hồi, nên để dành cho các pha combat tổng chủ chốt, cứ khô máu rồi lại hồi sinh, kèm theo em TeeMee, cộng giáp Hồi sinh ôi thôi, hồi sinh mãi, đánh chán kk!!",
+		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Wiro là một đấu sĩ tự do vì thế anh ta rất hợp đi đường Caesar.<br>- Đầu game tận dụng bộ combo Găng chiến lực + Rìu chiến lực gây áp đảo đối thủ, đồng thời đẩy lính tạo lợi thế.<br>- Tranh thủ ăn chim, dơi, hoặc cướp bùa đỏ nếu có thể kk :P, không ép à!!<br>- Cứ khô máu đi Nội tại Dấu ấn 212 có khả năng hồi sinh, ngại gì vết bẩn, quẩy tung nốc!!<br>- Nói thế thôi hãy tập luyện bộ chiêu thức và di chuyển hợp lý vào, sức mạnh thật sự của Wiro còn ở phía sau cơ!!.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game, độ chừng 3 4 món cuối, lại quẩy không chừa ai cả, combo hai chiêu đầu đã mệt mỗi rồi đừng nói đến chiêu cuối nha!!<br>- Khi kẻ địch sợ hải bỏ chạy là lúc Thần lực 212 được gọi ra, vùng chiêu cuối khá rộng khi nổ kèm hất tung, mạnh quá ai chơi!! :P<br>- Vì Nội tại có đến 90 giây hồi, nên để dành cho các pha combat tổng chủ chốt, cứ khô máu rồi lại hồi sinh, kèm theo em TeeMee, cộng giáp Hồi sinh ôi thôi, hồi sinh mãi, đánh chán kk!!",
 		"skill_special": "TocBien,BocPha",
 		"main_rune": {
 			"rune2": [{
@@ -9387,7 +9387,7 @@
 			},
 			{
 				"name": "ẨN SÁT",
-				"info": "Hồi chiêu: 20/18/16 giây<br>Tiêu hao: 0 nội năng<br>Quillen lăn một vòng, sau đó tàng hình trong 3 giây, tăng 40% tốc chạy và hồi 70/105/140 + (0.15 công vật lý cộng thêm) máu mỗi 0.5 giây. Suốt thời gian này, nếu Quillen tấn công kẻ địch sẽ hiện hình và cường hoá bản thân trong 3 giây kế tiếp.<br>Cường hoá: Quillen nhận 150/175/200 công vật lý, và 30% tốc chạy mỗi khi gây sát thương lên kẻ địch.<br>Nội tại: Phụ hoặc hạ gục tướng địch sẽ làm mới hồi chiêu của toàn bộ kỹ năng."
+				"info": "Hồi chiêu: 20/18/16 giây<br>Tiêu hao: 0 nội năng<br>Quillen lăn một vòng, sau đó tàng hình trong 3 giây, tăng 40% tốc chạy và hồi 70/105/140 + (0.15 công vật lý cộng thêm) máu mỗi 0.5 giây. Suốt thời gian này, nếu Quillen tấn công kẻ địch sẽ hiện hình và cường hoá bản thân trong 3 giây kế tiếp.<br>Cường hoá: Quillen nhận 150/175/200 công vật lý, và 30% tốc chạy mỗi khi gây sát thương lên kẻ địch.<br>Nội tại: Phụ hoặc hạ gục tướng địch sẽ làm mới hồi chiêu của toàn bộ chiêu thức."
 			}
 		],
 		"skill_up": {
@@ -9404,7 +9404,7 @@
 				"info": "3,0,2"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,0,2,0,4"
 			},
 			{
@@ -9567,7 +9567,7 @@
 				"info": "3,2,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng",
+				"name": "*Combo khi có đủ 3 chiêu thức",
 				"info": "3,2,0,4"
 			}
 		],
@@ -9726,11 +9726,11 @@
 				"info": "2,0,3,0,3,0,3,0"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng: kết hợp nhặt hoa",
+				"name": "*Combo khi có đủ 3 chiêu thức: kết hợp nhặt hoa",
 				"info": "4,2,0,3,0,3,0,3,0"
 			}
 		],
-		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Florentino với bộ kỹ năng mới lạ và khá cơ động phù hợp vị trí Đường Caesar hoặc đi Rừng, hãy mang phép bổ trợ phù hợp nhé!!<br>- Khả năng tay đôi là khá mạnh kết hợp với sát thương cao và hồi phục từ Nội tại.<br>- Anh em mới chơi để ý combo đầu game như sau: dùng chiêu Hào hoa trúng mục tiêu sẽ tạo ra 3 bông hoa trên mặt đất > đánh thường lướt tới > chiêu 2 > nhặt hoa, đánh thường > chiêu 2 > nhặt hoa, đánh thường > chiêu 2 > nhặt hoa, đánh thường.<br>- Combo khá khó đồi hỏi các bạn phải tập luyện nhiều vào mới có thể mang vào đánh rank được!!<br>- Chiêu thức có thể vượt địa hình vì thế mọi người cố gắng tập luyện để khả năng lã lướt nó uyển chuyển hơn!!.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game khả năng ám sát mục tiêu khá mạnh vì thế hãy đi gank các đường khác hoặc cố gắng đẩy cao lính ở 2 bên đường, nhanh chóng đi cùng đồng đội combat hoặc ăn mục tiêu lớn.<br>- Chiêu cuối khá bá đạo đặc biệt trong đấu tay đôi, hãy chọn mục tiêu và dùng chiêu cuối, hạ gục mục tiêu đang chọn sẽ nhận công vật lý vĩnh viễn (cộng dồn đến 10 lần), ngoài ra còn miễn nhiễm mọi khống chế nửa bá quá!!<br>- Ra vào combat thích hợp để tối ưu hóa sát thương, cố gắng giữ mạng và rút lui khi cảm thấy không ổn.",
+		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Florentino với bộ chiêu thức mới lạ và khá cơ động phù hợp vị trí Đường Caesar hoặc đi Rừng, hãy mang phép bổ trợ phù hợp nhé!!<br>- Khả năng tay đôi là khá mạnh kết hợp với sát thương cao và hồi phục từ Nội tại.<br>- Anh em mới chơi để ý combo đầu game như sau: dùng chiêu Hào hoa trúng mục tiêu sẽ tạo ra 3 bông hoa trên mặt đất > đánh thường lướt tới > chiêu 2 > nhặt hoa, đánh thường > chiêu 2 > nhặt hoa, đánh thường > chiêu 2 > nhặt hoa, đánh thường.<br>- Combo khá khó đồi hỏi các bạn phải tập luyện nhiều vào mới có thể mang vào đánh rank được!!<br>- Chiêu thức có thể vượt địa hình vì thế mọi người cố gắng tập luyện để khả năng lã lướt nó uyển chuyển hơn!!.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game khả năng ám sát mục tiêu khá mạnh vì thế hãy đi gank các đường khác hoặc cố gắng đẩy cao lính ở 2 bên đường, nhanh chóng đi cùng đồng đội combat hoặc ăn mục tiêu lớn.<br>- Chiêu cuối khá bá đạo đặc biệt trong đấu tay đôi, hãy chọn mục tiêu và dùng chiêu cuối, hạ gục mục tiêu đang chọn sẽ nhận công vật lý vĩnh viễn (cộng dồn đến 10 lần), ngoài ra còn miễn nhiễm mọi khống chế nửa bá quá!!<br>- Ra vào combat thích hợp để tối ưu hóa sát thương, cố gắng giữ mạng và rút lui khi cảm thấy không ổn.",
 		"skill_special": "BocPha,TrungTri",
 		"main_rune": {
 			"rune2": [{
@@ -9775,7 +9775,7 @@
 		],
 		"hero_battle": [{
 				"name": "và đồng bọn",
-				"desc": "sở hữu bộ kỹ năng khá cơ động, đặt biệt càng mạnh khi cô lập được mục tiêu, dưới đây là một trong số tướng có thể giúp tối ưu hóa sát thương của anh ta,..",
+				"desc": "sở hữu bộ chiêu thức khá cơ động, đặt biệt càng mạnh khi cô lập được mục tiêu, dưới đây là một trong số tướng có thể giúp tối ưu hóa sát thương của anh ta,..",
 				"info": [{
 						"hero_id": "alice",
 						"id_page": "Alice"
@@ -9897,7 +9897,7 @@
 				"info": "0,3,2,1"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng: kết hợp nội tại khi tích 4 điểm",
+				"name": "*Combo khi có đủ 3 chiêu thức: kết hợp nội tại khi tích 4 điểm",
 				"info": "0,3,2,1,4"
 			},
 			{
@@ -9905,7 +9905,7 @@
 				"info": "4,3,2,1,0"
 			}
 		],
-		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Veres giữ vai trò Đấu sĩ kiêm Sát thủ vì thế đường Caesar sẽ vô cùng thích hợp đối với cô.<br>- Đầu game nên chơi an toàn giữ vị trí farm nhanh lính và cố gắng ăn các mục tiêu lớn hơn như chim, dơi,..<br>- Dùng Chiêu 2 Xiềng xích linh hoạt để ăn lính và cấu máu đối phương, hãy để ý chiêu này nếu mục tiêu gần người sẽ đẩy ra, còn mục tiêu ở xa sẽ kéo về và choáng nhẹ.<br>- Để ý Chiêu 1 Song xích sẽ làm choáng mục tiêu nếu cả 2 sợi xích cùng trúng mục tiêu.<br>- Cái quan trọng nhất đối với Veres là chiêu Nội tại, khi đánh thường hoặc dùng kỹ năng sẽ tích lũy điểm nội tại.<br>- Đạt đủ 4 điểm nội tại sẽ tung ra vùng chiêu gây sát thương kẻ địch xung quanh, hãy canh sao cho rìa vùng chiêu trúng mục tiêu càng nhiều càng tốt, làm choáng và hồi máu cho cô. Vùng chiêu này rất khó canh vì thế hãy tập luyện nhiều Veres thì mới có thể chơi tốt được cô nàng gai gốc này.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game, cố gắng dọn dẹp lính, và đẩy trụ nếu có thể, đảo đường giúp đỡ các lane khác, cùng đồng đội ăn các mục tiêu lớn như Rồng, Rồng bạo chúa, hoặc cao hơn là Caesar.<br>- Khả năng tay đôi là có tuy nhiên đừng vì quá hăng máu mà cân 2, 3 nhé.<br>- Chiêu cuối Đoạt mệnh xích dùng để kết thúc mục tiêu khá tốt, dùng tốt quá kẻo đồng đội gọi là KS đấy nhé. Chiêu này đặc biệt dùng để tấn công hoặc bỏ chạy khá ổn, có thể vượt cả địa hình nửa đó.<br>- Nói chung Veres khá ổn khi đi đường nên đừng ngại solo nhé. cảm thấy không ổn thì gọi rừng lên chơi kk!!",
+		"skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Veres giữ vai trò Đấu sĩ kiêm Sát thủ vì thế đường Caesar sẽ vô cùng thích hợp đối với cô.<br>- Đầu game nên chơi an toàn giữ vị trí farm nhanh lính và cố gắng ăn các mục tiêu lớn hơn như chim, dơi,..<br>- Dùng Chiêu 2 Xiềng xích linh hoạt để ăn lính và cấu máu đối phương, hãy để ý chiêu này nếu mục tiêu gần người sẽ đẩy ra, còn mục tiêu ở xa sẽ kéo về và choáng nhẹ.<br>- Để ý Chiêu 1 Song xích sẽ làm choáng mục tiêu nếu cả 2 sợi xích cùng trúng mục tiêu.<br>- Cái quan trọng nhất đối với Veres là chiêu Nội tại, khi đánh thường hoặc dùng chiêu thức sẽ tích lũy điểm nội tại.<br>- Đạt đủ 4 điểm nội tại sẽ tung ra vùng chiêu gây sát thương kẻ địch xung quanh, hãy canh sao cho rìa vùng chiêu trúng mục tiêu càng nhiều càng tốt, làm choáng và hồi máu cho cô. Vùng chiêu này rất khó canh vì thế hãy tập luyện nhiều Veres thì mới có thể chơi tốt được cô nàng gai gốc này.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game, cố gắng dọn dẹp lính, và đẩy trụ nếu có thể, đảo đường giúp đỡ các lane khác, cùng đồng đội ăn các mục tiêu lớn như Rồng, Rồng bạo chúa, hoặc cao hơn là Caesar.<br>- Khả năng tay đôi là có tuy nhiên đừng vì quá hăng máu mà cân 2, 3 nhé.<br>- Chiêu cuối Đoạt mệnh xích dùng để kết thúc mục tiêu khá tốt, dùng tốt quá kẻo đồng đội gọi là KS đấy nhé. Chiêu này đặc biệt dùng để tấn công hoặc bỏ chạy khá ổn, có thể vượt cả địa hình nửa đó.<br>- Nói chung Veres khá ổn khi đi đường nên đừng ngại solo nhé. cảm thấy không ổn thì gọi rừng lên chơi kk!!",
 		"skill_special": "TocBien,BocPha",
 		"main_rune": {
 			"rune2": [{
@@ -9950,7 +9950,7 @@
 		],
 		"hero_battle": [{
 				"name": "và đồng bọn",
-				"desc": "có bộ kỹ năng ở dạng khá về sát thương lẫn khống chế, khi chơi cùng các đồng đội có khả năng giữ, làm chậm, câm lặng,.. mục tiêu sẽ khiến Veres càng trở nên mạnh hơn bao giờ hết,..",
+				"desc": "có bộ chiêu thức ở dạng khá về sát thương lẫn khống chế, khi chơi cùng các đồng đội có khả năng giữ, làm chậm, câm lặng,.. mục tiêu sẽ khiến Veres càng trở nên mạnh hơn bao giờ hết,..",
 				"info": [{
 						"hero_id": "mina",
 						"id_page": "Mina"
@@ -10031,7 +10031,7 @@
 		},
 		"main_skill": [{
 				"name": "LỰC LƯỢNG THỨ NGUYÊN",
-				"info": "Hồi chiêu: 0 giây<br>Tiêu hao: 0 năng lượng<br>Nội tại: D'Arcy tăng Lực lượng thứ nguyên trong suốt trạng thái giao tranh thông qua các đòn đánh thường và chiêu trúng đối phương. Nếu thoát khỏi giao tranh, Lực lượng thứ nguyên sẽ nhanh chóng giảm dần.<br>Khi Lực lượng thứ nguyên đạt đến tối đa, D'Arcy được cường hóa trong 8 giây, hồi 20% năng lượng đã tổn thất, đồng thời được tăng 20% tốc chạy và cường hóa kỹ năng thường kế tiếp."
+				"info": "Hồi chiêu: 0 giây<br>Tiêu hao: 0 năng lượng<br>Nội tại: D'Arcy tăng Lực lượng thứ nguyên trong suốt trạng thái giao tranh thông qua các đòn đánh thường và chiêu trúng đối phương. Nếu thoát khỏi giao tranh, Lực lượng thứ nguyên sẽ nhanh chóng giảm dần.<br>Khi Lực lượng thứ nguyên đạt đến tối đa, D'Arcy được cường hóa trong 8 giây, hồi 20% năng lượng đã tổn thất, đồng thời được tăng 20% tốc chạy và cường hóa chiêu thức thường kế tiếp."
 			},
 			{
 				"name": "DU HÀNH THỨ NGUYÊN",
@@ -10064,7 +10064,7 @@
 				"info": "3,2,0,1,3"
 			},
 			{
-				"name": "*Combo khi có đủ 3 kỹ năng: nếu có Nội tại có thể chọn tiếp Chiêu 1 hoặc 2",
+				"name": "*Combo khi có đủ 3 chiêu thức: nếu có Nội tại có thể chọn tiếp Chiêu 1 hoặc 2",
 				"info": "4,3,4,2,0"
 			}
 		],

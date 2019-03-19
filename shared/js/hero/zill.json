@@ -37,11 +37,11 @@
       "info": "2,3,0"
     },
     {
-      "name": "*Combo khi có đủ 3 kỹ năng",
+      "name": "*Combo khi có đủ 3 chiêu thức",
       "info": "2,3,0,4,0"
     }
   ],
-  "skill_note": "*Chú ý các đòn đánh thường nhằm hồi lại kỹ năng Phong độn.",
+  "skill_note": "*Chú ý các đòn đánh thường nhằm hồi lại chiêu thức Phong độn.",
   "skill_special": "TrungTri,BocPha",
   "main_rune": [{
     "name": "*Ngọc cấp 2",

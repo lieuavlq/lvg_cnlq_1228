@@ -1,5 +1,5 @@
 thông tin chung v
-kỹ năng v
+chiêu thức v
 tăng chiêu v
 combo v
 cách chơi game v
@@ -16,7 +16,7 @@ Hướng dẫn (Phép bổ trợ, Ngọc bổ trợ, Trang bị)
 
 Mẹo chơi (Tăng chiêu, Combo, Hướng dẫn chơi, Đồng đội, Khắc chế)
 
-Thông tin (Thông tin chung, Kỹ năng, Tiểu sử)
+Thông tin (Thông tin chung, chiêu thức, Tiểu sử)
 
 Trang phục
 

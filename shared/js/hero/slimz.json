@@ -37,11 +37,11 @@
       "info": "2,3,0"
     },
     {
-      "name": "*Combo khi có đủ 3 kỹ năng",
+      "name": "*Combo khi có đủ 3 chiêu thức",
       "info": "2,3,4,0"
     }
   ],
-  "skill_note": "*Hãy tập luyện kỹ năng vừa đánh vừa chạy và giữ vị trí thật tốt để có sát thương cao nhất.",
+  "skill_note": "*Hãy tập luyện chiêu thức vừa đánh vừa chạy và giữ vị trí thật tốt để có sát thương cao nhất.",
   "skill_special": "TrungTri,TocBien",
   "main_rune": [{
     "name": "*Ngọc cấp 2",

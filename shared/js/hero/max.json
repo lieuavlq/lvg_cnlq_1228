@@ -40,7 +40,7 @@
       "info": "2,0,3,0,3"
     },
     {
-      "name": "*Combo khi có đủ 3 kỹ năng",
+      "name": "*Combo khi có đủ 3 chiêu thức",
       "info": "4,3,2,0,3"
     },
     {
@@ -48,7 +48,7 @@
       "info": "4,2,0,3,0,3"
     }
   ],
-  "skill_note": "*Max là một đấu sĩ tự do, có thể đi đường đơn hoặc chơi ở vị trí trợ thủ, đấu sĩ thôi đừng quá hổ báo nhé.<br>*Mọi kỹ năng của Max đều khiến đối thủ giảm khả năng hồi máu, các đòn đánh gây sát thương chuẩn kể cả trụ, mạnh như này đừng quên gank các đường khác nhé!<br>*Chiêu 2 Santo về trước, tăng miễn thương và có thể vượt cả địa hình (có mục tiêu mới xài được).<br>*Bật Rađa Đạn Đạo, kẻ trốn chạy coi như hết đời! :D<br>*Chiêu cuối xài như này: Bật tìm kẻ địch xung quanh > Chọn kẻ địch yếu máu >  Bật lần nửa bay tới đó (Trong quá trình bay muốn đáp chổ nào thì bật lần nửa). :P",
+  "skill_note": "*Max là một đấu sĩ tự do, có thể đi đường đơn hoặc chơi ở vị trí trợ thủ, đấu sĩ thôi đừng quá hổ báo nhé.<br>*Mọi chiêu thức của Max đều khiến đối thủ giảm khả năng hồi máu, các đòn đánh gây sát thương chuẩn kể cả trụ, mạnh như này đừng quên gank các đường khác nhé!<br>*Chiêu 2 Santo về trước, tăng miễn thương và có thể vượt cả địa hình (có mục tiêu mới xài được).<br>*Bật Rađa Đạn Đạo, kẻ trốn chạy coi như hết đời! :D<br>*Chiêu cuối xài như này: Bật tìm kẻ địch xung quanh > Chọn kẻ địch yếu máu >  Bật lần nửa bay tới đó (Trong quá trình bay muốn đáp chổ nào thì bật lần nửa). :P",
   "skill_special": "BocPha,TocBien",
   "main_rune": [{
     "name": "*Ngọc cấp 2",

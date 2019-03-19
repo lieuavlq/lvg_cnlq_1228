@@ -37,11 +37,11 @@
       "info": "2,3,0"
     },
     {
-      "name": "*Combo khi có đủ 3 kỹ năng",
+      "name": "*Combo khi có đủ 3 chiêu thức",
       "info": "2,3,4,2,0"
     }
   ],
-  "skill_note": "*Với kỹ năng làm chậm diện rộng của mình,hãy kiếm vị trí combo tốt nhất có thể.",
+  "skill_note": "*Với chiêu thức làm chậm diện rộng của mình,hãy kiếm vị trí combo tốt nhất có thể.",
   "skill_special": "TocBien,BocPha",
   "main_rune": [{
     "name": "*Ngọc cấp 2",

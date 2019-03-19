@@ -11,7 +11,7 @@
   },
   "main_skill": [{
       "name": "Bẫy cát",
-      "info": "Nội tại: Các mục tiêu bị sát thương bởi các kỹ năng sẽ bị nguyền rủa, tối đa 3 lần. Mục tiêu chịu đủ 3 lời nguyền sẽ bị hóa đá và gây 150 (+0.75 công phép) (+10 mỗi cấp) STP.<br>Thời gian duy trì dấu ấn：5s<br>Thời gian hồi giữa 2 lần kích hoạt nội tại：2s"
+      "info": "Nội tại: Các mục tiêu bị sát thương bởi các chiêu thức sẽ bị nguyền rủa, tối đa 3 lần. Mục tiêu chịu đủ 3 lời nguyền sẽ bị hóa đá và gây 150 (+0.75 công phép) (+10 mỗi cấp) STP.<br>Thời gian duy trì dấu ấn：5s<br>Thời gian hồi giữa 2 lần kích hoạt nội tại：2s"
     },
     {
       "name": "Cồn cát tà ác",
@@ -37,7 +37,7 @@
       "info": "2,3,0"
     },
     {
-      "name": "*Combo khi có đủ 3 kỹ năng",
+      "name": "*Combo khi có đủ 3 chiêu thức",
       "info": "2,4,3,0"
     }
   ],

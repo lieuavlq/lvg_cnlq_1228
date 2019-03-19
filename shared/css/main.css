@@ -1,12 +1,31 @@
 @charset "utf-8";
 @font-face {
 font-family: 'Roboto';
-src: url('../font/roboto-regular.ttf') format('truetype');
+src: url('../font/robotoregular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Baloo';
+  src: url('../font/balooregular.ttf') format("truetype");
 }
 body {
 line-height: 1.5;
 font-family: 'Roboto', sans-serif;
 background-color: #fff;
+}
+.ui-header .ui-title {
+font-family: 'Baloo', sans-serif;
+text-transform: uppercase;
+line-height: 20px;
+font-size: 16px;
+padding: 5px 0;
+margin: 0;
+}
+.ui-header .ui-title span {
+display: block;
+font-size: 60%;
+font-weight: normal;
+line-height: 14px;
+font-family: 'Roboto', sans-serif;
 }
 *,
 *:focus {
@@ -234,6 +253,9 @@ position: relative;
 margin-bottom: 10px;
 border: 1px solid #333;
 }
+.lvg_runes > div {
+min-height: 44px;
+}
 .lvg_runes span {
 width: 60px;
 height: 60px;
@@ -260,70 +282,77 @@ margin: 3px;
 display: inline-block;
 }
 .lvg_incskill_wrap {
-  border: 1px solid #333;
-  padding: 6px;
+border: 1px solid #333;
+padding: 6px;
 }
 .lvg_incskill_info {
-  float: left;
-  margin-right: 3px;
-  margin-top: 3px;
+float: left;
+margin-right: 3px;
+margin-top: 3px;
 }
 .lvg_incskill_info > div {
-  margin-bottom: 6px;
+margin-bottom: 6px;
 }
 .lvg_incskill_info > :first-child,
 .lvg_combo .combo > :last-child:after {
-  display: none;
+display: none;
 }
 .lvg_incskill_info > div a {
-  width: 28px;
-  height: 28px;
+width: 28px;
+height: 28px;
 }
 .lvg_combo .combo > div {
-  position: relative;
-  margin: 5px 12px 5px 0;
-  padding-right: 12px;
+position: relative;
+margin: 5px 12px 5px 0;
+padding-right: 12px;
 }
 .lvg_combo .combo > :last-child {
-  margin-right: 0;
-  padding-right: 0;
+margin-right: 0;
+padding-right: 0;
 }
 .lvg_combo .combo > div:after {
-  content: '>';
-  position: absolute;
-  right: -6px;
-  top: 50%;
-  margin: auto;
-  font-size: 18px;
-  line-height: 18px;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+content: '>';
+position: absolute;
+right: -6px;
+top: 50%;
+margin: auto;
+font-size: 18px;
+line-height: 18px;
+-webkit-transform: translateY(-50%);
+transform: translateY(-50%);
 }
 .lvg_champs_related {
-  padding: 8px;
-  display: table;
-  width: 100%;
-  box-sizing: border-box;
-  font-size: 90%;
+padding: 8px;
+display: table;
+width: 100%;
+box-sizing: border-box;
+font-size: 90%;
 }
 .lvg_champs_related > * {
-  display: table-cell;
-  vertical-align: middle;
+display: table-cell;
+vertical-align: middle;
 }
 .lvg_champs_related > :last-child {
-  padding-left: 10px;
-  border-left: 1px solid #333;
+padding-left: 8px;
+border-left: 1px solid #333;
 }
 .lvg_champs_related .lvg_champs {
-  text-align: left;
-  width: 30%;
+text-align: left;
+width: 50px;
 }
 .lvg_champs_related .lvg_champs > div {
-  margin: 0;
-  width: 90%;
+margin: 0;
+width: auto;
 }
 .lvg_champs_related .lvg_champs > div a {
-  float: none;
+float: none;
+height: 42px;
+background-size: 42px;
+width: 42px;
+padding: 0;
+}
+.lvg_champs_related .lvg_champs > div span {
+display: none;
 }
 .lvg_skills > div {
 margin: 3px 6px;
@@ -333,37 +362,144 @@ width: 60px;
 height: 60px;
 }
 .clr-orange {
-  color: #cc263d;
+color: #cc263d;
 }
-
+.lvg_slider {
+margin: 10px 0;
+}
+.lvg_slider > div {
+border: 1px solid #cc263d;
+border-radius: 50px 0 0 50px;
+position: relative;
+overflow: hidden;
+}
+.lvg_slider > div + div {
+margin-top: 25px;
+}
+.lvg_slider .thumb-wrap {
+width: 70px;
+float: left;
+margin-right: 20px;
+border-right: 1px solid #333;
+border-radius: 50%;
+overflow: hidden;
+}
+.lvg_slider .lvg_walls {
+margin: 0;
+background: #333 url(../img/common/ico_dl01.png) no-repeat center 3px;
+color: #fff;
+position: absolute;
+border: none;
+bottom: 5px;
+left: 54px;
+font-size: 0;
+height: 20px;
+width: 20px;
+border-radius: 50%;
+background-size: 60%;
+}
+.lvg_slider p {
+margin: 4px 0 0;
+}
+.lvg_slider .skin-name {
+margin-top: 10px;
+}
+.price {
+padding-left: 28px;
+background: url(../img/common/gold.png) no-repeat 0 0;
+background-size: 20px;
+font-weight: bold;
+}
+.lvg_slider .price {
+padding-left: 22px;
+background: url(../img/common/gold.png) no-repeat 0 1px;
+background-size: 16px;
+font-size: 90%;
+}
+.event {
+font-weight: bold;
+}
+.lvg_slider .event {
+font-size: 90%;
+}
+.price.voucher {
+background-image: url(../img/common/voucher.png);
+}
+.price.inline {
+display: inline-block;
+margin-right: 15px;
+}
+.ui-tabs-nav li .ui-btn {
+font-size: 0;
+height: 42px;
+background-image: url(../img/common/ico01.png);
+background-size: auto 65%;
+background-repeat: no-repeat;
+background-position: center;
+}
+.ui-tabs-nav li + li .ui-btn {
+background-image: url(../img/common/ico03.png);
+}
+.ui-tabs-nav li + li + li .ui-btn {
+background-image: url(../img/common/ico02.png);
+}
+.ui-tabs-nav li + li + li + li .ui-btn {
+background-image: url(../img/common/ico05.png);
+}
+.ui-page-theme-a .ui-btn.lvg_btn_back,
+.ui-page-theme-a .ui-btn.lvg_btn_news {
+font-size: 0;
+width: 37px;
+height: 37px;
+background-repeat: no-repeat;
+background-color: transparent;
+border: none;
+top: 4px;
+}
+.ui-page-theme-a .ui-btn.lvg_btn_news {
+border-radius: 50px;
+right: 8px;
+background-image: url(../img/common/ico04.png);
+background-size: auto 80%;
+background-position: center 3px;
+}
+.ui-page-theme-a .ui-btn.lvg_btn_news:active,
+.ui-page-theme-a .ui-btn.lvg_btn_news:hover {
+background-color: transparent;
+background-image: url(../img/common/ico04_active.png);
+}
+.ui-page-theme-a .ui-btn.lvg_btn_back {
+background-image: url(../img/common/ico06.png);
+width: 74px;
+background-size: auto 80%;
+background-position: center;
+left: -10px;
+}
+.ui-page-theme-a .ui-btn.lvg_btn_back:active,
+.ui-page-theme-a .ui-btn.lvg_btn_back:hover {
+background-image: url(../img/common/ico06_active.png);
+background-color: transparent;
+}
+.lvg_champs_story i {
+  font-style: normal;
+  font-weight: bold;
+}
 @media (max-width: 600px){
 .lvg_holder {
-padding: 45px 15px 60px;
+padding: 45px 15px 70px;
 }
 }
-
-@media (max-width: 540px){
-
-}
-
-@media (max-width: 480px){
-
-}
-
-@media (max-width: 425px){
-
-}
-
-@media (max-width: 375px){
-
-}
-
-@media (max-width: 320px){
+@media (max-width: 360px){
 .lvg_holder {
-padding: 40px 10px 55px;
+padding: 40px 10px 60px;
 }
 .lvg_skills_sp > div a, .lvg_items > div a {
 width: 45px;
 height: 45px;
+}
+.lvg_champs_class > span {
+width: 34px;
+height: 34px;
+background-size: 95%;
 }
 }

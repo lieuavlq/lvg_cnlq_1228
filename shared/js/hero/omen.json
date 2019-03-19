@@ -37,7 +37,7 @@
       "info": "3,2,0"
     },
     {
-      "name": "*Combo khi có đủ 3 kỹ năng",
+      "name": "*Combo khi có đủ 3 chiêu thức",
       "info": "3,2,4,0"
     },
     {
@@ -45,7 +45,7 @@
       "info": "4,3,2,0"
     }
   ],
-  "skill_note": "*Omen là một tay solo khá trội vì thế ưu tiên đi đường Caesar hoặc đường Rồng.<br>*Lựa chọn thời điểm tốt để bật Sát niệm không thì phí.<br>*Nội tại sẽ giúp bạn tăng sức mạnh vì thế hãy luân phiên dùng đòn đánh thường và các kỹ năng.<br>*Với chiêu cuối đóng lồng bá đạo Murad, Zill hay Joker khó mà có thể dùng kỹ năng thoát ra. :P<br>*Với các món đồ đủ mạnh phút thứ 7 hoặc 8 Omen có khả năng xơi tái con Khỉ :D!",
+  "skill_note": "*Omen là một tay solo khá trội vì thế ưu tiên đi đường Caesar hoặc đường Rồng.<br>*Lựa chọn thời điểm tốt để bật Sát niệm không thì phí.<br>*Nội tại sẽ giúp bạn tăng sức mạnh vì thế hãy luân phiên dùng đòn đánh thường và các chiêu thức.<br>*Với chiêu cuối đóng lồng bá đạo Murad, Zill hay Joker khó mà có thể dùng chiêu thức thoát ra. :P<br>*Với các món đồ đủ mạnh phút thứ 7 hoặc 8 Omen có khả năng xơi tái con Khỉ :D!",
   "skill_special": "BocPha,TocBien",
   "main_rune": [{
     "name": "*Ngọc cấp 2",

@@ -11,7 +11,7 @@
   },
   "main_skill": [{
       "name": "Ma thuật đen",
-      "info": "Nội tại: Aleister nguyền rủa một mục tiêu với mỗi kỹ năng. Mỗi lần cộng dồn thứ 3 sẽ kích hoạt một vụ nổ gây 55 ( mỗi khi tăng 1 cấp +5 điểm)(+0.3 Công phép) STC<br>Thời gian duy trì dấu ấn： 5s<br>Khoảng cách giữa các lần kích hoạt dấu ấn: 0s."
+      "info": "Nội tại: Aleister nguyền rủa một mục tiêu với mỗi chiêu thức. Mỗi lần cộng dồn thứ 3 sẽ kích hoạt một vụ nổ gây 55 ( mỗi khi tăng 1 cấp +5 điểm)(+0.3 Công phép) STC<br>Thời gian duy trì dấu ấn： 5s<br>Khoảng cách giữa các lần kích hoạt dấu ấn: 0s."
     },
     {
       "name": "Vách ngăn hắc ám",
@@ -37,7 +37,7 @@
       "info": "2,3,0"
     },
     {
-      "name": "*Combo khi có đủ 3 kỹ năng",
+      "name": "*Combo khi có đủ 3 chiêu thức",
       "info": "2,3,4,0"
     }
   ],

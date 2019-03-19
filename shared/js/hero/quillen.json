@@ -23,7 +23,7 @@
     },
     {
       "name": "ẨN SÁT",
-      "info": "Hồi chiêu: 20/18/16 giây<br>Tiêu hao: 0 nội năng<br>Quillen lăn một vòng, sau đó tàng hình trong 3 giây, tăng 40% tốc chạy và hồi 70/105/140 + (0.15 công vật lý cộng thêm) máu mỗi 0.5 giây. Suốt thời gian này, nếu Quillen tấn công kẻ địch sẽ hiện hình và cường hoá bản thân trong 3 giây kế tiếp.<br>Cường hoá: Quillen nhận 150/175/200 công vật lý, và 30% tốc chạy mỗi khi gây sát thương lên kẻ địch.<br>Nội tại: Phụ hoặc hạ gục tướng địch sẽ làm mới hồi chiêu của toàn bộ kỹ năng."
+      "info": "Hồi chiêu: 20/18/16 giây<br>Tiêu hao: 0 nội năng<br>Quillen lăn một vòng, sau đó tàng hình trong 3 giây, tăng 40% tốc chạy và hồi 70/105/140 + (0.15 công vật lý cộng thêm) máu mỗi 0.5 giây. Suốt thời gian này, nếu Quillen tấn công kẻ địch sẽ hiện hình và cường hoá bản thân trong 3 giây kế tiếp.<br>Cường hoá: Quillen nhận 150/175/200 công vật lý, và 30% tốc chạy mỗi khi gây sát thương lên kẻ địch.<br>Nội tại: Phụ hoặc hạ gục tướng địch sẽ làm mới hồi chiêu của toàn bộ chiêu thức."
     }
   ],
   "skill_up": [{
@@ -41,7 +41,7 @@
       "info": "3,0,2"
     },
     {
-      "name": "*Combo khi có đủ 3 kỹ năng",
+      "name": "*Combo khi có đủ 3 chiêu thức",
       "info": "3,0,2,0,4"
     },
     {

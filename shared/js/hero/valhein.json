@@ -37,7 +37,7 @@
       "info": "3,2,0"
     },
     {
-      "name": "*Combo khi có đủ 3 kỹ năng",
+      "name": "*Combo khi có đủ 3 chiêu thức",
       "info": "3,2,4,0"
     }
   ],
@@ -93,15 +93,15 @@
       "name": "Đồng đội",
       "info": [{
           "hero_id": "alice",
-          "info": "Thích hợp đi cùng Alice"
+          "info": "Alice"
         },
         {
           "hero_id": "toro",
-          "info": "Thích hợp đi cùng Toro"
+          "info": "Toro"
         },
         {
           "hero_id": "gildur",
-          "info": "Thích hợp đi cùng Gildur"
+          "info": "Gildur"
         }
       ]
     },
@@ -109,15 +109,15 @@
       "name": "Khắc chế",
       "info": [{
           "hero_id": "zephys",
-          "info": "Zephys có thể khắc chế Valhein"
+          "info": "Zephys"
         },
         {
           "hero_id": "veera",
-          "info": "Veera có thể khắc chế Valhein"
+          "info": "Veera"
         },
         {
           "hero_id": "thane",
-          "info": "Thane có thể khắc chế Valhein"
+          "info": "Thane"
         }
       ]
     }

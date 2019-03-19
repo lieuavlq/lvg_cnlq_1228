@@ -11,7 +11,7 @@
   },
   "main_skill": [{
       "name": "LỰC LƯỢNG THỨ NGUYÊN",
-      "info": "Hồi chiêu: 0 giây<br>Tiêu hao: 0 năng lượng<br>Nội tại: D'Arcy tăng Lực lượng thứ nguyên trong suốt trạng thái giao tranh thông qua các đòn đánh thường và chiêu trúng đối phương. Nếu thoát khỏi giao tranh, Lực lượng thứ nguyên sẽ nhanh chóng giảm dần.<br>Khi Lực lượng thứ nguyên đạt đến tối đa, D'Arcy được cường hóa trong 8 giây, hồi 20% năng lượng đã tổn thất, đồng thời được tăng 20% tốc chạy và cường hóa kỹ năng thường kế tiếp."
+      "info": "Hồi chiêu: 0 giây<br>Tiêu hao: 0 năng lượng<br>Nội tại: D'Arcy tăng Lực lượng thứ nguyên trong suốt trạng thái giao tranh thông qua các đòn đánh thường và chiêu trúng đối phương. Nếu thoát khỏi giao tranh, Lực lượng thứ nguyên sẽ nhanh chóng giảm dần.<br>Khi Lực lượng thứ nguyên đạt đến tối đa, D'Arcy được cường hóa trong 8 giây, hồi 20% năng lượng đã tổn thất, đồng thời được tăng 20% tốc chạy và cường hóa chiêu thức thường kế tiếp."
     },
     {
       "name": "DU HÀNH THỨ NGUYÊN",
@@ -45,7 +45,7 @@
       "info": "3,2,0,1,3"
     },
     {
-      "name": "*Combo khi có đủ 3 kỹ năng: nếu có Nội tại có thể chọn tiếp Chiêu 1 hoặc 2",
+      "name": "*Combo khi có đủ 3 chiêu thức: nếu có Nội tại có thể chọn tiếp Chiêu 1 hoặc 2",
       "info": "4,3,4,2,0"
     }
   ],
