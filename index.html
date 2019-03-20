@@ -42,18 +42,39 @@
         <!-- Start of first page: #main -->
         <div data-role="page" id="main">
             <div class="lvg_holder">
-                <div class="lvg_link_main">
-                    <a href="#menu-left">Menu</a> - <a href="#news-panel">News</a>
-                </div>
+                <a href="#menu-left" class="lvg_btn_news main">Tin tức</a>
+                <div class="lvg_img_main"><img src="shared/img/common/img_main.png" alt=""></div>
+                <div class="lvg_champ_quote">Thắng bại tại cái máy hay mạng!!</div>
                 <div class="lvg_champs_class"><span data-value="warrior">Đấu sĩ</span><span data-value="tank">Đỡ đòn</span><span data-value="assassin">Sát thủ</span><span data-value="mage">Pháp sư</span><span data-value="marksman">Xạ thủ</span><span data-value="support">Trợ thủ</span></div>
                 <div class="lvg_select_champs">
                     <input id="lvg_filter_champs" data-type="search">
                     <div class="lvg_champs_wrap"></div>
                     <div id="all_champs" data-role="listview" data-filter="true" data-filter-reveal="true" data-input="#lvg_filter_champs" class="lvg_champs"></div>
                 </div>
-                
             </div>
         </div><!-- /main -->
+        <!-- Start of first page: #news -->
+        <div data-role="page" id="news">
+          <div data-role="header" data-fullscreen="true">
+            <a href="#main" class="ui-btn-left lvg_btn_back">Back</a>
+            <h1>Tin Tức<span>Nóng hổi vừa thổi vừa đọc</span></h1>
+            <a href="#menu-left" class="ui-btn-right lvg_btn_news">News</a>
+          </div>
+          <div class="lvg_holder sub">
+            <div class="lvg_news_page">Tin tức</div>
+          </div>
+        </div><!-- /news -->
+        <!-- Start of first page: #shop -->
+        <div data-role="page" id="shop">
+          <div data-role="header" data-fullscreen="true">
+            <a href="#main" class="ui-btn-left lvg_btn_back">Back</a>
+            <h1>Cửa hàng<span>Phụ kiện đồ chơi đủ thứ</span></h1>
+            <a href="#menu-left" class="ui-btn-right lvg_btn_news">shop</a>
+          </div>
+          <div class="lvg_holder sub">
+            <div class="lvg_shop_page">Cửa hàng</div>
+          </div>
+        </div><!-- /shop -->
 
         <!-- Start all items -->
         <div class="popup-wrap items-wrap"></div>
@@ -65,7 +86,10 @@
         <div class="popup-wrap skills-wrap"></div>
 
         <!-- Panel left -->
-        <div id="menu-left" data-role="panel" data-display="overlay" data-theme="b" class="lvg_menu_left pnl_outside"></div>
+        <div id="menu-left" data-role="panel" data-display="overlay" data-theme="b" class="lvg_menu_left pnl_outside">
+          <p><a href="#news">Tin tức</a></p>
+          <p><a href="#shop">Cửa hàng</a></p>
+        </div>
 
         <!-- Loading hero -->
         <script type="text/javascript" src="shared/js/load/all-hero-loading.js"></script>

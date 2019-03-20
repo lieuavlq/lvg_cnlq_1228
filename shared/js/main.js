@@ -13,7 +13,7 @@ $('document').ready(function(){
   var countHero = hero_build.length;
   var main_page = $('#main');
   for(i=countHero-1; i>=0; i--){
-    main_page.find('.lvg_champs').append('<div data-filtertext="' + hero_build[i].id + ' ' + hero_build[i].id_page + ' ' + hero_build[i].name + '" class="ui-screen-hidden ' + hero_build[i].id + ' ' + hero_build[i].position + '"><a href="#hero-page" class="ui-btn hero-tap btn_show_ads" data-page="' + hero_build[i].id + '" style="background-image: url(' + img_path + 'champs/' + hero_build[i].id_page + '/thumb1.jpg);"><span>' + hero_build[i].name + '</span></a></div>');
+    main_page.find('.lvg_champs').append('<div data-filtertext="' + hero_build[i].id + ' ' + hero_build[i].id_page + ' ' + hero_build[i].name + '" class="ui-screen-hidden ' + hero_build[i].id + ' ' + hero_build[i].position + '"><a href="#hero-page" class="hero-tap btn_show_ads" data-page="' + hero_build[i].id + '" style="background-image: url(' + img_path + 'champs/' + hero_build[i].id_page + '/thumb1.jpg);"><span>' + hero_build[i].name + '</span></a></div>');
   }
 
   /* Items loading */
@@ -68,7 +68,7 @@ $('document').ready(function(){
   $(this).on("click",".hero-tap",function(){
     var data_hero = $(this).attr('data-page');
     $('#hero-page').remove();
-    body.append('<div data-role="page" id="hero-page" class="'+$(this).parent().attr('class')+'"><div data-role="header" data-position="fixed" data-fullscreen="true"><a href="#main" class="ui-btn-left lvg_btn_back">Back</a><h1></h1><a href="#news-panel" class="ui-btn-right lvg_btn_news">News</a></div><div class="lvg_holder"><div data-role="tabs" id="hero-tabs" class="tabs-fixed"><div data-role="navbar"><ul><li><a href="#hero-tab01">Guide</a></li><li><a href="#hero-tab02">Tips</a></li><li><a href="#hero-tab03">Info</a></li><li><a href="#hero-tab04">Skins</a></li></ul></div><div id="hero-tab01"></div><div id="hero-tab02"></div><div id="hero-tab03"></div><div id="hero-tab04"></div></div></div></div>');
+    body.append('<div data-role="page" id="hero-page" class="'+$(this).parent().attr('class')+'"><div data-role="header" data-position="fixed" data-fullscreen="true"><a href="#main" class="ui-btn-left lvg_btn_back">Back</a><h1></h1><a href="#menu-left" class="ui-btn-right lvg_btn_news">News</a></div><div class="lvg_holder"><div data-role="tabs" id="hero-tabs" class="tabs-fixed"><div data-role="navbar"><ul><li><a href="#hero-tab01">Guide</a></li><li><a href="#hero-tab02">Tips</a></li><li><a href="#hero-tab03">Info</a></li><li><a href="#hero-tab04">Skins</a></li></ul></div><div id="hero-tab01"></div><div id="hero-tab02"></div><div id="hero-tab03"></div><div id="hero-tab04"></div></div></div></div>');
     $('#hero-page').trigger('create');
     $.ajax({
       cache: false,
@@ -117,9 +117,9 @@ $('document').ready(function(){
     checkShow(hero_info.price_text,function(){
       hero_tab03.append('<p class="event">' + hero_info.price_text + '</p>');
     });
-    hero_tab03.append('<p>' + lang_vn['hero_position'] + ': ' + hero_info.position + '</p><p>' + lang_vn['hero_special'] + ': ' + hero_info.special + '</p>');
+    hero_tab03.append('<p><strong>' + lang_vn['hero_position'] + ':</strong> ' + hero_info.position + '</p><p><strong>' + lang_vn['hero_special'] + ':</strong> ' + hero_info.special + '</p>');
     checkShow(hero_info.lane,function(){
-      hero_tab03.append('<p>' + lang_vn['hero_lane'] + ': ' + hero_info.lane + '</p>');
+      hero_tab03.append('<p><strong>' + lang_vn['hero_lane'] + ':</strong> ' + hero_info.lane + '</p>');
     });
 
     /* Skill detail */
@@ -241,6 +241,7 @@ $('document').ready(function(){
       }
       hero_tab02.append(txtHero);
     }
+    $('.lvg_champs_related .ui-screen-hidden').removeClass('ui-screen-hidden');
 
     /* Story */
     hero_tab03.append(hr_line);
@@ -277,7 +278,7 @@ $('document').ready(function(){
 function set_champs_related_info(str){
   var str1 = '';
   if($.trim(str).length < 12) {
-    str1 = 'Nội dung đang được chỉnh sửa..';
+    str1 = 'Thông tin Đồng đội và Khắc chế đang thêm vào..';
   }else{
     str1 = str;
   }
@@ -285,8 +286,7 @@ function set_champs_related_info(str){
 }
 
 function get_name_hero(id_hero){
-  var hero_name = $('#all_champs.lvg_champs .' + id_hero).html();
-  return hero_name;
+  return $('#all_champs.lvg_champs .' + id_hero).prop('outerHTML');
 }
 
 function getRandom(num) {

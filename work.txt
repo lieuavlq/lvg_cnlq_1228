@@ -1,0 +1,10 @@
+-style news, shop
+-menu left
+-review app
+-update app
+-move image out
+-minimize js css
+-load hero,item,spell -> json -> up server
+-json menu left
+-json free champs
+-create avatar,timeline app

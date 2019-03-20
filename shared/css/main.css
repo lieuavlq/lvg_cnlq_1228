@@ -4,8 +4,8 @@ font-family: 'Roboto';
 src: url('../font/robotoregular.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'Baloo';
-  src: url('../font/balooregular.ttf') format("truetype");
+font-family: 'Baloo';
+src: url('../font/balooregular.ttf') format("truetype");
 }
 body {
 line-height: 1.5;
@@ -71,6 +71,10 @@ padding: 55px 30px 60px;
 box-sizing: border-box;
 overflow: hidden;
 }
+.lvg_holder.sub {
+padding-top: 20px;
+padding-bottom: 40px;
+}
 .ui-corner-all,
 .ui-btn.ui-corner-all {
 border-radius: 0;
@@ -123,6 +127,7 @@ line-height: 20px;
 font-weight: normal;
 width: auto;
 text-decoration: none;
+display: block;
 }
 .lvg_champs > div > a span {
 padding: 6px;
@@ -146,11 +151,11 @@ background: #ffde00;
 position: absolute;
 right: 3px;
 top: 3px;
-animation: change_color01 1s infinite;
+animation: change_color01 .8s infinite;
 }
 .lvg_champs > div.new > a span:after {
 background: #cc263d;
-animation: change_color02 1s infinite;
+animation: change_color02 1.2s infinite;
 }
 @keyframes change_color01 {
 0% {
@@ -437,14 +442,36 @@ background-size: auto 65%;
 background-repeat: no-repeat;
 background-position: center;
 }
+.ui-tabs-nav li .ui-btn:active,
+.ui-tabs-nav li .ui-btn:hover,
+.ui-tabs-nav li .ui-btn.ui-btn-active {
+background-image: url(../img/common/ico01_active.png);
+background-color: #38c;
+border-color: #38c;
+}
 .ui-tabs-nav li + li .ui-btn {
 background-image: url(../img/common/ico03.png);
+}
+.ui-tabs-nav li + li .ui-btn:active,
+.ui-tabs-nav li + li .ui-btn:hover,
+.ui-tabs-nav li + li .ui-btn.ui-btn-active {
+background-image: url(../img/common/ico03_active.png);
 }
 .ui-tabs-nav li + li + li .ui-btn {
 background-image: url(../img/common/ico02.png);
 }
+.ui-tabs-nav li + li + li .ui-btn:active,
+.ui-tabs-nav li + li + li .ui-btn:hover,
+.ui-tabs-nav li + li + li .ui-btn.ui-btn-active {
+background-image: url(../img/common/ico02_active.png);
+}
 .ui-tabs-nav li + li + li + li .ui-btn {
 background-image: url(../img/common/ico05.png);
+}
+.ui-tabs-nav li + li + li + li .ui-btn:active,
+.ui-tabs-nav li + li + li + li .ui-btn:hover,
+.ui-tabs-nav li + li + li + li .ui-btn.ui-btn-active {
+background-image: url(../img/common/ico05_active.png);
 }
 .ui-page-theme-a .ui-btn.lvg_btn_back,
 .ui-page-theme-a .ui-btn.lvg_btn_news {
@@ -456,12 +483,30 @@ background-color: transparent;
 border: none;
 top: 4px;
 }
-.ui-page-theme-a .ui-btn.lvg_btn_news {
+.ui-page-theme-a .ui-btn.lvg_btn_news,
+.lvg_btn_news.main {
 border-radius: 50px;
 right: 8px;
 background-image: url(../img/common/ico04.png);
 background-size: auto 80%;
 background-position: center 3px;
+}
+.lvg_btn_news.main {
+  background-image: url(../img/common/ico04_active.png);
+  font-size: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #cc263d;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.lvg_btn_news.main:active,
+.lvg_btn_news.main:hover {
+  background-image: url(../img/common/ico04.png);
+  background-color: #cc263d;
 }
 .ui-page-theme-a .ui-btn.lvg_btn_news:active,
 .ui-page-theme-a .ui-btn.lvg_btn_news:hover {
@@ -481,12 +526,27 @@ background-image: url(../img/common/ico06_active.png);
 background-color: transparent;
 }
 .lvg_champs_story i {
-  font-style: normal;
-  font-weight: bold;
+font-style: normal;
+font-weight: bold;
+}
+.lvg_img_main {
+margin: -35px auto -5px;
+    max-width: 224px;
+}
+.lvg_champ_quote {
+font-family: 'Baloo', sans-serif;
+text-align: center;
+color: #cc263d;
+font-size: 80%;
+display: none;
 }
 @media (max-width: 600px){
 .lvg_holder {
 padding: 45px 15px 70px;
+}
+.lvg_holder.sub {
+padding-top: 15px;
+padding-bottom: 35px;
 }
 }
 @media (max-width: 360px){
@@ -501,5 +561,13 @@ height: 45px;
 width: 34px;
 height: 34px;
 background-size: 95%;
+}
+.lvg_img_main {
+    margin: -30px auto -3px;
+    max-width: 194px;
+}
+.lvg_btn_news.main {
+  width: 34px;
+  height: 34px;
 }
 }
