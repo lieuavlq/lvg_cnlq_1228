@@ -1,4 +1,4 @@
--style news, shop
+-style news, shop (news 180000 time)
 -menu left
 -review app
 -update app

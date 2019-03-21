@@ -29,18 +29,9 @@ $(function(){
     idWrapreview.removeClass('active');
   });
 
-  /* Add news like */
-  var strNewsID = '';
-  $(this).on('click', '.news-like span', function(){
-    var idNews = $(this).parents('.item').attr('id');
-    if(strNewsID){
-      strNewsID += ',' + idNews;
-    }else{
-      strNewsID += idNews;
-    }
-    storage.setItem('lvgnewsid', strNewsID);
-    $(this).text(lang_vn['liked']).css({'pointer-events': 'none'});
-  });
+  $('[href="#main"],[href="#shop"]').click(function(){
+    body.removeClass('news');
+  })
 
   /* Popup outside */
   $( ".popup-wrap .item" ).enhanceWithin().popup();
