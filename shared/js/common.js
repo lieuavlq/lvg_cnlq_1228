@@ -29,15 +29,10 @@ $(function(){
     idWrapreview.removeClass('active');
   });
 
-  $('[href="#main"],[href="#shop"]').click(function(){
-    body.removeClass('news');
-  })
-
   /* Popup outside */
   $( ".popup-wrap .item" ).enhanceWithin().popup();
 
   /* News panel */
-  // $( "#news-panel" ).panel();
   $( ".pnl_outside" ).panel();
 
   // body.append('<div id="wrap-review"><div class="holder"><div class="inner"><div class="content"><p>' + lang_vn['review_info'] + '</p><p class="al-center">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + marketLink + '" rel="external" class="ui-btn btn-sys btn-review">' + lang_vn['review'] + '</a><a href="#" class="ui-btn btn-close">' + lang_vn['next_time'] + '</a></p></div></div></div></div>');

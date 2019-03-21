@@ -16,7 +16,13 @@ $(function(){
   }
 
   $(this).on('click', '.btn-news-get', function(){
-    body.addClass($(this).attr('data-page'));
+    $(this).parent().addClass('active');
+    $('.wrap-btn-news02').removeClass('active');
+    setTimeout(function(){
+      $('.wrap-btn-news01').removeClass('active');
+      $('.wrap-btn-news02').addClass('active');
+    },180000);
+
     $('#news .lvg_holder.sub').append(img_loading);
     news_content_box.children().remove();
     getNewsAjax(1,function(it){

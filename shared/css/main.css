@@ -696,7 +696,7 @@ padding-top: 15px;
 text-align: center;
 }
 .img-load img {
-max-width: 24px;
+max-width: 40px;
 }
 .wrap_btn_old {
 text-align: center;
@@ -705,8 +705,9 @@ text-align: center;
 padding: 6px 12px;
 border: 1px solid #cc263d;
 }
-body.news [href="#news"] {
-display: none !important;
+.wrap-btn-news01.active,
+.wrap-btn-news02.active {
+  display: none;
 }
 @media (max-width: 1024px) {
 .lvg-news-content .item .img,

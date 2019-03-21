@@ -66,7 +66,6 @@ $('document').ready(function(){
 
   /* Add hero */
   $(this).on("click",".hero-tap",function(){
-    body.removeClass('news');
     var data_hero = $(this).attr('data-page');
     $('#hero-page').remove();
     body.append('<div data-role="page" id="hero-page" class="'+$(this).parent().attr('class')+'"><div data-role="header" data-position="fixed" data-fullscreen="true"><a href="#main" class="ui-btn-left lvg_btn_back">Back</a><h1></h1><a href="#menu-left" class="ui-btn-right lvg_btn_news">News</a></div><div class="lvg_holder"><div data-role="tabs" id="hero-tabs" class="tabs-fixed"><div data-role="navbar"><ul><li><a href="#hero-tab01">Guide</a></li><li><a href="#hero-tab02">Tips</a></li><li><a href="#hero-tab03">Info</a></li><li><a href="#hero-tab04">Skins</a></li></ul></div><div id="hero-tab01"></div><div id="hero-tab02"></div><div id="hero-tab03"></div><div id="hero-tab04"></div></div></div></div>');
