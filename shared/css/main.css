@@ -12,6 +12,11 @@ line-height: 1.5;
 font-family: 'Roboto', sans-serif;
 background-color: #fff;
 }
+ul ,ol {
+padding: 0;
+margin: 0;
+list-style: none;
+}
 .ui-header .ui-title {
 font-family: 'Baloo', sans-serif;
 text-transform: uppercase;
@@ -701,13 +706,31 @@ max-width: 40px;
 .wrap_btn_old {
 text-align: center;
 }
-.btn_news_old {
+.wrap_btn_old a {
 padding: 6px 12px;
 border: 1px solid #cc263d;
 }
 .wrap-btn-news01.active,
 .wrap-btn-news02.active {
   display: none;
+}
+.lvg_shop_list {
+overflow: hidden;
+margin: 0 -30px;
+}
+.lvg_shop_list > div {
+float: left;
+width: 50%;
+padding: 20px 30px;
+box-sizing: border-box;
+}
+.lvg_shop_list .pro-price {
+font-size: 85%;
+color: #000;
+}
+.lvg_shop_list .pro-wrap {
+text-align: center;
+margin: 5px 0;
 }
 @media (max-width: 1024px) {
 .lvg-news-content .item .img,
@@ -726,6 +749,12 @@ border-width: 1px 0;
 margin: 0 -15px;
 }
 #wrap-video-popup, .lvg-news-content .lvg-news-popup {
+padding: 15px;
+}
+.lvg_shop_list {
+margin: 0 -15px;
+}
+.lvg_shop_list > div {
 padding: 15px;
 }
 }

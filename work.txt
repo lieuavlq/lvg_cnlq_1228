@@ -1,4 +1,4 @@
--style news, shop (news done)
+-style news, shop (news done, shop style input, add more,)
 -menu left
 -review app
 -update app
