@@ -7,7 +7,6 @@ $(function(){
   function getNewsAjax(pageNum,handleData){
       $.ajax({
           url: "http://lvgames.net/lqm/lqmnews/page/" + pageNum + "/",
-          type: 'GET',
           success: function (result) {
               data = $.parseJSON(result);
               handleData(data);

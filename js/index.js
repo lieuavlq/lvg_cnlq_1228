@@ -117,10 +117,7 @@ var app = {
 
             var appVersion = $('body').attr('data-appversion');
             $.ajax({
-                cache: false,
-                type: "GET",
                 url: "http://lvgames.net/lvgversion/lvg_camnanglienquan.json",
-                async: false,
                 success : function(val)
                 {
                     if(val.version_code > appVersion){
@@ -157,7 +154,6 @@ var app = {
             function getNewsAjax(pageNum,handleData){
                 $.ajax({
                     url: "http://lvgames.net/lqm/lqmnews/page/" + pageNum + "/",
-                    type: 'GET',
                     success: function (result) {
                         data = $.parseJSON(result);
                         handleData(data);

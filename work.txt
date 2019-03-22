@@ -1,10 +1,10 @@
--style news, shop (news done, shop style input, add more,)
--menu left
+-style news, shop _oke
+-menu left _oke
+-load hero,item,spell -> json -> up server _oke
 -review app
 -update app
 -move image out
 -minimize js css
--load hero,item,spell -> json -> up server
 -json menu left
 -json free champs
 -create avatar,timeline app
