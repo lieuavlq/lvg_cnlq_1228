@@ -29,12 +29,13 @@
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
         <meta charset="UTF-8">
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com http://lvgames.net https://www.googleapis.com https://googleads.g.doubleclick.net 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' https://lienquan.garena.vn http://lvgames.net https://www.googleapis.com data: content:;">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com http://lvgames.net https://www.googleapis.com https://googleads.g.doubleclick.net 'unsafe-inline' 'unsafe-eval'; style-src 'self' http://lvgames.net 'unsafe-inline'; media-src *; img-src 'self' https://lienquan.garena.vn http://lvgames.net https://www.googleapis.com data: content:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" href="shared/css/jquery.mobile-1.4.5.min.css">
         <link rel="stylesheet" href="shared/css/main.css">
+        <link rel="stylesheet" href="http://lvgames.net/cnlq_app/common/cnlq.css">
         <title>Cẩm Nang Liên Quân</title>
     </head>
     <body id="deviceready" data-appversion="10001">
@@ -44,7 +45,7 @@
         <div data-role="page" id="main">
             <div class="lvg_holder">
                 <a href="#menu-left" class="lvg_btn_news main">Tin tức</a>
-                <div class="lvg_img_main"><img src="shared/img/common/img_main.png" alt=""></div>
+                <div class="lvg_img_main"><img src="shared/img/img_main.png" alt=""></div>
                 <div class="lvg_champ_quote">Thắng bại tại cái máy hay mạng!!</div>
                 <div class="lvg_champs_class"><span data-value="warrior">Đấu sĩ</span><span data-value="tank">Đỡ đòn</span><span data-value="assassin">Sát thủ</span><span data-value="mage">Pháp sư</span><span data-value="marksman">Xạ thủ</span><span data-value="support">Trợ thủ</span></div>
                 <div class="lvg_select_champs">
@@ -94,10 +95,10 @@
         <script type="text/javascript" src="shared/js/jquery.mobile-1.4.5.min.js"></script>
         <script type="text/javascript" src="shared/js/load_first.js"></script>
         <script type="text/javascript" src="shared/js/lang-vn.js"></script>
-        <!-- <script type="text/javascript" src="shared/js/build.js"></script> -->
         <script type="text/javascript" src="shared/js/main.js"></script>
-        <script type="text/javascript" src="shared/js/common.js"></script>
         <script type="text/javascript" src="shared/js/news.js"></script>
+        <script type="text/javascript" src="shared/js/common.js"></script>
+        <script type="text/javascript" src="http://lvgames.net/cnlq_app/common/cnlq.js"></script>
         <!-- <script type="text/javascript" src="js/index.js"></script> -->
     </body>
 </html>

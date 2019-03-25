@@ -202,17 +202,17 @@ background: no-repeat 0 1px;
 background-size: 24px;
 }
 .lvg_champs_class > span[data-value="warrior"],
-#hero-page.warrior h3 { background-image: url(../img/common/ico_war.png); }
+#hero-page.warrior h3 { background-image: url(../img/ico_war.png); }
 .lvg_champs_class > span[data-value="tank"],
-#hero-page.tank h3 { background-image: url(../img/common/ico_tank.png); }
+#hero-page.tank h3 { background-image: url(../img/ico_tank.png); }
 .lvg_champs_class > span[data-value="assassin"],
-#hero-page.assassin h3 { background-image: url(../img/common/ico_assa.png); }
+#hero-page.assassin h3 { background-image: url(../img/ico_assa.png); }
 .lvg_champs_class > span[data-value="mage"],
-#hero-page.mage h3 { background-image: url(../img/common/ico_mage.png); }
+#hero-page.mage h3 { background-image: url(../img/ico_mage.png); }
 .lvg_champs_class > span[data-value="marksman"],
-#hero-page.marksman h3 { background-image: url(../img/common/ico_mark.png); }
+#hero-page.marksman h3 { background-image: url(../img/ico_mark.png); }
 .lvg_champs_class > span[data-value="support"],
-#hero-page.support h3 { background-image: url(../img/common/ico_sp.png); }
+#hero-page.support h3 { background-image: url(../img/ico_sp.png); }
 .lvg_champs_wrap .ttl {
 text-align: center;
 }
@@ -223,7 +223,7 @@ border: 2px solid #cc263d;
 position: fixed;
 width: 110%;
 height: 110%;
-background: url(../img/common/main_img.jpg) no-repeat center;
+background: url(../img/main_img.jpg) no-repeat center;
 background-size: cover;
 opacity: 0.1;
 -webkit-filter: blur(1px);
@@ -396,7 +396,7 @@ overflow: hidden;
 }
 .lvg_slider .lvg_walls {
 margin: 0;
-background: #333 url(../img/common/ico_dl01.png) no-repeat center 3px;
+background: #333 url(../img/ico_dl01.png) no-repeat center 3px;
 color: #fff;
 position: absolute;
 border: none;
@@ -416,13 +416,13 @@ margin-top: 10px;
 }
 .price {
 padding-left: 28px;
-background: url(../img/common/gold.png) no-repeat 0 0;
+background: url(../img/gold.png) no-repeat 0 0;
 background-size: 20px;
 font-weight: bold;
 }
 .lvg_slider .price {
 padding-left: 22px;
-background: url(../img/common/gold.png) no-repeat 0 1px;
+background: url(../img/gold.png) no-repeat 0 1px;
 background-size: 16px;
 font-size: 90%;
 }
@@ -433,7 +433,7 @@ font-weight: bold;
 font-size: 90%;
 }
 .price.voucher {
-background-image: url(../img/common/voucher.png);
+background-image: url(../img/voucher.png);
 }
 .price.inline {
 display: inline-block;
@@ -442,7 +442,7 @@ margin-right: 15px;
 .ui-tabs-nav li .ui-btn {
 font-size: 0;
 height: 42px;
-background-image: url(../img/common/ico01.png);
+background-image: url(../img/ico01.png);
 background-size: auto 65%;
 background-repeat: no-repeat;
 background-position: center;
@@ -450,33 +450,33 @@ background-position: center;
 .ui-tabs-nav li .ui-btn:active,
 .ui-tabs-nav li .ui-btn:hover,
 .ui-tabs-nav li .ui-btn.ui-btn-active {
-background-image: url(../img/common/ico01_active.png);
+background-image: url(../img/ico01_active.png);
 background-color: #38c;
 border-color: #38c;
 }
 .ui-tabs-nav li + li .ui-btn {
-background-image: url(../img/common/ico03.png);
+background-image: url(../img/ico03.png);
 }
 .ui-tabs-nav li + li .ui-btn:active,
 .ui-tabs-nav li + li .ui-btn:hover,
 .ui-tabs-nav li + li .ui-btn.ui-btn-active {
-background-image: url(../img/common/ico03_active.png);
+background-image: url(../img/ico03_active.png);
 }
 .ui-tabs-nav li + li + li .ui-btn {
-background-image: url(../img/common/ico02.png);
+background-image: url(../img/ico02.png);
 }
 .ui-tabs-nav li + li + li .ui-btn:active,
 .ui-tabs-nav li + li + li .ui-btn:hover,
 .ui-tabs-nav li + li + li .ui-btn.ui-btn-active {
-background-image: url(../img/common/ico02_active.png);
+background-image: url(../img/ico02_active.png);
 }
 .ui-tabs-nav li + li + li + li .ui-btn {
-background-image: url(../img/common/ico05.png);
+background-image: url(../img/ico05.png);
 }
 .ui-tabs-nav li + li + li + li .ui-btn:active,
 .ui-tabs-nav li + li + li + li .ui-btn:hover,
 .ui-tabs-nav li + li + li + li .ui-btn.ui-btn-active {
-background-image: url(../img/common/ico05_active.png);
+background-image: url(../img/ico05_active.png);
 }
 .ui-page-theme-a .ui-btn.lvg_btn_back,
 .ui-page-theme-a .ui-btn.lvg_btn_news {
@@ -492,12 +492,12 @@ top: 4px;
 .lvg_btn_news.main {
 border-radius: 50px;
 right: 8px;
-background-image: url(../img/common/ico04.png);
+background-image: url(../img/ico04.png);
 background-size: auto 80%;
 background-position: center 3px;
 }
 .lvg_btn_news.main {
-background-image: url(../img/common/ico04_active.png);
+background-image: url(../img/ico04_active.png);
 font-size: 0;
 width: 40px;
 height: 40px;
@@ -510,16 +510,16 @@ right: 10px;
 }
 .lvg_btn_news.main:active,
 .lvg_btn_news.main:hover {
-background-image: url(../img/common/ico04.png);
+background-image: url(../img/ico04.png);
 background-color: #cc263d;
 }
 .ui-page-theme-a .ui-btn.lvg_btn_news:active,
 .ui-page-theme-a .ui-btn.lvg_btn_news:hover {
 background-color: transparent;
-background-image: url(../img/common/ico04_active.png);
+background-image: url(../img/ico04_active.png);
 }
 .ui-page-theme-a .ui-btn.lvg_btn_back {
-background-image: url(../img/common/ico06.png);
+background-image: url(../img/ico06.png);
 width: 74px;
 background-size: auto 80%;
 background-position: center;
@@ -527,7 +527,7 @@ left: -10px;
 }
 .ui-page-theme-a .ui-btn.lvg_btn_back:active,
 .ui-page-theme-a .ui-btn.lvg_btn_back:hover {
-background-image: url(../img/common/ico06_active.png);
+background-image: url(../img/ico06_active.png);
 background-color: transparent;
 }
 .lvg_champs_story i {

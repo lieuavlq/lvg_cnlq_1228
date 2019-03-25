@@ -5,8 +5,8 @@
 -review app _oke
 -update app _oke
 -json free champs _oke
--move image out
+-move image out _oke
+-url css,js online _oke
 -create avatar,timeline app
 -minimize js css (ifbackup data)
 -image load if no connected
--url css,js online
