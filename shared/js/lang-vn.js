@@ -1,5 +1,5 @@
 var lang_vn_file = {
-	"app_name": "Cẩm Nang Liên Quân",
+	"app_name": "Sổ Tay Liên Quân LiVu",
   "btn_back": "Trở lại",
   "btn_info": "Thông Tin",
   "btn_skin": "Trang Phục",
