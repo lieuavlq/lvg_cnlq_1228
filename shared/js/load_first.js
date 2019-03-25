@@ -17,32 +17,27 @@ $(function(){
   $.ajax({
       url: "http://lvgames.net/cnlq_app/load_first/champs.json",
       success: function (output) {
-        var hero_build = output;
+        var hero_build = output.all;
         var countHero = hero_build.length;
-        $('body').attr('data-champs', countHero);
+        $('#lvg_filter_champs').attr('placeholder', 'Có '+countHero+' tướng bạn tìm ai?');
         var lvg_champs_all = $('#all_champs.lvg_champs');
         for(i=countHero-1; i>=0; i--){
           lvg_champs_all.append('<div data-filtertext="' + hero_build[i].id + ' ' + hero_build[i].id_page + ' ' + hero_build[i].name + '" class="ui-screen-hidden ' + hero_build[i].id + ' ' + hero_build[i].position + '"><a href="#hero-page" class="hero-tap btn_show_ads" data-page="' + hero_build[i].id + '" style="background-image: url(' + img_path + 'champs/' + hero_build[i].id_page + '/thumb1.jpg);"><span>' + hero_build[i].name + '</span></a></div>');
         }
-      }
-  });
-
-  //loading free and new
-  $.ajax({
-      url: "http://lvgames.net/cnlq_app/common/free_and_new.json",
-      success: function (output) {
+        var week_hero = output.week;
         $('.lvg_champs_wrap').append('<div class="lvg_champs"></div>');
-        $('.lvg_champs_wrap').find('.lvg_champs').append($('#all_champs.lvg_champs > div[class*="'+output.new+'"]').prop('outerHTML'));
-        $('.lvg_champs > div[class*="'+output.new+'"]').addClass('new');
-        var champs_free_spl = output.free.split(',');
-        for(i=0;i<champs_free_spl.length;i++){
-          $('.lvg_champs_wrap').find('.lvg_champs').append($('#all_champs.lvg_champs > div[class*="'+champs_free_spl[i]+'"]').prop('outerHTML'));
-          $('.lvg_champs > div[class*="'+champs_free_spl[i]+'"]').addClass('free');
+        $('.lvg_champs_wrap .lvg_champs').append($('#all_champs.lvg_champs > div[class*="'+week_hero.new+'"]').prop('outerHTML'));
+        $('.lvg_champs > div[class*="'+week_hero.new+'"]').addClass('new');
+
+        var free_hero = week_hero.free.split(',');
+        for(i=0;i<free_hero.length;i++){
+          $('.lvg_champs_wrap .lvg_champs').append($('#all_champs.lvg_champs > div[class*="'+free_hero[i]+'"]').prop('outerHTML'));
+          $('.lvg_champs > div[class*="'+free_hero[i]+'"]').addClass('free');
         }
+
         $('.lvg_champs_wrap .lvg_champs > div').removeClass('ui-screen-hidden');
       }
   });
-
 
   var load_time = true;
   $(this).on("click",".hero-tap",function(){
@@ -59,7 +54,7 @@ $(function(){
           }
       });
 
-      //loading items
+      //loading spells
       $.ajax({
           url: "http://lvgames.net/cnlq_app/load_first/spells.json",
           success: function (output) {

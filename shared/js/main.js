@@ -7,9 +7,7 @@ $('document').ready(function(){
   var hr_line = '<hr class="hr">';
 
   // Finding champs
-  var lvg_select_champs = $('.lvg_select_champs');
-  lvg_select_champs.find('input').attr('placeholder', body.attr('data-champs') + ' ' + lang_vn['find_hero']);
-  lvg_select_champs.find('input').focus(function(){
+  $('#lvg_filter_champs').focus(function(){
     $(this).val('');
     $('.lvg_champs_class > span').removeClass('active');
     // $('.lvg_select_champs > .lvg_champs > div').addClass('ui-screen-hidden');

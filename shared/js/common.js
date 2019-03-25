@@ -7,7 +7,7 @@ $(function(){
   var fbContact = 'https://www.facebook.com/LVGamesDotNet';
   var fbName = '@LVGamesDotNet';
 
-  // body.append('<div id="wrap-review"><div class="holder"><div class="inner"><div class="content"><p>' + lang_vn['review_info'] + '</p><p class="al-center">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + marketLink + '" rel="external" class="ui-btn btn-sys btn-review">' + lang_vn['review'] + '</a><a href="#" class="ui-btn btn-close">' + lang_vn['next_time'] + '</a></p></div></div></div></div>');
+  body.append('<div id="wrap-review"><div class="holder"><div class="inner"><div class="content"><p>' + lang_vn['review_info'] + '</p><p class="al-center">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + marketLink + '" rel="external" class="ui-btn btn-sys btn-review">' + lang_vn['review'] + '</a><a href="#" class="ui-btn btn-close">' + lang_vn['next_time'] + '</a></p></div></div></div></div>');
 
   // body.append('<div id="wrap-updated"><div class="holder"><div class="inner"><div class="content"><p><strong>' + lang_vn['update_title'] + '</strong></p><br><p>' + lang_vn['update_info'] + '</p><p><a href="' + marketLink + '" rel="external" class="ui-btn btn-sys btn-review">' + lang_vn['update_btn'] + '</a></p></div></div></div></div>');
 

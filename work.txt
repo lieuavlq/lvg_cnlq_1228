@@ -1,10 +1,10 @@
 -style news, shop _oke
 -menu left _oke
 -load hero,item,spell -> json -> up server _oke
+-json menu left _oke
 -review app
 -update app
 -move image out
 -minimize js css
--json menu left
 -json free champs
 -create avatar,timeline app
