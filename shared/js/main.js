@@ -18,6 +18,12 @@ $('document').ready(function(){
     $('.lvg_champs_wrap').hide();
   });
 
+  $(this).on('click', '.lvg_select_champs .ui-input-clear', function(){
+    setTimeout(function(){
+      $('.lvg_champs_wrap').show();
+    },400);
+  });
+
   // Class champs
   var lvg_champs_class = $('.lvg_champs_class > span');
   lvg_champs_class.click(function(){

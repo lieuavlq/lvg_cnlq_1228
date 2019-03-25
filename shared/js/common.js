@@ -1,33 +1,26 @@
 $(function(){
-	var body = $('body'),i,j;
+	var body = $('body');
   var storage = window.localStorage;
-  var marketLink = storage.getItem('store_url_storage');
   var lang_vn = lang_vn_file;
-  var mailContact = 'lvgames.net@gmail.com';
-  var fbContact = 'https://www.facebook.com/LVGamesDotNet';
-  var fbName = '@LVGamesDotNet';
+  var app_url = storage.getItem('app_url_store');
 
-  body.append('<div id="wrap-review"><div class="holder"><div class="inner"><div class="content"><p>' + lang_vn['review_info'] + '</p><p class="al-center">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + marketLink + '" rel="external" class="ui-btn btn-sys btn-review">' + lang_vn['review'] + '</a><a href="#" class="ui-btn btn-close">' + lang_vn['next_time'] + '</a></p></div></div></div></div>');
+  body.append('<div id="wrap-review"><div class="holder"><div class="inner"><div class="content"><p>' + lang_vn['review_info'] + '</p><p class="ttl">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + app_url + '" rel="external" class="ui-btn btn-review">' + lang_vn['review'] + '</a><a href="#" class="ui-btn btn-close">' + lang_vn['next_time'] + '</a></p></div></div></div></div>');
 
-  // body.append('<div id="wrap-updated"><div class="holder"><div class="inner"><div class="content"><p><strong>' + lang_vn['update_title'] + '</strong></p><br><p>' + lang_vn['update_info'] + '</p><p><a href="' + marketLink + '" rel="external" class="ui-btn btn-sys btn-review">' + lang_vn['update_btn'] + '</a></p></div></div></div></div>');
+  body.append('<div id="wrap-updated"><div class="holder"><div class="inner"><div class="content"><p class="ttl"><strong>' + lang_vn['update_title'] + '</strong></p><p><a href="' + app_url + '" rel="external" class="ui-btn btn-close">' + lang_vn['update_btn'] + '</a></p></div></div></div></div>');
 
-  /* Open link outsite */
-  var idWrapreview = $('#wrap-review');
-  var btnReview = $('#wrap-review .btn-review');
-  var btnReviewclose = $('#wrap-review .btn-close');
-
-  if (storage.getItem("infiniteScrollEnabled3") === null) {
+  /* Review app */
+  var wrap_review = $('#wrap-review');
+  if (storage.getItem("app_review_store") === null) {
     setTimeout(function(){
-      idWrapreview.addClass('active');
-    }, 200000);
+      wrap_review.addClass('active');
+    }, 180000);
   }
-
-  btnReview.click(function() {
-		idWrapreview.removeClass('active');
-		storage.setItem("infiniteScrollEnabled3", "value");
-	  });
-  btnReviewclose.click(function() {
-    idWrapreview.removeClass('active');
+  wrap_review.find('.btn-review').click(function() {
+		wrap_review.removeClass('active');
+		storage.setItem("app_review_store", 1);
+  });
+  wrap_review.find('.btn-close').click(function() {
+    wrap_review.removeClass('active');
   });
 
   /* Shop page */

@@ -2,9 +2,11 @@
 -menu left _oke
 -load hero,item,spell -> json -> up server _oke
 -json menu left _oke
--review app
--update app
+-review app _oke
+-update app _oke
+-json free champs _oke
 -move image out
--minimize js css
--json free champs
 -create avatar,timeline app
+-minimize js css (ifbackup data)
+-image load if no connected
+-url css,js online
