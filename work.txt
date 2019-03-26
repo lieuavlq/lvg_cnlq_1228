@@ -9,4 +9,4 @@
 -url css,js online _oke
 -minimize js css (ifbackup data) _oke
 -create avatar,timeline app
--image load if no connected
+-image load if no connected (show popup and button, tap button out app)
