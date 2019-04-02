@@ -1,7 +1,7 @@
 $('document').ready(function(){
   var body = $('body'),i,j;
   var img_path = 'http://lvgames.net/cnlq_app/images/';
-  var popup_close = '<a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>';
+  var popup_close = '<a href="#" data-rel="back" class="lvg_btn btn_popup_close">x</a>';
   var wallPath = 'http://lvgames.net/lienquan/wall/?champ=';
   var lang_vn = lang_vn_file;
   var hr_line = '<hr class="hr">';
@@ -75,6 +75,8 @@ $('document').ready(function(){
     var hero_tab02 = hero_page.find('#hero-tab02');
     var hero_tab03 = hero_page.find('#hero-tab03');
     var hero_tab04 = hero_page.find('#hero-tab04');
+
+    $('#hero-tab01').show();
 
     hero_page.find('h1').html(hero_name+'<span>'+hero.main_info.position+'</span>');
 

@@ -1,6 +1,6 @@
 $(function(){
   var img_path = 'http://lvgames.net/cnlq_app/images/';
-  var popup_close = '<a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>';
+  var popup_close = '<a href="#" data-rel="back" class="lvg_btn btn_popup_close">x</a>';
   var storage = window.localStorage;
 
   //loading champs

@@ -7,17 +7,36 @@ $(function(){
   body.css({'min-height': $(window).height()});
 
   //Review app
-  body.append('<div id="wrap-review"><div class="holder"><div class="inner"><div class="content"><p>' + lang_vn['review_info'] + '</p><p class="ttl">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + app_url + '" rel="external" class="ui-btn btn-review">' + lang_vn['review'] + '</a><a href="#" class="ui-btn btn-close">' + lang_vn['next_time'] + '</a></p></div></div></div></div>');
+  body.append('<div id="wrap-review"><div class="holder"><div class="inner"><div class="content"><p>' + lang_vn['review_info'] + '</p><p class="ttl">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + app_url + '" rel="external" class="lvg_btn btn-review">' + lang_vn['review'] + '</a><a href="#" class="lvg_btn btn-close">' + lang_vn['next_time'] + '</a></p></div></div></div></div>');
 
   //Update popup
-  body.append('<div id="wrap-updated"><div class="holder"><div class="inner"><div class="content"><p class="ttl"><strong>' + lang_vn['update_title'] + '</strong></p><p><a href="' + app_url + '" rel="external" class="ui-btn btn-close">' + lang_vn['update_btn'] + '</a></p></div></div></div></div>');
+  body.append('<div id="wrap-updated"><div class="holder"><div class="inner"><div class="content"><p class="ttl"><strong>' + lang_vn['update_title'] + '</strong></p><p><a href="' + app_url + '" rel="external" class="lvg_btn btn-close">' + lang_vn['update_btn'] + '</a></p></div></div></div></div>');
+
+  //Scroll menu
+  $(window).bind('mousewheel', function(event) {
+    if (event.originalEvent.wheelDelta >= 0) {
+      $('[data-role="navbar"]').removeClass('active');
+    }
+    else {
+      $('[data-role="navbar"]').addClass('active');
+    }
+  });
+
+  //Navbar click
+  $(this).on('click','[data-role="navbar"] a', function(){
+    var a_href = $(this).attr('href');
+    $('[id*="hero-tab0"]').hide();
+    $(a_href).stop().fadeIn(800);
+    $('html, body').animate({ scrollTop: $('#hero-page').offset().top }, 1);
+    // $('[data-role="navbar"]').removeClass('active');
+  });
 
   //Open page
   $('#main').addClass('active');
   $(this).on('click','a[class*="ui-btn"]',function(e){
     e.preventDefault();
     $('[data-role="page"]').removeClass('active');
-    $('.lvg_change_page').show().stop().fadeOut(700);
+    $('.lvg_change_page').show().stop().fadeOut(600);
     var data_page = $(this).attr('href');
     $(data_page).addClass('active');
   });
