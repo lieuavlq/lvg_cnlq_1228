@@ -57,27 +57,27 @@ $(function(){
   var load_time = true;
   $(this).on("click",".hero-tap",function(){
     if(load_time == true) {
-      $.ajax({
-          url: "http://lvgames.net/cnlq_app/load_first/items.json",
-          success: function (output) {
-            var items = output;
-            for(var i=0; i<items.length; i++){
-              $('.items-wrap').append('<div class="item ui-content" data-theme="a" id="' + items[i].id + '">' + popup_close + '<strong>' + items[i].name + '</strong><p>' + items[i].info + '</p></div>');
-            }
-            $(".items-wrap .item").enhanceWithin().popup();
-          }
-      });
+      // $.ajax({
+      //     url: "http://lvgames.net/cnlq_app/load_first/items.json",
+      //     success: function (output) {
+      //       var items = output;
+      //       for(var i=0; i<items.length; i++){
+      //         $('.items-wrap').append('<div class="item ui-content" data-theme="a" id="' + items[i].id + '">' + popup_close + '<strong>' + items[i].name + '</strong><p>' + items[i].info + '</p></div>');
+      //       }
+      //       $(".items-wrap .item").enhanceWithin().popup();
+      //     }
+      // });
 
-      $.ajax({
-          url: "http://lvgames.net/cnlq_app/load_first/spells.json",
-          success: function (output) {
-            var spells = output;
-            for(i=0; i<spells.length; i++){
-              $('.spells-wrap').append('<div class="item ui-content" data-theme="a" id="' + spells[i].id + '">' + popup_close + '<strong>' + spells[i].name + '</strong><p>' + spells[i].info + '</p></div>');
-            }
-            $(".spells-wrap .item").enhanceWithin().popup();
-          }
-      });
+      // $.ajax({
+      //     url: "http://lvgames.net/cnlq_app/load_first/spells.json",
+      //     success: function (output) {
+      //       var spells = output;
+      //       for(i=0; i<spells.length; i++){
+      //         $('.spells-wrap').append('<div class="item ui-content" data-theme="a" id="' + spells[i].id + '">' + popup_close + '<strong>' + spells[i].name + '</strong><p>' + spells[i].info + '</p></div>');
+      //       }
+      //       $(".spells-wrap .item").enhanceWithin().popup();
+      //     }
+      // });
     }
     load_time = false;
   });

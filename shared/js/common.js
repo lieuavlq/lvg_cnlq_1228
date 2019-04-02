@@ -13,12 +13,13 @@ $(function(){
   body.append('<div id="wrap-updated"><div class="holder"><div class="inner"><div class="content"><p class="ttl"><strong>' + lang_vn['update_title'] + '</strong></p><p><a href="' + app_url + '" rel="external" class="ui-btn btn-close">' + lang_vn['update_btn'] + '</a></p></div></div></div></div>');
 
   //Open page
-  setTimeout(function(){$('#main').addClass('active');},1000);
+  $('#main').addClass('active');
   $(this).on('click','a[class*="ui-btn"]',function(e){
     e.preventDefault();
     $('[data-role="page"]').removeClass('active');
+    $('.lvg_change_page').show().stop().fadeOut(700);
     var data_page = $(this).attr('href');
-    setTimeout(function(){$(data_page).addClass('active');},1000);
+    $(data_page).addClass('active');
   });
 
   /* Review app */

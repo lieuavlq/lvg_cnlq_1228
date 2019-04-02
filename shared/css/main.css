@@ -48,22 +48,19 @@ text-decoration: none;
 [data-role="page"].active {
   display: block;
 }
-[data-role="page"]:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.lvg_change_page {
+  position: fixed;
+  top: -5%;
+  left: -5%;
+  width: 110%;
+  height: 110%;
   background: #fff url(../img/main_img.jpg) no-repeat center;
   background-size: cover;
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
+  -webkit-filter: blur(15px);
+  filter: blur(15px);
+  z-index: 9999;
+  display: none;
 }
-/*[data-role="page"].active:after {
-  opacity: 0;
-  visibility: hidden;
-}*/
 .lvg_holder {
 max-width: 640px;
 margin: auto;
@@ -98,6 +95,7 @@ left: -1px;
 right: -1px;
 width: 100%;
 z-index: 1;
+display: none;
 }
 .ui-tabs {
 padding: 0;

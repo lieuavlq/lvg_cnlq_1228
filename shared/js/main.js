@@ -34,18 +34,20 @@ $('document').ready(function(){
   });
 
   /* Add hero */
-  $(this).on("click",".hero-tap",function(){
+  $(this).on("click",".hero-tap",function(e){
+    e.preventDefault();
     var data_hero = $(this).attr('data-page');
     $('#hero-page').remove();
     body.append('<div data-role="page" id="hero-page" class="'+$(this).parent().attr('class')+'"><div data-role="header" data-position="fixed" data-fullscreen="true"><a href="#main" class="ui-btn-left lvg_btn_back">Back</a><h1></h1><a href="#menu-left" class="ui-btn-right lvg_btn_news">News</a></div><div class="lvg_holder"><div data-role="tabs" id="hero-tabs" class="tabs-fixed"><div data-role="navbar"><ul><li><a href="#hero-tab01">Guide</a></li><li><a href="#hero-tab02">Tips</a></li><li><a href="#hero-tab03">Info</a></li><li><a href="#hero-tab04">Skins</a></li></ul></div><div id="hero-tab01"></div><div id="hero-tab02"></div><div id="hero-tab03"></div><div id="hero-tab04"></div></div></div></div>');
     $('#hero-page').trigger('create');
+    set_transi_page('#hero-page');
     $.ajax({
       url: 'http://lvgames.net/cnlq_app/champs/'+data_hero+'.json',
       success : function(val) {
         add_hero_page(val);
       }
     });
-    $.mobile.changePage('#hero-page', { allowSamePageTransition: true, transition: "none" });
+    // $.mobile.changePage('#hero-page', { allowSamePageTransition: true, transition: "none" });
   });
 
   $(this).on("click","a[href*='#hero-tab0']",function(){
@@ -55,6 +57,12 @@ $('document').ready(function(){
   $(this).on("click","a[href='#main']",function(){
     $('.lvg_main_img').attr('style', '');
   });
+
+  function set_transi_page(data_page){
+    $('[data-role="page"]').removeClass('active');
+    $('.lvg_change_page').show().stop().fadeOut(700);
+    $(data_page).addClass('active');
+  }
 
   function add_hero_page(idhero){
     var hero = idhero;
@@ -104,7 +112,7 @@ $('document').ready(function(){
       hero_tab03.find('.lvg_skills.detail').append('<div><a href="#' + hero_id + '_Skill' + (i+1) + '" class="btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path +'champs/' + hero_id + '/skill' + (i+1) + '.png)"></a></div>');
       $('.skills-wrap').append('<div id="' + hero_id + '_Skill' + (i+1) + '" class="item ui-content" data-theme="a">' + popup_close + '<strong>' + hero_skill[i].name + '</strong><p>' + hero_skill[i].info + '</p></div>');
     }
-    $('.skills-wrap > .item').enhanceWithin().popup();
+    // $('.skills-wrap > .item').enhanceWithin().popup();
 
     /* Skill up */
     var hero_skill_up = hero.skill_up;
