@@ -10,8 +10,6 @@ $('document').ready(function(){
   $('#lvg_filter_champs').focus(function(){
     $(this).val('');
     $('.lvg_champs_class > span').removeClass('active');
-    // $('.lvg_select_champs > .lvg_champs > div').addClass('ui-screen-hidden');
-    // $('.lvg_champs_wrap').hide();
   });
 
   $('#lvg_filter_champs').keyup(function() {
@@ -149,7 +147,7 @@ $('document').ready(function(){
         if(splCombo[j] != "0"){
           $(this).append('<div><a href="#' + hero_id + '_Skill' + splCombo[j] + '" class="btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path +'champs/' + hero_id + '/skill' + splCombo[j] + '.png)"></a></div>');
         }else{
-          $(this).append('<div><a href="#' + hero_id + '_Skill' + splCombo[j] + '" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path +'common/normal.png)"></a></div>');
+          $(this).append('<div><a href="#' + hero_id + '_Skill' + splCombo[j] + '" data-rel="popup" data-position-to="window" style="background-image: url(shared/img/normal.png)"></a></div>');
         }
       }
     });

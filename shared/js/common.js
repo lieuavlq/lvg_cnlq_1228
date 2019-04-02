@@ -4,9 +4,22 @@ $(function(){
   var lang_vn = lang_vn_file;
   var app_url = storage.getItem('app_url_store');
 
+  body.css({'min-height': $(window).height()});
+
+  //Review app
   body.append('<div id="wrap-review"><div class="holder"><div class="inner"><div class="content"><p>' + lang_vn['review_info'] + '</p><p class="ttl">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + app_url + '" rel="external" class="ui-btn btn-review">' + lang_vn['review'] + '</a><a href="#" class="ui-btn btn-close">' + lang_vn['next_time'] + '</a></p></div></div></div></div>');
 
+  //Update popup
   body.append('<div id="wrap-updated"><div class="holder"><div class="inner"><div class="content"><p class="ttl"><strong>' + lang_vn['update_title'] + '</strong></p><p><a href="' + app_url + '" rel="external" class="ui-btn btn-close">' + lang_vn['update_btn'] + '</a></p></div></div></div></div>');
+
+  //Open page
+  setTimeout(function(){$('#main').addClass('active');},1000);
+  $(this).on('click','a[class*="ui-btn"]',function(e){
+    e.preventDefault();
+    $('[data-role="page"]').removeClass('active');
+    var data_page = $(this).attr('href');
+    setTimeout(function(){$(data_page).addClass('active');},1000);
+  });
 
   /* Review app */
   var wrap_review = $('#wrap-review');
@@ -38,9 +51,6 @@ $(function(){
   $(this).on("click",".btn_shop_page",function(){
     get_shop_page($(this).attr('data-page'));
   });
-
-  /* Outside panel */
-  $( ".pnl_outside" ).panel();
 
 });
 
