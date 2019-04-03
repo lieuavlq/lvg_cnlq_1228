@@ -32,59 +32,59 @@ var app = {
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        StatusBar.hide();
+        // StatusBar.hide();
 
-        var admobid = {};
-        admobid = {
-            banner: 'ca-app-pub-1308924557880612/1873635551',
-            interstitial: 'ca-app-pub-1308924557880612/8909569777',
-        };
+        // var admobid = {};
+        // admobid = {
+        //     banner: 'ca-app-pub-1308924557880612/1873635551',
+        //     interstitial: 'ca-app-pub-1308924557880612/8909569777',
+        // };
 
-        admob.banner.config({
-            id: admobid.banner,
-            autoShow: true,
-            isTesting: false,
-        });
-        admob.banner.prepare();
+        // admob.banner.config({
+        //     id: admobid.banner,
+        //     autoShow: true,
+        //     isTesting: false,
+        // });
+        // admob.banner.prepare();
 
-        admob.interstitial.config({
-            id: admobid.interstitial,
-            autoShow: false,
-            isTesting: false,
-        });
-        admob.interstitial.prepare();
+        // admob.interstitial.config({
+        //     id: admobid.interstitial,
+        //     autoShow: false,
+        //     isTesting: false,
+        // });
+        // admob.interstitial.prepare();
 
-        $('document').ready(function(){
-            var connectVal = checkConnection();
-            var storage = window.localStorage;
+        // $('document').ready(function(){
+        //     var connectVal = checkConnection();
+        //     var storage = window.localStorage;
 
-            /* Check internet exists */
-            if(connectVal!=1){
-              //if not connect
-            }
+        //     /* Check internet exists */
+        //     if(connectVal!=1){
+        //       //if not connect
+        //     }
 
-            var wrap_adv_div = $('#wrap-countdown');
-            var adv_time = 120000;
-            var delay_show_banner = setTimeout(function(){
-                wrap_adv_div.addClass('allready');
-            }, adv_time);
+        //     var wrap_adv_div = $('#wrap-countdown');
+        //     var adv_time = 120000;
+        //     var delay_show_banner = setTimeout(function(){
+        //         wrap_adv_div.addClass('allready');
+        //     }, adv_time);
 
-            var myCount = function() {
-                var countdownClass = wrap_adv_div.attr('class');
-                if(countdownClass == "allready"){
-                    clearTimeout(delay_show_banner);
-                    wrap_adv_div.removeClass('allready').addClass('notready');
-                    admob.interstitial.show();
-                    delay_show_banner = setTimeout(function(){
-                      wrap_adv_div.removeClass('notready').addClass('allready');
-                    }, adv_time);
-                }
-            };
+        //     var myCount = function() {
+        //         var countdownClass = wrap_adv_div.attr('class');
+        //         if(countdownClass == "allready"){
+        //             clearTimeout(delay_show_banner);
+        //             wrap_adv_div.removeClass('allready').addClass('notready');
+        //             admob.interstitial.show();
+        //             delay_show_banner = setTimeout(function(){
+        //               wrap_adv_div.removeClass('notready').addClass('allready');
+        //             }, adv_time);
+        //         }
+        //     };
 
-            $(this).on('click', '.btn_show_ads', function(){
-              myCount();
-            });
-        });
+        //     $(this).on('click', '.btn_show_ads', function(){
+        //       myCount();
+        //     });
+        // });
 
     }
 };

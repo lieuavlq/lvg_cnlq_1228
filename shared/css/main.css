@@ -14,6 +14,7 @@ position: relative;
 font-size: 16px;
 line-height: 24px;
 color: #000;
+overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6 {
 font-weight: bold;
@@ -85,6 +86,7 @@ display: none;
 max-width: 640px;
 margin: auto;
 padding: 30px;
+padding-bottom: 70px;
 box-sizing: border-box;
 position: relative;
 }
@@ -95,6 +97,14 @@ border: none;
 border-bottom: 2px solid #cc263d;
 position: relative;
 text-align: center;
+}
+#hero-page [data-role="header"] {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1;
+opacity: .9;
 }
 [data-role="header"] h1 {
 font-family: 'Baloo', sans-serif;
@@ -114,26 +124,21 @@ font-family: 'Roboto', sans-serif;
 }
 [data-role="navbar"] {
 position: fixed;
-top: -46px;
+bottom: 0;
 left: 0;
 right: 0;
 z-index: 1;
-opacity: 0;
--webkit-transition: all .8s ease;
-transition: all .8s ease;
-}
-[data-role="navbar"].active {
-opacity: 1;
-top: 0;
 }
 [id*="hero-tab0"] {
 display: none;
+overflow: hidden;
+padding-top: 20px;
 }
 [data-role="navbar"] ul {
 display: table;
 width: 100%;
 text-align: center;
-border-bottom: 2px solid #cc263d;
+border-top: 1px solid #cc263d;
 }
 [data-role="navbar"] li {
 display: table-cell;
@@ -142,7 +147,7 @@ font-size: 0;
 }
 [data-role="navbar"] li a {
 display: block;
-height: 44px;
+height: 34px;
 background: #333 url(../img/ico01_active.png) no-repeat center;
 background-size: auto 65%;
 }
@@ -187,10 +192,14 @@ border-color: #cc263d;
 .lvg_items,
 .lvg_combo .combo,
 .lvg_skills {
-margin: 0 -3px 30px;
+margin: 0 -3px;
 overflow: hidden;
 font-size: 0;
 text-align: center;
+}
+.lvg_items {
+  margin-top: -10px;
+  margin-bottom: 30px;
 }
 .lvg_champs > div,
 .lvg_skills_sp > div,
@@ -572,24 +581,42 @@ font-style: normal;
 font-weight: bold;
 }
 .lvg_img_main {
-margin: auto;
-max-width: 224px;
+margin: -5px auto 0;
+max-width: 190px;
 }
 .lvg_champ_quote {
 font-family: 'Baloo', sans-serif;
 text-align: center;
-color: #cc263d;
 font-size: 80%;
-display: none;
+position: relative;
+padding-bottom: 2px;
+margin: 10px 0;
+line-height: 22px;
+}
+.lvg_champ_quote:after {
+content: '';
+width: 50px;
+height: 1px;
+background: #cc263d;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
 }
 @media (max-width: 640px){
 .lvg_holder {
 padding: 15px;
+padding-bottom: 50px;
+}
+[id*="hero-tab0"] {
+padding-top: 35px;
 }
 }
 @media (max-width: 360px){
 .lvg_holder {
 padding: 10px;
+padding-bottom: 30px;
 }
 .lvg_skills_sp > div a, .lvg_items > div a {
 width: 45px;
@@ -601,7 +628,8 @@ height: 34px;
 background-size: 95%;
 }
 .lvg_img_main {
-max-width: 194px;
+margin: auto;
+max-width: 184px;
 }
 .lvg_btn_news.main {
 width: 34px;

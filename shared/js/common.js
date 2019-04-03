@@ -12,23 +12,14 @@ $(function(){
   //Update popup
   body.append('<div id="wrap-updated"><div class="holder"><div class="inner"><div class="content"><p class="ttl"><strong>' + lang_vn['update_title'] + '</strong></p><p><a href="' + app_url + '" rel="external" class="lvg_btn btn-close">' + lang_vn['update_btn'] + '</a></p></div></div></div></div>');
 
-  //Scroll menu
-  $(window).bind('mousewheel', function(event) {
-    if (event.originalEvent.wheelDelta >= 0) {
-      $('[data-role="navbar"]').removeClass('active');
-    }
-    else {
-      $('[data-role="navbar"]').addClass('active');
-    }
-  });
-
   //Navbar click
   $(this).on('click','[data-role="navbar"] a', function(){
     var a_href = $(this).attr('href');
+    $('[data-role="navbar"] a').removeClass('active');
+    $(this).addClass('active');
     $('[id*="hero-tab0"]').hide();
-    $(a_href).stop().fadeIn(800);
+    $(a_href).show();
     $('html, body').animate({ scrollTop: $('#hero-page').offset().top }, 1);
-    // $('[data-role="navbar"]').removeClass('active');
   });
 
   //Open page
@@ -36,7 +27,7 @@ $(function(){
   $(this).on('click','a[class*="ui-btn"]',function(e){
     e.preventDefault();
     $('[data-role="page"]').removeClass('active');
-    $('.lvg_change_page').show().stop().fadeOut(600);
+    $('.lvg_change_page').show().stop().fadeOut(400);
     var data_page = $(this).attr('href');
     $(data_page).addClass('active');
   });
