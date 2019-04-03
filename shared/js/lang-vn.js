@@ -1,5 +1,5 @@
 var lang_vn_file = {
-	"app_name": "Sổ Tay Liên Quân LiVu",
+	"app_name": "Sổ Tay AOV LAVU",
   "btn_back": "Trở lại",
   "btn_info": "Thông Tin",
   "btn_skin": "Trang Phục",
@@ -48,7 +48,7 @@ var lang_vn_file = {
   "connect_wifi": "*Cần kết nối Wifi, 4G, 3G,.. rồi mới xem được video, tin tức hoặc tải ảnh nền!!",
   "connect_info": "*Mở lại ứng dụng sau khi kết nối Wifi, 3G,..",
   "update_btn": "Cập nhật",
-  "update_title": "Mọi người cùng cập nhật phiên bản mới nhất nhé!",
+  "update_title": "Đã có bản cập nhật mới!",
   "liked": "Đã thích",
   "no_like": "Bạn chưa thích Tin tức nào!!",
   "news_more_alert": "*Có thể tải lại tin tức sau 1 phút!",

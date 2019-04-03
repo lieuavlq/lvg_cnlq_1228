@@ -1,6 +1,6 @@
 $(function(){
   var img_path = 'http://lvgames.net/cnlq_app/images/';
-  var popup_close = '<a href="#" data-rel="back" class="lvg_btn btn_popup_close">x</a>';
+  var popup_close = '<a href="#" class="lvg_popup_close">x</a>';
   var storage = window.localStorage;
 
   //loading champs
@@ -37,49 +37,36 @@ $(function(){
   });
 
   //loading menu left
-  var load_menu = true;
-  $(this).on("click","a[href='#menu-left']",function(){
-    if(load_menu ==true) {
-      $('.lvg_menu_left').append('<div class="ui-panel-inner"></div>');
-      $.ajax({
-        url: "http://lvgames.net/cnlq_app/menu_left/menu.json",
-        success: function (output) {
-          for(var i=0;i<output.length;i++){
-            $('.lvg_menu_left > div').append(output[i]);
-          }
-        }
-      });
+  $('.lvg_menu_wrap').append('<div></div>');
+  $.ajax({
+    url: "http://lvgames.net/cnlq_app/menu_left/menu.json",
+    success: function (output) {
+      for(var i=0;i<output.length;i++){
+        $('.lvg_menu_wrap > div').append(output[i]);
+      }
     }
-    load_menu = false;
   });
 
-  //loading items and spells
-  var load_time = true;
-  $(this).on("click",".hero-tap",function(){
-    if(load_time == true) {
-      // $.ajax({
-      //     url: "http://lvgames.net/cnlq_app/load_first/items.json",
-      //     success: function (output) {
-      //       var items = output;
-      //       for(var i=0; i<items.length; i++){
-      //         $('.items-wrap').append('<div class="item ui-content" data-theme="a" id="' + items[i].id + '">' + popup_close + '<strong>' + items[i].name + '</strong><p>' + items[i].info + '</p></div>');
-      //       }
-      //       $(".items-wrap .item").enhanceWithin().popup();
-      //     }
-      // });
+  //loading items
+  $.ajax({
+      url: "http://lvgames.net/cnlq_app/load_first/items.json",
+      success: function (output) {
+        var items = output;
+        for(var i=0; i<items.length; i++){
+          $('.items-wrap').append('<div class="lvg_popup" id="' + items[i].id + '"><div class="content tp02">' + popup_close + '<p class="ttl">' + items[i].name + '</p><p>' + items[i].info + '</p></div></div>');
+        }
+      }
+  });
 
-      // $.ajax({
-      //     url: "http://lvgames.net/cnlq_app/load_first/spells.json",
-      //     success: function (output) {
-      //       var spells = output;
-      //       for(i=0; i<spells.length; i++){
-      //         $('.spells-wrap').append('<div class="item ui-content" data-theme="a" id="' + spells[i].id + '">' + popup_close + '<strong>' + spells[i].name + '</strong><p>' + spells[i].info + '</p></div>');
-      //       }
-      //       $(".spells-wrap .item").enhanceWithin().popup();
-      //     }
-      // });
-    }
-    load_time = false;
+  //loading spells
+  $.ajax({
+      url: "http://lvgames.net/cnlq_app/load_first/spells.json",
+      success: function (output) {
+        var spells = output;
+        for(i=0; i<spells.length; i++){
+          $('.spells-wrap').append('<div class="lvg_popup" id="' + spells[i].id + '"><div class="content">' + popup_close + '<p class="ttl">' + spells[i].name + '</p><p>' + spells[i].info + '</p></div></div>');
+        }
+      }
   });
 
 });

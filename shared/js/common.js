@@ -7,10 +7,27 @@ $(function(){
   body.css({'min-height': $(window).height()});
 
   //Review app
-  body.append('<div id="wrap-review"><div class="holder"><div class="inner"><div class="content"><p>' + lang_vn['review_info'] + '</p><p class="ttl">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + app_url + '" rel="external" class="lvg_btn btn-review">' + lang_vn['review'] + '</a><a href="#" class="lvg_btn btn-close">' + lang_vn['next_time'] + '</a></p></div></div></div></div>');
+  body.append('<div id="wrap-review" class="lvg_popup"><div class="content"><p>' + lang_vn['review_info'] + '</p><p class="ttl">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + app_url + '" class="lvg_popup_link btn-review">' + lang_vn['review'] + '</a><a href="#" class="lvg_popup_link btn-close">' + lang_vn['next_time'] + '</a></p></div></div>');
 
   //Update popup
-  body.append('<div id="wrap-updated"><div class="holder"><div class="inner"><div class="content"><p class="ttl"><strong>' + lang_vn['update_title'] + '</strong></p><p><a href="' + app_url + '" rel="external" class="lvg_btn btn-close">' + lang_vn['update_btn'] + '</a></p></div></div></div></div>');
+  body.append('<div id="wrap-updated" class="lvg_popup"><div class="content"><p class="ttl">' + lang_vn['update_title'] + '</p><p><a href="' + app_url + '" target="_blank" class="lvg_popup_link">' + lang_vn['update_btn'] + '</a></p></div></div>');
+
+  //Navbar click
+  $(this).on('click','.lvg_popup_btn', function(e){
+    e.preventDefault();
+    var a_href = $(this).attr('href');
+    $('.lvg_popup').removeClass('active');
+    $(a_href).addClass('active');
+  });
+
+  $(this).on('click','.lvg_popup_close', function(e){
+    e.preventDefault();
+    $('.lvg_popup').removeClass('active');
+  });
+
+  $('html, body').on('click', function(){
+    $('.lvg_popup').removeClass('active');
+  });
 
   //Navbar click
   $(this).on('click','[data-role="navbar"] a', function(){
@@ -19,7 +36,7 @@ $(function(){
     $(this).addClass('active');
     $('[id*="hero-tab0"]').hide();
     $(a_href).show();
-    $('html, body').animate({ scrollTop: $('#hero-page').offset().top }, 1);
+    $('html, body').animate({ scrollTop: $('#deviceready').offset().top }, 1);
   });
 
   //Open page

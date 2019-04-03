@@ -1,26 +1,10 @@
 $('document').ready(function(){
   var body = $('body'),i,j;
   var img_path = 'http://lvgames.net/cnlq_app/images/';
-  var popup_close = '<a href="#" data-rel="back" class="lvg_btn btn_popup_close">x</a>';
+  var popup_close = '<a href="#" class="lvg_popup_close">x</a>';
   var wallPath = 'http://lvgames.net/lienquan/wall/?champ=';
   var lang_vn = lang_vn_file;
   var hr_line = '<hr class="hr">';
-
-  // Finding champs
-  $('#lvg_filter_champs').focus(function(){
-    $(this).val('');
-    $('.lvg_champs_class > span').removeClass('active');
-  });
-
-  $('#lvg_filter_champs').keyup(function() {
-    $('.lvg_champs_wrap').hide();
-  });
-
-  $(this).on('click', '.lvg_select_champs .ui-input-clear', function(){
-    setTimeout(function(){
-      $('.lvg_champs_wrap').show();
-    },400);
-  });
 
   // Class champs
   var lvg_champs_class = $('.lvg_champs_class > span');
@@ -28,6 +12,7 @@ $('document').ready(function(){
     lvg_champs_class.removeClass('active');
     $(this).addClass('active');
     var cur_value = $(this).attr('data-value');
+    $('.lvg_champ_quote').text('Tướng ' + $(this).text());
     $('#all_champs.lvg_champs > div').addClass('ui-screen-hidden');
     $('#all_champs.lvg_champs > div[class*="'+cur_value+'"]').removeClass('ui-screen-hidden');
     $('.lvg_champs_wrap').hide();
@@ -38,7 +23,7 @@ $('document').ready(function(){
     e.preventDefault();
     var data_hero = $(this).attr('data-page');
     $('#hero-page').remove();
-    body.append('<div data-role="page" id="hero-page" class="'+$(this).parent().attr('class')+'"><div data-role="header"><a href="#main" class="ui-btn-left lvg_btn_back">Back</a><h1></h1><a href="#menu-left" class="ui-btn-right lvg_btn_news">News</a></div><div class="lvg_holder"><div data-role="tabs" id="hero-tabs" class="tabs-fixed"><div data-role="navbar"><ul><li><a href="#hero-tab01">Guide</a></li><li><a href="#hero-tab02">Tips</a></li><li><a href="#hero-tab03">Info</a></li><li><a href="#hero-tab04">Skins</a></li></ul></div><div id="hero-tab01"></div><div id="hero-tab02"></div><div id="hero-tab03"></div><div id="hero-tab04"></div></div></div></div>');
+    body.append('<div data-role="page" id="hero-page" class="'+$(this).parent().attr('class')+'"><div data-role="header"><a href="#main" class="ui-btn lvg_back_btn">Back</a><h1></h1><a href="#menu-left" class="lvg_menu_btn">News</a></div><div class="lvg_holder"><div data-role="tabs" id="hero-tabs" class="tabs-fixed"><div data-role="navbar"><ul><li><a href="#hero-tab01">Guide</a></li><li><a href="#hero-tab02">Tips</a></li><li><a href="#hero-tab03">Info</a></li><li><a href="#hero-tab04">Skins</a></li></ul></div><div id="hero-tab01"></div><div id="hero-tab02"></div><div id="hero-tab03"></div><div id="hero-tab04"></div></div></div></div>');
     set_transi_page('#hero-page');
     $.ajax({
       url: 'http://lvgames.net/cnlq_app/champs/'+data_hero+'.json',
@@ -99,16 +84,14 @@ $('document').ready(function(){
       skills_old_hero = $('.skills-wrap').attr('data-hero');
       $('.skills-wrap').attr('data-hero', hero_id);
     }
-    $('[id*="'+skills_old_hero+'_Skill"][class*="ui-popup"]').remove();
     $('.skills-wrap').children().remove();
     hero_tab03.append(hr_line);
     hero_tab03.append('<h3>' + lang_vn['hero_skill'] + '</h3><p class="note">' + lang_vn['btn_tap'] + '</p><div class="lvg_skills detail"></div>');
-    $('.skills-wrap').append('<div id="' + hero_id + '_Skill0" class="item ui-content" data-theme="a">' + popup_close + '<strong>' + lang_vn['normal_skill'] + '</strong><p>' + lang_vn['normal_skill_info'] + '</p></div>');
+    $('.skills-wrap').append('<div id="' + hero_id + '_Skill0" class="lvg_popup"><div class="content tp02">' + popup_close + '<p class="ttl">' + lang_vn['normal_skill'] + '</p><p>' + lang_vn['normal_skill_info'] + '</p></div></div>');
     for(i=0; i<4; i++){
-      hero_tab03.find('.lvg_skills.detail').append('<div><a href="#' + hero_id + '_Skill' + (i+1) + '" class="btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path +'champs/' + hero_id + '/skill' + (i+1) + '.png)"></a></div>');
-      $('.skills-wrap').append('<div id="' + hero_id + '_Skill' + (i+1) + '" class="item ui-content" data-theme="a">' + popup_close + '<strong>' + hero_skill[i].name + '</strong><p>' + hero_skill[i].info + '</p></div>');
+      hero_tab03.find('.lvg_skills.detail').append('<div><a href="#' + hero_id + '_Skill' + (i+1) + '" class="lvg_popup_btn btn_show_ads" style="background-image: url('+ img_path +'champs/' + hero_id + '/skill' + (i+1) + '.png)"></a></div>');
+      $('.skills-wrap').append('<div id="' + hero_id + '_Skill' + (i+1) + '" class="lvg_popup"><div class="content tp02">' + popup_close + '<p class="ttl">' + hero_skill[i].name + '</p><p>' + hero_skill[i].info + '</p></div></div>');
     }
-    // $('.skills-wrap > .item').enhanceWithin().popup();
 
     /* Skill up */
     var hero_skill_up = hero.skill_up;
@@ -130,7 +113,7 @@ $('document').ready(function(){
       }
     });
     for(i=0; i<4; i++){
-      $('.lvg_incskill_info').append('<div><a href="#' + hero_id + '_Skill' + (i+1) + '" class="btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path +'champs/' + hero_id + '/skill' + (i+1) + '.png)"></a></div>');
+      $('.lvg_incskill_info').append('<div><a href="#' + hero_id + '_Skill' + (i+1) + '" class="lvg_popup_btn btn_show_ads" style="background-image: url('+ img_path +'champs/' + hero_id + '/skill' + (i+1) + '.png)"></a></div>');
     }
 
     /* Skill combo */
@@ -149,9 +132,9 @@ $('document').ready(function(){
       $(this).text('');
       for(j=0; j<splCombo.length; j++){
         if(splCombo[j] != "0"){
-          $(this).append('<div><a href="#' + hero_id + '_Skill' + splCombo[j] + '" class="btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path +'champs/' + hero_id + '/skill' + splCombo[j] + '.png)"></a></div>');
+          $(this).append('<div><a href="#' + hero_id + '_Skill' + splCombo[j] + '" class="lvg_popup_btn btn_show_ads" style="background-image: url('+ img_path +'champs/' + hero_id + '/skill' + splCombo[j] + '.png)"></a></div>');
         }else{
-          $(this).append('<div><a href="#' + hero_id + '_Skill' + splCombo[j] + '" data-rel="popup" data-position-to="window" style="background-image: url(shared/img/normal.png)"></a></div>');
+          $(this).append('<div><a href="#' + hero_id + '_Skill' + splCombo[j] + '" class="lvg_popup_btn btn_show_ads" style="background-image: url(shared/img/normal.png)"></a></div>');
         }
       }
     });
@@ -163,7 +146,7 @@ $('document').ready(function(){
     var splSkillSp = lvgSkillSp.text().split(',');
     lvgSkillSp.text('');
     for(i=0; i<splSkillSp.length; i++){
-      lvgSkillSp.append('<div><a href="#' + splSkillSp[i] + '" class="btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path + 'skills/' + splSkillSp[i] + '.png)"></a></div>');
+      lvgSkillSp.append('<div><a href="#' + splSkillSp[i] + '" class="lvg_popup_btn btn_show_ads" style="background-image: url('+ img_path + 'skills/' + splSkillSp[i] + '.png)"></a></div>');
     }
 
     /* Runes */
@@ -187,7 +170,7 @@ $('document').ready(function(){
       hero_tab01.append('<p>' + (i+1) + '. ' + lang_vn['full_set'] + ': ' + itemBuild[i].name + '</p><div class="lvg_items build' + i + '"></div>');
       var splItems = itemBuild[i].info.split(',');
       for(j=0; j<splItems.length; j++){
-        hero_tab01.find('.lvg_items.build' + i).append('<div><a href="#' + splItems[j] + '" class="btn_show_ads" data-rel="popup" data-position-to="window" style="background-image: url('+ img_path + 'items/' + splItems[j] + '.png)"></a></div>');
+        hero_tab01.find('.lvg_items.build' + i).append('<div><a href="#' + splItems[j] + '" class="lvg_popup_btn btn_show_ads" style="background-image: url('+ img_path + 'items/' + splItems[j] + '.png)"></a></div>');
       }
     }
 
@@ -227,7 +210,7 @@ $('document').ready(function(){
       lvgSliderWrap.append('<div class="item' + (i+1) + '"></div>');
       lvgSlider = lvgSliderWrap.children('.item' + (i+1));
       checkShow(heroSkin[i].wall, function(){
-        lvgSlider.append('<div class="thumb-wrap"><a href="' + wallPath + heroSkin[i].wall + '""><img src="' + img_path + 'champs/' + hero_id + '/' + heroSkin[i].img + '" alt=""></a></div>');
+        lvgSlider.append('<div class="thumb-wrap"><a href="' + wallPath + heroSkin[i].wall + '" target="_blank"><img src="' + img_path + 'champs/' + hero_id + '/' + heroSkin[i].img + '" alt=""></a></div>');
       });
       lvgSlider.append('<p class="skin-name">' + heroSkin[i].name + '</p>');
       checkShow(heroSkin[i].gold, function(){

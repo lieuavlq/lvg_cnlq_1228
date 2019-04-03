@@ -198,8 +198,8 @@ font-size: 0;
 text-align: center;
 }
 .lvg_items {
-  margin-top: -10px;
-  margin-bottom: 30px;
+margin-top: -10px;
+margin-bottom: 30px;
 }
 .lvg_champs > div,
 .lvg_skills_sp > div,
@@ -507,7 +507,7 @@ font-weight: bold;
 }
 .lvg_slider .price {
 padding-left: 22px;
-background: url(../img/gold.png) no-repeat 0 1px;
+background: url(../img/gold.png) no-repeat 0 3px;
 background-size: 16px;
 font-size: 90%;
 }
@@ -524,8 +524,8 @@ background-image: url(../img/voucher.png);
 display: inline-block;
 margin-right: 15px;
 }
-.lvg_btn_back,
-.lvg_btn_news {
+.lvg_back_btn,
+.lvg_menu_btn {
 font-size: 0;
 width: 37px;
 height: 37px;
@@ -535,15 +535,15 @@ border: none;
 position: absolute;
 top: 4px;
 }
-.lvg_btn_news,
-.lvg_btn_news.main {
+.lvg_menu_btn,
+.lvg_menu_btn.main {
 border-radius: 50px;
 right: 8px;
 background-image: url(../img/ico04.png);
 background-size: auto 80%;
 background-position: center 3px;
 }
-.lvg_btn_news.main {
+.lvg_menu_btn.main {
 background-image: url(../img/ico04_active.png);
 font-size: 0;
 width: 40px;
@@ -554,25 +554,25 @@ background-repeat: no-repeat;
 top: 10px;
 right: 10px;
 }
-.lvg_btn_news.main:active,
-.lvg_btn_news.main:hover {
+.lvg_menu_btn.main:active,
+.lvg_menu_btn.main:hover {
 background-image: url(../img/ico04.png);
 background-color: #cc263d;
 }
-.lvg_btn_news:active,
-.lvg_btn_news:hover {
+.lvg_menu_btn:active,
+.lvg_menu_btn:hover {
 background-color: transparent;
 background-image: url(../img/ico04_active.png);
 }
-.lvg_btn_back {
+.lvg_back_btn {
 background-image: url(../img/ico06.png);
 width: 74px;
 background-size: auto 80%;
 background-position: center;
 left: -10px;
 }
-.lvg_btn_back:active,
-.lvg_btn_back:hover {
+.lvg_back_btn:active,
+.lvg_back_btn:hover {
 background-image: url(../img/ico06_active.png);
 background-color: transparent;
 }
@@ -631,7 +631,7 @@ background-size: 95%;
 margin: auto;
 max-width: 184px;
 }
-.lvg_btn_news.main {
+.lvg_menu_btn.main {
 width: 34px;
 height: 34px;
 }
@@ -774,8 +774,7 @@ box-sizing: border-box;
 padding: 6px 12px;
 font-size: 90%;
 }
-#wrap-review,
-#wrap-updated {
+.lvg_popup {
 position: fixed;
 left: 0;
 top: 0;
@@ -788,24 +787,16 @@ visibility: hidden;
 transition: all .3s ease;
 text-align: center;
 }
-#wrap-review.active,
-#wrap-updated.active {
+.lvg_popup.active {
 opacity: 1;
 visibility: visible;
 }
-#wrap-review .holder,
-#wrap-updated .holder {
-display: table;
-width: 100%;
-height: 100%;
-}
-#wrap-review .inner,
-#wrap-updated .inner {
-display: table-cell;
-vertical-align: middle;
-}
-#wrap-review .content,
-#wrap-updated .content {
+.lvg_popup .content {
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
 background: #000;
 width: 80%;
 margin: auto;
@@ -815,27 +806,46 @@ padding: 15px;
 box-sizing: border-box;
 box-shadow: 0 0 20px #333;
 color: #fff;
+font-size: 90%;
+line-height: 20px;
 }
-#wrap-review p,
-#wrap-updated p {
+.lvg_popup p {
 margin: 0;
 }
-#wrap-review .ttl,
-#wrap-updated .ttl {
+.lvg_popup .ttl {
 margin-bottom: 10px;
+font-weight: bold;
+text-transform: uppercase;
 }
-#wrap-review a,
-#wrap-updated a {
-border-color: #ae903b;
+.lvg_popup .content.tp02 > p {
+text-align: left;
+}
+.lvg_popup .lvg_popup_link {
+border: 1px solid #ae903b;
 color: #fff;
 border-radius: 5px;
-font-size: 86%;
+font-size: 100%;
 background: #000;
-margin: 0;
+display: block;
+max-width: 80%;
+margin: auto;
+line-height: 34px;
+text-decoration: none;
 }
-#wrap-review .content a + a,
-#wrap-updated .content a + a {
+.lvg_popup .lvg_popup_link + a {
 margin-top: 10px;
+}
+.lvg_popup_close {
+position: absolute;
+top: 0;
+right: 0;
+width: 32px;
+background: #333;
+font-weight: bold;
+text-decoration: none;
+line-height: 32px;
+color: #fff;
+border-radius: 0 5px 0 0;
 }
 @media (max-width: 1024px) {
 .lvg-news-content .item .img,
