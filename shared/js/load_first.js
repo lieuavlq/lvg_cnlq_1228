@@ -37,12 +37,13 @@ $(function(){
   });
 
   //loading menu left
-  $('.lvg_menu_wrap').append('<div></div>');
+  $('.lvg_menu_wrap').append('<div class="content"><div class="holder"></div></div>');
   $.ajax({
     url: "http://lvgames.net/cnlq_app/menu_left/menu.json",
     success: function (output) {
+      $('.lvg_menu_wrap .holder').append('<a href="#" class="lvg_popup_close">Đóng lại</a>');
       for(var i=0;i<output.length;i++){
-        $('.lvg_menu_wrap > div').append(output[i]);
+        $('.lvg_menu_wrap .holder').append(output[i]);
       }
     }
   });

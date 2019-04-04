@@ -23,7 +23,7 @@ $('document').ready(function(){
     e.preventDefault();
     var data_hero = $(this).attr('data-page');
     $('#hero-page').remove();
-    body.append('<div data-role="page" id="hero-page" class="'+$(this).parent().attr('class')+'"><div data-role="header"><a href="#main" class="ui-btn lvg_back_btn">Back</a><h1></h1><a href="#menu-left" class="lvg_menu_btn">News</a></div><div class="lvg_holder"><div data-role="tabs" id="hero-tabs" class="tabs-fixed"><div data-role="navbar"><ul><li><a href="#hero-tab01">Guide</a></li><li><a href="#hero-tab02">Tips</a></li><li><a href="#hero-tab03">Info</a></li><li><a href="#hero-tab04">Skins</a></li></ul></div><div id="hero-tab01"></div><div id="hero-tab02"></div><div id="hero-tab03"></div><div id="hero-tab04"></div></div></div></div>');
+    body.append('<div data-role="page" id="hero-page" class="'+$(this).parent().attr('class')+'"><div data-role="header"><a href="#main" class="ui-btn lvg_back_btn">Back</a><h1></h1><a href="#menu-left" class="lvg_popup_btn lvg_menu_btn">Menu</a></div><div data-role="navbar"><ul><li><a href="#hero-tab01">Guide</a></li><li><a href="#hero-tab02">Tips</a></li><li><a href="#hero-tab03">Info</a></li><li><a href="#hero-tab04">Skins</a></li></ul></div><div class="lvg_holder"><div id="hero-tab01"></div><div id="hero-tab02"></div><div id="hero-tab03"></div><div id="hero-tab04"></div></div></div>');
     set_transi_page('#hero-page');
     $.ajax({
       url: 'http://lvgames.net/cnlq_app/champs/'+data_hero+'.json',
@@ -56,6 +56,7 @@ $('document').ready(function(){
     var hero_tab04 = hero_page.find('#hero-tab04');
 
     $('#hero-tab01').show();
+    $('[href="#hero-tab01"]').addClass('active');
 
     hero_page.find('h1').html(hero_name+'<span>'+hero.main_info.position+'</span>');
 

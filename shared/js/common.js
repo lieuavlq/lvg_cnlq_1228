@@ -7,10 +7,10 @@ $(function(){
   body.css({'min-height': $(window).height()});
 
   //Review app
-  body.append('<div id="wrap-review" class="lvg_popup"><div class="content"><p>' + lang_vn['review_info'] + '</p><p class="ttl">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + app_url + '" class="lvg_popup_link btn-review">' + lang_vn['review'] + '</a><a href="#" class="lvg_popup_link btn-close">' + lang_vn['next_time'] + '</a></p></div></div>');
+  body.append('<div id="wrap-review" class="lvg_popup tp02" data-popup="disable"><div class="content"><p>' + lang_vn['review_info'] + '</p><p class="ttl">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + app_url + '" class="lvg_popup_link btn-review">' + lang_vn['review'] + '</a><a href="#" class="lvg_popup_link btn-close">' + lang_vn['next_time'] + '</a></p></div></div>');
 
   //Update popup
-  body.append('<div id="wrap-updated" class="lvg_popup"><div class="content"><p class="ttl">' + lang_vn['update_title'] + '</p><p><a href="' + app_url + '" target="_blank" class="lvg_popup_link">' + lang_vn['update_btn'] + '</a></p></div></div>');
+  body.append('<div id="wrap-updated" class="lvg_popup tp02" data-popup="disable"><div class="content"><p class="ttl">' + lang_vn['update_title'] + '</p><p><a href="' + app_url + '" target="_blank" class="lvg_popup_link">' + lang_vn['update_btn'] + '</a></p></div></div>');
 
   //Navbar click
   $(this).on('click','.lvg_popup_btn', function(e){
@@ -22,21 +22,24 @@ $(function(){
 
   $(this).on('click','.lvg_popup_close', function(e){
     e.preventDefault();
+    if($(this).parents('.lvg_popup').attr('data-popup') == 'disable') return;
     $('.lvg_popup').removeClass('active');
   });
 
-  $('html, body').on('click', function(){
+  $(this).on('click','.lvg_popup', function(){
+    if($(this).attr('data-popup') == 'disable') return;
     $('.lvg_popup').removeClass('active');
   });
 
   //Navbar click
-  $(this).on('click','[data-role="navbar"] a', function(){
+  $(this).on('click','[data-role="navbar"] a', function(e){
+    e.preventDefault();
     var a_href = $(this).attr('href');
     $('[data-role="navbar"] a').removeClass('active');
     $(this).addClass('active');
     $('[id*="hero-tab0"]').hide();
-    $(a_href).show();
-    $('html, body').animate({ scrollTop: $('#deviceready').offset().top }, 1);
+    $(a_href).stop().fadeIn(600);
+    $('html, body').animate({ scrollTop: $('#hero-page').offset().top }, 1);
   });
 
   //Open page
@@ -65,7 +68,8 @@ $(function(){
   });
 
   /* Shop page */
-  $(this).on("click",".btn-shop-get",function(){
+  $(this).on("click",".btn-shop-get",function(e){
+    e.preventDefault();
     $(this).parent().addClass('active');
     $('.wrap-btn-shop02').removeClass('active');
     $.ajax({
@@ -76,7 +80,8 @@ $(function(){
     });
   });
 
-  $(this).on("click",".btn_shop_page",function(){
+  $(this).on("click",".btn_shop_page",function(e){
+    e.preventDefault();
     get_shop_page($(this).attr('data-page'));
   });
 
@@ -107,7 +112,7 @@ function get_shop_content(val){
   lvg_shop.children().remove();
   var shop_item = val.item;
   if(shop_item.length > 0) {
-    lvg_shop.append('<p class="note">'+val.note+'</p><div class="lvg_shop_ip_wrap"><input id="lvg_shop_filter" data-type="search" placeholder="Tìm hàng theo tên tướng"></div>');
+    lvg_shop.append('<p class="note">'+val.note+'</p><div class="lvg_shop_ip_wrap ui-screen-hidden"><input id="lvg_shop_filter" data-type="search" placeholder="Tìm hàng theo tên tướng"></div>');
     lvg_shop.append('<div class="lvg_shop_list" data-filter="true" data-input="#lvg_shop_filter"></div>');
     for(var i=0;i<shop_item.length;i++) {
       lvg_shop.children('.lvg_shop_list').append('<div data-filtertext="'+shop_item[i].key+'"><a href="'+shop_item[i].url+'" target="_blank"><img src="'+shop_item[i].img+'" alt=""><p class="pro-wrap"><span class="pro-code">'+shop_item[i].code+'</span>: <span class="pro-price">'+shop_item[i
@@ -117,5 +122,4 @@ function get_shop_content(val){
     lvg_shop.append('<p class="note">*Shop chưa mở cửa quay lại sau nha!!</p>');
   }
   lvg_shop.append('<div class="wrap_btn_old"><a href="#" class="btn_shop_page" data-page="'+val.next+'">&darr; Xem thêm sản phẩm &darr;</a></div>');
-  lvg_shop.children('.lvg_shop_list').listview().listview('refresh');
 }

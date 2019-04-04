@@ -58,11 +58,7 @@ text-decoration: none;
 display: none !important;
 }
 [data-role="page"] {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+position: relative;
 overflow-x: hidden;
 display: none;
 }
@@ -85,8 +81,7 @@ display: none;
 .lvg_holder {
 max-width: 640px;
 margin: auto;
-padding: 30px;
-padding-bottom: 70px;
+padding: 20px 30px 80px;
 box-sizing: border-box;
 position: relative;
 }
@@ -98,13 +93,16 @@ border-bottom: 2px solid #cc263d;
 position: relative;
 text-align: center;
 }
-#hero-page [data-role="header"] {
+[data-role="header"].top-fixed {
 position: fixed;
 top: 0;
 left: 0;
 right: 0;
 z-index: 1;
 opacity: .9;
+}
+[data-role="header"].top-fixed + * {
+margin-top: 46px;
 }
 [data-role="header"] h1 {
 font-family: 'Baloo', sans-serif;
@@ -132,7 +130,12 @@ z-index: 1;
 [id*="hero-tab0"] {
 display: none;
 overflow: hidden;
-padding-top: 20px;
+}
+[id*="hero-tab0"] > *:first-child {
+margin-top: 0;
+}
+[id*="hero-tab0"] > *:last-child {
+margin-bottom: 0;
 }
 [data-role="navbar"] ul {
 display: table;
@@ -147,7 +150,7 @@ font-size: 0;
 }
 [data-role="navbar"] li a {
 display: block;
-height: 34px;
+height: 38px;
 background: #333 url(../img/ico01_active.png) no-repeat center;
 background-size: auto 65%;
 }
@@ -196,6 +199,10 @@ margin: 0 -3px;
 overflow: hidden;
 font-size: 0;
 text-align: center;
+}
+.lvg_combo .combo {
+max-width: 90%;
+margin: auto;
 }
 .lvg_items {
 margin-top: -10px;
@@ -606,17 +613,12 @@ margin: auto;
 }
 @media (max-width: 640px){
 .lvg_holder {
-padding: 15px;
-padding-bottom: 50px;
-}
-[id*="hero-tab0"] {
-padding-top: 35px;
+padding: 20px 15px 70px;
 }
 }
 @media (max-width: 360px){
 .lvg_holder {
-padding: 10px;
-padding-bottom: 30px;
+padding: 15px 10px 70px;
 }
 .lvg_skills_sp > div a, .lvg_items > div a {
 width: 45px;
@@ -636,15 +638,15 @@ width: 34px;
 height: 34px;
 }
 }
-/*NEWS*/
 .news-popup-content > * {
-margin: 15px 0;
+margin: 20px 0;
 }
 .news-popup-content table {
 width: 100%;
 }
 .news-popup-content table td, .news-popup-content table th {
 padding: 5px 10px;
+border: 1px solid #333;
 }
 .news-popup-content .tbl-border-wrap {
 overflow-x: auto;
@@ -709,7 +711,7 @@ font-style: italic;
 }
 .lvg-news-content .item .lvg-news-popup .title {
 letter-spacing: 0;
-line-height: 28px;
+line-height: 30px;
 font-size: 1.4em;
 padding: 0;
 }
@@ -729,7 +731,7 @@ margin: 30px 0;
 width: 100%;
 }
 .lvg-news-content .lvg-news-popup .inner {
-padding-top: 15px;
+padding-top: 25px;
 }
 .img-load {
 text-align: center;
@@ -743,6 +745,7 @@ text-align: center;
 .wrap_btn_old a {
 padding: 6px 12px;
 border: 1px solid #cc263d;
+text-decoration: none;
 }
 .wrap-btn-news01.active,
 .wrap-btn-news02.active,
@@ -759,6 +762,9 @@ float: left;
 width: 50%;
 padding: 20px 30px;
 box-sizing: border-box;
+}
+.lvg_shop_list a {
+text-decoration: none;
 }
 .lvg_shop_list .pro-price {
 font-size: 85%;
@@ -786,6 +792,11 @@ visibility: hidden;
 -webkit-transition: all .3s ease;
 transition: all .3s ease;
 text-align: center;
+background: rgba(0,0,0,.5);
+}
+.lvg_popup.tp02 {
+z-index: 10000;
+background: rgba(0,0,0,.7);
 }
 .lvg_popup.active {
 opacity: 1;
@@ -797,17 +808,26 @@ top: 50%;
 left: 50%;
 -webkit-transform: translate(-50%,-50%);
 transform: translate(-50%,-50%);
-background: #000;
 width: 80%;
 margin: auto;
-border-radius: 5px;
+border-radius: 0;
 text-shadow: none;
 padding: 15px;
 box-sizing: border-box;
-box-shadow: 0 0 20px #333;
-color: #fff;
+box-shadow: 0 0 10px #333;
 font-size: 90%;
 line-height: 20px;
+background: #f2f2f2;
+}
+.lvg_popup.lvg_menu_wrap .content {
+height: 80%;
+padding: 5px;
+}
+.lvg_popup.lvg_menu_wrap .holder {
+border: 2px solid #cc263d;
+padding: 10px;
+height: 100%;
+box-sizing: border-box;
 }
 .lvg_popup p {
 margin: 0;
@@ -821,7 +841,6 @@ text-transform: uppercase;
 text-align: left;
 }
 .lvg_popup .lvg_popup_link {
-border: 1px solid #ae903b;
 color: #fff;
 border-radius: 5px;
 font-size: 100%;
@@ -843,9 +862,20 @@ width: 32px;
 background: #333;
 font-weight: bold;
 text-decoration: none;
-line-height: 32px;
+line-height: 26px;
 color: #fff;
-border-radius: 0 5px 0 0;
+border-radius: 0;
+padding: 1px 0 3px;
+}
+.lvg_popup.lvg_menu_wrap .lvg_popup_close {
+left: 0;
+margin: auto;
+bottom: -10px;
+top: auto;
+width: 60%;
+border: 2px solid #cc263d;
+font-size: 90%;
+line-height: 28px;
 }
 @media (max-width: 1024px) {
 .lvg-news-content .item .img,
