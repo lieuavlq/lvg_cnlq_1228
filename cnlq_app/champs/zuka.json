@@ -1,0 +1,203 @@
+{
+  "hero_id": "Zuka",
+  "hero_name": "Zuka",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Đấu sĩ / Sát thủ",
+    "special": "Tiền đạo",
+    "lane": "Đường Caesar"
+  },
+  "main_skill": [{
+      "name": "Võ hồn",
+      "info": "Nội tại: Mỗi 15 giây khi gây sát thương lên tướng địch giúp kích hoạt nội lực Zuka, tăng thêm 15/20/25/30% công vật lý trong 4 giây."
+    },
+    {
+      "name": "Loạn đã bổng",
+      "info": "Zuka lướt tới trước vung gậy phỉ thúy tấn công kẻ địch, gây 135/160/185/210/235/260 (+0.90 công vật lý) sát thương vật lý lên những nạn nhân lân cận. Chiêu thức này có thể tái sử dụng trong vòng 5 giây kế, đồng thời mỗi lần tung chiêu cường hóa đòn đánh thường kế tiếp của Zuka giúp gây thêm 60/80/100/120/140/160（+0.25 công vật lý) sát thương vật lý và gia tăng tầm đánh."
+    },
+    {
+      "name": "Phi thân kích",
+      "info": "Zuka lộn nhào về phía trước, gây 100/120/140/160/180/200 (+0.35 công vật lý) sát thương vật lý lên những nạn nhân trúng chiêu dọc đường bay. Tung chiêu trúng đích giúp Zuka nhận 250/300/350/400/450/500 (+1.5 công vật lý) lá chắn trong 2.5 giây, đồng thời cường hóa đòn đánh thường kế tiếp gây thêm 50% công vật lý sát thương vật lý và làm choáng các kẻ địch lân cận trong 1 giây. Đặc biệt khi lá chắn biến mất, Zuka sẽ được hồi 30/40/50/60/70/80 (+0.1 công vật lý) máu mỗi giây trong 3 giây."
+    },
+    {
+      "name": "Trầm trọng lực",
+      "info": "Zuka phóng vút lên không rồi nện xuống mặt đất, gây 500/650/800 (+ 1.0 công vật lý) sát thương vật lý lên các nạn nhân trong vùng ảnh hưởng, đồng thời làm choáng trúng trong 1 giây. Đòn đánh thường kế tiếp của Zuka được cường hóa, gây thêm 70/110/150（+0.25 công vật lý) sát thương vật lý lên những kẻ địch lân cận."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,5,9,13,14,15",
+    "line2": "2,3,6,7,10,11",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,0,2,0,3,0"
+    },
+    {
+      "name": "*Hoặc như này",
+      "info": "2,0,3,0,2,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 chiêu thức",
+      "info": "4,2,0,2,0,3,0"
+    },
+    {
+      "name": "*Hoặc như này",
+      "info": "2,0,2,0,4,0,3,0"
+    }
+  ],
+  "skill_note": "*Nhanh chóng tạo lợi thế bằng việc đi gank các đường đang đẩy cao.",
+  "skill_special": "BocPha,TocBien,TrungTri",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo25",
+        "info": "Công vật lý +1.5<br>Máu tối đa +13.5"
+      },
+      {
+        "name": "NgocTim27",
+        "info": "Tốc đánh +0.4%<br>Tỷ lệ chí mạng +0.3%<br>Tốc chạy +0.5%"
+      },
+      {
+        "name": "NgocXanh23",
+        "info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo36",
+        "info": "Công vật lý +2<br>Xuyên giáp +3.6"
+      },
+      {
+        "name": "NgocTim31",
+        "info": "Công vật lý +1.6<br>Tốc chạy +1%"
+      },
+      {
+        "name": "NgocXanh31",
+        "info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường Caesar (mang Trừng trị)",
+      "info": "KiemTruyHon,GiayKienCuong,ThuongXuyenPha,PhucHopKiem,NanhFenrir,KhienThatTruyen"
+    },
+    {
+      "name": "Đường Caesar (mang Bộc phá)",
+      "info": "AoChoangThanRa,GiayKienCuong,ThuongXuyenPha,PhucHopKiem,NanhFenrir,GiapHoMenh"
+    },
+    {
+      "name": "Đương Caesar (mang Bộc phá)",
+      "info": "ThuongXuyenPha,GiayKienCuong,PhucHopKiem,KhienThatTruyen,KiemMuramasa,HuanChuongTroy"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "nakroth",
+          "info": "Nakroth"
+        },
+        {
+          "hero_id": "preyta",
+          "info": "Preyta"
+        },
+        {
+          "hero_id": "alice",
+          "info": "Alice"
+        },
+        {
+          "hero_id": "payna",
+          "info": "Payna"
+        },
+        {
+          "hero_id": "ybneth",
+          "info": "Ybneth"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "airi",
+          "info": "Airi"
+        },
+        {
+          "hero_id": "raz",
+          "info": "Raz"
+        },
+        {
+          "hero_id": "annette",
+          "info": "Annette"
+        },
+        {
+          "hero_id": "arum",
+          "info": "Arum"
+        },
+        {
+          "hero_id": "omen",
+          "info": "Omen"
+        },
+        {
+          "hero_id": "roxie",
+          "info": "Roxie"
+        }
+      ]
+    }
+  ],
+  "hero_story": "\"Một chiến binh thực thụ bảo vệ người yếu đuối và trừng trị cái ác.\"<br><i class=\"clr-orange\">Zuka</i> sinh ra trong một ngôi làng xinh đẹp và trù phú. Người trong làng hoạt động trong ban ngày và giữ yên tĩnh vào ban đêm. Đó là nơi mà con người được che chở khỏi những khó khăn và đau khổ của thế giới. Võ thuật chính là điều mà cư dân của ngôi làng đánh giá cao nhất. Vì vậy, ngay từ thuở niên thiếu, <i class=\"clr-orange\">Zuka</i> đã buộc phải nghiên cứu tất cả các phong cách chiến đấu và môn phái võ thuật do các bậc sư phụ chỉ dạy.<br>Chàng <i class=\"clr-orange\">Zuka</i> trẻ tuổi không hiểu tại sao anh ta cần phải dành nhiều thời gian và công sức để học võ, khi mà <i class=\"clr-orange\">Zuka</i> chưa bao giờ sử dụng? Chắc chắn nó sẽ tốt hơn nếu dành thời gian đó nghiên cứu những lĩnh vực khác bản thân thực sự muốn theo đuổi? \"Hòa bình không chỉ đơn giản là ngồi một chỗ và ao ước, con người phải có khả năng mới bảo vệ được hòa bình!\" Đó là câu trả lời của sư phụ với <i class=\"clr-orange\">Zuka</i>.<br>Những lời giáo huấn đó để lại một ấn tượng sâu sắc trong tâm trí <i class=\"clr-orange\">Zuka</i>. Khi Lực Lượng Sa Đọa xuất hiện từ thung lũng quỷ dữ đã lan truyền dịch bệnh và hỗn loạn, ngôi làng yên bình này chìm trong ngọn lửa chiến tranh. Trong một nỗ lực để chạy trốn, <i class=\"clr-orange\">Zuka</i> trẻ tuổi bắt tay vào một cuộc hành trình dài với gia đình của mình, vượt qua ngọn núi nguy hiểm để đến Khu Rừng Chạng Vạng huyền thoại.<br><i class=\"clr-orange\">Zuka</i> đã được nghe kể về Khu Rừng Chạng Vạng qua những câu chuyện của người già trong làng. Đây là nhà của Nữ hoàng Tel'Annas, nhưng cũng là nơi trú ngụ của vô số sinh vật lạ kì. Họ là đội quân dưới quyền nàng, lực lượng bảo vệ đất đai khỏi ác quỷ.<br>Trong suốt cuộc hành trình, <i class=\"clr-orange\">Zuka</i> đã chứng kiến nhiều tội ác của Lực Lượng Sa Đọa. Võ thuật mà ông đã luyện tập bao năm qua cuối cùng cũng đến lúc sử dụng. Với bộ giáp biểu tượng và tuyệt kĩ xài quyền trượng, ông đã chiến đấu chống lại kẻ ác thuộc Lực Lượng Sa Đọa và ra tay cứu người vô tội trong tay bọn chúng.<br>Những câu chuyện về người tướng <i class=\"clr-orange\">Zuka</i> được lan truyền khắp nơi. Từ Cung Điện Ánh Sáng đến Lâu Đài Khởi Nguyên, vốn nghi ngờ loài Thú từ lâu nay đã phải công khai tán dương chủ nghĩa tướng của <i class=\"clr-orange\">Zuka</i>. Ngay cả Nữ hoàng Tel'Annas cũng đã chuẩn bị một lễ đón xa hoa cho chiến binh danh dự của Khu Rừng. Sau đó, theo lời",
+  "hero_skin": [{
+      "name": "Đại Sư Gấu Mèo",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Zuka01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": "Zuka01"
+    },
+    {
+      "name": "Đại Phú Ông",
+      "gold": "",
+      "voucher": "219",
+      "event": "",
+      "wall": "Zuka02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": "Zuka02"
+    },
+    {
+      "name": "Giáo Sư Sừng Sỏ (Bậc S)",
+      "gold": "",
+      "voucher": "349",
+      "event": "",
+      "wall": "Zuka03",
+      "disable": "",
+      "img": "thumb3.jpg",
+      "video": "Zuka03"
+    },
+    {
+      "name": "Phát Tài (Tân Xuân)",
+      "gold": "",
+      "voucher": "",
+      "event": "Mở sự kiện",
+      "wall": "Zuka04",
+      "disable": "yes",
+      "img": "thumb4.jpg",
+      "video": "Zuka04"
+    },
+    {
+      "name": "Gấu Nhồi Bông (Bậc S)",
+      "gold": "",
+      "voucher": "379",
+      "event": "",
+      "wall": "Zuka05",
+      "disable": "yes",
+      "img": "thumb5.jpg",
+      "video": "Zuka05"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "hero_id": "Annette",
+  "hero_name": "Annette",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "233",
+    "price_text": "",
+    "position": "Trợ thủ / Pháp sư",
+    "special": "Yểm hộ",
+    "lane": "Đường rồng"
+  },
+  "main_skill": [{
+      "name": "GIÓ NHẸ",
+      "info": "Hồi chiêu: 5 giây<br>Nội tại: Annette nhận một điểm cộng dồn Gió nhẹ mỗi khi tướng xung quanh tung chiêu, tối đa 15 điểm.<br>Khi đã đủ 15 điểm, nếu bản thân Annette hoặc một tướng đồng minh lân cận còn dưới 70% máu, tất cả điểm cộng dồn sẽ chuyển thành hiệu ứng hồi 275 + (0.3 công phép) (+ 25 mỗi cấp tướng) máu cho mọi tướng đồng minh xung quanh."
+    },
+    {
+      "name": "GIÓ XOÁY",
+      "info": "Hồi chiêu: 10/9.5/9/8.5/8/7.5 giây<br>Annette tạo ra một cơn gió lốc gây 55/64/73/82/91/100 (+ 0.15 công phép) sát thương phép mỗi 0.25 giây tại điểm chỉ định. Mỗi đợt tăng 33% sát thương, kéo dài trong 2 giây. Những kẻ địch tại vùng tâm cơn gió sẽ phải chịu thêm 2% máu tối đa thành sát thương phép, đồng thời bị làm chậm 50% tốc chạy trong 0.25 giây (sát thương cộng thêm và hiệu ứng làm chậm này cộng dồn tối đa 4 lần)."
+    },
+    {
+      "name": "GIÓ NỒM",
+      "info": "Hồi chiêu: 11/10.4/9.8/9.2/8.6/8 giây<br>Tiêu hao: 70/75/80/85/90/95 năng lượng<br>Kích hoạt: Annette bắn một quả cầu gió theo hướng chỉ định gây 250 (+ 0.3 công phép) sát thương phép, và làm chậm 50% tốc chạy của các đơn vị trúng chiêu. Quả cầu gió bay xuyên qua nạn nhân đầu tiên, nếu trúng phải nạn nhân thứ hai sẽ gom cả hai lại, gây thêm 300 + (+ 0.5 công phép) sát thương phép, và làm choáng trúng 1 giây.<br>Nội tại: Nếu Annette bị choáng sẽ lập tức hoàn lại thời gian hồi chiêu này, đồng thời giúp tạo lá chắn 300/360/420/480/540/600 (+ 0.5 công phép) và tăng 150/192/234/276/318/360 giáp cùng giáp phép trong 2 giây; 60 giây hồi chiêu."
+    },
+    {
+      "name": "MẮT BÃO",
+      "info": "Hồi chiêu: 70/65/60 giây<br>Tiêu hao: 100/125/150 năng lượng<br>Annette bay đến địa điểm chỉ định tạo ra một cơn bão hất văng kẻ địch lân cận và gây 400/600/800 + (0.5 công phép) sát thương phép, đồng thời tạo thành một bức tường gió ngăn kẻ địch vượt qua trong 2.5 giây. Các tướng đồng minh bên trong bức tường gió được tăng 40/60/80% tốc chạy và 30/40/50% tốc đánh. Khi tung chiêu này Annette sẽ được hoá giải mọi trạng thái khống chế hiện tại đang phải gánh chịu.<br>Sau khi tung chiêu, cô nàng có thể tự ý di chuyển ra khỏi Mắt Bão."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game (khóa được 2 mục tiêu sẽ giúp tối ưu hóa sát thương)",
+      "info": "3,2,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 chiêu thức",
+      "info": "3,2,0,4"
+    },
+    {
+      "name": "*Hoặc dùng như này chia cắt đội hình địch trước",
+      "info": "4,3,2,0"
+    }
+  ],
+  "skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Là một cô nàng chơi hỗ trợ hoặc kiêm luôn cả pháp sư đường giữa luôn đó, sát thương to lắm, đừng đùa.<br>- Mặc dầu thế đừng đứng cao quá, chơi xung quanh AD và cấu rỉa đối thủ bằng Gió xoáy.<br>- Khi tung Gió nồm đặc biệt chú ý, nó sẽ mắc xích và khóa 2 mục tiêu trúng phải khi có trạng thái này thì đánh thui kk.<br>- Chú ý tối đa hóa xác thương với combo Gió nồm trúng 2 mục tiêu sau đó Gió xoáy.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game nên chú ý kiểm tra bụi và đi gank hỗ trợ các lane và chú ý cấu rỉa máu, đừng đứng cao quá dễ bốc hơi lắm :P<br>- Chiêu cuối Mắt bão là chiêu thức cực kì lạ và khó có thể sử dụng thành thục, vì thế các bạn nên tập luyện chiu này nhé, thành bại tại cái điện thoại mà haha!!<br>- Mắt bão rất đa dụng có thể tách đội hình đối phương ra nhiều mãng, hoặc ngăn chặn các pha dồn combo. đặc biệt xem xạ thủ, pháp sư đối phương ở đâu lùa về.",
+  "skill_special": "CapCuu,TocBien",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo24",
+        "info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+      },
+      {
+        "name": "NgocTim28",
+        "info": "Máu tối đa +13.5<br>Tốc chạy +0.7%"
+      },
+      {
+        "name": "NgocXanh22",
+        "info": "Máu tối đa +15.7<br>Hồi máu/5s +3.1<br>Giảm hồi chiêu +0.3%"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo31",
+        "info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+      },
+      {
+        "name": "NgocTim32",
+        "info": "Tốc đánh +1%<br>Tốc chạy +1%"
+      },
+      {
+        "name": "NgocXanh33",
+        "info": "Công phép +2.4<br>Giảm hồi chiêu +0.7%"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Chơi hỗ trợ",
+      "info": "LenhBaiPhongThan,GiayKienCuong,TruongBang,KhienHuyenThoai,MatNaBerith,SachTruyHon"
+    },
+    {
+      "name": "Chơi hỗ trợ",
+      "info": "LenhBaiPhongThan,GiayKienCuong,TruongBang,KhienHuyenThoai,HuanChuongTroy,SachTruyHon"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "wisp",
+          "info": "Pháo Yoyo có khả năng làm choáng kẻ địch tạo tiền đề cho Annette lao vào"
+        },
+        {
+          "hero_id": "yorn",
+          "info": "Tên nổ của Yorn giúp giữ chân mục tiêu tiếp theo là công việc của Annette"
+        },
+        {
+          "hero_id": "tel_annas",
+          "info": "Chiêu cuối của Tel có thể làm choáng nhiều mục tiêu, hãy để Annette xử tiếp"
+        },
+        {
+          "hero_id": "maloch",
+          "info": "Khả năng đột kích vào team địch kết hợp với Mắt bão của Annette thì ôi thôi tan đàn xẻ nghé"
+        },
+        {
+          "hero_id": "sephera",
+          "info": "Sephera cố giữ chân kẻ địch để rồi Annette cấu rỉa và cách ly"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "omen",
+          "info": "Một khi đã dính phải Sát vực của Omen thì không còn đường về"
+        },
+        {
+          "hero_id": "chaugnar",
+          "info": "Chaugnar giải được hết hầu hết hiệu ứng do Annette gây ra"
+        },
+        {
+          "hero_id": "ybneth",
+          "info": "Y'bneth tạo ra hàng loạt trở ngại bởi chiêu cuối của Y'bneth khá rộng và giảm rất nhiều tốc chạy"
+        },
+        {
+          "hero_id": "alice",
+          "info": "Dòng chảy thời không của Alice có thể khiến Annette không còn đường lùi nên hãy cân nhắc"
+        }
+      ]
+    }
+  ],
+  "hero_story": "Ngày làm việc của <i class=\"clr-orange\">Annette</i> khởi đầu khi trời chạng vạng.<br>Đũa phép? Có. Cầu pha lê? Sẵn sàng. Tăng lực dược? Xong – sai lầm dạo trước đã dạy cô bài học cẩn tắc vô áy náy, cứ phải chuẩn bị kỹ cho chắc cú. Xong xuôi đâu đấy, <i class=\"clr-orange\">Annette</i> phóng chổi bay khỏi căn gác mái nhỏ nhắn ấm cúng của mình lên bầu trời đầy sao, nơi cô lặng lẽ vi hành khắp thị trấn nhỏ ven biển đang đắm chìm trong giấc nồng.<br>Thị trấn Hải hồn nằm lọt thỏm giữa ba bề là đại dương. Suốt những thập kỷ gần đây, bão tố và sóng thần đã trở thành chuyện thường niên do các thay đổi khí hậu bắt nguồn từ những dòng chảy và Khe vực thẳm. Cũng bằng đấy thời gian dân làng chài đã nỗ lực cầu khẩn Hội đồng Phép thuật cắt cử một pháp sư đến cứu viện. Đắng lòng thay số phận của làng chài với dân số khiêm tốn này chẳng nằm trong danh sách ưu tiên của Hội đồng, nhất là khi chính bản thân các Pháp sư đang ngày càng ít đi, lại còn phải lo chống trả những cuộc tấn công ngày một leo thang tại tiền tuyến phương nam. Thế là thị trấn này, một cách hiển nhiên, trở thành thực địa của các phù thủy tập sự.<br>“Làng chài nơi đây cần mình!”<br>Thay vì chọn thực tập tại các chốn phồn hoa đô thị, <i class=\"clr-orange\">Annette</i> một mình một chổi phi thẳng đến Thị trấn Hải hồn. Trên thông thiên văn, dưới tường địa lý, à không phép thuật hệ gió, rõ như ban ngày rằng không cô thì còn ai vào đây để giải quyết vấn đề khí hậu chốn này. Bằng vốn kiến thức của mình, bất kỳ thay đổi nào của các chòm sao, dù là nhỏ nhất, đều được cô nhanh chóng phát hiện và lập tức thông báo giúp cư dân làng chài chuẩn bị sẵn sàng cho mọi thiên tai sắp ập đến.<br>Ngặt một nỗi điều mà dân làng chài cần là một pháp sư thần kỳ, người có khả năng hô biến xua tan thiên tai, điều mà dĩ nhiên <i class=\"clr-orange\">Annette</i> còn lâu mới đủ sức - ấy là còn chưa kể đến việc cô không được phép niệm chú sử dụng phép thuật gì sất, mà cái này thì chủ yếu là do những điều luật ràng buộc cấm thực tập sinh phù thủy dùng phép thuật ngoài khuôn viên nhà trường. Thế nên đối với dân làng chài, <i class=\"clr-orange\">Annette</i> giống một cô bé ngáo ngơ làm chuyện bá vơ hơn là một pháp sư đáng kính, bất kể thành tích dự báo thời tiết suýt hoàn hảo, chỉ sai hai trong tổng số hàng chục lần chính xác trong 50 ngày vừa qua của cô.<br>Hôm đấy là một ngày chủ nhật tươi sáng - một trong các sai lầm kể trên. Tất cả dân chài rút hết thuyền bè neo đậu kỹ càng, nhà cửa chốt chặn chặt chẽ và ở lỳ suốt bên trong cả ngày theo như cảnh báo của <i class=\"clr-orange\">Annette</i>. Thế rồi sáng hôm sau mặt trời vẫn tỏa nắng lung linh…<br>Lần còn lại là khi <i class=\"clr-orange\">Annette</i> ngủ gục giữa chừng lúc nửa đêm. Trước đấy thì bầu trời vẫn cho thấy các tín hiệu của các ngày nắng sắp tới, thế rồi khi cô chợp mắt nhẹ do đã quá mệt mỏi thì các vì sao lại chuyển mình. Tối hôm sau khi những chiếc thuyền đầy ắp cá tươi đang trên đường về bờ biển thì không kịp trở tay khi bão ập đến bất ngờ. May thay cơn bão cũng không to lắm, và <i class=\"clr-orange\">Annette</i> cũng kịp xuất hiện để cứu vãn tình hình, thế nên hú hồn thì hú hồn, nhưng không có thương vong nào cả.<br>Dẫu vậy những sai lầm này vẫn dẫn đến khá nhiều than phiền về <i class=\"clr-orange\">Annette</i>. Đối với mọi sinh viên của học viện trứ danh trực thuộc Hội đồng, việc duy trì niềm tin và danh dự của tổ chức là trách nhiệm và nghĩa vụ của tất cả mọi người. Do đó các giáo sư đã quyết định đình chỉ công tác của <i class=\"clr-orange\">Annette</i> và yêu cầu cô quay về trường học lại.<br>Và tối nay chính là buổi cuối cùng của <i class=\"clr-orange\">Annette</i>.<br>Nếu được hỏi thì hiển nhiên <i class=\"clr-orange\">Annette</i> chẳng thích việc bị buộc phải quay về tí nào. Dẫu căn gác mái được dựng vội dựng vàng đầy tạm bợ bởi dân chài chẳng thể nào sánh bằng ký túc xá ở trường, nhưng cô cảm thấy như được ở nhà. Hơn thế nữa, trước khi đến đây, cô đã tự hứa với lòng rằng mình sẽ sử dụng phép thuật để hỗ trợ những người cần cứu giúp, và rõ ràng là lời hứa chưa được thực hiện trọn vẹn.<br>Công tâm mà nói thì là một thực tập sinh, <i class=\"clr-orange\">Annette</i> đã làm khá tốt. Với nội dung phức tạp như Thiên văn học thì sai số 4% đã là đáng gờm lắm rồi. Tuy nhiên chính bản thân của <i class=\"clr-orange\">Annette</i> cũng hiểu sự khác biệt giữa 4% lý thuyết và thực tế khổng lồ ra sao. Với dân làng chài, hễ sai là mất mạng chứ chẳng chơi.<br>Ngẩng đầu nhìn bầu trời điểm xuyết đầy những vì sao lớn có, nhỏ có, <i class=\"clr-orange\">Annette</i> bỗng nhớ lại một cuộc gặp gỡ định mệnh từ nhiều năm trước.<br>Đêm đấy <i class=\"clr-orange\">Annette</i> ở lại thư viện. Người duy nhất còn sót lại ngoài cô là một người phụ nữ với đôi mắt đầy trìu mến. <i class=\"clr-orange\">Annette</i> biết mình cần phải chăm chỉ hơn nữa, vì dẫu cô rất giỏi Lý thuyết Phép thuật, lúc thực hành thì cô lại tệ ơi là tệ. Tệ đến nỗi cuối học kỳ cô là người duy nhất trong cả lớp vẫn chưa thể niệm chú phép thuật nào cho ra hồn cả. Và kết quả như thế nếu vẫn còn tiếp diễn thì không bị buộc thôi học mới là lạ.<br><i class=\"clr-orange\">Annette</i> cố lật hết quyển này đến quyển khác để giải đáp một số thắc mắc, nhưng mọi nỗ lực dường như vô vọng. Thế rồi khi bắt gặp ánh mắt đầy khích lệ của người phụ nữ, cô quyết định hỏi xin một số lời tư vấn.<br>“Ta đã từng có một người bạn học Lý thuyết Phép thuật tệ khủng khiếp – và anh ấy là một trong những Pháp sư hùng mạnh nhất ta từng biết.” Người phụ nữ nói.<br><i class=\"clr-orange\">Annette</i> há hốc mồm, tai vẫn chưa thể tin nổi điều vừa nghe.<br>Quý cô mỉm cười. “Cũng kinh ngạc như em, thế nên ta quyết định theo dõi xem anh ấy thường tập luyện thế nào. Em biết ta thấy gì không? Anh ấy nhảy múa cùng các ngọn lửa, hệt như lũ tinh linh thiêu thân, và nhảy cuồng nhiệt như thể lửa là cả thế giới đối với anh ấy.”<br>“Phép thuật chân chính không chỉ gói gọn trong câu chữ. Vùi đầu trong sách cả ngày chẳng giúp ta đi đến đâu cả. Em hãy thử thân thiện hơn với phép thuật, và biết đâu đấy một ngày nào đó em sẽ được chấp nhận.<br>Nhiều năm về sau <i class=\"clr-orange\">Annette</i> mới biết được danh tính của người phụ nữ bí ẩn đó tại một buổi lễ trao thưởng. Sephera là một trong những nhà sáng lập của Hội đồng Phép thuật, và cũng đồng thời là một huyền thoại. Khi <i class=\"clr-orange\">Annette</i> tiếp nhận chiếc cúp từ tay Sephera, lời nhắn nhủ đầy thông thái năm nào lại vang vọng trong tai cô: “Hãy kết bạn với phép thuật, và cùng nhau hỗ trợ những người cần cứu giúp.”<br>Đấy chính là điều đã mang <i class=\"clr-orange\">Annette</i> đến với Thị trấn Hải hồn.<br>Bất thình lình các vì sao chuyển mình. <i class=\"clr-orange\">Annette</i> điếng hồn trân trối nhìn Tử vong tinh, vì sao hắc ám nhất chợt lóe lên chút ánh tím rồi tăt lịm đi. Chỉ trong chớp mắt, nhưng đôi mắt tinh tường của <i class=\"clr-orange\">Annette</i> đã kịp bắt trọn cả thời khắc ấy. Một cơn bão đang thai nghén – thứ được sinh ra từ Khe vực thẳm chốn xa khơi đang dần dần bành trướng trọn khắp đại dương.<br>Tàn bạo. Chết chóc<br>“Hỡi bạn tôi ơi, mình cần trợ giúp!” Trước hiểm họa khủng khiếp đang ập đến từ cuối chân trời, <i class=\"clr-orange\">Annette</i> quyết làm lơ luật lệ của Học viện. Cô nhảy lên chiếc chổi của mình và phóng thẳng đến cơn bão như một vị kỵ sĩ quả cảm.<br>Sáng hôm sau khi dân chài thức giấc, họ phát hiện ra thuyền bè của mình nay chỉ còn lại những mảnh vụn, và <i class=\"clr-orange\">Annette</i> ngất tỉnh trong kiệt quệ trên mặt đất. Dẫu chẳng ai được chứng kiến những gì <i class=\"clr-orange\">Annette</i> đã làm, họ vẫn thừa sức mường tượng ra sự khủng khiếp của thứ cô phải một mình đối đầu dựa trên cảnh tượng hoang tàn sáng nay. “Thật là một pháp sư vĩ đại!” Họ thốt lên. Suýt tí nữa thì vì sự gàn dở của mình mà họ đã tống khứ đi người đồng minh tận tụy nhất – may thay cô ấy vẫn hết lòng vì họ cho đến phút cuối cùng.<br>Mọi sự, vẫn còn có thể được cứu vãn.<br>Thực tập sinh mới thay thế <i class=\"clr-orange\">Annette</i>, trong ngỡ ngàng, được cả làng chài đề nghị rời đi. Anh ta chẳng hiểu chuyện quái gì đang diễn ra, chỉ biết Thị trưởng gửi gắm cho mình mang về Học viện một bức tâm thư cảm tạ với tất cả chữ ký của mọi dân làng. Người thị trưởng không chỉ ngợi khen những nỗ lực của <i class=\"clr-orange\">Annette</i>, mà còn xin đề xuất Học viện tấn phong cô trở thành Pháp sư chính thức.<br>Chưa hết, ông còn tiết lộ rằng toàn làng chài Hải hồn đang lên kế hoạch xây dựng một ngôi đền ma pháp tri ân <i class=\"clr-orange\">Annette</i>. Dẫu có thể thiếu thốn về cả nhân lực lẫn vật tư, nhưng dù tốn cả đời, hay thậm chí nhiều thế hệ, họ vẫn đồng lòng quyết hoàn thành sứ mệnh này, bởi họ biết rằng Annnette đã thệ ước cô sẽ dành cả đời ở chốn nay.<br>Giờ đây bất cứ khi nào Thị trưởng nhắc đến <i class=\"clr-orange\">Annette</i> trong thư, ông luôn bày tỏ sự tôn kính của mình bằng dòng chữ.<br>Ngài <i class=\"clr-orange\">Annette</i>.",
+  "hero_skin": [{
+      "name": "Nàng Phù Thủy Nhỏ",
+      "gold": "13,888",
+      "voucher": "233",
+      "event": "",
+      "wall": "Annette01",
+      "img": "thumb1.jpg"
+    },
+    {
+      "name": "Nữ Quản Ga",
+      "gold": "",
+      "voucher": "219",
+      "event": "",
+      "wall": "Annette02",
+      "img": "thumb2.jpg"
+    },
+    {
+      "name": "Annette Xứ Sở Thần Tiên",
+      "gold": "",
+      "voucher": "",
+      "event": "Sổ sứ mệnh 4",
+      "wall": "Annette03",
+      "img": "thumb3.jpg"
+    }
+  ]
+}

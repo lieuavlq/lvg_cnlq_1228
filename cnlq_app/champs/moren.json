@@ -1,0 +1,145 @@
+{
+  "hero_id": "Moren",
+  "hero_name": "Moren",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Xạ thủ",
+    "special": "Cấu rỉa",
+    "lane": "Đường rồng / Đi rừng"
+  },
+  "main_skill": [{
+      "name": "Tinh chuẩn",
+      "info": "Nội tại: Các đòn đánh và chiêu thức trúng đích giúp cộng dồn dấu ấn Tinh Chuẩn trên Moren. Khi đạt đủ năm dấu ấn, thời gian hồi của Súng thần công lập tức hoàn tất, đồng thời giúp Moren nhận 12- 26% hút máu (tăng 1% mỗi cấp tướng)."
+    },
+    {
+      "name": "Súng Thần Công",
+      "info": "Tăng công vật lý: 85%/91%/97%/103%/109%/115%<br>Tăng 2 loại giáp: 25/34/43/52/61/70<br>Moren tự tăng 40% tốc chạy trong 1.5s và khiến bản thân được tăng 25 giáp và giáp phép trong 5s, đặc biệt các đòn đánh thường trúng đích sẽ lập tức làm mới thời gian duy trì hiệu ứng, cộng dồn tối đa 7 lần, đòn đánh thường đầu tiên trong 5s sau khi tung chiêu sẽ bắn 2 viên đạn, mỗi viên gây 25 (+143) STVL."
+    },
+    {
+      "name": "Pháo Phản Lực",
+      "info": "ST Gốc: 150/200/250/300/350/400<br>Moren tự tăng 40% tốc chạy trong 1.5s, 5s sau đó các đòn đánh thường sau khi tung chiêu sẽ bắn ra 2 viên đạn, mỗi viên gây 25（+0.85 công vật lý） STVL, đồng thời sẽ khiến bản thân được tăng 25 giáp và giáp phép, duy trì 5s, cộng dồn tối đa 8 lần, các đòn đánh thường trúng đích sẽ lập tức làm mới thời gian duy trì hiệu ứng, gia tăng tầm bắn."
+    },
+    {
+      "name": "Trường Điện Từ",
+      "info": "ST Gốc: 180/240/300<br>H.Chiêu: 35/30/25<br>Moren ném một viên nam châm vào một vùng chỉ định, thứ sẽ kích hoạt trường điện từ trong 2.5s, gây 6 đợt 180 (+50) STVL liên tục lên các nạn nhân trong vùng ảnh hưởng, đồng thời giảm 50% tốc chạy của chúng. Kẻ địch bị Moren đẩy lùi vào trường điện từ sẽ bị choáng 1s."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,3,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 chiêu thức",
+      "info": "2,4,3,2,0"
+    }
+  ],
+  "skill_note": "*Là một tướng dame to nên không cần ngần ngại gì cả tank hả bắn luôn, bắn nát cả thế giới.",
+  "skill_special": "TrungTri,TocBien",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo21",
+        "info": "Tốc đánh +1.2%"
+      },
+      {
+        "name": "NgocTim21",
+        "info": "Tốc đánh +0.4%<br>Hút máu +0.8%"
+      },
+      {
+        "name": "NgocXanh23",
+        "info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo38",
+        "info": "Tốc đánh +1.6%<br>Tỷ lệ chí mạng +0.5%"
+      },
+      {
+        "name": "NgocTim35",
+        "info": "Hút máu +1.6%"
+      },
+      {
+        "name": "NgocXanh31",
+        "info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đi rừng",
+      "info": "KiemTruyHon,GiayKienCuong,ThanhKiem,KiemFafnir,PhucHopKiem,KiemMuramasa"
+    },
+    {
+      "name": "Đường trên dưới hoặc đi rừng",
+      "info": "ThanhKiem,GiayDuMuc,SongDaoBaoTap,ThuongXuyenPha,PhucHopKiem,DaoTruyHon"
+    },
+    {
+      "name": "Game thủ hay lên đi rừng",
+      "info": "KiemTruyHon,GiayHoVe,ThanhKiem,SongDaoBaoTap,ThuongXuyenPha,LiemDoatMenh"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "ormarr",
+          "info": "Ormarr"
+        },
+        {
+          "hero_id": "chaugnar",
+          "info": "Chaugnar"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "butterfly",
+          "info": "Butterfly"
+        },
+        {
+          "hero_id": "grakk",
+          "info": "Grakk"
+        },
+        {
+          "hero_id": "wonder_woman",
+          "info": "WonderWoman"
+        },
+        {
+          "hero_id": "nakroth",
+          "info": "Nakroth"
+        }
+      ]
+    }
+  ],
+  "hero_story": "“Hãy nói xin chào với người bạn tý hon của ta”<br>Nếu không vì tính cách ưa bạo lực và bướng bỉnh, có lẽ <i class=\"clr-orange\">Moren</i> đã trở thành một học giả chăm chỉ và thông thái. Tuy nhiên, với nguồn gốc là người lùn, <i class=\"clr-orange\">Moren</i> chỉ thích uống rượu và gây gổ, giải quyết những bất đồng trong học thuật bằng nắm đấm và đạn dược thay vì nói chuyện. Vì vậy, không học giả nào muốn chấp nhận gã đi theo học việc. Điều này đã buộc <i class=\"clr-orange\">Moren</i> phải sử dụng tay nghề của gã để tìm kiếm hướng đi mới: Khoa học và Cơ khí.<br>Theo số liệu thống kê chưa đầy đủ, gần 50% số vũ khí được đánh giá cao nhất tại Miền đất hứa do chính tay <i class=\"clr-orange\">Moren</i> thiết kế hoặc chỉnh sửa. Vì vậy, từ những vị thần tối cao nhất đến bè lũ quỷ dữ khát máu đều rất để tâm tới gã. Điều này giúp <i class=\"clr-orange\">Moren</i> duy trì một vị trí trung lập giữa hai phe thiện ác trong thời gian dài.<br>Slimz, gã thỏ tài phiệt đến từ tập đoàn thương nhân nhanh chóng đánh hơi thấy cơ hội kinh doanh từ khả năng chế tạo vũ khí của <i class=\"clr-orange\">Moren</i>. Sau khi đạt được những thỏa thuận về giá cả, cả hai đi đến ký hợp đồng trọn đời. Kể từ đó, Slimz và tập đoàn có quyền sở hữu hoàn toàn các vũ khí do <i class=\"clr-orange\">Moren</i> tạo ra. Đổi lại, <i class=\"clr-orange\">Moren</i> nhận được mẫu thiết kế vũ khí quý hiếm, nguồn cung cấp vật liệu vô tận và toàn quyền kiểm soát Cơ giới thành. Mối quan hệ làm ăn này đã khiến cả hai bên trở nên cực kỳ giàu có, nhưng đó cũng là lúc Lực lượng sa đọa nhắm tới.<br>Sau một cuộc tấn công của Preyta và Skud, Cơ giới thành gánh chịu tổn thất nặng nề. Slimz hy vọng giữ được chút ít tầm ảnh hưởng, nhưng hắn không còn gì để mặc cả, càng không thể thuyết phục được <i class=\"clr-orange\">Moren</i> cứng đầu. Không có lựa chọn nào khác, hắn chấm dứt hợp đồng và bỏ mặc <i class=\"clr-orange\">Moren</i>. Điều này khiến <i class=\"clr-orange\">Moren</i> quyết định triển khai tất cả những vũ khí còn sót của mình tại Cơ giới thành và phát động một trận chiến sống còn với kẻ thù.<br>Hành động của <i class=\"clr-orange\">Moren</i> đã làm Skud thêm phần hiếu chiến, trong một cơn cuồng nộ, hắn đã tàn phá và tiêu diệt hoàn toàn tuyến phòng thủ của tòa thành. Thậm chí hắn còn đánh bại cả Omega, bộ giáp chiến tranh được cử tới tiếp viện cho Cơ giới thành. <i class=\"clr-orange\">Moren</i> bị thương nặng và cố gắng phát nổ một quả bom cháy nhằm liều chết với Skud, nhưng Omega kéo gã đi trước khi có thể chạm vào nút. Tuy rất biết ơn cứu mạng, nhưng <i class=\"clr-orange\">Moren</i> vẫn vô cùng giận dữ. Cuối cùng, gã nghe theo lời khuyên của Omega và chấp nhận một đề xuất hợp tác của Thane, chỉ huy tối cao Lâu đài khởi nguyên.<br>Đổi lại, Omega chia sẻ với <i class=\"clr-orange\">Moren</i> bí mật nguyên lý cơ học tiên tiến, cho phép gã tạo ra một thế hệ vũ khí công nghệ cao mới.",
+  "hero_skin": [{
+      "name": "Đại Sư Cơ Khí",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Moren01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": ""
+    },
+    {
+      "name": "Chú Thợ Điện (Bậc A)",
+      "gold": "",
+      "voucher": "219",
+      "event": "",
+      "wall": "Moren02",
+      "disable": "yes",
+      "img": "thumb2.jpg",
+      "video": ""
+    }
+  ]
+}

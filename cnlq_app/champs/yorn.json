@@ -1,0 +1,173 @@
+{
+  "hero_id": "Yorn",
+  "hero_name": "Yorn",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Xạ thủ",
+    "special": "Cấu rỉa",
+    "lane": "Đường rồng"
+  },
+  "main_skill": [{
+      "name": "Vô tận tên",
+      "info": "Nội tại: Đòn đánh thường thứ năm hoặc đòn đánh kế tiếp sau khi Yorn dùng một kĩ năng, cho phép Yorn bắn nhanh gấp đôi bình thường, mỗi đợt gây 75 (Cấp tướng + 6)(+0.4 công vật lý) sát thương vật lý (tổng cộng 4 đợt)."
+    },
+    {
+      "name": "Tên nổ",
+      "info": "ST Gốc: 120/145/170/195/220/245<br>H.Chiêu: 9/8.4/7.8/7.2/6.6/6<br>Yorn bắn 1 mũi tên nổ đến vùng chỉ định, gây 120 (+93) STVL lên những kẻ địch trúng chiêu, đồng thời khiến nạn nhân bị choáng trong 0.75s. Ngoài ra đòn đánh thường tiếp theo sẽ kích hoạt nội tại Vô tận tên."
+    },
+    {
+      "name": "Mưa tên",
+      "info": "ST Gốc: 105/120/135/150/165/180<br>H.Chiêu: 20/19/18/17/16/15<br>Yorn triệu hồi một ma trận di động liên tục sát thương những kẻ địch ngẫu nhiên bên trong, hay 105 (+73) STVL mỗi mũi tên. Ngoài ra đòn đánh thường tiếp theo sẽ kích hoạt nội tại Vô tận tên."
+    },
+    {
+      "name": "Tên thần",
+      "info": "ST Gốc: 300/400/500<br>H.Chiêu: 18/15/12<br>Yorn bắn một mũi tên cường hóa đến một mục tiêu gây 300 (+1.23 công vật lý) STVL lên tướng địch đầu tiên trúng phải, kèm theo lượng máu đã mất của mục tiêu thành 10% máu đã mất của mục tiêu thành STP thuật, đồng thời các đòn đánh tiếp theo sẽ kích hoạt nội tại Vô tận tên, đồng thời nếu đi qua quái, Tên Thần sẽ gây 1000 sát thương."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "2,3,5,7,9,11",
+    "line2": "1,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "0,3,2,3,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 chiêu thức",
+      "info": "3,0,2,3,0,4,3,0"
+    }
+  ],
+  "skill_note": "*Chiêu 2 khá bá đạo thả luôn cả vùng trời, sát thương không cao nhưng đối thủ phải dè chừng.<br>*Bật Tên Thần bắn xuyên lục địa, kết thúc địch bằng chiêu này với khoảng cách xa sẽ mang lại hưng phấn cao!!",
+  "skill_special": "TocBien,TrungTri",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo25",
+        "info": "Công vật lý +1.5<br>Máu tối đa +13.5"
+      },
+      {
+        "name": "NgocTim27",
+        "info": "Tốc đánh +0.4%<br>Tỷ lệ chí mạng +0.3%<br>Tốc chạy +0.5%"
+      },
+      {
+        "name": "NgocXanh22",
+        "info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo36",
+        "info": "Công vật lý +2<br>Xuyên giáp +3.6"
+      },
+      {
+        "name": "NgocTim31",
+        "info": "Công vật lý +1.6<br>Tốc chạy +1%"
+      },
+      {
+        "name": "NgocXanh31",
+        "info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường trên hoặc dưới",
+      "info": "KiemFafnir,GiayDuMuc,SongDaoBaoTap,KiemMuramasa,PhucHopKiem,NanhFenrir"
+    },
+    {
+      "name": "Đi rừng 1",
+      "info": "KiemTruyHon,GiayHoVe,ThuongXuyenPha,ThanhKiem,KiemFafnir,PhucHopKiem"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "QuyKiem,GiayDuMuc,SongDaoBaoTap,KiemMuramasa,PhucHopKiem,NanhFenrir"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "toro",
+          "info": "Toro"
+        },
+        {
+          "hero_id": "ormarr",
+          "info": "Ormarr"
+        },
+        {
+          "hero_id": "krixi",
+          "info": "Krixi"
+        },
+        {
+          "hero_id": "aleister",
+          "info": "Aleister"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "butterfly",
+          "info": "Butterfly"
+        },
+        {
+          "hero_id": "nakroth",
+          "info": "Nakroth"
+        },
+        {
+          "hero_id": "zephys",
+          "info": "Zephys"
+        }
+      ]
+    }
+  ],
+  "hero_story": "“Bất cứ đâu ta đến, ánh sáng sẽ thanh tẩy bóng tối!”<br>Vị chiến binh rực rỡ nhất của Đền Ánh Sáng, <i class=\"clr-orange\">Yorn</i> chói lóa với những mũi tên lấp lánh của chàng.Không chỉ là một chiến binh dũng mãnh, chàng còn đẹp như tạc tượng với thân hình khỏe mạnh cùng gương mặt điển trai cũng đủ “cưa đổ” bất kì ai. Chưa hết, <i class=\"clr-orange\">Yorn</i> còn chơi được đàn lia, mỗi khi chàng cất lên tiếng đàn, điệu nhạc du dương đó sẽ làm mê hoặc bất kì sinh vật nào gần đó. Cả người <i class=\"clr-orange\">Yorn</i> lấp lánh ánh hào quang không chút tì vết, bởi chàng chính là hiện thân của năng lượng, và ánh sáng.<br>Khi các lực lượng bóng tối bắt đầu manh động, <i class=\"clr-orange\">Yorn</i> sẽ cưỡi lên cỗ xe ngựa và dẫn đầu đoàn quân của mình đến chiến trường. Sát cánh bên chàng luôn là thần cung ánh sáng, và cũng như hàng ngàn ánh mặt trời luôn xóa tan bóng tối, chẳng mục tiêu nào có thể trốn thoát những mũi tên của chàng. Thậm chí trên chiến trường đến Maloch cũng phần nào e dè tránh mặt <i class=\"clr-orange\">Yorn</i>, chiến binh hùng mạnh nhất của Đền Ánh Sáng.<br>\"Cẩn thận! Ta đã nhắm vào ngươi!\"",
+  "hero_skin": [{
+      "name": "Mũi Tên Mặt Trời",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Yorn01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": "Yorn01"
+    },
+    {
+      "name": "Cung Thủ Bóng Đêm",
+      "gold": "",
+      "voucher": "175",
+      "event": "",
+      "wall": "Yorn02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": "Yorn02"
+    },
+    {
+      "name": "Đặc Nhiệm SWAT (Bậc A)",
+      "gold": "",
+      "voucher": "379",
+      "event": "",
+      "wall": "Yorn03",
+      "disable": "",
+      "img": "thumb3.jpg",
+      "video": "Yorn03"
+    },
+    {
+      "name": "Thế Tử Nguyệt Tộc (Bậc SS)",
+      "gold": "",
+      "voucher": "",
+      "event": "Có tại Vòng Quay Nguyệt Tộc",
+      "wall": "Yorn04",
+      "disable": "",
+      "img": "thumb4.jpg",
+      "video": "Yorn04"
+    }
+  ]
+}

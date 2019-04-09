@@ -1,0 +1,165 @@
+{
+  "hero_id": "Fennik",
+  "hero_name": "Fennik",
+  "main_info": {
+    "price_gold": "18,888",
+    "price_voucher": "539",
+    "price_text": "",
+    "position": "Xạ thủ",
+    "special": "Tiền đạo / Trung phong",
+    "lane": "Đi rừng / Đường rồng"
+  },
+  "main_skill": [{
+      "name": "Ná thun",
+      "info": "Nội tại: Với chiếc ná thun thần sầu, Fennik sở hữu tầm đánh xa hơn so với đại đa số các xạ thủ khác. Ngoài ra đạn ná sau khi trúng đích còn lan sát thương ra xung quanh mục tiêu."
+    },
+    {
+      "name": "Kíp nổ",
+      "info": "ST Gốc và ST gây thêm: 160/200/240/280/320/360<br>H.Chiêu: 10/9.4/8.8/8.2/7.6/7 giây<br>Tốc đánh: 25%/30%/35%/40%/45%/50%<br>Fennik ném một sợi xích kỳ lạ lên kẻ địch, thứ sẽ phát nổ sau 4s đòn đánh gây 160 (+80) STVL, trong thời gian sợi xích còn bám lấy mục tiêu, đòn tấn công của Fennik sẽ gây thêm 160 (+80) STVL, cộng dồn tối đa 4 lần, đồng thời sau khi tung chiêu Fennik sẽ được tăng 25% tốc đánh trong 4s."
+    },
+    {
+      "name": "Nẹt điện",
+      "info": "ST Gốc: 80/90/100/110/120/130<br>ST thêm: 30/36/42/48/54/60<br>H.Chiêu: 12/11.5/11/10.5/10/9.5<br>Fennik lướt đi cực nhanh và không thể bị chọn làm mục tiêu đồng thời tạo ra 1 vệt điện tích gây 80 (+107) STVL và làm chậm 50% tốc chạy của những kẻ địch trúng chiêu trong 2s. Các nạn nhân đứng trên vệt điện tích sẽ phải chịu 30 (+40) STVL mỗi 0.25s."
+    },
+    {
+      "name": "Lốc siêu thanh",
+      "info": "ST Gốc: 80/105/130<br>H.Chiêu: 30/25/20 giây<br>Fennik ném dây xích đến nơi chỉ định tạo ra cơn bão siêu thanh gây 75 (+0.30) STVL mỗi 0.5s gây và hiệu ứng làm chậm, những kẻ địch trong phạm vi ảnh hưởng sẽ phải chịu gấp đôi sát thương, đồng thời Bão Siêu Thanh có thể giúp Fennik nạp kíp nổ cho Chiêu 1."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "3,2,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 chiêu thức",
+      "info": "3,4,2,0"
+    }
+  ],
+  "skill_note": "*Hãy tận dụng tốt Nẹt Điện để ra vào giao tranh hiệu quả nhất có thể.",
+  "skill_special": "TrungTri,CapCuu,TocBien",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo21",
+        "info": "Tốc đánh +1.2%"
+      },
+      {
+        "name": "NgocTim27",
+        "info": "Tốc đánh +0.4%<br>Tỷ lệ chí mạng +0.3%<br>Tốc chạy +0.5%"
+      },
+      {
+        "name": "NgocXanh21",
+        "info": "Tốc đánh +0.4%<br>Giảm hồi chiêu +0.5%"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo38",
+        "info": "Tốc đánh +1.6%<br>Tỷ lệ chí mạng +0.5%"
+      },
+      {
+        "name": "NgocTim32",
+        "info": "Tốc đánh +1%<br>Tốc chạy +1%"
+      },
+      {
+        "name": "NgocXanh31",
+        "info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đi rừng",
+      "info": "KiemTruyHon,GiayHoVe,ThuongLonginus,KiemFafnir,PhucHopKiem,LiemDoatMenh"
+    },
+    {
+      "name": "Đi rừng",
+      "info": "KiemTruyHon,GiayDuMuc,ThuongXuyenPha,ThanhKiem,AoChoangBangGia,KiemMuramasa"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "KiemTruyHon,GiayDuMuc,QuyKiem,ThanhKiem,KiemMuramasa,NanhFenrir"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "ormarr",
+          "info": "Ormarr"
+        },
+        {
+          "hero_id": "krixi",
+          "info": "Krixi"
+        },
+        {
+          "hero_id": "violet",
+          "info": "Violet"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "batman",
+          "info": "Batman"
+        },
+        {
+          "hero_id": "nakroth",
+          "info": "Nakroth"
+        },
+        {
+          "hero_id": "kriknak",
+          "info": "Kriknak"
+        }
+      ]
+    }
+  ],
+  "hero_story": "\"Lên thôi, mọi người!\"<br><i class=\"clr-orange\">Fennik</i> rất có thể là sinh vật nhanh nhất trên thế gian. Lý do tồn tại chữ \"có thể\" là vì sử sách thường chỉ lưu lại các kỷ lục về sức mạnh hoặc trí khôn, còn về tốc độ thì chẳng có mấy. Và rồi <i class=\"clr-orange\">Fennik</i> xuất hiện - hắn nhanh đến mức chẳng có con gà nào thoát nổi tay hắn, và cũng chẳng ai tóm được hắn. Mọi thứ thế cho đến khi chẳng ai hay, <i class=\"clr-orange\">Fennik</i> đã trở thành tên trộm với mức tiền thưởng cao kỷ lục từ trước đến nay.<br>Trong nội bộ xã hội cũng có những luồng ý kiến trái chiều nhau về <i class=\"clr-orange\">Fennik</i>. Một số thì cay hắn đến cùng cực, chủ yếu là do mãi không tóm được hắn, hoặc đã từng là nạn nhân bị hắn viếng thăm. Một số thì lại rất thích hắn, vì họ không ít thì nhiều dều chịu ân huệ của hắn.<br>Cướp kẻ giàu, cho người nghèo? <i class=\"clr-orange\">Fennik</i> không bận tâm, chẳng qua chỉ là hắn thích nhìn thấy những kẻ vò đầu bứt tai vì mất của, cũng như sự ngạc nhiên sung sướng của những người được nhận của cải từ trên trời rơi xuống. Còn về giàu hay nghèo thì liên quan gì đến hắn.<br>Quan trọng là phải vui!",
+  "hero_skin": [{
+      "name": "Cáo Siêu Thanh",
+      "gold": "18,888",
+      "voucher": "539",
+      "event": "",
+      "wall": "Fennik01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": ""
+    },
+    {
+      "name": "Nhà Thám Hiểm (Hữu hạn)",
+      "gold": "",
+      "voucher": "",
+      "event": "Mở sự kiện",
+      "wall": "Fennik02",
+      "disable": "yes",
+      "img": "thumb2.jpg",
+      "video": ""
+    },
+    {
+      "name": "Tiệc Bánh Kẹo (Bậc A)",
+      "gold": "",
+      "voucher": "349",
+      "event": "",
+      "wall": "Fennik03",
+      "disable": "",
+      "img": "thumb3.jpg",
+      "video": ""
+    },
+    {
+      "name": "Tuần Lộc Láu Lỉnh (Christmas)",
+      "gold": "",
+      "voucher": "",
+      "event": "1 viên đá quý",
+      "wall": "Fennik04",
+      "disable": "",
+      "img": "thumb4.jpg",
+      "video": ""
+    }
+  ]
+}

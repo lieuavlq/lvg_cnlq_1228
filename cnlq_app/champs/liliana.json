@@ -1,0 +1,180 @@
+{
+  "hero_id": "Liliana",
+  "hero_name": "Liliana",
+  "main_info": {
+    "price_gold": "18,888",
+    "price_voucher": "539",
+    "position": "Pháp sư / Sát thủ",
+    "special": "Tiền đạo / Trung phong",
+    "lane": "Đường giữa"
+  },
+  "main_skill": [{
+      "name": "Yêu hồ",
+      "info": "Nội tại:<br><i class=\"clr-orange\">Dạng người:</i> Trong trạng thái loài người Liliana sẽ đánh xa.<br><i class=\"clr-orange\">Dạng hồ ly:</i> Tăng 20 giáp và giáp phép (+5 mỗi cấp tướng), 30 tốc chạy, đồng thời khiến đòn đánh thường gây thêm 171 STP."
+    },
+    {
+      "name": "Hồ quang lực",
+      "info": "ST dạng người: 500/560/620/680/740/800<br>ST vẫy đuôi: 300/360/420/480/540/600<br><i class=\"clr-orange\">Dạng người:</i> Liliana ngưng tụ ma lực gây <span class=\"clr-orange\">500 (+0.7 công phép) STP</span> lên những kẻ địch trong phạm vi ảnh hưởng, nếu có 2 tướng địch trúng chiêu trở lên, đòn đánh thường kế tiếp của Liliana sẽ được cường hóa gây thêm 5% máu tối đa mục tiêu thành STP (+1% mỗi 120 công phép), 4s hiệu lực.<br><i class=\"clr-orange\">Hồ Vĩ Kích:</i> Liliana vẫy đuôi tấn công kẻ địch phía trước, gây 300 (+38 công phép) STP, đồng thời khiến lần đánh thường kế trở thành chuỗi liên hoàn 3 đòn, mỗi đòn gây 167 STP, khoảng cách giữa 3 đòn liên tiếp ở trạng thái Hồ ly trong 0.6s, kèm hiệu ứng ngày vồ đến mục tiêu."
+    },
+    {
+      "name": "Hồ quang đạn",
+      "info": "ST đạn: 300/330/360/390/420/450<br>ST lướt đi: 300/330/360/390/420/450<br>ST linh đạn: 1000/1100/1200/1300/1400/1500<br>H.Chiêu: 9/8.6/8.2/7.8/7.4/7<br><i class=\"clr-orange\">Dạng người:</i> Liliana bắn ra một luồng đạn ma lực, thứ sẽ phát nổ khi trúng đích gây 300 (+46 STP) STP và 0.75s choáng lên những kẻ địch trong phạm vi hiệu lực.<br><i class=\"clr-orange\">Vũ Điệu Yêu Hồ:</i> Liliana lướt về hướng chỉ định gây 450 (+50 STP) STP lên những kẻ địch trúng chiêu. Nếu có nạn nhân là tướng địch, Liliana có thể tung chiêu lần nữa, bắn ra đạn linh lực tấn công những kẻ địch lân cận gây 1500 (+134 STP) STP."
+    },
+    {
+      "name": "Biến ảnh hoán hình",
+      "info": "ST Gốc: 250/375/500<br>Tăng giáp & giáp phép: 120/180/240<br>Tăng công phép: 80/160/240<br><i class=\"clr-orange\">Dạng người:</i> Liliana lướt theo hướng chỉ định và hóa thành hồ ly gây 250（+0.55 Công phép) STP lên những kẻ địch trúng chiêu dọc đường, đồng thời làm chậm 30% tốc chạy của nạn nhân trong 2s. Suốt thời gian lướt đi Liliana không thể bị chọn làm mục tiêu, đồng thời tăng 120 giáp và giáp phép trong 2.5s sau khi biến hình, sau khi trở lại dạng người Liliana được tăng thêm 80 công phép trong 2.5s.<br><i class=\"clr-orange\">Hồ Hình:</i> Liliana lướt theo hướng chỉ định và hóa thành người đồng thời tạo một pháp trận tại điểm khởi đầu và kết thúc khiến các kẻ địch bên trong bị giảm 30% tốc chạy, sau 1s pháp trận nổ tung gây 250（+0.55 Công phép) STP. Suốt thời gian lướt đi Liliana không thể bị chọn làm mục tiêu đồng thời tăng 320 công phép trong 2.5s sau khi biến hình."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,3,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 chiêu thức",
+      "info": "2,3,4,2,0,3,2,4,3,2"
+    }
+  ],
+  "skill_note": "*Liliana pháp sư đường giữa mạnh mẽ với 2 dạng người và hồ ly.<br>*Lợi thế dạng Người đánh xa, dạng Hồ ly chạy nhanh, tăng giáp, vượt địa hình khá dày.<br>*Thế nhưng cô ta rất khó chơi đồi hỏi bạn phải tập luyện nhiều, và có óc phán xét tình huống để thay đổi dạng hợp lý nhất.",
+  "skill_special": "TocBien,ThanhTay",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo24",
+        "info": "Công phép +2.5<br>Xuyên giáp phép +1.4"
+      },
+      {
+        "name": "NgocTim22",
+        "info": "Công phép +1.4<br>Hút máu phép +0.8%<br>Giáp phép +1.6"
+      },
+      {
+        "name": "NgocXanh28",
+        "info": "Công phép +0.9<br>Xuyên giáp phép +3.8"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo31",
+        "info": "Công phép +4.2<br>Xuyên giáp phép +2.4"
+      },
+      {
+        "name": "NgocTim36",
+        "info": "Công phép +2.4<br>Hút máu phép +1%"
+      },
+      {
+        "name": "NgocXanh33",
+        "info": "Công phép +2.4<br>Giảm hồi chiêu +0.7%"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường giữa",
+      "info": "NgocDaiPhapSu,GiayHoVe,TruongBungNo,VuongMiengHecate,QuyenTruongRhea,SachThanh"
+    },
+    {
+      "name": "Đường giữa",
+      "info": "NgocDaiPhapSu,GiayKienCuong,QuyenTruongRhea,VuongMiengHecate,TruongHonMang,GiapHoMenh"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "NgocDaiPhapSu,GiayKienCuong,TruongBungNo,VuongMiengHecate,QuyenTruongRhea,TruongHonMang"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "alice",
+          "info": "Alice"
+        },
+        {
+          "hero_id": "payna",
+          "info": "Payna"
+        },
+        {
+          "hero_id": "teemee",
+          "info": "TeeMee"
+        },
+        {
+          "hero_id": "grakk",
+          "info": "Grakk"
+        },
+        {
+          "hero_id": "gildur",
+          "info": "Gildur"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "annette",
+          "info": "Annette"
+        },
+        {
+          "hero_id": "omen",
+          "info": "Omen"
+        },
+        {
+          "hero_id": "tulen",
+          "info": "Tulen"
+        },
+        {
+          "hero_id": "ngo_khong",
+          "info": "NgoKhong"
+        },
+        {
+          "hero_id": "lauriel",
+          "info": "Lauriel"
+        }
+      ]
+    }
+  ],
+  "hero_story": "Trong hàng nghìn năm qua, <i class=\"clr-orange\">Liliana</i> đã đi tới mọi nơi trên thế giới.<br>Một trong những thực thể cổ xưa nhất ở Athanor còn tồn tại, <i class=\"clr-orange\">Liliana</i> đã được sinh ra khi thế giới vẫn còn hỗn loạn và tất cả các sinh vật còn sống sót đều nhờ bản năng. <i class=\"clr-orange\">Liliana</i> vô cùng tò mò, khám phá con đường của mình trong một thế giới hỗn loạn, tiếp tục tìm kiếm bản chất và nguồn năng lượng của vũ trụ. Cô muốn tìm hiểu về quá khứ và tương lai, sự khởi đầu của cuộc sống và ý nghĩa của cái chết. Để cuộc tìm kiếm câu trả lời của mình được thành công, <i class=\"clr-orange\">Liliana</i> biến thành các hình hài khác nhau và nhìn thấu sự sống qua con mắt của đủ mọi giống loài.<br>Một con cáo chín đuôi là sinh vật đầu tiên <i class=\"clr-orange\">Liliana</i> gặp. Cô đã xem ngài như vị thầy của mình, và tự nhận bản thân là một kẻ kế thừa. Nhờ sự chỉ dẫn của người thầy và những gì cô chứng kiến xuyên suốt chuyến đi của mình, <i class=\"clr-orange\">Liliana</i> nhanh chóng trở nên thông thái hơn. Tuy nhiên, cô hiểu rằng cô vẫn còn một con đường dài để tìm kiếm câu trả lời cuối cùng cho tất cả mọi thứ. Cô đã chọn một cuộc sống biệt lập, dành thời gian để từ từ thấm nhuần và suy ngẫm về tất cả những gì cô được học. Tuy vậy, cứ vài trăm năm, cô lại xuất hiện để tiếp thu sự thông thái và hiểu biết một cách sâu sắc hơn.<br>Trong những cuộc hành trình trước đây, <i class=\"clr-orange\">Liliana</i> đã tiếp xúc với Con người và đã có cơ hội quan sát họ gần hơn. Con người dường như ngu si đần độn và chỉ đạt tới mức trung bình ở tất cả mọi mặt, quyền năng, tâm linh và luật pháp, đó là lý do tại sao <i class=\"clr-orange\">Liliana</i> lại không hề quan tâm đến giống loài này. Tuy nhiên, sau khi cô biết nhiều hơn về những khát vọng của con người và cách họ truyền lại di sản của mình, cô nhanh chóng bị cuốn hút từ trong lối suy nghĩ của mình và bắt đầu những đổi mới cùng phát triển của loài người. Bất cứ khi nào con người thực hiện bước nhảy vọt, <i class=\"clr-orange\">Liliana</i> lại biến chuyển trà trộn vào loài người và học hỏi từ những học giả uyên bác.<br>Trong thời kỳ tăm tối, Con người thường bị tấn công bởi những sinh vật vô dạng. Không muốn phải nhìn thấy những đau khổ, <i class=\"clr-orange\">Liliana</i> đã sử dụng những phương pháp tinh tế nhất để tiết lộ những bí mật và đưa ra lời khuyên về cách sử dụng ma thuật để giúp con người trong giai đoạn khổ ai này. Từ những quan sát của mình, cô tiên đoán rằng nếu con người sống sót được qua quãng thời gian đen tối này, họ chắc chắc có thể tạo ra một nền văn minh vô tiền khoáng hậu, trong đó sẽ xuất hiện những nền tri thức mới và những chiêu thức mới, dần đưa cô đến gần hơn với câu trả lời cuối cùng. Và cô cân nhắc đến những trợ giúp mà cô gửi cho loài người như một dạng đầu tư - sau tất cả, nếu điều đó giúp cô có được thứ cô muốn thì tại sao lại không cơ chứ? Với một nụ cười và hi vọng dành cho tương lai, <i class=\"clr-orange\">Liliana</i> đã trở lại.<br>Vài trăm năm sau, khi <i class=\"clr-orange\">Liliana</i> trở lại nền văn minh của loài người một lần nữa, cô đã bị sốc. Những ngọn nến và lò sưởi cô đã từng được sử dụng nay đã được thay thế bằng những chiếc đèn pha lê chạm khắc bởi ma thuật, có khả năng mang ánh sáng tới hàng ngàn gia đình cùng một lúc. Những lưỡi giáo và những thanh kiếm mà cô từng biết không còn được nhiều người sử dụng nữa, những chiến binh loài người giờ đây đã sử dụng cơ khí và súng đại bác một cách mạnh mẽ và cực kỳ ấn tượng. Những cải tiến này, thứ mà con người gọi là \"công nghệ\" đã thay đổi hoàn toàn cách <i class=\"clr-orange\">Liliana</i> nhìn nhận thế giới.<br>Đó là một sự thay đổi lý tưởng cho <i class=\"clr-orange\">Liliana</i>, cô háo hức tham gia vào mọi sự phát triển mới. Nhưng ngay cả với một người vô cùng uyên bác như <i class=\"clr-orange\">Liliana</i> cũng phải cần hàng chục, thậm chí hàng trăm năm để thấu hiểu được tri thức này. Vì thế, <i class=\"clr-orange\">Liliana</i> đã quyết định biến đổi thành con người và gia nhập quân đội thức nghiệm với vai trò cán bộ truyền thông, người có quyền tự do đi lại giữa các lục địa và thu thập thông tin tình báo. Vai trò mới sẽ giúp cô thuận tiện hơn và đạt được tất cả những gì cô mong muốn. Tất nhiên điều đó cũng mang lại những kẻ địch mới, nhưng <i class=\"clr-orange\">Liliana</i> không ngại những thứ vụn vặt này và sẵn sàng đương đầu với chúng bất kỳ lúc nào.<br>\"Đó chỉ là một phần của học phí thôi!\"",
+  "hero_skin": [{
+      "name": "Cửu Vĩ Yêu Hồ",
+      "gold": "18,888",
+      "voucher": "539",
+      "event": "",
+      "wall": "Liliana01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": "Liliana01"
+    },
+    {
+      "name": "Hồ Quý Phi (Bậc A)",
+      "gold": "",
+      "voucher": "249",
+      "event": "",
+      "wall": "Liliana02",
+      "disable": "yes",
+      "img": "thumb2.jpg",
+      "video": "Liliana02"
+    },
+    {
+      "name": "Thần Tượng Âm Nhạc (Bậc S)",
+      "gold": "",
+      "voucher": "429",
+      "event": "",
+      "wall": "Liliana03",
+      "disable": "yes",
+      "img": "thumb3.jpg",
+      "video": "Liliana03"
+    },
+    {
+      "name": "Nguyệt Mị Ly (Bậc SS)",
+      "gold": "",
+      "voucher": "799",
+      "event": "",
+      "wall": "Liliana04",
+      "disable": "yes",
+      "img": "thumb4.jpg",
+      "video": ""
+    }
+  ]
+}

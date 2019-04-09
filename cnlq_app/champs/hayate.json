@@ -1,0 +1,186 @@
+{
+  "hero_id": "Hayate",
+  "hero_name": "Hayate",
+  "main_info": {
+    "price_gold": "",
+    "price_voucher": "",
+    "price_text": "Nhận từ Sổ sứ mệnh 5",
+    "position": "Xạ thủ",
+    "special": "Cấu rỉa / Trung phong",
+    "lane": "Đường Rồng / Đi rừng"
+  },
+  "main_skill": [{
+      "name": "PHẢN ỨNG DÂY CHUYỀN",
+      "info": "Hồi chiêu: 0 giây<br>Tiêu hao: 0 nội năng<br>Nội tại: Các đòn đánh thường trúng đích khiến một nạn nhân lân cận mục tiêu chính chịu (0.35 công vật lý) sát thương vật lý, bù lại Hayate gây giảm 50% sát thương lên quái rừng (tăng dần lại theo cấp tướng). Đặc biệt sau 6 lần công kích (tính cả đánh thường lẫn chiêu thức) trúng đích cùng mục tiêu, Hayate sẽ được hồi 40 nội năng, đồng thời khiến các đợt tấn công trong vòng 4 giây kế gây thêm 72 (+0.25 công vật lý) sát thương chuẩn lên nạn nhân."
+    },
+    {
+      "name": "CHUỖI PHI TIÊU",
+      "info": "Hồi chiêu: 6/5.8/5.6/5.4/5.2/5 giây<br>Tiêu hao: 70 nội năng<br>Hayate liên tục phóng phi tiêu về phía trước và được tăng 10% tốc chạy suốt thời gian này; mỗi phi tiêu gây 125/140/155/170/185/200 (+0.25 công vật lý) sát thương vật lý đồng thời kích hoạt nội tại. Đặc biệt phi tiêu có thể xuyên thấu các đơn vị không phải tướng, bù lại gây giảm 20% sát thương sau mỗi đơn vị xuyên qua; tối thiểu giảm 40%. Nạn nhân trúng phi tiêu giúp Hayate hồi 10 nội năng, mỗi phi tiêu chỉ hồi một lần. Ở các mốc 0%/75%/150% tốc đánh Hayate sẽ tung ra 5/7/9 phi tiêu."
+    },
+    {
+      "name": "ẢNH BIẾN",
+      "info": "Hồi chiêu: 6/5.8/5.6/5.4/5.2/5 giây<br>Tiêu hao: 70 nội năng<br>Hayate lướt đi theo hướng chỉ định (có thể vượt địa hình).<br>Nội tại: Hayate được tăng 10/11/12/13/14/15% sát thương gây ra và 10/12/14/16/18/20% tốc chạy khi có tướng địch trong vòng 5m quanh bản thân."
+    },
+    {
+      "name": "BÃO PHI TIÊU",
+      "info": "Hồi chiêu: 40 giây<br>Tiêu hao: 70 nội năng<br>Hayate biến đến điểm đã chọn đồng thời liên tục ném phi tiêu công kích các kẻ địch lân cận, gây 100/150/200 (+0.25 công vật lý) sát thương vật lý và kích hoạt nội tại. Ở các mốc 0%/75%/150% tốc đánh Hayate sẽ tung ra 10/13/16 đợt công kích."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,3,0"
+    },
+    {
+      "name": "*Combo khi đủ 3 kỹ năng",
+      "info": "2,3,4,0"
+    },
+    {
+      "name": "*Hoặc combo vượt địa hình",
+      "info": "3,4,2,0"
+    },
+    {
+      "name": "*Hoặc combo xả sát thương rồi rút về",
+      "info": "4,3,2,0"
+    }
+  ],
+  "skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Là Xạ thủ đầu tiên có sát thương chuẩn kèm theo xài nội năng không dùng năng lượng, Hayate phù hợp vị trí đường Rồng hoặc đi Rừng đều được.<br>- Liên tục sử dụng Chuỗi phi tiêu để dọn lính và cấu máu đối thủ, chiêu này dùng theo đường thẳng nên kết hợp di chuyển để mục tiêu hưởng chọn sát thương.<br>- Ảnh biến là chiêu lướt đi khoảng cách khá xa kiểu như Tốc biến, kết hợp với Chuỗi phi tiêu khiến đối thủ bất ngờ, ngoài ra chiêu này có thể vượt địa hình.<br>- Đầu game chơi an toàn đẩy lính nhanh, cùng trợ thủ và rừng ăn các mục tiêu Rồng hay Chim lấy tầm nhìn và tạo lợi thế.<br>- Sát thương to thế nhưng đừng đứng cao quá, dễ bốc hơi lắm, nhất là rừng đối phương có các Sát thủ cơ động cần phải đề phòng hơn.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Giai đoạn này sát thương khá ổn và lượng máu hồi lại từ các trang bị hút máu, nên tha hồ cấu rỉa, Chuỗi phi tiêu cấu rỉa là hoàn hảo nhất, sau đó rút về bằng Ảnh biến.<br>- Về Bão phi tiêu chiêu này không khó để sử dụng, tìm vị trí an toàn và xả hết lượt phi tiêu, thấy không an toàn thì rút về bằng Ảnh biến.<br>- Chiêu cuối kết hợp với Ảnh biến giúp Hayate vượt một khoảng cách khá xa qua các địa hình nhầm kết liễu mục tiêu, cướp bùa lợi, cướp Rồng hoặc Caesar,.. là đều không thể ngờ.<br>- Lúc này sát thương Hayate đạt đỉnh điểm, mà nhiệm vụ là phải giữ vị trí và mạng là đều rất quan trọng. Bởi vậy luôn sát cánh bên trợ thủ, đẩy lính nhanh, không đi lẻ, ép đẩy trụ và ăn mục tiêu lớn, cơ bản vậy thôi là thắng rồi đó.",
+  "skill_special": "TocBien,TrungTri,ThanhTay",
+  "main_rune": [{
+      "name": "*Ngọc cấp 2",
+      "info": [{
+          "name": "NgocDo22",
+          "info": "Tốc đánh +0.6%<br>Tỷ lệ chí mạng +0.3%<br>Sát thương chí mạng +1.1%"
+        },
+        {
+          "name": "NgocTim21",
+          "info": "Tốc đánh +0.4%<br>Hút máu +0.8%"
+        },
+        {
+          "name": "NgocXanh21",
+          "info": "Tốc đánh +0.4%<br>Giảm hồi chiêu +0.5%"
+        }
+      ]
+    }, {
+      "name": "*Ngọc cấp 3",
+      "info": [{
+          "name": "NgocDo36",
+          "info": "Công vật lý +2<br>Xuyên giáp +3.6"
+        },
+        {
+          "name": "NgocTim32",
+          "info": "Tốc đánh +1%<br>Tốc chạy +1%"
+        },
+        {
+          "name": "NgocXanh31",
+          "info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+        }
+      ]
+    },
+    {
+      "name": "*Hoặc thay thế Ngọc đỏ 3 khi đi rừng",
+      "info": [{
+          "name": "NgocDo38",
+          "info": "Tốc đánh +1.6%<br>Tỷ lệ chí mạng +0.5%"
+        }
+      ]
+    }
+  ],
+  "item_build": [{
+      "name": "Đường Rồng",
+      "info": "KiemFafnir,GiayDuMuc,ThanhKiem,VuotHungTan,CungTaMa,GiapHoMenh"
+    },
+    {
+      "name": "Đường Rồng",
+      "info": "KiemFafnir,GiayDuMuc,ThanhKiem,SongDaoBaoTap,LiemDoatMenh,GiapHoMenh"
+    },
+    {
+      "name": "Đi rừng",
+      "info": "CungBaoTo,GiayDuMuc,KiemFafnir,PhucHopKiem,NanhFenrir,LiemDoatMenh"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "alice",
+          "info": "Khả năng bảo kê và chiêu cuối của Alice giúp Hayate tha hồ bung chiêu"
+        },
+        {
+          "hero_id": "payna",
+          "info": "Chiêu cuối Payna kết hợp với chiêu cuối Hayate quả là thảm sát"
+        },
+        {
+          "hero_id": "teemee",
+          "info": "Còn gì phải lo khi dùng chiêu cuối, bởi khả năng hồi sinh của TeeMee quá bá đạo"
+        },
+        {
+          "hero_id": "ybneth",
+          "info": "Chiêu cuối Y'bneth tạo ra khoảng không rất lớn làm chậm như tuyệt đối, kết hợp với chiêu cuối Hayate thì kẻ địch hứng trọn sát thương"
+        },
+        {
+          "hero_id": "jinna",
+          "info": "Tuy không hỗ trợ nhiều cho Hayate nhưng cả 2 chiêu cuối cùng thi hành quả thực là rất thốn"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "omen",
+          "info": "Chiêu cuối đóng hộp phải Hayate thì có chạy đằng trời"
+        },
+        {
+          "hero_id": "arum",
+          "info": "Hầu như Arum bắt được ai bởi chiêu cuối cũng đi đời, Hayate không ngoại lệ"
+        },
+        {
+          "hero_id": "nakroth",
+          "info": "Thánh cơ động là đây hoàn toàn có thể bắt kịp Hayate"
+        },
+        {
+          "hero_id": "quillen",
+          "info": "Cơn ác mộng mang tên tàng hình, bắt được Hayate không khó máy"
+        },
+        {
+          "hero_id": "ngo_khong",
+          "info": "Vẫn là tàng hình kèm cơ động, đuổi bắt Hayate như một trò đùa"
+        },
+        {
+          "hero_id": "annette",
+          "info": "Khó lòng dùng trọn chiêu cuối bởi chiêu cuối Annette đẩy Hayate ra rất xa"
+        },
+        {
+          "hero_id": "alice",
+          "info": "Chiêu cuối Alice câm lặng kèm giảm tốc độ chạy, Hayate khó thi triển chiêu cuối"
+        },
+        {
+          "hero_id": "payna",
+          "info": "Một vùng chiêu cuối của Payna hoàn toàn ngắt quãng chiêu cuối của Hayate"
+        }
+      ]
+    }
+  ],
+  "hero_story": "“Tiểu tặc phương nào - dám xông vào cấm địa!”<br>Một tiếng gầm kinh thiên động địa của long hồn mang theo uy áp nhàn nhạt rền vang khiến cho <i class=\"clr-orange\">Hayate</i> bị chôn chân tại chỗ. Thân ảnh cô độc dưới ánh đuốc bập bùng ngoe nguẩy như mãng xà nhảy múa. Tiếng gào thét vẫn chấn động không ngừng. Hoa văn trên bức điêu khắc cổ xưa dần tỏa sáng, quang minh ấn ký cũng theo đó mà bốc cháy... Là người đã bước vào cấm chế, <i class=\"clr-orange\">Hayate</i> biết rằng mười năm khổ tâm của chàng đã đổ sông đổ biển.<br><i class=\"clr-orange\">Hayate</i> là một Ninja của Đảo sương mù. Từ lúc trưởng thành, chàng bắt đầu theo đuổi vị trí Kage – thủ lĩnh Ninja của thánh sơn Orphean – một môn phái ninja bí mật ẩn ngoài đại dương. Trên đời chưa có người nào biết đến sự tồn tại của họ. Nhưng sự hi sinh của họ cũng là một trong những nguyên nhân giữ cho thế giới này chưa bị hủy diệt bởi thế lực hắc ám.<br>“ Máu của Ninja , đã đổ quá nhiều rồi...” Mắt chăm chú nhìn quan tài của Kage đời trước, trong lòng <i class=\"clr-orange\">Hayate</i> dâng lên sự oán hận. Chàng bắt đầu hoài nghi lời nói của các bậc trưởng bối về trách nhiệm và sứ mệnh. Đối với sự tồn tại cao cao tại thượng của Tháp quang minh lại càng là sự xem thường.<br><i class=\"clr-orange\">Hayate</i> thấy sự ký kết khế ước của long hồn và Tháp quang minh là không công bằng: dùng Huyết mạch truyền thừa của rồng cùng lực lượng của các Ninja để bảo vệ sự vinh quang của Tháp quang minh nhưng đều không nhận được sự hồi báo - dù chỉ là một phần tôn trọng nhỏ nhất.<br>Thần tộc ngạo mạn đã quen thói cao cao tại thượng nhưng tôi tớ ở dưới lại không cam lòng khuất phục.<br>Là người truyền thừa của Cự long, <i class=\"clr-orange\">Hayate</i> càng là người hiểu rõ hơn ai hết về thực lực của Tháp quang minh. Bất luận là Thành khởi nguyên dần lớn mạnh hay Rừng nguyên sinh từng tỏa sáng rực rỡ trong cuộc chiến Hắc ám xâm lược - đều không thể sánh cùng những á thần đang trấn giữ Thánh sơn.<br>Không nói đến thực lực mạnh yếu ở đây, sự chênh lệch đến từ bản chất. Ánh sáng là nguyên tố căn bản của thế giới.  Trước khi chư thần biến mất, năng lượng này sáng tạo ra thế giới, quản lý thế giới, bảo vệ thế giới. Bởi vậy khi ánh sáng chuyển thành năng lượng ma pháp chính là đại biểu cho ý chí và phép tắc của thế giới. Đem năng lượng ánh sáng truyền thừa vào khế ước huyết mạch, điều đó giống như sợi xích trói chặt vận mệnh cư dân Đảo sương mù với Tháp quang minh.<br>Người chặt đứt được sự liên kết của lực lượng nguyên thủy này chỉ có thể làm được khi sử dụng chính lực lượng nguyên thủy. Vì thế <i class=\"clr-orange\">Hayate</i> không thể không hợp tác với Vực hỗn mang. Tuy song phương đứng trên lập trường đối dịch nhưng mục đích của <i class=\"clr-orange\">Hayate</i> là khiến Đảo sương mù thoát ly khỏi Tháp quang minh. Vì điều này có thể làm suy yếu đi một phần lực lượng của Tháp quang minh nên Vực hỗn mang không tiếc gì mà ra tay trợ giúp.<br>Thông qua việc sử dụng một loại độc dược vu thuật của Vực hỗn mang, <i class=\"clr-orange\">Hayate</i> đã làm tăng cấp huyết mạch truyền thừa của mình. Qua đó <i class=\"clr-orange\">Hayate</i> đã qua được tầng cấm chế bên ngoài của tổ miếu và lọt vào Thiên long các - nơi thờ phụng khế ước loài rồng. Kế hoạch trù tính đã mười năm, trải qua bao sự hi sinh của các chiến hữu – sự kiên trì cùng lãnh huyết của <i class=\"clr-orange\">Hayate</i> đến nay mới giúp chàng nhìn thấy chút ánh sáng hi vọng.<br>Tuy nhiên khoảng cách đến thành công còn cách một bước.<br><i class=\"clr-orange\">Hayate</i> cẩn thận tiến đến gần pháp trận rồi rút bên hông ra một móng vuốt của ác ma. Móng tay này có ngưng tụ năng lượng hắc ám đủ để chặt đứt sự liên kết của khế ước với Tháp quang minh. Tuy nhiên đây là cấm địa quan trọng nhất trên Đảo sương mù – làm sao có thể không có hệ thống phòng thủ tối cao chứ? Từ lúc tiến vào Thiên long các đến chỗ này, chàng đã vượt qua ba mươi sáu cấm chế.<br><i class=\"clr-orange\">Hayate</i> là một ninja xuất sắc tuy nhiên chàng lại không nghĩ đến một chuyện: Chính chàng không phải là xuất thân của dòng chính. Nếu không phải nhờ uống độc dược vu thuật cùng sử dụng bí thuật khiến cho long huyết thống tăng lên, chàng hoàn toàn không đủ tư cách tiến vào Thiên long các. Đến bước cuối cùng khi giải trừ được cấm chế, dược lực đa bắt đầu suy yếu – huyết mạch quay trở về trạng thái ban đầu đã làm Cự long phát hiện.<br>Ấn ký tỏa sáng đem dị biến của Thiên long các  truyền về Tháp quang. Lập tức âm thanh báo động vang lên, các ninja trùng trùng điệp điệp xông đến vây chặt lấy Tổ miếu. Hành tung tối nay đã bại lộ nhưng <i class=\"clr-orange\">Hayate</i> không cam lòng thúc thủ chịu trói. Chí ít trong tay chàng vẫn còn có vuốt ác ma. Đây chính là điểm quan trọng để <i class=\"clr-orange\">Hayate</i> có thể lật ngược thế cờ.<br>Bàn tay nắm chặt lại nổi gân xanh phảng phất như đã hạ quyết tâm, <i class=\"clr-orange\">Hayate</i> không còn duy trì trạng thái ẩn nấp khom lưng nữa. Chàng liền đứng thẳng lên. Trong lòng bàn tay truyền đến cảm giác đau nhói cùng sự bành trướng của lực lượng hắc ám.<br>“Từ nay về sau, ta là hắc long ảnh, cam thề uống máu, chặt đứt quang minh.” Cùng với dũng khí chưa từng có, <i class=\"clr-orange\">Hayate</i> đem lực lượng hắc ám cường đại ngưng tụ lên đầu ngón tay rồi đâm thẳng vào khế ước. Ngay lập tức, long hồn phát ra tiếng gào thảm thiết - cỗ lực lượng hùng mạnh này đã làm tổn thương đến linh hồn nó.<br>Đang lúc <i class=\"clr-orange\">Hayate</i> chuẩn bị hủy đi khế ước, một đạo thánh quang phóng thẳng lên bầu trời. Bên trong ánh sáng rực rỡ xuất hiện một thân ảnh tay cầm chùy, khoác thánh giáp, giang rộng sáu cánh giáng xuống. Đó chính là sứ giả của thần – thiên sứ Xeniel.<br>Hành động của <i class=\"clr-orange\">Hayate</i> đã cuối cùng vẫn thất bại. Sự hàng lâm của Xeniel đã ngăn cản cơ hội cuối cùng của chàng. Tuy nhiên chàng vẫn có thể chạy thoát do Mganga đã bố trí.<br>“Thì ra các người đã sớm nhận ra ta sẽ thất bại.” Đối mặt với ân nhân cứu mạng, <i class=\"clr-orange\">Hayate</i> có chút tự giễu nói.<br>“Đề phòng hậu họa là điều mà một trí giả luôn cần chuẩn bị.” Mganga khẽ cười.<br>“Nhưng ngươi cũng biết, ta sẽ không gia nhập các ngươi. Mục đích của ta chỉ là đem Đảo sương mù li khai khỏi cuộc chiến này. Những hứa hẹn báo đáp các ngươi trước đây về long huyết ta đều không lấy được, cũng không có cơ hội... Hiện tại ta đã không còn bất kỳ giá trị gì.” <i class=\"clr-orange\">Hayate</i> chán nản nói.<br>“Yên tâm đi, nữ hoàng đại nhân có lệnh, chỉ cần đem ngươi an toàn trở về là được, ngài sẽ có an bài khác. Người cũng không cần tự coi nhẹ mình, một bình nước suối trong tòa thành gần sông không có giá trị gì nhưng trong sa mạc có muôn vàn kim cương cũng không thể mua được. Ngươi có giá trị hay không cũng không phải do ngươi tự đánh giá là đúng hoàn toàn.” Mganga an ủi.<br>“Có lẽ vậy... Nếu như vị nữ hoàng kia của các ngươi có thể giúp ta toại nguyện, có lẽ ta sẽ suy nghĩ đầu nhập vào các ngươi... Trước đó, ta chỉ trung thành với Đảo sương mù, với tộc nhân của ta - dù họ đã coi ta là phản đồ!” <i class=\"clr-orange\">Hayate</i> nhắm mắt lại, trạng thái căng thẳng đã buông lỏng thư giãn. Chàng biết con đường phía trước còn nhiều gian nan. Vì vậy trước đó cần phải nghỉ ngơi dưỡng sức, mau chóng hồi phục trạng thái đỉnh phong.<br>“Nhẫn cái người khác không thể nhẫn, mới có thể làm việc người khác không thể làm!”",
+  "hero_skin": [{
+      "name": "Ninja Tà Long",
+      "gold": "",
+      "voucher": "",
+      "event": "Sổ sứ mệnh 5",
+      "wall": "Hayate01",
+      "img": "thumb1.jpg"
+    },
+    {
+      "name": "Bạch Ảnh",
+      "gold": "",
+      "voucher": "",
+      "event": "Sổ sứ mệnh 5",
+      "wall": "Hayate02",
+      "img": "thumb2.jpg"
+    }
+  ]
+}

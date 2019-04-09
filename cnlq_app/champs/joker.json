@@ -1,0 +1,151 @@
+{
+  "hero_id": "Joker",
+  "hero_name": "Joker",
+  "main_info": {
+    "price_gold": "28,888",
+    "price_voucher": "629",
+    "price_text": "",
+    "position": "Xạ thủ",
+    "special": "Cấu rỉa",
+    "lane": "Đường rồng"
+  },
+  "main_skill": [{
+      "name": "Đùa dai",
+      "info": "Nội tại: Sau khi rời khỏi giao tranh, Joker nạp đạn cường hóa khiến đòn đánh thường kế tiếp có tầm công kích vượt trội, gây 200 (+165) STVL, nạn nhân trúng phát đạn đặc biệt này sẽ bị giảm 90% tốc chạy và rơi vào trạng thái suy yếu giảm dần trong 1.5s."
+    },
+    {
+      "name": "Đùa sốc",
+      "info": "ST Gốc: 365/475/585/695/805/915<br>Joker khai hỏa khẩu súng phóng lựu gây 365 (+297) STVL lên mọi kẻ địch trúng chiêu, những nạn nhân trúng sau sẽ chịu sát thương giảm dần từ 10% đến 60%."
+    },
+    {
+      "name": "Bịp bợm",
+      "info": "H.Chiêu: 15/14/13/12/11/10<br>Tăng tốc chạy: 30%/36%/42%/48%/54%/60%<br>Joker loại bỏ mọi trạng thái làm chậm trên bản thân, đồng thời tự tăng 30% tốc chạy kèm hiệu ứng miễn nhiễm STVL trong 2s."
+    },
+    {
+      "name": "Bơm cười",
+      "info": "H.Chiêu: 20/17/14<br>Joker phóng chớp nhoáng đến làm choáng mục tiêu, rồi trước khi bật ngược trở về vị trí cũ hắn nhanh tay cài vào nạn nhân một quả bom khí gas cười, thứ sẽ phát nổ thoáng chốc sau đó gây 530/715/900 (+2.4 công vật lý) sát thương vật lý, đồng thời làm chậm 90% tốc chạy giảm dần trong 1.5 giây. Suốt thời gian thực hiện chuỗi động tác này, Joker không thể bị khống chế.<br>Sau khi dùng chiêu được tăng 50 / 75 / 100% tốc độ đánh trong 4 giây."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,3,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 chiêu thức",
+      "info": "4,2,3,0"
+    }
+  ],
+  "skill_note": "*Tận dụng lợi thế về tốc độ chạy nên quyết định đeo bám hoặc từ bỏ mục tiêu chính xác nhất có thể.",
+  "skill_special": "TocBien,TocHanh",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo26",
+        "info": "Công vật lý +1.5<br>Tốc đánh +0.4%"
+      },
+      {
+        "name": "NgocTim21",
+        "info": "Tốc đánh +0.4%<br>Hút máu +0.8%"
+      },
+      {
+        "name": "NgocXanh23",
+        "info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo36",
+        "info": "Công vật lý +2<br>Xuyên giáp +3.6"
+      },
+      {
+        "name": "NgocTim31",
+        "info": "Công vật lý +1.6<br>Tốc chạy +1%"
+      },
+      {
+        "name": "NgocXanh31",
+        "info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường trên hoặc dưới",
+      "info": "ThuongXuyenPha,GiayKienCuong,PhucHopKiem,ThanhKiem,KiemMuramasa,LiemDoatMenh"
+    },
+    {
+      "name": "Đường trên hoặc dưới",
+      "info": "GiayHermes,ThuongXuyenPha,NanhFenrir,PhucHopKiem,KiemMuramasa,LiemDoatMenh"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "ThuongXuyenPha,GiayHoVe,NanhFenrir,PhucHopKiem,LiemDoatMenh,KiemMuramasa"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "skud",
+          "info": "Skud"
+        },
+        {
+          "hero_id": "raz",
+          "info": "Raz"
+        },
+        {
+          "hero_id": "nakroth",
+          "info": "Nakroth"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "raz",
+          "info": "Raz"
+        },
+        {
+          "hero_id": "batman",
+          "info": "Batman"
+        }
+      ]
+    }
+  ],
+  "hero_story": "Nguồn gốc của <i class=\"clr-orange\">Joker</i> đến giờ vẫn là một bí ẩn. Những thông tin mà người ta biết về hắn là <i class=\"clr-orange\">Joker</i> đã trở thành tội phạm từ khi còn trẻ, một tai nạn đáng sợ đã biến hắn trở thành Hoàng Tử Hề Tội Lỗi. Niềm tin của <i class=\"clr-orange\">Joker</i> rằng cuộc sống có thể thay đổi bất cứ lúc nào theo cơn điên loạn, điều thúc đẩy hắn trở thành tên khủng bố của thành phố Gothham. Hắn tin rằng cuộc sống chỉ đơn thuần là một trò đùa của vũ trụ, bằng mọi giá <i class=\"clr-orange\">Joker</i> phô diễn độ điên của bản thân để chứng tỏ với cả thế giới rằng trong một khoảnh khắc, đời người sẽ bị đảo ngược hoàn toàn.<br><i class=\"clr-orange\">Joker</i> đã đe dọa, bắt cóc, đánh đập, tra tấn và thủ tiêu vô số nạn nhân trên khắp thế giới, nhưng địa điểm hoạt động chủ yếu của hắn là tại thành phố Gotham. Hoặc, đã từng ở Gotham. Trong thành phố này, <i class=\"clr-orange\">Joker</i> bị ám ảnh muốn hoàn thành trò đùa đỉnh cao nhất đời hắn: hủy diệt lý tưởng của Batman. Tuy nhiên, dù cố gắng hết sức, bất chấp chịu đựng đau đớn cũng như vẽ ra kế hoạch công phu, Batman không hề bị khuất phục trước trò đùa của <i class=\"clr-orange\">Joker</i>. Ngay cả khi <i class=\"clr-orange\">Joker</i> đe dọa tới những người đồng đội của Batman, lý tưởng của chàng Hiệp Sỹ Bóng Đêm cũng không thể phá vỡ. Thay vào đó, Batman lật kèo bằng việc sử dụng một phiên bản nâng cấp của loại thuốc hóa học gây ảo giác sợ hãi của Scarecrow lên người <i class=\"clr-orange\">Joker</i>.<br>Từ trước tới nay, <i class=\"clr-orange\">Joker</i> chưa bao giờ nếm trải nỗi sợ hãi. Thứ thuốc hóa học gây ảo giác sợ hãi của Batman tràn vào các tĩnh mạch, khiến lần đầu tiên trong đời <i class=\"clr-orange\">Joker</i> biết sợ. Với kinh nghiệm đã phải đối mặt với nhiều chấn thương tâm lí, <i class=\"clr-orange\">Joker</i> đã nhanh chóng lấy lại sự tỉnh táo: đây không phải là phiên xét xử tội ác, hắn đang bị dẫn độ tới nhà thương điên Arkham. Ở đây, <i class=\"clr-orange\">Joker</i> chỉ đơn thuần là một diễn viên hài không tiếng cười. Điều gì thực sự buồn cười khi hàng ngày hắn chỉ đối mặt với lũ khủng bố thực sự? <i class=\"clr-orange\">Joker</i> bắt đầu tuyệt vọng khi nghĩ rằng hắn không bao giờ có thể khiến cả thế giới cười được nữa.<br>Điều đó đã thay đổi khi một gã tù nhân mới được đưa vào Arkham. Gã này cũng điên khùng, nhưng giữa những cơn hóa rồ của mình, gã lại liên tục lẩm nhẩm những công thức toán học rõ ràng và thần chú ma mị. Khi ngủ, gã mê sảng nhắc tới: \"Athanor ... Athanor\". Cơn điên loạn của gã tù nhân mới đã thu hút sự chú ý của <i class=\"clr-orange\">Joker</i>. <i class=\"clr-orange\">Joker</i> nhanh chóng kết thân với gã tù nhân kia và truy tìm được nguồn gốc xuất thân của gã. Người bạn sống cùng trại thương điên Arkham này vốn là một nhà khoa học, nghiên cứu các sóng bức xạ và hiện tượng siêu nhiên trên khắp thế giới. Gã đã tìm thấy câu trả lời cho nghiên cứu của mình: một cánh cổng dẫn đến thế giới khác.<br>Gã say sưa kể về Athanor – một thế giới đáng tôn kính. Thế giới ấy là có thật, thay đổi hoàn toàn những trải nghiệm gã từng có. <i class=\"clr-orange\">Joker</i> không phải mẫu người tìm kiếm sự giác ngộ tâm linh hay phương thuốc chữa bệnh điên rồ của hắn. Hắn khao khát nhìn thấy vẻ đẹp và trật tự của thế giới, để hắn có thể hoàn thành tâm nguyện bấy lâu: một trò đùa lớn nhất đời hắn. Sau khi tâm trí hắn phục hồi hoàn toàn, <i class=\"clr-orange\">Joker</i> dễ dàng trốn khỏi Arkham như bao lần. Tuy nhiên lần này, thay vì tàn phá Gotham, mục tiêu mới của hắn là Athanor.<br>Sau nhiều tháng tìm kiếm, <i class=\"clr-orange\">Joker</i> cuối cùng đã tìm thấy cánh cổng dẫn đến Athanor. Và bây giờ, ngay cả những vị thần đang cai trị thế giới đó sẽ phải đấu trí với Gã Hề Khủng Bố này.",
+  "hero_skin": [{
+      "name": "Gã Hề Khủng Bố",
+      "gold": "28,888",
+      "voucher": "629",
+      "event": "",
+      "wall": "Joker01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": ""
+    },
+    {
+      "name": "Trò Đùa Tử Vong",
+      "gold": "",
+      "voucher": "249",
+      "event": "",
+      "wall": "Joker02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": ""
+    },
+    {
+      "name": "Vua Hề (Bậc S)",
+      "gold": "",
+      "voucher": "379",
+      "event": "",
+      "wall": "Joker03",
+      "disable": "yes",
+      "img": "thumb3.jpg",
+      "video": ""
+    }
+  ]
+}

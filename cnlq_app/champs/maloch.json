@@ -1,0 +1,181 @@
+{
+  "hero_id": "Maloch",
+  "hero_name": "Maloch",
+  "main_info": {
+    "price_gold": "18,888",
+    "price_voucher": "539",
+    "price_text": "",
+    "position": "Đấu sĩ / Đỡ đòn",
+    "special": "Trung phong",
+    "lane": "Đường rồng / Đường Caesar"
+  },
+  "main_skill": [{
+      "name": "Ma vương",
+      "info": "Nội tại: Maloch sở hữu tầm đánh xa hơn các đơn vị cận chiến thông thường. Ngoài ra sau khi tung chiêu Quỷ Kiếm trúng tướng địch, Maloch sẽ tiến vào trạng thái Ma Vương khiến sát thương kĩ năng và đòn đánh gây ra thành sát thương chuẩn 100%, đồng thời hồi 2% máu đã mất（+0.15 sát thương vật lý cộng thêm) mỗi đòn đánh thường."
+    },
+    {
+      "name": "Quỷ kiếm",
+      "info": "ST Gốc: 370/480/590/700/810/920<br>Maloch vận sức trong thoáng chốc rồi vung kiếm gây sát thương vật lý, đặc biệt nếu nạn nhân là tướng địch sẽ khiến Maloch tiến vào trạng thái Ma Vương trong 6 giây. Hắn được hồi 6% máu đã mất (+0.3 sát thương vật lý cộng thêm) (tối đa 24%) dựa trên mỗi tướng địch trúng chiêu."
+    },
+    {
+      "name": "Đoạt hồn",
+      "info": "Bảo hộ: 600/800/1000/1200/1400/1600<br>H.Chiêu: 12/11/10/9/8/7<br>Maloch tước đoạt linh hồn của tướng địch lân cận và gây một lượng STVL nhỏ cùng hiệu ứng làm chậm 30% trong 3s, ngoài ra giúp hắn tạo một lớp Khiên chắn: 150 (+0.7 công vật lý), Khiên chắn tối đa: 600 (+2.8 công vật lý)."
+    },
+    {
+      "name": "Luyện ngục",
+      "info": "ST Gốc: 420/525/630<br>H.Chiêu: 60/50/40<br>Maloch chỉ định một khu vực rồi phóng vút lên không và lao xuống hủy diệt toàn bộ kẻ địch trong vùng ảnh hưởng, gây 420 (+204) STVL, đồng thời hất tung các mục tiêu bên trong, những nạn nhân cố tiến vào hoặc thoát ra khu vực này đều sẽ bị làm chậm."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "3,2,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 chiêu thức",
+      "info": "4,3,2,0"
+    }
+  ],
+  "skill_note": "*Tìm vị trí thật đẹp để đảo chiều giao tranh có lợi cho đồng đội.",
+  "skill_special": "TocBien,BocPha,CapCuu",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo25",
+        "info": "Công vật lý +1.5<br>Máu tối đa +13.5"
+      },
+      {
+        "name": "NgocTim23",
+        "info": "Công vật lý +0.6<br>Máu tối đa +36"
+      },
+      {
+        "name": "NgocXanh26",
+        "info": "Giáp +5.4"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo34",
+        "info": "Công vật lý +3.2"
+      },
+      {
+        "name": "NgocTim31",
+        "info": "Công vật lý +1.6<br>Tốc chạy +1%"
+      },
+      {
+        "name": "NgocXanh36",
+        "info": "Giáp +5<br>Giáp phép +5"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường trên hoặc dưới",
+      "info": "GiayKienCuong,AoChoangBangGia,KhienHuyenThoai,GiapGaia,NanhFenrir,GiapThongKho"
+    },
+    {
+      "name": "Đường trên hoặc dưới",
+      "info": "GiayHoVe,AoChoangBangGia,KhienHuyenThoai,HuanChuongTroy,HerculeThinhNo,KhienThatTruyen"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "GiayKienCuong,KhienHuyenThoai,AoChoangBangGia,HuanChuongTroy,KhienThatTruyen,GiapHoMenh"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "ormarr",
+          "info": "Ormarr"
+        },
+        {
+          "hero_id": "nakroth",
+          "info": "Nakroth"
+        },
+        {
+          "hero_id": "krixi",
+          "info": "Krixi"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "ormarr",
+          "info": "Ormarr"
+        },
+        {
+          "hero_id": "lu_bo",
+          "info": "LuBo"
+        },
+        {
+          "hero_id": "aleister",
+          "info": "Aleister"
+        },
+        {
+          "hero_id": "raz",
+          "info": "Raz"
+        },
+        {
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "dieu_thuyen",
+          "info": "DieuThuyen"
+        }
+      ]
+    }
+  ],
+  "hero_story": "\"Tra tấn mang lại đau khổ, và đau khổ mang đến sức mạnh.\"<br>Sinh ra từ nơi sâu thẳm nhất Địa Ngục, <i class=\"clr-orange\">Maloch</i> biết rõ mọi hình phạt tàn nhẫn nhất tại đây. Không gì trên đời làm hắn thích thú hơn việc bóp nát tâm hồn của những kẻ bất hạnh.<br>Tiếng gào thét của sự đau đớn, nỗi thống khổ giống như một điệu nhạc Valse đối với <i class=\"clr-orange\">Maloch</i> vậy và sức mạnh của hắn cũng đến từ đó. Trong cái nơi ánh sáng không thể chiếu đến này, Cai Ngục là kẻ thống trị, còn <i class=\"clr-orange\">Maloch</i> là Vua của những kẻ thống trị.<br>\"Thuộc hạ của ta luôn khao khát quyền lực của ta, nhưng chúng sẽ không bao giờ có được nó!\"<br>Hắn luôn tự hào về sự am hiểu của bản thân hay những mưu hèn kế bẩn bản thân nghĩ ra. Một trong những thú tiêu khiển yêu thích của <i class=\"clr-orange\">Maloch</i> chính là đích thân tra tấn các Cai Ngục cho đến khi linh hồn của chúng vỡ nát.<br>Nhưng qua thời gian, thú vui đó dần trở nên nhàm chán đối với <i class=\"clr-orange\">Maloch</i>.<br>\"Tất cả linh hồn trên thế giới này đều sẽ phải khóc lóc, van xin và bị hủy diệt dưới chân ta!\"<br>Với khát vọng tột cùng đó, <i class=\"clr-orange\">Maloch</i> rời bỏ Vương quốc của mình để tham gia đấu trường huyền thoại.<br>\"Ta sẽ cho các người thấy nỗi đau đớn thật sự là như thế nào!\"",
+  "hero_skin": [{
+      "name": "Ma Vương Quản Ngục",
+      "gold": "18,888",
+      "voucher": "539",
+      "event": "",
+      "wall": "Maloch01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": ""
+    },
+    {
+      "name": "Tiệc Hóa Trang (Bậc A)",
+      "gold": "",
+      "voucher": "450",
+      "event": "",
+      "wall": "Maloch02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": ""
+    },
+    {
+      "name": "Ác Ma Địa Ngục (Bậc S)",
+      "gold": "",
+      "voucher": "309",
+      "event": "",
+      "wall": "Maloch03",
+      "disable": "yes",
+      "img": "thumb3.jpg",
+      "video": ""
+    },
+    {
+      "name": "Samurai Tử Sĩ (Bậc S)",
+      "gold": "",
+      "voucher": "",
+      "event": "Mở sự kiện",
+      "wall": "Maloch04",
+      "disable": "yes",
+      "img": "thumb4.jpg",
+      "video": ""
+    }
+  ]
+}

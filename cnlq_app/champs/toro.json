@@ -1,0 +1,165 @@
+{
+  "hero_id": "Toro",
+  "hero_name": "Toro",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Đỡ đòn",
+    "special": "Khống chế / Tiền vệ",
+    "lane": "Đường rồng"
+  },
+  "main_skill": [{
+      "name": "Mình đồng da sắt",
+      "info": "Nội tại: Sau khi tung chiêu Toro được miễn nhiễm khống chế, và tăng 20% miễn thương."
+    },
+    {
+      "name": "Sừng trâu",
+      "info": "ST Gốc: 115/130/145/160/175/190<br>H.Chiêu: 10/9.4/8.8/8.2/7.6/7<br>Toro húc tới trước, gây 115 (+163) STVL đồng thời hất tung những nạn nhân trúng chiêu."
+    },
+    {
+      "name": "Dư chấn",
+      "info": "ST Gốc: 375/425/475/525/575/625<br>H.Chiêu: 10/9.4/8.8/8.2/7.6/7<br>Bảo hộ: 250/300/350/400/450/500<br>Toro gầm lên giúp bản thân nhận lớp bảo hộ chặn 250 (+2% máu tối đa) ST, đồng thời gây 375 (+1.17 công vật lý) (+2% máu tối đa) STVL lên những kẻ địch lân cận và làm chậm 35% tốc chạy của các nạ nhân trong 1s."
+    },
+    {
+      "name": "Đại địa chấn",
+      "info": "ST Gốc: 150/200/250<br>H.Chiêu: 40/35/30<br>Toro nhảy xổ đến điểm chỉ định nện liên tục 3 đọt lên mặt đất. Hai đợt đầu gây 150 (+122) STVL và lần lượt làm chậm 30% tốc chạy các kẻ địch trúng chiêu trong 1s, rồi 40% trong 1s. Đợt thứ 3 khiến những nạn nhân trong tầm ảnh hưởng bị hất tung và chịu 300 (+244) STVL."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,3,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 chiêu thức",
+      "info": "2,3,4,0"
+    }
+  ],
+  "skill_note": "*Dư chấn sẽ giúp bạn loại bỏ các hiệu ứng bất lợi.",
+  "skill_special": "CapCuu,BocPha",
+  "main_rune": [{
+      "name": "*Ngọc cấp 2",
+      "info": [{
+          "name": "NgocDo25",
+          "info": "Công vật lý +1.5<br>Máu tối đa +13.5"
+        },
+        {
+          "name": "NgocTim24",
+          "info": "Máu tối đa +36<br>Giáp +1.6"
+        },
+        {
+          "name": "NgocXanh22",
+          "info": "Máu tối đa +15.7<br>Hồi máu/5s +3.1<br>Giảm hồi chiêu +0.3%"
+        }
+      ]
+    },
+    {
+      "name": "*Ngọc cấp 3",
+      "info": [{
+          "name": "NgocDo37",
+          "info": "Tốc đánh +1%<br>Máu tối đa +33.7<br>Giáp +2.3"
+        },
+        {
+          "name": "NgocTim33",
+          "info": "Máu tối đa +45<br>Hồi máu/5s +5.2<br>Tốc chạy +0.4%"
+        },
+        {
+          "name": "NgocXanh31",
+          "info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+        }
+      ]
+    }
+  ],
+  "item_build": [{
+      "name": "Chơi hỗ trợ",
+      "info": "LenhBaiPhongThan,GiayKienCuong,KhienHuyenThoai,GiapGaia,GiapThongKho,GiapHoMenh"
+    },
+    {
+      "name": "Đường đơn",
+      "info": "AoChoangThanRa,GiayHoVe,GiapGaia,KhienHuyenThoai,HuanChuongTroy,KhienThatTruyen"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "LenhBaiPhongThan,GiayHoVe,AoChoangThanRa,GiapGaia,KhienHuyenThoai,GiapThongKho"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "yorn",
+          "info": "Yorn"
+        },
+        {
+          "hero_id": "valhein",
+          "info": "Valhein"
+        },
+        {
+          "hero_id": "tel_annas",
+          "info": "TelAnnas"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "alice",
+          "info": "Alice"
+        },
+        {
+          "hero_id": "chaugnar",
+          "info": "Chaugnar"
+        },
+        {
+          "hero_id": "raz",
+          "info": "Raz"
+        },
+        {
+          "hero_id": "azzen_ka",
+          "info": "AzzenKa"
+        }
+      ]
+    }
+  ],
+  "hero_story": "\"Ngộ Không, gieo nhân nào gặt quả nấy!\"<br><i class=\"clr-orange\">Toro</i> luôn giữ mối hận Ngộ Không sau từng đó năm. Bá chủ cả dãy Hỏa Diệm Sơn, <i class=\"clr-orange\">Toro</i> được xem như một trong những vị thần vĩ đại nhất của thế giới. Sức mạnh và quyền lực của hắn hiển nhiên còn hơn cả Ngộ Không trong Hiệp Ước Máu của Quái Thú nếu không sử dụng bất kì hỗ trợ gì như Gậy Như Ý.<br>Sự thật là, <i class=\"clr-orange\">Toro</i> đã từng chia sẻ  những gì tốt nhất với Ngộ Không, nhưng mọi thứ đã thay đổi kể từ khi Ngộ Không bắt đầu đi Tây Thiên thỉnh kinh. Tôn Ngộ Không xuống tay giết chết người anh em của <i class=\"clr-orange\">Toro</i> để bảo vệ Đường Tăng trên đường thỉnh Kinh. Chưa dừng ở đấy, Ngộ Không còn bắt con trai của <i class=\"clr-orange\">Toro</i> là Hồng Hài Nhi, và xen vào cuộc tình tay ba giữa <i class=\"clr-orange\">Toro</i>, Thiết Phiến Công Chúa và Ngọc Diện Hồ Ly. Kể từ đây, tình nghĩa huynh đệ rạn nứt, mối thâm thù của họ ngày càng trở nên sâu đậm, không bút mực nào tả xiết.<br>\"Chúng ta đã thề là anh em kết nghĩa, sao hắn luôn gây rắc rối cho ta vậy?\", <i class=\"clr-orange\">Toro</i> gầm lên hết sức giận dữ.<br><i class=\"clr-orange\">Toro</i> muốn giáp mặt Ngộ Không để giải quyết mọi ân oán, nhưng Ngộ Không nay đã trở nên thật xa xôi tận Tây Thiên. <i class=\"clr-orange\">Toro</i> cảm thấy như bị hạ nhục. Sau khi biết tin Ngộ Không nay đã đến Athanor, <i class=\"clr-orange\">Toro</i> nắm lấy cơ hội và theo dấu Ngộ Không. Hắn chiếm được lòng tin của Afata sau khi tiết lộ danh tính thật và chờ đợi một trận thư hùng cùng \"người anh em\" của hắn.<br>“Con khỉ ngu ngốc kia mau ra đây? Ta sẽ cho ngươi một bài học bằng nắm đấm.",
+  "hero_skin": [{
+      "name": "Ngưu Ma Vương",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Toro01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": "Toro01"
+    },
+    {
+      "name": "Đặc Cảnh NYPD (Bậc A)",
+      "gold": "",
+      "voucher": "270",
+      "event": "",
+      "wall": "Toro02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": "Toro02"
+    },
+    {
+      "name": "Trung Phong Cắm",
+      "gold": "",
+      "voucher": "249",
+      "event": "",
+      "wall": "Toro03",
+      "disable": "yes",
+      "img": "thumb3.jpg",
+      "video": "Toro03"
+    }
+  ]
+}

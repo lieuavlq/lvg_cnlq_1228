@@ -1,0 +1,165 @@
+{
+  "hero_id": "Taara",
+  "hero_name": "Taara",
+  "main_info": {
+    "price_gold": "",
+    "price_voucher": "",
+    "price_text": "Quà đăng nhập",
+    "position": "Đỡ đòn / Đấu sĩ",
+    "special": "Tiền đạo / Khôi phục",
+    "lane": "Đường Caesar"
+  },
+  "main_skill": [{
+      "name": "Chiến ý",
+      "info": "Nội tại: Mỗi 1% máu tối đa bị mất được thêm 3~6 công vật lý (tăng theo cấp tướng)<br>Khi sử dụng mọi chiêu thức sẽ tiêu hao 8% máu hiện tại<br>Hồi lại 6% máu đã mất trong 3 giây mỗi khi sử dụng Đập tan hoặc Trăn trối."
+    },
+    {
+      "name": "Trăn trối",
+      "info": "ST Gốc: 120/155/190/225/260/295<br>H.Chiêu: 12/11.4/10.8/10.2/9.6/9<br>Giảm tốc chạy: 30%/36%/42%/48%/54%/60%<br>Taara nhảy nện búa vào điểm chỉ định, gây 120 (+86) STVL và làm chậm 30% tốc chạy của nạn nhân trúng chiêu trong 2s."
+    },
+    {
+      "name": "Đập tan",
+      "info": "ST Gốc: 150/180/210/240/270/300<br>Taara vung búa xoay tròn gây hai lượt sát thương lên kẻ địch lân cận, mỗi lượt gây 150 (+0.6 công vật lý) STVL."
+    },
+    {
+      "name": "Thân thể thép",
+      "info": "Hồi chiêu: 35 giâybr>Taara sử dụng hết tiềm năng của mình giúp phục hồi 8% máu tối đa mỗi giây trong 5/7/9 giây, đồng thời tăng 30% tốc chạy."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "2,3,5,7,9,11",
+    "line2": "1,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,3,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 chiêu thức",
+      "info": "2,3,4,0"
+    }
+  ],
+  "skill_note": "*Nếu để lượng máu tầm 50%, gank các đường sẽ càng hiệu quả hơn.",
+  "skill_special": "TrungTri,BocPha",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo25",
+        "info": "Công vật lý +1.5<br>Máu tối đa +13.5"
+      },
+      {
+        "name": "NgocTim28",
+        "info": "Máu tối đa +13.5<br>Tốc chạy +0.7%"
+      },
+      {
+        "name": "NgocXanh23",
+        "info": "Máu tối đa +13.5<br>Xuyên giáp +3.8"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo34",
+        "info": "Công vật lý +3.2"
+      },
+      {
+        "name": "NgocTim32",
+        "info": "Tốc đánh +1%<br>Tốc chạy +1%"
+      },
+      {
+        "name": "NgocXanh36",
+        "info": "Giáp +5<br>Giáp phép +5"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đi rừng",
+      "info": "RiuLeviathan,GiayHermes,AoChoangBangGia,GiapGaia,GiapThongKho,PhuChuTruongSinh"
+    },
+    {
+      "name": "Đường trên hoặc dưới",
+      "info": "RiuHyoga,GiayDuMuc,SongDaoBaoTap,PhucHopKiem,GuomSamSet,HerculeThinhNo"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "AoChoangThanRa,GiayHoVe,RiuHyoga,GiapGaia,KhienThatTruyen,GiapHoMenh"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "toro",
+          "info": "Toro"
+        },
+        {
+          "hero_id": "ormarr",
+          "info": "Ormarr"
+        },
+        {
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "aleister",
+          "info": "Aleister"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "ormarr",
+          "info": "Ormarr"
+        },
+        {
+          "hero_id": "trieu_van",
+          "info": "TrieuVan"
+        }
+      ]
+    }
+  ],
+  "hero_story": "Dãy Núi Thép nằm sừng sững ở đất Bắc xa xôi, bao quanh Cung điện ánh sáng như một bức tường bằng sắt. Dãy núi nổi tiếng này được biết đến với các mỏ quặng kim loại, vốn là nguồn năng lượng chính của giới chức sắc trong Cung điện ánh sáng.<br>Là một nhóm người đến với vùng đất này, Cung điện ánh sáng trực tiếp điều khiển tất cả những người theo tín hữu của họ. Bộ tộc do <i class=\"clr-orange\">Taara</i> dẫn đầu đã đạt được nhiều thành tích trong thời kỳ chiến tranh. Mặc dù họ còn thiếu những chiêu thức chế tác cần thiết để chế tạo vũ khí, họ vẫn nắm giữ những chiếc búa quyền năng và đẩy lùi mọi cuộc tấn công dưới chân núi. Những dòng sông máu cứ chảy, bộ lạc của <i class=\"clr-orange\">Taara</i> phải trả cái giá quá đắt. Tuy nhiên, khi gần như thất thế khắp Núi Thép, ý nghĩa bỏ cuộc vẫn không xuất hiện trong đầu <i class=\"clr-orange\">Taara</i>.<br>Trong ngày ánh sáng hồi sinh, <i class=\"clr-orange\">Taara</i> cùng các bộ lạc tổ chức một bữa tiệc linh đình. Họ thắp lên ngọc lửa sáng sâu trong những ngọn núi và đốt lên những cột lửa sáng lóa. Các sứ giả của Thane đến, mang tới mệnh lệnh từ vị vua đáng kính: Vì sự trung thành của <i class=\"clr-orange\">Taara</i> trong chiến tranh, cô xứng đáng được trao danh hiệu cao quý. Cô sở hữu một vùng đất rộng lớn trong vương quốc mới và cả bộ lạc cuối cùng cũng thoát khỏi cảnh nghèo đói.<br>Tuy nhiên, trước khi <i class=\"clr-orange\">Taara</i> có thể lên kế hoạch cho những điều mới mẻ, sự giận dữ của Gildur đã lan đến Sông Thép. Nắm giữ ngân khố của Cung điện ánh sáng, Gildur biết rằng tăng dân số là tăng khả năng sản xuất, và ông không cho phép Thane tự ý đưa thêm người vào Cung điện. Người đưa tin của Thane bị lưu đày, <i class=\"clr-orange\">Taara</i> bị coi như là kẻ phản bội niềm tin và bị bỏ tù. Ngoài ra, các khoản thuế áp dụng với bộ lạc của cô bị tăng gấp đôi trong 10 như một hình phạt thích đáng.<br>Mọi thứ quay ngoắt 180 độ, <i class=\"clr-orange\">Taara</i> như rơi thẳng từ thiên đàng xuống địa ngục. Veera, gián điệp bóng đêm, nắm lấy cơ hội và giải cứu <i class=\"clr-orange\">Taara</i>, và để lại lời nhắn: \"Những vị thần Ánh Sáng đã khiến cô gục ngã, tại sao cô không nắm lấy Bóng Tối thật sự?\". Thất vọng vì những gì Cung điện ánh sáng đối xử với cô, <i class=\"clr-orange\">Taara</i> đã tự gieo mình xuống vực thẳm. Cô sẵn sàng bị dầy vò bởi lửa băng, và dâng linh hồn mình cho bóng đêm.<br>\"Ta chỉ dựa vào sức mạnh mà ta có trong tay!\"",
+  "hero_skin": [{
+      "name": "Búa Cuồng Bạo",
+      "gold": "",
+      "voucher": "",
+      "event": "Quà đăng nhập",
+      "wall": "Taara01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": ""
+    },
+    {
+      "name": "Đại Tù Trưởng (Bậc S)",
+      "gold": "",
+      "voucher": "510",
+      "event": "",
+      "wall": "Taara02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": ""
+    },
+    {
+      "name": "Hỏa Ngọc Nữ Đế (Bậc S)",
+      "gold": "",
+      "voucher": "379",
+      "event": "",
+      "wall": "Taara03",
+      "disable": "yes",
+      "img": "thumb3.jpg",
+      "video": "Taara03"
+    },
+    {
+      "name": "Tiệc Bãi Biển (Bậc SS)",
+      "gold": "",
+      "voucher": "",
+      "event": "Mở sự kiện",
+      "wall": "Taara04",
+      "disable": "yes",
+      "img": "thumb4.jpg",
+      "video": "Taara04"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "hero_id": "Xeniel",
+  "hero_name": "Xeniel",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Đỡ đòn / Trợ thủ",
+    "special": "Khống chế / Hồi phục",
+    "lane": "Đường Caesar"
+  },
+  "main_skill": [{
+      "name": "Sách thánh tích",
+      "info": "Nội tại: mỗi đòn đánh thứ 3 gây thêm 4-8% máu tối đa (tăng 1% theo mỗi mốc cấp 4/7/10/13) STP."
+    },
+    {
+      "name": "Thần hộ thể",
+      "info": "Lá chắn: 400/520/640/760/880/1000<br>ST đánh thường thêm: 4%/5%/6%/7%/8%/9%<br>Tăng lá chắn: 4%/5%/6%/7%/8%/9%<br>Xeniel tự phủ một lớp bảo hộ lên bản thân, giúp chặn 400 (+0) (+134) (4% máu tối đa của bản thân) sát thương, sau 2.5s Xeniel có thể tự hủy khiên, gây 400 (+0) (+134) (+4% máu tối đa của bản thân) STP lên những kẻ địch lân cận và làm chậm nạn nhan trúng chiêu trong 1s, nếu lớp bảo hộ bị phá sẽ không thể gây sát thương."
+    },
+    {
+      "name": "Chùy thần lực",
+      "info": "ST Gốc: 280/340/400/460/520/580<br>H.Chiêu: 10/9.4/8.8/8.2/7.6/7<br>Xeniel nhảy đến một vùng chỉ định gây 280 (+0) STP, và làm choáng những kẻ địch trúng chiếu trong 1.25s."
+    },
+    {
+      "name": "Sứ mệnh cứu thế",
+      "info": "ST Gốc: 300/450/600<br>H.Chiêu: 70/65/60<br>Xeniel chọn 1 tướng đồng minh rồi phóng lên trời bay đến mục tiêu, sau 2.2s Xeniel giáng trần, gây 300 (+0) STP, đồng thời giúp đồng minh được chọn hồi 15% máu tối đa, và bản thân tăng 40% tốc chạy trong 3s, đặc biệt cả hai được tăng 40% miễn thương trong 2.2s."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,3,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 chiêu thức",
+      "info": "4,2,3,2,0"
+    }
+  ],
+  "skill_note": "*Là một vị tướng thuộc hàng \"Trâu\" vì thế hãy tận dụng và cản trở đối thủ.",
+  "skill_special": "TrungTri,CapCuu",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo21",
+        "info": "Tốc đánh +1.2%"
+      },
+      {
+        "name": "NgocTim28",
+        "info": "Máu tối đa +13.5<br>Tốc chạy +0.7%"
+      },
+      {
+        "name": "NgocXanh22",
+        "info": "Máu tối đa +15.7<br>Hồi máu/5s +3.1<br>Giảm hồi chiêu +0.3%"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo37",
+        "info": "Tốc đánh +1%<br>Máu tối đa +33.7<br>Giáp +2.3"
+      },
+      {
+        "name": "NgocTim33",
+        "info": "Máu tối đa +45<br>Hồi máu/5s +5.2<br>Tốc chạy +0.4%"
+      },
+      {
+        "name": "NgocXanh34",
+        "info": "Máu tối đa +37.5<br>Giảm hồi chiêu +0.6%"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường Caesar",
+      "info": "RiuLeviathan,GiayKienCuong,AoChoangBangGia,HuanChuongTroy,KhienThatTruyen,GiapHoMenh"
+    },
+    {
+      "name": "Đường Caesar",
+      "info": "RiuLeviathan,GiayHoVe,AoChoangBangGia,GiapGaia,GiapThongKho,KhienThatTruyen"
+    },
+    {
+      "name": "Chơi hỗ trợ",
+      "info": "LenhBaiPhongThan,GiayKienCuong,GiapThongKho,HuanChuongTroy,AoChoangBangGia,GiapHoMenh"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "maloch",
+          "info": "Maloch"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "maloch",
+          "info": "Maloch"
+        },
+        {
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "alice",
+          "info": "Alice"
+        }
+      ]
+    }
+  ],
+  "hero_story": "\"Vinh quang này dành cho Trời”<br><i class=\"clr-orange\">Xeniel</i> sở hữu một cơ thể mạnh mẽ và tâm trí vững vàng. Là tín đồ mộ đạo, <i class=\"clr-orange\">Xeniel</i> hoàn toàn trung thành với Cung điện ánh sáng. Sự cống hiến không ngừng nghỉ của ông đã thu hút sự chú ý của Nữ thần Ilumia, người đã giúp ông trở thành chỉ huy giáo phái.<br>\"Mọi thứ đều là ý nguyện của Trời, và tôi vinh dự được nhận lệnh từ Ngài.\" Mặc dù nắm nhiều quyền lực trong tay, <i class=\"clr-orange\">Xeniel</i> vẫn luôn khiêm tốn và coi lệnh của Nữ thần là tuyệt đối. Với Chùy Trừng phạt trong tay, <i class=\"clr-orange\">Xeniel</i> gửi lời cảnh cáo cho tất cả những kẻ dám phạm thượng. Đồng thời ông vận dụng năng lực, truyền đạt lời Sấm truyền Khai sáng của Trời tới người dân. Bên trong điện ánh sáng, <i class=\"clr-orange\">Xeniel</i> nhận được sự tôn trọng và sùng kính hoàn toàn. Vì vậy, Ilumia đã trao cho ông bộ cánh thiên thần, biểu tượng cho ánh sáng và sức mạnh.<br>Những thành tích của <i class=\"clr-orange\">Xeniel</i> vượt qua sự mong đợi của Ilumia. Trong cuộc xâm lược của phe bóng tối, Maloch và đội quân quỷ dữ đã tấn công Cung điện ánh sáng trên đỉnh núi. Ilumia xuất hiện giữa trận chiến để tăng tinh thần cho các chiến binh của phe Cung điện Ánh sáng. Tuy nhiên, Zephys và Nakroth đã nắm lấy cơ hội này để tấn công bất ngờ và phục kích Ilumia, hy vọng ám sát Nữ thần.<br><i class=\"clr-orange\">Xeniel</i> dang rộng 6 chiếc cánh thiên thần, vừa kịp bay tới giải cứu Ilumia. Ông dùng chính cơ thể vạm vỡ của mình để chống lại các chiêu thức của Zephys và Nakroth. Mặc dù bị thương bởi rất nhiều lưỡi kiếm, ông vẫn bất khuất dang đôi cánh đẫm trong máu che chở Nữ Thần. Quân đội quỷ dữ không thể làm gì trước khả năng phục hồi thần thành của cơ thể <i class=\"clr-orange\">Xeniel</i>. Lợi dụng sự mất cảnh giác của đội quân ác quỷ khi đấu với <i class=\"clr-orange\">Xeniel</i>, Airi đã vận dụng năng lực tiếp cận Maloch và cắt đứt đôi cánh của gã. Cuộc tấn công thất bại, bọn chúng buộc phải rút quân.<br>Sau trận chiến, sự dũng cảm của <i class=\"clr-orange\">Xeniel</i> lan rộng khắp nơi và ông trở thành Tư lệnh của Cung điện ánh sáng, ngang hàng với Mũi tên mặt trời Yorn.<br>\"Bóng tối đã kết thúc, hãy để Ánh dương chiếu sang mảnh đất này.\"",
+  "hero_skin": [{
+      "name": "Sứ Giả Thần Thánh",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Xeniel01",
+      "disable": "yes",
+      "img": "thumb1.jpg",
+      "video": "Xeniel01"
+    },
+    {
+      "name": "Thiên Sứ Hủy Diệt (Bậc A)",
+      "gold": "",
+      "voucher": "219",
+      "event": "",
+      "wall": "Xeniel02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": "Xeniel02"
+    },
+    {
+      "name": "Trung Vệ Thép (Football Fever)",
+      "gold": "",
+      "voucher": "",
+      "event": "Mở sự kiện",
+      "wall": "Xeniel03",
+      "disable": "",
+      "img": "thumb3.jpg",
+      "video": "Xeniel03"
+    },
+    {
+      "name": "Kim Sí Điểu",
+      "gold": "",
+      "voucher": "",
+      "event": "Mở VIP có",
+      "wall": "Xeniel04",
+      "disable": "",
+      "img": "thumb4.jpg",
+      "video": "Xeniel04"
+    }
+  ]
+}

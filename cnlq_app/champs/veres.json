@@ -1,0 +1,161 @@
+{
+  "hero_id": "Veres",
+  "hero_name": "Veres",
+  "main_info": {
+    "price_gold": "18,888",
+    "price_voucher": "539",
+    "price_text": "",
+    "position": "Đấu sĩ / Sát thủ",
+    "special": "Trung phong / Ám sát",
+    "lane": "Đường Caesar"
+  },
+  "main_skill": [{
+      "name": "HUYẾT XÍCH",
+      "info": "Nội tại: Các đòn đánh thường trúng đích giúp Veres tích lũy 1 điểm nội tại Huyết xích trong vòng 10 giây; khi đạt đủ 4 điểm tích lũy Veres sẽ tung Bạo xích tấn công tất cả kẻ địch lân cận, gây sát thương vật lý; nếu có tướng địch trúng đòn, Veres hồi lại 12% sát thương gây ra (máu càng thấp, tỷ lệ hút máu càng cao lên đến 120%). Đặc biệt Veres còn được giảm 1 giây hồi Song xích & Xiềng xích, và 2 giây hồi Đoạt mệnh xích. Chưa hết, suốt thời gian tung Bạo xích Veres có thể thoải mái di chuyển, và còn được tăng 35% kháng hiệu ứng."
+    },
+    {
+      "name": "SONG XÍCH",
+      "info": "Hồi chiêu: 6 giây<br>Tiêu hao: 0 năng lượng<br>Veres phóng xích tách làm hai sợi tấn công kẻ địch gây 130/180/230/280/330/380 (+0.6 công vật lý) sát thương vật lý. Nạn nhân xấu số trúng cả hai sợi xích sẽ bị choáng 1 giây.<br>Chưa hết, tung xích trúng tướng địch giúp Veres nhận một điểm tích lũy Huyết xích."
+    },
+    {
+      "name": "XIỀNG XÍCH",
+      "info": "Hồi chiêu: 12/11.4/10.8/10.2/9.6/9 giây<br>Tiêu hao: 0 năng lượng<br>Veres phóng xích tấn công kẻ địch gây 85/120/155/190/225/260 (+0.4 công vật lý) sát thương vật lý. Đặc biệt sợi xích sẽ đẩy lùi kẻ địch nếu chúng đang ở gần Veres, hoặc kéo kẻ địch về trước mặt nếu chúng đang ở xa Veres; trong cả hai trường hợp nạn nhân đều sẽ bị choáng ngay sau đó.<br>Chưa hết, tung xích trúng tướng địch giúp Veres nhận một điểm tích lũy Huyết xích."
+    },
+    {
+      "name": "ĐOẠT MỆNH XÍCH",
+      "info": "Hồi chiêu: 24/21/18 giây<br>Tiêu hao: 0 năng lượng<br>Veres nhảy đến phía trước triệu hồi vô số xích trồi lên từ mặt đất tấn công những kẻ địch trong vùng ảnh hưởng, gây 300/450/600 + 12/16/20% (+1% mỗi 100 công vật lý) máu đã mất của mục tiêu sát thương chuẩn<br>Tung chiêu trúng tướng địch giúp Veres tiến vào trạng thái Cuồng huyết: tăng 30/45/60% tốc đánh, 150/250/350 công vật lý, 15/25/35% xuyên giáp trong 4 giây (nếu kết liễu tướng địch sẽ tăng thành 10 giây). Suốt thời gian này nếu nội tại được kích hoạt tung Huyết xích trúng một tướng địch sẽ giúp tăng thêm 2 giây trạng thái Cuồng huyết."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "1,3,5,7,9,11",
+    "line2": "2,6,10,13,14,15",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game: kết hợp nội tại khi tích 4 điểm",
+      "info": "0,3,2,1"
+    },
+    {
+      "name": "*Combo khi có đủ 3 chiêu thức: kết hợp nội tại khi tích 4 điểm",
+      "info": "0,3,2,1,4"
+    },
+    {
+      "name": "*Hoặc như này",
+      "info": "4,3,2,1,0"
+    }
+  ],
+  "skill_note": "<strong class=\"clr-orange\">*Đầu game</strong><br>- Veres giữ vai trò Đấu sĩ kiêm Sát thủ vì thế đường Caesar sẽ vô cùng thích hợp đối với cô.<br>- Đầu game nên chơi an toàn giữ vị trí farm nhanh lính và cố gắng ăn các mục tiêu lớn hơn như chim, dơi,..<br>- Dùng Chiêu 2 Xiềng xích linh hoạt để ăn lính và cấu máu đối phương, hãy để ý chiêu này nếu mục tiêu gần người sẽ đẩy ra, còn mục tiêu ở xa sẽ kéo về và choáng nhẹ.<br>- Để ý Chiêu 1 Song xích sẽ làm choáng mục tiêu nếu cả 2 sợi xích cùng trúng mục tiêu.<br>- Cái quan trọng nhất đối với Veres là chiêu Nội tại, khi đánh thường hoặc dùng chiêu thức sẽ tích lũy điểm nội tại.<br>- Đạt đủ 4 điểm nội tại sẽ tung ra vùng chiêu gây sát thương kẻ địch xung quanh, hãy canh sao cho rìa vùng chiêu trúng mục tiêu càng nhiều càng tốt, làm choáng và hồi máu cho cô. Vùng chiêu này rất khó canh vì thế hãy tập luyện nhiều Veres thì mới có thể chơi tốt được cô nàng gai gốc này.<br><br><strong class=\"clr-orange\">*Giữa và cuối game</strong><br>- Về giữa và cuối game, cố gắng dọn dẹp lính, và đẩy trụ nếu có thể, đảo đường giúp đỡ các lane khác, cùng đồng đội ăn các mục tiêu lớn như Rồng, Rồng bạo chúa, hoặc cao hơn là Caesar.<br>- Khả năng tay đôi là có tuy nhiên đừng vì quá hăng máu mà cân 2, 3 nhé.<br>- Chiêu cuối Đoạt mệnh xích dùng để kết thúc mục tiêu khá tốt, dùng tốt quá kẻo đồng đội gọi là KS đấy nhé. Chiêu này đặc biệt dùng để tấn công hoặc bỏ chạy khá ổn, có thể vượt cả địa hình nửa đó.<br>- Nói chung Veres khá ổn khi đi đường nên đừng ngại solo nhé. cảm thấy không ổn thì gọi rừng lên chơi kk!!",
+  "skill_special": "TocBien,BocPha",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo26",
+        "info": "Công vật lý +1.5<br>Tốc đánh +0.4%"
+      },
+      {
+        "name": "NgocTim23",
+        "info": "Công vật lý +0.6<br>Máu tối đa +36"
+      },
+      {
+        "name": "NgocXanh21",
+        "info": "Tốc đánh +0.4%<br>Giảm hồi chiêu +0.5%"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo36",
+        "info": "Công vật lý +2<br>Xuyên giáp +3.6"
+      },
+      {
+        "name": "NgocTim32",
+        "info": "Tốc đánh +1%<br>Tốc chạy +1%"
+      },
+      {
+        "name": "NgocXanh31",
+        "info": "Công vật lý +0.9<br>Xuyên giáp +6.4"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường Caesar",
+      "info": "AoChoangThanRa,GiayKienCuong,KhienHuyenThoai,HuanChuongTroy,HerculeThinhNo,GiapHoMenh"
+    },
+    {
+      "name": "Đường Caesar (thay thế 1)",
+      "info": "ThuongLonginus,GiayKienCuong,KhienHuyenThoai,GiapGaia,GiapCuongNo,GiapHoMenh"
+    },
+    {
+      "name": "Đường Caesar (thay thế 2)",
+      "info": "KiemTruyHon,GiayThuatSi,RiuHyoga,KiemFafnir,NanhFenrir,GiapHoMenh"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "mina",
+          "info": "Mina"
+        },
+        {
+          "hero_id": "aleister",
+          "info": "Aleister"
+        },
+        {
+          "hero_id": "alice",
+          "info": "Alice"
+        },
+        {
+          "hero_id": "ybneth",
+          "info": "Ybneth"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "annette",
+          "info": "Annette"
+        },
+        {
+          "hero_id": "arum",
+          "info": "Arum"
+        },
+        {
+          "hero_id": "roxie",
+          "info": "Roxie"
+        },
+        {
+          "hero_id": "tulen",
+          "info": "Tulen"
+        },
+        {
+          "hero_id": "liliana",
+          "info": "Liliana"
+        }
+      ]
+    }
+  ],
+  "hero_story": "“Thật thú vị, kẻ nào vừa triệu hoán ta?” Âm thanh mê hoặc vang vọng phá vỡ sự tĩnh lặng nơi đây, một tầng hầm cỡ bảy mét vuông với duy nhất cửa ra vào, không cửa sổ hoặc bất kỳ nội thất dư thừa nào khác. Nền sàn và bức tượng nặn ác ma nằm ở giữa căn phòng – tất cả đều đúc từ hắc diện thạch (đá obsidian) – được khắc đầy những chú ngữ ma pháp phức tạp.<br>Máu của <i class=\"clr-orange\">Veres</i> thẩm thấu khắp pháp trận, chúng bò dọc theo các đường vân chú ngữ lấp lánh ánh đỏ, hệt như lũ mãng xà háu đói đang tỏa ra tìm mồi. Nghi thức hiến tế cực kỳ nguy hiểm này sử dụng năng lượng chú ngữ hắc ám làm môi giới, máu làm vật dẫn để mở đường cho hình chiếu của “vị khách” đến từ chiều không gian khác.<br>Suốt quá trình này, nếu sinh lực của kẻ hiến tế không đủ cung cấp, nạn nhân sẽ bị hút cạn máu thành xác khô; nếu ý lực không đủ sẽ dễ bị hình chiếu mê hoặc rồi sa đọa thành tay sai của Vực hỗn mang. Đây quả thực là một cuộc khảo nghiệm sinh tử cả thể xác lẫn tinh thần.<br>Hiện tại vị khách đã đáp lời mời và xuất hiện cùng giọng điệu ma mị rung động tâm hồn. Nhưng <i class=\"clr-orange\">Veres</i> không quan tâm, cô dừng hiến tế rồi tập trung dùng răng và cánh tay còn lại để băng bó vết thương. Nghi thức đã hoàn thành được một nửa, cô cần đảm bảo đủ tỉnh táo để tiếp tục mà không phạm sai lầm nào.<br>“Người đừng lặng yên đến thế? Cô bé, chẳng phải ngươi gọi ta đến đây sao?” Âm thanh nhỏ như muỗi kêu, êm ái thấu tận xương tủy.<br>“Không ngờ lại là mụ già nhà ngươi xuất hiện.” <i class=\"clr-orange\">Veres</i> dùng răng cắn đứt băng vải gạc, lạnh lùng nói.<br>“Haha, cô bé vẫn đanh đá như xưa nhỉ.” Veera - kẻ chủ mưu kế hoạch sa đọa, trí giả của Vực hỗn mang – bật cười khanh khách. Tuy nhiên kể cả đã sống hàng vạn năm và từng trải khôn cùng, vẫn thật khó có thể thoát khỏi thất tình lục dục. Câu vừa rồi của <i class=\"clr-orange\">Veres</i> quả thật khó nghe.<br>“Đừng nói nhảm. Thời gian có hạn, tập trung vào giao dịch đi!” Nói xong <i class=\"clr-orange\">Veres</i> móc trong ngực ra một quyển sổ da dê rồi ném vào quầng sáng bao quanh bức tượng. “Đây là thứ ta muốn, kèm bảng giá bên trong.”<br>Như có một bàn tay vô hình trong không trung từ từ lật mở cuốn sách.<br>“Giao dịch thỏa đáng. Ngươi cung cấp thứ ta cần, thứ ngươi muốn ta có, không, chính xác hơn là chỉ ta mới có.” Veera nhanh giọng, “Chỉ là, ta thật tò mò, ai dạy cho ngươi nghi thức này? Còn quyển sổ, mùi có vẻ nghe quen quen làm sao…”<br>“Ác ma đã già khú đế, sao toàn nói nhảm hệt loài người vậy?” <i class=\"clr-orange\">Veres</i> nhếch mép, “Nếu không còn gì khác thì bắt đầu ký khế ước đi!”<br>“Haha, tốt nhất là ngươi cầu cả đời này đừng gặp phải ta, nếu không đừng hỏi ta sẽ làm gì với cái mồm của ngươi.” Nói xong không đợi <i class=\"clr-orange\">Veres</i> đáp lại, Veera liền biến mất.<br>Khế ước, đã có hiệu lực.<br><i class=\"clr-orange\">Veres</i> thở dài nhẹ nhõm. Kế hoạch hôm nay hệt như đang diễn xiếc thăng bằng trên dây, chỉ cần sai một ly dễ đi cả mạng người. Dẫu đã có hứa hẹn tất cả trong tầm kiểm soát của vị Ma đạo sĩ kia, nhưng <i class=\"clr-orange\">Veres</i> chưa bao giờ tin gã cả. Một  tên suốt ngày lén lén lút lút, tên cũng không dám để lộ ra, thì nói gì đến niềm tin?<br>Xuất thân sát thủ siêu cấp đời mới nhất, người <i class=\"clr-orange\">Veres</i> tin cậy chỉ duy nhất Quillen, sư phụ của nàng. Bằng khả năng của mình, <i class=\"clr-orange\">Veres</i> đã vực dậy Hội ám hoàng, gián tiếp giúp Quillen lấy lại vị thế của bản thân. Sau đó Quillen tạm điều <i class=\"clr-orange\">Veres</i> sang phục vụ dưới trướng Ma đạo sĩ, đây là một động thái đắc nhân tâm các đại biểu, cũng như gián tiếp chứng minh sự tận tụy với tổ chức trước mắt lãnh đạo các phe phái khác.<br>Đợt phản loạn của Amily ba năm trước gây ảnh hưởng cực kỳ nặng nề đối với Hội ám hoàng nói chung, và Quillen nói riêng. Trước sự chất vấn của tổ chức, Quillen buộc phải đứng ra chịu trách nhiệm và giao ra một bộ phận quyền lực, rồi tạm thời ẩn nhẫn chờ cơ hội mới. Suốt quãng thời gian đó, gần như mỗi ngày trôi qua với Quillen đều đầy u ám và dày vò. <i class=\"clr-orange\">Veres</i> - một đệ tử ruột được chính tay Quillen đào tạo - mắt thấy tai nghe tất cả những điều này không khỏi khiến cô ngày càng căm hận Amily hơn.<br>“Mỗi lần nhìn thấy ngươi, ta lại nhớ đến nàng. Cớ sao cả hai lại giống nhau đến thế!” Quillen luôn lặp lại điều này với <i class=\"clr-orange\">Veres</i>. Bất kể mọi chuyện đã xảy ra, bất kể mâu thuẫn nội tâm, Quillen vẫn luôn một mực rất ưu ái Amily.<br>Tuy không hiểu được ẩn ý của Quillen, nhưng <i class=\"clr-orange\">Veres</i> - thời bấy giờ còn là một thiếu nữ mới lớn – không khỏi phản cảm trước sự so sánh bản thân với kẻ phản đồ, đặc biệt khi điều này lại đến từ người mình kính yêu nhất. Trên hết, cô mơ hồ cảm thấy có vẻ trong lòng của Quillen, mình chưa bao giờ vượt qua được hình bóng của Amily.<br>Thế nên <i class=\"clr-orange\">Veres</i> mới bằng mọi giá, bất chấp tất cả nguy hiểm để thực hiện cuộc giao dịch. Điều này không chỉ nhằm giúp Quillen danh chính ngôn thuận tái xuất hiện, mà còn để bản thân siêu việt trước kia. Chính Ma đạo sĩ đã khẳng định, khi chủ thể trở thành vật dẫn giữa hai thế giới thông qua khế ước, năng lượng từ Vực hỗn mang sẽ cuồn cuộn không ngừng rót vào huyết mạch, và nhờ đó cô sẽ đạt được lực lượng mới, thậm chí thay da đổi thịt cải biến dung mạo.<br>“Ta chỉ cần xác nhận mình sẽ không trở thành tay sai của lũ sa đọa!” <i class=\"clr-orange\">Veres</i> lòng dặn lòng quyết tâm. Lời hứa hẹn của Ma đạo sĩ chưa bao giờ khiến <i class=\"clr-orange\">Veres</i> yên tâm, nhưng với sự ủng hộ của Quillen, nàng sẵn sàng liều tất cả. Và sau khi hoàn thành giao dịch này, nàng có một và chỉ một mục tiêu: truy lùng kẻ phản bội để khiến ả ta phải trả cái giá rất đắt.<br>“Ta hoàn toàn ưu tú hơn ngươi, hãy đợi đấy!”",
+  "hero_skin": [{
+      "name": "Huyết Luyện Xích",
+      "gold": "18,888",
+      "voucher": "539",
+      "event": "",
+      "wall": "Veres01",
+      "disable": "yes",
+      "img": "thumb1.jpg",
+      "video": ""
+    },
+    {
+      "name": "Đạo Tặc",
+      "gold": "",
+      "voucher": "219",
+      "event": "",
+      "wall": "Veres02",
+      "disable": "yes",
+      "img": "thumb2.jpg",
+      "video": ""
+    }
+  ]
+}

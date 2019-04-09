@@ -1,0 +1,179 @@
+{
+  "hero_id": "Arthur",
+  "hero_name": "Arthur",
+  "main_info": {
+    "price_gold": "13,888",
+    "price_voucher": "359",
+    "price_text": "",
+    "position": "Đấu sĩ / Đỡ đòn",
+    "special": "Tiền đạo",
+    "lane": "Đường rồng / Đường Caesar"
+  },
+  "main_skill": [{
+      "name": "Uy dũng",
+      "info": "Nội tại: Arthur được thần thánh hộ mệnh giúp tự thân sở hữu 28 giáp (tăng theo cấp tướng)."
+    },
+    {
+      "name": "Gươm chính nghĩa",
+      "info": "ST Gốc: 180/205/230/255/280/305<br>H.Chiêu: 10/9/8/7/6/5<br>Arthur tăng 30% tốc chạy và cường hóa thanh gươm khiến đòn đánh kế sẽ nhảy xổ đến kẻ địch, gây 180 (+164) STVL, và làm chậm 90% tốc chạy của mục tiêu trong 1s, chưa hết nạn nhân tướng địch còn phải chịu sự trừng phạt của thần linh khiến các đòn đánh thường và chiêu thức của Arthur gây thêm 1% máu tối đa của nạn nhân thành STP, đồng thời tăng tốc chạy của đồng minh xung quanh, hiệu ứng kéo dài 5s."
+    },
+    {
+      "name": "Thần vật hộ thân",
+      "info": "ST Gốc: 100/125/150/175/200/225<br>H.Chiêu: 12/11.4/10.8/10.2/9.6/9<br>Arthur dùng ý chí điều khiển sức mạnh của Thánh kiếm, xoay xung quanh bản thân và tấn công địch xuang quanh, mỗi lần tạo ra 100 （+0.4 công vật lý) (+0.4 công phép) STP, duy trì 5s."
+    },
+    {
+      "name": "Công lý phán quyết",
+      "info": "ST Gốc: 750/1000/1250<br>H.Chiêu: 42/35/28<br>ST đốt: 100/125/150<br>Arthur giương cao thanh gươm chính nghĩa tấn công kẻ địch, gây 750 (+213) STVL, đồng thời hất văng cả mục tiêu lẫn những nạn nhân lân cận trong 0.5s, chưa dừng lại ở đó, dư uy của thanh gươm khiến các kẻ địch trong vùng ảnh hưởng sẽ phải chịu 100 (+57) STVL mỗi giây."
+    }
+  ],
+  "skill_up": [{
+    "name": "*Mặc định",
+    "line1": "2,5,7,10,13,15",
+    "line2": "1,3,6,9,11,14",
+    "line3": "4,8,12"
+  }],
+  "skill_combo": [{
+      "name": "*Combo đầu game",
+      "info": "2,3,0"
+    },
+    {
+      "name": "*Combo khi có đủ 3 chiêu thức",
+      "info": "2,3,4,0"
+    }
+  ],
+  "skill_note": "*Có khả năng bắt lẻ tốt vì thế hãy để ý những chú cừu non lạc lõng trên bản đồ.",
+  "skill_special": "TocBien,BocPha,TrungTri",
+  "main_rune": [{
+    "name": "*Ngọc cấp 2",
+    "info": [{
+        "name": "NgocDo25",
+        "info": "Công vật lý +1.5<br>Máu tối đa +13.5"
+      },
+      {
+        "name": "NgocTim24",
+        "info": "Máu tối đa +36<br>Giáp +1.6"
+      },
+      {
+        "name": "NgocXanh27",
+        "info": "Hồi máu/5s +4.5<br>Giáp +3.2"
+      }
+    ]
+  }, {
+    "name": "*Ngọc cấp 3",
+    "info": [{
+        "name": "NgocDo37",
+        "info": "Tốc đánh +1%<br>Máu tối đa +33.7<br>Giáp +2.3"
+      },
+      {
+        "name": "NgocTim33",
+        "info": "Máu tối đa +45<br>Hồi máu/5s +5.2<br>Tốc chạy +0.4%"
+      },
+      {
+        "name": "NgocXanh36",
+        "info": "Giáp +5<br>Giáp phép +5"
+      }
+    ]
+  }],
+  "item_build": [{
+      "name": "Đường đơn gank lane",
+      "info": "AoChoangThanRa,GiayHermes,AoChoangBangGia,GiapGaia,GiapThongKho,GiapHoMenh"
+    },
+    {
+      "name": "Đi rừng hỗ trợ các đường",
+      "info": "KiemTruyHon,GiayHermes,ThuongLonginus,GiapCuongNo,GiapGaia,RiuHyoga"
+    },
+    {
+      "name": "Game thủ hay lên",
+      "info": "AoChoangThanRa,GiayKienCuong,AoChoangBangGia,GiapGaia,KhienHuyenThoai,HuanChuongTroy"
+    }
+  ],
+  "hero_battle": [{
+      "name": "Đồng đội",
+      "info": [{
+          "hero_id": "alice",
+          "info": "Alice"
+        },
+        {
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "tel_annas",
+          "info": "TelAnnas"
+        },
+        {
+          "hero_id": "lindis",
+          "info": "Lindis"
+        }
+      ]
+    },
+    {
+      "name": "Khắc chế",
+      "info": [{
+          "hero_id": "raz",
+          "info": "Raz"
+        },
+        {
+          "hero_id": "violet",
+          "info": "Violet"
+        },
+        {
+          "hero_id": "zephys",
+          "info": "Zephys"
+        }
+      ]
+    }
+  ],
+  "hero_story": "Với thanh kiếm thánh trong tay và sự công chính trong lòng, <i class=\"clr-orange\">Arthur</i> trở thành vị lãnh đạo chính thức đầu tiên của loài người. Ông được sinh ra trong một thời đại khi mà đức tin sụp đổ và thế giới bị che khuất trong bóng tối. Đối mặt với những con quái vật hung dữ và ác quỷ khát máu, con người không có được sức mạnh để tự bảo vệ mình, không có cả sự bảo hộ từ những vị thần, điều đó có thể dấy lên một cuộc chiến trong chính con người. Thời đại hỗn loạn này vẫn tồn tại cho đến khi <i class=\"clr-orange\">Arthur</i> xuất hiện. Tuyên truyền các giáo điều công lý và sự đúng đắn, ông bắt đầu công cuộc tạo nên trật tự và kỷ luật như một người hiệp sĩ.<br>Hiệp sĩ <i class=\"clr-orange\">Arthur</i> được mọi người đón nhận và ngưỡng mộ, ông chiêu mộ những chiến binh loài người dũng cảm từ khắp nơi cho một cam kết trung thành với <i class=\"clr-orange\">Arthur</i>. Dưới sự lãnh đạo tài tình của mình, ông đã hình thành được một tập hợp những hiệp sĩ dũng mãnh được đào tạo để chiến đấu kiên cường. Họ diễu hành dưới lá cờ công lý mang danh <i class=\"clr-orange\">Arthur</i>. Quân đoàn du hành qua khắp các mảnh đất, tiêu diệt mọi ác quỷ trên đường. Quan trọng nhất, họ thiết lập lại trật tự và bình yên, đảm bảo sự sống cho mọi người.<br>Những hành động của đoàn quân <i class=\"clr-orange\">Arthur</i> đã cản trở kế hoạch xâm chiếm của lũ ác quỷ. <i class=\"clr-orange\">Arthur</i> nghiễm nhiên trở thành cái gai khó chịu trong mắt Maloch, từ đó những hiệp sĩ của <i class=\"clr-orange\">Arthur</i> liên tục phải chống chọi với những đợt tấn công. Tuy nhiên, ý chí của binh đoàn không hề bị lung lay. <i class=\"clr-orange\">Arthur</i> cùng các hiệp sĩ kiên quyết đứng lên bảo vệ vùng đất của họ. Sự kiên cường và kiên trì của họ đã truyền cảm hứng cho tất cả mọi người.<br>Thiếu hụt quân số chưa bao giờ là vấn đề đội quân của <i class=\"clr-orange\">Arthur</i> phải đối mặt, do luôn luôn có các chàng trai trẻ cùng bầu nhiệt huyết sẵn sàng tham gia bất cứ lúc nào. Những người anh em này một lòng trung thành với nhà lãnh đạo của họ, <i class=\"clr-orange\">Arthur</i>. Con người, từ lâu luôn bị những chủng loại khác khinh thường, cuối cùng đã nhận được sự công nhận và tôn trọng lần đầu tiên trong suốt chiều dài lịch sử.<br>Ngay cả những kẻ thù lâu năm của con người đến từ Rừng chạng vãng cũng đã mở rộng cánh tay đón chào <i class=\"clr-orange\">Arthur</i>. Thậm chí Cung điện ánh sáng cũng ban phước lành dành cho những hiệp sĩ <i class=\"clr-orange\">Arthur</i>. <i class=\"clr-orange\">Arthur</i> và tinh thần hiệp sĩ của ông đã đem lại nhiều điều dành cho loài người cùng những người kế nhiệm, đặc biệt là Thane, chàng hiệp sĩ được trao ngọn đuốc quang vinh.<br>\"Ánh hào quang của Thánh kiếm sẽ đưa ánh sáng sẽ soi sáng cho con đường của mỗi Hiệp Sĩ!\"",
+  "hero_skin": [{
+      "name": "Thanh Gươm Chính Nghĩa",
+      "gold": "13,888",
+      "voucher": "359",
+      "event": "",
+      "wall": "Arthur01",
+      "disable": "",
+      "img": "thumb1.jpg",
+      "video": ""
+    },
+    {
+      "name": "Hoàng Kim Cốt (Bậc A)",
+      "gold": "",
+      "voucher": "219",
+      "event": "",
+      "wall": "Arthur02",
+      "disable": "",
+      "img": "thumb2.jpg",
+      "video": ""
+    },
+    {
+      "name": "Lãnh Chúa Xương (Bậc A)",
+      "gold": "",
+      "voucher": "",
+      "event": "Mở sự kiện",
+      "wall": "Arthur03",
+      "disable": "",
+      "img": "thumb3.jpg",
+      "video": ""
+    },
+    {
+      "name": "Si Tình Kiếm (Valentine)",
+      "gold": "",
+      "voucher": "",
+      "event": "Mở sự kiện",
+      "wall": "Arthur04",
+      "disable": "yes",
+      "img": "thumb4.jpg",
+      "video": ""
+    },
+    {
+      "name": "Siêu Sao Cricket",
+      "gold": "",
+      "voucher": "",
+      "event": "Từ Sổ Sứ Mệnh II",
+      "wall": "Arthur05",
+      "disable": "yes",
+      "img": "thumb5.jpg",
+      "video": ""
+    }
+  ]
+}
