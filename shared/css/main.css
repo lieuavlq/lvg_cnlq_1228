@@ -14,7 +14,6 @@ position: relative;
 font-size: 16px;
 line-height: 24px;
 color: #000;
-overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6 {
 font-weight: bold;
@@ -58,7 +57,11 @@ text-decoration: none;
 display: none !important;
 }
 [data-role="page"] {
-position: relative;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 overflow-x: hidden;
 display: none;
 }
@@ -81,7 +84,7 @@ display: none;
 .lvg_holder {
 max-width: 640px;
 margin: auto;
-padding: 20px 30px 80px;
+padding: 20px 30px 50px;
 box-sizing: border-box;
 position: relative;
 }
@@ -89,11 +92,11 @@ position: relative;
 background-color: #333;
 color: #fff;
 border: none;
-border-bottom: 2px solid #cc263d;
+border-bottom: 1px solid #fff;
 position: relative;
 text-align: center;
 }
-[data-role="header"].top-fixed {
+/*[data-role="header"].top-fixed {
 position: fixed;
 top: 0;
 left: 0;
@@ -103,7 +106,7 @@ opacity: .9;
 }
 [data-role="header"].top-fixed + * {
 margin-top: 46px;
-}
+}*/
 [data-role="header"] h1 {
 font-family: 'Baloo', sans-serif;
 text-transform: uppercase;
@@ -120,13 +123,13 @@ font-weight: inherit;
 line-height: 14px;
 font-family: 'Roboto', sans-serif;
 }
-[data-role="navbar"] {
+/*[data-role="navbar"] {
 position: fixed;
 bottom: 0;
 left: 0;
 right: 0;
 z-index: 1;
-}
+}*/
 [id*="hero-tab0"] {
 display: none;
 overflow: hidden;
@@ -141,7 +144,7 @@ margin-bottom: 0;
 display: table;
 width: 100%;
 text-align: center;
-border-top: 1px solid #cc263d;
+border-bottom: 2px solid #cc263d;
 }
 [data-role="navbar"] li {
 display: table-cell;
@@ -290,6 +293,7 @@ background: no-repeat center;
 background-size: 90%;
 border: 1px solid #e1e1e1;
 border-radius: 50%;
+animation-duration: 2.5s;
 }
 .lvg_champs_class > span.active {
 border-color: #cc263d;
@@ -355,18 +359,22 @@ margin-bottom: 15px;
 border: 1px solid #333;
 }
 .lvg_runes > div {
-min-height: 44px;
+display: table;
+width: 100%;
+box-sizing: border-box;
+padding: 5px;
+}
+.lvg_runes > div > * {
+display: table-cell;
+vertical-align: middle;
+}
+.lvg_runes .rune-info {
+padding: 0 5px;
 }
 .lvg_runes span {
 width: 60px;
 height: 60px;
-display: block;
 background-size: cover;
-position: absolute;
-top: 50%;
-left: 5px;
--webkit-transform: translateY(-50%);
-transform: translateY(-50%);
 }
 .lvg_incskill > div span {
 display: none;
@@ -590,6 +598,7 @@ font-weight: bold;
 .lvg_img_main {
 margin: -5px auto 0;
 max-width: 190px;
+animation-duration: 1.5s;
 }
 .lvg_champ_quote {
 font-family: 'Baloo', sans-serif;
@@ -613,12 +622,14 @@ margin: auto;
 }
 @media (max-width: 640px){
 .lvg_holder {
-padding: 20px 15px 70px;
+padding-left: 15px;
+padding-right: 15px;
 }
 }
 @media (max-width: 360px){
 .lvg_holder {
-padding: 15px 10px 70px;
+padding-left: 10px;
+padding-right: 10px;
 }
 .lvg_skills_sp > div a, .lvg_items > div a {
 width: 45px;

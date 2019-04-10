@@ -34,22 +34,29 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <link rel="stylesheet" href="shared/css/reset.css">
+        <link rel="stylesheet" href="shared/css/animate.css">
         <link rel="stylesheet" href="shared/css/main.css">
         <!-- <link rel="stylesheet" href="http://lvgames.net/cnlq_app/common/cnlq.css"> -->
         <title>Sổ Tay AOV LAVU</title>
     </head>
     <body id="deviceready" data-appversion="10001">
+        <div id="wrap-disconnect" class="lvg_popup tp02" data-popup="disable">
+          <div class="content">
+            <p class="ttl">Hiện máy bạn không có kết nối mạng!!</p>
+            <p><a href="#" class="lvg_popup_link lvg_popup_out">Thoát ra</a></p>
+          </div>
+        </div>
         <div class="lvg_main_img"></div>
         <div id="wrap-countdown"></div>
         <div class="lvg_change_page"></div>
         <!-- Start of first page: #main -->
         <div data-role="page" id="main">
           <div data-role="header">
-            <h1>Sổ tay lavu<span>Đã cập nhật pb trang phục 4.0</span></h1>
+            <h1>Sổ tay lavu<span>Chào mừng đến với sổ tay</span></h1>
             <a href="#menu-left" class="lvg_popup_btn lvg_menu_btn">Menu</a>
           </div>
           <div class="lvg_holder">
-            <div class="lvg_img_main"><img src="shared/img/img_main.png" alt=""></div>
+            <div class="lvg_img_main animated tada"><img src="shared/img/img_main.png" alt=""></div>
             <div class="lvg_champs_class"><span data-value="warrior">Đấu sĩ</span><span data-value="tank">Đỡ đòn</span><span data-value="assassin">Sát thủ</span><span data-value="mage">Pháp sư</span><span data-value="marksman">Xạ thủ</span><span data-value="support">Trợ thủ</span></div>
             <div class="lvg_champ_quote">Tướng Mới | Miễn phí</div>
             <div class="lvg_select_champs">
@@ -96,12 +103,12 @@
 
         <!-- <script type="text/javascript" src="cordova.js"></script> -->
         <script type="text/javascript" src="shared/js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="shared/js/common.js"></script>
         <script type="text/javascript" src="shared/js/load_first.js"></script>
         <script type="text/javascript" src="shared/js/lang-vn.js"></script>
         <script type="text/javascript" src="shared/js/main.js"></script>
         <script type="text/javascript" src="shared/js/news.js"></script>
-        <script type="text/javascript" src="shared/js/common.js"></script>
-        <!-- <script type="text/javascript" src="js/index.js"></script> -->
         <!-- <script type="text/javascript" src="http://lvgames.net/cnlq_app/common/cnlq.js"></script> -->
     </body>
 </html>

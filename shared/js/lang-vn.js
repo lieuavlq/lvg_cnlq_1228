@@ -22,7 +22,7 @@ var lang_vn_file = {
   "hero_rune3": "Ngọc cấp 3",
   "item_title": "Gợi ý full trang bị",
   "full_set": "Gợi ý full đồ",
-  "hero_story": "Câu truyện của",
+  "hero_story": "Câu chuyện của",
   "updating": "Đang cập nhật...",
   "wall_download": "Tải Ảnh Nền",
   "review_info": "Mọi người cùng Đánh Giá ứng dụng để ngày càng phát triển nhé!",

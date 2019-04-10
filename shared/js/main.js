@@ -9,8 +9,8 @@ $('document').ready(function(){
   // Class champs
   var lvg_champs_class = $('.lvg_champs_class > span');
   lvg_champs_class.click(function(){
-    lvg_champs_class.removeClass('active');
-    $(this).addClass('active');
+    lvg_champs_class.removeClass();
+    $(this).addClass('active animated infinite swing');
     var cur_value = $(this).attr('data-value');
     $('.lvg_champ_quote').text('Tướng ' + $(this).text());
     $('#all_champs.lvg_champs > div').addClass('ui-screen-hidden');
@@ -24,7 +24,10 @@ $('document').ready(function(){
     var data_hero = $(this).attr('data-page');
     $('#hero-page').remove();
     body.append('<div data-role="page" id="hero-page" class="'+$(this).parent().attr('class')+'"><div data-role="header"><a href="#main" class="ui-btn lvg_back_btn">Back</a><h1></h1><a href="#menu-left" class="lvg_popup_btn lvg_menu_btn">Menu</a></div><div data-role="navbar"><ul><li><a href="#hero-tab01">Guide</a></li><li><a href="#hero-tab02">Tips</a></li><li><a href="#hero-tab03">Info</a></li><li><a href="#hero-tab04">Skins</a></li></ul></div><div class="lvg_holder"><div id="hero-tab01"></div><div id="hero-tab02"></div><div id="hero-tab03"></div><div id="hero-tab04"></div></div></div>');
-    set_transi_page('#hero-page');
+//    set_transi_page('#hero-page');
+    $('[data-role="page"]').removeClass('active');
+//    $('.lvg_change_page').show().stop().fadeOut(700);
+    $('#hero-page').addClass('active');
     $.ajax({
       url: 'http://lvgames.net/cnlq_app/champs/'+data_hero+'.json',
       success : function(val) {
@@ -158,7 +161,7 @@ $('document').ready(function(){
       var rune_inner = hero_rune_up[i].info;
       var rune_str = '';
       for(j=0;j<rune_inner.length;j++){
-        rune_str += '<div><span class="rune" style="background-image: url('+ img_path + 'runes/' + rune_inner[j].name + '.png)"></span><div>' + rune_inner[j].info + '</div></div>'
+        rune_str += '<div><span class="rune" style="background-image: url('+ img_path + 'runes/' + rune_inner[j].name + '.png)"></span><div class="rune-info">' + rune_inner[j].info + '</div></div>'
       }
       hero_tab01.append('<p>' + hero_rune_up[i].name+ '</p><div class="lvg_runes">'+rune_str+'</div>');
     }

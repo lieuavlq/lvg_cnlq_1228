@@ -6,6 +6,10 @@ $(function(){
 
   body.css({'min-height': $(window).height()});
 
+  setTimeout(function(){
+    $('.lvg_img_main').removeClass('tada').addClass('infinite pulse');
+  },1600);
+
   //Review app
   body.append('<div id="wrap-review" class="lvg_popup tp02" data-popup="disable"><div class="content"><p>' + lang_vn['review_info'] + '</p><p class="ttl">&#9734;&#9734;&#9734;&#9734;&#9734;</p><p><a href="' + app_url + '" class="lvg_popup_link btn-review">' + lang_vn['review'] + '</a><a href="#" class="lvg_popup_link btn-close">' + lang_vn['next_time'] + '</a></p></div></div>');
 
@@ -38,8 +42,7 @@ $(function(){
     $('[data-role="navbar"] a').removeClass('active');
     $(this).addClass('active');
     $('[id*="hero-tab0"]').hide();
-    $(a_href).stop().fadeIn(600);
-    $('html, body').animate({ scrollTop: $('#hero-page').offset().top }, 1);
+    $(a_href).stop().fadeIn(300);
   });
 
   //Open page
@@ -47,7 +50,7 @@ $(function(){
   $(this).on('click','a[class*="ui-btn"]',function(e){
     e.preventDefault();
     $('[data-role="page"]').removeClass('active');
-    $('.lvg_change_page').show().stop().fadeOut(400);
+//    $('.lvg_change_page').show().stop().fadeOut(300);
     var data_page = $(this).attr('href');
     $(data_page).addClass('active');
   });
