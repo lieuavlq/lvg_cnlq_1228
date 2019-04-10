@@ -32,31 +32,31 @@ var app = {
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        StatusBar.hide();
+        // StatusBar.hide();
 
-        var admobid = {};
-        admobid = {
-            banner: 'ca-app-pub-1308924557880612/1873635551',
-            interstitial: 'ca-app-pub-1308924557880612/8909569777',
-        };
+        // var admobid = {};
+        // admobid = {
+        //     banner: 'ca-app-pub-1308924557880612/1873635551',
+        //     interstitial: 'ca-app-pub-1308924557880612/8909569777',
+        // };
 
-        admob.banner.config({
-            id: admobid.banner,
-            autoShow: true,
-            isTesting: false,
-        });
-        admob.banner.prepare();
+        // admob.banner.config({
+        //     id: admobid.banner,
+        //     autoShow: true,
+        //     isTesting: false,
+        // });
+        // admob.banner.prepare();
 
-        admob.interstitial.config({
-            id: admobid.interstitial,
-            autoShow: false,
-            isTesting: false,
-        });
-        admob.interstitial.prepare();
+        // admob.interstitial.config({
+        //     id: admobid.interstitial,
+        //     autoShow: false,
+        //     isTesting: false,
+        // });
+        // admob.interstitial.prepare();
 
         $('document').ready(function(){
 
-            var connectVal = checkConnection();
+            // var connectVal = checkConnection();
             var storage = window.localStorage;
 
             var wrapCountdown = $('#wrap-countdown');
@@ -97,9 +97,9 @@ var app = {
                 if($(this).hasClass('no_ads')){
                     wrapVideoPopup.find('.close').addClass('btn_no_ads');
                 }
-                if(connectVal!=0){
-                    wrapVideoPopup.append('<iframe id="video-iframe" src="' + videoDm + idvideo + videoRef + '" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>').show();
-                }
+                // if(connectVal!=0){
+                //     wrapVideoPopup.append('<iframe id="video-iframe" src="' + videoDm + idvideo + videoRef + '" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>').show();
+                // }
             });
 
             wrapVideoPopup.find('.close').click(function(){
@@ -117,10 +117,7 @@ var app = {
 
             var appVersion = $('body').attr('data-appversion');
             $.ajax({
-                cache: false,
-                type: "GET",
                 url: "http://lvgames.net/lvgversion/lvg_camnanglienquan.json",
-                async: false,
                 success : function(val)
                 {
                     if(val.version_code > appVersion){
@@ -157,7 +154,6 @@ var app = {
             function getNewsAjax(pageNum,handleData){
                 $.ajax({
                     url: "http://lvgames.net/lqm/lqmnews/page/" + pageNum + "/",
-                    type: 'GET',
                     success: function (result) {
                         data = $.parseJSON(result);
                         handleData(data);
@@ -244,35 +240,9 @@ var app = {
             });
 
             /* Check internet exists */
-            if(connectVal!=1){
-                $('.notify_wifi_text').text(commonLang['connect_wifi']).addClass('active');
-            }
-
-            function check_minutes(minutes){
-                var mn;
-                if(minutes < 10){
-                    mn = "0" + minutes;
-                }else{
-                    mn = minutes;
-                }
-                return mn;
-            }
-
-            function change_alias(alias) {
-                var str = alias;
-                str = str.toLowerCase();
-                str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g,"a"); 
-                str = str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g,"e"); 
-                str = str.replace(/ì|í|ị|ỉ|ĩ/g,"i"); 
-                str = str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g,"o"); 
-                str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g,"u"); 
-                str = str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g,"y"); 
-                str = str.replace(/đ/g,"d");
-                str = str.replace(/!|@|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\;|\'|\"|\&|\#|\[|\]|~|\$|_|`|-|{|}|\||\\/g," ");
-                str = str.replace(/ + /g," ");
-                str = str.trim(); 
-                return str;
-            }
+            // if(connectVal!=1){
+            //     $('.notify_wifi_text').text(commonLang['connect_wifi']).addClass('active');
+            // }
 
         });
 

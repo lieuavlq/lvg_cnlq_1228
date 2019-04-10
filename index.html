@@ -29,14 +29,14 @@
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
         <meta charset="UTF-8">
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com https://www.youtube.com http://lvgames.net https://www.googleapis.com https://googleads.g.doubleclick.net 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' https://lienquan.garena.vn https://www.youtube.com https://m.youtube.com https://i.ytimg.com http://lvgames.net https://www.googleapis.com data: content:;">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com https://www.youtube.com http://lvgames.net https://www.googleapis.com https://googleads.g.doubleclick.net 'unsafe-inline' 'unsafe-eval'; style-src 'self' http://lvgames.net 'unsafe-inline'; media-src *; img-src 'self' https://lienquan.garena.vn https://www.youtube.com https://m.youtube.com https://i.ytimg.com http://lvgames.net https://www.googleapis.com data: content:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" href="shared/css/jquery.mobile-1.4.5.min.css">
         <link rel="stylesheet" href="shared/css/slick.css">
         <link rel="stylesheet" href="shared/css/main.css">
-        <title>Cẩm Nang Liên Quân</title>
+        <title>Hướng dẫn chơi game</title>
     </head>
     <body id="deviceready" data-appversion="10007">
         <div id="wrap-countdown"></div>
@@ -44,13 +44,13 @@
         <span id="click_refresh_video_page"></span>
         <!-- Start of first page: #main -->
         <div data-role="page" id="main">
-            <div data-role="header" class="page-head">
+            <div data-role="header" class="page-head block-fixed">
                 <a href="#main-menu" class="ui-btn-left ico-star">Menu</a>
-                <h1>Cẩm Nang Liên Quân</h1>
+                <h1>Hướng dẫn chơi game</h1>
                 <a href="#news-panel" class="ui-btn-right ico-news">News</a>
             </div>
             <div role="main" class="ui-content lvg_select">
-                <div class="filter-wrap">
+                <div class="filter-wrap block-fixed tp02">
                     <div class="col"><form class="ui-filterable"><input id="rich-autocomplete-input" data-type="search" placeholder="Tìm kiếm..."></form></div>
                     <div class="col"><select data-mini="true" class="lvg_class"></select></div>
                 </div>
@@ -65,13 +65,13 @@
         <div data-role="page" id="hero-page">
             <div class="hero-bg"></div>
             <div class="transi-page"></div>
-            <div data-role="header" class="page-head">
+            <div data-role="header" class="page-head block-fixed">
                 <a href="#main" class="ui-btn-left ico-back">Back</a>
                 <h1>Hero Name</h1>
                 <a href="#news-panel" class="ui-btn-right ico-news">News</a>
             </div>
             <div data-role="tabs" class="lvg_tabs">
-                <div data-role="navbar">
+                <div data-role="navbar" class="block-fixed tp02">
                     <ul>
                         <li><a href="#hero-page-info" class="ui-btn info-tab">Hero Info</a></li>
                         <li><a href="#hero-page-skin" class="ui-btn skin-tab">Hero Skin</a></li>
@@ -84,7 +84,7 @@
 
         <!-- Start page: #news-page -->
         <div data-role="page" id="news-page">
-            <div data-role="header" class="page-head">
+            <div data-role="header" class="page-head block-fixed">
                 <a href="#main" class="ui-btn-left ico-back">Back</a>
                 <h1>Tin Tức Nóng Hỏi</h1>
                 <a href="#news-panel" class="ui-btn-right ico-news">News</a>
@@ -99,13 +99,13 @@
 
         <!-- Start page: #items_page -->
         <div data-role="page" id="items_page">
-            <div data-role="header" class="page-head">
+            <div data-role="header" class="page-head block-fixed">
                 <a href="#main" class="ui-btn-left ico-back">Back</a>
                 <h1>Trang Bị Chinh Chiến</h1>
                 <a href="#news-panel" class="ui-btn-right ico-news">News</a>
             </div>
             <div role="main" class="ui-content">
-                <div class="filter-wrap">
+                <div class="filter-wrap block-fixed tp02">
                     <form class="ui-filterable"><input id="items_page_search" data-type="search" placeholder="Tìm kiếm trang bị..."></form>
                 </div>
                 <p class="txt-small clr-orange">*Dưới đây là danh sách một số trang bị hay dùng!! (không đầy đủ như trong game âu!!)</p>
@@ -115,13 +115,13 @@
 
         <!-- Start page: #spells_page -->
         <div data-role="page" id="spells_page">
-            <div data-role="header" class="page-head">
+            <div data-role="header" class="page-head block-fixed">
                 <a href="#main" class="ui-btn-left ico-back">Back</a>
                 <h1>Phép Bổ Trợ</h1>
                 <a href="#news-panel" class="ui-btn-right ico-news">News</a>
             </div>
             <div role="main" class="ui-content">
-                <div class="filter-wrap">
+                <div class="filter-wrap block-fixed tp02">
                     <form class="ui-filterable"><input id="spells_page_search" data-type="search" placeholder="Tìm kiếm phép bổ trợ..."></form>
                 </div>
                 <div data-role="listview" data-filter="true" data-inset="true" data-input="#spells_page_search" class="ui-grid-c lvg_skills_sp lvg_spell_all"></div>
@@ -133,7 +133,6 @@
             <div class="ui-panel-inner items-brd-light">
                 <h3>Khu Giải Trí Tổng Hợp</h3>
                 <p><a href="#news-page" class="btn-news-get"><img src="shared/img/common/kenhtintuc.jpg" alt=""></a></p>
-                <p><a href="" target="_blank" class="btn-caudo-link"><img src="shared/img/common/thuthachcaudolq.jpg" alt=""></a></p>
                 <p class="shop_noactive"><img src="shared/img/common/shop.jpg" alt="" class="img_noactive"></p>
                 <p class="shop_active"><a href="" target="_blank" class="btn-shop-link"><img src="shared/img/common/shop_active.jpg" alt=""></a></p>
                 <p>&nbsp;</p>
@@ -150,14 +149,14 @@
         <!-- Start all spells -->
         <div class="popup-wrap spells-wrap"></div>
 
-        <script type="text/javascript" src="cordova.js"></script>
+        <!-- <script type="text/javascript" src="cordova.js"></script> -->
         <script type="text/javascript" src="shared/js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="shared/js/jquery.mobile-1.4.5.min.js"></script>
         <script type="text/javascript" src="shared/js/slick.min.js"></script>
         <script type="text/javascript" src="shared/js/common_object.js"></script>
         <script type="text/javascript" src="shared/js/string_common_vn.js"></script>
         <script type="text/javascript" src="shared/js/build.js"></script>
         <script type="text/javascript" src="shared/js/main.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>

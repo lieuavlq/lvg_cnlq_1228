@@ -1,12 +1,17 @@
 @charset "utf-8";
+@font-face {
+font-family: 'Roboto';
+src: url('../font/robotoregular.ttf') format('truetype');
+}
 body, input, select, textarea, button, .ui-btn {
-font-family: Tahoma, Geneva, sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 body,
 .lvg-news-popup {
 background: #000 url(../img/common/bg.jpg) no-repeat center top;
 background-size: auto;
 background-attachment: fixed;
+line-height: 22px;
 }
 img {
 max-width: 100%;
@@ -38,12 +43,15 @@ text-shadow: none;
 .lvg_select .ui-page-theme-a .ui-btn:active,
 .lvg_select .ui-page-theme-a .ui-btn:hover {
 border-radius: 0;
-border: 2px solid #ae903b;
+border: 1px solid #ae903b;
 background-color: #000;
 color: #fff;
 text-shadow: none;
 text-transform: uppercase;
 letter-spacing: .5px;
+}
+.lvg_select .ui-select .ui-btn {
+border-left: none;
 }
 .lvg_select.lvg_filter_news .ui-select {
 margin: 0 0 20px;
@@ -68,11 +76,11 @@ text-indent: -9999px;
 position: relative;
 }
 .lvg_skills > div .skill:after {
-content: 'S1';
-width: 15px;
-height: 15px;
-font-size: 11px;
-line-height: 14px;
+content: 'C1';
+width: 16px;
+height: 16px;
+font-size: 10px;
+line-height: 16px;
 text-align: center;
 border-radius: 50%;
 position: absolute;
@@ -90,6 +98,9 @@ display: none;
 .lvg_skills > div:first-child .skill {
 background-size: 75%;
 }
+.lvg_skills.combo {
+  text-align: center;
+}
 .lvg_skills.combo > div {
 width: 34px;
 display: inline-block;
@@ -100,7 +111,7 @@ margin-right: 24px;
 content: '>';
 position: absolute;
 top: 50%;
-right: -20px;
+right: -15px;
 margin: auto;
 -webkit-transform: translateY(-50%);
 transform: translateY(-50%);
@@ -126,7 +137,7 @@ position: relative;
 line-height: 24px;
 }
 .lvg_incskill div:before {
-content: 'S1';
+content: 'C1';
 position: absolute;
 left: -20px;
 top: 0;
@@ -139,11 +150,11 @@ background-color: #FF8C00;
 }
 .lvg_incskill div:first-child + div:before,
 .lvg_skills > div:first-child + div + div .skill:after {
-content: 'S2';
+content: 'C2';
 }
 .lvg_incskill div:first-child + div + div:before,
 .lvg_skills > div:first-child + div + div + div .skill:after {
-content: 'S3';
+content: 'C3';
 }
 .lvg_incskill span {
 display: inline-block;
@@ -162,10 +173,11 @@ color: #000;
 }
 .lvg_runes p {
 font-size: 11px;
+line-height: 18px;
 }
 .price {
 padding-left: 28px;
-background: url(../img/common/gold.png) no-repeat left center;
+background: url(../img/common/gold.png) no-repeat left 0;
 background-size: 20px;
 }
 .price.inline {
@@ -184,6 +196,7 @@ border-color: #ead99f;
 }
 .note {
 font-size: 12px;
+line-height: 18px;
 }
 .lvg_slider img {
 max-width: 100%;
@@ -253,6 +266,14 @@ letter-spacing: 1px;
 #hero-page .ui-header .ui-title {
 background: none;
 color: #fff;
+line-height: 18px;
+padding: 4px 0;
+}
+#hero-page .ui-header .ui-title span {
+display: block;
+font-size: 60%;
+text-transform: uppercase;
+line-height: 16px;
 }
 #hero-page.ui-page-theme-a .ui-bar-inherit {
 background-color: transparent;
@@ -474,18 +495,18 @@ letter-spacing: .2px;
 }
 .filter-wrap {
 overflow: hidden;
-margin: 0 -.3125em;
+padding: 10px;
+box-sizing: border-box;
+margin-top: 2px;
 }
 .filter-wrap .col {
 float: left;
-padding: 0 .3125em;
 box-sizing: border-box;
-}
-.filter-wrap .col:first-child {
-width: 92%;
+width: calc(100% - 42px);
 }
 .filter-wrap .col:last-child {
-width: 8%;
+width: 42px;
+float: right;
 text-align: center;
 overflow: hidden;
 }
@@ -504,7 +525,7 @@ padding: 0;
 .filter-wrap .ui-input-search {
 border-radius: 0;
 box-shadow: none;
-border-width: 2px;
+border-width: 1px;
 border-color: #ae903b;
 background-color: #000;
 text-shadow: none;
@@ -544,7 +565,7 @@ background-size: 100% 100%;
 border: 1px solid #a08945;
 }
 .cnt-story {
-max-height: 120px;
+max-height: 130px;
 overflow: hidden;
 }
 .btn-read-more {
@@ -856,6 +877,7 @@ line-height: 34px;
 }
 .wrap_btn a.txt-small {
 font-size: 75%;
+color: #fff;
 }
 .ui-mobile .items-brd-light img {
 display: block;
@@ -877,6 +899,45 @@ text-decoration: underline;
 }
 .lvg_skills.combo > div .skill[href*="Skill0"] {
 background-size: 95%;
+}
+.block-fixed {
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 100;
+background-color: rgba(0,0,0,.7) !important;
+}
+.block-fixed.tp02 {
+top: 45px;
+}
+#hero-page-info,
+#hero-page-skin,
+[data-role="page"] .ui-content {
+padding-top: 90px;
+}
+#news-page[data-role="page"] .ui-content {
+padding-top: 60px;
+}
+#hero-page-info h3 {
+padding-left: 30px;
+background: url(../img/common/ico_war.png) no-repeat 0 -3px;
+background-size: 28px;
+}
+#hero-page-info[data-class*="tank"] h3 {
+background-image: url(../img/common/ico_tank.png);
+}
+#hero-page-info[data-class*="assassin"] h3 {
+background-image: url(../img/common/ico_assa.png);
+}
+#hero-page-info[data-class*="mage"] h3 {
+background-image: url(../img/common/ico_mage.png);
+}
+#hero-page-info[data-class*="marksman"] h3 {
+background-image: url(../img/common/ico_mark.png);
+}
+#hero-page-info[data-class*="support"] h3 {
+background-image: url(../img/common/ico_sp.png);
 }
 
 @media screen and (max-width: 1024px){
@@ -975,12 +1036,6 @@ height: 140px;
 .lvg_champs .new:after {
 width: 160px;
 }
-.filter-wrap .col:first-child {
-width: 90.5%;
-}
-.filter-wrap .col:last-child {
-width: 9.5%;
-}
 }
 
 @media screen and (max-width: 480px){
@@ -1001,12 +1056,6 @@ height: 120px;
 .lvg_champs .free:after,
 .lvg_champs .new:after {
 width: 140px;
-}
-.filter-wrap .col:first-child {
-width: 89%;
-}
-.filter-wrap .col:last-child {
-width: 11%;
 }
 }
 
@@ -1033,12 +1082,6 @@ height: 98px;
 .lvg_champs .new:after {
 width: 121px;
 }
-.filter-wrap .col:first-child {
-width: 88%;
-}
-.filter-wrap .col:last-child {
-width: 12%;
-}
 }
 
 @media screen and (max-width: 375px){
@@ -1060,12 +1103,6 @@ height: 82px;
 .lvg_champs .new:after {
 width: 104px;
 }
-.filter-wrap .col:first-child {
-width: 86%;
-}
-.filter-wrap .col:last-child {
-width: 14%;
-}
 }
 
 @media screen and (max-width: 320px){
@@ -1086,12 +1123,6 @@ height: 62px;
 .lvg_champs .free:after,
 .lvg_champs .new:after {
 width: 86px;
-}
-.filter-wrap .col:first-child {
-width: 84%;
-}
-.filter-wrap .col:last-child {
-width: 16%;
 }
 }
 

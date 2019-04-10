@@ -12,7 +12,7 @@ $('document').ready(function(){
   var videoPath = hostLink + 'video/?champ=';
   var mailContact = 'lvgames.net@gmail.com';
   var fbContact = 'https://www.facebook.com/LVGamesDotNet';
-  var fbName = '@LVGamesDotNet';
+  var fbName = 'Góp ý trên FB';
   var commonLang = string_common_vn;
   var heroObj = infoHeros;
   var getVideoId = common_object['all_video'];
@@ -35,7 +35,7 @@ $('document').ready(function(){
   mainPage.find('select.lvg_class').append('<option value="all">' + commonLang['all_hero'] + ' (' + countHero + ')</option><option value="free">Miễn phí</option><option value="warrior">' + commonLang['warr_hero'] + '</option><option value="tank">' + commonLang['tank_hero'] + '</option><option value="assassin">' + commonLang['assa_hero'] + '</option><option value="mage">' + commonLang['mage_hero'] + '</option><option value="marksman">' + commonLang['mark_hero'] + '</option><option value="support">' + commonLang['supo_hero'] + '</option>');
   mainPage.find('span.lvg_class').text(commonLang['all_hero'] + ' (' + countHero + ')');
 
-  mainPage.find('.ui-panel-inner').append('<h3>' + commonLang['app_name'] + '</h3><p>' + commonLang['thanks_for'] + '</p><p><a href="mailto:' + mailContact + '" class="btn-sys">' + commonLang['btn_mail'] + '</a></p><p><a href="' + fbContact + '" class="btn-sys">' + fbName + '</a></p><p>' + commonLang['mail_status'] + '</p><p><a href="' + marketLink + '" rel="external" class="btn-sys">' + commonLang['review'] + '</a></p><p>' + commonLang['aov_download'] + '</p><p><a href="https://play.google.com/store/apps/details?id=com.garena.game.kgvn" rel="external" class="btn-sys">Tại đây</a></p><a href="#" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-inline close-panel">' + commonLang['btn_close'] + '</a>');
+  mainPage.find('.ui-panel-inner').append('<h3>' + commonLang['app_name'] + '</h3><p>' + commonLang['thanks_for'] + '</p><p><a href="mailto:' + mailContact + '" class="btn-sys">' + commonLang['btn_mail'] + '</a></p><p><a href="' + fbContact + '" class="btn-sys">' + fbName + '</a></p><p>' + commonLang['mail_status'] + '</p><p><a href="' + marketLink + '" rel="external" class="btn-sys">' + commonLang['review'] + '</a></p><a href="#" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-inline close-panel">' + commonLang['btn_close'] + '</a>');
   mainPage.find('.close-panel').click(function() {
     $(this).parents('.ui-panel').panel( "close" );
   });
@@ -69,14 +69,17 @@ $('document').ready(function(){
     var dataHref = $(this).attr('href');
     var transiPage = $('.transi-page');
     transiPage.show();
-    add_hero_page(dataPage);
+    var champs_class_data = $(this).parent().attr('data-class');
+    console.log(champs_class_data)
+    if(typeof champs_class_data === 'undefined') champs_class_data = $(this).parent().attr('class');
+    add_hero_page(dataPage, champs_class_data);
     transiPage.fadeOut(800);
     $('#hero-page').trigger('create');
     $.mobile.changePage(dataHref, { allowSamePageTransition: true, transition: "none" });
   });
 
   /* Start Add hero */
-  function add_hero_page(idhero){
+  function add_hero_page(idhero,class_n){
     var hero = heroObj[idhero];
     var heroId = hero.hero_id;
     var heroName = hero.hero_name;
@@ -90,10 +93,13 @@ $('document').ready(function(){
     heroSelector.find('.skin-tab').text(commonLang['btn_skin']);
 
     idInfo.html('');
+    idInfo.attr('data-class', '');
     idSkin.html('');
     heroSelector.find('.info-tab').click();
     heroSelector.find('.hero-bg').css({'background-image': 'none'});
-    heroSelector.find('h1').text(heroName);
+    heroSelector.find('h1').text(heroName).append('<span>'+mainInfo.position+'</span>');
+
+    idInfo.attr('data-class', class_n);
 
     /* Hero bg */
     heroSelector.find('.hero-bg').css({'background-image': 'url('+ imgShared +'champs/' + heroId + '/thumb' + getRandom(hero.hero_skin.length) + '.jpg)'});
@@ -203,7 +209,7 @@ $('document').ready(function(){
       var txtHero = '', iup = 1;
       var heroBattleInfo = heroBattle[i].info;
       for(j=0; j<heroBattleInfo.length; j++){
-        txtHero += '<div class="ui-block-' + getBlockChar(iup) + '"><a href="#hero-page" class="ui-btn hero-tap btn_show_ads" data-page="' + heroBattleInfo[j].hero_id + '" style="background-image: url('+ imgShared + 'champs/' + heroBattleInfo[j].id_page +'/avat1.jpg)"></a></div>';
+        txtHero += '<div class="ui-block-' + getBlockChar(iup) + '" data-class="'+get_champs_class(heroBattleInfo[j].hero_id)+'"><a href="#hero-page" class="ui-btn hero-tap btn_show_ads" data-page="' + heroBattleInfo[j].hero_id + '" style="background-image: url('+ imgShared + 'champs/' + heroBattleInfo[j].id_page +'/avat1.jpg)"></a></div>';
         iup = checkGridB(iup);
       }
       idInfo.append('<h3>' + heroName + ' ' + heroBattle[i].name + '</h3><p class="note">*' + heroName + ' ' + heroBattle[i].desc + '</p><div class="ui-grid-b lvg_champs">' + txtHero + '</div>');
@@ -233,12 +239,17 @@ $('document').ready(function(){
       });
       lvgSlider.append('<a href="' + wallPath + heroSkin[i].wall + '" class="ui-btn lvg_walls"><span>' + commonLang['wall_download'] + '</span></a>');
       checkShow(heroSkin[i].wall, function(){
-        lvgSlider.append('<div class="thumb-wrap"><img src="' + imgShared + 'champs/' + heroId + '/' + heroSkin[i].img + '" alt=""><a href="#" class="vd btn-ifvideo section_none" data-videoid="' + getVideoId[heroSkin[i].wall] + '"></a></div>');
+        lvgSlider.append('<div class="thumb-wrap"><img src="' + imgShared + 'champs/' + heroId + '/' + heroSkin[i].img + '" alt=""></div>');
       });
     }
     lvgSliderWrap.slick(argsSlider);
   }
   /* End Add hero */
+
+  //get champs class
+  function get_champs_class(str) {
+    return $('#main .lvg_champs > .' + str).attr('class');
+  }
 
   /* Start function --------------- */
   function getRandom(num) {
@@ -386,6 +397,11 @@ $('document').ready(function(){
     }
     storage.setItem('lvgnewsid', strNewsID);
     $(this).text(commonLang['liked']).css({'pointer-events': 'none'});
+  });
+
+  /*Tab click*/
+  $('[href*="#hero-page-"]').click(function(){
+    $('html, body').animate({scrollTop: $('#hero-page').offset().top},1);
   });
 
   /* News panel */
